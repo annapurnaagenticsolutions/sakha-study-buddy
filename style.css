@@ -300,6 +300,8 @@ header {
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
+    width: 90%;
+    max-width: 650px;
     color: white;
     z-index: 20;
     text-align: center;
@@ -331,10 +333,34 @@ header {
     font-family: var(--font-heading);
     font-size: 13px;
     background: rgba(0,0,0,0.6);
-    padding: 2px 6px;
-    border-radius: 4px;
+    padding: 3px 8px;
+    border-radius: 6px;
     pointer-events: none;
     white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.unlocked-label {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 10px 16px;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.subject-tag {
+    font-size: 11px;
+    color: #b0bec5;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 4px;
+}
+
+.title-tag {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
 }
 
 #galaxyFilters {

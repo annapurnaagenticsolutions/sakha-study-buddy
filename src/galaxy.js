@@ -62,10 +62,17 @@ export async function initGalaxy(containerId, onNodeClick) {
 
         // Add Label
         const label = document.createElement('div');
-        label.className = 'concept-label';
-        label.textContent = c.title;
+        if (c.unlocked) {
+            label.className = 'concept-label unlocked-label';
+            label.innerHTML = `<div class="subject-tag">${c.subject || 'Subject'}</div><div class="title-tag">${c.title}</div>`;
+            label.style.borderColor = '#' + color.toString(16).padStart(6, '0');
+        } else {
+            label.className = 'concept-label';
+            label.textContent = c.title;
+        }
+        
         const labelObj = new CSS2DObject(label);
-        labelObj.position.set(0, 2.5, 0);
+        labelObj.position.set(0, 3.5, 0); // Moved slightly higher so it doesn't overlap the sphere as much
         sphere.add(labelObj);
 
         // Add lines connecting them (Skill Tree logic)
