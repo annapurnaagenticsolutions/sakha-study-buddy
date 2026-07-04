@@ -1,0 +1,206 @@
+{
+  "concept_id": "physics_force",
+  "title": "Force",
+  "icon": "⚡",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "motion",
+    "speed",
+    "direction"
+  ],
+  "intro_hook": "A ball is rolling on the ground. After some time it slows down and stops. Why does it stop?",
+  "big_idea": "Force is a push or pull that can change motion or shape. It reveals many intuitive misconceptions.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Force is a push or pull interaction.",
+    "process": "A force can start, stop, speed up, slow down, turn, or deform an object. Use arrows to show direction and relative strength of forces.",
+    "result": "Kicking a ball, braking a bicycle, friction, gravity, Newton's laws."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Force is a push or pull interaction.",
+    "Visual: Use arrows to show direction and relative strength of forces.",
+    "Formal: Force is an interaction that can change the state of motion or shape of an object.",
+    "Application: Kicking a ball, braking a bicycle, friction, gravity, Newton's laws."
+  ],
+  "indian_analogies": [
+    "A ball rolls longer on smooth floor than rough ground because rough ground gives more friction.",
+    "Ball rukti hai kyunki ground aur ball ke beech friction motion ke opposite direction mein act karta hai."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_physics_force_01",
+      "belief": "force is needed to keep motion going",
+      "why_common": "I thought force gets stored in the object and runs out.",
+      "probe": "A rolling ball slows down and stops. Why does it stop?",
+      "repair": "Use a toy car after the hand leaves it. Separate “motion already present” from “force currently acting,” then introduce friction as the stopping force.",
+      "repair_visual": "Push a toy car, then remove the hand; discuss friction as the opposing force.",
+      "follow_up": "Why does a ball stop faster on rough ground than on smooth ice?",
+      "teacher_prompt": "Use counterexamples to separate motion from force.",
+      "mastery_signal": "Learner can explain why “force is needed to keep motion going” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: force is needed",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_force_02",
+      "belief": "force gets stored inside moving objects",
+      "why_common": "Students think moving objects carry the force with them like fuel.",
+      "probe": "When you throw a ball, is the force of your hand still pushing it while it's in the air?",
+      "repair": "Explain that force is an interaction. Once the hand loses contact, the pushing force is gone. Inertia keeps it moving.",
+      "repair_visual": "Show a video of a thrown ball. Point out the exact moment the hand stops touching the ball.",
+      "follow_up": "If I kick a football, what keeps it moving after my foot is no longer touching it?",
+      "teacher_prompt": "Help the student separate the 'push/pull' action from the ongoing motion (inertia).",
+      "mastery_signal": "Learner can explain that an object in motion does not 'store' the force that started it.",
+      "trigger_words": [
+        "force andar reh gaya",
+        "force store ho gaya",
+        "uske andar force hai",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_force_03",
+      "belief": "no motion means no force",
+      "why_common": "Students don't realize forces can cancel each other out.",
+      "probe": "If you push a heavy wall and it doesn't move, are you applying a force?",
+      "repair": "Introduce balanced forces. The wall pushes back just as hard, so the net force is zero and there is no motion, but forces are still present.",
+      "repair_visual": "Draw two arrows of equal length pushing against each other.",
+      "follow_up": "If a book is resting on a table and not moving, are there any forces acting on it?",
+      "teacher_prompt": "Ensure students distinguish between 'net force' and 'individual forces'.",
+      "mastery_signal": "Learner can identify that forces exist even when objects are completely still (balanced forces).",
+      "trigger_words": [
+        "move nahi kar raha toh force nahi",
+        "no motion no force",
+        "ruka hai matlab force zero",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "A ball is rolling on the ground. After some time it slows down and stops. Why does it stop?",
+      "a": "Is ball ko rukne ke liye ek force kaam karta hai, jise hum friction ya ghaarkan kehte hain, jo zameen aur ball ke beech kaam karta hai. Yah force ball ki gati ko kam karta hai aur use rukne par majboor karta hai. Isliye, ball dheere-dheere ruk jata hai."
+    },
+    {
+      "type": "probe",
+      "q": "After you push the ball and leave it, is your hand still touching it?",
+      "a": "Nahin, jab hum ball ko dhakka dete hain aur use chhod dete hain, to hamara haath usse chhu nahi raha hota, isliye hamara haath ab usse touch nahi kar raha hota. Iske baad ball apne aap chalta rahta hai."
+    },
+    {
+      "type": "probe",
+      "q": "If your hand is not touching it, is your hand still applying force?"
+    },
+    {
+      "type": "probe",
+      "q": "Which force between the ball and ground acts opposite to motion?"
+    },
+    {
+      "type": "application",
+      "q": "If the same ball rolls on smooth ice, will it stop faster or slower than on rough ground? Why?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Explain why force is not something stored inside a moving ball.",
+      "a": "Force ek prakaar ki urja hai jo kisi vastu par baahri taur par lagti hai, isliye yeh moving ball ke andar nahin hai, balki yeh uske gati ko badalne ke liye baahri roop se lagti hai. Jab hum ball ko dhakte hain to hum uspar force lagate hain, lekin jab ball move ho raha hota hai to usmein force nahin"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "A rolling ball slows down and stops. Why does it stop?",
+      "hint": "Force is a push or pull interaction.",
+      "answer": "Friction acts opposite to motion and slows the ball. Force is not stored inside the ball."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "If the same ball rolls on smooth ice, will it stop faster or slower than on rough ground? Why?",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires identifying friction, rejecting stored-force thinking, and applying the idea to a changed surface."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "The ball stops because friction from the ground acts opposite to its motion and slows it down.",
+    "visual": "Draw the ball moving forward. Now draw a friction arrow backward along the ground. That backward force reduces the ball’s motion.",
+    "real_life": "A ball rolls longer on smooth floor than rough ground because rough ground gives more friction.",
+    "formal": "Friction is a contact force that opposes relative motion or the tendency of relative motion between surfaces in contact.",
+    "socratic": "If your hand is no longer touching the ball, what force can still act on it? What changes on rough ground compared with smooth floor?",
+    "mistake_analysis": "The mistake is thinking force is stored in the moving object and gets used up. Instead, motion continues for some time, and friction gradually reduces it.",
+    "hinglish": "Ball rukti hai kyunki ground aur ball ke beech friction motion ke opposite direction mein act karta hai.",
+    "challenge": "If the same ball rolls on very smooth ice, will it stop faster or slower? Explain using friction.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Force is a push or pull interaction.",
+    "standard": "A force can start, stop, speed up, slow down, turn, or deform an object.",
+    "advanced": "Force is an interaction that can change the state of motion or shape of an object.",
+    "fast_learner": "If the same ball rolls on very smooth ice, will it stop faster or slower? Explain using friction."
+  },
+  "subject_lenses": {
+    "Physics": "Kicking a ball, braking a bicycle, friction, gravity, Newton's laws."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Force ka use real life mein: Kicking a ball, braking a bicycle, friction, gravity, Newton's laws.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj force ka ek real-life example dhundo.",
+    "A ball rolls longer on smooth floor than rough ground because rough ground gives more friction."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer from the 5th century, described the concept of gravity and its effects on objects. His work on the forces that govern the motion of celestial bodies demonstrates an understanding of forces and their impact on motion, which is a fundamental aspect of the concept of force in physics.",
+    "story_hook": "Imagine you are Aryabhata, living in ancient India, trying to understand why things move and fall, and you stumble upon the idea that an unseen force is at play. As you explore this mystery, you begin to unravel the secrets of the universe, just like Aryabhata did, and discover the fascinating world of forces that shape our daily lives.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Force",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "A ball rolls longer on smooth floor than rough ground because rough ground gives more friction."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-physics_force",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires identifying friction, rejecting stored-force thinking, and applying the idea to a changed surface.",
+  "session_type": "science",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_force_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

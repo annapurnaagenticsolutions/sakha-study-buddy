@@ -1,0 +1,230 @@
+{
+  "concept_id": "handwashing-soap-germs",
+  "title": "Washing Hands With Soap",
+  "icon": "🧼",
+  "class_band": [
+    1,
+    2,
+    3
+  ],
+  "subjects": [
+    "Biology",
+    "Chemistry",
+    "Physics",
+    "Math"
+  ],
+  "place": "Home + Health",
+  "level": "Foundation",
+  "prerequisites": [],
+  "intro_hook": "Why does soap help clean dirty hands better than water alone?",
+  "big_idea": "Handwashing connects hygiene, tiny living organisms, soap chemistry, rubbing motion, and counting time.",
+  "story": "After playing outside, hands may carry dirt and germs. Soap loosens oily dirt, rubbing spreads soap everywhere, and water carries dirt away.",
+  "cause_process_result": {
+    "cause": "Dirt, oil, and microbes stick to skin",
+    "process": "Soap loosens them; rubbing reaches surfaces; water rinses away",
+    "result": "Hands become cleaner and infection risk reduces"
+  },
+  "flow": [
+    "Dirty hands",
+    "Soap added",
+    "Rub all sides",
+    "Rinse with water",
+    "Germs reduced"
+  ],
+  "whiteboard": [
+    "Cause: Dirt, oil, and microbes stick to skin",
+    "  -> Soap loosens them; rubbing reaches surfaces; water rinses away",
+    "Result: Hands become cleaner and infection risk reduces"
+  ],
+  "indian_analogies": [
+    "Home + Health mein yeh dekhte hain: Washing Hands With Soap.",
+    "Before eating"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Water alone always removes germs completely. In reality, soap and rubbing make cleaning more effective.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Washing Hands With Soap mein Biology, Chemistry, Physics, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does soap help clean dirty hands better than water alone?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does soap help clean dirty hands better than water alone?",
+      "a": "Soap mein kuch chemicals hote hain jo gande haathon par jamne wale germs aur dirt ko nikalne mein madad karte hain, jisse haath saaf ho jate hain. Yeh chemicals paani ke saath milkar germs ko maarne mein madad karte hain. Isliye, soap paani se zyada accha hota hai haathon ko saaf karne ke liye."
+    },
+    {
+      "type": "probe",
+      "q": "Why do we rub between fingers?",
+      "a": "Hum finger ke beech mein rub karte hain kyunki yahan germs aur dirt aasani se chhip sakte hain, aur soap se rub karne se ye saaf ho jaate hain. Isse humare haath achhe se saaf hote hain aur bimariyon se bachav hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why should nails also be cleaned?",
+      "a": "Nails ko bhi saaf karna chahiye kyunki unmein gandagi aur kitanu aasani se chhip jaate hain, aur yeh gandagi hamaare shareer mein jaakar bimariyon ka kaaran ban sakti hai. Isliye, humein nails ko soap se achhi tarah se dhona chahiye."
+    },
+    {
+      "type": "probe",
+      "q": "Why is handwashing important during illness?",
+      "a": "Handwashing bahut zaroori hai kyunki yeh humare haath ko saaf karta hai aur bimari failane wale germs ko hatata hai. Isse hum apne aap ko aur doosron ko bhi bimari se bacha sakte hain. Yeh ek aasan aur effective tareeka hai swasth rahne ka."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Dirty hands -> Soap added -> Rub all sides — what exactly happens at each step?",
+      "a": "Dirty hands mein kai germs hote hain, phir soap add karna se germs ko hatane mein madad milti hai, aur rub all sides karte waqt soap aur paani se germs ko dhakel kar hataya jata hai. Isse haath saaf ho jate hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Hum sabko apne haath dhona hai soap se, kyunki yeh humein bimariyon se bachata hai, aur hum healthy rehte hain. Humein khana khane se pehle aur toilet jaane ke baad haath dhona hai. Isse humare haath saaf rehte hain aur humare shareer mein koi bimari nahin aati."
+    },
+    {
+      "type": "application",
+      "q": "Which handwashing step is most complete?",
+      "a": "Sabse complete handwashing step hai - pani chalu karna, soap lagaana, dono haathon ko ache se rub karna, khushi aur nails ke beech dhona, aur phir achhe se dhokar sukhaana. Is step mein sab kuch shaamil hai jo saaf haathon ke liye zaroori hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which handwashing step is most complete?",
+      "options": [
+        "Only splash water for 2 seconds",
+        "Use soap and rub all parts of hands",
+        "Wipe hands on clothes",
+        "Wash only fingertips"
+      ],
+      "correct": "Use soap and rub all parts of hands",
+      "hint": "Soap plus rubbing covers palms, backs, between fingers, and nails, which cleans much better than a quick splash.",
+      "answer": "Soap plus rubbing covers palms, backs, between fingers, and nails, which cleans much better than a quick splash."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What if we rinse without soap?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What if we use soap but do not rub between fingers?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What if water is not clean?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Soap helps remove dirt and germs from hands. Rubbing and rinsing are both important.",
+    "standard": "Soap loosens oily dirt and microbes from skin. Rubbing covers more surface area, and running water carries the loosened material away.",
+    "deep": "Handwashing combines chemistry of soap molecules, physics of rubbing and rinsing, biology of microbes, and health decision-making. Time, coverage, soap, and clean water all affect the result.",
+    "hinglish": "Dekh yaar — Washing Hands With Soap mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "After playing outside, hands may carry dirt and germs. Soap loosens oily dirt, rubbing spreads soap everywhere, and water carries dirt away."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does soap help clean dirty hands better than water alone. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more rubbing time.",
+    "class_6_8": "Explain the cause-effect chain: Dirty hands → Soap added → Rub all sides → Rinse with water.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Chemistry, Physics, Math."
+  },
+  "subject_lenses": {
+    "Biology": "Germs can spread through hands; cleaning reduces infection risk.",
+    "Chemistry": "Soap molecules help loosen oily dirt and mix it with water.",
+    "Physics": "Rubbing creates motion and contact; flowing water carries loosened dirt away.",
+    "Math": "Count 20 seconds, compare before/after marks, make a hygiene routine chart."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Washing Hands With Soap ka concept aur jagah bhi kaam karta hai: Before eating, After toilet use, After playing outside.",
+      "related_concepts": [],
+      "career_connection": "Nursing, public health, food safety, microbiology, sanitation design."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj washing hands with soap se related kuch notice karo.",
+    "Why does soap help clean dirty hands better than water alone?",
+    "What if we rinse without soap?"
+  ],
+  "indian_legacy": {
+    "scientist": "Sushruta",
+    "connection": "The ancient Indian medical sage Sushruta is known for his work in Ayurveda, where he emphasized cleanliness and hygiene as essential for health and well-being. His teachings include descriptions of surgical procedures that highlight the importance of hand washing before and after operations, demonstrating a deep understanding of the connection between hand hygiene and preventing the spread of infections, which aligns with the principles of handwashing with soap to remove germs.",
+    "story_hook": "Imagine you are a young apprentice to Sushruta, learning the ancient art of surgery and healing, and you discover that washing your hands with soap is not just a simple act, but a powerful way to protect lives. As you delve deeper into Sushruta's teachings, you uncover the fascinating world where soap chemistry, rubbing motion, and counting time all come together to keep us safe from tiny living organisms.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Washing Hands With Soap",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Rub a little cooking oil and turmeric on a steel spoon. Try cleaning with water only, then with soap and water. Do not use soap near eyes or mouth."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "germs_and_health",
+    "soap_action",
+    "motion_and_water_flow",
+    "counting_time"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-handwashing-soap-germs",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Use soap, cover all hand parts, and spend enough time before eating or handling food.",
+  "career_connections": "Nursing, public health, food safety, microbiology, sanitation design.",
+  "why_matters": "This helps students understand hygiene as a scientific routine, not only a rule from adults.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 3,
+  "learning_track": [
+    "core"
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "concept_id": "physics_motion",
+  "title": "Motion",
+  "icon": "⚡",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "measurement",
+    "time",
+    "distance"
+  ],
+  "intro_hook": "Can a passenger sitting in a moving bus be at rest and in motion at the same time? Explain relative to what.",
+  "big_idea": "Motion describes change in position over time and is the base of mechanics.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Something is in motion if its position changes with time.",
+    "process": "A bus moving away from a stop changes position, so it is in motion. Position dots at equal time gaps along a path.",
+    "result": "Vehicles, sports, astronomy, graphs, speed and acceleration."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Something is in motion if its position changes with time.",
+    "Visual: Position dots at equal time gaps along a path.",
+    "Formal: Motion is described relative to a reference point or frame.",
+    "Application: Vehicles, sports, astronomy, graphs, speed and acceleration."
+  ],
+  "indian_analogies": [
+    "When you sit in a train, your friend beside you looks still, but a person on the platform sees you moving.",
+    "Bus ke andar passenger seat ke respect mein rest mein hai, lekin road ke respect mein motion mein hai."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_physics_motion_01",
+      "belief": "motion is absolute",
+      "why_common": "I thought motion only means moving fast, not changing position over time.",
+      "probe": "Can a passenger be at rest and in motion at the same time? Explain relative to what.",
+      "repair": "Use position markers at different times on a straight path. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use position markers at different times on a straight path.",
+      "follow_up": "Give a changed motion situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Start with position-time observation before formula language.",
+      "mastery_signal": "Learner can explain why “motion is absolute” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: motion is absolute",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_motion_02",
+      "belief": "only fast objects are moving",
+      "why_common": "I thought motion only means moving fast, not changing position over time.",
+      "probe": "Can a passenger be at rest and in motion at the same time? Explain relative to what.",
+      "repair": "Use position markers at different times on a straight path. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use position markers at different times on a straight path.",
+      "follow_up": "Give a changed motion situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Start with position-time observation before formula language.",
+      "mastery_signal": "Learner can explain why “only fast objects are moving” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: only fast objects",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_motion_03",
+      "belief": "rest and motion do not depend on observer",
+      "why_common": "I thought motion only means moving fast, not changing position over time.",
+      "probe": "Can a passenger be at rest and in motion at the same time? Explain relative to what.",
+      "repair": "Use position markers at different times on a straight path. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use position markers at different times on a straight path.",
+      "follow_up": "Give a changed motion situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Start with position-time observation before formula language.",
+      "mastery_signal": "Learner can explain why “rest and motion do not depend on observer” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: rest and motion",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Can a passenger sitting in a moving bus be at rest and in motion at the same time? Explain relative to what.",
+      "a": "Haan, yeh sambhav hai, kyunki bus mein baitha passenger bus ke sandarbh mein to vilamban mein hai, lekin sadak ke sandarbh mein vah gati mein hai. Is prakaar, yeh dono sthitiyan relative motion par nirbhar karti hain. Bus ke andar baitha passenger apne aas-paas ke logon ke sandarbh mein vilamban mein"
+    },
+    {
+      "type": "probe",
+      "q": "Compare the passenger with the bus seat. Does the distance change?"
+    },
+    {
+      "type": "probe",
+      "q": "Now compare the passenger with a tree outside. Does the distance change?"
+    },
+    {
+      "type": "probe",
+      "q": "Rest and motion depend on the chosen reference point."
+    },
+    {
+      "type": "application",
+      "q": "A book lies on a car seat while the car moves. Is the book at rest or in motion? Give two reference frames."
+    },
+    {
+      "type": "teach_back",
+      "q": "Why must we mention a reference point when describing motion?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "Can a passenger be at rest and in motion at the same time? Explain relative to what.",
+      "hint": "Something is in motion if its position changes with time.",
+      "answer": "Yes. The passenger is at rest relative to the bus seat but in motion relative to the road or trees outside."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "A book lies on a car seat while the car moves. Is the book at rest or in motion? Give two reference frames.",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires describing rest/motion relative to at least two reference frames."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Yes. The passenger is at rest relative to the bus because their position does not change inside it, but moving relative to the road because the bus changes position.",
+    "visual": "Draw the passenger, bus seat, and road. The passenger-seat distance stays same; passenger-road position changes.",
+    "real_life": "When you sit in a train, your friend beside you looks still, but a person on the platform sees you moving.",
+    "formal": "Motion is change in position with time relative to a chosen reference frame.",
+    "socratic": "Relative to what? Is the distance from the seat changing? Is the distance from outside objects changing?",
+    "mistake_analysis": "The mistake is asking “is it moving?” without specifying the reference point. Physics needs the comparison object.",
+    "hinglish": "Bus ke andar passenger seat ke respect mein rest mein hai, lekin road ke respect mein motion mein hai.",
+    "challenge": "If Earth rotates, are we at rest while sitting on a chair? Answer using two reference frames.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Something is in motion if its position changes with time.",
+    "standard": "A bus moving away from a stop changes position, so it is in motion.",
+    "advanced": "Motion is described relative to a reference point or frame.",
+    "fast_learner": "If Earth rotates, are we at rest while sitting on a chair? Answer using two reference frames."
+  },
+  "subject_lenses": {
+    "Physics": "Vehicles, sports, astronomy, graphs, speed and acceleration."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Motion ka use real life mein: Vehicles, sports, astronomy, graphs, speed and acceleration.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj motion ka ek real-life example dhundo.",
+    "When you sit in a train, your friend beside you looks still, but a person on the platform sees you moving."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, described the motion of planets and the Earth's rotation in his seminal work, Aryabhatiya. His work on the motion of celestial bodies laid the foundation for later Indian astronomers and mathematicians to build upon, demonstrating the concept of motion as a fundamental aspect of the universe.",
+    "story_hook": "Imagine being an ancient Indian astronomer, gazing up at the night sky and wondering how the stars and planets move across the celestial expanse. Aryabhata's groundbreaking work on motion helped us understand the dance of the planets and the rotation of our own Earth, a discovery that would change the course of Indian astronomy forever.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Motion",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "When you sit in a train, your friend beside you looks still, but a person on the platform sees you moving."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-physics_motion",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires describing rest/motion relative to at least two reference frames.",
+  "session_type": "science",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_physics_motion_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "concept_id": "air-pollution-lungs",
+  "title": "Air Pollution and Lungs",
+  "icon": "🌫️",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Chemistry",
+    "Biology",
+    "Physics",
+    "Math"
+  ],
+  "place": "City + Environment",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "How can smoke, dust, and gases affect breathing and health?",
+  "big_idea": "Air pollution contains gases and particles. Particle size, concentration, exposure time, and body response determine health risk.",
+  "story": "On a polluted day, the air may contain fine particles and gases. The nose filters some particles, but smaller particles can reach deeper parts of the lungs.",
+  "cause_process_result": {
+    "cause": "Smoke, dust, gases, and fine particles in air",
+    "process": "Particles enter airways during breathing and irritate tissues",
+    "result": "Coughing, discomfort, lower lung health, and higher health risk"
+  },
+  "flow": [
+    "Pollution source",
+    "Particles + gases",
+    "Air movement",
+    "Breathing exposure",
+    "Health response"
+  ],
+  "whiteboard": [
+    "Cause: Smoke, dust, gases, and fine particles in air",
+    "  -> Particles enter airways during breathing and irritate tissues",
+    "Result: Coughing, discomfort, lower lung health, and higher health risk"
+  ],
+  "indian_analogies": [
+    "City + Environment mein yeh dekhte hain: Air Pollution and Lungs.",
+    "Traffic areas"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat air pollution and lungs as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Air Pollution and Lungs mein Chemistry, Biology, Physics, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "How can smoke, dust, and gases affect breathing and health?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How can smoke, dust, and gases affect breathing and health?",
+      "a": "Dhuein, dhool, aur gas hamare saans lene aur swasthya par bura asar daal sakte hain, jisse hamare fefde ko nuksaan pahunchta hai. Ye pradushan hamare lungs ko kamzor kar sakta hai aur hume bimariyon ka shikaar banata hai. Isliye humein apne aaspaas ke vatavaran ko saaf rakh"
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?",
+      "a": "Agar air pollution badhta hai toh hamare lungs par bura asar padta hai, jisse saans lene mein dikkat hoti hai aur kai bimariyan ho sakti hain. Isse hamare lungs ki kshamta kam ho sakti hai aur swasthya samasyaein badh sakti hain."
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?",
+      "a": "Science subject humein batati hai ki saans lene ke system aur lungs ka biggest part kya hota hai, jo ki hamaare shareer mein oxygen ko absorb karne aur carbon dioxide ko release karne mein madad karta hai. Ismein biology bhi shaamil hai, jo humein human body ke baare mein aur bataati hai."
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum ghar par ya school mein air pollution ki jaanch ke liye ek simple test kar sakte hain, jisme hum ek jar mein paani aur soap daalkar usmein match stick ya candle jalakar dekhein ki dhuaan kitna door tak phailta hai. Isse hum air pollution ke prabhav ko samajh sakte hain."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Pollution source -> Particles + gases -> Air movement — what exactly happens at each step?",
+      "a": "Pehle pollution source se particles aur gases nikalte hain, phir air movement ke karan ve hawa mein fail jaate hain, aur antim step mein ve hamaare lungs tak pahunch jaate hain. Yeh particles aur gases hamaare lungs ko nuksan pahuncha sakte hain. Isliye humein pollution ko kam karna chahiye."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Hamare lungs hamaare sharir ke bahut mahatvapoorna hissa hain, lekin air pollution ke karan unhe nuksan pahunch sakta hai, isliye humein saaf hawa mein saans lene ki koshish karni chahiye. Hamare lungs oxygen ko absorb karte hain aur carbon dioxide ko bahar nikaalte hain, lekin pollution ke karan yeh process affect ho sakta"
+    },
+    {
+      "type": "application",
+      "q": "Why can very small particles be more concerning?",
+      "a": "Bahut chhote kanaa (very small particles) zyada khatarnaak ho sakte hain kyonki ve saans ke maadhyam se aasaani se fefdon mein pahunch jaate hain aur unhein nikalna mushkil hota hai, jisse swaasthya samasyaein utpann ho sakti hain. Inhein saans ke zariye aasaani se shareer"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why can very small particles be more concerning?",
+      "options": [
+        "They may reach deeper into lungs",
+        "They are always nutritious",
+        "They turn into oxygen",
+        "They are too large to inhale"
+      ],
+      "correct": "They may reach deeper into lungs",
+      "hint": "Fine particles can travel deeper into the respiratory system than larger dust particles.",
+      "answer": "Fine particles can travel deeper into the respiratory system than larger dust particles."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What if traffic is heavy near school?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What if wind direction changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What if a person exercises beside a busy road?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Dirty air can make breathing harder. Smoke and dust should be avoided when possible.",
+    "standard": "Polluted air can contain gases and fine particles. These enter the nose and lungs and may irritate or harm the respiratory system.",
+    "deep": "Air pollution connects atmospheric chemistry, particulate matter, diffusion, breathing rate, lung structure, public health, weather, transport choices, and data interpretation. Exposure depends on concentration, duration, and vulnerability.",
+    "hinglish": "Dekh yaar — Air Pollution and Lungs mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "On a polluted day, the air may contain fine particles and gases. The nose filters some particles, but smaller particles can reach deeper parts of the lungs."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: How can smoke, dust, and gases affect breathing and health. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more pollution level.",
+    "class_6_8": "Explain the cause-effect chain: Pollution source → Particles + gases → Air movement → Breathing exposure.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Chemistry, Biology, Physics, Math."
+  },
+  "subject_lenses": {
+    "Chemistry": "Pollutant gases, smoke composition, reactions in air.",
+    "Biology": "Nose, trachea, lungs, alveoli, inflammation.",
+    "Physics": "Particle movement, airflow, filtration by masks.",
+    "Math": "Read AQI, compare values, interpret charts."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Air Pollution and Lungs ka concept aur jagah bhi kaam karta hai: Traffic areas, Construction sites, Indoor smoke.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj air pollution and lungs se related kuch notice karo.",
+    "How can smoke, dust, and gases affect breathing and health?",
+    "What if traffic is heavy near school?"
+  ],
+  "indian_legacy": {
+    "scientist": "Charaka",
+    "connection": "The concept of Air Pollution and Lungs can be related to the ancient Indian medical text Charaka Samhita, written by Charaka. In this text, Charaka discusses the importance of clean air and its impact on human health, which is still relevant today when considering the effects of air pollution on our lungs.",
+    "story_hook": "Imagine you are a young student living in ancient India, learning about the importance of clean air from Charaka himself, and now you get to explore how his wisdom applies to the modern problem of air pollution. As you delve into the world of air pollution and lungs, you'll discover how the ancient knowledge of Charaka can help you understand the health risks associated with polluted air.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Air Pollution and Lungs",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Compare dust collected on white paper near an open window and inside a closed drawer for a day. Do not inhale dust or collect samples near unsafe roads."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "gases_and_particles",
+    "respiratory_system",
+    "filtration",
+    "aqi_data"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-air-pollution-lungs",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Air Pollution and Lungs turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "concept_id": "cooking-rice-heat-water",
+  "title": "Cooking Rice",
+  "icon": "🍚",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Chemistry",
+    "Physics",
+    "Math",
+    "Biology"
+  ],
+  "place": "Kitchen",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why does hard rice become soft when cooked with water and heat?",
+  "big_idea": "Cooking rice uses measured water, heat transfer, absorption, softening of starch, and safe kitchen practice.",
+  "story": "Dry rice grains are hard. During cooking, water enters grains and heat changes their texture until they become soft and edible.",
+  "cause_process_result": {
+    "cause": "Measure rice/water",
+    "process": "Heat vessel → Water enters grains → Starch softens",
+    "result": "Food becomes edible"
+  },
+  "flow": [
+    "Measure rice/water",
+    "Heat vessel",
+    "Water enters grains",
+    "Starch softens",
+    "Food becomes edible"
+  ],
+  "whiteboard": [
+    "Cause: Measure rice/water",
+    "  -> Heat vessel → Water enters grains → Starch softens",
+    "Result: Food becomes edible"
+  ],
+  "indian_analogies": [
+    "Kitchen mein yeh dekhte hain: Cooking Rice.",
+    "Home cooking"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Cooking is not science. It is full of controlled heat, water, timing, and chemical/physical changes.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Cooking Rice mein Chemistry, Physics, Math, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does hard rice become soft when cooked with water and heat?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does hard rice become soft when cooked with water and heat?",
+      "a": "Jab hum chawal ko paani aur garmi ke saath pakate hain, to paani chawal ke andar jaakar uske starch molecules ko todti hai, jisse chawal naram ho jaata hai. Is prakriya mein, starch molecules alag ho jaate hain aur chawal ki kathoratayi kam ho jaati hai. Isliye, sakht chawal pakane ke ba"
+    },
+    {
+      "type": "probe",
+      "q": "Why soak rice before cooking?",
+      "a": "Rice ko pehle soak karna chahiye kyunki isse usmein maujood starch nikal jaata hai aur rice achhi tarah se pakta hai. Isse rice ke grains alag-alag rahte hain aur khane mein mazedaar lagte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Why does steam burn?",
+      "a": "Bhāp (steam) bahut garam hota hai, isliye yeh jalne ki samasya paida karta hai, kyunki ismein bahut adhik urja hoti hai jo hamein burn kar sakti hai. Isliye, humein bhāp se bachna chahiye."
+    },
+    {
+      "type": "probe",
+      "q": "Why does excess water change texture?",
+      "a": "Excess paani se rice ka texture badal jaata hai kyonki rice mein starch ghul jaata hai aur rice chalka ho jaata hai, jisse uska texture soft aur sticky ho jaata hai. Isse rice ki quality bhi kharab ho sakti hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Measure rice/water -> Heat vessel -> Water enters grains — what exactly happens at each step?",
+      "a": "Pehle hum rice aur paani ko measure karte hain, phir vessel ko garam karte hain, aur antim step mein paani rice ke grains mein enter hota hai jisse wo soft aur pakne lagte hain. Is prakriya mein rice ke andar starch release hota hai aur wo swadisht banta hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Ek 5 saal ke bachhe ko main aisa samjhaunga, pehle paani bharna hai, phir rice daalna hai, aur phir gas on karna hai, jab tak rice pak na jaye. Isse rice achhi tarah se pak jayega."
+    },
+    {
+      "type": "application",
+      "q": "What usually happens if too little water is used?",
+      "a": "Agar hum rice banate samay kam pani ka use karte hain, to rice sakht aur kachcha reh sakta hai, jisse khane mein mazaa nahi aata. Isse rice bhi jalne ki sambhavna badh jati hai. Isliye, rice banate samay sahi matra mein pani ka use karna zaroori hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What usually happens if too little water is used?",
+      "options": [
+        "Rice may stay hard or burn",
+        "Rice becomes ice",
+        "Rice gets sweeter automatically",
+        "No heat is needed"
+      ],
+      "correct": "Rice may stay hard or burn",
+      "hint": "Without enough water, grains cannot absorb enough moisture and may stick or burn.",
+      "answer": "Without enough water, grains cannot absorb enough moisture and may stick or burn."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if water amount becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if water amount becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Cooking Rice shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Cooking Rice, one or more factors such as water amount change what we observe. The idea connects Chemistry, Physics, Math, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Cooking Rice connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Cooking rice uses measured water, heat transfer, absorption, softening of starch, and safe kitchen practice.",
+    "hinglish": "Dekh yaar — Cooking Rice mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "Dry rice grains are hard. During cooking, water enters grains and heat changes their texture until they become soft and edible."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does hard rice become soft when cooked with water and heat. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more water amount.",
+    "class_6_8": "Explain the cause-effect chain: Measure rice/water → Heat vessel → Water enters grains → Starch softens.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Chemistry, Physics, Math, Biology."
+  },
+  "subject_lenses": {
+    "Chemistry": "Starch absorbs water and changes texture during cooking.",
+    "Physics": "Heat transfer from flame/coil to vessel to water and rice.",
+    "Math": "Ratio of rice to water, time measurement, serving estimation.",
+    "Biology": "Cooked food is easier to digest and supplies energy."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Cooking Rice ka concept aur jagah bhi kaam karta hai: Home cooking, Hostel kitchens, Midday meals.",
+      "related_concepts": [],
+      "career_connection": "Food science, nutrition, culinary arts, process engineering."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj cooking rice se related kuch notice karo.",
+    "Why does hard rice become soft when cooked with water and heat?",
+    "What would happen if water amount becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "The ancient Indian mathematician and astronomer Aryabhata, in his work Aryabhatiya, discussed the concept of volumetric measurements, which is crucial in cooking rice as it requires a specific water-to-rice ratio. This concept of measured proportions is similar to how Aryabhata calculated the volumes of spheres and pyramids, showcasing the importance of precise measurements in various aspects of Indian scientific legacy.",
+    "story_hook": "Imagine you are a young chef in ancient India, tasked with cooking rice for a grand feast, and you stumble upon an ancient manuscript of Aryabhata's work that helps you understand the perfect ratio of water to rice. As you cook the rice to perfection, you realize that the principles of measurement and proportion are not just limited to astronomy, but are also essential in the kitchen, connecting the dots between ancient Indian science and everyday life.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Cooking Rice",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe uncooked and cooked rice texture during a normal family cooking routine. Do not handle hot vessels or steam without adult supervision."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "ratio",
+    "heat",
+    "starch_and_water",
+    "digestion"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-cooking-rice-heat-water",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Measure ingredients and respect heat/steam safety.",
+  "career_connections": "Food science, nutrition, culinary arts, process engineering.",
+  "why_matters": "It shows how everyday cooking uses measurement and material change.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

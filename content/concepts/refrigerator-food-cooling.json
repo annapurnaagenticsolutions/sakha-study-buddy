@@ -1,0 +1,226 @@
+{
+  "concept_id": "refrigerator-food-cooling",
+  "title": "Refrigerator and Food Cooling",
+  "icon": "🧊",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Physics",
+    "Biology",
+    "Chemistry",
+    "Math"
+  ],
+  "place": "Kitchen + Technology",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "How does a refrigerator keep food cold, and why does that slow spoilage?",
+  "big_idea": "A refrigerator transfers heat from its inside space to the surrounding room. Lower temperature slows microbial growth and many chemical changes in food.",
+  "story": "Food kept outside may spoil faster. Inside a refrigerator, cooler conditions slow the activity of microbes, while the machine transfers heat to the room through coils.",
+  "cause_process_result": {
+    "cause": "Food placed inside",
+    "process": "Heat removed → Low temperature maintained → Microbes slow down",
+    "result": "Food lasts longer"
+  },
+  "flow": [
+    "Food placed inside",
+    "Heat removed",
+    "Low temperature maintained",
+    "Microbes slow down",
+    "Food lasts longer"
+  ],
+  "whiteboard": [
+    "Cause: Food placed inside",
+    "  -> Heat removed → Low temperature maintained → Microbes slow down",
+    "Result: Food lasts longer"
+  ],
+  "indian_analogies": [
+    "Kitchen + Technology mein yeh dekhte hain: Refrigerator and Food Cooling.",
+    "Home refrigerators"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Refrigeration kills all microbes. Usually it slows growth; safe handling is still needed.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Refrigerator and Food Cooling mein Physics, Biology, Chemistry, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "How does a refrigerator keep food cold, and why does that slow spoilage?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does a refrigerator keep food cold, and why does that slow spoilage?",
+      "a": "Refrigerator mein food cold rehta hai kyunki usmein ek special gas hota hai jo garmi ko absorb karta hai, jisse food spoil hone se bachta hai. Is process ko refrigeration kehte hain, jisse bacteria aur fungus ka growth slow ho jata hai. Isse food fresh reh sakta hai aur kai din tak kharaab nahin hota."
+    },
+    {
+      "type": "probe",
+      "q": "Why are coils warm at the back?",
+      "a": "Coils pichhe garam hote hain kyunki ve refrigerator ke andar ki garmi ko bahar nikaalte hain, isse cooling process mein madad milti hai. Is process mein, coils mein se garm hawa nikalti hai, jisse ve garam ho jaate hain."
+    },
+    {
+      "type": "probe",
+      "q": "Why is overcrowding a problem?"
+    },
+    {
+      "type": "probe",
+      "q": "Why does cold chain matter for vaccines?"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Food placed inside -> Heat removed -> Low temperature maintained — what exactly happens at each step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "Why should refrigerator doors not be left open?",
+      "a": "Refrigerator ke darwaze khule nahin chhodne chahiye kyunki isse andar ki thandi hawa bahar nikal jati hai aur bijli ki khapat badh jati hai, jisse khana bhi jaldi kharab ho sakta hai. Isse refrigerator ki cooling ki kshamta bhi kam ho sakti hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why should refrigerator doors not be left open?",
+      "options": [
+        "Warmer air enters and heat load increases",
+        "Food becomes heavier",
+        "Microbes become visible immediately",
+        "Electricity becomes water"
+      ],
+      "correct": "Warmer air enters and heat load increases",
+      "hint": "Opening the door allows warmer air to enter and increases heat load, so the refrigerator must work harder and food temperature can rise.",
+      "answer": "Opening the door allows warmer air to enter and increases heat load, so the refrigerator must work harder and food temperature can rise."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if inside temperature becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if inside temperature becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Refrigerator and Food Cooling shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Refrigerator and Food Cooling, one or more factors such as inside temperature change what we observe. The idea connects Physics, Biology, Chemistry, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Refrigerator and Food Cooling connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. A refrigerator transfers heat from its inside space to the surrounding room. Lower temperature slows microbial growth and many chemical changes in food.",
+    "hinglish": "Dekh yaar — Refrigerator and Food Cooling mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "Food kept outside may spoil faster. Inside a refrigerator, cooler conditions slow the activity of microbes, while the machine transfers heat to the room through coils."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: How does a refrigerator keep food cold, and why does that slow spoilage. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more inside temperature.",
+    "class_6_8": "Explain the cause-effect chain: Food placed inside → Heat removed → Low temperature maintained → Microbes slow down.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Biology, Chemistry, Math."
+  },
+  "subject_lenses": {
+    "Physics": "Heat transfer, compression/expansion cycle, insulation.",
+    "Biology": "Microbes grow more slowly in cold conditions, but are not always killed.",
+    "Chemistry": "Chemical reactions in food slow at lower temperatures.",
+    "Math": "Read temperature, compare storage time, estimate electricity use."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Refrigerator and Food Cooling ka concept aur jagah bhi kaam karta hai: Home refrigerators, Cold chains, Vaccines.",
+      "related_concepts": [],
+      "career_connection": "Food safety, refrigeration engineering, medicine logistics, supply chain."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj refrigerator and food cooling se related kuch notice karo.",
+    "How does a refrigerator keep food cold, and why does that slow spoilage?",
+    "What would happen if inside temperature becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Jagadish Chandra Bose",
+    "connection": "Jagadish Chandra Bose's work on the response of plants to environmental stimuli can be connected to the concept of refrigeration and food cooling. His research showed that plants respond to temperature and other environmental factors, which is similar to how refrigeration slows down microbial growth and chemical changes in food by controlling the temperature. Bose's work laid the foundation for understanding the importance of temperature control in preserving perishable items, a concept that is crucial for the functioning of refrigerators.",
+    "story_hook": "In the sweltering heat of an Indian summer, a young boy named Rohan wondered how his grandmother's clay pots kept water cool for hours, and he began to explore the secrets of cooling and temperature control. As he delved deeper into the world of science, he discovered the fascinating work of Jagadish Chandra Bose and the incredible technology of refrigeration that keeps our food fresh and healthy.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Refrigerator and Food Cooling",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe how quickly a cold water bottle warms outside the fridge. Do not change refrigerator settings without adult permission."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "heat_transfer",
+    "microbes",
+    "reaction_rate",
+    "temperature"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-refrigerator-food-cooling",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Close the fridge quickly, store food properly, and avoid eating spoiled food.",
+  "career_connections": "Food safety, refrigeration engineering, medicine logistics, supply chain.",
+  "why_matters": "It connects home technology, food safety, energy use, and public health.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

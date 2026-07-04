@@ -1,0 +1,224 @@
+{
+  "concept_id": "sports-ball-bounce",
+  "title": "Why Balls Bounce",
+  "icon": "🏀",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Chemistry",
+    "Biology"
+  ],
+  "place": "Playground + Sports",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why do some balls bounce higher than others?",
+  "big_idea": "Bounce depends on elasticity, air pressure, material, drop height, surface, and energy loss.",
+  "story": "A basketball, tennis ball, and rubber ball dropped from the same height bounce differently because their materials and air pressure differ.",
+  "cause_process_result": {
+    "cause": "Ball dropped",
+    "process": "Energy stored in squeeze → Ball springs back → Some energy lost",
+    "result": "Bounce height changes"
+  },
+  "flow": [
+    "Ball dropped",
+    "Energy stored in squeeze",
+    "Ball springs back",
+    "Some energy lost",
+    "Bounce height changes"
+  ],
+  "whiteboard": [
+    "Cause: Ball dropped",
+    "  -> Energy stored in squeeze → Ball springs back → Some energy lost",
+    "Result: Bounce height changes"
+  ],
+  "indian_analogies": [
+    "Playground + Sports mein yeh dekhte hain: Why Balls Bounce.",
+    "Basketball"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "All balls bounce the same if dropped from the same height. Material and pressure matter.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Why Balls Bounce mein Physics, Math, Chemistry, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do some balls bounce higher than others?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do some balls bounce higher than others?"
+    },
+    {
+      "type": "probe",
+      "q": "Why does bounce change on grass and concrete?"
+    },
+    {
+      "type": "probe",
+      "q": "Why does a warmer ball sometimes bounce differently?",
+      "a": "Garm ball mein molecules jaldi se move karti hain, isliye unka bounce different hota hai, kyunki garmi ke kaaran molecules ki kinetic energy badh jaati hai. Is wajah se, warmer ball zyada ooncha bounce karta hai."
+    },
+    {
+      "type": "probe",
+      "q": "How can bounce be measured fairly?"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Ball dropped -> Energy stored in squeeze -> Ball springs back — what exactly happens at each step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "Why does a flat basketball bounce poorly?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why does a flat basketball bounce poorly?",
+      "options": [
+        "Less internal air pressure reduces spring-back",
+        "It becomes heavier than Earth",
+        "Gravity turns off",
+        "It has no colour"
+      ],
+      "correct": "Less internal air pressure reduces spring-back",
+      "hint": "Air pressure helps the ball deform and spring back. Low pressure reduces bounce.",
+      "answer": "Air pressure helps the ball deform and spring back. Low pressure reduces bounce."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if drop height becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if drop height becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Why Balls Bounce shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Why Balls Bounce, one or more factors such as drop height change what we observe. The idea connects Physics, Math, Chemistry, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Why Balls Bounce connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Bounce depends on elasticity, air pressure, material, drop height, surface, and energy loss.",
+    "hinglish": "Dekh yaar — Why Balls Bounce mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A basketball, tennis ball, and rubber ball dropped from the same height bounce differently because their materials and air pressure differ."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do some balls bounce higher than others. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more drop height.",
+    "class_6_8": "Explain the cause-effect chain: Ball dropped → Energy stored in squeeze → Ball springs back → Some energy lost.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Chemistry, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Gravity, potential energy, kinetic energy, elasticity, energy loss.",
+    "Math": "Measure drop height and bounce height; calculate simple ratios.",
+    "Chemistry": "Rubber and polymer materials affect elasticity.",
+    "Biology": "Human reaction and coordination matter in sports."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Why Balls Bounce ka concept aur jagah bhi kaam karta hai: Basketball, Cricket practice, Tennis.",
+      "related_concepts": [],
+      "career_connection": "Sports engineering, materials science, coaching analytics, product testing."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj why balls bounce se related kuch notice karo.",
+    "Why do some balls bounce higher than others?",
+    "What would happen if drop height becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "The ancient Indian mathematician and astronomer Aryabhata's work on the concept of 'vaega' or motion is relevant to understanding the concept of a bouncing ball. His theories on the motion of objects and the forces that act upon them laid the foundation for later scientific discoveries, including the study of elasticity and energy transfer that occurs when a ball bounces.",
+    "story_hook": "Imagine you are playing cricket in the streets of Mumbai, and you hit the ball with all your might, but instead of flying away, it bounces back to you in a surprising way. As you wonder why this happens, you begin to uncover the secrets of elasticity, air pressure, and energy loss, just like the ancient Indian scientist Aryabhata uncovered the secrets of motion centuries ago.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Why Balls Bounce",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Drop different safe balls from the same low height and measure bounce height against a wall scale. Keep away from glass and people."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "energy_and_elasticity",
+    "ratio",
+    "materials",
+    "coordination"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-sports-ball-bounce",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Choose and maintain the right ball pressure for safe play.",
+  "career_connections": "Sports engineering, materials science, coaching analytics, product testing.",
+  "why_matters": "It turns sports play into measurable experimentation.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

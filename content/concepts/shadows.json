@@ -1,0 +1,155 @@
+{
+  "concept_id": "shadows",
+  "title": "Why do Shadows Change Shape and Size?",
+  "class_band": [
+    4,
+    5,
+    6
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "prerequisites": [
+    "light_travels_straight",
+    "opaque_transparent_basics"
+  ],
+  "intro_hook": "Dekho — suba mein teri chhaya bahut lambi hoti hai, dopahar mein bahut chhoti. Shaam ko phir lambi. KYON? Kya tum badal rahe ho ya kuch aur?",
+  "big_idea": "A shadow forms where light is blocked. The shadow's SIZE depends on where the light source is — angle of light determines how stretched or squished the shadow is.",
+  "cause_process_result": {
+    "cause": "Light travels in straight lines and cannot bend around opaque objects",
+    "process": "Where the object blocks light → those rays can't reach the surface behind → dark region forms. Sun's angle in sky changes with time → angle of blocking changes → shadow length and direction change.",
+    "result": "Morning/evening: sun low on horizon → light hits at shallow angle → long shadows. Noon: sun overhead → light hits directly → short shadow."
+  },
+  "whiteboard": [
+    "SUN LOW (morning) → light comes at angle",
+    "  → object blocks longer stretch of ground",
+    "  → LONG shadow",
+    "",
+    "SUN HIGH (noon) → light comes from above",
+    "  → object blocks small area of ground",
+    "  → SHORT shadow"
+  ],
+  "indian_analogies": [
+    "Apni khud ki chhaya — dekho subah school jaate waqt vs dopahar mein",
+    "Peepal ka ped — dopahar mein chhaya mein baith sakte ho, subah wohi jagah dhoop mein hoti hai",
+    "Sundial (dhoop ghadi) — shadow position tells time — same principle",
+    "Stadium floodlights — multiple shadows because multiple light sources"
+  ],
+  "misconceptions": [
+    {
+      "id": "shadow_follows_object",
+      "belief": "Shadow follows the person/object — it is 'attached' to it",
+      "why_common": "Shadow always appears with object — seems connected/attached.",
+      "probe": "Kya tum chhaya se alag ho sakte ho? Kab? (Hint: cloudy day, indoor room without direct light)",
+      "repair": "Shadow is not attached — it's just where light CAN'T reach. No light source = no shadow. Move light = shadow moves.",
+      "trigger_words": [
+        "attached",
+        "follows me",
+        "mere saath",
+        "meri chhaya hai"
+      ]
+    },
+    {
+      "id": "shadow_same_color",
+      "belief": "Shadow is black because it is the 'color' of darkness",
+      "why_common": "Students see shadow as a 'dark thing' with color.",
+      "probe": "Chhaya ka koi rang hota hai? Ya yeh sirf ek jagah hai jahan light nahi pahunchi?",
+      "repair": "Shadow has no color — it's simply the absence of light. In colored lighting, shadows can appear with color (look up colored shadow experiments).",
+      "trigger_words": [
+        "kaala rang",
+        "black color",
+        "dark color",
+        "rang hota hai"
+      ]
+    },
+    {
+      "id": "object_makes_shadow",
+      "belief": "The object 'creates' or 'produces' the shadow",
+      "why_common": "Language like 'object makes shadow' is misleading.",
+      "probe": "Ek cheez sirf chhaya kab nahi banati? (Hint: andhera room mein)",
+      "repair": "Object doesn't CREATE shadow — it BLOCKS light. Three things needed: light source, opaque object, surface to catch the shadow.",
+      "trigger_words": [
+        "object banata hai",
+        "creates shadow",
+        "banata hai",
+        "produces"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Subah chhaya lambi, dopahar mein chhoti, shaam ko phir lambi. Kya tum badal rahe ho — ya kuch aur?"
+    },
+    {
+      "type": "observation",
+      "q": "Chhaya kahan banti hai? Seedha poochhhta hoon — kya cheezein zaroori hain chhaya ke liye?"
+    },
+    {
+      "type": "probe",
+      "q": "Andheri raat mein (bina torch ke) chhaya hogi? Kyun nahi?"
+    },
+    {
+      "type": "analogy",
+      "q": "Torch leke haath rakho — haath ke peeche chhaya. Ab torch ko oopar se neeche karo — chhaya kya karti hai?",
+      "a": "Torch ko oopar se neeche karne par chhaya badi ho jati hai, iska matlab hai ki light source ki position badalne se shadow ka size aur shape badal jata hai. Isi tarah, jab hum apna haath torch ke neeche rakhte hain, to chhaya banti hai, aur jab torch ko oopar neeche karte hain, to chhaya bhi badalti"
+    },
+    {
+      "type": "concept_check",
+      "q": "Toh chhaya ki lambai kiske saath badlti hai? Sun ki position? Or tum?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab bata — subah lambi chhaya kyun hoti hai? Sun ki position involve karke samjhao."
+    },
+    {
+      "type": "application",
+      "q": "Agar ek pole ki chhaya dopahar mein 1 meter hai — subah mein zyada hogi ya kam? Exactly kitni? (estimate)"
+    },
+    {
+      "type": "transfer",
+      "q": "Stadium ke floodlights mein khiladi ki multiple chhayein kyun dikhti hain?",
+      "a": "Stadium ke floodlights mein khiladi ki multiple chhayein dikhti hain kyunki alag-alag floodlights se alag-alag dishaon mein roshni aati hai, jiske kaaran khiladi ki chhayein alag-alag jagah par padti hain. Isse ek se adhik chhayein dikhai deti hain."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 1,
+      "type": "scenario",
+      "q": "Meera subah 8 baje school gayi — uski chhaya uske right side mein thi. Woh east face karke ja rahi thi. Kyun chhaya right mein thi?",
+      "hint": "Subah sun kahan hota hai? Agar sun east mein hai aur Meera east dekh rahi hai...",
+      "answer": "Sun rises in the east. Meera facing east → sun behind her on the east → light comes from east → shadow falls to the west (her right if she's facing east). Wait — if facing east, right = south. Sun in east = light from east = shadow to west = her left. Check: shadow falls OPPOSITE to sun direction."
+    },
+    {
+      "difficulty": 2,
+      "type": "comparison",
+      "q": "Ek 2 meter ka pole hai. Dopahar mein uski chhaya 50 cm hai. Subah mein estimate karo — 3 meter hogi ya 5 meter?",
+      "hint": "Sun ki angle low hoti hai subah mein. Low angle = longer shadow.",
+      "answer": "Longer — likely 4-6 meters. Exact value depends on sun's angle. Key concept: low sun angle → longer shadow. This is used in surveying to calculate building heights."
+    },
+    {
+      "difficulty": 3,
+      "type": "real_world",
+      "q": "Sundial (dhoop ghadi) mein time kaise pata chalta hai? Shadow kaise clock ban jaati hai?",
+      "hint": "Sun ki position predictable hai — subah yahan, dopahar wahan, shaam wahaan.",
+      "answer": "Sun moves predictably across the sky at ~15°/hour. Shadow of gnomon (stick) rotates with sun's movement. Sunrise = long shadow west. Noon = short shadow north. Sunset = long shadow east. Shadow position mapped to hour marks = clock."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Chhaya tab banti hai jab koi cheez light rok leti hai. Sun oopar hoga toh chhaya chhoti. Sun side mein hoga toh chhaya lambi.",
+    "hinglish": "Dekh yaar — chhaya koi cheez nahi hai jo object ke saath aati hai. Yeh sirf wohi jagah hai jahan light nahi pohunchi. Simple. Ab samjha subah lambi kyun?",
+    "exam": "Shadow formation requires: light source, opaque object, surface. Shadow length inversely related to angle of incidence of light. Umbra = complete shadow. Penumbra = partial shadow (two light sources).",
+    "challenge": "If you have two light sources, you get two shadows — sometimes overlapping. What happens at the overlap? Explain umbra and penumbra."
+  },
+  "learner_adaptations": {
+    "class_4": "Hands-on: torch + hand + wall. Make shadows, change torch position, observe. No theory first.",
+    "class_5": "Explain sun's movement across sky. Connect to shadow length. Draw diagrams.",
+    "class_6": "Angles, umbra/penumbra, lunar/solar eclipses as shadow phenomena.",
+    "struggling": "One variable at a time: first just 'what makes a shadow?' Then 'what changes shadow length?'",
+    "fast_learner": "Calculate shadow length using trigonometry. tan(angle) = height/shadow_length. Use to measure building height."
+  },
+  "concept_difficulty_level": 6,
+  "learning_track": [
+    "core"
+  ]
+}

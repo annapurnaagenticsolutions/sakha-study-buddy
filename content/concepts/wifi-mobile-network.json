@@ -1,0 +1,227 @@
+{
+  "concept_id": "wifi-mobile-network",
+  "title": "Wi‑Fi and Mobile Network",
+  "icon": "📶",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Chemistry",
+    "Biology"
+  ],
+  "place": "Technology",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "Why does internet speed change with distance, walls, and number of users?",
+  "big_idea": "Wireless communication uses electromagnetic waves, signal strength, bandwidth sharing, materials that block signals, and human usage choices.",
+  "story": "A phone near the router streams smoothly. Behind thick walls or far away, the signal weakens. Many users share limited network capacity.",
+  "cause_process_result": {
+    "cause": "Device sends signal",
+    "process": "Waves travel → Walls weaken signal → Users share bandwidth",
+    "result": "Experience changes"
+  },
+  "flow": [
+    "Device sends signal",
+    "Waves travel",
+    "Walls weaken signal",
+    "Users share bandwidth",
+    "Experience changes"
+  ],
+  "whiteboard": [
+    "Cause: Device sends signal",
+    "  -> Waves travel → Walls weaken signal → Users share bandwidth",
+    "Result: Experience changes"
+  ],
+  "indian_analogies": [
+    "Technology mein yeh dekhte hain: Wi‑Fi and Mobile Network.",
+    "Home Wi‑Fi"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Internet speed depends only on the phone. Router placement, walls, users, and network load also matter.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Wi‑Fi and Mobile Network mein Physics, Math, Chemistry, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does internet speed change with distance, walls, and number of users?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does internet speed change with distance, walls, and number of users?"
+    },
+    {
+      "type": "probe",
+      "q": "Why do walls weaken signal?",
+      "a": "Walls mein concrete, steel aur dusre solid materials hote hain jo Wi-Fi signal ko block ya weaken karte hain, isliye humein signal ki strength kam mehsoos hoti hai. Jab signal walls se takraata hai to uska range aur speed kam ho jaata hai. Is wajah se humein Wi-Fi signal ki strength mein kami mehsoos hoti hai."
+    },
+    {
+      "type": "probe",
+      "q": "What is latency?"
+    },
+    {
+      "type": "probe",
+      "q": "Why does router placement matter?",
+      "a": "Router placement matter karta hai kyunki yeh signal ki strength ko affect karta hai, aur sahi jagah par rakhne se Wi-Fi ka range aur speed behtar hota hai, jisse hum easily internet use kar sakte hain."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Device sends signal -> Waves travel -> Walls weaken signal — what exactly happens at each step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Wi-Fi aur mobile network humein internet ka access dene ke liye hote hain, jaise ki hum apne phone se internet use karte hain. Wi-Fi ghar ke andar hota hai aur mobile network humein bahar jaane par bhi internet use karne ki suvidha deta hai."
+    },
+    {
+      "type": "application",
+      "q": "Why can the internet slow down when many people use it?",
+      "a": "Jab bahut saare log ek saath internet use karte hain, to Wi-Fi aur mobile network ka bandwidth divide ho jaata hai, jisse internet ki speed slow ho jaati hai. Isse data transfer mein delay hota hai aur internet slow chalne lagta hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why can the internet slow down when many people use it?",
+      "options": [
+        "Bandwidth is shared among users",
+        "Wi‑Fi waves become food",
+        "More users remove the router",
+        "Walls become invisible"
+      ],
+      "correct": "Bandwidth is shared among users",
+      "hint": "Available bandwidth and router capacity are shared, so heavy simultaneous usage can reduce performance.",
+      "answer": "Available bandwidth and router capacity are shared, so heavy simultaneous usage can reduce performance."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if distance/walls becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if distance/walls becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Wi‑Fi and Mobile Network shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Wi‑Fi and Mobile Network, one or more factors such as distance/walls change what we observe. The idea connects Physics, Math, Chemistry, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Wi‑Fi and Mobile Network connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Wireless communication uses electromagnetic waves, signal strength, bandwidth sharing, materials that block signals, and human usage choices.",
+    "hinglish": "Dekh yaar — Wi‑Fi and Mobile Network mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A phone near the router streams smoothly. Behind thick walls or far away, the signal weakens. Many users share limited network capacity."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does internet speed change with distance, walls, and number of users. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more distance/walls.",
+    "class_6_8": "Explain the cause-effect chain: Device sends signal → Waves travel → Walls weaken signal → Users share bandwidth.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Chemistry, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Electromagnetic waves, attenuation, interference, signal strength.",
+    "Math": "Compare speed, latency, distance, and number of connected devices.",
+    "Chemistry": "Wall materials, metals, glass, and water content affect signal absorption/reflection.",
+    "Biology": "Screen habits, sleep, and attention are affected by technology use."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Wi‑Fi and Mobile Network ka concept aur jagah bhi kaam karta hai: Home Wi‑Fi, Online classes, Video calls.",
+      "related_concepts": [],
+      "career_connection": "Telecom engineering, network administration, electronics, UX research."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj wi‑fi and mobile network se related kuch notice karo.",
+    "Why does internet speed change with distance, walls, and number of users?",
+    "What would happen if distance/walls becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Sir Jagadish Chandra Bose",
+    "connection": "Sir Jagadish Chandra Bose, a pioneer in the field of radio science, conducted extensive research on the properties of electromagnetic waves. His work on the transmission and reception of radio waves laid the foundation for modern wireless communication systems, including Wi-Fi and mobile networks, and his experiments with plant responses to wireless signals showcased the potential of electromagnetic waves to penetrate and interact with various materials.",
+    "story_hook": "Imagine being able to send secret messages to your friends through thin air, just like Sir Jagadish Chandra Bose did with his groundbreaking experiments on wireless communication. Little did he know, his discoveries would one day power the very Wi-Fi and mobile networks that connect us all today.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Wi‑Fi and Mobile Network",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe signal bars or speed in different rooms. Do not change router settings without adult permission."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "electromagnetic_waves",
+    "data_rate",
+    "materials",
+    "digital_habits"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-wifi-mobile-network",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Place routers sensibly, reduce unnecessary heavy usage during classes, and maintain healthy screen habits.",
+  "career_connections": "Telecom engineering, network administration, electronics, UX research.",
+  "why_matters": "It links daily technology frustration with wave physics, data reasoning, and responsible usage.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

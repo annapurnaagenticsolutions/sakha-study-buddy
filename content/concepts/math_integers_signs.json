@@ -1,0 +1,204 @@
+{
+  "concept_id": "math_integers_signs",
+  "title": "Integers and Signs",
+  "icon": "📐",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Math"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "whole numbers",
+    "number line"
+  ],
+  "intro_hook": "Why is 5 - (-3) equal to 8, not 2?",
+  "big_idea": "Integers include positive, negative, and zero values. Sign logic is essential for algebra and coordinate geometry.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Positive and negative numbers show direction from zero.",
+    "process": "A negative number is below zero; adding or subtracting can move right or left on the number line. Number line movement: right for increase, left for decrease.",
+    "result": "Temperature, bank balance, elevation, algebraic signs, coordinates."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Positive and negative numbers show direction from zero.",
+    "Visual: Number line movement: right for increase, left for decrease.",
+    "Formal: Integers are {..., -3, -2, -1, 0, 1, 2, 3, ...}.",
+    "Application: Temperature, bank balance, elevation, algebraic signs, coordinates."
+  ],
+  "indian_analogies": [
+    "If you have ₹5 and a ₹3 debt is cancelled, your net value becomes ₹8.",
+    "5 se negative 3 hatana matlab 3 ka debt remove karna. Value badhegi, isliye 5 + 3 = 8."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_math_integers_signs_01",
+      "belief": "negative always means smaller magnitude",
+      "why_common": "I saw the minus sign and changed direction without checking the number line meaning.",
+      "probe": "Why is 5 - (-3) equal to 8, not 2?",
+      "repair": "Use a number line and temperature movement. Show that subtracting a negative is like removing a loss, then test with a small number.",
+      "repair_visual": "Use a number line and temperature movement above/below zero.",
+      "follow_up": "What is 3 - (-2) on a number line, and why?",
+      "teacher_prompt": "Separate “negative number” from “subtraction operation” using number-line actions.",
+      "mastery_signal": "Learner can explain why “negative always means smaller magnitude” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: negative smaller magnitude",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_integers_signs_02",
+      "belief": "minus sign and negative sign are always the same operation",
+      "why_common": "I saw the minus sign and changed direction without checking the number line meaning.",
+      "probe": "Why is 5 - (-3) equal to 8, not 2?",
+      "repair": "Use a number line and temperature movement above/below zero. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a number line and temperature movement above/below zero.",
+      "follow_up": "Give a changed integers signs situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Separate “negative number” from “subtraction operation” using number-line actions.",
+      "mastery_signal": "Learner can explain why “minus sign and negative sign are always the same operation” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: minus sign and",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_integers_signs_03",
+      "belief": "subtracting a negative should make value smaller",
+      "why_common": "I saw the minus sign and changed direction without checking the number line meaning.",
+      "probe": "Why is 5 - (-3) equal to 8, not 2?",
+      "repair": "Use a number line and temperature movement above/below zero. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a number line and temperature movement above/below zero.",
+      "follow_up": "Give a changed integers signs situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Separate “negative number” from “subtraction operation” using number-line actions.",
+      "mastery_signal": "Learner can explain why “subtracting a negative should make value smaller” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: subtracting a negative",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why is 5 - (-3) equal to 8, not 2?",
+      "a": "Kyunki minus minus ko minus nahin, balki plus banata hai, isliye 5 - (-3) mein minus minus ko plus mein badal kar 5 + 3 kar dete hain, jiska jawab 8 hota hai. Isliye sahi uttar 8 hai, 2 nahin."
+    },
+    {
+      "type": "probe",
+      "q": "On a number line, subtracting usually means moving left. But what kind of number are we subtracting?",
+      "a": "Hum negative number ko subtract kar rahe hote hain, isliye humein right side ki taraf move karna padta hai, kyunki negative number ko minus sign se represent kiya jata hai. Yeh ek aam bhram hai ki hum hamesha left side ki taraf move karte hain, lekin yeh sirf positive number ke liye sahi hai. Negative number ke liye hum right side ki taraf move karte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Think of -3 as a debt of ₹3. If that debt is removed, does your balance increase or decrease?",
+      "a": "Agar -3 ka debt remove ho jata hai, to humara balance increase ho jata hai, kyunki ab humare paas ₹3 ka debt nahi hai, isliye humare paas ₹3 jyada aa jayenge. Isse humara balance badh jayega."
+    },
+    {
+      "type": "probe",
+      "q": "Removing -3 has the same effect as adding +3.",
+      "a": "Haan, yeh sahi hai, kyunki -3 ko hataane ka effect +3 jodne jaisa hi hota hai, dono mein humne ek negative number ko positive number se replace kiya hai. Isse humein pata chalta hai ki kisi bhi integer se minus sign ko hataane ka matlab usme uske ulat sign ko jodna hota hai."
+    },
+    {
+      "type": "application",
+      "q": "What is -2 - (-5)? Explain using number line or debt logic.",
+      "a": "-2 - (-5) ka matlab hai ki hum -2 se 5 jod rahe hain, isliye hum number line par -2 se 5 steps ahead badhenge aur hum 3 par pahunch jayenge. Isse hum debt logic se bhi samajh sakte hain ki -2 ki debt se -5 ki debt chutti ho gayi, toh ab humare paas 3 ki rakam bach gayi. Is"
+    },
+    {
+      "type": "teach_back",
+      "q": "What is the difference between the minus operation and the negative sign?",
+      "a": "Minus operation ek mathematical operation hai jo do numbers ko subtract karta hai, jabki negative sign ek number ko negative banata hai, jaise ki -5 ek negative number hai. Iska matlab hai ki minus sign ka use operation me hota hai, lekin negative sign ek number ke pehle lagta hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "Why is 5 - (-3) equal to 8, not 2?",
+      "hint": "Positive and negative numbers show direction from zero.",
+      "answer": "Subtracting a negative means moving in the positive direction; removing a debt of 3 increases the value by 3."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "What is -2 - (-5)? Explain using number line or debt logic.",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires interpreting sign operations through direction/debt logic, not rote sign rules alone."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "5 - (-3) means start at 5 and remove negative 3. Removing a negative increases the value, so the answer is 8.",
+    "visual": "Draw a number line. Start at 5. Subtracting a negative moves right by 3 steps, landing on 8.",
+    "real_life": "If you have ₹5 and a ₹3 debt is cancelled, your net value becomes ₹8.",
+    "formal": "5 - (-3) = 5 + 3 = 8 because subtracting a negative is equivalent to adding the corresponding positive.",
+    "socratic": "What does the first minus sign do? What does the negative sign on 3 mean? What happens when a negative amount is removed?",
+    "mistake_analysis": "The mistake is ignoring the sign of the number being subtracted. You are not subtracting +3; you are subtracting -3.",
+    "hinglish": "5 se negative 3 hatana matlab 3 ka debt remove karna. Value badhegi, isliye 5 + 3 = 8.",
+    "challenge": "Try -4 - (-7). Use both debt logic and number-line movement.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Positive and negative numbers show direction from zero.",
+    "standard": "A negative number is below zero; adding or subtracting can move right or left on the number line.",
+    "advanced": "Integers are {..., -3, -2, -1, 0, 1, 2, 3, ...}.",
+    "fast_learner": "Try -4 - (-7). Use both debt logic and number-line movement."
+  },
+  "subject_lenses": {
+    "Math": "Temperature, bank balance, elevation, algebraic signs, coordinates."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Integers and Signs ka use real life mein: Temperature, bank balance, elevation, algebraic signs, coordinates.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj integers and signs ka ek real-life example dhundo.",
+    "If you have ₹5 and a ₹3 debt is cancelled, your net value becomes ₹8."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, is known for his contributions to the field of mathematics, particularly in the concept of zero and negative numbers. His work on the concept of zero as a placeholder and a number in its own right laid the foundation for the development of integers, including positive, negative, and zero values, which is crucial for understanding sign logic in algebra and coordinate geometry.",
+    "story_hook": "Imagine you are an ancient Indian astronomer like Aryabhata, trying to calculate the positions of stars and planets in the night sky, and you need a way to represent the opposite directions, like east and west, or north and south, using numbers. As you ponder this problem, you stumble upon the idea of using negative numbers to represent opposite directions, and suddenly, the concept of integers and signs becomes clear, revolutionizing your understanding of the universe.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Integers and Signs",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "If you have ₹5 and a ₹3 debt is cancelled, your net value becomes ₹8."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-math_integers_signs",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires interpreting sign operations through direction/debt logic, not rote sign rules alone.",
+  "session_type": "math",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_math_integers_signs_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

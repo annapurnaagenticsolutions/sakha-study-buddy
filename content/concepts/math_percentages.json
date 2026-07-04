@@ -1,0 +1,205 @@
+{
+  "concept_id": "math_percentages",
+  "title": "Percentages",
+  "icon": "📐",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Math"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "fractions",
+    "decimals",
+    "multiplication"
+  ],
+  "intro_hook": "A price increases by 20% and then decreases by 20%. Is it back to the original price? Why?",
+  "big_idea": "Percentages express a quantity out of 100 and connect fractions, decimals, discounts, profit, loss, and data interpretation.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Percent means per hundred.",
+    "process": "25% means 25 out of every 100 equal parts. A 100-grid shows percentage as shaded boxes.",
+    "result": "Discounts, marks, interest, data charts, election vote shares, exam improvement."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Percent means per hundred.",
+    "Visual: A 100-grid shows percentage as shaded boxes.",
+    "Formal: p% of x = (p/100) × x.",
+    "Application: Discounts, marks, interest, data charts, election vote shares, exam improvement."
+  ],
+  "indian_analogies": [
+    "A shopkeeper raises a ₹100 item to ₹120. Then a 20% discount on ₹120 removes ₹24. The item becomes ₹96, not ₹100.",
+    "₹100 ka 20% increase ₹120 banata hai. Ab 20% decrease ₹120 par lagega, ₹100 par nahi. Final ₹96 hoga."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_math_percentages_01",
+      "belief": "percentage increase and decrease are reversible",
+      "why_common": "I treated the percentage like a plain number without asking what it is percent of.",
+      "probe": "A price increases by 20% and then decreases by 20%. Is it back to the original price? Why?",
+      "repair": "Anchor percentage to “out of 100.” Convert the statement into 25 out of 100, then use a simple school-test or shop-discount example.",
+      "repair_visual": "Use a 100-square grid or shop discount tag and mark the base value clearly.",
+      "follow_up": "If 40% of a class of 50 students brought notebooks, how many students is that?",
+      "teacher_prompt": "Start with two different bases to show why the reference value matters.",
+      "mastery_signal": "Learner can explain why “percentage increase and decrease are reversible” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: percentage increase and",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_percentages_02",
+      "belief": "percent is always smaller than 1",
+      "why_common": "I treated the percentage like a plain number without asking what it is percent of.",
+      "probe": "A price increases by 20% and then decreases by 20%. Is it back to the original price? Why?",
+      "repair": "Use a 100-square grid or shop discount tag and mark the base value clearly. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a 100-square grid or shop discount tag and mark the base value clearly.",
+      "follow_up": "Give a changed percentages situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Start with two different bases to show why the reference value matters.",
+      "mastery_signal": "Learner can explain why “percent is always smaller than 1” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: percent is smaller",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_percentages_03",
+      "belief": "base value does not matter",
+      "why_common": "I treated the percentage like a plain number without asking what it is percent of.",
+      "probe": "A price increases by 20% and then decreases by 20%. Is it back to the original price? Why?",
+      "repair": "Use a 100-square grid or shop discount tag and mark the base value clearly. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a 100-square grid or shop discount tag and mark the base value clearly.",
+      "follow_up": "Give a changed percentages situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Start with two different bases to show why the reference value matters.",
+      "mastery_signal": "Learner can explain why “base value does not matter” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: base value does",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "A price increases by 20% and then decreases by 20%. Is it back to the original price? Why?",
+      "a": "Nahin, yeh apne original price par waapas nahi aata kyonki 20% ki vriddhi ke baad, 20% ki kami naye price par hoti hai, jo original price se alag hota hai. Isliye, yeh doosre 20% ki kami ke baad bhi apne original price par waapas nahi aata."
+    },
+    {
+      "type": "probe",
+      "q": "Start with ₹100 as the original price.",
+      "a": "Original price ₹100 hai, isse hum percentage calculate kar sakte hain, jaise ki 10% ka matlab ₹10 hota hai. Agar humein pata ho ki kitna percentage increase ya decrease hua hai, to hum new price calculate kar sakte hain. Isse humein percentage ka concept samajhne mein madad milti hai."
+    },
+    {
+      "type": "probe",
+      "q": "After a 20% increase, what is the new price?",
+      "a": "Pehle price ko 100 maan lete hain, phir 20% increase ke liye hum 100 mein 20% add karte hain, jo ki 20 hai, to naya price 100 + 20 = 120 ho jata hai. Isliye naya price purane price se 20% zyada hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Now take 20% of the new price, not the old one. What do you subtract?",
+      "a": "Ab hum 20% ko naye price se nikalenge, toh hum usse naye price mein se 20% ka hissa nikalenge, jiska matlab hai ki hum 80% bachaenge, yaani 20% kaatenge. Iska matlab hai ki hum naye price se 20% kaatenge."
+    },
+    {
+      "type": "application",
+      "q": "A number decreases by 10% and then increases by 10%. Does it return to the original? Use 100 as the starting value.",
+      "a": "Pehle 100 mein 10% ki kami se 90 ho jata hai, phir 90 mein 10% ki vriddhi se 99 ho jata hai, isliye yeh apne moolya 100 par nahi aata. Iska matlab hai ki 10% ki kami ke baad 10% ki vriddhi se moolya wapas nahi aata."
+    },
+    {
+      "type": "teach_back",
+      "q": "Why is the base value the most important idea in percentage change?",
+      "a": "Base value sabse zaroori hai kyunki percentage change ispe depend karta hai, agar base value galat hogi to percentage change bhi galat hoga. Isliye base value ko sahi se samajhna aur calculate karna zaroori hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "A price increases by 20% and then decreases by 20%. Is it back to the original price? Why?",
+      "hint": "Percent means per hundred.",
+      "answer": "No. The 20% decrease is calculated on the increased price, not the original price, so the final value is lower than the original."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "A number decreases by 10% and then increases by 10%. Does it return to the original? Use 100 as the starting value.",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires explaining successive percentage change using changing base values."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "It does not return to the original. If ₹100 increases by 20%, it becomes ₹120. A 20% decrease of ₹120 is ₹24, so final price is ₹96.",
+    "visual": "Use a 100-box grid. After increase, imagine 120 boxes. The decrease is taken from 120 boxes, so the amount removed is larger than the earlier 20 boxes.",
+    "real_life": "A shopkeeper raises a ₹100 item to ₹120. Then a 20% discount on ₹120 removes ₹24. The item becomes ₹96, not ₹100.",
+    "formal": "Successive percentage changes are multiplicative: 100 × 1.20 × 0.80 = 96. Therefore the final value is 96% of original.",
+    "socratic": "What is the original base? What is the new base after the increase? Are the two 20% amounts equal?",
+    "mistake_analysis": "The common mistake is cancelling +20 and -20 without checking the base. Percentages act on the current value.",
+    "hinglish": "₹100 ka 20% increase ₹120 banata hai. Ab 20% decrease ₹120 par lagega, ₹100 par nahi. Final ₹96 hoga.",
+    "challenge": "Try +50% followed by -50%. Use ₹100 and see whether it returns to ₹100.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Percent means per hundred.",
+    "standard": "25% means 25 out of every 100 equal parts.",
+    "advanced": "p% of x = (p/100) × x.",
+    "fast_learner": "Try +50% followed by -50%. Use ₹100 and see whether it returns to ₹100."
+  },
+  "subject_lenses": {
+    "Math": "Discounts, marks, interest, data charts, election vote shares, exam improvement."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Percentages ka use real life mein: Discounts, marks, interest, data charts, election vote shares, exam improvement.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj percentages ka ek real-life example dhundo.",
+    "A shopkeeper raises a ₹100 item to ₹120. Then a 20% discount on ₹120 removes ₹24. The item becomes ₹96, not ₹100."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, used fractions and proportions in his calculations of astronomical phenomena, such as the timing of eclipses and the movement of celestial bodies. His work laid the foundation for later Indian mathematicians to develop concepts related to percentages, including the use of fractions and decimals to express proportions, which is essential for understanding percentages and their applications in various fields.",
+    "story_hook": "Imagine you are an astronomer like Aryabhata, tasked with calculating the percentage of the moon's surface that is illuminated during a lunar eclipse. As you delve into the ancient Indian texts and calculations, you discover that understanding percentages is crucial to predicting the timing and extent of such celestial events.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Percentages",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "A shopkeeper raises a ₹100 item to ₹120. Then a 20% discount on ₹120 removes ₹24. The item becomes ₹96, not ₹100."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-math_percentages",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires explaining successive percentage change using changing base values.",
+  "session_type": "math",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_math_percentages_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

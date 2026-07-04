@@ -1,0 +1,230 @@
+{
+  "concept_id": "composting-kitchen-waste",
+  "title": "Composting Kitchen Waste",
+  "icon": "🍂",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Biology",
+    "Chemistry",
+    "Math",
+    "Physics"
+  ],
+  "place": "Garden + Environment",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "How can vegetable peels become useful compost for plants?",
+  "big_idea": "Composting uses decomposers, air, moisture, temperature, and time to convert organic waste into nutrient-rich material.",
+  "story": "Fruit peels and dry leaves are mixed in a compost bin. Microbes and small organisms break them down, releasing heat and forming compost.",
+  "cause_process_result": {
+    "cause": "Organic waste",
+    "process": "Air + moisture → Microbes decompose → Heat + nutrients",
+    "result": "Compost for soil"
+  },
+  "flow": [
+    "Organic waste",
+    "Air + moisture",
+    "Microbes decompose",
+    "Heat + nutrients",
+    "Compost for soil"
+  ],
+  "whiteboard": [
+    "Cause: Organic waste",
+    "  -> Air + moisture → Microbes decompose → Heat + nutrients",
+    "Result: Compost for soil"
+  ],
+  "indian_analogies": [
+    "Garden + Environment mein yeh dekhte hain: Composting Kitchen Waste.",
+    "Home gardens"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Waste simply disappears. Decomposers transform it into other materials and nutrients.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Composting Kitchen Waste mein Biology, Chemistry, Math, Physics sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "How can vegetable peels become useful compost for plants?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How can vegetable peels become useful compost for plants?",
+      "a": "Vegetable peels ko compost banane ke liye hum use airtight bin mein daal sakte hain jahan par microorganisms unhe galti hain aur useful compost banate hain jo plants ke liye bahut faydemand hota hai. Is compost se plants ko nutrients milte hain aur unka vikas achha hota hai. Isse hum kitchen waste ko bhi recycle kar sakte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Why does compost need air?",
+      "a": "Compost ko air ki zarurat hoti hai kyunki ismein microorganisms hote hain jo oxygen ka use karke kitchen waste ko break down karte hain, jisse compost banata hai. Agar air na mile to ye microorganisms marengay aur composting process ruk jayega. Isliye humein compost pile mein oxygen pahunchane ke liye usmein thoda space chhodna chahiye."
+    },
+    {
+      "type": "probe",
+      "q": "Why can too much wet waste smell?",
+      "a": "Bahut saara wet waste smell kar sakta hai kyunki usmein bacteria tezi se grow hote hain aur yeh bacteria gandagi pैदा karte hain, jisse badbu aati hai. Isliye, humein composting ke dauraan wet aur dry waste ka sahi balance rakhna chahiye. Isse badbu ko kam kiya ja sakta hai."
+    },
+    {
+      "type": "probe",
+      "q": "How does compost help plants?",
+      "a": "Compost mein khaad hoti hai jo plants ko nutrients deti hai, jisse unka vikaas achha hota hai aur ve swasth rehti hain. Compost se plants ko paani ki bhi zaroorat kam hoti hai. Isse plants ki mitti bhi acchi ho jati hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Organic waste -> Air + moisture -> Microbes decompose — what exactly happens at each step?",
+      "a": "Organic waste jaise ki kitchen ke kachre ko ikattha kiya jata hai, phir usey air aur moisture ke saath milaya jata hai jisse microbes active ho jate hain, aur antim charan mein microbes organic waste ko decompose kar dete hain jisse compost ban jata hai. Is prakriya mein microbes organic waste ko break down karke nutrients se bharpoor compost banate hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Hum kitchen se nikle waste ko compost banate hain, jaise ki sabzi ke chilke, phal ke chilke, aur eggshell, inhein hum ek alag container mein daalte hain aur thoda thoda time pe pani dalte hain, jisse yeh sab ganda mitti ban jata hai jo plants ke liye bahut accha hota hai."
+    },
+    {
+      "type": "application",
+      "q": "Why add dry leaves to wet kitchen waste?",
+      "a": "Dry leaves ko wet kitchen waste mein milaya jata hai kyunki yeh carbon ka achha source hai aur yeh waste ko dry aur fluffy rakhta hai, jisse usmein oxygen reach hoti hai aur decomposition tezi se hota hai. Isse compost banane mein madad milti hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why add dry leaves to wet kitchen waste?",
+      "options": [
+        "To balance moisture and improve air spaces",
+        "To make plastic compost faster",
+        "To stop all microbes forever",
+        "To convert waste into metal"
+      ],
+      "correct": "To balance moisture and improve air spaces",
+      "hint": "Dry leaves help balance moisture and structure, making conditions better for decomposers.",
+      "answer": "Dry leaves help balance moisture and structure, making conditions better for decomposers."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if wet waste becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if wet waste becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Composting Kitchen Waste shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Composting Kitchen Waste, one or more factors such as wet waste change what we observe. The idea connects Biology, Chemistry, Math, Physics and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Composting Kitchen Waste connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Composting uses decomposers, air, moisture, temperature, and time to convert organic waste into nutrient-rich material.",
+    "hinglish": "Dekh yaar — Composting Kitchen Waste mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "Fruit peels and dry leaves are mixed in a compost bin. Microbes and small organisms break them down, releasing heat and forming compost."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: How can vegetable peels become useful compost for plants. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more wet waste.",
+    "class_6_8": "Explain the cause-effect chain: Organic waste → Air + moisture → Microbes decompose → Heat + nutrients.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Chemistry, Math, Physics."
+  },
+  "subject_lenses": {
+    "Biology": "Bacteria, fungi, earthworms, and plants are part of nutrient cycling.",
+    "Chemistry": "Organic molecules break down and nutrients cycle back to soil.",
+    "Math": "Track days, waste amount, moisture level, and compost volume reduction.",
+    "Physics": "Air spaces and heat transfer affect compost conditions."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Composting Kitchen Waste ka concept aur jagah bhi kaam karta hai: Home gardens, Terrace composters, Farms.",
+      "related_concepts": [],
+      "career_connection": "Environmental science, farming, waste management, soil biology."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj composting kitchen waste se related kuch notice karo.",
+    "How can vegetable peels become useful compost for plants?",
+    "What would happen if wet waste becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Maharishi Kanad",
+    "connection": "Maharishi Kanad, an ancient Indian philosopher and scientist, is often credited with being one of the earliest proponents of the concept of atoms and the cycle of nature. His work laid the foundation for understanding the natural processes that occur in composting, such as decomposition and the role of microorganisms in breaking down organic matter. Kanad's philosophy emphasized the interconnectedness of all living things and the cyclical nature of life, which is reflected in the composting process where waste is converted into nutrient-rich material.",
+    "story_hook": "Imagine you are a young farmer in ancient India, learning from Maharishi Kanad about the magic of transforming kitchen waste into a nutrient-rich fertilizer for your family's garden. As you watch the waste decompose, you begin to understand the ancient wisdom of Kanad's teachings and the incredible potential of composting to sustain your community's food systems.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Composting Kitchen Waste",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe a small closed transparent jar with dry leaves and vegetable peels only if an adult supervises. Do not smell deeply or touch decomposing waste without gloves."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "decomposers",
+    "nutrients",
+    "tracking",
+    "air_and_heat"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-composting-kitchen-waste",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Separate wet and dry waste and compost safely where possible.",
+  "career_connections": "Environmental science, farming, waste management, soil biology.",
+  "why_matters": "It links waste reduction with soil health and circular resource thinking.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

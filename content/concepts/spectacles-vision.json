@@ -1,0 +1,223 @@
+{
+  "concept_id": "spectacles-vision",
+  "title": "How Spectacles Help Vision",
+  "icon": "👓",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Physics",
+    "Biology",
+    "Math"
+  ],
+  "place": "Body + Health",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "How can a piece of curved glass help someone see clearly?",
+  "big_idea": "Lenses bend light so the image focuses correctly on the retina. The eye and the lens work together as an optical system.",
+  "story": "When light from a book enters the eye, it must focus on the retina. If focus happens before or behind the retina, spectacles adjust the light path.",
+  "cause_process_result": {
+    "cause": "Light from object",
+    "process": "Lens bends light → Eye focuses → Retina receives image",
+    "result": "Brain interprets"
+  },
+  "flow": [
+    "Light from object",
+    "Lens bends light",
+    "Eye focuses",
+    "Retina receives image",
+    "Brain interprets"
+  ],
+  "whiteboard": [
+    "Cause: Light from object",
+    "  -> Lens bends light → Eye focuses → Retina receives image",
+    "Result: Brain interprets"
+  ],
+  "indian_analogies": [
+    "Body + Health mein yeh dekhte hain: How Spectacles Help Vision.",
+    "Spectacles"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat how spectacles help vision as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "How Spectacles Help Vision mein Physics, Biology, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "How can a piece of curved glass help someone see clearly?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How can a piece of curved glass help someone see clearly?",
+      "a": "Ek piece of curved glass, jise hum chashma kehete hain, aankhon ki samasya ko theek karne mein madad karta hai, jisse hum saaf-saaf dekh sakte hain. Yeh chashma aankhon ki focal length ko adjust karta hai, jisse cheezein spasht dikhayi deti hain. Isse logon ko acchi tarah se dekhne mein mad"
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?"
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?",
+      "a": "Biology aur physics subject mein hume samajh mein aata hai ki spectacles kaise vision ko theek karte hain, lekin physics subject mein iska explanation zyada hota hai. Physics mein hume optics ke baare mein padhaya jata hai, jisme lens aur light ke properties ko samjhaaya jata hai. Isliye, physics subject hi spectacles ke kaam karne ka sabse bada hissa samjha"
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Light from object -> Lens bends light -> Eye focuses — what exactly happens at each step?",
+      "a": "Pehle, light from object humare lens tak aata hai, phir lens bends light ko humare eye ki taraf modti hai, aur antim step mein eye focuses light ko sahi tarike se dekhne mein madad karti hai. Is prakriya mein lens ka kaam light ko sahi disha mein modna hota hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "What is the main job of spectacle lenses?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What is the main job of spectacle lenses?",
+      "options": [
+        "Stop all light",
+        "Bend light to improve focus",
+        "Make the eye larger",
+        "Turn light into sound"
+      ],
+      "correct": "Bend light to improve focus",
+      "hint": "Spectacle lenses refract light so the eye can focus images more clearly on the retina.",
+      "answer": "Spectacle lenses refract light so the eye can focus images more clearly on the retina."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if object distance becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if object distance becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "How Spectacles Help Vision shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In How Spectacles Help Vision, one or more factors such as object distance change what we observe. The idea connects Physics, Biology, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of How Spectacles Help Vision connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Lenses bend light so the image focuses correctly on the retina. The eye and the lens work together as an optical system.",
+    "hinglish": "Dekh yaar — How Spectacles Help Vision mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "When light from a book enters the eye, it must focus on the retina. If focus happens before or behind the retina, spectacles adjust the light path."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: How can a piece of curved glass help someone see clearly. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more object distance.",
+    "class_6_8": "Explain the cause-effect chain: Light from object → Lens bends light → Eye focuses → Retina receives image.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Biology, Math."
+  },
+  "subject_lenses": {
+    "Physics": "Refraction, convex and concave lenses, focus.",
+    "Biology": "Eye parts: cornea, lens, retina, optic nerve.",
+    "Math": "Curvature, distance, simple ray diagrams."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — How Spectacles Help Vision ka concept aur jagah bhi kaam karta hai: Spectacles, Cameras, Magnifying glass.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj how spectacles help vision se related kuch notice karo.",
+    "How can a piece of curved glass help someone see clearly?",
+    "What would happen if object distance becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of optics. His work on the behavior of light and its relationship with lenses can be seen as a precursor to understanding how spectacles help vision, as it laid the foundation for later studies on the bending of light and its application in correcting vision.",
+    "story_hook": "Imagine being an astronomer like Aryabhata, trying to observe the stars and planets clearly without any visual aid, and then discovering that a simple tool like spectacles can enhance your vision and reveal the wonders of the universe. As you put on your spectacles, you realize that the same principles that help you see the world more clearly can also help you understand the vastness of the cosmos.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: How Spectacles Help Vision",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Use a magnifying glass with adult guidance to observe printed letters. Never use lenses to focus sunlight toward eyes, skin, paper, or flammable material."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "light_and_refraction",
+    "eye",
+    "geometry_of_rays"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-spectacles-vision",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "How Spectacles Help Vision turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

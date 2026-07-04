@@ -1,0 +1,229 @@
+{
+  "concept_id": "home-cooling-shade-ventilation",
+  "title": "Keeping a House Cool",
+  "icon": "🏠",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Biology",
+    "Chemistry"
+  ],
+  "place": "Home + Weather",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why do shade, curtains, windows, and fans change how cool a room feels?",
+  "big_idea": "Comfort depends on sunlight, heat transfer, air movement, building materials, and the body’s response to temperature.",
+  "story": "A room with direct afternoon sun becomes hot. Curtains reduce sunlight, windows allow airflow, and fans move air across skin.",
+  "cause_process_result": {
+    "cause": "Sunlight enters",
+    "process": "Walls/air heat up → Ventilation moves air → Body loses heat",
+    "result": "Room feels cooler"
+  },
+  "flow": [
+    "Sunlight enters",
+    "Walls/air heat up",
+    "Ventilation moves air",
+    "Body loses heat",
+    "Room feels cooler"
+  ],
+  "whiteboard": [
+    "Cause: Sunlight enters",
+    "  -> Walls/air heat up → Ventilation moves air → Body loses heat",
+    "Result: Room feels cooler"
+  ],
+  "indian_analogies": [
+    "Home + Weather mein yeh dekhte hain: Keeping a House Cool.",
+    "Home design"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A fan always lowers room temperature. A fan mainly moves air and helps the body cool; ventilation matters.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Keeping a House Cool mein Physics, Math, Biology, Chemistry sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do shade, curtains, windows, and fans change how cool a room feels?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do shade, curtains, windows, and fans change how cool a room feels?",
+      "a": "Shade, curtains, windows, aur fans room ko cool karne mein madad karte hain kyunki ve suraj ki garmi ko andar aane se rokhte hain aur hawa ko behtar tarike se sancharit karne mein sahayak hote hain. Isse room thanda aur araamdayak mehsoos hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does west-facing sunlight feel strong?",
+      "a": "West-facing sunlight feel strong hota hai kyunki dopahar ke samay suraj sabse ooncha hota hai aur iska prakash seedha ghar ke andar aata hai, jisse garmi badh jaati hai. Isliye, west-facing windows par curtain ya shades lagane chahiye taaki garmi ko kam kiya ja sake."
+    },
+    {
+      "type": "probe",
+      "q": "How do plants help comfort?",
+      "a": "Paudhe hawa ko thanda karte hain aur hamein comfort feel karate hain, kyunki ve photosynthesis ke dauraan oxygen release karte hain aur garmi ko absorb karte hain. Isse ghar ke aaspaas ka mahaul thanda rehta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does airflow matter at night?",
+      "a": "Raaton mein airflow matter karta hai kyunki din bhar ghar mein garmi ikattha ho jaati hai, aur raat ko airflow se yeh garmi bahar nikalti hai, jisse ghar thanda rehta hai. Isse humein acchi neend aati hai aur ghar mein sukhad mahaul bana rahta hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Sunlight enters -> Walls/air heat up -> Ventilation moves air — what exactly happens at each step?",
+      "a": "Sunlight enters toh walls aur air garam ho jaate hain, phir ventilation ke through garam air move ho jaata hai aur uski jagah thandi air le leti hai, isse ghar thanda rehta hai. Is process mein convection current bhi banate hain jo garam air ko upar uthate hain aur thandi air ko neeche laate hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Ghar ko thanda rakhne ke liye hume windows par curtains lagane chahiye, plants lagane chahiye, aur din mein windows band karke rakhen chahiye, jisse garmi bahar na aaye. Isse ghar thanda rahega aur hume relief milega."
+    },
+    {
+      "type": "application",
+      "q": "Which helps reduce afternoon heating?",
+      "a": "Dopahar ke garmi ko kam karne mein madad karta hai window ke paas curtain ya shades lagana, jo suraj ki seedhi kiranon ko andar aane se rokta hai. Isse ghar thanda rehta hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which helps reduce afternoon heating?",
+      "options": [
+        "Open curtains to harsh sun all day",
+        "Add shade and improve airflow",
+        "Block all air permanently",
+        "Place electronics under sunlight"
+      ],
+      "correct": "Add shade and improve airflow",
+      "hint": "Shade reduces incoming radiant heat and airflow helps remove warm air or cool the body.",
+      "answer": "Shade reduces incoming radiant heat and airflow helps remove warm air or cool the body."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if direct sunlight becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if direct sunlight becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Keeping a House Cool shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Keeping a House Cool, one or more factors such as direct sunlight change what we observe. The idea connects Physics, Math, Biology, Chemistry and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Keeping a House Cool connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Comfort depends on sunlight, heat transfer, air movement, building materials, and the body’s response to temperature.",
+    "hinglish": "Dekh yaar — Keeping a House Cool mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A room with direct afternoon sun becomes hot. Curtains reduce sunlight, windows allow airflow, and fans move air across skin."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do shade, curtains, windows, and fans change how cool a room feels. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more direct sunlight.",
+    "class_6_8": "Explain the cause-effect chain: Sunlight enters → Walls/air heat up → Ventilation moves air → Body loses heat.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Biology, Chemistry."
+  },
+  "subject_lenses": {
+    "Physics": "Heat transfer, radiation, convection, airflow.",
+    "Math": "Compare room temperature at different times; estimate shaded area.",
+    "Biology": "Sweating and skin cooling help body temperature control.",
+    "Chemistry": "Building materials absorb and release heat differently."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Keeping a House Cool ka concept aur jagah bhi kaam karta hai: Home design, Classrooms, Bus stops.",
+      "related_concepts": [],
+      "career_connection": "Architecture, civil engineering, energy auditing, climate design."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj keeping a house cool se related kuch notice karo.",
+    "Why do shade, curtains, windows, and fans change how cool a room feels?",
+    "What would happen if direct sunlight becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Vishwamitra",
+    "connection": "In ancient Indian texts such as the Rigveda, Vishwamitra is known for his wisdom and ingenuity. The concept of keeping a house cool can be connected to the traditional Indian practice of using shading, ventilation, and building materials to maintain a comfortable indoor climate, much like the design of ancient Indian homes and temples that incorporated such features to mitigate the effects of sunlight and heat.",
+    "story_hook": "Imagine you are an apprentice to the great sage Vishwamitra, tasked with designing a cool and comfortable hermitage for him in the scorching desert. As you explore the ancient texts and consult with the wise sage, you discover the secrets of using shade, wind, and water to keep the hermitage cool, and you get to apply these principles to create a cozy oasis in the desert.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Keeping a House Cool",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Compare temperature or comfort in a shaded and sunny area at home. Do not climb or modify electrical fans/wiring."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "heat_transfer",
+    "comparison",
+    "body_cooling",
+    "materials"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-home-cooling-shade-ventilation",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Use shade, curtains, plants, ventilation, and efficient fan use before relying only on air conditioning.",
+  "career_connections": "Architecture, civil engineering, energy auditing, climate design.",
+  "why_matters": "This links science to comfort, energy saving, and climate-aware homes.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

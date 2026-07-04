@@ -1,0 +1,212 @@
+{
+  "concept_id": "physics_energy",
+  "title": "Energy",
+  "icon": "⚡",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "work",
+    "motion",
+    "force"
+  ],
+  "intro_hook": "When a battery runs a fan, where does the battery’s energy go?",
+  "interest_hooks": {
+    "sports": "Jab ek football player ball ko zor se kick karta hai, uski body ki energy kahan chali jaati hai?",
+    "gaming": "Jab tum controller charge karte ho aur phir game khelte ho, toh battery ki energy kahan disappear hoti hai?",
+    "music": "Jab tum drum bajate ho, toh tumhari hath ki energy achanak awaz mein kaise badal jati hai?",
+    "default": "When a battery runs a fan, where does the battery’s energy go?"
+  },
+  "big_idea": "Energy is the ability to do work and appears in many forms and transformations.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Energy lets changes happen.",
+    "process": "Moving objects, raised objects, food, batteries, and hot objects can all store or transfer energy. Energy flow arrows from source to useful output and losses.",
+    "result": "Machines, food, electricity, heat, renewable energy."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Energy lets changes happen.",
+    "Visual: Energy flow arrows from source to useful output and losses.",
+    "Formal: Energy is a scalar quantity associated with the capacity to do work.",
+    "Application: Machines, food, electricity, heat, renewable energy."
+  ],
+  "indian_analogies": [
+    "A phone battery, torch, and toy car all show energy changing form rather than disappearing.",
+    "Battery ki chemical energy electrical energy banti hai, phir fan blades ki motion energy, aur thoda heat/sound mein chali jaati hai."
+  ],
+  "interest_analogies": {
+    "sports": "Jaise ek bowler ball fainkne se pehle daudta hai (kinetic energy) aur phir woh energy ball ko de deta hai — energy disappear nahi hoti, bas transfer hoti hai.",
+    "gaming": "Gaming laptop jab garam ho jata hai, toh matlab battery ki electrical energy sirf screen (light) aur processing mein nahi, balki heat energy mein bhi convert ho rahi hai.",
+    "music": "Guitar string ko khichne pe usme potential energy aati hai, aur chodne pe woh kinetic energy bankar sound energy mein convert hoti hai.",
+    "default": "A phone battery, torch, and toy car all show energy changing form rather than disappearing. Battery ki chemical energy electrical energy banti hai, phir fan blades ki motion energy, aur thoda heat/sound mein chali jaati hai."
+  },
+  "misconceptions": [
+    {
+      "id": "mis_physics_energy_01",
+      "belief": "energy disappears when used",
+      "why_common": "I thought energy disappears when something stops or slows.",
+      "probe": "When a fan runs from a battery, where does the battery's energy go?",
+      "repair": "Use ball height, motion, heat, and sound as energy changes. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use ball height, motion, heat, and sound as energy changes.",
+      "follow_up": "Give a changed energy situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use energy-transfer maps before formulas.",
+      "mastery_signal": "Learner can explain why “energy disappears when used” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: energy disappears when",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_energy_02",
+      "belief": "energy and force are the same",
+      "why_common": "I thought energy disappears when something stops or slows.",
+      "probe": "When a fan runs from a battery, where does the battery's energy go?",
+      "repair": "Use ball height, motion, heat, and sound as energy changes. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use ball height, motion, heat, and sound as energy changes.",
+      "follow_up": "Give a changed energy situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use energy-transfer maps before formulas.",
+      "mastery_signal": "Learner can explain why “energy and force are the same” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: energy and force",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_energy_03",
+      "belief": "only living things have energy",
+      "why_common": "I thought energy disappears when something stops or slows.",
+      "probe": "When a fan runs from a battery, where does the battery's energy go?",
+      "repair": "Use ball height, motion, heat, and sound as energy changes. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use ball height, motion, heat, and sound as energy changes.",
+      "follow_up": "Give a changed energy situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use energy-transfer maps before formulas.",
+      "mastery_signal": "Learner can explain why “only living things have energy” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: only living things",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "When a battery runs a fan, where does the battery’s energy go?"
+    },
+    {
+      "type": "probe",
+      "q": "What type of energy is stored in a battery?"
+    },
+    {
+      "type": "probe",
+      "q": "What moves in the fan when it runs?"
+    },
+    {
+      "type": "probe",
+      "q": "Besides motion, what unwanted outputs do you notice: heat or sound?",
+      "a": "Jab hum koi kaam karte hain, toh saath mein garmi aur awaaz bhi utpann hoti hai, jaise ki jab hum cycle chalate hain toh pedal dabaane par garmi aur awaaz dono mahsoos hoti hai. Isse hum samajh sakte hain ki urja ke saath-saath garmi aur awaaz bhi utpann hoti hai."
+    },
+    {
+      "type": "application",
+      "q": "When a ball falls from a height, how does its energy change from top to bottom?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Explain why “energy is transformed” is better than “energy is destroyed.”"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "When a fan runs from a battery, where does the battery's energy go?",
+      "hint": "Energy lets changes happen.",
+      "answer": "The battery’s chemical energy transforms into electrical energy, then kinetic energy of fan blades, plus heat and sound."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "When a ball falls from a height, how does its energy change from top to bottom?",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires tracing energy source, useful output, and losses without claiming disappearance."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "The battery’s stored chemical energy becomes electrical energy, then motion of the fan blades, plus some heat and sound.",
+    "visual": "Draw energy arrows: battery → circuit → motor → rotating blades, with small arrows to heat and sound losses.",
+    "real_life": "A phone battery, torch, and toy car all show energy changing form rather than disappearing.",
+    "formal": "Energy is conserved; in this system it is transformed from chemical to electrical to kinetic energy, with thermal and sound transfers.",
+    "socratic": "What is the source? What useful output do we want? What extra outputs happen?",
+    "mistake_analysis": "The mistake is saying energy is “used up” as if destroyed. In science, energy is transferred or transformed.",
+    "hinglish": "Battery ki chemical energy electrical energy banti hai, phir fan blades ki motion energy, aur thoda heat/sound mein chali jaati hai.",
+    "challenge": "Trace the energy transformations in a solar-powered calculator.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Energy lets changes happen.",
+    "standard": "Moving objects, raised objects, food, batteries, and hot objects can all store or transfer energy.",
+    "advanced": "Energy is a scalar quantity associated with the capacity to do work.",
+    "fast_learner": "Trace the energy transformations in a solar-powered calculator."
+  },
+  "subject_lenses": {
+    "Physics": "Machines, food, electricity, heat, renewable energy."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Energy ka use real life mein: Machines, food, electricity, heat, renewable energy.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj energy ka ek real-life example dhundo.",
+    "A phone battery, torch, and toy car all show energy changing form rather than disappearing."
+  ],
+  "indian_legacy": {
+    "scientist": "Acharya Kanad",
+    "connection": "Acharya Kanad, an ancient Indian philosopher and scientist, is known for his atomic theory, which describes the fundamental nature of matter and energy. His work laid the foundation for understanding the concept of energy and its various forms, which is still relevant today in the field of physics, particularly in the concept of energy as the ability to do work and its transformations.",
+    "story_hook": "Imagine you are a young apprentice to Acharya Kanad, learning about the tiny building blocks of the universe and how they hold the key to understanding energy. As you explore the ancient Indian texts and theories, you stumble upon the fascinating idea that everything in the world is made up of tiny particles called 'anu', which are in constant motion, much like the different forms of energy that surround us.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Energy",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "A phone battery, torch, and toy car all show energy changing form rather than disappearing."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-physics_energy",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires tracing energy source, useful output, and losses without claiming disappearance.",
+  "session_type": "science",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_physics_energy_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

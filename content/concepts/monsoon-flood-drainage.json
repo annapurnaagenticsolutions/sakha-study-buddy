@@ -1,0 +1,230 @@
+{
+  "concept_id": "monsoon-flood-drainage",
+  "title": "Monsoon, Flooding, and Drainage",
+  "icon": "☔",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Chemistry",
+    "Biology"
+  ],
+  "place": "City + Weather",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "Why do some roads flood quickly during heavy rain while others drain faster?",
+  "big_idea": "Urban flooding involves rainfall intensity, slope, drainage capacity, soil absorption, blocked drains, surface materials, and public health risks.",
+  "story": "During heavy rain, water reaches the ground faster than drains can remove it. Plastic waste blocks flow, concrete reduces absorption, and stagnant water creates health concerns.",
+  "cause_process_result": {
+    "cause": "Heavy rain",
+    "process": "Runoff forms → Drain capacity tested → Blockage/low slope slows flow",
+    "result": "Flooding risk rises"
+  },
+  "flow": [
+    "Heavy rain",
+    "Runoff forms",
+    "Drain capacity tested",
+    "Blockage/low slope slows flow",
+    "Flooding risk rises"
+  ],
+  "whiteboard": [
+    "Cause: Heavy rain",
+    "  -> Runoff forms → Drain capacity tested → Blockage/low slope slows flow",
+    "Result: Flooding risk rises"
+  ],
+  "indian_analogies": [
+    "City + Weather mein yeh dekhte hain: Monsoon, Flooding, and Drainage.",
+    "City roads"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Flooding is caused only by rain. Drainage design, waste blockage, surfaces, and water bodies also matter.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Monsoon, Flooding, and Drainage mein Physics, Math, Chemistry, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do some roads flood quickly during heavy rain while others drain faster?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do some roads flood quickly during heavy rain while others drain faster?",
+      "a": "Bharat mein, kuch sadakon par heavy rain ke dauran jaldi se flooding ho jata hai kyunki unke paas acchi drainage system nahi hoti, jisse paani jaldi se nikal nahi pata. Iske ulat, kuch sadakon par acchi drainage system hoti hai, jaise ki nalaye aur sewerage system, jisse paani jaldi se nikal jaata hai. Isliye,"
+    },
+    {
+      "type": "probe",
+      "q": "Why do wetlands reduce flooding?",
+      "a": "Wetlands paani ko absorb karte hain, jisse flooding kam hota hai, kyunki ve paani ko dhire-dhire ground mein soak kar dete hain. Isse paani ki tezi kam ho jati hai aur flooding ki sambhavana bhi kam ho jati hai. Wetlands ke kaaran paani ki flow ka control hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does concrete increase runoff?",
+      "a": "Concrete se runoff badh jata hai kyunki yeh paani ko absorb nahi karta, jiske kaaran paani surface par hi rehta hai aur runoff ban jata hai, isse flooding ki sambhavana bhi badh jati hai. Iske alawa, concrete ki satah par paani ko rukne ki kshamta kam hoti hai, jisse yeh jaldi se bahar nikal jata hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why is floodwater unsafe?",
+      "a": "Floodwater unsafe hai kyunki ismein kai tarah ke germs, bacteria aur viruses hote hain jo humein bimaar kar sakte hain, jaise ki jaundice, diarrhea aur typhoid. Ismein shaayad kuch zehreela chemicals bhi ho sakte hain jo paani ko aur bhi ganda banate hain. Isliye, floodwater ko peene ya isme nahane se"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Heavy rain -> Runoff forms -> Drain capacity tested — what exactly happens at each step?",
+      "a": "Heavy rain ke baad, runoff forms jismein paani dharti par daudta hai, phir yeh runoff drain mein jaata hai jahan uski capacity test hoti hai, agar drain ki capacity kam ho toh flooding ho sakta hai. Is process mein paani ki matra aur drain ki capacity ka bahut mahatva hota hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Monsoon ka matlab hai barish ka season, jismein bahut paani girta hai, aur kabhi-kabhi yeh paani itna zyada ho jata hai ki flooding ho jata hai, isliye hume drainage system ki zarurat hoti hai taaki paani na jamaye. Isse hume apne aas-paas ke area ko saaf rakhne mein madad milti hai."
+    },
+    {
+      "type": "application",
+      "q": "Which action can reduce local flooding risk?",
+      "a": "Paudhon ko lagana aur naaliyon ko saaf rakhna local flooding risk ko kam kar sakta hai, kyunki paudhe paani ko absorb karte hain aur saaf naaliyan paani ko aasani se bahar nikaalti hain. Isse paani ki nikasi mein madad milti hai aur flooding ki sambhavana kam hoti hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which action can reduce local flooding risk?",
+      "options": [
+        "Throw plastic into drains",
+        "Keep drains clear and improve rainwater paths",
+        "Cover all soil with concrete",
+        "Ignore stagnant water"
+      ],
+      "correct": "Keep drains clear and improve rainwater paths",
+      "hint": "Clear drainage paths and planned water absorption/storage reduce flooding risk.",
+      "answer": "Clear drainage paths and planned water absorption/storage reduce flooding risk."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if rain intensity becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if rain intensity becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Monsoon, Flooding, and Drainage shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Monsoon, Flooding, and Drainage, one or more factors such as rain intensity change what we observe. The idea connects Physics, Math, Chemistry, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Monsoon, Flooding, and Drainage connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Urban flooding involves rainfall intensity, slope, drainage capacity, soil absorption, blocked drains, surface materials, and public health risks.",
+    "hinglish": "Dekh yaar — Monsoon, Flooding, and Drainage mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "During heavy rain, water reaches the ground faster than drains can remove it. Plastic waste blocks flow, concrete reduces absorption, and stagnant water creates health concerns."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do some roads flood quickly during heavy rain while others drain faster. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more rain intensity.",
+    "class_6_8": "Explain the cause-effect chain: Heavy rain → Runoff forms → Drain capacity tested → Blockage/low slope slows flow.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Chemistry, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Gravity-driven flow, pressure, runoff, friction in channels.",
+    "Math": "Rainfall rate, drainage capacity, area, slope, and risk maps.",
+    "Chemistry": "Polluted floodwater can carry chemicals, sewage, and contaminants.",
+    "Biology": "Stagnant water can support mosquitoes and water-borne disease risks."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Monsoon, Flooding, and Drainage ka concept aur jagah bhi kaam karta hai: City roads, Apartment basements, Storm drains.",
+      "related_concepts": [],
+      "career_connection": "Civil engineering, hydrology, disaster management, public health, urban analytics."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj monsoon, flooding, and drainage se related kuch notice karo.",
+    "Why do some roads flood quickly during heavy rain while others drain faster?",
+    "What would happen if rain intensity becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Varahamihira",
+    "connection": "Varahamihira, an ancient Indian scholar, wrote the book Brihat-Samhita, which contains descriptions of weather patterns, including monsoons and floods. His work highlights the importance of understanding natural phenomena to mitigate the impact of flooding, which is still relevant today in the context of urban flooding, drainage capacity, and public health risks.",
+    "story_hook": "Imagine living in a city where the ancient drains designed by skilled engineers like those inspired by Varahamihira's works could handle even the heaviest of monsoon rains, keeping everyone safe and dry. Let's explore how the principles of the past can help us design better drainage systems for the future, just like Varahamihira's observations helped our ancestors.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Monsoon, Flooding, and Drainage",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe water flow on a safe sloped surface using a small cup of water. Do not go near floodwater, open drains, or traffic during rain."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "flow",
+    "rate_and_capacity",
+    "contamination",
+    "disease_prevention"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-monsoon-flood-drainage",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Do not block drains, avoid floodwater, report hazards, and support rainwater harvesting/green spaces.",
+  "career_connections": "Civil engineering, hydrology, disaster management, public health, urban analytics.",
+  "why_matters": "It helps students understand monsoon events as a systems problem involving science, design, behaviour, and governance.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

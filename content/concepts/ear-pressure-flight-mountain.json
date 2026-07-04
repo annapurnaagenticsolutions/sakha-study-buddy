@@ -1,0 +1,230 @@
+{
+  "concept_id": "ear-pressure-flight-mountain",
+  "title": "Ear Pressure in Flights and Mountains",
+  "icon": "👂",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Biology",
+    "Math",
+    "Chemistry"
+  ],
+  "place": "Travel + Body",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "Why do ears feel blocked during flights or mountain travel?",
+  "big_idea": "Changing air pressure creates pressure differences across the eardrum. The Eustachian tube helps equalize pressure between middle ear and throat.",
+  "story": "During takeoff, landing, or climbing hills, outside air pressure changes. The ear may feel blocked until pressure equalizes.",
+  "cause_process_result": {
+    "cause": "Altitude changes",
+    "process": "Outside pressure changes → Eardrum feels pressure difference → Eustachian tube opens",
+    "result": "Ear pressure equalizes"
+  },
+  "flow": [
+    "Altitude changes",
+    "Outside pressure changes",
+    "Eardrum feels pressure difference",
+    "Eustachian tube opens",
+    "Ear pressure equalizes"
+  ],
+  "whiteboard": [
+    "Cause: Altitude changes",
+    "  -> Outside pressure changes → Eardrum feels pressure difference → Eustachian tube opens",
+    "Result: Ear pressure equalizes"
+  ],
+  "indian_analogies": [
+    "Travel + Body mein yeh dekhte hain: Ear Pressure in Flights and Mountains.",
+    "Flights"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is thinking the ear is blocked by dirt every time. Often it is pressure difference, not dirt.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Ear Pressure in Flights and Mountains mein Physics, Biology, Math, Chemistry sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do ears feel blocked during flights or mountain travel?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do ears feel blocked during flights or mountain travel?",
+      "a": "Ears feel blocked during flights or mountain travel kyunki hawa ki dabaav badal jaati hai, jisse ear drum par dabaav padta hai aur humein blocked feel hota hai. Yah pressure badalne se ear mein gas fill ho jaati hai, jo blockage ka kaaran banati hai. Isliye humein kabhi-kabhi chewing gum ya gilli danda khelne ki tarah kaan khinchna padta"
+    },
+    {
+      "type": "probe",
+      "q": "Why does landing often hurt more?",
+      "a": "Landing par dard adhik hota hai kyonki jab plane neeche aata hai to bahar ka dabav badh jaata hai aur hamare kaan ke andar ka hawa dabav bahar ka dabav ke barabar nahi ho paata, isliye dard mehsoos hota hai. Ismein hamaare kaan ke parde par zyada dabav padta hai."
+    },
+    {
+      "type": "probe",
+      "q": "How does swallowing help?",
+      "a": "Swallowing karte samay humare kaan ke peeche ke hisse mein pressure balance hota hai, jisse ear pressure kam ho jata hai. Jab hum swallow karte hain toh yeh eustachian tube ko khulta hai, jisse hawa andar-baahar aa-sakta hai. Isse ear pressure normal ho jata hai aur discomfort kam ho jata hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why should we avoid poking ears?",
+      "a": "Humen ear ko poke karna chahiye nahi kyunki isse ear drum ko nuksaan ho sakta hai, aur humen ear pressure ko set hone dena chahiye taaki wo apne aap adjust ho jaye. Isse humen ear mein dard ya infection ka samna nahi karna padta."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Altitude changes -> Outside pressure changes -> Eardrum feels pressure difference — what exactly happens at each step?",
+      "a": "Jab altitude badalta hai, to bahar ka dabav bhi badal jata hai, jisse eardrum mein dabav ka antar mehsoos hota hai, aur yeh pressure difference humein takleef pahuncha sakta hai. Iske liye humein khaney ya gillie ki zaroorat hoti hai taaki eardrum ka dabav sahi ho jaye. Isse humein relief milta hai"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Jab hum flight mein hote hain ya pahad par chadhte hain, to hawa ki dabav badal jaati hai, jisse kaan mein dard ho sakta hai, isliye hum ko thodi thodi der mein kaan ko band karke phir khulna chahiye taaki dabav sahi ho jaye."
+    },
+    {
+      "type": "application",
+      "q": "Which safe action may help during flight landing?",
+      "a": "Udaharan ke liye, jab flight landing ho raha hota hai, to humein gummy ya toffee chabana chahiye ya mouth khula rakhna chahiye, jisse ear pressure kam ho jata hai. Isse ear mein dard ya discomfort kam hota hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which safe action may help during flight landing?",
+      "options": [
+        "Poke the ear",
+        "Swallow or yawn gently",
+        "Ignore severe pain always",
+        "Use sharp objects"
+      ],
+      "correct": "Swallow or yawn gently",
+      "hint": "Swallowing or yawning can help open the Eustachian tube. Severe pain needs medical guidance.",
+      "answer": "Swallowing or yawning can help open the Eustachian tube. Severe pain needs medical guidance."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if altitude change becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if altitude change becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Ear Pressure in Flights and Mountains shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Ear Pressure in Flights and Mountains, one or more factors such as altitude change change what we observe. The idea connects Physics, Biology, Math, Chemistry and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Ear Pressure in Flights and Mountains connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Changing air pressure creates pressure differences across the eardrum. The Eustachian tube helps equalize pressure between middle ear and throat.",
+    "hinglish": "Dekh yaar — Ear Pressure in Flights and Mountains mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "During takeoff, landing, or climbing hills, outside air pressure changes. The ear may feel blocked until pressure equalizes."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do ears feel blocked during flights or mountain travel. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more altitude change.",
+    "class_6_8": "Explain the cause-effect chain: Altitude changes → Outside pressure changes → Eardrum feels pressure difference → Eustachian tube opens.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Biology, Math, Chemistry."
+  },
+  "subject_lenses": {
+    "Physics": "Gas pressure changes with altitude and affects the eardrum.",
+    "Biology": "Ear structures and the Eustachian tube protect hearing and balance.",
+    "Math": "Compare altitude change, time, and pressure trend qualitatively.",
+    "Chemistry": "Air is a mixture of gases; gas behaviour helps explain pressure."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Ear Pressure in Flights and Mountains ka concept aur jagah bhi kaam karta hai: Flights, Hill stations, Mountain roads.",
+      "related_concepts": [],
+      "career_connection": "Aviation medicine, physiology, acoustics, travel health."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj ear pressure in flights and mountains se related kuch notice karo.",
+    "Why do ears feel blocked during flights or mountain travel?",
+    "What would happen if altitude change becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Susruta",
+    "connection": "The ancient Indian surgeon Susruta, in his seminal work Susruta Samhita, described the anatomy of the ear and its functions. His understanding of the ear's structure, including the Eustachian tube, laid the foundation for later Indian and global medical research, including the study of ear pressure regulation, which is crucial for understanding the effects of changing air pressure on the human ear, as experienced during flights and mountain ascents.",
+    "story_hook": "Imagine you're a young adventurer climbing the Himalayas, just like the great Indian sage and rishi, Narada, who traveled to the mountains in search of knowledge, and as you ascend, you feel a strange sensation in your ears, which is similar to what Susruta studied centuries ago. As you learn about ear pressure and the Eustachian tube, you'll uncover the secrets behind this sensation and how your body naturally adapts to changing environments.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Ear Pressure in Flights and Mountains",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Do not insert objects into ears. Discuss flight ear discomfort with an adult or doctor, especially if pain is severe."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "pressure",
+    "ear_structure",
+    "gases",
+    "change_comparison"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-ear-pressure-flight-mountain",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Use gentle swallowing/yawning, avoid unsafe ear poking, and seek help for severe pain.",
+  "career_connections": "Aviation medicine, physiology, acoustics, travel health.",
+  "why_matters": "This topic connects travel experience with body science and safety.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "concept_id": "clothes-drying-sun-wind",
+  "title": "Why Clothes Dry Faster in Sun and Wind",
+  "icon": "👕",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Physics",
+    "Chemistry",
+    "Math"
+  ],
+  "place": "Home + Weather",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why do wet clothes dry faster in sunlight and moving air?",
+  "big_idea": "Drying happens when water evaporates from cloth. Heat, wind, surface area, and humidity affect evaporation speed.",
+  "story": "Wet clothes on a line dry faster on sunny, breezy days than in closed, humid rooms.",
+  "cause_process_result": {
+    "cause": "Wet cloth",
+    "process": "Heat adds energy → Water evaporates → Wind carries vapour away",
+    "result": "Cloth becomes dry"
+  },
+  "flow": [
+    "Wet cloth",
+    "Heat adds energy",
+    "Water evaporates",
+    "Wind carries vapour away",
+    "Cloth becomes dry"
+  ],
+  "whiteboard": [
+    "Cause: Wet cloth",
+    "  -> Heat adds energy → Water evaporates → Wind carries vapour away",
+    "Result: Cloth becomes dry"
+  ],
+  "indian_analogies": [
+    "Home + Weather mein yeh dekhte hain: Why Clothes Dry Faster in Sun and Wind.",
+    "Laundry"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is thinking only sunlight matters. Airflow, humidity, and surface area also matter.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Why Clothes Dry Faster in Sun and Wind mein Physics, Chemistry, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do wet clothes dry faster in sunlight and moving air?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do wet clothes dry faster in sunlight and moving air?",
+      "a": "Wet clothes jaldi se dry hote hain sunlight aur moving air mein kyunki sunlight mein garmi hoti hai jo paani ko vapour mein badal deti hai aur moving air vapour ko le jaati hai, jisse clothes jaldi dry ho jaate hain. Is process ko evaporation kehte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Why does folding slow drying?",
+      "a": "Folding se kapde andar se band ho jaate hain, jisse hawa aur dhoop unke andar tak nahin pahunch paati, isliye folding se sookhne ki gati dheemi ho jaati hai. Isse kapde ke andar ki garmi aur aaram hawa bahar nahin nikal paati."
+    },
+    {
+      "type": "probe",
+      "q": "Why does wind help?",
+      "a": "Wind se clothes jaldi sukhtey hain kyunki hawa mein maujood oxygen aur warm air clothes ke paani ko jaldi evaporate kar dete hain, jisse clothes jaldi dry ho jaate hain. Isse clothes mein moisture kam ho jaata hai aur wo jaldi sukhte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Why are rainy days harder for drying?",
+      "a": "Barish ke din mein kapde sukhaane mein mushkil hoti hai kyonki hawa mein namii adhik hoti hai aur suraj ki garmi bhi kam hoti hai, isliye kapde dheere se sukhte hain. Iske alaava, hawa bhi shaant rehti hai jo kapde ko sukhaane mein madad nahin karti."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Wet cloth -> Heat adds energy -> Water evaporates — what exactly happens at each step?",
+      "a": "Pehle step mein, wet cloth mein se water nikalne ke liye heat ki zarurat hoti hai, toh jab hum cloth ko dho ke sun mein rakhte hain toh heat adds energy. Is energy ke karan water molecules activate ho jaate hain aur evaporate hone lagte hain. Jab yeh water molecules evaporate hote hain toh unka state badal kar gas mein change ho jaata hai aur cloth dry ho jaata hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Dekho, jab hum kapde dhoke sun mein sukhaate hain, to wo jaldi sukhtey hain kyunki sun ki garmi aur hawa kapde se paani ko sookh leti hai, isse kapde jaldi dry ho jaate hain. Isse hume pata chalta hai ki sun aur hawa milkar kapde ko jaldi sukha dete hain."
+    },
+    {
+      "type": "application",
+      "q": "Which condition usually dries clothes faster?",
+      "a": "Dhoop aur hawa ki wajah se kapde jaldi sukhtey hain, isliye dhoop aur hawa dono milne par kapde sabse jaldi sukhtey hain. Is condition mein hawa bhi kapdon ko andar ki gileepan ko bahar nikalti hai aur dhoop usko garam karke sukha deti hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which condition usually dries clothes faster?",
+      "options": [
+        "Folded wet cloth in a closed room",
+        "Open cloth in sun and breeze",
+        "Wet cloth in a plastic bag",
+        "No airflow and high humidity"
+      ],
+      "correct": "Open cloth in sun and breeze",
+      "hint": "Heat gives energy for evaporation and airflow removes water vapour from near the cloth.",
+      "answer": "Heat gives energy for evaporation and airflow removes water vapour from near the cloth."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if sunlight/heat becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if sunlight/heat becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Why Clothes Dry Faster in Sun and Wind shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Why Clothes Dry Faster in Sun and Wind, one or more factors such as sunlight/heat change what we observe. The idea connects Physics, Chemistry, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Why Clothes Dry Faster in Sun and Wind connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Drying happens when water evaporates from cloth. Heat, wind, surface area, and humidity affect evaporation speed.",
+    "hinglish": "Dekh yaar — Why Clothes Dry Faster in Sun and Wind mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "Wet clothes on a line dry faster on sunny, breezy days than in closed, humid rooms."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do wet clothes dry faster in sunlight and moving air. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more sunlight/heat.",
+    "class_6_8": "Explain the cause-effect chain: Wet cloth → Heat adds energy → Water evaporates → Wind carries vapour away.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Chemistry, Math."
+  },
+  "subject_lenses": {
+    "Physics": "Heat transfer, airflow, and evaporation control drying rate.",
+    "Chemistry": "Water molecules leave liquid phase and become vapour.",
+    "Math": "Compare drying time across shade, sun, fan, and folded/open cloth."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Why Clothes Dry Faster in Sun and Wind ka concept aur jagah bhi kaam karta hai: Laundry, Rainy season, Sports clothes.",
+      "related_concepts": [],
+      "career_connection": "Textile care, meteorology, home design, materials science."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj why clothes dry faster in sun and wind se related kuch notice karo.",
+    "Why do wet clothes dry faster in sunlight and moving air?",
+    "What would happen if sunlight/heat becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Varahamihira",
+    "connection": "Varahamihira, a renowned Indian scholar from the 6th century, wrote about the effects of wind, heat, and humidity on various natural phenomena in his book 'Brihat-Samhita'. His work laid the foundation for understanding the principles of evaporation, which is crucial in explaining why clothes dry faster in the sun and wind. The ancient Indians, including Varahamihira, observed and documented the role of environmental factors in everyday life, including the drying of clothes, which is still a relevant concept today.",
+    "story_hook": "Imagine you are a young apprentice to Varahamihira, tasked with drying a large quantity of clothes for the royal family, and you need to figure out the best way to do it quickly. As you observe the clothes drying faster when hung outside on a sunny and windy day, you begin to wonder about the magic behind this phenomenon and start to unravel the secrets of evaporation.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Why Clothes Dry Faster in Sun and Wind",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Compare two small wet cloth pieces: one spread open, one folded. Keep away from electrical devices and ask an adult before using fans."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "evaporation",
+    "water_molecules",
+    "drying_time_comparison"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-clothes-drying-sun-wind",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Spread clothes open, improve ventilation, and avoid unsafe indoor drying near electrical equipment.",
+  "career_connections": "Textile care, meteorology, home design, materials science.",
+  "why_matters": "This topic explains a familiar household activity using weather and matter concepts.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

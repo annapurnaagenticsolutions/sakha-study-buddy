@@ -1,0 +1,223 @@
+{
+  "concept_id": "thermometer-fever-check",
+  "title": "Thermometer and Fever Check",
+  "icon": "🌡️",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Biology",
+    "Physics",
+    "Math"
+  ],
+  "place": "Home + Health",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "How does a thermometer help us decide whether the body may have fever?",
+  "big_idea": "A thermometer measures body temperature. The number must be read carefully and used with symptoms and adult/medical guidance, not panic.",
+  "story": "A child feels warm. An adult uses a thermometer, waits correctly, reads the number, and decides whether rest, hydration, or medical advice is needed.",
+  "cause_process_result": {
+    "cause": "Body feels warm",
+    "process": "Measure temperature → Read number → Compare range",
+    "result": "Take safe action"
+  },
+  "flow": [
+    "Body feels warm",
+    "Measure temperature",
+    "Read number",
+    "Compare range",
+    "Take safe action"
+  ],
+  "whiteboard": [
+    "Cause: Body feels warm",
+    "  -> Measure temperature → Read number → Compare range",
+    "Result: Take safe action"
+  ],
+  "indian_analogies": [
+    "Home + Health mein yeh dekhte hain: Thermometer and Fever Check.",
+    "Home health check"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Feeling hot by touch is not the same as a measured temperature. Measurement gives better evidence.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Thermometer and Fever Check mein Biology, Physics, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "How does a thermometer help us decide whether the body may have fever?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does a thermometer help us decide whether the body may have fever?"
+    },
+    {
+      "type": "probe",
+      "q": "Why should we wait for the reading?",
+      "a": "Humen thermometer ko wait karne ke liye kahin hai kyunki usmein mercury ya alcohol ko thoda samay lagta hai temperature ko accurately measure karne mein, isse sahi reading mil sakti hai. Isse humein fever ki sahi jaankari milti hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why track temperature over time?"
+    },
+    {
+      "type": "probe",
+      "q": "What other symptoms matter?",
+      "a": "Body mein dard, sir dard, aur kamzori bhi fever ke saath mahatvapoorn lakshan hain, jo doctor ko pata lagane mein madad karte hain ki patient ko kya takleef hai. Bukhar ke saath-saath khansi, zukam, aur pet dard bhi dekhe ja sakte hain. In sabhi lakshanon ko dekhar doctor sahi ilaaj kar sakta"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Body feels warm -> Measure temperature -> Read number — what exactly happens at each step?",
+      "a": "Sabse pehle, body feels warm hota hai, phir hum temperature measure karte hain thermometer se, aur finally hum us par number read karte hain jo ki body ki exact temperature batata hai. Isse humein pata chalta hai ki body ki temperature kitni hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "What is the safest way to use a thermometer reading?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What is the safest way to use a thermometer reading?",
+      "options": [
+        "Ignore all symptoms",
+        "Read it carefully and inform an adult/doctor if needed",
+        "Use it as a toy",
+        "Assume one number explains everything"
+      ],
+      "correct": "Read it carefully and inform an adult/doctor if needed",
+      "hint": "Temperature is useful evidence, but decisions should consider symptoms, age, hydration, and proper adult or medical guidance.",
+      "answer": "Temperature is useful evidence, but decisions should consider symptoms, age, hydration, and proper adult or medical guidance."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if temperature reading becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if temperature reading becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Thermometer and Fever Check shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Thermometer and Fever Check, one or more factors such as temperature reading change what we observe. The idea connects Biology, Physics, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Thermometer and Fever Check connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. A thermometer measures body temperature. The number must be read carefully and used with symptoms and adult/medical guidance, not panic.",
+    "hinglish": "Dekh yaar — Thermometer and Fever Check mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A child feels warm. An adult uses a thermometer, waits correctly, reads the number, and decides whether rest, hydration, or medical advice is needed."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: How does a thermometer help us decide whether the body may have fever. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more temperature reading.",
+    "class_6_8": "Explain the cause-effect chain: Body feels warm → Measure temperature → Read number → Compare range.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Physics, Math."
+  },
+  "subject_lenses": {
+    "Biology": "Fever can be a body response to infection or illness.",
+    "Physics": "Temperature measurement uses thermal contact and sensor response.",
+    "Math": "Read numbers, compare normal and high values, and track changes over time."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Thermometer and Fever Check ka concept aur jagah bhi kaam karta hai: Home health check, Clinic visits, School sick room.",
+      "related_concepts": [],
+      "career_connection": "Medicine, nursing, biomedical engineering, public health, sports health."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj thermometer and fever check se related kuch notice karo.",
+    "How does a thermometer help us decide whether the body may have fever?",
+    "What would happen if temperature reading becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Charaka",
+    "connection": "Charaka, an ancient Indian Ayurvedic physician, discussed the importance of observing bodily symptoms, including temperature, to diagnose and treat diseases. His work, the Charaka Samhita, emphasizes the need for careful observation and consideration of multiple factors, including symptoms and medical guidance, when assessing a patient's condition, much like the careful use of a thermometer to measure body temperature.",
+    "story_hook": "Imagine you are a young apprentice to Charaka, learning the art of Ayurvedic medicine, and you stumble upon an ancient text that describes the concept of measuring body heat to diagnose illnesses. As you delve deeper into the text, you begin to understand the significance of using a thermometer to measure body temperature, just like Charaka used observational skills to assess his patients' conditions.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Thermometer and Fever Check",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Practice reading a digital thermometer display with adult supervision. Do not share mouth thermometers without cleaning and do not use broken glass thermometers."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "body_response",
+    "temperature",
+    "number_comparison",
+    "safe_decision"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-thermometer-fever-check",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Use correct measurement steps, drink water when appropriate, rest, and inform an adult rather than self-medicating.",
+  "career_connections": "Medicine, nursing, biomedical engineering, public health, sports health.",
+  "why_matters": "Students learn that health decisions need measurement, evidence, and responsible adult guidance.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

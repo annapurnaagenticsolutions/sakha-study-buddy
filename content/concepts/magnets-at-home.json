@@ -1,0 +1,227 @@
+{
+  "concept_id": "magnets-at-home",
+  "title": "Magnets at Home",
+  "icon": "🧲",
+  "class_band": [
+    1,
+    2,
+    3
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Chemistry"
+  ],
+  "place": "Home + School",
+  "level": "Foundation",
+  "prerequisites": [],
+  "intro_hook": "Why do magnets stick to some things but not to wood, plastic, or paper?",
+  "big_idea": "Magnets attract certain materials such as iron and steel. Testing different objects teaches observation, sorting, and material classification.",
+  "story": "A fridge magnet sticks to a steel door but not to a plastic bottle. The magnet is the same, but the material is different.",
+  "cause_process_result": {
+    "cause": "Magnet brought near object",
+    "process": "Material tested → Attraction or no attraction → Objects sorted",
+    "result": "Pattern explained"
+  },
+  "flow": [
+    "Magnet brought near object",
+    "Material tested",
+    "Attraction or no attraction",
+    "Objects sorted",
+    "Pattern explained"
+  ],
+  "whiteboard": [
+    "Cause: Magnet brought near object",
+    "  -> Material tested → Attraction or no attraction → Objects sorted",
+    "Result: Pattern explained"
+  ],
+  "indian_analogies": [
+    "Home + School mein yeh dekhte hain: Magnets at Home.",
+    "Fridge magnets"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common misconception is that magnets attract all metals. Many metals, such as aluminium or copper, are not strongly attracted to ordinary magnets.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Magnets at Home mein Physics, Math, Chemistry sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do magnets stick to some things but not to wood, plastic, or paper?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do magnets stick to some things but not to wood, plastic, or paper?",
+      "a": "Magnets stick to kuch cheezein jaise iron, steel aur nickel kyunki unmein magnetic properties hote hain, lekin ve wood, plastic ya paper se nahi chipte kyunki unmein aisi properties nahi hoti. Yeh magnets ke properties ke kaaran hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does distance matter?",
+      "a": "Distance matter karta hai kyunki magnet ki chumbakiya shakti door jaane par kam ho jati hai, isliye magnet ke prabhav ko mahsoos karne ke liye hume use kareeb rakhna padta hai. Jab hum magnet ko kisi cheez ke paas le jaate hain to uski chumbakiya shakti zyada mahsoos hoti hai. Isliye distance magnet ki ch"
+    },
+    {
+      "type": "probe",
+      "q": "Are all metals magnetic?",
+      "a": "Nahin, sab metals magnetic nahi hote, jaise ki copper, aluminium aur tin magnetic nahi hote, lekin iron, nickel aur cobalt magnetic hote hain. Yeh metals ke properties par nirbhar karta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Where are magnets hidden in machines?",
+      "a": "Magnets ghar ke machines mein chhupi hui hoti hain, jaise ki refrigerator, TV, aur computer mein. In machines mein magnets ko specific parts jaise ki door, screen, aur speaker mein use kiya jata hai. Isse machines ka proper function hota hai aur humein convenience milti hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Magnet brought near object -> Material tested -> Attraction or no attraction — what exactly happens at each step?",
+      "a": "Sabse pehle, magnet ko object ke paas laya jata hai, phir us material ka test kiya jata hai, aur phir dekha jata hai ki magnet us object ko attract karta hai ya nahi, isse humein pata chalta hai ki woh material chumbakiya hai ya nahi. Is prakriya mein, magnet ka chumbakiya kshetra object par kaam karta hai. Agar object"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Magnet ek aisa chij hai jo cheezon ko attract karta hai, jaise ki fridge par hum magnet lagate hain aur wo chipka rehta hai. Hum isse apne ghar mein fridge, almirah aur dusre jagah par use karte hain. Isse hum cheezon ko sahi jagah par rakh sakte hain aur wo khoye nahi."
+    },
+    {
+      "type": "application",
+      "q": "Which object is most likely to be attracted by a magnet?",
+      "a": "Ek chhota sa iron ka screw ya nail magnet ke dwara akarshit hone ki sabse adhik sambhavana hai kyunki iron magnet ko attract karta hai. Isliye, magnet iron objects ko attract karega."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which object is most likely to be attracted by a magnet?",
+      "options": [
+        "Wooden pencil",
+        "Plastic spoon",
+        "Steel paper clip",
+        "Rubber eraser"
+      ],
+      "correct": "Steel paper clip",
+      "hint": "Steel contains iron, so a steel paper clip is usually attracted by a magnet.",
+      "answer": "Steel contains iron, so a steel paper clip is usually attracted by a magnet."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if distance from object becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if distance from object becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Magnets at Home shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Magnets at Home, one or more factors such as distance from object change what we observe. The idea connects Physics, Math, Chemistry and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Magnets at Home connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Magnets attract certain materials such as iron and steel. Testing different objects teaches observation, sorting, and material classification.",
+    "hinglish": "Dekh yaar — Magnets at Home mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A fridge magnet sticks to a steel door but not to a plastic bottle. The magnet is the same, but the material is different."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do magnets stick to some things but not to wood, plastic, or paper. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more distance from object.",
+    "class_6_8": "Explain the cause-effect chain: Magnet brought near object → Material tested → Attraction or no attraction → Objects sorted.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Chemistry."
+  },
+  "subject_lenses": {
+    "Physics": "Magnetic force can pull some materials without touching them.",
+    "Math": "Count how many tested objects are magnetic and make groups.",
+    "Chemistry": "Different materials have different composition; iron-containing materials often respond."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Magnets at Home ka concept aur jagah bhi kaam karta hai: Fridge magnets, Compass basics, School boards.",
+      "related_concepts": [],
+      "career_connection": "Electrical engineering, recycling, motors, navigation, product design."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj magnets at home se related kuch notice karo.",
+    "Why do magnets stick to some things but not to wood, plastic, or paper?",
+    "What would happen if distance from object becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, discussed the concept of magnetism in his work Aryabhatiya. His understanding of the Earth's magnetic properties laid the foundation for further research in the field, which can be connected to the concept of magnets attracting certain materials, allowing students to explore and understand the properties of magnets at home.",
+    "story_hook": "Imagine you are a young apprentice to Aryabhata, tasked with discovering which objects in the village are attracted to a mysterious stone that sticks to iron tools. As you test different objects, you begin to unravel the secrets of magnetism and its role in the world around you.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Magnets at Home",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Test a magnet on safe household objects with adult supervision. Do not use magnets near phones, cards, watches, or medical devices."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "magnetism",
+    "materials",
+    "sorting_and_counting"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-magnets-at-home",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Test safely, sort materials, and avoid using magnets near sensitive devices.",
+  "career_connections": "Electrical engineering, recycling, motors, navigation, product design.",
+  "why_matters": "It helps young students see that material properties decide how objects behave.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 3,
+  "learning_track": [
+    "core"
+  ]
+}

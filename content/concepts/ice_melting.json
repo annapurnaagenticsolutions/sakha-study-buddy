@@ -1,0 +1,54 @@
+{
+  "concept_id": "ice_melting",
+  "title": "Why Ice Melts",
+  "subjects": [
+    "Science",
+    "Physics"
+  ],
+  "class_band": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "intro_hook": "Garmi mein glass ke bahar paani kahan se aata hai aur barf kyun pighalti hai? Kabhi socha hai?",
+  "big_idea": "Heat is energy. When ice (solid) gets heat from the surroundings, its particles move faster and break free, turning into water (liquid).",
+  "cause_process_result": {
+    "cause": "Heat from the room transfers to the cold ice.",
+    "process": "The water molecules in ice start vibrating faster because of the heat energy.",
+    "result": "The bonds holding them together break, and the solid ice turns into liquid water."
+  },
+  "whiteboard": [
+    "🧊 Ice (Solid) + 🔥 Heat = 💧 Water (Liquid)",
+    "",
+    "**Process:**",
+    "Solid Particles: [●][●][●] (Tightly packed)",
+    "⬇️ *Heat added*",
+    "Liquid Particles: [●] ~ [●] ~ [●] (Moving freely)",
+    "",
+    "**Formula:**",
+    "$$ Q = m \\cdot L_f $$",
+    "*(Heat required to melt ice)*"
+  ],
+  "indian_analogies": [
+    "Jaise bheed mein log shant khade hote hain (solid), aur phir DJ bajne par sab dance karne lagte hain aur idhar-udhar ghoomne lagte hain (liquid) — heat wahi DJ hai!"
+  ],
+  "misconceptions": [
+    {
+      "id": "mc_cold_leak",
+      "belief": "Ice leaks coldness into the water.",
+      "probe": "Kya sach mein coldness leak hoti hai, ya heat andar jaati hai?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": "Easy",
+      "q": "Agar hum barf ko blanket mein lapet dein, toh kya wo jaldi pighlegi ya der se?",
+      "hint": "Blanket heat ko rokta hai, jaise humein thand se bachata hai."
+    }
+  ],
+  "concept_difficulty_level": 7,
+  "learning_track": [
+    "core"
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "concept_id": "math_triangles_angles",
+  "title": "Triangles and Angles",
+  "icon": "📐",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Math"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "lines",
+    "basic angle types",
+    "addition"
+  ],
+  "intro_hook": "If two angles of a triangle are 60° and 70°, what is the third angle and why?",
+  "big_idea": "Triangles and angle properties build geometric reasoning and proof habits.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Angles measure turning or opening.",
+    "process": "The three inside angles of a triangle always add to 180°. Cut and rearrange triangle corners to form a straight line.",
+    "result": "Construction, architecture, navigation, trigonometry foundation."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Angles measure turning or opening.",
+    "Visual: Cut and rearrange triangle corners to form a straight line.",
+    "Formal: Interior angle sum of a triangle is 180° in Euclidean geometry.",
+    "Application: Construction, architecture, navigation, trigonometry foundation."
+  ],
+  "indian_analogies": [
+    "If three friends must share ₹180 and two already have ₹60 and ₹70, the third gets what remains: ₹50.",
+    "Triangle ke andar ke angles ka total 180° hota hai. 60 + 70 = 130, toh third angle 180 - 130 = 50°."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_math_triangles_angles_01",
+      "belief": "bigger side always means bigger angle without checking opposite relation",
+      "why_common": "I guessed the angle because the drawing looked that way.",
+      "probe": "If two angles of a triangle are 60° and 70°, what is the third and why?",
+      "repair": "Use a paper triangle tear-off activity to show the three angles form a straight line. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a paper triangle tear-off activity to show the three angles form a straight line.",
+      "follow_up": "Give a changed triangles angles situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use rule-based angle chasing before relying on diagram appearance.",
+      "mastery_signal": "Learner can explain why “bigger side always means bigger angle without checking opposite relation” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: bigger side bigger",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_triangles_angles_02",
+      "belief": "all triangles have equal angles",
+      "why_common": "I guessed the angle because the drawing looked that way.",
+      "probe": "If two angles of a triangle are 60° and 70°, what is the third and why?",
+      "repair": "Use a paper triangle tear-off activity to show the three angles form a straight line. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a paper triangle tear-off activity to show the three angles form a straight line.",
+      "follow_up": "Give a changed triangles angles situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use rule-based angle chasing before relying on diagram appearance.",
+      "mastery_signal": "Learner can explain why “all triangles have equal angles” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: all triangles have",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_triangles_angles_03",
+      "belief": "exterior angle is unrelated to interior angles",
+      "why_common": "I guessed the angle because the drawing looked that way.",
+      "probe": "If two angles of a triangle are 60° and 70°, what is the third and why?",
+      "repair": "Use a paper triangle tear-off activity to show the three angles form a straight line. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a paper triangle tear-off activity to show the three angles form a straight line.",
+      "follow_up": "Give a changed triangles angles situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use rule-based angle chasing before relying on diagram appearance.",
+      "mastery_signal": "Learner can explain why “exterior angle is unrelated to interior angles” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: exterior angle is",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "If two angles of a triangle are 60° and 70°, what is the third angle and why?",
+      "a": "Teesri angle ka pata lagane ke liye hum triangle mein angle jodne ka niyam use karte hain, jo kehta hai ki teeno angles ka yog 180° hota hai, isliye teesri angle 180° - 60° - 70° = 50° hogi. Yeh niyam humein triangle ke angles ke baare mein jaankari deta hai. Isliye, teesri angle"
+    },
+    {
+      "type": "probe",
+      "q": "What is the total of the three interior angles of any triangle?",
+      "a": "Kisi bhi triangle ke teen interior angles ka yog hamesha 180 degree hota hai, yeh ek nishchit niyam hai. Is niyam ka upyog karke hum kisi bhi triangle ke angles ki jaanch kar sakte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Add 60° and 70°.",
+      "a": "Hum 60° aur 70° ko jodte hain, toh humein 130° milta hai. Iska matlab hai ki 60° aur 70° ka yog 130° hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Subtract that sum from 180°.",
+      "a": "Humne pehle teeno angles ka sum nikala, ab us sum ko 180° se subtract karna hai, jisse humein ek naya angle mil jayega. Is prakriya se hum triangle ke sabhi angles ka maan pata kar sakte hain."
+    },
+    {
+      "type": "application",
+      "q": "A triangle has angles 45° and 65°. Find the third angle and explain the rule.",
+      "a": "Teesri angle ko dhundhne ke liye hum triangle mein angle jodne ka niyam use karte hain, jo kehta hai ki kisi bhi triangle ki sabhi angles ka yog 180° hota hai, isliye teesri angle 180° - 45° - 65° = 70° hogi. Is niyam ka upyog karke hum kisi bhi triangle ki gair-maane w"
+    },
+    {
+      "type": "teach_back",
+      "q": "Why do the three interior angles of a triangle always fit into 180°?",
+      "a": "Ek triangle mein teen interior angles hote hain aur ye sab milke 180 degree banate hain kyunki agar hum ek triangle ko ek line par rakhein aur usey fold karein toh ye teen angles ek seedhe line banate hain jo 180 degree ka hota hai. Isliye, teen interior angles milke hamesha 180 degree banate hain."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "If two angles of a triangle are 60° and 70°, what is the third and why?",
+      "hint": "Angles measure turning or opening.",
+      "answer": "The third angle is 50° because the interior angles of a triangle add up to 180°."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "A triangle has angles 45° and 65°. Find the third angle and explain the rule.",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires applying the 180° sum and explaining the missing-angle reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "A triangle has 180° total inside. 60° + 70° = 130°. So the missing angle is 180° - 130° = 50°.",
+    "visual": "Cut the three corners of a paper triangle and place them together. They form a straight line, which is 180°.",
+    "real_life": "If three friends must share ₹180 and two already have ₹60 and ₹70, the third gets what remains: ₹50.",
+    "formal": "For a triangle, ∠A + ∠B + ∠C = 180°. Therefore ∠C = 180° - (60° + 70°) = 50°.",
+    "socratic": "What total must the three angles reach? How much have the first two already used? What remains?",
+    "mistake_analysis": "The mistake is using given angles without applying the fixed total. Geometry often asks you to use a relationship, not just compute nearby numbers.",
+    "hinglish": "Triangle ke andar ke angles ka total 180° hota hai. 60 + 70 = 130, toh third angle 180 - 130 = 50°.",
+    "challenge": "If the third angle is 90°, what can you say about the sum of the other two angles?",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Angles measure turning or opening.",
+    "standard": "The three inside angles of a triangle always add to 180°.",
+    "advanced": "Interior angle sum of a triangle is 180° in Euclidean geometry.",
+    "fast_learner": "If the third angle is 90°, what can you say about the sum of the other two angles?"
+  },
+  "subject_lenses": {
+    "Math": "Construction, architecture, navigation, trigonometry foundation."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Triangles and Angles ka use real life mein: Construction, architecture, navigation, trigonometry foundation.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj triangles and angles ka ek real-life example dhundo.",
+    "If three friends must share ₹180 and two already have ₹60 and ₹70, the third gets what remains: ₹50."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of geometry and trigonometry. His work on the calculation of pi, and the development of the concept of zero, laid the foundation for later Indian mathematicians to explore and understand the properties of triangles and angles, including the development of the sine, cosine, and tangent functions.",
+    "story_hook": "Imagine you are an ancient Indian astronomer, using the positions of the stars and planets to calculate the angles and sides of triangles, just like Aryabhata did over a thousand years ago. As you explore the night sky, you begin to uncover the secrets of triangles and angles, and how they can help you understand the very fabric of the universe.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Triangles and Angles",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "If three friends must share ₹180 and two already have ₹60 and ₹70, the third gets what remains: ₹50."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-math_triangles_angles",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires applying the 180° sum and explaining the missing-angle reasoning.",
+  "session_type": "math",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_math_triangles_angles_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

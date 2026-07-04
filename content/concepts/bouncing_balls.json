@@ -1,0 +1,161 @@
+{
+  "concept_id": "bouncing_balls",
+  "title": "Why do Balls Bounce?",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "prerequisites": [
+    "kinetic_energy_basic",
+    "states_of_matter"
+  ],
+  "intro_hook": "Tune kabhi socha — rubber ball bounce karti hai, clay ball same height se giraao toh nahi bounce karti. Dono same weight. Kyun?",
+  "big_idea": "Ball compresses like a spring on impact — stores elastic energy — then releases it back as motion. That release IS the bounce.",
+  "cause_process_result": {
+    "cause": "Ball hits floor with kinetic energy (KE)",
+    "process": "Ball's rubber material compresses (like a spring), storing elastic potential energy (PE) → material springs back, releasing stored PE",
+    "result": "Released PE converts back to KE → ball rises. The better the material 'remembers' its shape, the higher the bounce."
+  },
+  "whiteboard": [
+    "Ball → Floor",
+    "  ↓ compresses (like a spring)",
+    "  stores Elastic PE",
+    "  ↓ springs back",
+    "  KE↑ → Ball rises!"
+  ],
+  "indian_analogies": [
+    "Rubber chappal ka sole — dabao, wapas aata hai",
+    "Cricket ball ka seam — bounces differently on different pitches",
+    "Rabaudi (rubber band) — kheencho, chodo, wapas aata hai",
+    "Gattey ki goli (marble) — hard but bounces well because elastic"
+  ],
+  "misconceptions": [
+    {
+      "id": "heavier_bounces_more",
+      "belief": "Heavier ball bounces higher",
+      "why_common": "Students think more force of impact = more bounce. Confuses mass with elasticity.",
+      "probe": "Agar steel ball aur rubber ball same weight ki hon, kaun zyada bounce karegi?",
+      "repair": "Weight affects how hard it hits the ground, but elasticity decides how much energy comes BACK.",
+      "trigger_words": [
+        "heavy",
+        "bhaari",
+        "weight",
+        "mass",
+        "force zyada"
+      ]
+    },
+    {
+      "id": "hard_bounces_more",
+      "belief": "Harder material bounces more",
+      "why_common": "Students see hard floor + hard ball = bounce, conflate hardness with elasticity.",
+      "probe": "Glass is super hard — does a glass ball bounce better than rubber?",
+      "repair": "Hardness ne koi lena dena nahi. Elasticity matters — material kitni achhi tarah wapas aata hai original shape mein.",
+      "trigger_words": [
+        "hard",
+        "sakht",
+        "solid",
+        "pakka"
+      ]
+    },
+    {
+      "id": "floor_pushes_ball",
+      "belief": "The floor pushes the ball up",
+      "why_common": "Students see ball go up after hitting floor, assume floor 'kicks' it up.",
+      "probe": "Agar floor push karta hai, toh clay ball ko bhi push karta. Clay kyun nahi uthti?",
+      "repair": "Floor sirf reaction force provide karta hai. Actual energy ball ke andar se aati hai — stored elastic PE.",
+      "trigger_words": [
+        "floor push",
+        "zameen dhakelta",
+        "push up",
+        "floor energy"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Tune kabhi socha — rubber ball bounce karti hai, clay ball nahi. Dono same weight. Kyun?",
+      "a": "Rubber ball bounce karti hai kyunki usme elasticity hoti hai, jisse wo apne shape mein wapas aa jaati hai, jabki clay ball mein elasticity nahi hoti. Isliye, rubber ball bounce karti hai lekin clay ball nahi. Is elasticity ke kaaran hi rubber ball bounce karti hai."
+    },
+    {
+      "type": "observation",
+      "q": "Jab ball floor se touch karti hai — us ek second mein exactly kya ho raha hai ball ke saath?",
+      "a": "Jab ball floor se touch karti hai, us ek second mein ball compressed ho jati hai aur uske andar ki molecules apni original position mein wapas aane ki koshish karti hain, jiske karan ball bounce back karti hai. Is process mein ball ki kinetic energy elastic energy mein convert hoti hai aur phir wapas kinetic energy mein convert ho jati hai."
+    },
+    {
+      "type": "probe",
+      "q": "Ball 'squeeze' hoti hai — toh squeeze hone ke baad kya hota hai? Woh squeeze wapas kaise aati hai?",
+      "a": "Ball ko squeeze karne par uske andar ki molecules apni original position mein wapas aa jaati hain, jiske kaaran ball ki shape wapas normal ho jaati hai aur woh bounce karti hai. Is process mein ball ki elastic energy kaam karti hai, jo use squeeze hone ke baad wapas khud ko normalize karne mein madad karti hai."
+    },
+    {
+      "type": "analogy",
+      "q": "Rubber band ko kheench ke chodo — kya hota hai? Ball ke saath bhi same cheez hoti hai — samjha?",
+      "a": "Rubber band ko kheench ke chhodne par woh apni original shape mein wapas aa jaata hai, isey elasticity kehte hain. Ball ke saath bhi same cheez hoti hai, jab hum use utha kar giraate hain toh woh bhi apni elasticity ke kaaran bounce karta hai. Isliye, ball bhi rubber band ki tarah bounce karta hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "Toh elastic PE kahan se aati hai aur kahan jaati hai exactly?",
+      "a": "Elastic PE ball ke andar ki molecules mein hoti hai, jab hum ball ko zameen par phenkte hain toh yeh molecules apni shape badal deti hain aur phir wapas apni original shape mein aa jaati hain, is process mein elastic PE convert hoti hai kinetic energy mein aur ball bounce karta hai. Is elastic PE ko hum ball ke andar ki molecules ki elasticity se paate hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe samjha — apne words mein. Kya hua ball ke saath jab woh floor se touch ki?",
+      "a": "Jab ball floor se touch karta hai, to uska shape thoda badal jaata hai, lekin phir woh apna original shape wapas paane ke liye elastic force ka use karta hai, jiske kaaran woh bounce back hota hai. Is process mein energy transfer hoti hai, jiske kaaran ball ko bounce karne ki shakti milti hai."
+    },
+    {
+      "type": "application",
+      "q": "Clay ball aur rubber ball — kaun bounce karegi? Kyun clay nahi?",
+      "a": "Rubber ball bounce karegi kyunki usme elasticity hoti hai, jisse vah apne shape mein wapas aa jaati hai jab use uthaaya jaata hai. Clay ball nahi bounce karegi kyunki vah brittle hoti hai aur toot jaati hai. Isliye, rubber ball hi bounce karegi."
+    },
+    {
+      "type": "transfer",
+      "q": "Trampolining mein bounce kyun hota hai? Same concept apply hota hai kya?",
+      "a": "Trampolining mein bhi bounce hota hai kyunki jab hum trampoline par koodte hain, to uska rubbery surface compress ho jata hai aur phir wapas apni original shape mein aata hai, jisse hume upward force milta hai aur hum upar ki taraf bounce karte hain, yeh concept elastic potential energy ka hai jo balls mein bhi hota hai. Isliye, same concept apply hota hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 1,
+      "type": "scenario",
+      "q": "Priya ne rubber ball aur clay ball ko same height se giraaya. Clay ball zara bhi bounce nahi ki. Kyun?",
+      "hint": "Soch — clay permanently kya hoti hai jab compress hoti hai?",
+      "answer": "Clay is plastic — permanently deforms on impact. Energy is lost as heat and shape change, not returned as upward motion. No elastic PE = no bounce."
+    },
+    {
+      "difficulty": 2,
+      "type": "comparison",
+      "q": "Tennis ball thandi hone par kam kyun bounce karti hai? Warm tennis ball zyada kyun?",
+      "hint": "Rubber ke molecules thandi mein kaise behave karte hain compared to warm temperature?",
+      "answer": "Cold makes rubber molecules stiffer — less elastic. Less elasticity = less PE stored and returned = lower bounce. Warm rubber is more elastic."
+    },
+    {
+      "difficulty": 3,
+      "type": "real_world",
+      "q": "Cricketers jaante hain ki naya ball zyada bounce karta hai, purana kam. Kyun hota hai aisa?",
+      "hint": "Naye ball ki surface tight hoti hai. Purani ball mein kya difference aa jaata hai?",
+      "answer": "New ball has tighter, stiffer leather — more elastic, stores and returns more PE. Old ball is softer and deformed — less elastic, lower bounce."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Ball ek chhoti spring ki tarah hai. Dabaao — wapas aati hai. Yehi bounce hai.",
+    "story": "Imagine tum ek gend ke andar ho. Neeche girti ho, feel karte ho squeeze hona — phir suddenly woh squeeze release hoti hai aur tum oopar uchhalte ho!",
+    "hinglish": "Dekh yaar — rubber band wali feeling yaad hai? Kheencho, chodo, wapas aata hai. Ball bhi exactly same kaam karti hai — bas alag shape mein.",
+    "exam": "Elastic Potential Energy (PE) = energy stored in compressed/stretched material. On impact: KE → PE (compression). On release: PE → KE (bounce). Elastic materials return to shape; plastic materials don't.",
+    "challenge": "A perfectly elastic collision returns 100% of KE. Real balls are ~60-80% efficient. What causes energy loss in a real bounce? (Answer: heat, sound, air resistance, internal friction in rubber molecules)"
+  },
+  "learner_adaptations": {
+    "class_4_5": "Focus on squeeze-and-release. Rubber band demo. No formulas. Just the feeling.",
+    "class_6_7": "Introduce PE and KE terms. Use spring analogy. Indian examples. Cause-process-result.",
+    "class_8": "Full PE-KE conversion. Discuss energy loss. Compare elastic vs. plastic materials quantitatively.",
+    "struggling": "Start physically: ask student to squeeze a rubber ball and feel it push back. Experience before explanation.",
+    "fast_learner": "Introduce coefficient of restitution. Why doesn't a ball bounce to the exact same height? What determines bounce height?"
+  },
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

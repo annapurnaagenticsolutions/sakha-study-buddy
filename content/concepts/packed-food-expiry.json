@@ -1,0 +1,230 @@
+{
+  "concept_id": "packed-food-expiry",
+  "title": "Packed Food and Expiry Dates",
+  "icon": "🏷️",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Chemistry",
+    "Biology",
+    "Math",
+    "Physics"
+  ],
+  "place": "Kitchen + Store",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why do packed foods have expiry dates and storage instructions?",
+  "big_idea": "Food quality and safety change over time because of microbes, chemical reactions, moisture, oxygen, temperature, and packaging.",
+  "story": "A packet of food may look normal, but taste, nutrients, texture, or safety can change after long storage or poor storage conditions.",
+  "cause_process_result": {
+    "cause": "Food packed",
+    "process": "Time passes → Heat/air/moisture act → Microbes or reactions increase",
+    "result": "Quality or safety reduces"
+  },
+  "flow": [
+    "Food packed",
+    "Time passes",
+    "Heat/air/moisture act",
+    "Microbes or reactions increase",
+    "Quality or safety reduces"
+  ],
+  "whiteboard": [
+    "Cause: Food packed",
+    "  -> Time passes → Heat/air/moisture act → Microbes or reactions increase",
+    "Result: Quality or safety reduces"
+  ],
+  "indian_analogies": [
+    "Kitchen + Store mein yeh dekhte hain: Packed Food and Expiry Dates.",
+    "Grocery stores"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is thinking packaged food lasts forever. Packaging slows change; it does not stop all change.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Packed Food and Expiry Dates mein Chemistry, Biology, Math, Physics sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do packed foods have expiry dates and storage instructions?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do packed foods have expiry dates and storage instructions?",
+      "a": "Packed foods mein expiry dates aur storage instructions hote hain kyunki ve khane ki gunvatta ko banaye rakhne aur humein kharab ho chuke khane se bachane ke liye hote hain. Isse humein pata chalta hai ki kis tarah se khana store karna hai aur kab tak khana khaya ja sakta hai. Yeh instructions humein surakshit tareeke se khana kh"
+    },
+    {
+      "type": "probe",
+      "q": "Why does heat speed spoilage?",
+      "a": "Garmi se bacteria aur fungus jaldi se grow hote hain, jisse khana jaldi se kharab ho jata hai, isliye heat spoilage ko speed karti hai. Iske alawa, garmi se khane mein moisture bhi badh jata hai, jo spoilage ko aur bhi badhava deta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does a swollen packet matter?",
+      "a": "Ek swollen packet matter karta hai kyunki yeh expiry date ke baad khana kharab ho sakta hai aur hume food poisoning ho sakti hai, isliye hume aise packet ko na khane ka samjhana chahiye. Yeh packet mein gas banne se swelling hota hai jo hamare health ke liye hanikarak ho sakta hai."
+    },
+    {
+      "type": "probe",
+      "q": "How is best-before different from unsafe food?",
+      "a": "Best-before date ka matlab hai ki uss din tak khana apni quality maintain karta hai, lekin expiry date ke baad khana khaane se swasthya ko nuksaan ho sakta hai, isliye best-before aur unsafe food mein yeh antar hota hai ki best-before khane ki gunvatta ko darshata hai, jabki expiry date ke baad khana asurakshit ho jaata hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Food packed -> Time passes -> Heat/air/moisture act — what exactly happens at each step?",
+      "a": "Pehle, food packed hota hai, phir time pass hone par heat, air aur moisture ka asar padta hai, jisse food ki quality kharaab ho sakti hai aur expiry date aati hai. Isse humein pata chalta hai ki food kitne din tak khaya ja sakta hai. Isliye, humein expiry date check karni chahiye."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Packed food mein expiry date hoti hai, jo humein bataati hai ki ye khana kitne din tak khaya ja sakta hai, isse hume food poisoning se bachaya ja sakta hai. Humen expiry date check karni chahiye aur uske baad hi khana kharidna chahiye. Isse hum apne aap ko safe rakh sakte hain."
+    },
+    {
+      "type": "application",
+      "q": "What is a safer habit before eating packed food?",
+      "a": "Packed food khaane se pehle expiry date jarur check karna chahiye, taaki hume pata chal sake ki yeh food abhi bhi khane layak hai ya nahi. Isse hum food poisoning se bach sakte hain. Yeh ek safer habit hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What is a safer habit before eating packed food?",
+      "options": [
+        "Ignore dates",
+        "Check expiry date and packet condition",
+        "Eat if packet is swollen",
+        "Keep opened food anywhere"
+      ],
+      "correct": "Check expiry date and packet condition",
+      "hint": "Expiry date, packet condition, smell, and storage instructions all help judge food safety.",
+      "answer": "Expiry date, packet condition, smell, and storage instructions all help judge food safety."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if storage time becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if storage time becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Packed Food and Expiry Dates shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Packed Food and Expiry Dates, one or more factors such as storage time change what we observe. The idea connects Chemistry, Biology, Math, Physics and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Packed Food and Expiry Dates connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Food quality and safety change over time because of microbes, chemical reactions, moisture, oxygen, temperature, and packaging.",
+    "hinglish": "Dekh yaar — Packed Food and Expiry Dates mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A packet of food may look normal, but taste, nutrients, texture, or safety can change after long storage or poor storage conditions."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do packed foods have expiry dates and storage instructions. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more storage time.",
+    "class_6_8": "Explain the cause-effect chain: Food packed → Time passes → Heat/air/moisture act → Microbes or reactions increase.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Chemistry, Biology, Math, Physics."
+  },
+  "subject_lenses": {
+    "Chemistry": "Oxidation, rancidity, and ingredient changes affect quality.",
+    "Biology": "Microbes can grow when conditions allow.",
+    "Math": "Read dates, calculate days remaining, compare storage durations.",
+    "Physics": "Temperature and moisture affect storage conditions."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Packed Food and Expiry Dates ka concept aur jagah bhi kaam karta hai: Grocery stores, School snacks, Kitchen storage.",
+      "related_concepts": [],
+      "career_connection": "Food technology, nutrition, quality control, public health, packaging design."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj packed food and expiry dates se related kuch notice karo.",
+    "Why do packed foods have expiry dates and storage instructions?",
+    "What would happen if storage time becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Charaka",
+    "connection": "Charaka, a renowned Indian Ayurvedic physician, discussed the importance of food preservation and spoilage in his seminal work, the Charaka Samhita. He described various methods for preserving food, including drying, salting, and using natural preservatives, which highlight the understanding of factors like moisture, oxygen, and temperature that affect food quality and safety.",
+    "story_hook": "Imagine you are a young apprentice to Charaka, tasked with preserving a batch of medicinal herbs for the winter season, but you notice they start to spoil due to improper storage. As you investigate, you discover the importance of controlling factors like moisture and temperature to prevent the growth of microbes, just like understanding expiry dates on packed food today.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Packed Food and Expiry Dates",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Compare labels on unopened packages at home. Do not taste expired, swollen, leaking, or strange-smelling food."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "oxidation_and_reactions",
+    "microbes",
+    "dates_and_duration",
+    "temperature"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-packed-food-expiry",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Check expiry date, storage instruction, packet damage, smell, and adult guidance before consuming.",
+  "career_connections": "Food technology, nutrition, quality control, public health, packaging design.",
+  "why_matters": "This topic connects food labels with health, chemistry, and responsible consumption.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

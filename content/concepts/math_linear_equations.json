@@ -1,0 +1,205 @@
+{
+  "concept_id": "math_linear_equations",
+  "title": "Linear Equations",
+  "icon": "📐",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Math"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "integers",
+    "basic operations",
+    "fractions"
+  ],
+  "intro_hook": "If x + 5 = 12, what should we do first to find x?",
+  "big_idea": "Linear equations teach balance, inverse operations, and unknown-value reasoning.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "An equation is like a balance. Both sides must stay equal.",
+    "process": "To find the unknown, undo what is happening to it while doing the same thing to both sides. Balance scale: if you remove 5 from one side, remove 5 from the other side too.",
+    "result": "Bills, age problems, distance problems, algebraic modelling, exam word problems."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: An equation is like a balance. Both sides must stay equal.",
+    "Visual: Balance scale: if you remove 5 from one side, remove 5 from the other side too.",
+    "Formal: For x + 5 = 12, subtract 5 from both sides: x = 7.",
+    "Application: Bills, age problems, distance problems, algebraic modelling, exam word problems."
+  ],
+  "indian_analogies": [
+    "You had some money. Someone gave you ₹5. Now you have ₹12. To find what you had before, remove ₹5 from ₹12. You had ₹7.",
+    "x ke saath 5 add ho raha hai. x ko akela karne ke liye dono side se 5 minus karna padega. Isliye x = 7."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_math_linear_equations_01",
+      "belief": "move term without understanding inverse operation",
+      "why_common": "I moved the number to the other side because I memorized the rule, not because I understood balance.",
+      "probe": "If x + 5 = 12, what should we do first to find x?",
+      "repair": "Use a balance scale. Remove the same weight from both sides before writing the algebra step. Avoid “move to other side” shortcut until the balance principle is clear.",
+      "repair_visual": "Use a balance scale: whatever is removed from one side must be removed from the other.",
+      "follow_up": "If x + 7 = 15, why do we subtract 7 from both sides?",
+      "teacher_prompt": "Delay the “transpose” shortcut until students can explain inverse operation and equality.",
+      "mastery_signal": "Learner can explain why “move term without understanding inverse operation” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: move term without",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_linear_equations_02",
+      "belief": "operate on one side only",
+      "why_common": "I moved the number to the other side because I memorized the rule, not because I understood balance.",
+      "probe": "If x + 5 = 12, what should we do first to find x?",
+      "repair": "Use a balance scale: whatever is removed from one side must be removed from the other. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a balance scale: whatever is removed from one side must be removed from the other.",
+      "follow_up": "Give a changed linear equations situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Delay the “transpose” shortcut until students can explain inverse operation and equality.",
+      "mastery_signal": "Learner can explain why “operate on one side only” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: operate on one",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_linear_equations_03",
+      "belief": "change sign mechanically without balance logic",
+      "why_common": "I moved the number to the other side because I memorized the rule, not because I understood balance.",
+      "probe": "If x + 5 = 12, what should we do first to find x?",
+      "repair": "Use a balance scale: whatever is removed from one side must be removed from the other. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a balance scale: whatever is removed from one side must be removed from the other.",
+      "follow_up": "Give a changed linear equations situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Delay the “transpose” shortcut until students can explain inverse operation and equality.",
+      "mastery_signal": "Learner can explain why “change sign mechanically without balance logic” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: change sign mechanically",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "If x + 5 = 12, what should we do first to find x?",
+      "a": "Pehle humein equation mein se 5 ko kam karna hoga, jisse hum x ko alag kar sakein. Iske liye hum dono taraf se 5 ghata sakte hain."
+    },
+    {
+      "type": "probe",
+      "q": "What number is being added to x?",
+      "a": "Yeh samikaran hai, jismein x ke saath ek number joda ja raha hai, lekin yeh number to diya nahi hai, isliye humein samikaran dekhna hoga, jaise ki 2x + 5 = 11, toh yahaan 5 number hai jo x ke saath joda ja raha hai. Is number ko hum constant term kehte hain."
+    },
+    {
+      "type": "probe",
+      "q": "What operation undoes adding 5?",
+      "a": "Adding 5 ka ulat operation hai subtracting 5, isse hume original value milta hai. Yah subtraction operation hume adding 5 ka asar cancel karne mein madad karta hai. Isliye, adding 5 ko undo karne wala operation hai subtracting 5."
+    },
+    {
+      "type": "probe",
+      "q": "If we subtract 5 from the left side, what must we do to the right side?",
+      "a": "Agar hum left side se 5 ghataate hain, to humein right side se bhi 5 ghataana hoga, taaki equation sahi rahe. Isse equation ka balance banaya ja sakta hai."
+    },
+    {
+      "type": "application",
+      "q": "Now solve 2x + 5 = 17. First tell me which operation you will undo first and why.",
+      "a": "Sabse pehle hum 5 ko undo karenge kyunki vah variable x ke saath add kiya gaya hai, isliye hum dono taraf se 5 ko subtract karenge. Isse hume 2x = 17 - 5 milta hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Explain in one sentence why we must do the same operation to both sides of an equation.",
+      "a": "Hum dono taraf same operation karte hai taaki equation ka balance banaya ja sake, aur hume sahi solution mil sake, kyunki agar hum ek taraf kuch karte hai to doosri taraf bhi wahi operation karna padta hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "If x + 5 = 12, what should we do first to find x?",
+      "hint": "An equation is like a balance. Both sides must stay equal.",
+      "answer": "Subtract 5 from both sides because adding 5 must be undone while keeping the equation balanced."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "Now solve 2x + 5 = 17. First tell me which operation you will undo first and why.",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires correct answer, balance reasoning, and successful transfer."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "x has 5 added to it. To make x alone, subtract 5. Since both sides of an equation must stay equal, subtract 5 from both sides. So x = 7.",
+    "visual": "Imagine a balance scale. Left pan has x + 5 and right pan has 12. Remove 5 from both pans. Left becomes x and right becomes 7, so x = 7.",
+    "real_life": "You had some money. Someone gave you ₹5. Now you have ₹12. To find what you had before, remove ₹5 from ₹12. You had ₹7.",
+    "formal": "x + 5 = 12. Subtract 5 from both sides: x + 5 - 5 = 12 - 5. Therefore, x = 7.",
+    "socratic": "What is happening to x? How do we undo it? Why must the same operation happen to both sides?",
+    "mistake_analysis": "The common mistake is changing sides mechanically. The real principle is balance: the two sides must remain equal after each operation.",
+    "hinglish": "x ke saath 5 add ho raha hai. x ko akela karne ke liye dono side se 5 minus karna padega. Isliye x = 7.",
+    "challenge": "Now try: 2x + 5 = 17. Which operation should come first, and why?",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "An equation is like a balance. Both sides must stay equal.",
+    "standard": "To find the unknown, undo what is happening to it while doing the same thing to both sides.",
+    "advanced": "For x + 5 = 12, subtract 5 from both sides: x = 7.",
+    "fast_learner": "Now try: 2x + 5 = 17. Which operation should come first, and why?"
+  },
+  "subject_lenses": {
+    "Math": "Bills, age problems, distance problems, algebraic modelling, exam word problems."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Linear Equations ka use real life mein: Bills, age problems, distance problems, algebraic modelling, exam word problems.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj linear equations ka ek real-life example dhundo.",
+    "You had some money. Someone gave you ₹5. Now you have ₹12. To find what you had before, remove ₹5 from ₹12. You had ₹7."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, used linear equations to calculate the positions of celestial bodies and predict eclipses. His work, 'Aryabhatiya', showcases the application of linear equations in solving problems related to astronomy, demonstrating the concept of balance and inverse operations. For instance, he used linear equations to find the value of unknown quantities, such as the duration of a planetary cycle, by using known quantities and performing inverse operations.",
+    "story_hook": "Imagine you are an astronomer in ancient India, tasked with predicting the next solar eclipse, and you stumble upon an ancient manuscript written by Aryabhata that holds the key to solving this puzzle using linear equations. As you decipher the manuscript, you begin to unravel the mystery of the eclipse, and the linear equations become the tools that help you find the answers, just like Aryabhata did centuries ago.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Linear Equations",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "You had some money. Someone gave you ₹5. Now you have ₹12. To find what you had before, remove ₹5 from ₹12. You had ₹7."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-math_linear_equations",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires correct answer, balance reasoning, and successful transfer.",
+  "session_type": "math",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_linear_equations_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

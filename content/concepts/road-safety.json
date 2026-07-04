@@ -1,0 +1,223 @@
+{
+  "concept_id": "road-safety",
+  "title": "Road Safety and Braking",
+  "icon": "🚦",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Biology"
+  ],
+  "place": "Road",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "Why does a faster vehicle need more distance to stop safely?",
+  "big_idea": "Stopping distance depends on reaction time, speed, friction, road condition, and brake effectiveness.",
+  "story": "A driver sees an obstacle. The brain reacts, the foot presses the brake, tyres grip the road, and the vehicle slows. Higher speed greatly increases stopping distance.",
+  "cause_process_result": {
+    "cause": "Vehicle speed + road grip + reaction time",
+    "process": "Driver reacts, brakes apply friction, tyres push against road",
+    "result": "Vehicle stops safely or travels too far"
+  },
+  "flow": [
+    "See danger",
+    "Reaction time",
+    "Brake force",
+    "Tyre-road friction",
+    "Vehicle stops"
+  ],
+  "whiteboard": [
+    "Cause: Vehicle speed + road grip + reaction time",
+    "  -> Driver reacts, brakes apply friction, tyres push against road",
+    "Result: Vehicle stops safely or travels too far"
+  ],
+  "indian_analogies": [
+    "Road mein yeh dekhte hain: Road Safety and Braking.",
+    "Traffic rules"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat road safety and braking as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Road Safety and Braking mein Physics, Math, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does a faster vehicle need more distance to stop safely?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does a faster vehicle need more distance to stop safely?",
+      "a": "Tezi se chalne wali gaadi ko rokne ke liye zyada distance ki zarurat hoti hai kyunki uska kinetic energy zyada hota hai aur braking distance bhi badh jati hai. Isliye, tezi se chalne wali gaadi ko safely rokne ke liye zyada distance ki avashyakta hoti hai."
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?"
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?"
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum ghar par ya school mein ek cycle ya scooty ka upyog karke iska test kar sakte hain, jahan hum brake lagane ki practice kar sakte hain. Isse hume pata chalega ki brake kaise kaam karta hai aur hume road safety ke liye kya karna chahiye."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — See danger -> Reaction time -> Brake force — what exactly happens at each step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "Why is overspeeding dangerous?",
+      "a": "Overspeeding bahut dangerous hai kyunki isse gaadi ka brake lagna mushkil ho jata hai aur accident hone ki sambhavna badh jati hai. Isse driver ko gaadi ko control karne mein bhi dikkat hoti hai. Overspeeding se jaan aur maal dono ki nuksan ho sakti hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why is overspeeding dangerous?",
+      "options": [
+        "It reduces stopping distance",
+        "It increases stopping distance and impact energy",
+        "It removes friction",
+        "It makes reaction time zero"
+      ],
+      "correct": "It increases stopping distance and impact energy",
+      "hint": "Higher speed increases the distance needed to react and brake, and it also increases collision energy.",
+      "answer": "Higher speed increases the distance needed to react and brake, and it also increases collision energy."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What if the road is wet?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What if speed doubles?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What if the tyre is worn out?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "A fast vehicle needs more space to stop. Wet roads and late reactions make stopping harder.",
+    "standard": "Stopping distance depends on speed, friction, braking force, and driver reaction time. A wet road lowers grip, so the vehicle travels farther before stopping.",
+    "deep": "Road safety links motion, friction, reaction time, kinetic energy, tyre-road contact, and human decision-making. Higher speed greatly increases stopping risk because both reaction distance and braking distance increase.",
+    "hinglish": "Dekh yaar — Road Safety and Braking mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A driver sees an obstacle. The brain reacts, the foot presses the brake, tyres grip the road, and the vehicle slows. Higher speed greatly increases stopping distance."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Fast things cannot stop immediately. Keep distance from moving vehicles.",
+    "class_4_5": "Compare slow and fast motion and notice which needs more stopping space.",
+    "class_6_8": "Connect friction, grip, wet road, tyres, and braking.",
+    "class_9_10": "Reason using speed, reaction time, energy, friction, road condition, and risk reduction.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Motion, inertia, friction, deceleration.",
+    "Math": "Distance, speed, proportional reasoning, graph reading.",
+    "Biology": "Eyes, brain, nerves, and muscles control reaction time."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Road Safety and Braking ka concept aur jagah bhi kaam karta hai: Traffic rules, Helmet awareness, Vehicle design.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj road safety and braking se related kuch notice karo.",
+    "Why does a faster vehicle need more distance to stop safely?",
+    "What if the road is wet?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, calculated the value of pi and studied the motion of celestial bodies. His work on motion and the factors affecting it, such as distance, time, and velocity, can be related to the concept of stopping distance, where the speed of a vehicle, reaction time, and road conditions determine the distance it travels before coming to a stop.",
+    "story_hook": "Imagine you are traveling in a chariot, just like the ancient Indians did, and you need to stop before hitting a sacred cow crossing the road. As you learn about the factors affecting stopping distance, you'll discover how Aryabhata's understanding of motion can help you avoid accidents and arrive safely at your destination.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Road Safety and Braking",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Use a toy car on safe surfaces to compare rolling distance from gentle and stronger pushes. Never test road safety concepts in traffic."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "motion_and_friction",
+    "graphs_and_speed",
+    "reaction_time"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-road-safety",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Road Safety and Braking turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

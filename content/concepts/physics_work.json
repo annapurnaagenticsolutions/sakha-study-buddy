@@ -1,0 +1,202 @@
+{
+  "concept_id": "physics_work",
+  "title": "Work",
+  "icon": "⚡",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "force",
+    "motion",
+    "multiplication"
+  ],
+  "intro_hook": "If you push a wall hard and it does not move, is work done on the wall in physics? Why?",
+  "big_idea": "Work in physics requires force and displacement in the direction of force.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "In physics, effort alone is not always work.",
+    "process": "If force causes displacement, work is done. Arrow for force and arrow for displacement; compare directions.",
+    "result": "Lifting, pushing, machines, energy transfer."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: In physics, effort alone is not always work.",
+    "Visual: Arrow for force and arrow for displacement; compare directions.",
+    "Formal: Work = force × displacement in the direction of force.",
+    "Application: Lifting, pushing, machines, energy transfer."
+  ],
+  "indian_analogies": [
+    "You may feel tired because your body uses energy, but the wall itself has not moved, so physics work on the wall is zero.",
+    "Wall push karne se thakan ho sakti hai, lekin wall move nahi hui. Displacement zero hai, toh wall par work zero."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_physics_work_01",
+      "belief": "feeling tired always means work is done in physics",
+      "why_common": "I thought effort always means work, even if there is no displacement.",
+      "probe": "If you push a wall and it does not move, is work done on the wall in physics? Why?",
+      "repair": "Push a wall versus push a box that moves. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Push a wall versus push a box that moves.",
+      "follow_up": "Give a changed work situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Separate everyday “work” from physics work using displacement.",
+      "mastery_signal": "Learner can explain why “feeling tired always means work is done in physics” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: feeling tired work",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_work_02",
+      "belief": "force without displacement counts as work",
+      "why_common": "I thought effort always means work, even if there is no displacement.",
+      "probe": "If you push a wall and it does not move, is work done on the wall in physics? Why?",
+      "repair": "Push a wall versus push a box that moves. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Push a wall versus push a box that moves.",
+      "follow_up": "Give a changed work situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Separate everyday “work” from physics work using displacement.",
+      "mastery_signal": "Learner can explain why “force without displacement counts as work” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: force without displacement",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_work_03",
+      "belief": "direction does not matter",
+      "why_common": "I thought effort always means work, even if there is no displacement.",
+      "probe": "If you push a wall and it does not move, is work done on the wall in physics? Why?",
+      "repair": "Push a wall versus push a box that moves. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Push a wall versus push a box that moves.",
+      "follow_up": "Give a changed work situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Separate everyday “work” from physics work using displacement.",
+      "mastery_signal": "Learner can explain why “direction does not matter” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: direction does not",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "If you push a wall hard and it does not move, is work done on the wall in physics? Why?",
+      "a": "Nahin, ismein work nahi hota hai kyunki wall ki position mein koi badlaav nahi hota, aur physics mein work ke liye displacement zaroori hai. Yadi wall mein koi displacement nahi hota, to us par koi work nahi hota. Isliye hum kehte hain ki wall par koi work nahi hua."
+    },
+    {
+      "type": "probe",
+      "q": "Physics work needs two things: force and displacement."
+    },
+    {
+      "type": "probe",
+      "q": "The wall experiences force, but does its position change?",
+      "a": "Nahin, wall ki position nahin badalti hai kyunki use balance force lagti hai, jiske kaaran uska position same rehta hai. Ismein koi displacement nahin hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "If displacement is zero, what happens to work?"
+    },
+    {
+      "type": "application",
+      "q": "A person holds a heavy bag still for 2 minutes. Is physics work done on the bag during holding? Explain.",
+      "a": "Nahin, physics work nahin hua hai kyunki bag ki position mein koi badlaav nahin hua hai, sirf bal lagaya gaya hai. Ismein displacement nahin hua hai, isliye work done zero hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "What two conditions are necessary for work to be done in physics?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "If you push a wall and it does not move, is work done on the wall in physics? Why?",
+      "hint": "In physics, effort alone is not always work.",
+      "answer": "No work is done on the wall because displacement of the wall is zero, even though force is applied."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "A person holds a heavy bag still for 2 minutes. Is physics work done on the bag during holding? Explain.",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires requiring both force and displacement in the relevant direction."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "No work is done on the wall in physics because the wall does not move. Force is applied, but displacement is zero.",
+    "visual": "Draw a force arrow into the wall. Now draw displacement arrow for the wall: it has zero length. So work on the wall is zero.",
+    "real_life": "You may feel tired because your body uses energy, but the wall itself has not moved, so physics work on the wall is zero.",
+    "formal": "Work W = F × s in the direction of force. If s = 0, then W = 0.",
+    "socratic": "What force is applied? What object are we measuring work on? Did that object move?",
+    "mistake_analysis": "The mistake is equating human tiredness with physics work. Physics defines work through force-caused displacement.",
+    "hinglish": "Wall push karne se thakan ho sakti hai, lekin wall move nahi hui. Displacement zero hai, toh wall par work zero.",
+    "challenge": "If you lift a bag upward by 1 metre, is work done? Which force and displacement direction matter?",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "In physics, effort alone is not always work.",
+    "standard": "If force causes displacement, work is done.",
+    "advanced": "Work = force × displacement in the direction of force.",
+    "fast_learner": "If you lift a bag upward by 1 metre, is work done? Which force and displacement direction matter?"
+  },
+  "subject_lenses": {
+    "Physics": "Lifting, pushing, machines, energy transfer."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Work ka use real life mein: Lifting, pushing, machines, energy transfer.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj work ka ek real-life example dhundo.",
+    "You may feel tired because your body uses energy, but the wall itself has not moved, so physics work on the wall is zero."
+  ],
+  "indian_legacy": {
+    "scientist": "Bhaskara",
+    "connection": "The Indian mathematician and astronomer Bhaskara, in his book 'Lilavati', described the concept of 'karsha' or 'weight' and its relation to force and displacement. This concept is analogous to the modern definition of work in physics, which requires force and displacement in the direction of force. Bhaskara's work laid the foundation for understanding the relationship between force, displacement, and energy, which is essential for understanding the concept of work in physics.",
+    "story_hook": "Imagine you are a young apprentice to Bhaskara, tasked with moving a heavy stone up a ramp to build a temple, and you need to figure out the best way to do it with the least amount of effort. As you ponder this problem, you begin to realize that the amount of work you do is related to the force you apply and the distance you move the stone, which is a fundamental concept in physics.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Work",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "You may feel tired because your body uses energy, but the wall itself has not moved, so physics work on the wall is zero."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-physics_work",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires requiring both force and displacement in the relevant direction.",
+  "session_type": "science",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_physics_work_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

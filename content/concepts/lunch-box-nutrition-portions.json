@@ -1,0 +1,228 @@
+{
+  "concept_id": "lunch-box-nutrition-portions",
+  "title": "Lunch Box Nutrition and Portions",
+  "icon": "🍱",
+  "class_band": [
+    1,
+    2,
+    3
+  ],
+  "subjects": [
+    "Biology",
+    "Math",
+    "Chemistry"
+  ],
+  "place": "School + Home",
+  "level": "Foundation",
+  "prerequisites": [],
+  "intro_hook": "Why does a lunch box need different kinds of food instead of only one favourite snack?",
+  "big_idea": "A good lunch box combines energy food, body-building food, protective food, water, and sensible portions. Counting and grouping foods helps students make healthier choices.",
+  "story": "A child packs rice or roti, dal or egg, vegetables or fruit, and water. Each food plays a different role, and too much of only one food leaves the body missing something.",
+  "cause_process_result": {
+    "cause": "Choose foods",
+    "process": "Group by role → Balance portions → Eat safely",
+    "result": "Body gets energy"
+  },
+  "flow": [
+    "Choose foods",
+    "Group by role",
+    "Balance portions",
+    "Eat safely",
+    "Body gets energy"
+  ],
+  "whiteboard": [
+    "Cause: Choose foods",
+    "  -> Group by role → Balance portions → Eat safely",
+    "Result: Body gets energy"
+  ],
+  "indian_analogies": [
+    "School + Home mein yeh dekhte hain: Lunch Box Nutrition and Portions.",
+    "School tiffin"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A full lunch box is not automatically a balanced lunch box. Variety and portion quality matter.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Lunch Box Nutrition and Portions mein Biology, Math, Chemistry sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does a lunch box need different kinds of food instead of only one favourite snack?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does a lunch box need different kinds of food instead of only one favourite snack?",
+      "a": "Ek lunch box mein alag-alag tarah ke khane ki zarurat hoti hai kyunki har ek food item mein kuch na kuch nutrients hote hain, jaise ki protein, carbohydrates, vitamins aur minerals, jo hamare sharir ke liye zaroori hote hain. Agar hum sirf ek favourite snack khaenge to hamare sharir ko poora nutrition nahi milega. Isliye, humein apne lunch box"
+    },
+    {
+      "type": "probe",
+      "q": "Which food gives quick energy?",
+      "a": "Carbohydrates jaise ki chapati, rice, aur fruits humein quick energy dete hain. Ye foods glucose ko release karte hain jo humari body ko urja pradaan karta hai. Isliye, inhe hum apne lunch box mein shaamil karte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Which food helps growth?",
+      "a": "Protein wale food jaise ki chicken, fish, dal, aur paneer growth mein madad karte hain. Inmein protein hota hai jo sharir ke liye bahut zaroori hai. Isse humare muscles aur bones majboot hote hain."
+    },
+    {
+      "type": "probe",
+      "q": "How can we compare portions fairly?",
+      "a": "Hum portions ko fairly compare karne ke liye ek standard unit ka use kar sakte hain, jaise ki gram ya milliliter, aur phir hum apne khane ke items ko us hisaab se measure kar sakte hain. Isse hume pata chalega ki hum kitna khana khate hain aur kitna khana hume khana chahiye."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Choose foods -> Group by role -> Balance portions — what exactly happens at each step?",
+      "a": "Pehle hum choose foods karte hain jismein sabhi nutrients shaamil hote hain, phir unhein group by role mein categorize karte hain jaise ki carbohydrates, proteins, aur fats, aur antim step mein balance portions mein inka sahi maatra mein samavesh karte hain taaki hamaara lunch box poora aur swasth ho. Isse humein ek santulit aahaar milta hai jo h"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Ek 5 saal ke bachche ko main aisa samjhaunga ki lunch box mein sabhi nutrients hona chahiye jaise ki protein, vitamin, aur minerals, jaise ki sabzi, phal, dal, roti, aur dahi, taaki wo healthy rahe. Ismein thoda carbohydrate, thoda protein, aur thoda fat hona chahiye. Isse bachcha strong aur swasth rahega."
+    },
+    {
+      "type": "application",
+      "q": "Which lunch box is usually more balanced?",
+      "a": "Ek balanced lunch box mein sabhi nutrients jaise ki protein, carbohydrates, fibre, aur vitamins hote hain, jaise ki chapati, sabzi, dal, phal, aur dahi. Yeh lunch box usually more balanced hota hai kyunki ismein sabhi food groups shamil hote hain. Isse hume poora nutrition milta hai aur hum swasth rehte hain."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which lunch box is usually more balanced?",
+      "options": [
+        "Only chips and sweets",
+        "Rice/roti + dal/egg + vegetable/fruit",
+        "Only a cold drink",
+        "Only chocolate"
+      ],
+      "correct": "Rice/roti + dal/egg + vegetable/fruit",
+      "hint": "A balanced lunch has energy, growth, protective nutrients, and water. One snack type cannot provide everything.",
+      "answer": "A balanced lunch has energy, growth, protective nutrients, and water. One snack type cannot provide everything."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if energy food portions becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if energy food portions becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Lunch Box Nutrition and Portions shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Lunch Box Nutrition and Portions, one or more factors such as energy food portions change what we observe. The idea connects Biology, Math, Chemistry and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Lunch Box Nutrition and Portions connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. A good lunch box combines energy food, body-building food, protective food, water, and sensible portions. Counting and grouping foods helps students make healthier choices.",
+    "hinglish": "Dekh yaar — Lunch Box Nutrition and Portions mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A child packs rice or roti, dal or egg, vegetables or fruit, and water. Each food plays a different role, and too much of only one food leaves the body missing something."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does a lunch box need different kinds of food instead of only one favourite snack. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more energy food portions.",
+    "class_6_8": "Explain the cause-effect chain: Choose foods → Group by role → Balance portions → Eat safely.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Math, Chemistry."
+  },
+  "subject_lenses": {
+    "Biology": "The body uses food for energy, growth, repair, and immunity.",
+    "Math": "Count items, compare portions, and make simple food-group charts.",
+    "Chemistry": "Foods contain nutrients such as carbohydrates, proteins, fats, vitamins, minerals, and water."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Lunch Box Nutrition and Portions ka concept aur jagah bhi kaam karta hai: School tiffin, Picnic food, Sports snacks.",
+      "related_concepts": [],
+      "career_connection": "Nutrition, public health, food science, school meal planning, sports coaching."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj lunch box nutrition and portions se related kuch notice karo.",
+    "Why does a lunch box need different kinds of food instead of only one favourite snack?",
+    "What would happen if energy food portions becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Charaka",
+    "connection": "Charaka, a renowned Indian Ayurvedic physician, emphasized the importance of a balanced diet in his seminal work, the Charaka Samhita. This ancient text describes the concept of 'Panchabhuta' or the five elements that constitute the human body, and the need for a balanced intake of nutrients to maintain overall health and well-being, mirroring the idea of combining energy food, body-building food, and protective food in a lunch box.",
+    "story_hook": "Imagine you are a young apprentice to Charaka, tasked with preparing a healthy meal for a busy day of studying the ancient art of Ayurveda. As you carefully select and portion out the ingredients, you begin to realize that the same principles of balance and harmony that govern the natural world also apply to the food on your plate.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Lunch Box Nutrition and Portions",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Draw your lunch box and mark food groups with colours. Do not taste unknown food or share food when someone has allergies."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "nutrition",
+    "grouping_and_portions",
+    "nutrients",
+    "safe_eating"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-lunch-box-nutrition-portions",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Pack a simple balanced meal with water and avoid making sweets or fried snacks the main food every day.",
+  "career_connections": "Nutrition, public health, food science, school meal planning, sports coaching.",
+  "why_matters": "Students make food choices every day, so this scenario connects science to health, energy, concentration, and habits.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 3,
+  "learning_track": [
+    "core"
+  ]
+}

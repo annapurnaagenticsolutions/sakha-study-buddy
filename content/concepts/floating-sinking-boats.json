@@ -1,0 +1,227 @@
+{
+  "concept_id": "floating-sinking-boats",
+  "title": "Floating and Sinking",
+  "icon": "⛵",
+  "class_band": [
+    1,
+    2,
+    3
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Chemistry"
+  ],
+  "place": "Water + Play",
+  "level": "Foundation",
+  "prerequisites": [],
+  "intro_hook": "Why does a leaf float but a stone sinks, and how can a heavy boat float?",
+  "big_idea": "Floating depends on shape, material, water push, and how weight is spread over volume.",
+  "story": "A coin sinks quickly, but a paper boat floats for some time. Shape changes how much water is pushed aside.",
+  "cause_process_result": {
+    "cause": "Object placed",
+    "process": "Water pushes up → Weight pulls down → Shape matters",
+    "result": "Float or sink"
+  },
+  "flow": [
+    "Object placed",
+    "Water pushes up",
+    "Weight pulls down",
+    "Shape matters",
+    "Float or sink"
+  ],
+  "whiteboard": [
+    "Cause: Object placed",
+    "  -> Water pushes up → Weight pulls down → Shape matters",
+    "Result: Float or sink"
+  ],
+  "indian_analogies": [
+    "Water + Play mein yeh dekhte hain: Floating and Sinking.",
+    "Boats"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Only light things float. Shape and displaced water also matter.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Floating and Sinking mein Physics, Math, Chemistry sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does a leaf float but a stone sinks, and how can a heavy boat float?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does a leaf float but a stone sinks, and how can a heavy boat float?",
+      "a": "Yeh difference density ke kaaran hota hai, jismein leaf ki density paani se kam hoti hai isliye vah float karti hai, jabki stone ki density paani se zyada hoti hai isliye vah sink karta hai, aur ek heavy boat bhi float kar sakti hai agar uska overall density paani se kam ho."
+    },
+    {
+      "type": "probe",
+      "q": "Why does a hollow object often float better?",
+      "a": "Ek hollow object mein kam weight hota hai aur usmein adhik air space hota hai, jiske karan uska density kam hota hai, isliye woh aaram se float karta hai. Isliye, hollow objects jaise ki balloon ya plastic bottle aadi float karte hain."
+    },
+    {
+      "type": "probe",
+      "q": "What happens if water enters a paper boat?",
+      "a": "Jab paani paper boat mein ghusta hai, to vah doobne lagti hai kyonki paani ki wazan paper ki wazan se adhik ho jaati hai aur paper boat mein se hawa nikal jaati hai. Iske kaaran paper boat paani mein doob jaati hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why do life jackets help?",
+      "a": "Life jackets help kyunki ve hamaare sharir ko upar rakhne mein madad karte hain, aur hamaare sharir ka wajan paani ke wajan se kam hota hai, isliye hum titte rehte hain. Ismein air bhara hota hai jo paani mein titne mein madad karta hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Object placed -> Water pushes up -> Weight pulls down — what exactly happens at each step?",
+      "a": "Object ko paani mein rakha jata hai, toh paani us object ko upar ki taraf dhakelta hai, aur object ka wajan neeche ki taraf kheenchta hai, isse object float ya sink karta hai. Agar paani ka upar ki taraf dhakelne wala bal object ke wajan se zyada hota hai toh object float karta hai, nahi toh sink karta hai. Is tarah se object ka"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Ek 5 saal ke bachche ko main aisa samjhaunga, ki jab koi cheez paani mein daali jaati hai toh vah do cheezein kar sakti hai, ya toh vah paani ke upar taiti hai ya phir niche dubki lagati hai, jise hum floating aur sinking kehte hain."
+    },
+    {
+      "type": "application",
+      "q": "Why can a steel ship float even though a steel coin sinks?",
+      "a": "Steel ship float karta hai kyunki uska shape aisa hota hai ki usmein hawa bhar jaati hai aur uska volume badh jaata hai, jisse uska density kam ho jaata hai aur woh pani par float karne lagta hai, lekin steel coin ka density zyada hota hai isliye woh sink ho jaata hai. Isliye, steel ship float karta hai lekin steel coin sink k"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why can a steel ship float even though a steel coin sinks?",
+      "options": [
+        "The ship has no weight",
+        "The ship shape pushes aside a lot of water",
+        "Steel becomes wood in water",
+        "Ships are always smaller than coins"
+      ],
+      "correct": "The ship shape pushes aside a lot of water",
+      "hint": "A ship's hollow shape spreads weight and displaces enough water to get a strong upward push.",
+      "answer": "A ship's hollow shape spreads weight and displaces enough water to get a strong upward push."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if weight becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if weight becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Floating and Sinking shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Floating and Sinking, one or more factors such as weight change what we observe. The idea connects Physics, Math, Chemistry and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Floating and Sinking connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Floating depends on shape, material, water push, and how weight is spread over volume.",
+    "hinglish": "Dekh yaar — Floating and Sinking mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A coin sinks quickly, but a paper boat floats for some time. Shape changes how much water is pushed aside."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does a leaf float but a stone sinks, and how can a heavy boat float. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more weight.",
+    "class_6_8": "Explain the cause-effect chain: Object placed → Water pushes up → Weight pulls down → Shape matters.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Chemistry."
+  },
+  "subject_lenses": {
+    "Physics": "Buoyancy is the upward push of water; gravity pulls objects down.",
+    "Math": "Compare size, weight, and number of objects that float or sink.",
+    "Chemistry": "Different materials have different properties and densities."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Floating and Sinking ka concept aur jagah bhi kaam karta hai: Boats, Life jackets, Bath toys.",
+      "related_concepts": [],
+      "career_connection": "Marine engineering, ship design, swimming safety, materials testing."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj floating and sinking se related kuch notice karo.",
+    "Why does a leaf float but a stone sinks, and how can a heavy boat float?",
+    "What would happen if weight becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "The ancient Indian scientist Aryabhata, known for his contributions to mathematics and astronomy, also made observations about the behavior of objects in water. His work on the density of objects and the buoyancy force can be connected to the concept of floating and sinking, as it relates to the shape, material, and distribution of weight over volume, all of which are crucial in understanding why certain objects float while others sink.",
+    "story_hook": "Imagine you are on the banks of the Ganges River, watching a boat made of lightweight material glide effortlessly across the water, while a heavy stone sinks to the bottom. As we explore the concept of floating and sinking, we'll uncover the secrets behind this phenomenon, just like Aryabhata uncovered the secrets of the universe centuries ago.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Floating and Sinking",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Test a small ball of clay and a bowl-shaped clay piece in a bucket. Keep water shallow and clean up spills to avoid slipping."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "buoyancy",
+    "comparison",
+    "materials"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-floating-sinking-boats",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Use proper floatation aids near water; never assume an object or person will float safely.",
+  "career_connections": "Marine engineering, ship design, swimming safety, materials testing.",
+  "why_matters": "This builds early intuition for boats, swimming aids, and material choice.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 3,
+  "learning_track": [
+    "core"
+  ]
+}

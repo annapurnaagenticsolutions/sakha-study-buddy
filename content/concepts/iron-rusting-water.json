@@ -1,0 +1,228 @@
+{
+  "concept_id": "iron-rusting-water",
+  "title": "Why Iron Rusts Near Water",
+  "icon": "🧲",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Chemistry",
+    "Physics",
+    "Math"
+  ],
+  "place": "Home + Environment",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why do iron gates, nails, or tools rust faster when exposed to water?",
+  "big_idea": "Rusting is a chemical change involving iron, oxygen, and water. Paint, oil, and dry storage reduce contact with these reactants.",
+  "story": "An iron nail left in a damp place slowly turns reddish-brown. The surface changes because iron reacts with oxygen and water.",
+  "cause_process_result": {
+    "cause": "Iron surface exposed",
+    "process": "Water and oxygen contact it → Chemical reaction starts → Rust layer forms",
+    "result": "Object weakens over time"
+  },
+  "flow": [
+    "Iron surface exposed",
+    "Water and oxygen contact it",
+    "Chemical reaction starts",
+    "Rust layer forms",
+    "Object weakens over time"
+  ],
+  "whiteboard": [
+    "Cause: Iron surface exposed",
+    "  -> Water and oxygen contact it → Chemical reaction starts → Rust layer forms",
+    "Result: Object weakens over time"
+  ],
+  "indian_analogies": [
+    "Home + Environment mein yeh dekhte hain: Why Iron Rusts Near Water.",
+    "Gates"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is thinking rust is just dirt. Rust is a new substance formed by chemical reaction.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Why Iron Rusts Near Water mein Chemistry, Physics, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do iron gates, nails, or tools rust faster when exposed to water?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do iron gates, nails, or tools rust faster when exposed to water?",
+      "a": "Jab iron ke saath paani milta hai toh oxygen bhi milta hai, jisse iron mein rust banne lagta hai, isliye iron gates, nails, ya tools paani ke paas jaldi rust ho jaate hain. Is process ko oxidation kehte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Why does salt water speed rust?",
+      "a": "Salt water mein iron jaldi rusts kyun ki salt water mein electrolytes hote hain jo iron ke saath reaction karke rusting process ko tez karte hain. Ismein oxygen bhi jaldi milta hai jo rusting ko aur badhava deta hai. Isliye, salt water ke paas iron jaldi rust hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does paint help?",
+      "a": "Paint iron ko protect karta hai, kyunki yeh paani aur oxygen ko iron tak pahunchne se rokta hai, jisse rusting ki prakriya ruk jati hai. Isliye, paint lagane se iron ki sath rusting ki samasya kam ho jati hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why is rust weaker than iron?",
+      "a": "Rust kamzor hota hai kyunki yeh iron ke molecules ko tod deta hai aur unhein alag kar deta hai, jisse yeh kamzor ho jata hai. Iron ki tarah rust mein wahi strength nahi hoti. Isliye, rust iron se kamzor hota hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Iron surface exposed -> Water and oxygen contact it -> Chemical reaction starts — what exactly happens at each step?",
+      "a": "Iron surface exposed hone par, iron ki satah par oxygen aur paani ka sampark hota hai, jisse chemical reaction shuru hota hai. Is reaction mein iron oxide banata hai, jise hum rust kehte hain. Is prakriya mein iron ki satah par laal-bhure rang ka rust jamne lagta hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Iron ko rust hone ke liye oxygen, water aur thoda sa time chahiye, isliye jab iron ko paani ke paas rakhte hain to yeh jaldi rust ho jata hai. Paani mein oxygen hoti hai jo iron ke saath react karti hai aur rust banati hai. Isliye humein iron ke items ko paani se door rakhna chahiye."
+    },
+    {
+      "type": "application",
+      "q": "Which condition slows rusting?",
+      "a": "Jab iron ko dry jagah par rakha jata hai, toh rusting ki process slow ho jati hai, kyunki pani ki anupasthiti mein oxygen ki matra bhi kam ho jati hai, jisse rusting ki dar slow ho jati hai. Isliye, dry condition mein rusting slow hoti hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which condition slows rusting?",
+      "options": [
+        "Keep iron wet and scratched",
+        "Paint or oil the surface",
+        "Add salt water",
+        "Leave iron in rain"
+      ],
+      "correct": "Paint or oil the surface",
+      "hint": "Paint or oil creates a barrier that reduces contact between iron, oxygen, and water.",
+      "answer": "Paint or oil creates a barrier that reduces contact between iron, oxygen, and water."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if moisture exposure becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if moisture exposure becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Why Iron Rusts Near Water shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Why Iron Rusts Near Water, one or more factors such as moisture exposure change what we observe. The idea connects Chemistry, Physics, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Why Iron Rusts Near Water connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Rusting is a chemical change involving iron, oxygen, and water. Paint, oil, and dry storage reduce contact with these reactants.",
+    "hinglish": "Dekh yaar — Why Iron Rusts Near Water mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "An iron nail left in a damp place slowly turns reddish-brown. The surface changes because iron reacts with oxygen and water."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do iron gates, nails, or tools rust faster when exposed to water. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more moisture exposure.",
+    "class_6_8": "Explain the cause-effect chain: Iron surface exposed → Water and oxygen contact it → Chemical reaction starts → Rust layer forms.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Chemistry, Physics, Math."
+  },
+  "subject_lenses": {
+    "Chemistry": "Iron oxidizes to form rust; salt water can speed corrosion.",
+    "Physics": "Water contact, surface exposure, and protective barriers affect the process.",
+    "Math": "Compare time to rust under dry, wet, and salty conditions."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Why Iron Rusts Near Water ka concept aur jagah bhi kaam karta hai: Gates, Bicycles, Tools.",
+      "related_concepts": [],
+      "career_connection": "Materials science, maintenance engineering, chemistry, product design."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj why iron rusts near water se related kuch notice karo.",
+    "Why do iron gates, nails, or tools rust faster when exposed to water?",
+    "What would happen if moisture exposure becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Acharya P.C. Ray",
+    "connection": "Acharya P.C. Ray was an Indian chemist who made significant contributions to the understanding of chemical reactions. His work on the chemical properties of metals, including iron, laid the foundation for understanding the process of rusting, which is a chemical change involving iron, oxygen, and water. The concept of rusting is analogous to the way ancient Indian craftsmen protected iron from corrosion by applying natural oils and waxes, a technique that is still used today.",
+    "story_hook": "Imagine you're a young apprentice to a skilled craftsman in ancient India, tasked with protecting a precious iron sword from the corrosive effects of water and air. As you learn the secrets of applying natural oils and waxes to prevent rust, you begin to uncover the fascinating science behind why iron rusts near water.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Why Iron Rusts Near Water",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe rusty and painted iron objects from a safe distance. Do not touch sharp rusty objects."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "oxidation",
+    "surface_protection",
+    "time_comparison",
+    "injury_prevention"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-iron-rusting-water",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Keep iron dry, painted, oiled, or protected, especially during monsoon or in coastal areas.",
+  "career_connections": "Materials science, maintenance engineering, chemistry, product design.",
+  "why_matters": "Rusting is a daily example of chemical change and material care.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "concept_id": "elevator-lift-force",
+  "title": "Elevator and Lift Safety",
+  "icon": "🛗",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Biology"
+  ],
+  "place": "Building",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why does an elevator need motors, cables, sensors, and weight limits?",
+  "big_idea": "Elevators use force, work, power, counterweights, sensors, and safety rules to move people vertically.",
+  "story": "When people enter a lift, total load increases. Motors and cables must safely move the cabin, while sensors prevent unsafe operation.",
+  "cause_process_result": {
+    "cause": "People enter",
+    "process": "Weight measured → Motor/cable act → Cabin moves",
+    "result": "Sensors protect"
+  },
+  "flow": [
+    "People enter",
+    "Weight measured",
+    "Motor/cable act",
+    "Cabin moves",
+    "Sensors protect"
+  ],
+  "whiteboard": [
+    "Cause: People enter",
+    "  -> Weight measured → Motor/cable act → Cabin moves",
+    "Result: Sensors protect"
+  ],
+  "indian_analogies": [
+    "Building mein yeh dekhte hain: Elevator and Lift Safety.",
+    "Apartments"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "If a lift can move, it is always safe at any load. Design ratings must be respected.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Elevator and Lift Safety mein Physics, Math, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does an elevator need motors, cables, sensors, and weight limits?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does an elevator need motors, cables, sensors, and weight limits?",
+      "a": "Elevator mein motors, cables, sensors aur weight limits ki zarurat hoti hai taaki yeh surakshit tareeke se upar niche chale aur accidents ko roke. Isse elevator ki gati ko control kiya ja sakta hai aur yeh bhi ensure kiya ja sakta hai ki elevator overload na ho. Isse sabhi ke liye suraksha mil sakti hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why do lifts have counterweights?",
+      "a": "Lifts mein counterweights hote hain kyunki ve lift ko uthane mein madad karte hain aur uski loading ko balance karte hain, isse lift ki movement smooth aur safe hoti hai. Counterweights ka weight lift ke weight ke barabar hota hai, jisse lift ko upar utthane mein kam energy lagti hai. Isse lift ki safety badhti hai aur accidents hone ki sambhavna kam hoti hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why do doors have sensors?",
+      "a": "Doors mein sensors hote hain taaki jab koi aadmi ya vastu door ke beech mein aa jaye to door band na ho, isse chot lagne se bacha ja sake. Yeh sensors door ko band hone se rok dete hain aur suraksha badhate hain. Isse elevator ya lift ka upyog karte samay humein suraksha milti hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does acceleration feel different?",
+      "a": "Acceleration feel different hota hai kyunki jab hum elevator mein upar ya neeche jaate hain, to hamara shareer gati mein badlav mehsoos karta hai, jisse humein acceleration ka ehsaas hota hai. Ismein humein thoda dhakka ya halka pan mehsoos hota hai. Yah Newton ke gati ke niyam se sambandhit hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — People enter -> Weight measured -> Motor/cable act — what exactly happens at each step?",
+      "a": "Pehle log lift mein enter hote hain, phir unka weight measure hota hai, aur phir motor ya cable act karta hai jisse lift upar ya neeche chalti hai. Is process mein safety ke liye sensors bhi kaam karte hain. Isse lift ki safe movement ensure hoti hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Elevator mein safar karte samay humein kuch safety rules follow karni chahiye, jaise ki andar jaane se pehle darwaza khula hai ya nahi, aur bahar nikalte samay darwaza pura khul jaaye. Humein elevator ke andar khelna bhi nahi chahiye, aur hamesha apne bade logon ke saath hi elevator mein jaana chahiye. Is"
+    },
+    {
+      "type": "application",
+      "q": "Why should we respect lift weight limits?",
+      "a": "Lift ke weight limit ka palan karna zaroori hai kyunki yeh humari suraksha ke liye avashyak hai, agar hum weight limit ko cross karte hain to lift gir sakti hai aur humein chot aa sakti hai. Isliye humein lift ke weight limit ka samman karna chahiye."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why should we respect lift weight limits?",
+      "options": [
+        "They are decoration only",
+        "Overload can stress the system and reduce safety",
+        "More weight makes motors unnecessary",
+        "It makes gravity disappear"
+      ],
+      "correct": "Overload can stress the system and reduce safety",
+      "hint": "Lifts are designed for rated loads. Overloading can trigger faults or unsafe stress.",
+      "answer": "Lifts are designed for rated loads. Overloading can trigger faults or unsafe stress."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if passenger load becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if passenger load becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Elevator and Lift Safety shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Elevator and Lift Safety, one or more factors such as passenger load change what we observe. The idea connects Physics, Math, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Elevator and Lift Safety connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Elevators use force, work, power, counterweights, sensors, and safety rules to move people vertically.",
+    "hinglish": "Dekh yaar — Elevator and Lift Safety mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "When people enter a lift, total load increases. Motors and cables must safely move the cabin, while sensors prevent unsafe operation."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does an elevator need motors, cables, sensors, and weight limits. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more passenger load.",
+    "class_6_8": "Explain the cause-effect chain: People enter → Weight measured → Motor/cable act → Cabin moves.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Force, gravity, work, energy, pulleys, acceleration.",
+    "Math": "Add passenger weights approximately; read capacity labels; compare floors and time.",
+    "Biology": "Balance and body sensation can change during acceleration."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Elevator and Lift Safety ka concept aur jagah bhi kaam karta hai: Apartments, Hospitals, Malls.",
+      "related_concepts": [],
+      "career_connection": "Mechanical engineering, safety inspection, building systems, automation."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj elevator and lift safety se related kuch notice karo.",
+    "Why does an elevator need motors, cables, sensors, and weight limits?",
+    "What would happen if passenger load becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "The concept of elevators and lifts can be related to the work of Aryabhata, a renowned Indian mathematician and astronomer, who studied the concept of gravity and its effects on objects. Aryabhata's work on the concept of gravity can be linked to the force and counterweights used in elevators, which are designed to move people vertically while ensuring safety through the use of sensors and safety rules.",
+    "story_hook": "Imagine you are in the ancient city of Ujjain, where Aryabhata studied the movements of celestial bodies, and you stumble upon an old temple with a unique pulley system that resembles a modern-day elevator. As you explore the temple, you discover that this ancient system uses the same principles of force, work, and power that Aryabhata studied, and you begin to wonder how these principles can be applied to create safe and efficient elevators.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Elevator and Lift Safety",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Time a lift ride for different floors with an adult. Do not play near lift doors or block sensors."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "force_and_work",
+    "capacity_and_time",
+    "balance"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-elevator-lift-force",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Follow capacity, keep clear of doors, and use stairs during emergencies when instructed.",
+  "career_connections": "Mechanical engineering, safety inspection, building systems, automation.",
+  "why_matters": "Students learn that safety labels are engineering limits, not arbitrary rules.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

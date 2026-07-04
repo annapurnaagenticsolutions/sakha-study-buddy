@@ -1,0 +1,166 @@
+{
+  "concept_id": "drone-flight-controller",
+  "title": "Drone Flight Controller",
+  "icon": "🚁",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Engineering"
+  ],
+  "level": "Advanced Systems",
+  "prerequisites": [],
+  "intro_hook": "How does a drone stay level and respond to control inputs? What makes it crash?",
+  "big_idea": "Drone uses 4 motors. Differential speed creates roll, pitch, yaw. Gyroscope and accelerometer measure orientation. PID controller adjusts motor speeds 500 times per second.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Pilot input plus sensor readings (gyro, accelerometer)",
+    "process": "PID controller calculates motor speed adjustments 500x per second",
+    "result": "Stable flight; failure = sensor lag, motor failure, or wind gust exceeding correction rate"
+  },
+  "flow": [
+    "Pilot input plus sensor readings (gyro, accelerometer)",
+    "PID controller calculates motor speed adjustments 500x per second",
+    "Stable flight; failure = sensor lag, motor failure, or wind gust exceeding correction rate"
+  ],
+  "whiteboard": [
+    "System Lens: Purpose -> Inputs -> Process -> Outputs -> Feedback -> Failure -> Data -> Design",
+    "Cause: Pilot input plus sensor readings (gyro, accelerometer)",
+    "  -> PID controller calculates motor speed adjustments 500x per second",
+    "Result: Stable flight; failure = sensor lag, motor failure, or wind gust exceeding correction rate"
+  ],
+  "indian_analogies": [
+    "India context: TODO — add local real-world example of this system."
+  ],
+  "misconceptions": [
+    {
+      "id": "system_never_fails",
+      "belief": "Well-designed systems never fail.",
+      "probe": "What happens when one sensor fails in this system?",
+      "repair": "Every system has failure modes. Engineering is about making failures safe, detectable, and recoverable — not eliminating them entirely.",
+      "trigger_words": [
+        "perfect system",
+        "never fails",
+        "always works"
+      ]
+    },
+    {
+      "id": "single_cause_failure",
+      "belief": "System failures always have a single clear cause.",
+      "probe": "What if two components fail simultaneously in different parts of the chain?",
+      "repair": "Complex systems have cascading failures — sensor error, transport delay, power cut, and human error often combine.",
+      "trigger_words": [
+        "one cause",
+        "simple fix",
+        "just one thing broke"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does a drone stay level and respond to control inputs? What makes it crash?",
+      "a": "Drone mein ek flight controller hota hai jo isey level rakhne aur control inputs ke anusaar respond karne mein madad karta hai, yeh sensor aur accelerometer ka use karke drone ki position aur movement ko monitor karta hai, agar yeh sahi se kaam na kare to drone crash ho sakta hai."
+    },
+    {
+      "type": "probe",
+      "q": "What inputs does this system need to function?",
+      "a": "Is system ko function karne ke liye sensors, GPS, accelerometer, aur gyroscope ki inputs ki zarurat hoti hai, jo drone ki position, speed, aur direction ko measure karti hain. Ismein remote control se bhi inputs milte hain jo pilot dwara di jaati hain."
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace the full Purpose->Inputs->Process->Outputs->Feedback chain.",
+      "a": "Drone flight controller ka purpose hai drone ko sahi tarike se udne mein madad karna, isme inputs sensors aur remote control se milte hain, process mein controller yeh inputs ko process karta hai aur drone ki position, speed aur direction ko control karta hai, outputs mein drone ki movement hoti hai, aur feedback mein sensors se milne wale data ko controller use karta hai apne decisions ko update karne ke liye. Is chain se"
+    },
+    {
+      "type": "probe",
+      "q": "Where could this system fail? What would the warning signal look like?",
+      "a": "Is system ki failure sensor, GPS, ya battery mein ho sakti hai, jiske kaaran drone ka control kho sakta hai. Warning signal ke roop mein drone ki screen par error message aa sakta hai ya alarm baj sakta hai. Iske alawa, drone ka abnormal movement bhi ek warning signal ho sakta hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Design a simple version of this system. What is your most important design decision and why?",
+      "a": "Mere hisaab se, ek simple drone flight controller design mein sabse important decision hai sensor ka chayan, jaise ki accelerometer, gyroscope aur GPS, jo drone ki position, speed aur direction ko control karta hai. Is decision se drone ki stability aur navigation sambhav hoti hai. Isse hum drone ko safely udha sakte hain."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "design",
+      "q": "What single change would most improve the reliability of the Drone Flight Controller? What trade-off does it introduce?",
+      "hint": "Think about the feedback loop — what information is currently missing?",
+      "answer": "Multiple valid answers — evaluate by quality of trade-off reasoning."
+    },
+    {
+      "difficulty": 3,
+      "type": "failure_analysis",
+      "q": "One component in the Drone Flight Controller fails silently (no alarm). Trace what happens step by step.",
+      "hint": "Follow the process chain — where does the error propagate?",
+      "answer": "Depends on component; evaluate by systematic chain reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Drone uses 4 motors. Differential speed creates roll, pitch, yaw. Gyroscope and accelerometer measure orientation. PID controller adjusts motor speeds 500 times per second.",
+    "formal": "Systems lens: Purpose->Inputs->Process->Outputs->Feedback->Failure->Data->Design",
+    "real_life": "How does a drone stay level and respond to control inputs? What makes it crash?",
+    "hinglish": "Yaar, drone flight controller ek system hai — inputs aate hain, process hoti hai, output nikalta hai. Kya fail ho sakta hai?"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with Purpose only — what problem does this system solve?",
+    "standard": "Map all 8 system dimensions.",
+    "fast_learner": "Design an improved version under a new constraint."
+  },
+  "subject_lenses": {
+    "Physics": "Applied in this system",
+    "Math": "Applied in this system",
+    "Engineering": "Applied in this system"
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Drone Flight Controller ka ek surprising failure mode hai jo tune shayad socha nahi hoga.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "How does a drone stay level and respond to control inputs? What makes it crash?",
+    "Notice a drone flight controller around you today — map its inputs and one failure mode."
+  ],
+  "indian_legacy": {
+    "scientist": "Bhaskara",
+    "connection": "The ancient Indian mathematician and astronomer Bhaskara, in his work 'Lilavati', discussed the concept of 'gati' or motion, which is essential to understanding the dynamics of drone flight. The idea of differential speed creating roll, pitch, and yaw in drones can be related to Bhaskara's work on the concept of 'gati' and its application in understanding the motion of celestial bodies.",
+    "story_hook": "Imagine you are a young apprentice to Bhaskara, tasked with designing a mechanical bird that can soar through the skies, and you discover that by adjusting the speed of its wings, you can control its flight. As you delve deeper into the secrets of motion, you learn that this same principle is used in modern drones, which use differential speed to navigate the skies.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Observe: Drone Flight Controller",
+    "time_required": "5 min",
+    "steps": [
+      "Find a real example of a drone flight controller in your city or home. Map its inputs, outputs, and one failure mode."
+    ],
+    "share_with_sakha": "What was surprising about the system you observed?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "advanced-stem-systems-lab#module-drone-flight-controller",
+  "visualizer_type": "advanced_systems_simulator",
+  "session_type": "science",
+  "_source": "advanced-stem-systems-lab-v1.0",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "indian_analogies",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

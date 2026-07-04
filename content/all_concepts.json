@@ -1,0 +1,929 @@
+[
+  {
+    "id": "air-conditioner-cooling-energy",
+    "title": "Air Conditioner and Room Cooling",
+    "x": 5.560318859524797,
+    "y": 0.0,
+    "z": 39.6116504854369,
+    "subject": "Physics",
+    "unlocked": true
+  },
+  {
+    "id": "air-pollution-lungs",
+    "title": "Air Pollution and Lungs",
+    "x": -7.066692867923183,
+    "y": -6.473669538711149,
+    "z": 38.83495145631068,
+    "subject": "Chemistry",
+    "unlocked": true
+  },
+  {
+    "id": "bicycle-riding",
+    "title": "Bicycle Riding",
+    "x": 1.0763289919954226,
+    "y": 12.264213716732833,
+    "z": 38.05825242718447,
+    "subject": "Physics",
+    "unlocked": true
+  },
+  {
+    "id": "bicycle-tyre-pressure-grip",
+    "title": "Bicycle Tyre Pressure and Grip",
+    "x": 8.818917289566805,
+    "y": -11.50271594309408,
+    "z": 37.28155339805825,
+    "subject": "Physics",
+    "unlocked": true
+  },
+  {
+    "id": "biomedical-monitoring",
+    "title": "Biomedical Device Monitoring",
+    "x": -16.102266861752963,
+    "y": 2.8482642812695156,
+    "z": 36.504854368932044,
+    "subject": "Biology",
+    "unlocked": true
+  },
+  {
+    "id": "boiling-water",
+    "title": "Boiling Water",
+    "x": 15.175846532728919,
+    "y": 9.653631339022843,
+    "z": 35.728155339805824,
+    "subject": "Physics",
+    "unlocked": true
+  },
+  {
+    "id": "bouncing_balls",
+    "title": "Why do Balls Bounce?",
+    "x": -5.0499256863426645,
+    "y": -18.785471841959964,
+    "z": 34.95145631067962,
+    "subject": "Physics",
+    "unlocked": true
+  },
+  {
+    "id": "bridge-engineering",
+    "title": "Bridge Engineering",
+    "x": -9.580725716320368,
+    "y": 18.447104366147826,
+    "z": 34.1747572815534,
+    "subject": "Physics",
+    "unlocked": true
+  },
+  {
+    "id": "camera-photo-focus",
+    "title": "Camera and Photo Focus",
+    "x": 20.677227124294145,
+    "y": -7.551290182335402,
+    "z": 33.398058252427184,
+    "subject": "Physics",
+    "unlocked": true
+  },
+  {
+    "id": "clothes-drying-sun-wind",
+    "title": "Why Clothes Dry Faster in Sun and Wind",
+    "x": -21.397090720501115,
+    "y": -8.832408002521277,
+    "z": 32.62135922330097,
+    "subject": "Physics",
+    "unlocked": true
+  },
+  {
+    "id": "cold-bottle-condensation",
+    "title": "Water Drops on a Cold Bottle",
+    "x": 10.259503926482216,
+    "y": 21.92396397324256,
+    "z": 31.844660194174757,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "cold-chain-logistics",
+    "title": "Cold-Chain Logistics",
+    "x": 7.540419927087767,
+    "y": -24.040046929451144,
+    "z": 31.067961165048544,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "compost-helps-soil",
+    "title": "How Compost Helps Soil",
+    "x": -22.60238123754126,
+    "y": 13.098541926706224,
+    "z": 30.29126213592233,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "composting-kitchen-waste",
+    "title": "Composting Kitchen Waste",
+    "x": 26.36826650090725,
+    "y": 5.796989421422296,
+    "z": 29.514563106796118,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "contact-lenses-eye-care",
+    "title": "Contact Lenses and Eye Care",
+    "x": -16.001989812776767,
+    "y": -22.76118385069543,
+    "z": 28.737864077669904,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "cooking-physics",
+    "title": "Physics of Cooking",
+    "x": -3.6758848017926695,
+    "y": 28.366549315206605,
+    "z": 27.96116504854369,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "cooking-rice-heat-water",
+    "title": "Cooking Rice",
+    "x": 22.43700632879429,
+    "y": -18.909932687367814,
+    "z": 27.18446601941747,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "drone-flight-controller",
+    "title": "Drone Flight Controller",
+    "x": -30.018142956079775,
+    "y": -1.2413444545497792,
+    "z": 26.407766990291258,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "ear-pressure-flight-mountain",
+    "title": "Ear Pressure in Flights and Mountains",
+    "x": 21.76750796973821,
+    "y": 21.661577780889417,
+    "z": 25.631067961165044,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "earthquake-alert-system",
+    "title": "Earthquake Alert System",
+    "x": -1.4476876282062923,
+    "y": -31.30757968162409,
+    "z": 24.85436893203883,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "electricity-bill",
+    "title": "Electricity Bill Calculator",
+    "x": -20.46527523967914,
+    "y": 24.524239466506437,
+    "z": 24.077669902912618,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "electricity-circuits",
+    "title": "Electricity and Circuits",
+    "x": 32.222176289682096,
+    "y": -4.335448246214767,
+    "z": 23.300970873786405,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "elevator-door-sensors",
+    "title": "How Elevator Doors Sense Objects",
+    "x": -27.13377222212103,
+    "y": -18.878971975875725,
+    "z": 22.52427184466019,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "elevator-lift-force",
+    "title": "Elevator and Lift Safety",
+    "x": 7.368310499062605,
+    "y": 32.75287891197431,
+    "z": 21.747572815533978,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "exercise-body",
+    "title": "Human Body During Exercise",
+    "x": 16.934994001328384,
+    "y": -29.55382260908946,
+    "z": 20.970873786407765,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "floating-sinking-boats",
+    "title": "Floating and Sinking",
+    "x": -32.894748961655864,
+    "y": 10.494322113505621,
+    "z": 20.194174757281548,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "food-spoilage",
+    "title": "Why Food Spoils",
+    "x": 31.74624426332645,
+    "y": 14.667570061864733,
+    "z": 19.417475728155342,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "fractions_intro",
+    "title": "What are Fractions Really?",
+    "x": -13.663079922882975,
+    "y": -32.647230986376854,
+    "z": 18.640776699029125,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "gravity",
+    "title": "Weight and Mass",
+    "x": -12.11297363888107,
+    "y": 33.67715247207591,
+    "z": 17.864077669902912,
+    "subject": "Science",
+    "unlocked": false
+  },
+  {
+    "id": "handwashing-soap-germs",
+    "title": "Washing Hands With Soap",
+    "x": 32.014274386273094,
+    "y": -16.825805380639196,
+    "z": 17.087378640776695,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "helmet-head-protection",
+    "title": "Why Helmets Protect the Head",
+    "x": -35.31707177704282,
+    "y": -9.309466778569789,
+    "z": 16.310679611650485,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "home-cooling-shade-ventilation",
+    "title": "Keeping a House Cool",
+    "x": 19.935542023181643,
+    "y": 31.004348267682026,
+    "z": 15.53398058252428,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "ice-melting",
+    "title": "Why Ice Melts",
+    "x": 6.29711052386348,
+    "y": -36.641084047882444,
+    "z": 14.757281553398055,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "ice_melting",
+    "title": "Why Ice Melts",
+    "x": -29.630372306783197,
+    "y": 22.94742576507091,
+    "z": 13.98058252427184,
+    "subject": "Science",
+    "unlocked": false
+  },
+  {
+    "id": "iron-rusting-water",
+    "title": "Why Iron Rusts Near Water",
+    "x": 37.62896175961966,
+    "y": 3.117482564458385,
+    "z": 13.203883495145629,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "kite-flying-wind-force",
+    "title": "Kite Flying",
+    "x": -25.818995822010695,
+    "y": -27.9095779436114,
+    "z": 12.427184466019419,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "lemonade-ratio-dissolving",
+    "title": "Making Lemonade",
+    "x": 0.18667084296411035,
+    "y": 38.265275944139304,
+    "z": 11.650485436893206,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "lunch-box-nutrition-portions",
+    "title": "Lunch Box Nutrition and Portions",
+    "x": 25.863309653309393,
+    "y": -28.510524073318877,
+    "z": 10.873786407766987,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "magnets-at-home",
+    "title": "Magnets at Home",
+    "x": -38.539471456131295,
+    "y": 3.5718295522231265,
+    "z": 10.097087378640776,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "math_algebraic_expressions",
+    "title": "Algebraic Expressions",
+    "x": 30.985346885138306,
+    "y": 23.516773575936885,
+    "z": 9.32038834951456,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "math_area_perimeter",
+    "title": "Area and Perimeter",
+    "x": -6.99412646293573,
+    "y": -38.445904434895844,
+    "z": 8.543689320388347,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "math_coordinate_plane",
+    "title": "Coordinate Plane",
+    "x": -20.898739475524202,
+    "y": 33.21018744526453,
+    "z": 7.7669902912621405,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "math_fractions",
+    "title": "Fractions",
+    "x": 37.983838514644056,
+    "y": -10.409795375700195,
+    "z": 6.990291262135919,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "math_integers_signs",
+    "title": "Integers and Signs",
+    "x": -35.155459404100746,
+    "y": -18.04120133606701,
+    "z": 6.213592233009714,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "math_linear_equations",
+    "title": "Linear Equations",
+    "x": 13.775630381238525,
+    "y": 37.15739764688942,
+    "z": 5.436893203883496,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "math_percentages",
+    "title": "Percentages",
+    "x": 14.979001607197313,
+    "y": -36.79554458226075,
+    "z": 4.66019417475728,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "math_probability_basics",
+    "title": "Probability Basics",
+    "x": -35.97547447498667,
+    "y": 17.049448722860294,
+    "z": 3.883495145631068,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "math_ratio_proportion",
+    "title": "Ratio and Proportion",
+    "x": 38.10903899294942,
+    "y": 11.74942402521634,
+    "z": 3.1067961165048494,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "math_triangles_angles",
+    "title": "Triangles and Angles",
+    "x": -20.190550020749,
+    "y": -34.45159412020033,
+    "z": 2.330097087378636,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "mirror-reflection-symmetry",
+    "title": "Mirror Reflection",
+    "x": -8.391759962418238,
+    "y": 39.07896261680665,
+    "z": 1.5533980582524287,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "mobile-phone-heating",
+    "title": "Why Phones Heat Up",
+    "x": 32.60373404992465,
+    "y": -23.16016547047838,
+    "z": 0.776699029126212,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "monsoon-flood-drainage",
+    "title": "Monsoon, Flooding, and Drainage",
+    "x": -39.6929293703911,
+    "y": -4.946853342999354,
+    "z": 2.4492935982947065e-15,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "mosquito-control-health",
+    "title": "Mosquito Control and Health",
+    "x": 25.921891221122802,
+    "y": 30.4541014337713,
+    "z": -0.776699029126216,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "musical-instruments-sound",
+    "title": "Musical Instruments and Sound",
+    "x": 1.4566292731295802,
+    "y": -39.943274598275984,
+    "z": -1.5533980582524238,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "ohms_law",
+    "title": "Ohm's Law",
+    "x": -28.028870074436806,
+    "y": 28.44210065929959,
+    "z": -2.33009708737864,
+    "subject": "Science",
+    "unlocked": false
+  },
+  {
+    "id": "packed-food-expiry",
+    "title": "Packed Food and Expiry Dates",
+    "x": 39.82713823969294,
+    "y": -2.0363883536443144,
+    "z": -3.1067961165048534,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "paper-airplane-flight",
+    "title": "Paper Airplane Flight",
+    "x": -30.690330812645485,
+    "y": -25.357879644486115,
+    "z": -3.8834951456310627,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "physics_acceleration",
+    "title": "Acceleration",
+    "x": 5.489564907663866,
+    "y": 39.34650260668798,
+    "z": -4.660194174757276,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "physics_electric_current",
+    "title": "Electric Current",
+    "x": 22.474300582463894,
+    "y": -32.639638564460675,
+    "z": -5.436893203883491,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "physics_energy",
+    "title": "Energy",
+    "x": -38.508184486768954,
+    "y": 8.860643266425296,
+    "z": -6.2135922330097095,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "physics_force",
+    "title": "Force",
+    "x": 34.266922857133366,
+    "y": 19.414268618049384,
+    "z": -6.990291262135915,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "physics_friction",
+    "title": "Friction",
+    "x": -12.108226695736143,
+    "y": -37.323782071222396,
+    "z": -7.766990291262136,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "physics_motion",
+    "title": "Motion",
+    "x": -16.21649352641364,
+    "y": 35.55320956685158,
+    "z": -8.543689320388342,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "physics_reflection_light",
+    "title": "Reflection of Light",
+    "x": 35.80957803401865,
+    "y": -15.19225072330504,
+    "z": -9.320388349514555,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "physics_speed",
+    "title": "Speed",
+    "x": -36.48389626465471,
+    "y": -12.92184738410136,
+    "z": -10.09708737864078,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "physics_velocity",
+    "title": "Velocity",
+    "x": 18.074438247128338,
+    "y": 33.986400974639935,
+    "z": -10.873786407766993,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "physics_work",
+    "title": "Work",
+    "x": 9.572938354065966,
+    "y": -37.0489546459005,
+    "z": -11.650485436893208,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "plant-growth-photosynthesis",
+    "title": "Plant Growth and Photosynthesis",
+    "x": -31.87944843193304,
+    "y": 20.71873195741592,
+    "z": -12.427184466019423,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "plant-growth",
+    "title": "Growing a Plant",
+    "x": 37.24308901899569,
+    "y": 6.213676928339894,
+    "z": -13.203883495145632,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "pressure-cooker",
+    "title": "Pressure Cooker",
+    "x": -23.091697885323377,
+    "y": -29.5180758359175,
+    "z": -13.980582524271846,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "rain-damaged-roads",
+    "title": "Why Roads Get Damaged in Rain",
+    "x": -2.88884270251967,
+    "y": 37.06584990248889,
+    "z": -14.75728155339806,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "rain-puddles-water-cycle",
+    "title": "Rain, Puddles, and Drying",
+    "x": 26.935557185245038,
+    "y": -25.162893442173008,
+    "z": -15.533980582524274,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "refrigerator-food-cooling",
+    "title": "Refrigerator and Food Cooling",
+    "x": -36.521702497840586,
+    "y": 0.3563386946624062,
+    "z": -16.31067961165048,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "refrigerator-preserves-food",
+    "title": "How Refrigerators Preserve Food",
+    "x": 26.905192544397423,
+    "y": 24.168825071476462,
+    "z": -17.087378640776706,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "road-safety",
+    "title": "Road Safety and Braking",
+    "x": -3.476596679553487,
+    "y": -35.6200505969797,
+    "z": -17.86407766990291,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "rocket-science",
+    "title": "Rocket Science",
+    "x": -21.2582001682841,
+    "y": 28.295059103350514,
+    "z": -18.64077669902912,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "salt-in-cooking",
+    "title": "Salt in Cooking",
+    "x": 34.375217367008986,
+    "y": -6.426979641898827,
+    "z": -19.41747572815534,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "salt_in_water",
+    "title": "Why does Salt Dissolve in Water?",
+    "x": -29.312757899452972,
+    "y": -18.24712388844964,
+    "z": -20.194174757281562,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "school-bag-weight",
+    "title": "Packing a School Bag",
+    "x": 9.163161370079209,
+    "y": 32.80638545070828,
+    "z": -20.970873786407765,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "shadow-day",
+    "title": "Changing Shadows",
+    "x": 15.181913325855554,
+    "y": -29.942487946048455,
+    "z": -21.747572815533978,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "shadows",
+    "title": "Why do Shadows Change Shape and Size?",
+    "x": -30.937499950814477,
+    "y": 11.641661164163914,
+    "z": -22.5242718446602,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "smart-traffic-signal",
+    "title": "Smart Traffic Signal",
+    "x": 30.172416556085704,
+    "y": 12.111566187120584,
+    "z": -23.30097087378641,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "soap-bubbles-surface-tension",
+    "title": "Soap Bubbles",
+    "x": -13.81993451675772,
+    "y": -28.797139128720833,
+    "z": -24.077669902912625,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "soil-erosion-rain",
+    "title": "Soil Erosion During Rain",
+    "x": -9.087657713033211,
+    "y": 29.99457988171948,
+    "z": -24.854368932038827,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "solar-microgrid",
+    "title": "Solar Microgrid",
+    "x": 26.418358968061685,
+    "y": -15.656265985373809,
+    "z": -25.63106796116505,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "solar-panel-home",
+    "title": "Solar Panel at Home",
+    "x": -29.40459244639691,
+    "y": -6.16439661668367,
+    "z": -26.407766990291258,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "sound-waves",
+    "title": "Sound and Waves",
+    "x": 17.10934914793888,
+    "y": 23.838518808287144,
+    "z": -27.184466019417467,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "space-habitat-life-support",
+    "title": "Space Habitat Life Support",
+    "x": 3.3989533610731355,
+    "y": -28.401062747322477,
+    "z": -27.961165048543684,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "spectacles-vision",
+    "title": "How Spectacles Help Vision",
+    "x": -21.099094959898665,
+    "y": 18.137347108288708,
+    "z": -28.737864077669904,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "sports-ball-bounce",
+    "title": "Why Balls Bounce",
+    "x": 26.98451793873193,
+    "y": 0.8522653514045754,
+    "z": -29.514563106796107,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "thermometer-fever-check",
+    "title": "Thermometer and Fever Check",
+    "x": -18.69603564091621,
+    "y": -18.24548408583419,
+    "z": -30.291262135922338,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "toothbrushing-decay",
+    "title": "Toothbrushing and Tooth Decay",
+    "x": 1.409282248686827,
+    "y": 25.155431075427266,
+    "z": -31.067961165048544,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "traffic-signal-timing",
+    "title": "Traffic Signal Timing",
+    "x": 15.32677661718653,
+    "y": -18.735195105586854,
+    "z": -31.84466019417476,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "umbrella-raincoat-waterproofing",
+    "title": "Umbrella and Raincoat",
+    "x": -22.9104313361794,
+    "y": 3.3104468602540575,
+    "z": -32.62135922330097,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "upi-qr-payment-safety",
+    "title": "UPI and QR Payment Safety",
+    "x": 18.19130941321092,
+    "y": 12.39540103426686,
+    "z": -33.39805825242719,
+    "subject": "Math",
+    "unlocked": false
+  },
+  {
+    "id": "vertical-farm-irrigation",
+    "title": "Vertical Farm Irrigation",
+    "x": -4.759930219012785,
+    "y": -20.23435269676402,
+    "z": -34.1747572815534,
+    "subject": "Biology",
+    "unlocked": false
+  },
+  {
+    "id": "washing-oily-plates",
+    "title": "Washing Oily Plates",
+    "x": -9.506231522979137,
+    "y": 16.971366002598973,
+    "z": -34.95145631067961,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "waste-segregation-recycling",
+    "title": "Waste Segregation and Recycling",
+    "x": 17.081054253850624,
+    "y": -5.633515917410345,
+    "z": -35.728155339805824,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "waste-sorting-facility",
+    "title": "Waste Sorting Facility",
+    "x": -14.910622417116215,
+    "y": -6.71334094451152,
+    "z": -36.504854368932044,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "water-filter",
+    "title": "Clean Water Filter",
+    "x": 5.725882507770808,
+    "y": 13.31540633007252,
+    "z": -37.28155339805825,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "water-tank-pump-pressure",
+    "title": "Water Tank and Pump",
+    "x": 4.0535810957066385,
+    "y": -11.624882902173141,
+    "z": -38.05825242718447,
+    "subject": "Physics",
+    "unlocked": false
+  },
+  {
+    "id": "water-treatment-network",
+    "title": "Water Treatment Network",
+    "x": -8.439450944017624,
+    "y": 4.541168698640598,
+    "z": -38.83495145631068,
+    "subject": "Chemistry",
+    "unlocked": false
+  },
+  {
+    "id": "wifi-mobile-network",
+    "title": "Wi\u2011Fi and Mobile Network",
+    "x": 5.390233167787671,
+    "y": 1.3647462095455136,
+    "z": -39.6116504854369,
+    "subject": "Physics",
+    "unlocked": false
+  }
+]

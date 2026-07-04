@@ -1,0 +1,226 @@
+{
+  "concept_id": "rain-puddles-water-cycle",
+  "title": "Rain, Puddles, and Drying",
+  "icon": "🌧️",
+  "class_band": [
+    1,
+    2,
+    3
+  ],
+  "subjects": [
+    "Physics",
+    "Chemistry",
+    "Biology",
+    "Math"
+  ],
+  "place": "Weather",
+  "level": "Foundation",
+  "prerequisites": [],
+  "intro_hook": "Where does rainwater go after a puddle slowly dries?",
+  "big_idea": "Water moves between sky, land, soil, plants, and air through evaporation, condensation, rain, and absorption.",
+  "story": "After rain, a puddle forms. Sunlight and wind help water evaporate. Some water soaks into soil and helps plants.",
+  "cause_process_result": {
+    "cause": "Rain falls",
+    "process": "Puddle forms → Sun + wind act → Water evaporates/soaks",
+    "result": "Cycle continues"
+  },
+  "flow": [
+    "Rain falls",
+    "Puddle forms",
+    "Sun + wind act",
+    "Water evaporates/soaks",
+    "Cycle continues"
+  ],
+  "whiteboard": [
+    "Cause: Rain falls",
+    "  -> Puddle forms → Sun + wind act → Water evaporates/soaks",
+    "Result: Cycle continues"
+  ],
+  "indian_analogies": [
+    "Weather mein yeh dekhte hain: Rain, Puddles, and Drying.",
+    "Monsoon roads"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Drying means water disappears forever. It changes location and state.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Rain, Puddles, and Drying mein Physics, Chemistry, Biology, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Where does rainwater go after a puddle slowly dries?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Where does rainwater go after a puddle slowly dries?",
+      "a": "Rainwater puddle mein se dhire dhire dry hone ke baad, woh paani mitti mein soak ho jata hai, ya fir vapour banke hawa mein evaporate ho jata hai, aur kuch paani plants ko bhi milta hai. Isse paani ka cycle complete hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why do puddles last longer in shade?",
+      "a": "Dhup mein puddles jaldi sukhtey hain kyunki dhup ki garmi paani ko vapour mein badal deti hai, lekin shade mein dhup nahi pahunchti isliye puddles dheere se sukhtey hain. Iska matlab hai ki shade mein puddles zyada der tak rehte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Why does wind help drying?"
+    },
+    {
+      "type": "probe",
+      "q": "Why should stagnant water be removed?"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Rain falls -> Puddle forms -> Sun + wind act — what exactly happens at each step?",
+      "a": "Pehle, rain falls se puddle ban jaata hai, phir sun aur wind ka action hone se puddle mein se paani vapour ban kar evaporate ho jaata hai aur puddle sukha ho jaata hai. Is process mein sun ki garmi aur wind ki madad se paani ki boonden vapour mein badal jaati hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "Which condition usually dries clothes faster?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which condition usually dries clothes faster?",
+      "options": [
+        "Dark closed room",
+        "Sunlight and moving air",
+        "More standing water",
+        "No airflow"
+      ],
+      "correct": "Sunlight and moving air",
+      "hint": "Sunlight provides heat and moving air carries water vapour away, increasing evaporation.",
+      "answer": "Sunlight provides heat and moving air carries water vapour away, increasing evaporation."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if sunlight becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if sunlight becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Rain, Puddles, and Drying shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Rain, Puddles, and Drying, one or more factors such as sunlight change what we observe. The idea connects Physics, Chemistry, Biology, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Rain, Puddles, and Drying connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Water moves between sky, land, soil, plants, and air through evaporation, condensation, rain, and absorption.",
+    "hinglish": "Dekh yaar — Rain, Puddles, and Drying mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "After rain, a puddle forms. Sunlight and wind help water evaporate. Some water soaks into soil and helps plants."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Where does rainwater go after a puddle slowly dries. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more sunlight.",
+    "class_6_8": "Explain the cause-effect chain: Rain falls → Puddle forms → Sun + wind act → Water evaporates/soaks.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Chemistry, Biology, Math."
+  },
+  "subject_lenses": {
+    "Physics": "Heat and wind help evaporation; gravity makes water flow downward.",
+    "Chemistry": "Water remains H₂O while changing between liquid and vapour.",
+    "Biology": "Plants use rainwater; too much stagnant water can support mosquito breeding.",
+    "Math": "Measure puddle size over time and compare sunny versus shaded areas."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Rain, Puddles, and Drying ka concept aur jagah bhi kaam karta hai: Monsoon roads, Gardens, Water cycle lessons.",
+      "related_concepts": [],
+      "career_connection": "Meteorology, water management, farming, environmental health."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj rain, puddles, and drying se related kuch notice karo.",
+    "Where does rainwater go after a puddle slowly dries?",
+    "What would happen if sunlight becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Varahamihira",
+    "connection": "Varahamihira, a renowned Indian astronomer and mathematician, discussed the water cycle in his book 'Brihat Samhita'. He explained how the sun's energy causes water to evaporate from the earth, condense into clouds, and return to the earth as rain, which then flows into rivers, lakes, and underground, illustrating the concept of the water cycle and its various components.",
+    "story_hook": "Imagine you are a young explorer in ancient India, watching the monsoon rains fill the parched rivers and lakes, just like Varahamihira described in his ancient texts. As you follow the journey of a raindrop, you begin to uncover the secrets of the water cycle, from evaporation to condensation, and the vital role it plays in sustaining life on our planet.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Rain, Puddles, and Drying",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Place two wet cloth pieces in safe places: one near airflow, one in a still shaded spot. Compare drying time. Do not place anything near electrical appliances."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "evaporation",
+    "states_of_water",
+    "plants_and_mosquitoes",
+    "time_measurement"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-rain-puddles-water-cycle",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Avoid stagnant water near the home and use sun/air wisely for drying.",
+  "career_connections": "Meteorology, water management, farming, environmental health.",
+  "why_matters": "Students connect weather observations to water conservation, health, and daily chores.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 3,
+  "learning_track": [
+    "core"
+  ]
+}

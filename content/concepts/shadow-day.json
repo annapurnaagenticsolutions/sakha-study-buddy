@@ -1,0 +1,220 @@
+{
+  "concept_id": "shadow-day",
+  "title": "Changing Shadows",
+  "icon": "🌤️",
+  "class_band": [
+    1,
+    2,
+    3
+  ],
+  "subjects": [
+    "Physics",
+    "Math"
+  ],
+  "place": "Playground",
+  "level": "Foundation",
+  "prerequisites": [],
+  "intro_hook": "Why is your shadow long in the morning and shorter around noon?",
+  "big_idea": "A shadow forms when an object blocks light. The shadow changes because the Sun appears at different positions in the sky.",
+  "story": "A stick in the ground casts a long shadow in the morning, a short shadow near noon, and a long shadow again in the evening.",
+  "cause_process_result": {
+    "cause": "Sunlight",
+    "process": "Object blocks light → Shadow forms → Sun angle changes",
+    "result": "Shadow length changes"
+  },
+  "flow": [
+    "Sunlight",
+    "Object blocks light",
+    "Shadow forms",
+    "Sun angle changes",
+    "Shadow length changes"
+  ],
+  "whiteboard": [
+    "Cause: Sunlight",
+    "  -> Object blocks light → Shadow forms → Sun angle changes",
+    "Result: Shadow length changes"
+  ],
+  "indian_analogies": [
+    "Playground mein yeh dekhte hain: Changing Shadows.",
+    "Sundials"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat changing shadows as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Changing Shadows mein Physics, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why is your shadow long in the morning and shorter around noon?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why is your shadow long in the morning and shorter around noon?"
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?"
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?",
+      "a": "Science subject humein changing shadows ke baare mein samjhata hai, kyunki yeh suraj ki roshni aur Prithvi ke ghumne se juda hua hai. Ismein humein padhaya jata hai ki suraj ki roshni kaise vastuon par padti hai aur unke shadow ko kaise badalti hai. Isliye, science subject changing shadows ke baare mein sabse zyada hissa sam"
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum ghar par ya school mein suraj ki roshni mein kisi object ko rakhte hain aur uske shadow ko observe karte hain, phir thoda samay baad uske shadow ko phir se observe karte hain. Isse hum dekh sakte hain ki shadow kitna badla hai. Hum yeh experiment safely kar sakte hain apne ghar ya school mein."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Sunlight -> Object blocks light -> Shadow forms — what exactly happens at each step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "When is a shadow usually shortest?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "When is a shadow usually shortest?",
+      "options": [
+        "Early morning",
+        "Around noon",
+        "Late evening",
+        "Midnight"
+      ],
+      "correct": "Around noon",
+      "hint": "When the Sun is high in the sky, light falls more directly and the shadow is shorter.",
+      "answer": "When the Sun is high in the sky, light falls more directly and the shadow is shorter."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if sun height becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if sun height becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Changing Shadows shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Changing Shadows, one or more factors such as sun height change what we observe. The idea connects Physics, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Changing Shadows connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. A shadow forms when an object blocks light. The shadow changes because the Sun appears at different positions in the sky.",
+    "hinglish": "Dekh yaar — Changing Shadows mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A stick in the ground casts a long shadow in the morning, a short shadow near noon, and a long shadow again in the evening."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why is your shadow long in the morning and shorter around noon. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more sun height.",
+    "class_6_8": "Explain the cause-effect chain: Sunlight → Object blocks light → Shadow forms → Sun angle changes.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math."
+  },
+  "subject_lenses": {
+    "Physics": "Light travels in straight lines; blocked light creates a shadow.",
+    "Math": "Measure shadow length and compare morning, noon, and evening."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Changing Shadows ka concept aur jagah bhi kaam karta hai: Sundials, Tree shade, Building design.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj changing shadows se related kuch notice karo.",
+    "Why is your shadow long in the morning and shorter around noon?",
+    "What would happen if sun height becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "The ancient Indian astronomer Aryabhata's work on the movement of celestial bodies and the concept of day and night is closely related to the concept of changing shadows. In his book Aryabhatiya, he described the Earth as a sphere and explained the cause of day and night, which is directly related to the Sun's position in the sky and the resulting shadows.",
+    "story_hook": "Imagine you are an ancient Indian astronomer like Aryabhata, trying to figure out why the shadow of a temple changes throughout the day. As you observe the Sun's movement across the sky, you start to unravel the mystery of changing shadows and how it's connected to our planet's rotation and the Sun's position.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Changing Shadows",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Place a pencil upright in sunlight. Mark the shadow length at different times. Never look directly at the Sun."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "light_and_shadows",
+    "length_measurement",
+    "sun_and_shade"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-shadow-day",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Changing Shadows turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 3,
+  "learning_track": [
+    "core"
+  ]
+}

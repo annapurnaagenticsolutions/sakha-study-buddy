@@ -1,0 +1,225 @@
+{
+  "concept_id": "umbrella-raincoat-waterproofing",
+  "title": "Umbrella and Raincoat",
+  "icon": "☂️",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Chemistry",
+    "Physics",
+    "Math",
+    "Biology"
+  ],
+  "place": "Rainy Day",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why does rain slide off some materials but soak into others?",
+  "big_idea": "Waterproof materials reduce water absorption. Shape, coating, fabric weave, and slope help rain roll away from the body.",
+  "story": "Rain falls on an umbrella and runs down the curved surface. A cotton cloth may become wet because water enters tiny spaces in the fabric.",
+  "cause_process_result": {
+    "cause": "Rain falls",
+    "process": "Material resists/absorbs → Water rolls or enters → Body stays dry or wet",
+    "result": "Comfort changes"
+  },
+  "flow": [
+    "Rain falls",
+    "Material resists/absorbs",
+    "Water rolls or enters",
+    "Body stays dry or wet",
+    "Comfort changes"
+  ],
+  "whiteboard": [
+    "Cause: Rain falls",
+    "  -> Material resists/absorbs → Water rolls or enters → Body stays dry or wet",
+    "Result: Comfort changes"
+  ],
+  "indian_analogies": [
+    "Rainy Day mein yeh dekhte hain: Umbrella and Raincoat.",
+    "Umbrellas"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Thicker cloth is not always more waterproof. Coating, weave, and material chemistry matter.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Umbrella and Raincoat mein Chemistry, Physics, Math, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does rain slide off some materials but soak into others?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does rain slide off some materials but soak into others?",
+      "a": "Rain slide off kuch materials se kyunki unme water-repellent properties hoti hain, jaise ki plastic ya nylon, lekin absorbent materials jaise ki cotton mein rain soak ho jata hai. Iska reason yeh hai ki water-repellent materials mein pores kam hote hain, jisse paani slide ho jata hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does water bead on some surfaces?"
+    },
+    {
+      "type": "probe",
+      "q": "Why are umbrellas sloped?"
+    },
+    {
+      "type": "probe",
+      "q": "Why do seams leak?",
+      "a": "Seams leak kyunki jab baarish ka paani umbrella ya raincoat ke seams mein se guzarta hai, toh yeh paani andar aa jata hai, aur humein bhigta hai. Iske alawa, seams mein se leakage ho sakta hai agar wah theek se stitch nahi hua ho. Isliye, seams ko achhi tarah se stitch karna zaroori hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Rain falls -> Material resists/absorbs -> Water rolls or enters — what exactly happens at each step?",
+      "a": "Pehle, baarish girti hai, phir umbrella ya raincoat ka material paani ko rokta hai ya absorb karta hai, aur phir paani umbrella se roll hota hai ya raincoat se nikal jaata hai. Isse humein baarish se bachav milta hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "Which material is usually better for a raincoat?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which material is usually better for a raincoat?",
+      "options": [
+        "Highly absorbent cotton only",
+        "Water-repellent coated fabric",
+        "Plain paper",
+        "Open mesh cloth"
+      ],
+      "correct": "Water-repellent coated fabric",
+      "hint": "A water-repellent coated fabric helps water roll off instead of soaking through.",
+      "answer": "A water-repellent coated fabric helps water roll off instead of soaking through."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if rain intensity becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if rain intensity becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Umbrella and Raincoat shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Umbrella and Raincoat, one or more factors such as rain intensity change what we observe. The idea connects Chemistry, Physics, Math, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Umbrella and Raincoat connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Waterproof materials reduce water absorption. Shape, coating, fabric weave, and slope help rain roll away from the body.",
+    "hinglish": "Dekh yaar — Umbrella and Raincoat mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "Rain falls on an umbrella and runs down the curved surface. A cotton cloth may become wet because water enters tiny spaces in the fabric."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does rain slide off some materials but soak into others. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more rain intensity.",
+    "class_6_8": "Explain the cause-effect chain: Rain falls → Material resists/absorbs → Water rolls or enters → Body stays dry or wet.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Chemistry, Physics, Math, Biology."
+  },
+  "subject_lenses": {
+    "Chemistry": "Coatings and fibres decide whether water spreads, beads, or soaks.",
+    "Physics": "Gravity pulls water down; slope helps water flow away.",
+    "Math": "Compare drying time and count drops absorbed by different cloths.",
+    "Biology": "Staying dry helps comfort and reduces chill after rain."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Umbrella and Raincoat ka concept aur jagah bhi kaam karta hai: Umbrellas, Raincoats, School bags.",
+      "related_concepts": [],
+      "career_connection": "Textile engineering, product design, sportswear, civil waterproofing."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj umbrella and raincoat se related kuch notice karo.",
+    "Why does rain slide off some materials but soak into others?",
+    "What would happen if rain intensity becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Varahamihira",
+    "connection": "Varahamihira, a renowned Indian astronomer and mathematician from the 6th century, wrote about the importance of waterproofing in his book Brihat-Samhita. He discussed the use of natural materials like plant fibers and oils to repel water, which is similar to the concept of using waterproof materials in umbrellas and raincoats to reduce water absorption.",
+    "story_hook": "Imagine you are a young astronomer like Varahamihira, trying to study the stars on a rainy night, and you need to find a way to keep your clothes and instruments dry. Let's explore how the ancient Indians used natural materials to create waterproof solutions, just like the ones used in umbrellas and raincoats today.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Umbrella and Raincoat",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "With adult permission, put a few drops of water on different safe cloth pieces and observe whether water beads or soaks. Do not waste water."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "material_properties",
+    "flow_and_gravity",
+    "comparison",
+    "body_comfort"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-umbrella-raincoat-waterproofing",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Choose suitable rain protection and dry wet clothes to avoid discomfort.",
+  "career_connections": "Textile engineering, product design, sportswear, civil waterproofing.",
+  "why_matters": "It shows how material science solves a common monsoon problem.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

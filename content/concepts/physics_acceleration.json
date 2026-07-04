@@ -1,0 +1,204 @@
+{
+  "concept_id": "physics_acceleration",
+  "title": "Acceleration",
+  "icon": "⚡",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "velocity",
+    "time",
+    "subtraction"
+  ],
+  "intro_hook": "Can a car slowing down have acceleration? Why?",
+  "big_idea": "Acceleration describes change in velocity and is essential for force and motion reasoning.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Acceleration means velocity is changing.",
+    "process": "Speeding up, slowing down, or changing direction can involve acceleration. Speedometer readings at different times.",
+    "result": "Vehicles, falling objects, circular motion, Newton's laws."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Acceleration means velocity is changing.",
+    "Visual: Speedometer readings at different times.",
+    "Formal: Acceleration = change in velocity / time taken.",
+    "Application: Vehicles, falling objects, circular motion, Newton's laws."
+  ],
+  "indian_analogies": [
+    "When a driver applies brakes, the car slows. That slowing is acceleration in the reverse direction.",
+    "Car slow ho rahi hai toh velocity change ho rahi hai. Velocity change matlab acceleration, chahe speed kam hi kyon na ho."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_physics_acceleration_01",
+      "belief": "acceleration only means speeding up",
+      "why_common": "I thought acceleration only means going fast, not changing velocity.",
+      "probe": "Can an object moving at constant speed in a circle be accelerating? Why?",
+      "repair": "Use speedometer snapshots over time. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use speedometer snapshots over time.",
+      "follow_up": "Give a changed acceleration situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Show acceleration during speeding up, slowing down, and turning.",
+      "mastery_signal": "Learner can explain why “acceleration only means speeding up” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: acceleration only speeding",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_acceleration_02",
+      "belief": "constant speed always means zero acceleration",
+      "why_common": "I thought acceleration only means going fast, not changing velocity.",
+      "probe": "Can an object moving at constant speed in a circle be accelerating? Why?",
+      "repair": "Use speedometer snapshots over time. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use speedometer snapshots over time.",
+      "follow_up": "Give a changed acceleration situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Show acceleration during speeding up, slowing down, and turning.",
+      "mastery_signal": "Learner can explain why “constant speed always means zero acceleration” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: constant speed zero",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_acceleration_03",
+      "belief": "slowing down is not acceleration",
+      "why_common": "I thought acceleration only means going fast, not changing velocity.",
+      "probe": "Can an object moving at constant speed in a circle be accelerating? Why?",
+      "repair": "Use speedometer snapshots over time. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use speedometer snapshots over time.",
+      "follow_up": "Give a changed acceleration situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Show acceleration during speeding up, slowing down, and turning.",
+      "mastery_signal": "Learner can explain why “slowing down is not acceleration” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: slowing down is",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Can a car slowing down have acceleration? Why?",
+      "a": "Haan, car ko rukhte samay bhi acceleration hota hai, lekin ismein negative sign hota hai, kyunki yeh gati ki disha ke vipreet disha mein hota hai. Is acceleration ko negative acceleration kehte hain."
+    },
+    {
+      "type": "probe",
+      "q": "What does velocity include: speed only, or speed plus direction?",
+      "a": "Velocity mein speed ke saath-saath direction bhi shaamil hota hai, isliye yeh keval speed nahi hai, balki speed plus direction hai. Isse humein pata chalta hai ki cheez kis disha mein ja rahi hai."
+    },
+    {
+      "type": "probe",
+      "q": "When a car slows, is its velocity changing?",
+      "a": "Haan, jab car slow hoti hai, toh uski velocity badalti hai, kyunki velocity mein direction aur magnitude dono shaamil hote hain, aur jab car slow hoti hai toh uski magnitude kam ho jaati hai. Isliye, car ki velocity change ho rahi hai."
+    },
+    {
+      "type": "probe",
+      "q": "Any change in velocity means acceleration.",
+      "a": "Velocity mein koi bhi badlaav acceleration kehlaata hai, chahe wo speed mein ho ya direction mein. Iska matlab hai ki agar koi cheez apni gati ya disha badalti hai, to uspar acceleration kaam kar raha hai."
+    },
+    {
+      "type": "application",
+      "q": "A bicycle changes speed from 10 m/s to 4 m/s in 3 seconds. Is acceleration zero or non-zero? Why?",
+      "a": "Iski acceleration non-zero hai kyunki gati mein parivartan ho raha hai, aur acceleration gati mein parivartan ke rate ko measure karti hai. Yahan, bicycle ki gati 10 m/s se 4 m/s tak badalti hai, isliye acceleration non-zero hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Why is “change in velocity” a better definition than “speeding up”?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "Can an object moving at constant speed in a circle be accelerating? Why?",
+      "hint": "Acceleration means velocity is changing.",
+      "answer": "Yes. Acceleration means change in velocity. Slowing down is acceleration in the opposite direction of motion, often called deceleration."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "A bicycle changes speed from 10 m/s to 4 m/s in 3 seconds. Is acceleration zero or non-zero? Why?",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires identifying acceleration from any velocity change: speed, direction, or both."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Yes. Acceleration means change in velocity. If a car slows down, its velocity changes, so it has acceleration opposite to its motion.",
+    "visual": "Imagine speedometer readings: 20 m/s, then 15 m/s, then 10 m/s. The readings change, so acceleration exists.",
+    "real_life": "When a driver applies brakes, the car slows. That slowing is acceleration in the reverse direction.",
+    "formal": "Acceleration = change in velocity / time. If velocity decreases with time, acceleration is non-zero and opposite to the direction of motion.",
+    "socratic": "Is the velocity same before and after braking? If not, what word describes change in velocity?",
+    "mistake_analysis": "The mistake is using “acceleration” only for speeding up. Physics uses it for any velocity change.",
+    "hinglish": "Car slow ho rahi hai toh velocity change ho rahi hai. Velocity change matlab acceleration, chahe speed kam hi kyon na ho.",
+    "challenge": "Can an object moving at constant speed in a circle accelerate? Explain using direction.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Acceleration means velocity is changing.",
+    "standard": "Speeding up, slowing down, or changing direction can involve acceleration.",
+    "advanced": "Acceleration = change in velocity / time taken.",
+    "fast_learner": "Can an object moving at constant speed in a circle accelerate? Explain using direction."
+  },
+  "subject_lenses": {
+    "Physics": "Vehicles, falling objects, circular motion, Newton's laws."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Acceleration ka use real life mein: Vehicles, falling objects, circular motion, Newton's laws.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj acceleration ka ek real-life example dhundo.",
+    "When a driver applies brakes, the car slows. That slowing is acceleration in the reverse direction."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of physics, particularly in understanding motion and velocity. His work on the heliocentric model of the universe, where he described the motion of planets around the Sun, laid the foundation for understanding acceleration as a change in velocity over time. Aryabhata's concept of 'gati' or motion can be related to the modern understanding of acceleration, where the velocity of an object changes due to the application of force.",
+    "story_hook": "Imagine you are riding a horse-drawn carriage on the ancient Silk Road, feeling the rush as the horses pick up speed, just like Aryabhata's planets moving around the Sun. As you accelerate, the wind in your hair and the scenery blurring by, you begin to understand the power of acceleration, a fundamental force that shapes the world around us.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Acceleration",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "When a driver applies brakes, the car slows. That slowing is acceleration in the reverse direction."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-physics_acceleration",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires identifying acceleration from any velocity change: speed, direction, or both.",
+  "session_type": "science",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_physics_acceleration_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

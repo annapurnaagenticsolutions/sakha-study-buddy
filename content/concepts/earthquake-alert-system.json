@@ -1,0 +1,164 @@
+{
+  "concept_id": "earthquake-alert-system",
+  "title": "Earthquake Alert System",
+  "icon": "🌍",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Geography"
+  ],
+  "level": "Advanced Systems",
+  "prerequisites": [],
+  "intro_hook": "How do early warning systems detect an earthquake before the shaking arrives?",
+  "big_idea": "P-waves (faster, less damaging) travel ahead of S-waves (slower, destructive). Sensors detect P-waves first -> alert issued -> people have seconds to react.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Seismometer detects P-wave arrival",
+    "process": "Alert issued within seconds; S-wave still traveling toward population centers",
+    "result": "People warned before dangerous shaking; failure = sensor gap or processing delay"
+  },
+  "flow": [
+    "Seismometer detects P-wave arrival",
+    "Alert issued within seconds; S-wave still traveling toward population centers",
+    "People warned before dangerous shaking; failure = sensor gap or processing delay"
+  ],
+  "whiteboard": [
+    "System Lens: Purpose -> Inputs -> Process -> Outputs -> Feedback -> Failure -> Data -> Design",
+    "Cause: Seismometer detects P-wave arrival",
+    "  -> Alert issued within seconds; S-wave still traveling toward population centers",
+    "Result: People warned before dangerous shaking; failure = sensor gap or processing delay"
+  ],
+  "indian_analogies": [
+    "India context: TODO — add local real-world example of this system."
+  ],
+  "misconceptions": [
+    {
+      "id": "system_never_fails",
+      "belief": "Well-designed systems never fail.",
+      "probe": "What happens when one sensor fails in this system?",
+      "repair": "Every system has failure modes. Engineering is about making failures safe, detectable, and recoverable — not eliminating them entirely.",
+      "trigger_words": [
+        "perfect system",
+        "never fails",
+        "always works"
+      ]
+    },
+    {
+      "id": "single_cause_failure",
+      "belief": "System failures always have a single clear cause.",
+      "probe": "What if two components fail simultaneously in different parts of the chain?",
+      "repair": "Complex systems have cascading failures — sensor error, transport delay, power cut, and human error often combine.",
+      "trigger_words": [
+        "one cause",
+        "simple fix",
+        "just one thing broke"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How do early warning systems detect an earthquake before the shaking arrives?",
+      "a": "Early warning systems earthquake ko detect karne ke liye seismographs ka use karti hain, jo ki earthquake ki shuruaat mein aane wale P-waves ko pehchante hain. Jab P-waves detect hote hain, to system alert bhejta hai, jisse logon ko shaking se pehle evacuate karne ka samay milta hai. Isse logon ki jaan bachayi ja sakti hai."
+    },
+    {
+      "type": "probe",
+      "q": "What inputs does this system need to function?",
+      "a": "Is system ko function karne ke liye seismic sensors, GPS, aur communication networks ki input ki zarurat hoti hai, jo ki earthquake ki intensity aur location ko detect karte hain. Ismein sensors zameen ke neeche lagaye jate hain jo ki earthquake ki vibrations ko measure karte hain."
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace the full Purpose->Inputs->Process->Outputs->Feedback chain.",
+      "a": "Earthquake Alert System ka purpose hai jaldi warning dena, jismein seismographs aur sensors inputs dete hain, phir data process hota hai aur warning signals outputs ke roop mein aate hain, aur feedback ke roop mein logon ki safety ki jaankari milti hai. Isse humein bachav ke liye samay milta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Where could this system fail? What would the warning signal look like?",
+      "a": "Yeh system un jagah par fail ho sakta hai jahan internet ya communication network ka connection nahin hai, jaise ki gaon ke ilaakon mein. Warning signal ki tarah siren bajaya ja sakta hai ya mobile par alert message aaya ja sakta hai. Is signal ko dekhkar log surakshit jagah par pahunch sakte hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Design a simple version of this system. What is your most important design decision and why?",
+      "a": "Hamare simple Earthquake Alert System mein sabse important design decision hai sensors ki sahi jagah par installation, jisse jaldi se jaldi earthquake ki bhavishyavani ho sake. Isse humein bachav ke liye thodi samay milega. Is design decision ke kaaran humein jaldi warning milega aur hum apne aap ko surakshit rakh sakte hain."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "design",
+      "q": "What single change would most improve the reliability of the Earthquake Alert System? What trade-off does it introduce?",
+      "hint": "Think about the feedback loop — what information is currently missing?",
+      "answer": "Multiple valid answers — evaluate by quality of trade-off reasoning."
+    },
+    {
+      "difficulty": 3,
+      "type": "failure_analysis",
+      "q": "One component in the Earthquake Alert System fails silently (no alarm). Trace what happens step by step.",
+      "hint": "Follow the process chain — where does the error propagate?",
+      "answer": "Depends on component; evaluate by systematic chain reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "P-waves (faster, less damaging) travel ahead of S-waves (slower, destructive). Sensors detect P-waves first -> alert issued -> people have seconds to react.",
+    "formal": "Systems lens: Purpose->Inputs->Process->Outputs->Feedback->Failure->Data->Design",
+    "real_life": "How do early warning systems detect an earthquake before the shaking arrives?",
+    "hinglish": "Yaar, earthquake alert system ek system hai — inputs aate hain, process hoti hai, output nikalta hai. Kya fail ho sakta hai?"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with Purpose only — what problem does this system solve?",
+    "standard": "Map all 8 system dimensions.",
+    "fast_learner": "Design an improved version under a new constraint."
+  },
+  "subject_lenses": {
+    "Physics": "Applied in this system",
+    "Geography": "Applied in this system"
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Earthquake Alert System ka ek surprising failure mode hai jo tune shayad socha nahi hoga.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "How do early warning systems detect an earthquake before the shaking arrives?",
+    "Notice a earthquake alert system around you today — map its inputs and one failure mode."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "The ancient Indian mathematician and astronomer Aryabhata is renowned for his contributions to the field of seismology, albeit indirectly. His work on predicting celestial events and understanding the movements of celestial bodies laid the foundation for the study of seismic waves and their behavior, which is crucial to the development of earthquake alert systems. The concept of P-waves and S-waves traveling at different speeds is analogous to the way Aryabhata understood the orbits of celestial bodies, where the relative speeds and distances of planets from the sun determined their orbital periods.",
+    "story_hook": "Imagine being a young astronomer in ancient India, studying the movements of the stars and planets with Aryabhata, and realizing that the same principles that govern the celestial world could help predict seismic events on Earth. As you delve deeper into the mysteries of the universe, you begin to uncover the secrets of P-waves and S-waves, and how they can be harnessed to create a life-saving earthquake alert system.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Observe: Earthquake Alert System",
+    "time_required": "5 min",
+    "steps": [
+      "Find a real example of a earthquake alert system in your city or home. Map its inputs, outputs, and one failure mode."
+    ],
+    "share_with_sakha": "What was surprising about the system you observed?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "advanced-stem-systems-lab#module-earthquake-alert-system",
+  "visualizer_type": "advanced_systems_simulator",
+  "session_type": "science",
+  "_source": "advanced-stem-systems-lab-v1.0",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "indian_analogies",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

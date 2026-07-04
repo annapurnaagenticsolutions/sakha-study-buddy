@@ -1,0 +1,205 @@
+{
+  "concept_id": "math_algebraic_expressions",
+  "title": "Algebraic Expressions",
+  "icon": "📐",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Math"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "integers",
+    "operations",
+    "variables"
+  ],
+  "intro_hook": "Why can we add 3x + 2x but not combine 3x + 2y into 5x?",
+  "big_idea": "Expressions combine numbers, variables, and operations. They prepare students for equations and functions.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "A variable is a placeholder for a changing or unknown value.",
+    "process": "2x + 3 means two times a number, then add 3. Use boxes or tiles for x and unit blocks for constants.",
+    "result": "Formula building, pattern rules, geometry expressions, equations."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: A variable is a placeholder for a changing or unknown value.",
+    "Visual: Use boxes or tiles for x and unit blocks for constants.",
+    "Formal: Terms with the same variable and power are like terms and can be combined.",
+    "Application: Formula building, pattern rules, geometry expressions, equations."
+  ],
+  "indian_analogies": [
+    "3 mangoes plus 2 mangoes is 5 mangoes. But 3 mangoes plus 2 oranges is not 5 mangoes; it is still 3 mangoes and 2 oranges.",
+    "3x aur 2x same type ke terms hain, isliye 5x. Lekin 3x + 2y mein x aur y alag hain, isliye combine nahi kar sakte."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_math_algebraic_expressions_01",
+      "belief": "2x means 2 + x",
+      "why_common": "I combined terms that looked similar without checking whether they were like terms.",
+      "probe": "Why can we add 3x + 2x but not 3x + 2y?",
+      "repair": "Use baskets: apples can combine with apples, notebooks with notebooks, but unlike items stay separate. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use baskets: apples can combine with apples, notebooks with notebooks, but unlike items stay separate.",
+      "follow_up": "Give a changed algebraic expressions situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use physical categories before symbolic simplification.",
+      "mastery_signal": "Learner can explain why “2x means 2 + x” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: 2x 2 +",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_algebraic_expressions_02",
+      "belief": "unlike terms can be directly added",
+      "why_common": "I combined terms that looked similar without checking whether they were like terms.",
+      "probe": "Why can we add 3x + 2x but not 3x + 2y?",
+      "repair": "Use baskets: apples can combine with apples, notebooks with notebooks, but unlike items stay separate. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use baskets: apples can combine with apples, notebooks with notebooks, but unlike items stay separate.",
+      "follow_up": "Give a changed algebraic expressions situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use physical categories before symbolic simplification.",
+      "mastery_signal": "Learner can explain why “unlike terms can be directly added” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: unlike terms can",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_algebraic_expressions_03",
+      "belief": "x is always one fixed number",
+      "why_common": "I combined terms that looked similar without checking whether they were like terms.",
+      "probe": "Why can we add 3x + 2x but not 3x + 2y?",
+      "repair": "Use baskets: apples can combine with apples, notebooks with notebooks, but unlike items stay separate. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use baskets: apples can combine with apples, notebooks with notebooks, but unlike items stay separate.",
+      "follow_up": "Give a changed algebraic expressions situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use physical categories before symbolic simplification.",
+      "mastery_signal": "Learner can explain why “x is always one fixed number” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: x is one",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why can we add 3x + 2x but not combine 3x + 2y into 5x?",
+      "a": "Hum 3x + 2x ko add kar sakte hain kyunki dono mein variable x hai, lekin 3x + 2y ko combine nahi kar sakte kyunki unke variables alag hain, x aur y. Isliye, hum sirf same variable wale terms ko add ya subtract kar sakte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Think of x as mangoes and y as oranges. Can 3 mangoes + 2 mangoes be combined?",
+      "a": "Haan, 3 mangoes + 2 mangoes ko combine kiya ja sakta hai, kyunki dono mangoes hain, isliye yeh 5 mangoes ban jayenge."
+    },
+    {
+      "type": "probe",
+      "q": "Can 3 mangoes + 2 oranges become 5 mangoes?",
+      "a": "Nahin, kyunki 3 mangoes aur 2 oranges ko milane par humein 3 mangoes aur 2 oranges hi milenge, 5 mangoes nahin. Ismein oranges ko mangoes mein badalne ka koi tareeka nahin hai."
+    },
+    {
+      "type": "probe",
+      "q": "Like terms have the same variable part. Only then can coefficients be combined.",
+      "a": "Jaise ki hum jaante hain, like terms mein same variable part hona chahiye, tab hi hum coefficients ko combine kar sakte hain, jaise 2x aur 3x mein x same hai toh hum 2x + 3x = 5x kar sakte hain. Isse hume pata chalta hai ki like terms ko combine karne ke liye variable part same hona zaroori hai."
+    },
+    {
+      "type": "application",
+      "q": "Simplify 4x + 3y + 2x. Explain which terms you combined and which you did not.",
+      "a": "Humne 4x aur 2x ko combine kiya kyunki ve same variable x ke saath hain, lekin 3y ko alag rakha kyunki uska variable alag hai, isliye answer 6x + 3y hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "What makes two algebraic terms “like terms”?",
+      "a": "Do alag-alag algebraic terms \"like terms\" tab hote hain jab unke variables aur unke powers same hote hain, jaise ki 2x aur 3x. Ismein coefficients alag-alag ho sakte hain, lekin variables aur unke powers same hona chahiye."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "Why can we add 3x + 2x but not 3x + 2y?",
+      "hint": "A variable is a placeholder for a changing or unknown value.",
+      "answer": "3x and 2x are like terms because both count x-units; 2y is a different kind of variable, so it cannot be combined with x as 5x."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "Simplify 4x + 3y + 2x. Explain which terms you combined and which you did not.",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires combining terms by variable structure, not by coefficients alone."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "3x + 2x becomes 5x because both terms are x terms. But 3x + 2y has different variable parts, so it stays 3x + 2y.",
+    "visual": "Use algebra tiles: x-tiles can be grouped with x-tiles. y-tiles are different shapes and cannot be counted as x-tiles.",
+    "real_life": "3 mangoes plus 2 mangoes is 5 mangoes. But 3 mangoes plus 2 oranges is not 5 mangoes; it is still 3 mangoes and 2 oranges.",
+    "formal": "Terms can be combined only when their variable part and exponent are identical. Thus 3x + 2x = 5x, while 3x + 2y is already simplified.",
+    "socratic": "What does x represent? What does y represent? Are the variable parts identical?",
+    "mistake_analysis": "The mistake is combining coefficients while ignoring variables. Algebra tracks both quantity and type.",
+    "hinglish": "3x aur 2x same type ke terms hain, isliye 5x. Lekin 3x + 2y mein x aur y alag hain, isliye combine nahi kar sakte.",
+    "challenge": "Can you simplify 4a + 3b + 2a? Which terms can join and why?",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "A variable is a placeholder for a changing or unknown value.",
+    "standard": "2x + 3 means two times a number, then add 3.",
+    "advanced": "Terms with the same variable and power are like terms and can be combined.",
+    "fast_learner": "Can you simplify 4a + 3b + 2a? Which terms can join and why?"
+  },
+  "subject_lenses": {
+    "Math": "Formula building, pattern rules, geometry expressions, equations."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Algebraic Expressions ka use real life mein: Formula building, pattern rules, geometry expressions, equations.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj algebraic expressions ka ek real-life example dhundo.",
+    "3 mangoes plus 2 mangoes is 5 mangoes. But 3 mangoes plus 2 oranges is not 5 mangoes; it is still 3 mangoes and 2 oranges."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of algebra. His work, particularly in his book 'Aryabhatiya', laid the foundation for the development of algebraic expressions, as he used variables and constants to represent unknown quantities and mathematical operations, demonstrating the fundamental principles of algebraic expressions.",
+    "story_hook": "Imagine being an ancient Indian astronomer like Aryabhata, trying to calculate the position of the stars and planets using mathematical expressions. As you delve into the world of algebraic expressions, you'll uncover the secrets of how Aryabhata used these mathematical tools to make groundbreaking discoveries about our universe.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Algebraic Expressions",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "3 mangoes plus 2 mangoes is 5 mangoes. But 3 mangoes plus 2 oranges is not 5 mangoes; it is still 3 mangoes and 2 oranges."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-math_algebraic_expressions",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires combining terms by variable structure, not by coefficients alone.",
+  "session_type": "math",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_math_algebraic_expressions_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

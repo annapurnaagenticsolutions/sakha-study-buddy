@@ -1,0 +1,201 @@
+{
+  "concept_id": "physics_electric_current",
+  "title": "Electric Current",
+  "icon": "⚡",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "charge idea",
+    "conductors",
+    "closed path"
+  ],
+  "intro_hook": "Why does a bulb turn off when a switch opens the circuit?",
+  "big_idea": "Electric current is flow of charge and is foundational for circuits.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Current needs a closed path to flow.",
+    "process": "A bulb glows when charge can flow through a complete circuit. Circuit loop with arrows showing current path.",
+    "result": "Bulbs, batteries, switches, appliances, circuit safety."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Current needs a closed path to flow.",
+    "Visual: Circuit loop with arrows showing current path.",
+    "Formal: Electric current is rate of flow of electric charge.",
+    "Application: Bulbs, batteries, switches, appliances, circuit safety."
+  ],
+  "indian_analogies": [
+    "Like water in a pipe loop: if the pipe is cut, continuous flow stops. A circuit also needs a complete path.",
+    "Switch open hone par circuit toot jaata hai. Path complete nahi hota, isliye current flow nahi karta aur bulb off ho jaata hai."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_physics_electric_current_01",
+      "belief": "current is used up by components",
+      "why_common": "I thought current is used up by the bulb.",
+      "probe": "Why does a bulb turn off when a switch opens the circuit?",
+      "repair": "Use a closed-loop flow analogy carefully: current does not get consumed by the bulb; energy is transferred. Ask what returns to the battery in a circuit.",
+      "repair_visual": "Use a closed-loop flow model carefully: current flows around the circuit; energy is transferred to the bulb.",
+      "follow_up": "In a simple circuit, is the current before and after the bulb the same or different? Why?",
+      "teacher_prompt": "Distinguish current flow from energy transfer in circuits.",
+      "mastery_signal": "Learner can explain why “current is used up by components” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: current is used",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_electric_current_02",
+      "belief": "battery sends current only from one side",
+      "why_common": "I thought current is used up by the bulb.",
+      "probe": "Why does a bulb turn off when a switch opens the circuit?",
+      "repair": "Use a closed-loop flow model carefully: current flows around the circuit; energy is transferred to the bulb. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a closed-loop flow model carefully: current flows around the circuit; energy is transferred to the bulb.",
+      "follow_up": "Give a changed electric current situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Distinguish current flow from energy transfer in circuits.",
+      "mastery_signal": "Learner can explain why “battery sends current only from one side” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: battery sends current",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_electric_current_03",
+      "belief": "open circuits still allow normal current",
+      "why_common": "I thought current is used up by the bulb.",
+      "probe": "Why does a bulb turn off when a switch opens the circuit?",
+      "repair": "Use a closed-loop flow model carefully: current flows around the circuit; energy is transferred to the bulb. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a closed-loop flow model carefully: current flows around the circuit; energy is transferred to the bulb.",
+      "follow_up": "Give a changed electric current situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Distinguish current flow from energy transfer in circuits.",
+      "mastery_signal": "Learner can explain why “open circuits still allow normal current” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: open circuits still",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does a bulb turn off when a switch opens the circuit?"
+    },
+    {
+      "type": "probe",
+      "q": "What does the switch physically do to the circuit path?",
+      "a": "Switch circuit path ko physically todti ya jodti hai, jab hum switch on karte hain to circuit path ban jata hai aur electric current flow karna shuru ho jata hai, aur jab hum switch off karte hain to circuit path toot jata hai."
+    },
+    {
+      "type": "probe",
+      "q": "Can charge flow continuously if there is a gap?"
+    },
+    {
+      "type": "probe",
+      "q": "What must be complete for the bulb to glow?",
+      "a": "Circuit ko complete hona chahiye taaki bulb glow kar sake, ismein battery, bulb, aur wire ko theek se jodna hota hai. Jab circuit complete hota hai, to electric current flow hota hai aur bulb glow karta hai."
+    },
+    {
+      "type": "application",
+      "q": "In a simple torch, why must the battery, switch, and bulb form a complete loop?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Explain the difference between current flow and energy transfer in a bulb."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "Why does a bulb turn off when a switch opens the circuit?",
+      "hint": "Current needs a closed path to flow.",
+      "answer": "Opening the switch breaks the closed path, so charge cannot continuously flow through the bulb."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "In a simple torch, why must the battery, switch, and bulb form a complete loop?",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires explaining closed circuit requirement and rejecting current-consumption thinking."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "The bulb turns off because the switch opens the circuit. The path is broken, so current cannot flow through the bulb.",
+    "visual": "Draw a loop from battery to bulb and back. When the switch opens, the loop has a gap, so the flow stops.",
+    "real_life": "Like water in a pipe loop: if the pipe is cut, continuous flow stops. A circuit also needs a complete path.",
+    "formal": "Electric current is rate of flow of charge. In an open circuit, continuous charge flow through the component is interrupted.",
+    "socratic": "Is the path complete? Where is the gap? Can current pass through air gap in a simple low-voltage circuit?",
+    "mistake_analysis": "The mistake is saying the bulb “uses up current.” The bulb converts electrical energy, while current requires a closed path.",
+    "hinglish": "Switch open hone par circuit toot jaata hai. Path complete nahi hota, isliye current flow nahi karta aur bulb off ho jaata hai.",
+    "challenge": "What happens if two bulbs are in series and one bulb is removed? Explain using closed path.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Current needs a closed path to flow.",
+    "standard": "A bulb glows when charge can flow through a complete circuit.",
+    "advanced": "Electric current is rate of flow of electric charge.",
+    "fast_learner": "What happens if two bulbs are in series and one bulb is removed? Explain using closed path."
+  },
+  "subject_lenses": {
+    "Physics": "Bulbs, batteries, switches, appliances, circuit safety."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Electric Current ka use real life mein: Bulbs, batteries, switches, appliances, circuit safety.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj electric current ka ek real-life example dhundo.",
+    "Like water in a pipe loop: if the pipe is cut, continuous flow stops. A circuit also needs a complete path."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of science. His work on the concept of 'zero' and the decimal system has a subtle connection to the concept of electric current, as it laid the foundation for precise calculations and measurements in physics, including the measurement of electric current.",
+    "story_hook": "Imagine being an ancient Indian astronomer like Aryabhata, trying to understand the mysteries of the universe, and discovering that the flow of electric charge is similar to the flow of celestial bodies in the night sky. As you explore the concept of electric current, you'll uncover the hidden patterns and rhythms that govern the behavior of electricity, just like Aryabhata uncovered the secrets of the universe.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Electric Current",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "Like water in a pipe loop: if the pipe is cut, continuous flow stops. A circuit also needs a complete path."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-physics_electric_current",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires explaining closed circuit requirement and rejecting current-consumption thinking.",
+  "session_type": "science",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_physics_electric_current_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

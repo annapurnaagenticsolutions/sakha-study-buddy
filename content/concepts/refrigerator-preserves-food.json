@@ -1,0 +1,225 @@
+{
+  "concept_id": "refrigerator-preserves-food",
+  "title": "How Refrigerators Preserve Food",
+  "icon": "🧊",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Biology",
+    "Physics",
+    "Chemistry",
+    "Math"
+  ],
+  "place": "Kitchen + Health",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why does keeping food cold help it stay usable longer?",
+  "big_idea": "Cooling slows microbial growth and many chemical changes. It does not make food permanent, but it can extend safe storage time.",
+  "story": "Cooked food left outside spoils faster than food cooled and stored properly. Refrigeration lowers temperature and slows changes.",
+  "cause_process_result": {
+    "cause": "Food prepared",
+    "process": "Microbes/reactions possible → Cooling transfers heat out → Growth/reactions slow",
+    "result": "Food lasts longer but not forever"
+  },
+  "flow": [
+    "Food prepared",
+    "Microbes/reactions possible",
+    "Cooling transfers heat out",
+    "Growth/reactions slow",
+    "Food lasts longer but not forever"
+  ],
+  "whiteboard": [
+    "Cause: Food prepared",
+    "  -> Microbes/reactions possible → Cooling transfers heat out → Growth/reactions slow",
+    "Result: Food lasts longer but not forever"
+  ],
+  "indian_analogies": [
+    "Kitchen + Health mein yeh dekhte hain: How Refrigerators Preserve Food.",
+    "Leftover food"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is thinking refrigeration makes food permanently safe. It only slows change.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "How Refrigerators Preserve Food mein Biology, Physics, Chemistry, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does keeping food cold help it stay usable longer?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does keeping food cold help it stay usable longer?"
+    },
+    {
+      "type": "probe",
+      "q": "Why does warmth speed spoilage?"
+    },
+    {
+      "type": "probe",
+      "q": "Why should hot food cool before storage?"
+    },
+    {
+      "type": "probe",
+      "q": "Why do labels matter?",
+      "a": "Labels matter kyunki ve humein bataate hain ki khaana kitne din tak safe hai, aur ismein kya ingredients hain, jisse hum uska proper storage aur handling kar sakte hain. Isse food poisoning se bhi bacha ja sakta hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Food prepared -> Microbes/reactions possible -> Cooling transfers heat out — what exactly happens at each step?",
+      "a": "Pehle food prepared hota hai, phir microbes/reactions possible hote hain jo food ko kharab kar sakte hain, aur phir cooling system heat ko bahar transfer karta hai jisse microbes/reactions slow ho jaate hain aur food fresh rehta hai. Isse food ki shelf life badh jaati hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "Which statement is correct?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which statement is correct?",
+      "options": [
+        "Cold food never spoils",
+        "Refrigeration slows spoilage but does not stop it forever",
+        "All foods need freezing",
+        "Smell alone always proves safety"
+      ],
+      "correct": "Refrigeration slows spoilage but does not stop it forever",
+      "hint": "Cold temperature slows microbial growth and chemical change, but food still has safe storage limits.",
+      "answer": "Cold temperature slows microbial growth and chemical change, but food still has safe storage limits."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if storage temperature becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if storage temperature becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "How Refrigerators Preserve Food shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In How Refrigerators Preserve Food, one or more factors such as storage temperature change what we observe. The idea connects Biology, Physics, Chemistry, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of How Refrigerators Preserve Food connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Cooling slows microbial growth and many chemical changes. It does not make food permanent, but it can extend safe storage time.",
+    "hinglish": "Dekh yaar — How Refrigerators Preserve Food mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "Cooked food left outside spoils faster than food cooled and stored properly. Refrigeration lowers temperature and slows changes."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does keeping food cold help it stay usable longer. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more storage temperature.",
+    "class_6_8": "Explain the cause-effect chain: Food prepared → Microbes/reactions possible → Cooling transfers heat out → Growth/reactions slow.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Physics, Chemistry, Math."
+  },
+  "subject_lenses": {
+    "Biology": "Microbes grow more slowly at low temperature, though not all are stopped.",
+    "Physics": "Cooling transfers heat from food to the refrigerator system.",
+    "Chemistry": "Lower temperature slows many reactions and odour changes.",
+    "Math": "Compare storage time inside and outside the refrigerator."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — How Refrigerators Preserve Food ka concept aur jagah bhi kaam karta hai: Leftover food, Milk storage, Vegetables.",
+      "related_concepts": [],
+      "career_connection": "Food science, refrigeration engineering, nutrition, public health."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj how refrigerators preserve food se related kuch notice karo.",
+    "Why does keeping food cold help it stay usable longer?",
+    "What would happen if storage temperature becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Jagadish Chandra Bose",
+    "connection": "Jagadish Chandra Bose, a renowned Indian scientist, made significant contributions to the understanding of plant physiology. His work on the effects of temperature on plant growth and microbial activity has a direct connection to the concept of refrigeration preserving food, as it laid the foundation for understanding how cooling slows down microbial growth and chemical changes.",
+    "story_hook": "Imagine being in a small village in ancient India, where people used earthen pots to store water and keep it cool, much like how refrigerators work today. As we explore the science behind refrigeration, we'll discover how this ancient technique has evolved to preserve food and keep us healthy.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: How Refrigerators Preserve Food",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Read storage instructions on food labels. Do not taste old or doubtful food. Ask an adult before deciding whether food is safe."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "microbes",
+    "cooling",
+    "reaction_rate",
+    "storage_time"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-refrigerator-preserves-food",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Store food correctly, label leftovers, follow expiry dates, and discard doubtful food safely.",
+  "career_connections": "Food science, refrigeration engineering, nutrition, public health.",
+  "why_matters": "This connects home health, food safety, and responsible storage decisions.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

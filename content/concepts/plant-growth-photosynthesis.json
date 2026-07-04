@@ -1,0 +1,185 @@
+{
+  "concept_id": "plant-growth-photosynthesis",
+  "title": "Plant Growth and Photosynthesis",
+  "icon": "🌱",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Biology",
+    "Chemistry",
+    "Physics"
+  ],
+  "level": "Intermediate",
+  "prerequisites": [],
+  "intro_hook": "Every breath you take traces back to a plant. How does a plant make the oxygen you are breathing right now?",
+  "big_idea": "Photosynthesis: 6CO2 + 6H2O + light -> C6H12O6 + 6O2. Plants are solar-powered chemical factories that create food AND oxygen from sunlight, water, and air.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Sunlight hits chlorophyll in leaf cells",
+    "process": "Light energy splits water; CO2 absorbed from air; glucose synthesized in Calvin cycle",
+    "result": "Glucose (plant food) produced; O2 released as byproduct"
+  },
+  "flow": [
+    "Sunlight hits chlorophyll in leaf cells",
+    "Light energy splits water; CO2 absorbed from air; glucose synthesized in Calvin cycle",
+    "Glucose (plant food) produced; O2 released as byproduct"
+  ],
+  "whiteboard": [
+    "Cause: Sunlight hits chlorophyll in leaf cells",
+    "  -> Light energy splits water; CO2 absorbed from air; glucose synthesized in Calvin cycle",
+    "Result: Glucose (plant food) produced; O2 released as byproduct",
+    "Key concepts: Photosynthesis, Chlorophyll, Growth Stages, Ecosystem Role"
+  ],
+  "indian_analogies": [
+    "Large mature tree produces ~100kg O2 per year — enough for 2 people",
+    "Autumn colors: chlorophyll breaks down revealing hidden yellow/orange carotenoids"
+  ],
+  "misconceptions": [
+    {
+      "id": "plants_eat_soil",
+      "belief": "Plants get their food from soil",
+      "probe": "If plants eat soil, why doesn't the pot of soil disappear over time?",
+      "repair": "Plants make their own food through photosynthesis using CO2 from AIR and water. Soil provides minerals — not the main carbon for glucose.",
+      "trigger_words": [
+        "eat soil",
+        "food from soil",
+        "soil feeds",
+        "roots eat"
+      ]
+    },
+    {
+      "id": "greener_more_oxygen",
+      "belief": "Greener plants always produce more oxygen",
+      "probe": "Some plants are purple or red but still photosynthesize. Why?",
+      "repair": "It is chlorophyll content that drives photosynthesis — not greenness per se. Red/purple plants have other pigments but still contain chlorophyll.",
+      "trigger_words": [
+        "more green",
+        "greener better",
+        "pale less oxygen"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Every breath you take traces back to a plant. How does a plant make the oxygen you are breathing right now?"
+    },
+    {
+      "type": "probe",
+      "q": "What is the most surprising thing about this concept?",
+      "a": "Yeh sabse adbhut baat hai ki paudhe suraj ki roshni, hawa aur paani se apna bhojan bana sakte hain, jise hum photosynthesis kehte hain. Is prakriya mein paudhe oxygen bhi utpann karte hain jo humare liye bahut mahatvapoorn hai. Yeh prakriya humare jivan ke liye atyant aavash"
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace through: Sunlight hits chlorophyll in leaf cells — what happens step by step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Koi analogy use karo."
+    },
+    {
+      "type": "misconception_probe",
+      "q": "If plants eat soil, why doesn't the pot of soil disappear over time?"
+    },
+    {
+      "type": "misconception_probe",
+      "q": "Some plants are purple or red but still photosynthesize. Why?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 1,
+      "type": "fact_check",
+      "q": "Explain in your own words: Photosynthesis equation: 6CO2 + 6H2O + light -> C6H12O6 + 6O2",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Photosynthesis equation: 6CO2 + 6H2O + light -> C6H12O6 + 6O2"
+    },
+    {
+      "difficulty": 2,
+      "type": "fact_check",
+      "q": "Explain in your own words: Ocean phytoplankton produce 50-80% of Earth's oxygen",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Ocean phytoplankton produce 50-80% of Earth's oxygen"
+    },
+    {
+      "difficulty": 3,
+      "type": "fact_check",
+      "q": "Explain in your own words: Photosynthesis efficiency only 3-6% — yet powers all life",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Photosynthesis efficiency only 3-6% — yet powers all life"
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Photosynthesis: 6CO2 + 6H2O + light -> C6H12O6 + 6O2. Plants are solar-powered chemical factories that create food AND oxygen from sunlight, water, and air.",
+    "real_life": "Large mature tree produces ~100kg O2 per year — enough for 2 people; Autumn colors: chlorophyll breaks down revealing hidden yellow/orange carotenoids; Photosynthesis is only 3-6% efficient yet powers virtually all life on Earth",
+    "visual": "PlantVisualizer: 3 sliders (sunlight/water/CO2), live photosynthesis pipeline, limiting factor display, 5 growth stages",
+    "hinglish": "Dekh yaar — plant growth and photosynthesis mein kya ho raha hai exactly.",
+    "challenge": "Go deeper: Ecosystem Role"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with the hook: Every breath you take traces back to a plant. How does a plant make the oxygen you are breathing right now?",
+    "standard": "Photosynthesis: 6CO2 + 6H2O + light -> C6H12O6 + 6O2. Plants are solar-powered chemical factories that create food AND oxygen from sunlight, water, and air.",
+    "fast_learner": "Photosynthesis efficiency only 3-6% — yet powers all life"
+  },
+  "subject_lenses": {
+    "Biology": "Photosynthesis: 6CO2 + 6H2O + light -> C6H12O6 + 6O2. Plants are solar-powered chemical factories that create food AND oxygen from sunlight, water, and air.",
+    "Chemistry": "Photosynthesis: 6CO2 + 6H2O + light -> C6H12O6 + 6O2. Plants are solar-powered chemical factories that create food AND oxygen from sunlight, water, and air.",
+    "Physics": "Photosynthesis: 6CO2 + 6H2O + light -> C6H12O6 + 6O2. Plants are solar-powered chemical factories that create food AND oxygen from sunlight, water, and air."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Plant Growth and Photosynthesis ka ek amazing real-world application: Large mature tree produces ~100kg O2 per year — enough for 2 people",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Every breath you take traces back to a plant. How does a plant make the oxygen you are breathing right now?",
+    "Large mature tree produces ~100kg O2 per year — enough for 2 people"
+  ],
+  "indian_legacy": {
+    "scientist": "Janaka and the Ashoka Tree",
+    "connection": "In Hindu mythology, the Ashoka tree is associated with the story of Janaka, a king who attained spiritual enlightenment under its shade. The unique properties of the Ashoka tree, which can thrive in a variety of conditions and is known for its ability to purify the air, can be used to illustrate the concept of photosynthesis and how plants like the Ashoka tree use sunlight, water, and air to produce food and oxygen.",
+    "story_hook": "Imagine you are a young prince like Janaka, sitting under the shade of a majestic Ashoka tree, wondering how it can grow so tall and strong with just sunlight, water, and air. As you discover the magic of photosynthesis, you realize that the Ashoka tree is not just a symbol of wisdom, but also a powerful example of how plants are the unsung heroes of our planet, producing oxygen and food for all living beings.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Plant Growth and Photosynthesis",
+    "time_required": "5-10 min",
+    "materials": [
+      "Everyday items"
+    ],
+    "steps": [
+      "Large mature tree produces ~100kg O2 per year — enough for 2 people"
+    ],
+    "share_with_sakha": "What did you observe?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "gamified-stem-visualizer#topic-plant-growth-photosynthesis",
+  "visualizer_type": "gamified_canvas",
+  "visualizer_description": "PlantVisualizer: 3 sliders (sunlight/water/CO2), live photosynthesis pipeline, limiting factor display, 5 growth stages",
+  "quiz_facts": [
+    "Photosynthesis equation: 6CO2 + 6H2O + light -> C6H12O6 + 6O2",
+    "Ocean phytoplankton produce 50-80% of Earth's oxygen",
+    "Photosynthesis efficiency only 3-6% — yet powers all life"
+  ],
+  "session_type": "science",
+  "_source": "gamified-stem-life-visualizer",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "stem_lab_link"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

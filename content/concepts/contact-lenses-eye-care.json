@@ -1,0 +1,230 @@
+{
+  "concept_id": "contact-lenses-eye-care",
+  "title": "Contact Lenses and Eye Care",
+  "icon": "👁️",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Biology",
+    "Chemistry",
+    "Math"
+  ],
+  "place": "Body + Technology",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "How do contact lenses help vision, and why do they need careful hygiene?",
+  "big_idea": "Contact lenses bend light to help focus images on the retina. Because they touch the eye, cleanliness and correct use are essential.",
+  "story": "A contact lens sits on the eye surface and changes how light focuses. Poor cleaning or overuse can irritate or infect the eye.",
+  "cause_process_result": {
+    "cause": "Lens placed on eye",
+    "process": "Light bends correctly → Image focuses on retina → Cleaning prevents contamination",
+    "result": "Vision improves safely"
+  },
+  "flow": [
+    "Lens placed on eye",
+    "Light bends correctly",
+    "Image focuses on retina",
+    "Cleaning prevents contamination",
+    "Vision improves safely"
+  ],
+  "whiteboard": [
+    "Cause: Lens placed on eye",
+    "  -> Light bends correctly → Image focuses on retina → Cleaning prevents contamination",
+    "Result: Vision improves safely"
+  ],
+  "indian_analogies": [
+    "Body + Technology mein yeh dekhte hain: Contact Lenses and Eye Care.",
+    "Eye clinics"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is treating contact lenses like ordinary plastic. They are medical devices that touch living tissue.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Contact Lenses and Eye Care mein Physics, Biology, Chemistry, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "How do contact lenses help vision, and why do they need careful hygiene?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How do contact lenses help vision, and why do they need careful hygiene?",
+      "a": "Contact lenses vision ko theek karne mein madad karte hain, lekin unki safai bahut zaroori hai taaki aankhon mein infection na ho. Ye lenses aankhon par lagaye jate hain aur andar ki taraf se vision ko clear karte hain. Isliye, lenses ko saaf rakhna aur unhein theek se dhona zaroori hai."
+    },
+    {
+      "type": "probe",
+      "q": "How is a lens like spectacles?",
+      "a": "Ek lens spectacles ki tarah hota hai kyunki dono hi aankhon ki roshni ko theek karte hain, lekin lens aankhon par directly fit hota hai, jabki spectacles aankhon ke bahar lagte hain. Isse lens spectacles se alag hota hai, lekin dono ka kaam ek hi hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does hygiene matter?",
+      "a": "Hygiene matter karta hai kyunki yeh humare eyes ko infection se bachata hai, aur saaf lenses aur lens solution ka use karne se hum apni aankhon ki sehat ko maintain kar sakte hain. Agar hum lenses ko saaf nahi karte hain toh yeh khatarnak ho sakta hai. Isliye, lenses pehne se pehle aur baad meh hath dhona zaroori hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why should prescriptions not be guessed?",
+      "a": "Prescription ko guess nahi karna chahiye kyunki har aadmi ki aankhon ki samasya alag hoti hai aur galat prescription se aankhon ko nuksaan ho sakta hai. Isliye doctor ki salah leni chahiye aur unke dwara di gayi prescription ka palan karna chahiye. Isse aankhon ki suraksha hogi aur samasya ka sahi ilaj hoga."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Lens placed on eye -> Light bends correctly -> Image focuses on retina — what exactly happens at each step?",
+      "a": "Lens placed on eye mein lens aankh ke oopar rakha jata hai, phir light bends correctly ho jata hai kyunki lens light ko sahi tarike se modta hai, aur image focuses on retina par jake sahi tarike se focus hota hai. Isse humein saaf dikhai deta hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Humare eyes ko theek se dekhne ke liye hum glasses ya contact lenses use karte hain, lekin contact lenses ko hum apni aankhon mein daalte hain, jisse wo humare eyes ke saath chipke rehte hain aur hume clear dekhne mein madad karte hain."
+    },
+    {
+      "type": "application",
+      "q": "What is a safer contact lens habit?",
+      "a": "Safer contact lens habit hai ki hum lens ko saaf paani se dhokar aur lens solution ka use karke clean karein, isse humare eyes ko nuksan hone se bachaya ja sakta hai. Iske alawa, lens ko pahanne se pehle aur utaarne ke baad haath dhona zaroori hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What is a safer contact lens habit?",
+      "options": [
+        "Use lenses with dirty hands",
+        "Share lenses with friends",
+        "Follow cleaning and wearing instructions",
+        "Sleep in any lenses without advice"
+      ],
+      "correct": "Follow cleaning and wearing instructions",
+      "hint": "Because lenses touch the eye, hygiene and professional instructions are essential.",
+      "answer": "Because lenses touch the eye, hygiene and professional instructions are essential."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if lens match becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if lens match becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Contact Lenses and Eye Care shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Contact Lenses and Eye Care, one or more factors such as lens match change what we observe. The idea connects Physics, Biology, Chemistry, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Contact Lenses and Eye Care connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Contact lenses bend light to help focus images on the retina. Because they touch the eye, cleanliness and correct use are essential.",
+    "hinglish": "Dekh yaar — Contact Lenses and Eye Care mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A contact lens sits on the eye surface and changes how light focuses. Poor cleaning or overuse can irritate or infect the eye."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: How do contact lenses help vision, and why do they need careful hygiene. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more lens match.",
+    "class_6_8": "Explain the cause-effect chain: Lens placed on eye → Light bends correctly → Image focuses on retina → Cleaning prevents contamination.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Biology, Chemistry, Math."
+  },
+  "subject_lenses": {
+    "Physics": "Refraction bends light so images focus properly.",
+    "Biology": "The cornea, tears, retina, and microbes make eye hygiene critical.",
+    "Chemistry": "Lens materials and cleaning solutions are designed for safety and oxygen movement.",
+    "Math": "Lens power and prescription values are measured and compared."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Contact Lenses and Eye Care ka concept aur jagah bhi kaam karta hai: Eye clinics, Sports vision correction, Photography/optics links.",
+      "related_concepts": [],
+      "career_connection": "Optometry, biomedical engineering, materials science, ophthalmology."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj contact lenses and eye care se related kuch notice karo.",
+    "How do contact lenses help vision, and why do they need careful hygiene?",
+    "What would happen if lens match becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, an ancient Indian mathematician and astronomer, worked on the principles of optics and the behavior of light. His understanding of light's properties and its ability to bend, or refract, through different mediums is fundamental to the concept of contact lenses, which rely on the refraction of light to correct vision.",
+    "story_hook": "Imagine being an astronomer like Aryabhata, studying the stars and planets, but struggling to see them clearly because of blurry vision. What if you could wear a special lens that touches your eye, bending light to help you see the night sky in perfect clarity, just like the ancient Indian astronomers who mapped the heavens with remarkable accuracy?",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Contact Lenses and Eye Care",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Do not use or test contact lenses without an eye-care professional. Observe only diagrams or approved educational material."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "refraction",
+    "eye_and_microbes",
+    "lens_materials",
+    "prescription_values"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-contact-lenses-eye-care",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Use only prescribed lenses, wash hands, clean properly, and follow professional instructions.",
+  "career_connections": "Optometry, biomedical engineering, materials science, ophthalmology.",
+  "why_matters": "This topic connects optics with personal health and medical-device responsibility.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

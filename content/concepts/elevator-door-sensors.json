@@ -1,0 +1,230 @@
+{
+  "concept_id": "elevator-door-sensors",
+  "title": "How Elevator Doors Sense Objects",
+  "icon": "🚪",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Biology",
+    "Chemistry"
+  ],
+  "place": "Building + Technology",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "How does an elevator door know when someone or something is in the way?",
+  "big_idea": "Many elevator doors use light beams or sensors. If the beam is interrupted, the control system keeps the door open or reopens it.",
+  "story": "A person steps near closing elevator doors. A sensor detects an obstruction and signals the door system to stop closing.",
+  "cause_process_result": {
+    "cause": "Sensor sends beam",
+    "process": "Object interrupts beam → Controller receives signal → Motor changes action",
+    "result": "Door reopens or stops"
+  },
+  "flow": [
+    "Sensor sends beam",
+    "Object interrupts beam",
+    "Controller receives signal",
+    "Motor changes action",
+    "Door reopens or stops"
+  ],
+  "whiteboard": [
+    "Cause: Sensor sends beam",
+    "  -> Object interrupts beam → Controller receives signal → Motor changes action",
+    "Result: Door reopens or stops"
+  ],
+  "indian_analogies": [
+    "Building + Technology mein yeh dekhte hain: How Elevator Doors Sense Objects.",
+    "Elevators"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is assuming sensors always work perfectly. Safety design helps, but human behaviour still matters.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "How Elevator Doors Sense Objects mein Physics, Math, Biology, Chemistry sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "How does an elevator door know when someone or something is in the way?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does an elevator door know when someone or something is in the way?",
+      "a": "Elevator door mein sensors hote hain jo infrared light ya pressure sensors ka use karke detect karte hain ki koi object ya vyakti door ke raaste mein hai ya nahi. Jab sensor ko pata chalta hai ki koi object ya vyakti door ke raaste mein hai, to door automatically band nahi hota. Isse accident hone se bachaya ja sakta hai."
+    },
+    {
+      "type": "probe",
+      "q": "What if the sensor is dirty?",
+      "a": "Agar sensor ganda ho jaye to wah theek se kaam nahi karega, isliye sensor ko saaf rakhna zaroori hai taaki elevator ke darwaze sahi se khulen aur band hon. Isse accident hone ki sambhavna bhi kam ho jati hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why is response time important?",
+      "a": "Response time ka mahatva hai kyunki yeh elevator ke darwaze ko sahi samay par kholne aur band karne mein madad karta hai, isse accident hone ki sambhavna kam hoti hai. Isse elevator ki suraksha badhti hai aur yeh sahi tareeke se kaam karta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Where else are similar sensors used?",
+      "a": "Iske jaise sensors garage doors, microwave ovens aur automatic doors mein bhi use hote hain, jahan unhe objects ko detect karna hota hai. Yeh sensors humein accidents se bachane mein madad karte hain."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Sensor sends beam -> Object interrupts beam -> Controller receives signal — what exactly happens at each step?",
+      "a": "Sensor beam ko bhejta hai, object us beam ko interrupt karta hai, aur controller ko signal milta hai, jisse elevator doors khulne ya band hone ka decision hota hai. Is process mein sensor, object aur controller milke elevator doors ko sahi samay par khulne ya band hone ki suvidha dete hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Elevator ke darwaze mein ek sensor hota hai jo objects ko detect karta hai, jisse door khule nahi aur kisi ko nuksan nahi pahunchta. Jab hum elevator ke andar jaate hain aur darwaze band hone wale hote hain, toh yeh sensor check karta hai ki koi object toh door ke beech mein nahi aa raha. Isse elevator ki safety badh jaati hai aur hum"
+    },
+    {
+      "type": "application",
+      "q": "What should you do if elevator doors are closing?",
+      "a": "Agar elevator ke darwaze bandh rahe hon toh humein unhein rokena chahiye, iske liye hum door sensor ke saamne haath ya koi vastu rakhte hain, jisse darwaze kholne lagte hain. Humein darwazon ko haath se bhi rok sakte hain, lekin yeh thoda khatarnaak ho sakta hai. Isliye, darwaze"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What should you do if elevator doors are closing?",
+      "options": [
+        "Force your hand between doors",
+        "Wait for the next lift or use the button",
+        "Stand in the doorway for fun",
+        "Block sensors with objects"
+      ],
+      "correct": "Wait for the next lift or use the button",
+      "hint": "Elevator sensors are safety aids, not toys. Use buttons and safe waiting behaviour.",
+      "answer": "Elevator sensors are safety aids, not toys. Use buttons and safe waiting behaviour."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if obstruction closeness becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if obstruction closeness becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "How Elevator Doors Sense Objects shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In How Elevator Doors Sense Objects, one or more factors such as obstruction closeness change what we observe. The idea connects Physics, Math, Biology, Chemistry and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of How Elevator Doors Sense Objects connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Many elevator doors use light beams or sensors. If the beam is interrupted, the control system keeps the door open or reopens it.",
+    "hinglish": "Dekh yaar — How Elevator Doors Sense Objects mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A person steps near closing elevator doors. A sensor detects an obstruction and signals the door system to stop closing."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: How does an elevator door know when someone or something is in the way. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more obstruction closeness.",
+    "class_6_8": "Explain the cause-effect chain: Sensor sends beam → Object interrupts beam → Controller receives signal → Motor changes action.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Biology, Chemistry."
+  },
+  "subject_lenses": {
+    "Physics": "Light, infrared beams, electricity, motors, and control signals are involved.",
+    "Math": "Timing, distance, and response delay can be compared.",
+    "Biology": "Human safety depends on preventing body injury and panic.",
+    "Chemistry": "Sensor materials, wiring insulation, and batteries/components rely on material chemistry."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — How Elevator Doors Sense Objects ka concept aur jagah bhi kaam karta hai: Elevators, Automatic doors, Mall entrances.",
+      "related_concepts": [],
+      "career_connection": "Robotics, automation, safety engineering, embedded systems, building design."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj how elevator doors sense objects se related kuch notice karo.",
+    "How does an elevator door know when someone or something is in the way?",
+    "What would happen if obstruction closeness becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of optics, which is closely related to the concept of light beams used in elevator doors. His work on the principles of reflection and refraction of light laid the foundation for understanding how light beams can be used to detect objects, similar to how elevator doors use light beams or sensors to sense objects and prevent accidents.",
+    "story_hook": "Imagine you are on a mission to design a system that can detect objects, just like the ancient Indian astronomer Aryabhata who studied the behavior of light and its interactions with objects. As you explore the principles of light and optics, you stumble upon an innovative way to use light beams to sense objects, which is similar to how modern elevator doors work to ensure our safety.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: How Elevator Doors Sense Objects",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe automatic doors from a safe distance. Do not intentionally block elevator doors or test them with body parts."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "light_sensors",
+    "timing",
+    "safety",
+    "control_systems"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-elevator-door-sensors",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Never play with elevator doors; use buttons and wait safely.",
+  "career_connections": "Robotics, automation, safety engineering, embedded systems, building design.",
+  "why_matters": "Students connect sensors with safety design in everyday buildings.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

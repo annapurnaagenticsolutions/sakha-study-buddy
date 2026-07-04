@@ -1,0 +1,188 @@
+{
+  "concept_id": "electricity-circuits",
+  "title": "Electricity and Circuits",
+  "icon": "⚡",
+  "class_band": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Math"
+  ],
+  "level": "Intermediate",
+  "prerequisites": [],
+  "intro_hook": "A light switch doesn't create electricity. What exactly does it do to the circuit?",
+  "big_idea": "Electricity is electron flow through a complete loop. A switch breaks the loop. Ohm's Law: I = V/R. Voltage is pressure; current is flow; resistance opposes flow.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Voltage (electrical pressure) applied across a conductor",
+    "process": "Electrons flow from high to low potential; resistance opposes flow; I = V/R",
+    "result": "Current flows; devices operate; energy converts to light, heat, or motion"
+  },
+  "flow": [
+    "Voltage (electrical pressure) applied across a conductor",
+    "Electrons flow from high to low potential; resistance opposes flow; I = V/R",
+    "Current flows; devices operate; energy converts to light, heat, or motion"
+  ],
+  "whiteboard": [
+    "Cause: Voltage (electrical pressure) applied across a conductor",
+    "  -> Electrons flow from high to low potential; resistance opposes flow; I = V/R",
+    "Result: Current flows; devices operate; energy converts to light, heat, or motion",
+    "Key concepts: Current Flow, Voltage and Resistance, Series vs Parallel, Ohm's Law"
+  ],
+  "indian_analogies": [
+    "Phone battery is a chemical pump that pushes electrons through circuits",
+    "Switch breaks the circuit loop — no loop means no flow means no light"
+  ],
+  "misconceptions": [
+    {
+      "id": "voltage_always_kills",
+      "belief": "High voltage always means danger; low voltage is always safe",
+      "probe": "A static shock is 25,000V but harmless. A 120V wall outlet can kill. What is different?",
+      "repair": "Current (amperes) kills, not voltage alone. High V + high R = low current = safe. Low V + low R = high current = dangerous.",
+      "trigger_words": [
+        "high voltage dangerous",
+        "low voltage safe",
+        "voltage kills"
+      ]
+    },
+    {
+      "id": "electrons_fast",
+      "belief": "Electricity travels slowly because electrons move slowly",
+      "probe": "Electrons move at 0.1mm/s but lights turn on instantly. Why?",
+      "repair": "The signal travels near light speed — each electron pushes the next immediately. Like dominoes: tiles move slightly but the wave is fast.",
+      "trigger_words": [
+        "electrons slow",
+        "electricity slow",
+        "0.1mm"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "A light switch doesn't create electricity. What exactly does it do to the circuit?",
+      "a": "Light switch circuit mein electricity ka flow control karta hai, yaani yeh electricity ko on ya off karta hai. Jab hum switch on karte hain, to circuit complete ho jata hai aur current flow hone lagta hai. Isse light bulb jal uthati hai."
+    },
+    {
+      "type": "probe",
+      "q": "What is the most surprising thing about this concept?",
+      "a": "Yeh concept mujhe sabse zyada surprising lagta hai kyunki electricity ke circuit mein current flow hota hai aur hume yeh pata chalta hai ki kaise switch on/off karne se current flow hota hai ya ruk jata hai. Isse hume pata chalta hai ki electricity kitni powerful hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace through: Voltage (electrical pressure) applied across a conductor — what happens step by step?",
+      "a": "Voltage lagane par, conductor mein electrons ka flow shuru ho jata hai, isey current kahate hain, aur yeh flow conductor ke andar se hota hai. Jab voltage apply hota hai to electrons conductor ke ek end se doosre end ki taraf move karte hain. Is prakriya mein conductor ke andar se electrons ka flow hota hai, jisey hum electric current ke roop mein mahsoos karte hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Koi analogy use karo.",
+      "a": "Bijli ki tarah humare ghar mein aati hai, lekin circuit mein flow karti hai, jaise ki paani ki pipe mein paani flow karta hai, agar pipe mein koi rukawat aa jaye to paani flow band ho jata hai, wahi tarah circuit mein agar koi break aa jaye to bijli flow band ho jati hai. Isliye hume circuit ko complete rakhna hota hai taaki bij"
+    },
+    {
+      "type": "misconception_probe",
+      "q": "A static shock is 25,000V but harmless. A 120V wall outlet can kill. What is different?",
+      "a": "Yeh difference current ki wajah se hai, static shock mein current bahut kam hota hai lekin 120V wall outlet mein current zyada hota hai, isliye woh harmful ho sakta hai. Isliye, voltage ke saath-saath current bhi zaroori hai shock ke harmful hone ke liye."
+    },
+    {
+      "type": "misconception_probe",
+      "q": "Electrons move at 0.1mm/s but lights turn on instantly. Why?",
+      "a": "Electrons ki speed 0.1mm/s hai, lekin jab hum light ko on karte hain, to electrons ka flow instantaneously ho jata hai kyunki electrons already wire mein maujood hote hain, aur unhein bas ek signal ki zaroorat hoti hai. Is signal ke baad, electrons flow shuru ho jata hai aur light on ho jata hai. Isliye, humein lagta hai ki light instantaneously on"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 1,
+      "type": "fact_check",
+      "q": "Explain in your own words: Electrons move ~0.1mm/s but electrical signal travels near light speed",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Electrons move ~0.1mm/s but electrical signal travels near light speed"
+    },
+    {
+      "difficulty": 2,
+      "type": "fact_check",
+      "q": "Explain in your own words: Ohm's Law: I = V/R",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Ohm's Law: I = V/R"
+    },
+    {
+      "difficulty": 3,
+      "type": "fact_check",
+      "q": "Explain in your own words: Houses are wired in parallel — turning off one light doesn't affect others",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Houses are wired in parallel — turning off one light doesn't affect others"
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Electricity is electron flow through a complete loop. A switch breaks the loop. Ohm's Law: I = V/R. Voltage is pressure; current is flow; resistance opposes flow.",
+    "real_life": "Phone battery is a chemical pump that pushes electrons through circuits; Switch breaks the circuit loop — no loop means no flow means no light; Static shock is 25,000V but harmless — tiny current. 120V outlet can kill because it delivers high current.",
+    "visual": "ElectricityVisualizer: animated circuit with electron flow, voltage/resistance sliders, Ohm's Law display, series/parallel toggle",
+    "hinglish": "Dekh yaar — electricity and circuits mein kya ho raha hai exactly.",
+    "challenge": "Go deeper: Ohm's Law"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with the hook: A light switch doesn't create electricity. What exactly does it do to the circuit?",
+    "standard": "Electricity is electron flow through a complete loop. A switch breaks the loop. Ohm's Law: I = V/R. Voltage is pressure; current is flow; resistance opposes flow.",
+    "fast_learner": "Houses are wired in parallel — turning off one light doesn't affect others"
+  },
+  "subject_lenses": {
+    "Physics": "Electricity is electron flow through a complete loop. A switch breaks the loop. Ohm's Law: I = V/R. Voltage is pressure; current is flow; resistance opposes flow.",
+    "Math": "Electricity is electron flow through a complete loop. A switch breaks the loop. Ohm's Law: I = V/R. Voltage is pressure; current is flow; resistance opposes flow."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Electricity and Circuits ka ek amazing real-world application: Phone battery is a chemical pump that pushes electrons through circuits",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "A light switch doesn't create electricity. What exactly does it do to the circuit?",
+    "Phone battery is a chemical pump that pushes electrons through circuits"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "The concept of electricity and circuits can be connected to the work of ancient Indian astronomer and mathematician Aryabhata, who described the concept of zero and the movement of celestial bodies. This understanding of movement and flow can be analogously applied to the flow of electrons in a circuit, where electricity moves through a complete loop, and a switch breaks the loop, illustrating the fundamental principles of Ohm's Law.",
+    "story_hook": "Imagine you are a young astronomer in ancient India, studying the movements of the stars and planets with Aryabhata, and you stumble upon a mysterious device that harnesses the power of electricity to light up the night sky. As you explore this device, you begin to unravel the secrets of electricity and circuits, and how they can be used to create incredible inventions that change the world.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Electricity and Circuits",
+    "time_required": "5-10 min",
+    "materials": [
+      "Everyday items"
+    ],
+    "steps": [
+      "Phone battery is a chemical pump that pushes electrons through circuits"
+    ],
+    "share_with_sakha": "What did you observe?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "gamified-stem-visualizer#topic-electricity-circuits",
+  "visualizer_type": "gamified_canvas",
+  "visualizer_description": "ElectricityVisualizer: animated circuit with electron flow, voltage/resistance sliders, Ohm's Law display, series/parallel toggle",
+  "quiz_facts": [
+    "Electrons move ~0.1mm/s but electrical signal travels near light speed",
+    "Ohm's Law: I = V/R",
+    "Houses are wired in parallel — turning off one light doesn't affect others"
+  ],
+  "session_type": "science",
+  "_source": "gamified-stem-life-visualizer",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "stem_lab_link"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

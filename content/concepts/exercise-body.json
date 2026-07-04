@@ -1,0 +1,230 @@
+{
+  "concept_id": "exercise-body",
+  "title": "Human Body During Exercise",
+  "icon": "🏃",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Biology",
+    "Chemistry",
+    "Physics",
+    "Math"
+  ],
+  "place": "Body + Sports",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "Why do breathing and heart rate increase when we run or climb stairs?",
+  "big_idea": "Muscles need more energy during exercise. Respiration uses oxygen and glucose to release energy, while the heart and lungs transport oxygen faster.",
+  "story": "You start running. Muscles work harder. Breathing speeds up. The heart pumps faster. Sweat helps cooling.",
+  "cause_process_result": {
+    "cause": "Exercise starts",
+    "process": "Muscles need energy → Breathing increases → Heart rate rises",
+    "result": "Heat managed by sweat"
+  },
+  "flow": [
+    "Exercise starts",
+    "Muscles need energy",
+    "Breathing increases",
+    "Heart rate rises",
+    "Heat managed by sweat"
+  ],
+  "whiteboard": [
+    "Cause: Exercise starts",
+    "  -> Muscles need energy → Breathing increases → Heart rate rises",
+    "Result: Heat managed by sweat"
+  ],
+  "indian_analogies": [
+    "Body + Sports mein yeh dekhte hain: Human Body During Exercise.",
+    "Sports training"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat human body during exercise as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Human Body During Exercise mein Biology, Chemistry, Physics, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do breathing and heart rate increase when we run or climb stairs?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do breathing and heart rate increase when we run or climb stairs?",
+      "a": "Humare sharir ko exercise ke dauran adhik oxygen ki avashyakta hoti hai, isliye saans lene ki gati aur heart rate badh jata hai taaki humare muscles ko paryapt oxygen mil sake. Isse humari sharir ki energy ki mang poori ho sakti hai."
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?",
+      "a": "Agar hum exercise karte hain toh hamare heart ki heartbeat badh jaati hai, jisse blood circulation tez ho jaata hai aur oxygen muscles tak pahunchne lagta hai. Isse hamare muscles ko kaam karne ke liye zaroori energy milti hai. Is tarah, exercise ke dauran heartbeat ka badhna hamare sharir ke liye zaroori hai."
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?",
+      "a": "Science subject humare sharir ke sabse bade hisse ko explain karti hai, jo ki hamaare dil aur lungs hote hain, jo exercise ke dauran bahut mahatvapurn hote hain. Ismein biology bhi shaamil hai, jo humein hamaare sharir ke vibhinn angon ke baare mein batati hai."
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum ghar par ya school mein pulse aur breathing rate ko measure karke iska test safely kar sakte hain, exercise ke pehle aur baad mein. Isse humein pata chalega ki exercise karte waqt hamara heart rate aur breathing rate kaise badalta hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Exercise starts -> Muscles need energy -> Breathing increases — what exactly happens at each step?",
+      "a": "Exercise shuru hoti hai, toh muscles ko energy ki zarurat padti hai, isliye saans lena badh jaata hai taaki oxygen aur glucose mil sake aur energy ban sake. Is process mein, humare lungs zyada oxygen absorb karte hain aur heart zyada blood pump karta hai. Isse muscles ko zarurat ke hisaab se energy milti hai aur wo apna kaam kar paate hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Humare body mein exercise ke dauran bahut si cheezein hoti hain, jaise ki hamari dil ki gati badh jaati hai, saans lena tez ho jaata hai, aur hamari muscles kaam karna shuru kar deti hain. Isse humari body ko oxygen aur energy milti hai, jisse hum tez daud sakte hain aur accha mehnat kar sakte hain. Isse hum"
+    },
+    {
+      "type": "application",
+      "q": "Why does breathing increase during exercise?",
+      "a": "Exercise ke dauran sharir ko adhik oxygen ki aavashyakta hoti hai, isliye saans lene ki gati badh jaati hai taaki sharir ko paryapt oxygen mil sake. Isse humare muscles ko adhik urja milti hai aur ve adhik kushal dhang se kaam kar pate hain."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why does breathing increase during exercise?",
+      "options": [
+        "Muscles need more oxygen",
+        "The body needs less energy",
+        "The lungs stop working",
+        "Sweat turns into oxygen"
+      ],
+      "correct": "Muscles need more oxygen",
+      "hint": "Working muscles need more oxygen for respiration, so breathing and heart rate rise to supply it.",
+      "answer": "Working muscles need more oxygen for respiration, so breathing and heart rate rise to supply it."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if exercise intensity becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if exercise intensity becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Human Body During Exercise shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Human Body During Exercise, one or more factors such as exercise intensity change what we observe. The idea connects Biology, Chemistry, Physics, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Human Body During Exercise connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Muscles need more energy during exercise. Respiration uses oxygen and glucose to release energy, while the heart and lungs transport oxygen faster.",
+    "hinglish": "Dekh yaar — Human Body During Exercise mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "You start running. Muscles work harder. Breathing speeds up. The heart pumps faster. Sweat helps cooling."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do breathing and heart rate increase when we run or climb stairs. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more exercise intensity.",
+    "class_6_8": "Explain the cause-effect chain: Exercise starts → Muscles need energy → Breathing increases → Heart rate rises.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Chemistry, Physics, Math."
+  },
+  "subject_lenses": {
+    "Biology": "Heart, lungs, muscles, blood, sweat glands.",
+    "Chemistry": "Cellular respiration releases energy from glucose using oxygen.",
+    "Physics": "Work, energy, heat loss, motion.",
+    "Math": "Count pulse rate, compare before and after exercise, plot recovery time."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Human Body During Exercise ka concept aur jagah bhi kaam karta hai: Sports training, Health tracking, Yoga and breathing.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj human body during exercise se related kuch notice karo.",
+    "Why do breathing and heart rate increase when we run or climb stairs?",
+    "What would happen if exercise intensity becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Sushruta",
+    "connection": "The ancient Indian medical sage Sushruta, known for his contributions to Ayurveda and surgery, understood the importance of physical exercise and its impact on the human body. In his treatise, the Sushruta Samhita, he discusses the concept of 'vyayama' or physical exercise, which is essential for maintaining a healthy body and mind, highlighting the role of respiration and circulation in providing energy to the muscles during physical activity.",
+    "story_hook": "Imagine you are a young athlete training for the ancient Indian sport of mallakhamb, a traditional gymnastics discipline that requires strength, agility, and endurance, and you need to understand how your body works during exercise to perform at your best. As you start to climb the rope or perform aerial stunts, you begin to feel your heart beating faster and your breathing becoming deeper, and you wonder what's happening inside your body to give you the energy to keep going.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Human Body During Exercise",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Count pulse before and after 20 safe jumping jacks if medically suitable. Stop if dizzy or uncomfortable. Ask an adult if unsure."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "respiration_and_circulation",
+    "glucose_energy",
+    "work_and_heat",
+    "data_tracking"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-exercise-body",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Human Body During Exercise turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

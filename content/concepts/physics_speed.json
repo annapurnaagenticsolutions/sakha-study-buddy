@@ -1,0 +1,201 @@
+{
+  "concept_id": "physics_speed",
+  "title": "Speed",
+  "icon": "⚡",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "motion",
+    "division",
+    "units"
+  ],
+  "intro_hook": "A cycle travels 60 m in 10 s. What does 6 m/s actually mean?",
+  "big_idea": "Speed measures how fast distance is covered per unit time.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Speed tells how quickly position changes in terms of distance covered.",
+    "process": "If you cover more distance in the same time, your speed is higher. Distance-time strip showing equal time intervals.",
+    "result": "Travel planning, races, graphs, average speed."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Speed tells how quickly position changes in terms of distance covered.",
+    "Visual: Distance-time strip showing equal time intervals.",
+    "Formal: Speed = distance / time.",
+    "Application: Travel planning, races, graphs, average speed."
+  ],
+  "indian_analogies": [
+    "If a cyclist maintains this average, after 1 second they cover about 6 m, after 2 seconds about 12 m, and so on.",
+    "6 m/s ka matlab hai average mein har second 6 metre cover ho rahe hain."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_physics_speed_01",
+      "belief": "speed and distance are the same",
+      "why_common": "I compared only distance or only time instead of distance per unit time.",
+      "probe": "A cycle travels 60 m in 10 s. What does 6 m/s actually mean?",
+      "repair": "Compare two runners with distance-time strips. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Compare two runners with distance-time strips.",
+      "follow_up": "Give a changed speed situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use side-by-side trips to separate distance, time, and speed.",
+      "mastery_signal": "Learner can explain why “speed and distance are the same” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: speed and distance",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_speed_02",
+      "belief": "average speed is always simple average of speeds",
+      "why_common": "I compared only distance or only time instead of distance per unit time.",
+      "probe": "A cycle travels 60 m in 10 s. What does 6 m/s actually mean?",
+      "repair": "Compare two runners with distance-time strips. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Compare two runners with distance-time strips.",
+      "follow_up": "Give a changed speed situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use side-by-side trips to separate distance, time, and speed.",
+      "mastery_signal": "Learner can explain why “average speed is always simple average of speeds” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: average speed is",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_speed_03",
+      "belief": "unit conversion does not affect answer",
+      "why_common": "I compared only distance or only time instead of distance per unit time.",
+      "probe": "A cycle travels 60 m in 10 s. What does 6 m/s actually mean?",
+      "repair": "Compare two runners with distance-time strips. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Compare two runners with distance-time strips.",
+      "follow_up": "Give a changed speed situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use side-by-side trips to separate distance, time, and speed.",
+      "mastery_signal": "Learner can explain why “unit conversion does not affect answer” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: unit conversion does",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "A cycle travels 60 m in 10 s. What does 6 m/s actually mean?"
+    },
+    {
+      "type": "probe",
+      "q": "Speed = distance divided by time.",
+      "a": "Speed ka sahi formula hai distance divided by time, yaani ki gati = doori bhagaaya samay. Isse humein pata chalta hai ki koi cheez kitni tezi se ja rahi hai."
+    },
+    {
+      "type": "probe",
+      "q": "60 m divided by 10 s gives 6 m/s.",
+      "a": "Yeh sahi hai, kyunki speed ka formula hai distance divide by time, aur yahan 60 meter ko 10 second se divide karne par 6 meter per second milta hai, jo ki speed ki ek unit hai. Isse humein pata chalta hai ki koi cheez kitni tezi se ja rahi hai."
+    },
+    {
+      "type": "probe",
+      "q": "The word “per” means “for each”."
+    },
+    {
+      "type": "application",
+      "q": "A car travels 150 km in 3 hours. What does its average speed mean in words?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Explain why speed needs both distance and time."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "A cycle travels 60 m in 10 s. What does 6 m/s actually mean?",
+      "hint": "Speed tells how quickly position changes in terms of distance covered.",
+      "answer": "It means the cycle covers 6 metres every second on average."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "A car travels 150 km in 3 hours. What does its average speed mean in words?",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires interpreting unit rate, not only calculating numeric speed."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "6 m/s means the cycle covers 6 metres in each second on average.",
+    "visual": "Draw 10 equal time boxes. Spread 60 m equally across them: each box gets 6 m.",
+    "real_life": "If a cyclist maintains this average, after 1 second they cover about 6 m, after 2 seconds about 12 m, and so on.",
+    "formal": "Speed = distance/time = 60 m / 10 s = 6 m s⁻¹.",
+    "socratic": "What quantity is in the numerator? What quantity is in the denominator? What does “per” mean?",
+    "mistake_analysis": "The mistake is treating 6 as only a distance or only a time. Speed combines both distance and time.",
+    "hinglish": "6 m/s ka matlab hai average mein har second 6 metre cover ho rahe hain.",
+    "challenge": "A runner covers 100 m in 20 s. Interpret the speed, not just calculate it.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Speed tells how quickly position changes in terms of distance covered.",
+    "standard": "If you cover more distance in the same time, your speed is higher.",
+    "advanced": "Speed = distance / time.",
+    "fast_learner": "A runner covers 100 m in 20 s. Interpret the speed, not just calculate it."
+  },
+  "subject_lenses": {
+    "Physics": "Travel planning, races, graphs, average speed."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Speed ka use real life mein: Travel planning, races, graphs, average speed.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj speed ka ek real-life example dhundo.",
+    "If a cyclist maintains this average, after 1 second they cover about 6 m, after 2 seconds about 12 m, and so on."
+  ],
+  "indian_legacy": {
+    "scientist": "Bhaskaracharya",
+    "connection": "Bhaskaracharya, a renowned Indian mathematician and astronomer, made significant contributions to the field of physics, including the concept of speed. In his book 'Lilavati', he discussed the idea of speed and time, laying the foundation for understanding how distance is covered per unit time. His work demonstrates the importance of speed in various aspects of life, from the movement of celestial bodies to the velocity of objects on Earth.",
+    "story_hook": "Imagine you are a young apprentice to Bhaskaracharya, tasked with measuring the speed of a horse racing across the vast Indian plains, and you must calculate how long it takes to cover a certain distance. As you observe the horse's movement, you begin to understand the concept of speed and how it measures the rate at which distance is covered per unit time.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Speed",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "If a cyclist maintains this average, after 1 second they cover about 6 m, after 2 seconds about 12 m, and so on."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-physics_speed",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires interpreting unit rate, not only calculating numeric speed.",
+  "session_type": "science",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_physics_speed_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

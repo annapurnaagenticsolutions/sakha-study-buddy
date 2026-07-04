@@ -1,0 +1,165 @@
+{
+  "concept_id": "vertical-farm-irrigation",
+  "title": "Vertical Farm Irrigation",
+  "icon": "🌿",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Biology",
+    "Chemistry",
+    "Physics",
+    "Math"
+  ],
+  "level": "Advanced Systems",
+  "prerequisites": [],
+  "intro_hook": "How does a vertical farm grow crops without soil, using 95% less water?",
+  "big_idea": "Hydroponics delivers nutrient solution directly to roots. Sensors monitor pH, EC (nutrient concentration), temperature. LED lights replace sunlight. Water recirculated.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Sensors detect plant needs: water, nutrients, light level",
+    "process": "Automated delivery of water+nutrients; LED cycles adjusted; pH controlled",
+    "result": "Plants grow 3-5x faster than soil; 95% less water; failure = sensor drift or pump failure"
+  },
+  "flow": [
+    "Sensors detect plant needs: water, nutrients, light level",
+    "Automated delivery of water+nutrients; LED cycles adjusted; pH controlled",
+    "Plants grow 3-5x faster than soil; 95% less water; failure = sensor drift or pump failure"
+  ],
+  "whiteboard": [
+    "System Lens: Purpose -> Inputs -> Process -> Outputs -> Feedback -> Failure -> Data -> Design",
+    "Cause: Sensors detect plant needs: water, nutrients, light level",
+    "  -> Automated delivery of water+nutrients; LED cycles adjusted; pH controlled",
+    "Result: Plants grow 3-5x faster than soil; 95% less water; failure = sensor drift or pump failure"
+  ],
+  "indian_analogies": [
+    "India context: TODO — add local real-world example of this system."
+  ],
+  "misconceptions": [
+    {
+      "id": "system_never_fails",
+      "belief": "Well-designed systems never fail.",
+      "probe": "What happens when one sensor fails in this system?",
+      "repair": "Every system has failure modes. Engineering is about making failures safe, detectable, and recoverable — not eliminating them entirely.",
+      "trigger_words": [
+        "perfect system",
+        "never fails",
+        "always works"
+      ]
+    },
+    {
+      "id": "single_cause_failure",
+      "belief": "System failures always have a single clear cause.",
+      "probe": "What if two components fail simultaneously in different parts of the chain?",
+      "repair": "Complex systems have cascading failures — sensor error, transport delay, power cut, and human error often combine.",
+      "trigger_words": [
+        "one cause",
+        "simple fix",
+        "just one thing broke"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does a vertical farm grow crops without soil, using 95% less water?"
+    },
+    {
+      "type": "probe",
+      "q": "What inputs does this system need to function?"
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace the full Purpose->Inputs->Process->Outputs->Feedback chain."
+    },
+    {
+      "type": "probe",
+      "q": "Where could this system fail? What would the warning signal look like?",
+      "a": "Yeh system pani ki kami, bijli ki kami, ya sahi maintenance na hone par fail ho sakta hai, jiske warning signals mein paudhon ka sukhaana, paudhon ki tezi se mrati, ya motor ya pump ki awaaz mein badlaav shamil ho sakte hain. Iske alawa, sensor ki galati ya tubing mein leak bhi warning signals de sakte hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Design a simple version of this system. What is your most important design decision and why?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "design",
+      "q": "What single change would most improve the reliability of the Vertical Farm Irrigation? What trade-off does it introduce?",
+      "hint": "Think about the feedback loop — what information is currently missing?",
+      "answer": "Multiple valid answers — evaluate by quality of trade-off reasoning."
+    },
+    {
+      "difficulty": 3,
+      "type": "failure_analysis",
+      "q": "One component in the Vertical Farm Irrigation fails silently (no alarm). Trace what happens step by step.",
+      "hint": "Follow the process chain — where does the error propagate?",
+      "answer": "Depends on component; evaluate by systematic chain reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Hydroponics delivers nutrient solution directly to roots. Sensors monitor pH, EC (nutrient concentration), temperature. LED lights replace sunlight. Water recirculated.",
+    "formal": "Systems lens: Purpose->Inputs->Process->Outputs->Feedback->Failure->Data->Design",
+    "real_life": "How does a vertical farm grow crops without soil, using 95% less water?",
+    "hinglish": "Yaar, vertical farm irrigation ek system hai — inputs aate hain, process hoti hai, output nikalta hai. Kya fail ho sakta hai?"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with Purpose only — what problem does this system solve?",
+    "standard": "Map all 8 system dimensions.",
+    "fast_learner": "Design an improved version under a new constraint."
+  },
+  "subject_lenses": {
+    "Biology": "Applied in this system",
+    "Chemistry": "Applied in this system",
+    "Physics": "Applied in this system",
+    "Math": "Applied in this system"
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Vertical Farm Irrigation ka ek surprising failure mode hai jo tune shayad socha nahi hoga.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "How does a vertical farm grow crops without soil, using 95% less water?",
+    "Notice a vertical farm irrigation around you today — map its inputs and one failure mode."
+  ],
+  "indian_legacy": {
+    "scientist": "Varahamihira",
+    "connection": "Varahamihira, an ancient Indian scholar, wrote about the importance of water management and irrigation in his book 'Brihat-Samhita'. This work highlights the significance of efficient water use, which is a crucial aspect of vertical farm irrigation. The concept of recirculating water in vertical farms is reminiscent of the traditional Indian practice of conserving water in stepwells and reservoirs, showcasing the ingenuity of Indian scientists and engineers in managing this precious resource.",
+    "story_hook": "Imagine you are a young farmer in ancient India, learning from Varahamihira about the best ways to irrigate your crops, and now you have the chance to design a futuristic vertical farm that uses advanced technology to deliver exactly the right amount of water and nutrients to your plants. As you explore the world of vertical farm irrigation, you discover how the innovative ideas of ancient Indian scientists like Varahamihira are still inspiring new solutions for sustainable farming today.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Observe: Vertical Farm Irrigation",
+    "time_required": "5 min",
+    "steps": [
+      "Find a real example of a vertical farm irrigation in your city or home. Map its inputs, outputs, and one failure mode."
+    ],
+    "share_with_sakha": "What was surprising about the system you observed?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "advanced-stem-systems-lab#module-vertical-farm-irrigation",
+  "visualizer_type": "advanced_systems_simulator",
+  "session_type": "science",
+  "_source": "advanced-stem-systems-lab-v1.0",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "indian_analogies",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

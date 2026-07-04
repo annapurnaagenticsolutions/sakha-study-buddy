@@ -1,0 +1,230 @@
+{
+  "concept_id": "food-spoilage",
+  "title": "Why Food Spoils",
+  "icon": "🍞",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Biology",
+    "Chemistry",
+    "Physics",
+    "Math"
+  ],
+  "place": "Kitchen + Health",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why does cooked food spoil faster in heat and stay fresh longer in a refrigerator?",
+  "big_idea": "Microbes grow faster in warm, moist conditions. Refrigeration slows biological and chemical processes but does not make food permanently safe.",
+  "story": "A bowl of cooked food left outside in warm weather changes smell and texture. In the refrigerator, the same food changes more slowly.",
+  "cause_process_result": {
+    "cause": "Cooked food",
+    "process": "Warm + moist air → Microbes multiply → Smell/texture changes",
+    "result": "Safety decision"
+  },
+  "flow": [
+    "Cooked food",
+    "Warm + moist air",
+    "Microbes multiply",
+    "Smell/texture changes",
+    "Safety decision"
+  ],
+  "whiteboard": [
+    "Cause: Cooked food",
+    "  -> Warm + moist air → Microbes multiply → Smell/texture changes",
+    "Result: Safety decision"
+  ],
+  "indian_analogies": [
+    "Kitchen + Health mein yeh dekhte hain: Why Food Spoils.",
+    "Lunch boxes"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat why food spoils as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Why Food Spoils mein Biology, Chemistry, Physics, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does cooked food spoil faster in heat and stay fresh longer in a refrigerator?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does cooked food spoil faster in heat and stay fresh longer in a refrigerator?",
+      "a": "Garmi mein cooked food jaldi kharab hota hai kyunki usmein bacteria aur microorganisms tezi se grow karte hain, lekin refrigerator mein thanda temperature hone ke karan ye microorganisms dhire grow karte hain aur food fresh rehta hai. Isliye, refrigerator mein rakhne se food jyada din tak fresh rehta hai."
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?",
+      "a": "Agar temperature badh jaye toh khane ki spoil hone ki gati bhi badh jati hai, kyunki bacteria aur fungus jaldi se grow karte hain. Isse khana jaldi kharab ho jata hai."
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?",
+      "a": "Biology vigyaan humein bataati hai ki khaana kyun kharab hota hai, kyonki ismein bacteria, fungus aur yeast ke bare mein padhaai hoti hai. Ye sab microorganisms khaane ko kharab kar dete hain. Isliye, biology sabse badi hissa samjhaati hai."
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum ghar par ya school mein ek experiment kar sakte hain jismein hum ek plate mein khana rakhte hain aur use plastic wrap se cover karte hain, aur doosre plate mein khana rakhte hain par use cover nahi karte, phir hum dekhte hain ki kaun sa khana jaldi se kharab hota hai. Isse hum safely test kar sakte hain ki food kyun spoil hota hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Cooked food -> Warm + moist air -> Microbes multiply — what exactly happens at each step?",
+      "a": "Sabse pehle cooked food hota hai, phir warm aur moist air usmein ghul jaata hai, jisse microbes multiply hone lagte hain aur food spoil ho jaata hai. Is prakriya mein microbes food ke andar maujood nutrients ko khaate hain aur usse apna bhajan banaate hain. Isse food ka swaad, rang aur gunvatta bigad jaati hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Khana spoil ho jata hai kyunki usmein bacteria aur fungus aajate hain, jo use kharab kar dete hain, isliye hume khana cover karke rakhna chahiye aur use jaldi se jaldi kha lena chahiye. Agar hum khana bahar rakhte hain ya use dhup mein rakhte hain to bhi wo spoil ho jata hai."
+    },
+    {
+      "type": "application",
+      "q": "Why does a refrigerator help food last longer?",
+      "a": "Refrigerator khane ko jyada din tak bachata hai kyunki yeh temperature ko kam rakhta hai, jisse bacteria aur fungus jaldi se nahi badhte, aur food spoil hone se bachta hai. Isse food ki shelf life badh jati hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why does a refrigerator help food last longer?",
+      "options": [
+        "It kills every microbe instantly",
+        "It slows microbial growth and reactions",
+        "It adds sugar to food",
+        "It removes all atoms"
+      ],
+      "correct": "It slows microbial growth and reactions",
+      "hint": "Low temperature slows many microbial and chemical processes, delaying spoilage.",
+      "answer": "Low temperature slows many microbial and chemical processes, delaying spoilage."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if temperature becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if temperature becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Why Food Spoils shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Why Food Spoils, one or more factors such as temperature change what we observe. The idea connects Biology, Chemistry, Physics, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Why Food Spoils connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Microbes grow faster in warm, moist conditions. Refrigeration slows biological and chemical processes but does not make food permanently safe.",
+    "hinglish": "Dekh yaar — Why Food Spoils mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A bowl of cooked food left outside in warm weather changes smell and texture. In the refrigerator, the same food changes more slowly."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does cooked food spoil faster in heat and stay fresh longer in a refrigerator. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more temperature.",
+    "class_6_8": "Explain the cause-effect chain: Cooked food → Warm + moist air → Microbes multiply → Smell/texture changes.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Chemistry, Physics, Math."
+  },
+  "subject_lenses": {
+    "Biology": "Bacteria, fungi, and hygiene affect food safety.",
+    "Chemistry": "Food components undergo chemical changes; oxidation may occur.",
+    "Physics": "Cooling slows particle movement and heat-dependent processes.",
+    "Math": "Compare time outside vs refrigerated; read expiry dates."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Why Food Spoils ka concept aur jagah bhi kaam karta hai: Lunch boxes, Refrigerators, Food packaging.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj why food spoils se related kuch notice karo.",
+    "Why does cooked food spoil faster in heat and stay fresh longer in a refrigerator?",
+    "What would happen if temperature becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Jagadish Chandra Bose",
+    "connection": "Jagadish Chandra Bose, an Indian polymath, conducted extensive research on the effects of temperature on microorganisms. His work laid the foundation for understanding how refrigeration can slow down the growth of microbes, thereby extending the shelf life of food. This concept is closely related to the idea that food spoils due to microbial growth, which is accelerated in warm and moist conditions.",
+    "story_hook": "While studying the effects of temperature on microorganisms, Jagadish Chandra Bose made a groundbreaking discovery that changed the way we think about food preservation. As we delve into the world of microbes and refrigeration, we'll uncover the fascinating science behind why our food spoils and how we can keep it fresh for longer.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Why Food Spoils",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Compare a sealed dry biscuit and a moist food item visually over time only with adult supervision. Do not smell closely or taste spoiled food."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "microbes",
+    "food_changes",
+    "cooling",
+    "time_and_date_reading"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-food-spoilage",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Why Food Spoils turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

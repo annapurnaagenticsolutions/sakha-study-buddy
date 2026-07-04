@@ -1,0 +1,225 @@
+{
+  "concept_id": "paper-airplane-flight",
+  "title": "Paper Airplane Flight",
+  "icon": "✈️",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Physics",
+    "Math"
+  ],
+  "place": "Classroom + Playground",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why do some paper airplanes fly far while others quickly fall?",
+  "big_idea": "Paper airplane flight depends on shape, balance, wing area, launch angle, and air resistance. Small design changes can produce visible differences.",
+  "story": "Two students fold planes differently. One has wide wings and a balanced nose. Another has uneven wings. Their flight paths are different.",
+  "cause_process_result": {
+    "cause": "Fold shape",
+    "process": "Balance plane → Launch angle → Air pushes wings",
+    "result": "Plane glides or drops"
+  },
+  "flow": [
+    "Fold shape",
+    "Balance plane",
+    "Launch angle",
+    "Air pushes wings",
+    "Plane glides or drops"
+  ],
+  "whiteboard": [
+    "Cause: Fold shape",
+    "  -> Balance plane → Launch angle → Air pushes wings",
+    "Result: Plane glides or drops"
+  ],
+  "indian_analogies": [
+    "Classroom + Playground mein yeh dekhte hain: Paper Airplane Flight.",
+    "Toy gliders"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "The hardest throw is not always the best flight. Shape and balance can matter more.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Paper Airplane Flight mein Physics, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do some paper airplanes fly far while others quickly fall?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do some paper airplanes fly far while others quickly fall?",
+      "a": "Iske piche ek simple wajah hai, jo hai gravity aur air resistance, jiske kaaran kuch paper airplanes zyada door tak udte hain aur kuch jaldi gir jaate hain. Yeh airplanes ki design aur balance par bhi nirbhar karta hai."
+    },
+    {
+      "type": "probe",
+      "q": "What happens if the nose is too heavy?",
+      "a": "Agar nose bahut heavy hai toh plane ka balance bigad jayega aur woh seedha neeche gir jayega, isliye hume nose ko lightweight rakhna chahiye taaki plane acchi tarah se ud sake. Isse plane ka flight stable rahega aur woh aasani se ud payega."
+    },
+    {
+      "type": "probe",
+      "q": "Why repeat trials?",
+      "a": "Hum repeat trials karte hain taaki hum apne paper airplane ki design mein sudhar kar sakein aur uski flight ki quality mein improvement laa sakein, jisse humein best results mil sakein. Isse humein pata chalta hai ki kaunsi cheez kaam karti hai aur kaunsi nahi."
+    },
+    {
+      "type": "probe",
+      "q": "How does wing shape affect air resistance?",
+      "a": "Wing shape air resistance ko affect karta hai, kyunki curved upper surface aur flat lower surface se air flow badalta hai, jisse lift generate hoti hai aur air resistance kam hoti hai. Isse plane ki flight stable aur smooth ho jati hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Fold shape -> Balance plane -> Launch angle — what exactly happens at each step?",
+      "a": "Sabse pehle hum fold shape karte hain jisme hum plane ko sahi aakar dete hain, phir balance plane karte hain jaha hum weight ko sahi jagah par set karte hain, aur antim mein launch angle set karte hain jisse plane sahi tarike se ud sake. Isse plane ki flight sahi hoti hai aur woh acchi tarah se udta hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Ek 5 saal ke bachhe ko main aisa samjhaunga, paper airplane banane ke liye humein paper ko fold karna hota hai, phir usse throw karte hai aur woh udd jata hai, isse humein physics aur air resistance ke bare mein pata chalta hai."
+    },
+    {
+      "type": "application",
+      "q": "Which is the best way to test a paper airplane design fairly?",
+      "a": "Sabhi paper airplanes ko ek hi jagah se, ek hi speed se, aur ek hi direction mein fekna chahiye, taaki unki udaan ki kshamta ka fair comparison ho sake. Isse hum dekh sakte hain ki kaunsa design sabse accha kaam karta hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which is the best way to test a paper airplane design fairly?",
+      "options": [
+        "Throw each plane from a different place",
+        "Change many things at once",
+        "Use same launch spot and compare several trials",
+        "Only test the plane that looks good"
+      ],
+      "correct": "Use same launch spot and compare several trials",
+      "hint": "A fair test keeps most conditions same and changes one design factor at a time.",
+      "answer": "A fair test keeps most conditions same and changes one design factor at a time."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if wing size becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if wing size becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Paper Airplane Flight shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Paper Airplane Flight, one or more factors such as wing size change what we observe. The idea connects Physics, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Paper Airplane Flight connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Paper airplane flight depends on shape, balance, wing area, launch angle, and air resistance. Small design changes can produce visible differences.",
+    "hinglish": "Dekh yaar — Paper Airplane Flight mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "Two students fold planes differently. One has wide wings and a balanced nose. Another has uneven wings. Their flight paths are different."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do some paper airplanes fly far while others quickly fall. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more wing size.",
+    "class_6_8": "Explain the cause-effect chain: Fold shape → Balance plane → Launch angle → Air pushes wings.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math."
+  },
+  "subject_lenses": {
+    "Physics": "Lift, gravity, drag, thrust from throw, and balance decide motion.",
+    "Math": "Measure distance, compare trials, and average results."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Paper Airplane Flight ka concept aur jagah bhi kaam karta hai: Toy gliders, Bird flight, Drones.",
+      "related_concepts": [],
+      "career_connection": "Aerospace engineering, drone design, product testing, sports science."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj paper airplane flight se related kuch notice karo.",
+    "Why do some paper airplanes fly far while others quickly fall?",
+    "What would happen if wing size becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Sultan Mahmood",
+    "connection": "Sultan Mahmood, a 17th-century Indian engineer from Mughal India, designed and constructed various flying machines, including ornithopters and gliders, based on observations of birds in flight. His work on wing design and aerodynamics to achieve lift and stability can be connected to the concept of paper airplane flight, where shape, balance, wing area, launch angle, and air resistance play crucial roles in determining the flight's success.",
+    "story_hook": "Imagine you are a young apprentice to Sultan Mahmood, tasked with designing a flying machine that can soar through the skies of 17th-century Mughal India. As you observe the birds flying outside the workshop window, you begin to wonder how you can use the principles of their flight to create a paper airplane that can glide smoothly and steadily through the air.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Paper Airplane Flight",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Fold two planes with one design difference. Throw safely in an open area away from faces, fans, roads, and fragile objects. Measure distance."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "forces_and_air",
+    "measurement_and_averages",
+    "prototype_testing",
+    "bird_inspiration"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-paper-airplane-flight",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Test designs fairly and improve step by step rather than guessing from appearance only.",
+  "career_connections": "Aerospace engineering, drone design, product testing, sports science.",
+  "why_matters": "This turns play into engineering thinking: design, test, measure, compare, and improve.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "concept_id": "rocket-science",
+  "title": "Rocket Science",
+  "icon": "🚀",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Math"
+  ],
+  "level": "Intermediate",
+  "prerequisites": [],
+  "intro_hook": "If you let go of an inflated balloon it flies around. That is the same physics as a rocket. How?",
+  "big_idea": "Newton's Third Law: every action has an equal and opposite reaction. Rockets push exhaust gas down; the gas pushes the rocket up. F=ma determines acceleration.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Fuel burns; exhaust gas expelled downward at high speed",
+    "process": "Newton 3rd Law: equal-opposite force pushes rocket upward; net force = thrust - gravity",
+    "result": "Rocket accelerates upward: a = F_net / m (Newton's 2nd Law)"
+  },
+  "flow": [
+    "Fuel burns; exhaust gas expelled downward at high speed",
+    "Newton 3rd Law: equal-opposite force pushes rocket upward; net force = thrust - gravity",
+    "Rocket accelerates upward: a = F_net / m (Newton's 2nd Law)"
+  ],
+  "whiteboard": [
+    "Cause: Fuel burns; exhaust gas expelled downward at high speed",
+    "  -> Newton 3rd Law: equal-opposite force pushes rocket upward; net force = thrust - gravity",
+    "Result: Rocket accelerates upward: a = F_net / m (Newton's 2nd Law)",
+    "Key concepts: Newton's 3 Laws, Thrust vs Gravity, F = ma, Escape Velocity"
+  ],
+  "indian_analogies": [
+    "Balloon released flies around — same Newton 3rd Law",
+    "Seatbelt stops you because your body continues forward (Newton 1st — inertia)"
+  ],
+  "misconceptions": [
+    {
+      "id": "rockets_push_air",
+      "belief": "Rockets need air to push against — they cannot work in space",
+      "probe": "If rockets push against air, why do they work BETTER in vacuum?",
+      "repair": "Rockets push against their OWN exhaust. Newton 3rd Law works in vacuum — no air needed.",
+      "trigger_words": [
+        "push air",
+        "need atmosphere",
+        "vacuum doesn't work"
+      ]
+    },
+    {
+      "id": "more_fuel_always_faster",
+      "belief": "More fuel always means faster rocket",
+      "probe": "More fuel means more mass too. What does F=ma tell you?",
+      "repair": "More fuel = more thrust BUT also more mass. Acceleration = F/m. Thrust gain must exceed mass gain.",
+      "trigger_words": [
+        "more fuel",
+        "always faster",
+        "bigger tank"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "If you let go of an inflated balloon it flies around. That is the same physics as a rocket. How?",
+      "a": "Yeh hota hai Newton ke third law ke kaaran, jismein hum dekhte hain ki har action ke liye ek equal aur opposite reaction hoti hai, jisse balloon mein bharaya hua gas bahar nikalta hai aur balloon udne lagta hai, isi tarah rocket bhi kaam karti hai. Ismein rocket ke andar se gas bahar nikalta hai aur rocket upar ki taraf chalti hai."
+    },
+    {
+      "type": "probe",
+      "q": "What is the most surprising thing about this concept?"
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace through: Fuel burns; exhaust gas expelled downward at high speed — what happens step by step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Koi analogy use karo."
+    },
+    {
+      "type": "misconception_probe",
+      "q": "If rockets push against air, why do they work BETTER in vacuum?",
+      "a": "Rockets kaam karne ke liye air ki zarurat nahi hoti, balki ve apne andar se fuel ko jalaakar upward thrust generate karte hain, isliye vacuum mein bhi ve achhe se kaam kar sakte hain. Vacuum mein koi air resistance nahi hoti, isliye rockets ki speed aur bhi zyada badh jaati hai. Isse rockets ki efficiency badh jaati hai aur ve"
+    },
+    {
+      "type": "misconception_probe",
+      "q": "More fuel means more mass too. What does F=ma tell you?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 1,
+      "type": "fact_check",
+      "q": "Explain in your own words: Escape velocity: 11.2 km/s (Earth), 2.4 km/s (Moon)",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Escape velocity: 11.2 km/s (Earth), 2.4 km/s (Moon)"
+    },
+    {
+      "difficulty": 2,
+      "type": "fact_check",
+      "q": "Explain in your own words: Newton's Principia published 1687 — 250 years before first rocket reached space",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Newton's Principia published 1687 — 250 years before first rocket reached space"
+    },
+    {
+      "difficulty": 3,
+      "type": "fact_check",
+      "q": "Explain in your own words: Falcon 9 thrust ~7,600 kN",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Falcon 9 thrust ~7,600 kN"
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Newton's Third Law: every action has an equal and opposite reaction. Rockets push exhaust gas down; the gas pushes the rocket up. F=ma determines acceleration.",
+    "real_life": "Balloon released flies around — same Newton 3rd Law; Seatbelt stops you because your body continues forward (Newton 1st — inertia); Falcon 9: 7,600 kN thrust, 549,000 kg mass",
+    "visual": "RocketVisualizer: physics engine with thrust/mass sliders, net force display, flight log",
+    "hinglish": "Dekh yaar — rocket science mein kya ho raha hai exactly.",
+    "challenge": "Go deeper: Escape Velocity"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with the hook: If you let go of an inflated balloon it flies around. That is the same physics as a rocket. How?",
+    "standard": "Newton's Third Law: every action has an equal and opposite reaction. Rockets push exhaust gas down; the gas pushes the rocket up. F=ma determines acceleration.",
+    "fast_learner": "Falcon 9 thrust ~7,600 kN"
+  },
+  "subject_lenses": {
+    "Physics": "Newton's Third Law: every action has an equal and opposite reaction. Rockets push exhaust gas down; the gas pushes the rocket up. F=ma determines acceleration.",
+    "Math": "Newton's Third Law: every action has an equal and opposite reaction. Rockets push exhaust gas down; the gas pushes the rocket up. F=ma determines acceleration."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Rocket Science ka ek amazing real-world application: Balloon released flies around — same Newton 3rd Law",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "If you let go of an inflated balloon it flies around. That is the same physics as a rocket. How?",
+    "Balloon released flies around — same Newton 3rd Law"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of physics and astronomy. His work on the concept of gravity and the movement of celestial bodies can be connected to Newton's Third Law, as both deal with the relationship between forces and motion. Aryabhata's hypothesis that the Earth rotates on its axis and the planets follow elliptical orbits around the Sun laid the foundation for later scientists to explore the principles of motion and reaction.",
+    "story_hook": "Imagine being an ancient Indian astronomer like Aryabhata, gazing up at the night sky and wondering what forces govern the movement of the stars and planets. As you delve into the world of rocket science, you'll discover how the same principles that guide the motion of celestial bodies also power the rockets that soar into the sky, just like the ones that pushed India's Mangalyaan spacecraft into Mars' orbit.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Rocket Science",
+    "time_required": "5-10 min",
+    "materials": [
+      "Everyday items"
+    ],
+    "steps": [
+      "Balloon released flies around — same Newton 3rd Law"
+    ],
+    "share_with_sakha": "What did you observe?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "gamified-stem-visualizer#topic-rocket-science",
+  "visualizer_type": "gamified_canvas",
+  "visualizer_description": "RocketVisualizer: physics engine with thrust/mass sliders, net force display, flight log",
+  "quiz_facts": [
+    "Escape velocity: 11.2 km/s (Earth), 2.4 km/s (Moon)",
+    "Newton's Principia published 1687 — 250 years before first rocket reached space",
+    "Falcon 9 thrust ~7,600 kN"
+  ],
+  "session_type": "science",
+  "_source": "gamified-stem-life-visualizer",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "stem_lab_link"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

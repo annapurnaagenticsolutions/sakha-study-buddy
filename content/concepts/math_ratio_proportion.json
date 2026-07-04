@@ -1,0 +1,205 @@
+{
+  "concept_id": "math_ratio_proportion",
+  "title": "Ratio and Proportion",
+  "icon": "📐",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Math"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "fractions",
+    "multiplication",
+    "division"
+  ],
+  "intro_hook": "If 2 notebooks cost ₹30, what should happen to the cost when the notebooks double to 4? Why?",
+  "big_idea": "Ratios compare quantities and proportions show equality between ratios.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "A ratio tells how two quantities are related.",
+    "process": "If boys:girls is 2:3, for every 2 boys there are 3 girls. Use grouped dots or bars to show repeating units.",
+    "result": "Maps, recipes, speed, density, similarity, direct variation."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: A ratio tells how two quantities are related.",
+    "Visual: Use grouped dots or bars to show repeating units.",
+    "Formal: a:b = c:d means a/b = c/d.",
+    "Application: Maps, recipes, speed, density, similarity, direct variation."
+  ],
+  "indian_analogies": [
+    "If one notebook is ₹15, buying 4 notebooks means paying ₹15 four times.",
+    "2 notebooks ₹30 hain, toh 1 notebook ₹15. 4 notebooks ke liye ₹15 × 4 = ₹60."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_math_ratio_proportion_01",
+      "belief": "ratio is the same as difference",
+      "why_common": "I compared the numbers separately instead of comparing the relationship between them.",
+      "probe": "If 2 notebooks cost ₹30, what should happen to cost when notebooks double? Why?",
+      "repair": "Use two juice mixtures. Keep the relationship between parts visible before converting to numbers, then ask which mixture keeps the same taste.",
+      "repair_visual": "Use two juice mixtures with colored parts and ask which keeps the same taste.",
+      "follow_up": "If 2 cups syrup need 5 cups water, what water is needed for 4 cups syrup?",
+      "teacher_prompt": "Use mixture or recipe examples and scale both parts together.",
+      "mastery_signal": "Learner can explain why “ratio is the same as difference” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: ratio is the",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_ratio_proportion_02",
+      "belief": "scaling one side only preserves ratio",
+      "why_common": "I compared the numbers separately instead of comparing the relationship between them.",
+      "probe": "If 2 notebooks cost ₹30, what should happen to cost when notebooks double? Why?",
+      "repair": "Use two juice mixtures with colored parts and ask which keeps the same taste. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use two juice mixtures with colored parts and ask which keeps the same taste.",
+      "follow_up": "Give a changed ratio proportion situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use mixture or recipe examples and scale both parts together.",
+      "mastery_signal": "Learner can explain why “scaling one side only preserves ratio” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: scaling one side",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_ratio_proportion_03",
+      "belief": "order in ratio does not matter",
+      "why_common": "I compared the numbers separately instead of comparing the relationship between them.",
+      "probe": "If 2 notebooks cost ₹30, what should happen to cost when notebooks double? Why?",
+      "repair": "Use two juice mixtures with colored parts and ask which keeps the same taste. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use two juice mixtures with colored parts and ask which keeps the same taste.",
+      "follow_up": "Give a changed ratio proportion situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use mixture or recipe examples and scale both parts together.",
+      "mastery_signal": "Learner can explain why “order in ratio does not matter” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: order in ratio",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "If 2 notebooks cost ₹30, what should happen to the cost when the notebooks double to 4? Why?",
+      "a": "Yadi 2 notebooks ki keemat ₹30 hai, to 4 notebooks ki keemat ₹60 honi chahiye, kyonki notebooks ki sankhyaya double ho gayi hai, isliye kharch bhi double hoga. Isse ratio aur proportion ka concept samajhne mein madad milti hai."
+    },
+    {
+      "type": "probe",
+      "q": "Find the cost of 1 notebook first.",
+      "a": "Pehle humein 1 notebook ki cost nikalni hai, jo ki 5 rupees hai, phir hum usse ratio aur proportion se jod sakte hain. 1 notebook ki cost 5 rupees hai."
+    },
+    {
+      "type": "probe",
+      "q": "If 2 notebooks cost ₹30, one notebook costs how much?",
+      "a": "Ek notebook ki keemat nikalne ke liye, hum 2 notebooks ki keemat se 2 divide karte hain, toh ₹30 ko 2 se divide karenge, jo ki ₹15 hai. Isliye, ek notebook ki keemat ₹15 hai."
+    },
+    {
+      "type": "probe",
+      "q": "Now multiply the unit cost by 4 notebooks.",
+      "a": "Unit cost ko 4 notebooks se guna karenge, jisse humein total cost milega, jo ki unit cost ka 4 guna hoga. Isse humein pata chalega ki 4 notebooks ki keemat kya hogi."
+    },
+    {
+      "type": "application",
+      "q": "If 5 pens cost ₹40, what will 8 pens cost if the price per pen is constant?",
+      "a": "Ek pen ki keemat ₹40 ÷ 5 = ₹8 hai, toh 8 pens ki keemat ₹8 × 8 = ₹64 hogi. Isliye, 8 pens ki keemat ₹64 hogi."
+    },
+    {
+      "type": "teach_back",
+      "q": "Explain the difference between comparing by difference and comparing by ratio.",
+      "a": "Hum difference se compare karte hai jab humein pata karna hota hai ki do cheezein mein kitna antar hai, lekin ratio se compare karte hai jab humein pata karna hota hai ki do cheezein kitni barabar hai, jaise ki 2:3 ya 3:4. Isse humein pata chalta hai ki dono cheezein kitni proportion mein hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "If 2 notebooks cost ₹30, what should happen to cost when notebooks double? Why?",
+      "hint": "A ratio tells how two quantities are related.",
+      "answer": "The cost should also double to ₹60 if the unit price remains the same, because the ratio of notebooks to cost stays constant."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "If 5 pens cost ₹40, what will 8 pens cost if the price per pen is constant?",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires using unit rate or scale factor and preserving ratio order."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "2 notebooks cost ₹30, so 1 notebook costs ₹15. Therefore 4 notebooks cost 4 × ₹15 = ₹60.",
+    "visual": "Use bars: 2 notebooks match ₹30. Doubling the notebook bar means doubling the money bar too.",
+    "real_life": "If one notebook is ₹15, buying 4 notebooks means paying ₹15 four times.",
+    "formal": "The ratio notebooks:cost is 2:30 = 1:15. For 4 notebooks, cost = 4 × 15 = 60.",
+    "socratic": "What is being compared? Is the comparison additive or multiplicative? What happens when one quantity doubles?",
+    "mistake_analysis": "The mistake is treating ratio as a difference. Ratio says how many times or how much per unit, not merely how much more.",
+    "hinglish": "2 notebooks ₹30 hain, toh 1 notebook ₹15. 4 notebooks ke liye ₹15 × 4 = ₹60.",
+    "challenge": "If 3 notebooks cost ₹45, what will 7 notebooks cost? Explain with unit rate.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "A ratio tells how two quantities are related.",
+    "standard": "If boys:girls is 2:3, for every 2 boys there are 3 girls.",
+    "advanced": "a:b = c:d means a/b = c/d.",
+    "fast_learner": "If 3 notebooks cost ₹45, what will 7 notebooks cost? Explain with unit rate."
+  },
+  "subject_lenses": {
+    "Math": "Maps, recipes, speed, density, similarity, direct variation."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Ratio and Proportion ka use real life mein: Maps, recipes, speed, density, similarity, direct variation.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj ratio and proportion ka ek real-life example dhundo.",
+    "If one notebook is ₹15, buying 4 notebooks means paying ₹15 four times."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, used ratios and proportions to calculate the circumference of the Earth and the distances between celestial bodies. His work, the Aryabhatiya, includes concepts of proportions and ratios in geometry and trigonometry, demonstrating the significance of these mathematical tools in understanding the universe.",
+    "story_hook": "Imagine being an ancient Indian astronomer, using the positions of the stars and planets to calculate the vast distances between them, just like Aryabhata did over a thousand years ago. As you explore the night sky, you begin to realize that ratios and proportions hold the key to unlocking the secrets of the universe, from the orbits of planets to the rhythms of nature.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Ratio and Proportion",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "If one notebook is ₹15, buying 4 notebooks means paying ₹15 four times."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-math_ratio_proportion",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires using unit rate or scale factor and preserving ratio order.",
+  "session_type": "math",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_math_ratio_proportion_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

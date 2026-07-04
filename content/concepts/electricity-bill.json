@@ -1,0 +1,227 @@
+{
+  "concept_id": "electricity-bill",
+  "title": "Electricity Bill Calculator",
+  "icon": "💡",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Chemistry"
+  ],
+  "place": "Home",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "How does using a fan, light, geyser, or AC become a number on the electricity bill?",
+  "big_idea": "Electrical energy consumption depends on power and time. Units on the bill usually represent kilowatt-hours, while final bill amount also depends on tariff slabs, fixed charges, taxes, and local rules.",
+  "story": "A 1000 W appliance used for 1 hour consumes about 1 kWh of electrical energy. Smaller appliances use less energy, but long usage still adds up.",
+  "cause_process_result": {
+    "cause": "Appliance wattage and usage hours",
+    "process": "Electricity changes into light, motion, heat, or cooling",
+    "result": "Energy units increase and bill changes"
+  },
+  "flow": [
+    "Appliance power",
+    "Usage time",
+    "Energy consumed",
+    "Units counted",
+    "Cost estimated"
+  ],
+  "whiteboard": [
+    "Cause: Appliance wattage and usage hours",
+    "  -> Electricity changes into light, motion, heat, or cooling",
+    "Result: Energy units increase and bill changes"
+  ],
+  "indian_analogies": [
+    "Home mein yeh dekhte hain: Electricity Bill Calculator.",
+    "Home bills"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat electricity bill calculator as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Electricity Bill Calculator mein Physics, Math, Chemistry sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "How does using a fan, light, geyser, or AC become a number on the electricity bill?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does using a fan, light, geyser, or AC become a number on the electricity bill?",
+      "a": "Yeh sab appliances electricity ka upyog karte hain, jiske units ko kilowatt-hour (kWh) mein measure kiya jata hai, aur phir in units ko electricity bill mein convert kiya jata hai. Iske liye, har appliance ka wattage aur uska usage time ko calculate kiya jata hai. Is calculation se humein pata chalta hai ki humne kitni electricity consume ki hai, jiske aadhar par electricity"
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?",
+      "a": "Agar ek factor badhta hai, to electricity bill bhi badh jata hai, kyunki units consume hone par bill aata hai aur yeh units consume karne ke hisab se hi bill calculate hota hai. Isliye, agar aap zyada electricity use karte hain, to aapka bill bhi zyada aayega."
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?",
+      "a": "Vidyaarthi ko science aur maths dono subject mein electricity bill calculator ke baare mein padhaaya jaata hai, lekin ismein maths ka hissa zyada hota hai kyunki bill calculate karna hota hai. Ismein units, tariff aur consumption jaise maths concepts ka use hota hai. Isliye, maths subject iske baare mein zyada bataati hai."
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum iska test safely ghar par ya school mein kar sakte hain, lekin hume kisi bhi electrical equipment ko handle karte samay bahut savdhani bartani chahiye, aur hume apne parents ya teacher ki madad leni chahiye. Hum ek sample bill ka use karke calculator ki accuracy ko check kar sakte hain."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Appliance power -> Usage time -> Energy consumed — what exactly happens at each step?",
+      "a": "Pehle hum appliance ki power ko maapte hain, phir uska usage time nikalte hain, aur fir in dono ko multiply karke energy consumed nikalte hain, jise hum kilowatt-hour (kWh) mein maapte hain. Is prakriya mein, humein pata chalta hai ki humne kitna bijli ka upyog kiya hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Ek 5 saal ke bachhe ko main aisa samjhaunga, ki jab hum ghar mein light, fan, TV aur fridge chalate hain, toh ye sab electricity khate hain, aur humein iske paise dena padta hai, jise hum electricity bill kehte hain. Hum is bill ko calculate karne ke liye ek formula use karte hain, jismein unit consumption aur rate shaamil hota hai."
+    },
+    {
+      "type": "application",
+      "q": "Which formula estimates electrical energy in kWh?",
+      "a": "Electrical energy ko estimate karne ke liye formula hai: Energy (kWh) = Power (W) * Time (hours) / 1000. Is formula ka use hum electricity bill calculate karne me karte hain."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which formula estimates electrical energy in kWh?",
+      "options": [
+        "Power in kW × time in hours",
+        "Power in W + time in minutes",
+        "Voltage only",
+        "Cost divided by room size"
+      ],
+      "correct": "Power in kW × time in hours",
+      "hint": "Energy in kWh is estimated by multiplying power in kilowatts by usage time in hours.",
+      "answer": "Energy in kWh is estimated by multiplying power in kilowatts by usage time in hours."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What if a 1000 W appliance runs for 5 hours?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What if we reduce AC use by one hour daily?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What if two appliances have different wattage but run different durations?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Appliances use electricity. More power and more time usually mean a higher bill.",
+    "standard": "Electrical energy is calculated from power and time. Using a high-watt appliance for many hours consumes more units.",
+    "deep": "Electricity cost connects power rating, usage duration, energy in kWh, tariff, efficiency, heat loss, and household behaviour. Reducing unnecessary hours often saves more than small changes in appliance choice.",
+    "hinglish": "Dekh yaar — Electricity Bill Calculator mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A 1000 W appliance used for 1 hour consumes about 1 kWh of electrical energy. Smaller appliances use less energy, but long usage still adds up."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Switch off lights and fans when not needed.",
+    "class_4_5": "Compare which appliance uses more power.",
+    "class_6_8": "Use power × time to compare energy use.",
+    "class_9_10": "Estimate kWh, cost, efficiency, and trade-offs for home energy decisions.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Chemistry."
+  },
+  "subject_lenses": {
+    "Physics": "Power, energy, electricity, kWh.",
+    "Math": "Multiplication, unit conversion, cost calculation.",
+    "Chemistry": "Battery chemistry and fuel sources may store or produce energy."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Electricity Bill Calculator ka concept aur jagah bhi kaam karta hai: Home bills, School energy audits, Appliance labels.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj electricity bill calculator se related kuch notice karo.",
+    "How does using a fan, light, geyser, or AC become a number on the electricity bill?",
+    "What if a 1000 W appliance runs for 5 hours?"
+  ],
+  "indian_legacy": {
+    "scientist": "Jagadish Chandra Bose",
+    "connection": "Jagadish Chandra Bose, a pioneer in the field of electrical science, conducted extensive research on the properties of electrical energy and its applications. His work laid the foundation for understanding the relationship between power, time, and energy consumption, which is essential for calculating electricity bills. His experiments and findings can be seen as a precursor to the development of modern electricity billing systems, which take into account various factors such as power consumption, tariff slabs, and taxes.",
+    "story_hook": "Imagine you are visiting the famous Indian Botanic Garden in Kolkata, where Jagadish Chandra Bose conducted some of his groundbreaking experiments, and you stumble upon an old, mysterious device that measures the energy consumption of plants. As you learn more about this device, you begin to understand how it relates to the electricity bill calculator that your family uses at home, and you start to wonder about the fascinating science behind it.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Electricity Bill Calculator",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Read appliance wattage labels with an adult. Do not open appliances, sockets, plugs, meters, or wires."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "electricity_and_power",
+    "multiplication_and_units",
+    "energy_saving"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-electricity-bill",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Electricity Bill Calculator turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

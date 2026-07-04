@@ -1,0 +1,225 @@
+{
+  "concept_id": "soil-erosion-rain",
+  "title": "Soil Erosion During Rain",
+  "icon": "🌧️",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Biology",
+    "Physics",
+    "Chemistry",
+    "Math"
+  ],
+  "place": "Garden + Farm",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why does heavy rain wash soil away more easily from bare ground than from grassy ground?",
+  "big_idea": "Rain drops and flowing water can carry soil particles away. Plant roots hold soil, leaves reduce impact, and ground cover slows water.",
+  "story": "Two patches of soil face rain. Bare soil forms muddy runoff. Soil with grass or mulch loses less material because roots and cover protect it.",
+  "cause_process_result": {
+    "cause": "Rain hits ground",
+    "process": "Water flows → Loose soil moves → Roots hold soil",
+    "result": "Less erosion"
+  },
+  "flow": [
+    "Rain hits ground",
+    "Water flows",
+    "Loose soil moves",
+    "Roots hold soil",
+    "Less erosion"
+  ],
+  "whiteboard": [
+    "Cause: Rain hits ground",
+    "  -> Water flows → Loose soil moves → Roots hold soil",
+    "Result: Less erosion"
+  ],
+  "indian_analogies": [
+    "Garden + Farm mein yeh dekhte hain: Soil Erosion During Rain.",
+    "Farms"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Soil is not just dirt. It is a living resource with minerals, organic matter, air, water, and organisms.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Soil Erosion During Rain mein Biology, Physics, Chemistry, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does heavy rain wash soil away more easily from bare ground than from grassy ground?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does heavy rain wash soil away more easily from bare ground than from grassy ground?",
+      "a": "Bare ground par heavy rain ke dauran soil erosion jaldi hota hai kyunki usmein koi roots ya plants nahi hote jo soil ko pakde rakhein, jabki grassy ground par plants ke roots soil ko mazbooti se pakde rehte hain aur soil erosion ko rokte hain. Isliye, grassy ground par soil erosion kam hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does slope matter?"
+    },
+    {
+      "type": "probe",
+      "q": "How do roots hold soil?"
+    },
+    {
+      "type": "probe",
+      "q": "What happens when topsoil is lost?"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Rain hits ground -> Water flows -> Loose soil moves — what exactly happens at each step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Barish ke samay, mitti ko nuksan pahunchta hai, isse mitti erosion hoti hai, jismein paani mitti ko dhakel leta hai, aur yeh dharti ke upar ki mitti ko hatata hai, jisse dharti ubhar jati hai. Hum mitti erosion ko rokne ke liye ped lagate hain, jisse paani mitti ko dhakelne ki jagah pedon"
+    },
+    {
+      "type": "application",
+      "q": "Which ground is usually better protected from erosion?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which ground is usually better protected from erosion?",
+      "options": [
+        "Bare steep soil",
+        "Soil with grass/roots/mulch",
+        "Loose sand on a slope",
+        "Freshly dug soil without cover"
+      ],
+      "correct": "Soil with grass/roots/mulch",
+      "hint": "Roots and ground cover slow water, reduce impact, and help hold soil particles.",
+      "answer": "Roots and ground cover slow water, reduce impact, and help hold soil particles."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if slope steepness becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if slope steepness becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Soil Erosion During Rain shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Soil Erosion During Rain, one or more factors such as slope steepness change what we observe. The idea connects Biology, Physics, Chemistry, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Soil Erosion During Rain connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Rain drops and flowing water can carry soil particles away. Plant roots hold soil, leaves reduce impact, and ground cover slows water.",
+    "hinglish": "Dekh yaar — Soil Erosion During Rain mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "Two patches of soil face rain. Bare soil forms muddy runoff. Soil with grass or mulch loses less material because roots and cover protect it."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does heavy rain wash soil away more easily from bare ground than from grassy ground. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more slope steepness.",
+    "class_6_8": "Explain the cause-effect chain: Rain hits ground → Water flows → Loose soil moves → Roots hold soil.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Physics, Chemistry, Math."
+  },
+  "subject_lenses": {
+    "Biology": "Roots, microbes, and plant cover help hold soil together.",
+    "Physics": "Moving water applies force and carries particles downhill.",
+    "Chemistry": "Soil minerals and organic matter influence structure and fertility.",
+    "Math": "Compare slope, rain amount, and muddy water volume."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Soil Erosion During Rain ka concept aur jagah bhi kaam karta hai: Farms, Roadside slopes, River banks.",
+      "related_concepts": [],
+      "career_connection": "Agriculture, ecology, civil engineering, watershed management, climate resilience."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj soil erosion during rain se related kuch notice karo.",
+    "Why does heavy rain wash soil away more easily from bare ground than from grassy ground?",
+    "What would happen if slope steepness becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "M. S. Swaminathan",
+    "connection": "M. S. Swaminathan, an Indian agricultural scientist, is known for his work on soil conservation and sustainable farming practices. His research and policy initiatives have highlighted the importance of maintaining soil health, which is closely related to preventing soil erosion during rain. By emphasizing the role of plant roots, leaves, and ground cover in holding soil in place, Swaminathan's work resonates with the concept of soil erosion during rain.",
+    "story_hook": "Imagine walking through a lush forest after a heavy monsoon rain, and noticing how the tree roots and undergrowth have protected the soil from washing away. Let's explore how the principles of soil conservation, inspired by the work of M. S. Swaminathan, can help us understand and mitigate soil erosion during rain.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Soil Erosion During Rain",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Use two trays of soil: one bare, one covered with dry leaves or grass. Pour a small equal amount of water and compare muddy runoff. Do it outdoors with adult guidance."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "water_force",
+    "roots_and_microbes",
+    "soil_nutrients",
+    "comparison"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-soil-erosion-rain",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Protect soil with plants, mulch, proper drainage, and reduced unnecessary digging.",
+  "career_connections": "Agriculture, ecology, civil engineering, watershed management, climate resilience.",
+  "why_matters": "It connects gardening, farming, flood prevention, and environmental protection.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

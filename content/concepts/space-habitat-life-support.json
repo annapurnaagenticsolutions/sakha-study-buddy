@@ -1,0 +1,163 @@
+{
+  "concept_id": "space-habitat-life-support",
+  "title": "Space Habitat Life Support",
+  "icon": "🚀",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Chemistry",
+    "Biology",
+    "Physics"
+  ],
+  "level": "Advanced Systems",
+  "prerequisites": [],
+  "intro_hook": "How do astronauts breathe, drink, and stay alive in space where there is nothing?",
+  "big_idea": "NASA ECLSS recycles water from urine and sweat (95% efficiency), generates oxygen from electrolysis, scrubs CO2 with LiOH, maintains pressure. Every molecule is accounted for.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Crew produces CO2, sweat, and waste continuously",
+    "process": "ECLSS processes and recycles all byproducts using chemical and physical processes",
+    "result": "Clean air, water, pressure maintained; failure = life-threatening within hours"
+  },
+  "flow": [
+    "Crew produces CO2, sweat, and waste continuously",
+    "ECLSS processes and recycles all byproducts using chemical and physical processes",
+    "Clean air, water, pressure maintained; failure = life-threatening within hours"
+  ],
+  "whiteboard": [
+    "System Lens: Purpose -> Inputs -> Process -> Outputs -> Feedback -> Failure -> Data -> Design",
+    "Cause: Crew produces CO2, sweat, and waste continuously",
+    "  -> ECLSS processes and recycles all byproducts using chemical and physical processes",
+    "Result: Clean air, water, pressure maintained; failure = life-threatening within hours"
+  ],
+  "indian_analogies": [
+    "India context: TODO — add local real-world example of this system."
+  ],
+  "misconceptions": [
+    {
+      "id": "system_never_fails",
+      "belief": "Well-designed systems never fail.",
+      "probe": "What happens when one sensor fails in this system?",
+      "repair": "Every system has failure modes. Engineering is about making failures safe, detectable, and recoverable — not eliminating them entirely.",
+      "trigger_words": [
+        "perfect system",
+        "never fails",
+        "always works"
+      ]
+    },
+    {
+      "id": "single_cause_failure",
+      "belief": "System failures always have a single clear cause.",
+      "probe": "What if two components fail simultaneously in different parts of the chain?",
+      "repair": "Complex systems have cascading failures — sensor error, transport delay, power cut, and human error often combine.",
+      "trigger_words": [
+        "one cause",
+        "simple fix",
+        "just one thing broke"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How do astronauts breathe, drink, and stay alive in space where there is nothing?"
+    },
+    {
+      "type": "probe",
+      "q": "What inputs does this system need to function?",
+      "a": "Yeh system function karne ke liye oxygen, paani, aur food jaise inputs ki zarurat hoti hai, saath hi saath temperature aur humidity control ke liye bhi kuch inputs chahiye hote hain. Ismein carbon dioxide ko absorb karne wale plants ya machines bhi shamil ho sakte hain."
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace the full Purpose->Inputs->Process->Outputs->Feedback chain."
+    },
+    {
+      "type": "probe",
+      "q": "Where could this system fail? What would the warning signal look like?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Design a simple version of this system. What is your most important design decision and why?",
+      "a": "Hamare space habitat life support system mein sabse mahatvapoorn design decision oxygen ki supply aur carbon dioxide ko remove karna hoga, kyunki yeh human life ke liye zaroori hai. Iske liye hum oxygen cylinders, plants aur air purifiers ka upyog kar sakte hain. Is design decision se hum space mein bhi safe aur healthy rah sakte hain."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "design",
+      "q": "What single change would most improve the reliability of the Space Habitat Life Support? What trade-off does it introduce?",
+      "hint": "Think about the feedback loop — what information is currently missing?",
+      "answer": "Multiple valid answers — evaluate by quality of trade-off reasoning."
+    },
+    {
+      "difficulty": 3,
+      "type": "failure_analysis",
+      "q": "One component in the Space Habitat Life Support fails silently (no alarm). Trace what happens step by step.",
+      "hint": "Follow the process chain — where does the error propagate?",
+      "answer": "Depends on component; evaluate by systematic chain reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "NASA ECLSS recycles water from urine and sweat (95% efficiency), generates oxygen from electrolysis, scrubs CO2 with LiOH, maintains pressure. Every molecule is accounted for.",
+    "formal": "Systems lens: Purpose->Inputs->Process->Outputs->Feedback->Failure->Data->Design",
+    "real_life": "How do astronauts breathe, drink, and stay alive in space where there is nothing?",
+    "hinglish": "Yaar, space habitat life support ek system hai — inputs aate hain, process hoti hai, output nikalta hai. Kya fail ho sakta hai?"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with Purpose only — what problem does this system solve?",
+    "standard": "Map all 8 system dimensions.",
+    "fast_learner": "Design an improved version under a new constraint."
+  },
+  "subject_lenses": {
+    "Chemistry": "Applied in this system",
+    "Biology": "Applied in this system",
+    "Physics": "Applied in this system"
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Space Habitat Life Support ka ek surprising failure mode hai jo tune shayad socha nahi hoga.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "How do astronauts breathe, drink, and stay alive in space where there is nothing?",
+    "Notice a space habitat life support around you today — map its inputs and one failure mode."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "The concept of Space Habitat Life Support, where every molecule is accounted for, resonates with the ancient Indian concept of 'Jal Shodhan', or water purification, which was extensively studied by ancient Indian scholars. Aryabhata, a renowned Indian mathematician and astronomer, is known to have written about the water cycle and the importance of preserving water, which is similar to the water recycling concept used in NASA's ECLSS system.",
+    "story_hook": "Imagine you are an astronaut on a mission to Mars, and you have to rely on a special system to recycle your water and air, just like how ancient Indians used to preserve water in their daily lives. Let's explore how the ancient Indian concept of 'Jal Shodhan' can be connected to the modern concept of Space Habitat Life Support, and how it can help us survive in space.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Observe: Space Habitat Life Support",
+    "time_required": "5 min",
+    "steps": [
+      "Find a real example of a space habitat life support in your city or home. Map its inputs, outputs, and one failure mode."
+    ],
+    "share_with_sakha": "What was surprising about the system you observed?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "advanced-stem-systems-lab#module-space-habitat-life-support",
+  "visualizer_type": "advanced_systems_simulator",
+  "session_type": "science",
+  "_source": "advanced-stem-systems-lab-v1.0",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "indian_analogies",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

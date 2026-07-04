@@ -1,0 +1,230 @@
+{
+  "concept_id": "lemonade-ratio-dissolving",
+  "title": "Making Lemonade",
+  "icon": "🍋",
+  "class_band": [
+    1,
+    2,
+    3
+  ],
+  "subjects": [
+    "Math",
+    "Physics",
+    "Chemistry",
+    "Biology"
+  ],
+  "place": "Kitchen",
+  "level": "Foundation",
+  "prerequisites": [],
+  "intro_hook": "Why does more sugar make lemonade sweeter, and why does stirring help it dissolve?",
+  "big_idea": "A simple drink becomes a complete STEM story: measurement controls taste, stirring helps mixing, sugar dissolves in water, and the tongue senses sweet and sour.",
+  "story": "You add lemon juice, water, sugar, and ice. If the ratio changes, the taste changes. If the water is warmer or you stir faster, sugar dissolves more quickly.",
+  "cause_process_result": {
+    "cause": "Sugar + lemon + water amounts change",
+    "process": "Stirring spreads particles and changes concentration",
+    "result": "Taste becomes sweet, sour, diluted, or balanced"
+  },
+  "flow": [
+    "Ingredients",
+    "Measure ratio",
+    "Dissolve + mix",
+    "Taste + adjust",
+    "Serve safely"
+  ],
+  "whiteboard": [
+    "Cause: Sugar + lemon + water amounts change",
+    "  -> Stirring spreads particles and changes concentration",
+    "Result: Taste becomes sweet, sour, diluted, or balanced"
+  ],
+  "indian_analogies": [
+    "Kitchen mein yeh dekhte hain: Making Lemonade.",
+    "Juice shops"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat making lemonade as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Making Lemonade mein Math, Physics, Chemistry, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does more sugar make lemonade sweeter, and why does stirring help it dissolve?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does more sugar make lemonade sweeter, and why does stirring help it dissolve?",
+      "a": "Sugar ko lemonade mein milane se yeh sweet ban jata hai kyonki sugar ke molecules paani mein ghul jaate hain, aur stirring se yeh molecules tezi se ghulne lagte hain, jisse lemonade mein sugar equally distribute ho jata hai. Isliye, stirring karna zaroori hota hai taaki sugar puri tarah se ghul jaaye."
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?",
+      "a": "Agar hum lemonade mein sugar ki matra badhate hain, to uska swad meetha ho jayega, aur agar hum paani ki matra badhate hain, to lemonade patla ho jayega. Isi tarah, agar hum lemon ka ras badhate hain, to lemonade ka swad aur taaza ho jayega."
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?",
+      "a": "Vigyaan yaani science sabse bada hissa samjhaati hai kyunki lemonade banane mein chemical reaction, mixture aur solution jaise concepts ka use hota hai. Ismein sugar aur lemon ka acid chemical reaction bhi hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum ghar par ya school mein lemonade banate samay safety ke liye dhyaan rakhein, jaise ki saaf-suthra jagah par kaam karein, chehre par haath nahin lagaayein aur kisi bhi cheez ko garam stove par nahin chhooayein. Isse hum apne aap ko nuksaan se bacha sakte hain."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Ingredients -> Measure ratio -> Dissolve + mix — what exactly happens at each step?",
+      "a": "Sabse pehle hum ingredients ickatthe karte hain, phir measure ratio set karte hain, aur antim step mein hum sugar aur lemon juice ko dissolve karke mix karte hain taaki lemonade taiyar ho jaye. Is prakriya mein humein sahi matra mein cheezen milani hoti hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Lemonade banane ke liye humein nimbu, cheeni, paani aur baraf ki zarurat hoti hai, phir hum in sab cheezon ko milakar ek sweet aur tangy drink bana sakte hain. Hum nimbu ko dubo kar uska ras nikalte hain aur phir usmein cheeni aur paani milate hain. Is drink ko thanda karne ke liye hum usmein baraf daalte"
+    },
+    {
+      "type": "application",
+      "q": "Which action helps sugar dissolve faster?",
+      "a": "Sugar ko jaldi dissolve karne mein madad karti hai jab hum usse garam paani mein milate hain, isse sugar ki crystals jaldi toot jaati hain. Isse sugar aur bhi jaldi ghul jaata hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which action helps sugar dissolve faster?",
+      "options": [
+        "Keep the glass still",
+        "Use colder water only",
+        "Stir the drink",
+        "Add more ice first"
+      ],
+      "correct": "Stir the drink",
+      "hint": "Stirring moves water around sugar crystals, helping sugar particles spread through the water faster.",
+      "answer": "Stirring moves water around sugar crystals, helping sugar particles spread through the water faster."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What if we double only the sugar?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What if we add the same sugar but twice the water?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What if we stir one glass and leave another still?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Lemonade taste changes when we add more sugar, lemon, or water. Stirring helps the sugar spread through the drink.",
+    "standard": "The taste depends on ratio: how much sugar, lemon juice, and water are mixed. Stirring increases mixing, and sugar dissolves to form a solution.",
+    "deep": "Lemonade combines proportional reasoning, dissolution, temperature, stirring, and taste biology. Changing one ingredient changes concentration; stirring and warmer water can increase the rate of dissolving, while taste buds sense sweet and sour balance.",
+    "hinglish": "Dekh yaar — Making Lemonade mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "You add lemon juice, water, sugar, and ice. If the ratio changes, the taste changes. If the water is warmer or you stir faster, sugar dissolves more quickly."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Taste the idea safely: more sugar usually means sweeter; more lemon usually means sourer.",
+    "class_4_5": "Use spoon counts to compare quantities and write a simple ratio.",
+    "class_6_8": "Explain dissolving, mixing, temperature, and concentration.",
+    "class_9_10": "Design a consistent recipe using ratio, controlled trials, and taste feedback without wasting ingredients.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Math, Physics, Chemistry, Biology."
+  },
+  "subject_lenses": {
+    "Math": "Counting spoons, comparing quantities, ratio of lemon:sugar:water.",
+    "Physics": "Stirring, cooling by ice, temperature change.",
+    "Chemistry": "Sugar dissolves; lemon juice is acidic; mixture becomes uniform.",
+    "Biology": "Taste buds sense sweet and sour; water supports hydration."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Making Lemonade ka concept aur jagah bhi kaam karta hai: Juice shops, Cooking recipes, adult-supervised ORS preparation.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj making lemonade se related kuch notice karo.",
+    "Why does more sugar make lemonade sweeter, and why does stirring help it dissolve?",
+    "What if we double only the sugar?"
+  ],
+  "indian_legacy": {
+    "scientist": "Charaka",
+    "connection": "Charaka, a renowned Indian physician from the 4th century, wrote extensively on the properties of various substances, including their solubility in water. His work, the Charaka Samhita, describes the preparation of medicinal drinks and the importance of precise measurements, much like the process of making lemonade, where the ratio of lemon juice to sugar and water determines the taste.",
+    "story_hook": "Imagine you are a young apprentice to Charaka, tasked with preparing a special medicinal drink that requires just the right amount of sweetness and tartness. As you carefully measure out the ingredients, you begin to wonder how the ancient physician knew just the right proportions to use, and how the properties of the substances he worked with are similar to those in your favorite drink, lemonade.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Making Lemonade",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Use two glasses of water. Add one spoon of sugar to each. Stir one glass and leave the other still. Observe which clears first. Do not use hot water without adult help."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "measurement_and_ratio",
+    "mixtures_and_solutions",
+    "heat_and_motion",
+    "sense_organs_and_digestion"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-lemonade-ratio-dissolving",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Making Lemonade turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 3,
+  "learning_track": [
+    "core"
+  ]
+}

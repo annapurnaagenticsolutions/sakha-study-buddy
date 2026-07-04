@@ -1,0 +1,229 @@
+{
+  "concept_id": "compost-helps-soil",
+  "title": "How Compost Helps Soil",
+  "icon": "🪱",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Biology",
+    "Chemistry",
+    "Math",
+    "Physics"
+  ],
+  "place": "Garden + Farm",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why does compost make soil better for plants?",
+  "big_idea": "Compost adds organic matter and nutrients, improves soil texture, holds moisture, and supports useful organisms.",
+  "story": "Kitchen peels and dry leaves break down over time. The dark crumbly compost can improve soil when used correctly.",
+  "cause_process_result": {
+    "cause": "Organic waste collected",
+    "process": "Microbes break it down → Nutrients release slowly → Soil holds water better",
+    "result": "Plants grow healthier"
+  },
+  "flow": [
+    "Organic waste collected",
+    "Microbes break it down",
+    "Nutrients release slowly",
+    "Soil holds water better",
+    "Plants grow healthier"
+  ],
+  "whiteboard": [
+    "Cause: Organic waste collected",
+    "  -> Microbes break it down → Nutrients release slowly → Soil holds water better",
+    "Result: Plants grow healthier"
+  ],
+  "indian_analogies": [
+    "Garden + Farm mein yeh dekhte hain: How Compost Helps Soil.",
+    "Kitchen gardens"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is thinking any waste is compost. Compost must decompose properly and should not include unsafe materials.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "How Compost Helps Soil mein Biology, Chemistry, Math, Physics sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does compost make soil better for plants?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does compost make soil better for plants?",
+      "a": "Compost mitti ko behtar banata hai kyunki yeh usmein nutrients aur organic matter jodta hai, jisse paudhe acchi tarah se ug sakte hain. Compost se mitti ki gunvatta badhti hai aur yeh paudhon ke liye upyukt ho jati hai. Isse paudhe swasth rahte hain aur tezi se badhte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Why do microbes matter?",
+      "a": "Microbes matter kyunki ve compost mein upasthit hote hain aur organic padarthon ko todtay hain, jisse humein urea jaisa fertiliser milta hai. Ye microbes mitti ki gunvatta badhate hain aur paudhon ke liye zaroori poshak tatva pradaan karte hain. Isse paudhe swasth rahte hain aur acchi tarah se badhte h"
+    },
+    {
+      "type": "probe",
+      "q": "Why does soil need air spaces?",
+      "a": "Mitti ko air spaces ki zarurat hoti hai kyunki isse roots ko saans lene aur paani absorb karne mein madad milti hai, aur yeh microorganisms ke liye bhi zaroori hai jo mitti ko healthy banate hain. Isse plants ko acchi tarah se grow hone mein madad milti hai."
+    },
+    {
+      "type": "probe",
+      "q": "What should not go into compost?",
+      "a": "Kuch cheezein jaise ki plastic, metal, aur gareeb ghar ke kachre ko compost mein nahin daalna chahiye, kyunki ve mitti ko nuksan pahuncha sakte hain. Ismein meat, bones aur dairy products bhi shamil hain, jo ki mitti ko kharab kar sakte hain. In cheezon ko compost mein daalne se mitti ki gunv"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Organic waste collected -> Microbes break it down -> Nutrients release slowly — what exactly happens at each step?",
+      "a": "Organic waste ko collect kiya jata hai, phir microbes usse break down karte hain, jisse nutrients release hote hain aur dhire-dhire soil mein mil jaate hain. Is prakriya mein microbes organic waste ko apne hisse mein tod dete hain, jisse nutrients mukht ho jaate hain. Isse soil ki urvarata badhti hai aur paudhon ki vriddhi ke liye aav"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Compost humari mitti ko accha banata hai, yeh mitti ke liye ek prakar ka khad hai jo plants ko grow hone mein madad karta hai, jisse hume sabziyon aur phalon ki acchi pैदावार milti hai."
+    },
+    {
+      "type": "application",
+      "q": "Which compost use is usually better?",
+      "a": "Vermicompost ka upyog aam taur par behtar hota hai kyunki ismein jeevanshakti bahut adhik hoti hai aur yeh mitti ki gunvatta ko tezi se sudhar sakta hai. Ismein microorganisms bhi hote hain jo mitti ko acchi tarah se sanrachit karte hain. Yeh paudhon ke liye poshan pradaan"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which compost use is usually better?",
+      "options": [
+        "Add a balanced amount to soil",
+        "Cover roots with fresh oily waste",
+        "Use only plastic waste",
+        "Add unlimited compost every day"
+      ],
+      "correct": "Add a balanced amount to soil",
+      "hint": "Balanced mature compost can improve soil; fresh unsuitable waste or excess material can harm plants.",
+      "answer": "Balanced mature compost can improve soil; fresh unsuitable waste or excess material can harm plants."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if compost amount becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if compost amount becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "How Compost Helps Soil shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In How Compost Helps Soil, one or more factors such as compost amount change what we observe. The idea connects Biology, Chemistry, Math, Physics and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of How Compost Helps Soil connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Compost adds organic matter and nutrients, improves soil texture, holds moisture, and supports useful organisms.",
+    "hinglish": "Dekh yaar — How Compost Helps Soil mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "Kitchen peels and dry leaves break down over time. The dark crumbly compost can improve soil when used correctly."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does compost make soil better for plants. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more compost amount.",
+    "class_6_8": "Explain the cause-effect chain: Organic waste collected → Microbes break it down → Nutrients release slowly → Soil holds water better.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Chemistry, Math, Physics."
+  },
+  "subject_lenses": {
+    "Biology": "Microbes and decomposers break waste into useful compost.",
+    "Chemistry": "Nutrients and organic matter change soil fertility.",
+    "Math": "Compare plant height or leaf count in soil with and without compost.",
+    "Physics": "Soil texture affects air spaces and water holding."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — How Compost Helps Soil ka concept aur jagah bhi kaam karta hai: Kitchen gardens, Farms, Terrace gardens.",
+      "related_concepts": [],
+      "career_connection": "Agriculture, ecology, waste management, soil science."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj how compost helps soil se related kuch notice karo.",
+    "Why does compost make soil better for plants?",
+    "What would happen if compost amount becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Sir Jagadish Chandra Bose",
+    "connection": "Sir Jagadish Chandra Bose, a renowned Indian scientist, conducted extensive research on the importance of soil health and the role of microorganisms in decomposing organic matter. His work laid the foundation for understanding how compost can improve soil fertility and support plant growth, which is closely related to the concept of compost helping soil.",
+    "story_hook": "In the lush gardens of ancient India, a secret to fertile soil was hidden in plain sight, waiting to be uncovered by curious minds. As we delve into the world of compost, we find that this natural process has been a cornerstone of Indian farming practices for centuries, thanks to the pioneering work of visionaries like Sir Jagadish Chandra Bose.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: How Compost Helps Soil",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Compare two small pots only with adult guidance: one with normal soil and one with a little mature compost. Do not handle rotting waste without protection."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "decomposers",
+    "nutrients",
+    "soil_texture",
+    "plant_data"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-compost-helps-soil",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Use mature compost in balanced amounts and avoid plastic, metal, glass, oily, or unsafe waste.",
+  "career_connections": "Agriculture, ecology, waste management, soil science.",
+  "why_matters": "This topic links waste reduction with plant growth and sustainable living.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

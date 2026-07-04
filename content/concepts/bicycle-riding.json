@@ -1,0 +1,227 @@
+{
+  "concept_id": "bicycle-riding",
+  "title": "Bicycle Riding",
+  "icon": "🚲",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Physics",
+    "Biology",
+    "Math"
+  ],
+  "place": "Road",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why does a bicycle move, stop, balance, and become harder to pedal uphill?",
+  "big_idea": "Cycling combines force, friction, balance, rotation, energy from food, and simple measurement of distance and speed.",
+  "story": "You push the pedal. The chain turns the wheel. Tyres grip the road. Brakes use friction. Your muscles use energy, especially uphill.",
+  "cause_process_result": {
+    "cause": "Muscle push",
+    "process": "Pedal rotates → Wheel turns → Road friction grips",
+    "result": "Bike moves or stops"
+  },
+  "flow": [
+    "Muscle push",
+    "Pedal rotates",
+    "Wheel turns",
+    "Road friction grips",
+    "Bike moves or stops"
+  ],
+  "whiteboard": [
+    "Cause: Muscle push",
+    "  -> Pedal rotates → Wheel turns → Road friction grips",
+    "Result: Bike moves or stops"
+  ],
+  "indian_analogies": [
+    "Road mein yeh dekhte hain: Bicycle Riding.",
+    "School commute"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat bicycle riding as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Bicycle Riding mein Physics, Biology, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does a bicycle move, stop, balance, and become harder to pedal uphill?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does a bicycle move, stop, balance, and become harder to pedal uphill?",
+      "a": "Bicycle move, stop, balance aur uphill par pedal karna mushkil hota hai kyunki usmein force, friction aur gravity ka kaam hota hai, jisse cycle ki gati aur santulan par asar padta hai. Ismein force hum pedal karte samay lagate hain, friction brake lagane par hoti hai aur gravity uphill par kaam karti hai."
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?",
+      "a": "Agar hum bicycle ki speed badhate hain, to humein brake lagaane ki zarurat jaldi padegi, kyunki tezi se jaane par rukna mushkil ho jaata hai. Isliye, speed badhane se humari safety ki zarurat badh jaati hai. Humen saavdhaani se ride karna hoga."
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?",
+      "a": "Science aur physics subject mein humein sikhaaya jaata hai ki bicycle ki sabse badi part kaun si hai, jaise ki wheels, frame, aur handle. Ismein humein balance, motion, aur force ke baare mein bhi pata chalta hai. Isliye, science aur physics subject humein bicycle ki sabse badi part ke baare mein samjhata hai."
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum safety gear jaise ki helmet aur knee pads pehne, aur ek flat surface par cycle chalakar isse test kar sakte hain, jaise ki school ke playground ya ghar ke aas-paas ka khula sthaan. Isse humein safety ke saath-saath balance aur control bhi check karne ko milega."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Muscle push -> Pedal rotates -> Wheel turns — what exactly happens at each step?",
+      "a": "Muscle push mein hum apne pairon se pedal ko dhakka dete hain, phir Pedal rotates ho jata hai aur akhir mein Wheel turns hoti hai, jiske karan cycle chalne lagti hai. Is prakriya mein humara muscle power wheel ko ghumane mein madad karti hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Ek 5 saal ke bachhe ko main yeh samjhaunga ki pehle hum bicycle ko sahi se adjust karenge, phir helmet pehnenge, aur slowly slowly cycle chalayenge, balance banane ke liye hum dono pairon ko pedal par rakhenge aur handle ko pakdenge."
+    },
+    {
+      "type": "application",
+      "q": "Which change usually makes uphill cycling easier?",
+      "a": "Uphill cycling ko aasan banane ke liye, hume lower gear mein shift karna chahiye, jisse pedaling asaan ho jata hai. Isse humara pedaling ka pressure kam ho jata hai aur hum uphill chadhne mein madad milti hai. Lower gear mein shift karne se humara cycle uphill chadhne mein zyada aasan hota hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which change usually makes uphill cycling easier?",
+      "options": [
+        "Carry a heavier bag",
+        "Use a lower gear",
+        "Deflate the tyres completely",
+        "Brake continuously"
+      ],
+      "correct": "Use a lower gear",
+      "hint": "A lower gear reduces the force needed per pedal push, though you may pedal more times.",
+      "answer": "A lower gear reduces the force needed per pedal push, though you may pedal more times."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if slope becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if slope becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Bicycle Riding shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Bicycle Riding, one or more factors such as slope change what we observe. The idea connects Physics, Biology, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Bicycle Riding connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Cycling combines force, friction, balance, rotation, energy from food, and simple measurement of distance and speed.",
+    "hinglish": "Dekh yaar — Bicycle Riding mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "You push the pedal. The chain turns the wheel. Tyres grip the road. Brakes use friction. Your muscles use energy, especially uphill."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does a bicycle move, stop, balance, and become harder to pedal uphill. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more slope.",
+    "class_6_8": "Explain the cause-effect chain: Muscle push → Pedal rotates → Wheel turns → Road friction grips.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Biology, Math."
+  },
+  "subject_lenses": {
+    "Physics": "Force, friction, rotation, balance, braking.",
+    "Biology": "Muscles, breathing, heart rate, fatigue.",
+    "Math": "Distance, time, speed, slope comparison."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Bicycle Riding ka concept aur jagah bhi kaam karta hai: School commute, Gear cycles, Motorcycles.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj bicycle riding se related kuch notice karo.",
+    "Why does a bicycle move, stop, balance, and become harder to pedal uphill?",
+    "What would happen if slope becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Bhaskara",
+    "connection": "The concept of bicycle riding can be connected to the works of the Indian mathematician and astronomer Bhaskara, who in the 12th century wrote about the concept of perpetual motion and the idea that the rotation of a wheel could be used to perform various tasks. This idea is relevant to the concept of bicycle riding, where the rotation of the wheels is crucial for the motion of the bicycle, and the principles of force, friction, and balance come into play.",
+    "story_hook": "Imagine you are riding a bicycle through the ancient city of Ujjain, where Bhaskara used to study the movements of the stars and planets, and you stumble upon an ancient text that describes the concept of perpetual motion. As you pedal your bicycle, you begin to wonder how the rotation of the wheels and the principles of force and friction can be used to create a machine that can move on its own, just like Bhaskara had envisioned centuries ago.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Bicycle Riding",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Measure how long it takes to cycle or walk a short safe distance on flat ground. Compare with a gentle slope only under adult supervision and safe traffic conditions."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "force_and_friction",
+    "speed",
+    "muscles",
+    "food_energy"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-bicycle-riding",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Bicycle Riding turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

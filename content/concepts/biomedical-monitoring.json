@@ -1,0 +1,166 @@
+{
+  "concept_id": "biomedical-monitoring",
+  "title": "Biomedical Device Monitoring",
+  "icon": "🏥",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Biology",
+    "Physics",
+    "Math"
+  ],
+  "level": "Advanced Systems",
+  "prerequisites": [],
+  "intro_hook": "How does a hospital monitor know when a patient's condition is dangerous — not just noisy data?",
+  "big_idea": "Biomedical monitors measure vital signs (HR, BP, SpO2, temperature) continuously. Alarm thresholds filter noise from true clinical events. Alarm fatigue (too many false alarms) is a real patient safety risk.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Sensors continuously measure patient vital signs",
+    "process": "Readings compared to threshold ranges; alarm triggered when out of range",
+    "result": "Clinician alerted to true events; alarm fatigue from false positives = danger"
+  },
+  "flow": [
+    "Sensors continuously measure patient vital signs",
+    "Readings compared to threshold ranges; alarm triggered when out of range",
+    "Clinician alerted to true events; alarm fatigue from false positives = danger"
+  ],
+  "whiteboard": [
+    "System Lens: Purpose -> Inputs -> Process -> Outputs -> Feedback -> Failure -> Data -> Design",
+    "Cause: Sensors continuously measure patient vital signs",
+    "  -> Readings compared to threshold ranges; alarm triggered when out of range",
+    "Result: Clinician alerted to true events; alarm fatigue from false positives = danger"
+  ],
+  "indian_analogies": [
+    "India context: TODO — add local real-world example of this system."
+  ],
+  "misconceptions": [
+    {
+      "id": "system_never_fails",
+      "belief": "Well-designed systems never fail.",
+      "probe": "What happens when one sensor fails in this system?",
+      "repair": "Every system has failure modes. Engineering is about making failures safe, detectable, and recoverable — not eliminating them entirely.",
+      "trigger_words": [
+        "perfect system",
+        "never fails",
+        "always works"
+      ]
+    },
+    {
+      "id": "single_cause_failure",
+      "belief": "System failures always have a single clear cause.",
+      "probe": "What if two components fail simultaneously in different parts of the chain?",
+      "repair": "Complex systems have cascading failures — sensor error, transport delay, power cut, and human error often combine.",
+      "trigger_words": [
+        "one cause",
+        "simple fix",
+        "just one thing broke"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does a hospital monitor know when a patient's condition is dangerous — not just noisy data?",
+      "a": "Hospital monitor mein sensors hote hain jo patient ki tabiyat ko track karte hain, jaise ki heart rate, blood pressure aur oxygen level, aur yeh data doctor ko dikhate hain taaki ve patient ki condition ko samajh sakein. Isse doctor ko pata chalta hai ki patient ki condition khatarnak hai ya sirf noisy data hai. Is tarah se hospital monitor doctor ko sahi decision lene mein madad karta hai"
+    },
+    {
+      "type": "probe",
+      "q": "What inputs does this system need to function?",
+      "a": "Is system ko function karne ke liye patient ki vital signs jaise ki blood pressure, heart rate, aur oxygen level ki inputs chahiye, jo ki sensors dwara collect ki jati hain. Iske alawa, system ko patient ki medical history aur treatment plan ki bhi jarurat hoti hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace the full Purpose->Inputs->Process->Outputs->Feedback chain.",
+      "a": "Biomedical device monitoring ka purpose hai patient ki health ko track karna, jisme inputs ke roop mein patient ki vital signs jaise ki blood pressure, temperature aur oxygen level ko measure kiya jata hai, phir process ke roop mein data ko analyze kiya jata hai, outputs ke roop mein doctor ko alert kiya jata hai aur feedback ke roop mein doctor treatment ko adjust karte hain. Is chain ke madhyam se patient ki health ko effectively"
+    },
+    {
+      "type": "probe",
+      "q": "Where could this system fail? What would the warning signal look like?",
+      "a": "Is system ko fail hone ki sambhavna sensor mein kharaabi, connection mein problem, ya software mein glitch hone par ho sakti hai. Warning signal ki form mein alarm baj sakta hai, light flash ho sakti hai, ya mobile par message aa sakta hai. Isse doctor ya nurse ko patient ki sthiti ke baare mein jaldi pata chal sakta hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Design a simple version of this system. What is your most important design decision and why?",
+      "a": "Humne ek simple biomedical device monitoring system design kiya hai jismein sabse important decision sensor ka chayan hai kyunki yeh patient ke vital signs ko accurately measure karta hai. Ismein humne temperature, blood pressure aur heart rate monitor shamil kiye hain. Is design ka mukhya uddeshya patient ki sehat ki nigraani karna hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "design",
+      "q": "What single change would most improve the reliability of the Biomedical Device Monitoring? What trade-off does it introduce?",
+      "hint": "Think about the feedback loop — what information is currently missing?",
+      "answer": "Multiple valid answers — evaluate by quality of trade-off reasoning."
+    },
+    {
+      "difficulty": 3,
+      "type": "failure_analysis",
+      "q": "One component in the Biomedical Device Monitoring fails silently (no alarm). Trace what happens step by step.",
+      "hint": "Follow the process chain — where does the error propagate?",
+      "answer": "Depends on component; evaluate by systematic chain reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Biomedical monitors measure vital signs (HR, BP, SpO2, temperature) continuously. Alarm thresholds filter noise from true clinical events. Alarm fatigue (too many false alarms) is a real patient safety risk.",
+    "formal": "Systems lens: Purpose->Inputs->Process->Outputs->Feedback->Failure->Data->Design",
+    "real_life": "How does a hospital monitor know when a patient's condition is dangerous — not just noisy data?",
+    "hinglish": "Yaar, biomedical device monitoring ek system hai — inputs aate hain, process hoti hai, output nikalta hai. Kya fail ho sakta hai?"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with Purpose only — what problem does this system solve?",
+    "standard": "Map all 8 system dimensions.",
+    "fast_learner": "Design an improved version under a new constraint."
+  },
+  "subject_lenses": {
+    "Biology": "Applied in this system",
+    "Physics": "Applied in this system",
+    "Math": "Applied in this system"
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Biomedical Device Monitoring ka ek surprising failure mode hai jo tune shayad socha nahi hoga.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "How does a hospital monitor know when a patient's condition is dangerous — not just noisy data?",
+    "Notice a biomedical device monitoring around you today — map its inputs and one failure mode."
+  ],
+  "indian_legacy": {
+    "scientist": "Sushruta",
+    "connection": "The ancient Indian medical sage Sushruta is known for his contributions to the field of Ayurveda and surgery. His work, the Sushruta Samhita, describes various diagnostic techniques, including the measurement of vital signs such as pulse and breathing rate, which is analogous to the concept of biomedical device monitoring. The idea of continuous monitoring and filtering out noise to identify true clinical events is reminiscent of Sushruta's emphasis on careful observation and diagnosis.",
+    "story_hook": "Imagine you are a young apprentice to Sushruta, tasked with monitoring the vital signs of a patient undergoing surgery, and you must quickly identify any changes that could indicate a problem. As you observe the patient's pulse and breathing, you begin to realize the importance of distinguishing between normal fluctuations and true signs of distress, much like the alarm thresholds in biomedical monitoring systems.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Observe: Biomedical Device Monitoring",
+    "time_required": "5 min",
+    "steps": [
+      "Find a real example of a biomedical device monitoring in your city or home. Map its inputs, outputs, and one failure mode."
+    ],
+    "share_with_sakha": "What was surprising about the system you observed?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "advanced-stem-systems-lab#module-biomedical-monitoring",
+  "visualizer_type": "advanced_systems_simulator",
+  "session_type": "science",
+  "_source": "advanced-stem-systems-lab-v1.0",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "indian_analogies",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

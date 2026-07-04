@@ -1,0 +1,226 @@
+{
+  "concept_id": "waste-segregation-recycling",
+  "title": "Waste Segregation and Recycling",
+  "icon": "♻️",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Chemistry",
+    "Biology",
+    "Math",
+    "Physics"
+  ],
+  "place": "City + Environment",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "Why should wet waste, dry waste, plastic, metal, glass, and hazardous waste be separated?",
+  "big_idea": "Waste management depends on material properties, decomposition, recycling processes, contamination control, and data-based civic planning.",
+  "story": "If food waste mixes with paper and plastic, recycling becomes difficult. Clean separation helps composting, reuse, recycling, and safer disposal.",
+  "cause_process_result": {
+    "cause": "Waste generated",
+    "process": "Material identified → Separated correctly → Processed safely",
+    "result": "Resources recovered"
+  },
+  "flow": [
+    "Waste generated",
+    "Material identified",
+    "Separated correctly",
+    "Processed safely",
+    "Resources recovered"
+  ],
+  "whiteboard": [
+    "Cause: Waste generated",
+    "  -> Material identified → Separated correctly → Processed safely",
+    "Result: Resources recovered"
+  ],
+  "indian_analogies": [
+    "City + Environment mein yeh dekhte hain: Waste Segregation and Recycling.",
+    "Homes"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "All waste goes to the same place and nothing can be recovered. Proper segregation enables useful processing.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Waste Segregation and Recycling mein Chemistry, Biology, Math, Physics sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why should wet waste, dry waste, plastic, metal, glass, and hazardous waste be separated?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why should wet waste, dry waste, plastic, metal, glass, and hazardous waste be separated?"
+    },
+    {
+      "type": "probe",
+      "q": "Why should batteries be separate?",
+      "a": "Batteries ko alag rakhna chahiye kyunki unmein harmful chemicals hote hain jo zameen aur paani ko nuksan pahuncha sakte hain, isliye unhein recycle karne ke liye alag rakha jata hai. Isse humari environment ko bachaya ja sakta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does wet waste contaminate paper?"
+    },
+    {
+      "type": "probe",
+      "q": "How can data improve waste collection?"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Waste generated -> Material identified -> Separated correctly — what exactly happens at each step?",
+      "a": "Waste generated ke step mein hum apne ghar aur aas-paas ke area se nikle waste ko ikattha karte hain, phir material identified ke step mein hum waste ko dekhte hain ki vah plastic, paper, glass, ya organic hai, aur separated correctly ke step mein hum waste ko unke prakaar ke hisaab se alag-alag containers mein daalte hain."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "Why is clean dry waste easier to recycle?",
+      "a": "Clean dry waste jaise ki plastic, paper, aur glass ko recycle karna asaan hota hai kyonki ismein moisture nahin hoti, jisse recycling process mein koi problem nahin aati. Isse recycling ki quality bhi acchi hoti hai aur waste ko dubara upyog karne layak banaya ja sakta hai. Isliye, humein waste ko saaf aur sukha rakhna chahiye taaki use recycle"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why is clean dry waste easier to recycle?",
+      "options": [
+        "It is less contaminated and easier to sort/process",
+        "It becomes invisible",
+        "It automatically turns into compost",
+        "It has no material properties"
+      ],
+      "correct": "It is less contaminated and easier to sort/process",
+      "hint": "Clean dry waste can be sorted and processed more efficiently than mixed, dirty waste.",
+      "answer": "Clean dry waste can be sorted and processed more efficiently than mixed, dirty waste."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if separation accuracy becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if separation accuracy becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Waste Segregation and Recycling shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Waste Segregation and Recycling, one or more factors such as separation accuracy change what we observe. The idea connects Chemistry, Biology, Math, Physics and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Waste Segregation and Recycling connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Waste management depends on material properties, decomposition, recycling processes, contamination control, and data-based civic planning.",
+    "hinglish": "Dekh yaar — Waste Segregation and Recycling mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "If food waste mixes with paper and plastic, recycling becomes difficult. Clean separation helps composting, reuse, recycling, and safer disposal."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why should wet waste, dry waste, plastic, metal, glass, and hazardous waste be separated. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more separation accuracy.",
+    "class_6_8": "Explain the cause-effect chain: Waste generated → Material identified → Separated correctly → Processed safely.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Chemistry, Biology, Math, Physics."
+  },
+  "subject_lenses": {
+    "Chemistry": "Plastic, metal, glass, paper, and organic waste have different material properties.",
+    "Biology": "Organic waste decomposes; unmanaged waste can attract pests and spread disease.",
+    "Math": "Measure daily waste by category and calculate percentage reduction.",
+    "Physics": "Sorting uses size, density, magnets, and machines."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Waste Segregation and Recycling ka concept aur jagah bhi kaam karta hai: Homes, Apartments, Schools.",
+      "related_concepts": [],
+      "career_connection": "Environmental engineering, urban planning, recycling technology, policy analytics."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj waste segregation and recycling se related kuch notice karo.",
+    "Why should wet waste, dry waste, plastic, metal, glass, and hazardous waste be separated?",
+    "What would happen if separation accuracy becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "M. S. Swaminathan",
+    "connection": "M. S. Swaminathan, known as the Father of the Green Revolution in India, has emphasized the importance of sustainable practices, including waste management. His work on sustainable agriculture and environmental conservation highlights the need for proper waste segregation and recycling, which is crucial for maintaining soil health, reducing pollution, and promoting eco-friendly farming practices.",
+    "story_hook": "Imagine a village where crops are withering away due to polluted soil and water, but then a young farmer discovers the secret to rejuvenating the land through proper waste segregation and recycling. As we delve into the world of waste management, we'll uncover the fascinating story of how India's own eco-heroes like M. S. Swaminathan have been working towards a cleaner, greener future.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Waste Segregation and Recycling",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "For one day, classify household waste into safe categories with adult guidance. Do not touch sharp, medical, or hazardous waste."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "materials",
+    "decomposition",
+    "percentages",
+    "sorting_methods"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-waste-segregation-recycling",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Use separate bins and keep recyclables clean and dry where local systems support it.",
+  "career_connections": "Environmental engineering, urban planning, recycling technology, policy analytics.",
+  "why_matters": "It connects science learning with civic responsibility and environmental impact.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

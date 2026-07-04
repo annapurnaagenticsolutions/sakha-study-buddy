@@ -1,0 +1,207 @@
+{
+  "concept_id": "math_fractions",
+  "title": "Fractions",
+  "icon": "📐",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Math"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "whole numbers",
+    "division",
+    "equal parts"
+  ],
+  "intro_hook": "Which is larger: 1/3 or 1/4? Explain without using decimals.",
+  "big_idea": "Fractions represent parts of a whole and support ratios, percentages, algebra, and probability.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "A fraction tells how many equal parts we are considering out of the whole.",
+    "process": "If a whole is divided into equal parts, the numerator counts selected parts and the denominator counts total equal parts. Use a rectangle or number line divided into equal sections; every section must be identical in size.",
+    "result": "Used in sharing, measurement, ratios, probability, slope, and algebraic simplification."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: A fraction tells how many equal parts we are considering out of the whole.",
+    "Visual: Use a rectangle or number line divided into equal sections; every section must be identical in size.",
+    "Formal: A fraction a/b represents a divided by b, where b is not zero.",
+    "Application: Used in sharing, measurement, ratios, probability, slope, and algebraic simplification."
+  ],
+  "indian_analogies": [
+    "If two same-size pizzas are shared, one among 3 people and one among 4 people, the person in the group of 3 gets more.",
+    "Same size roti ko 3 parts mein kaatoge toh ek part bada hoga; 4 parts mein kaatoge toh ek part chhota hoga. Isliye 1/3 > 1/4."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_math_fractions_01",
+      "belief": "larger denominator always means larger fraction",
+      "why_common": "I think the bigger bottom number means the fraction is bigger.",
+      "probe": "Which is larger: 1/3 or 1/4? Explain without calculating decimals.",
+      "repair": "Use same-size roti or chocolate bars: one cut into 3 equal pieces and one into 4 equal pieces. Ask which single piece is bigger, then return to 1/3 vs 1/4.",
+      "repair_visual": "Use two equal rotis/chocolate bars: cut one into fewer equal parts and the other into more equal parts, then compare one piece.",
+      "follow_up": "If the same whole is cut into 5 pieces and 6 pieces, which one piece is larger? Why?",
+      "teacher_prompt": "Use equal-whole drawings before any fraction rule or shortcut.",
+      "mastery_signal": "Learner can explain why “larger denominator always means larger fraction” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "bada denominator bada fraction",
+        "niche bada toh fraction bada",
+        "bigger bottom means bigger",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_fractions_02",
+      "belief": "unequal parts can be counted as fractions",
+      "why_common": "Students see pieces and count them without noticing they are different sizes.",
+      "probe": "If a pizza is cut into 3 pieces, one huge and two tiny, is the huge piece 1/3 of the pizza?",
+      "repair": "Show that fractions require equal sharing. If pieces are unequal, the name of the fraction doesn't apply.",
+      "repair_visual": "Draw a circle divided into unequal parts and ask if it's fair to share them.",
+      "follow_up": "If I cut an apple into 4 unequal slices, can I call the biggest slice 1/4?",
+      "teacher_prompt": "Demonstrate with unequal shapes that fractions MUST be equal parts of a whole.",
+      "mastery_signal": "Learner can explain why unequal parts cannot be named as standard fractions.",
+      "trigger_words": [
+        "suggests: unequal parts can",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_fractions_03",
+      "belief": "adding fractions means adding denominators directly",
+      "why_common": "Students apply whole-number addition rules to fractions because they look like two stacked numbers.",
+      "probe": "If you eat 1/2 of a pizza and then another 1/2, do you eat 2/4 of the pizza?",
+      "repair": "Use visual models to show that adding halves makes a whole, not fourths. The denominator is the size of the piece.",
+      "repair_visual": "Show 1/2 pizza + 1/2 pizza = 1 whole pizza (not 2/4).",
+      "follow_up": "If adding denominators was correct, what would 1/3 + 1/3 equal, and does that make sense?",
+      "teacher_prompt": "Use objects to demonstrate that the denominator just tells us the size, we only add the numerators (the count).",
+      "mastery_signal": "Learner can explain why adding denominators results in a mathematically impossible smaller piece.",
+      "trigger_words": [
+        "suggests: adding fractions adding",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Which is larger: 1/3 or 1/4? Explain without using decimals.",
+      "a": "Dono fractions ko compare karne ke liye, hum unhein ek common denominator se compare kar sakte hain, jaise 1/3 = 4/12 aur 1/4 = 3/12, isliye 1/3 bada hai. Isse humein pata chalta hai ki 1/3 mein 4 hisse hain aur 1/4 mein 3 hisse hain, toh 1/3 zy"
+    },
+    {
+      "type": "probe",
+      "q": "Imagine two identical rotis. One is cut into 3 equal pieces, the other into 4 equal pieces.",
+      "a": "Ek roti ko 3 barabar tukdon mein kaata gaya hai, toh har tukda 1/3 hai, aur doosri roti ko 4 barabar tukdon mein kaata gaya hai, toh har tukda 1/4 hai. In dono rotiyon ke tukde barabar nahi hain."
+    },
+    {
+      "type": "probe",
+      "q": "Which roti piece would be larger: one of 3 equal pieces or one of 4 equal pieces?",
+      "a": "Ek roti ko 3 barabar tukdon mein baantne par har tukda 1/3 ka hoga, aur 4 barabar tukdon mein baantne par har tukda 1/4 ka hoga, isliye 1/3 wala tukda bada hoga. Isliye, 3 equal pieces mein se ek tukda 4 equal pieces mein se ek tukde se bada hoga."
+    },
+    {
+      "type": "probe",
+      "q": "When the numerator is 1, a smaller denominator means a larger part of the same whole.",
+      "a": "Jab numerator 1 hota hai, toh chhota denominator ka matlab hai ki hum usi whole ka bada hissa le rahe hain, jaise ki 1/2 se bada hissa 1/4 nahi hai, balki 1/2 se chhota hai. Isliye, chhota denominator ka matlab hai bada hissa nahi, balki bada denominator ka matlab hai chhota hissa."
+    },
+    {
+      "type": "application",
+      "q": "Which is larger: 1/5 or 1/8? Explain using equal parts of the same whole.",
+      "a": "Dono fractions ko ek same whole mein divide karen, jaise ki ek pizza ko 5 aur 8 equal parts mein divide kiya hai, toh 1/5 wala part 1/8 wale part se bada hoga, isliye 1/5 badi fraction hai. Isse hum dekhte hain ki 1/5 ki value 1/8 se zyada hoti hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "In your own words, why does a larger denominator make a unit fraction smaller?",
+      "a": "Ek bade denominator wala unit fraction chota hota hai kyonki hum ek ko zyada hisson mein baant rahe hote hain, jisse har hissa chota ho jata hai. Isse fraction ka mulya kam ho jata hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "Which is larger: 1/3 or 1/4? Explain without calculating decimals.",
+      "hint": "A fraction tells how many equal parts we are considering out of the whole.",
+      "answer": "1/3 is larger because the same whole is split into fewer equal parts, so each part is bigger than 1/4."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "Which is larger: 1/5 or 1/8? Explain using equal parts of the same whole.",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires comparing fractions by equal-part size, not by denominator magnitude alone."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "1/3 is larger because the whole is divided into 3 equal parts, so each part is bigger than when the same whole is divided into 4 equal parts.",
+    "visual": "Draw two same-size bars. Split one into 3 equal parts and shade one part. Split the other into 4 equal parts and shade one part. The one-third shaded part is visibly larger.",
+    "real_life": "If two same-size pizzas are shared, one among 3 people and one among 4 people, the person in the group of 3 gets more.",
+    "formal": "For unit fractions 1/n, as n increases, each part becomes smaller. Therefore 1/3 > 1/4.",
+    "socratic": "What is the whole? Are the parts equal? If you make more equal parts from the same whole, does each part become bigger or smaller?",
+    "mistake_analysis": "The mistake is treating the denominator like a normal score. A larger denominator means more cuts of the same whole, so each single part is smaller.",
+    "hinglish": "Same size roti ko 3 parts mein kaatoge toh ek part bada hoga; 4 parts mein kaatoge toh ek part chhota hoga. Isliye 1/3 > 1/4.",
+    "challenge": "Now compare 2/3 and 3/4. This time numerator and denominator both change, so you need a stronger method.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "A fraction tells how many equal parts we are considering out of the whole.",
+    "standard": "If a whole is divided into equal parts, the numerator counts selected parts and the denominator counts total equal parts.",
+    "advanced": "A fraction a/b represents a divided by b, where b is not zero.",
+    "fast_learner": "Now compare 2/3 and 3/4. This time numerator and denominator both change, so you need a stronger method."
+  },
+  "subject_lenses": {
+    "Math": "Used in sharing, measurement, ratios, probability, slope, and algebraic simplification."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Fractions ka use real life mein: Used in sharing, measurement, ratios, probability, slope, and algebraic simplification.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj fractions ka ek real-life example dhundo.",
+    "If two same-size pizzas are shared, one among 3 people and one among 4 people, the person in the group of 3 gets more."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of fractions in his work 'Aryabhatiya'. He used fractions to represent astronomical calculations, such as the ratio of the circumference of a circle to its diameter, which is now known as pi. This work laid the foundation for later mathematicians to build upon, demonstrating the importance of fractions in mathematical discoveries.",
+    "story_hook": "Imagine you are an ancient Indian astronomer, just like Aryabhata, trying to calculate the exact timing of a solar eclipse by dividing the circle of the sun into precise parts. As you delve into the world of fractions, you uncover the secrets of the universe, one ratio at a time, and discover how these parts of a whole can reveal the hidden patterns of the cosmos.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Fractions",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "If two same-size pizzas are shared, one among 3 people and one among 4 people, the person in the group of 3 gets more."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-math_fractions",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires comparing fractions by equal-part size, not by denominator magnitude alone.",
+  "session_type": "math",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_math_fractions_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

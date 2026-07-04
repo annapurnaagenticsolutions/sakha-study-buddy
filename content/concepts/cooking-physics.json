@@ -1,0 +1,187 @@
+{
+  "concept_id": "cooking-physics",
+  "title": "Physics of Cooking",
+  "icon": "🍳",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Physics",
+    "Chemistry"
+  ],
+  "level": "Intermediate",
+  "prerequisites": [],
+  "intro_hook": "Every time you boil water or fry an egg, you're doing a physics experiment. Why do molecules change state?",
+  "big_idea": "Heat energy makes molecules move faster. At different temperatures, matter changes between solid, liquid, and gas. Phase changes are physical — the molecule itself doesn't change.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Heat source applied to matter",
+    "process": "Molecules gain kinetic energy -> move faster -> fixed lattice bonds break",
+    "result": "State changes: solid -> liquid -> gas (reversible — same substance)"
+  },
+  "flow": [
+    "Heat source applied to matter",
+    "Molecules gain kinetic energy -> move faster -> fixed lattice bonds break",
+    "State changes: solid -> liquid -> gas (reversible — same substance)"
+  ],
+  "whiteboard": [
+    "Cause: Heat source applied to matter",
+    "  -> Molecules gain kinetic energy -> move faster -> fixed lattice bonds break",
+    "Result: State changes: solid -> liquid -> gas (reversible — same substance)",
+    "Key concepts: Heat Transfer, Phase Changes, Molecular Energy, Boiling Point"
+  ],
+  "indian_analogies": [
+    "Soft-boiled egg: whites set at 62 deg C, yolks at 68 deg C",
+    "At Himalayan altitude water boils at ~70 deg C so cooking takes longer"
+  ],
+  "misconceptions": [
+    {
+      "id": "state_change_chemical",
+      "belief": "Boiling water changes the chemical formula of water",
+      "probe": "When steam condenses back to water, is it the same substance?",
+      "repair": "Phase changes are physical — H2O remains H2O; only arrangement changes.",
+      "trigger_words": [
+        "chemical change",
+        "different substance",
+        "H2O breaks"
+      ]
+    },
+    {
+      "id": "altitude_boiling_hotter",
+      "belief": "Water boils hotter at high altitudes",
+      "probe": "Why does food take longer to cook at high altitude if heat is the same?",
+      "repair": "Lower air pressure -> lower boiling point (~70 deg C at Everest). Less heat = slower cooking.",
+      "trigger_words": [
+        "hotter at altitude",
+        "mountains boil faster",
+        "high heat"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Every time you boil water or fry an egg, you're doing a physics experiment. Why do molecules change state?",
+      "a": "Molecules change state kyunki unhein energy milti hai, jisse ve apna state badalte hain, jaise ki solid se liquid ya liquid se gas. Is process mein molecules ki kinetic energy badhti hai, jiske karan ve apne state ko change karte hain. Isse hum boil karte samay paani ya fry karte samay ande mein dekhte hain."
+    },
+    {
+      "type": "probe",
+      "q": "What is the most surprising thing about this concept?",
+      "a": "Yeh concept mujhe sabse zyada surprising lagta hai kyunki hume pata chalta hai ki cooking mein physics kitna important role play karta hai, jaise ki garmi ke sancharan aur dabaav ke kaaran khana kaise pakta hai. Isse hume cooking ke peeche ka science samajhne mein madad milti hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace through: Heat source applied to matter — what happens step by step?",
+      "a": "Jab hum kisi matter par heat source lagate hain, to sabse pehle uska temperature badhne lagta hai, phir molecules ki gati badh jati hai, aur antim mein matter ka state badal sakta hai, jaise ki pani garam hone par vaashp ban jata hai. Is prakriya mein conduction, convection aur radiation ke madhyam se garmi sancharit hoti hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Koi analogy use karo.",
+      "a": "Jaise ki hum garmi dete hai kisi cheez ko, woh cheez apni molecular structure badalti hai, jaise ki paani jab garam hota hai to woh vapor ban jata hai, isse hum samajh sakte hai ki garmi kaise cheezon ko transform karti hai, yeh physics of cooking ka ek basic concept hai."
+    },
+    {
+      "type": "misconception_probe",
+      "q": "When steam condenses back to water, is it the same substance?",
+      "a": "Haan, yeh same substance hai, kyunki steam jab condense hota hai to wapas paani mein badal jaata hai, jiske atoms wahi hote hain jo pehle the. Is process mein koi chemical change nahi hota, sirf physical state badalta hai. Isliye, condensed steam phir se paani hi hota hai."
+    },
+    {
+      "type": "misconception_probe",
+      "q": "Why does food take longer to cook at high altitude if heat is the same?",
+      "a": "Uchai par food ko pakane mein zyada samay lagta hai kyonki wahan par hawa ki ghanatva kam hoti hai, jiske karan heat ka prasar bhi kam hota hai, isliye food ko pakane mein zyada samay lagta hai. Ismein heat ki matra same hoti hai lekin hawa ki ghanatva kam hone se cooking time badh jata hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 1,
+      "type": "fact_check",
+      "q": "Explain in your own words: Boiling point 100 deg C at 1 atm, ~70 deg C at Everest",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Boiling point 100 deg C at 1 atm, ~70 deg C at Everest"
+    },
+    {
+      "difficulty": 2,
+      "type": "fact_check",
+      "q": "Explain in your own words: Ice is 9% less dense than liquid water",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Ice is 9% less dense than liquid water"
+    },
+    {
+      "difficulty": 3,
+      "type": "fact_check",
+      "q": "Explain in your own words: Steam occupies 1600x the volume of liquid water",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Steam occupies 1600x the volume of liquid water"
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Heat energy makes molecules move faster. At different temperatures, matter changes between solid, liquid, and gas. Phase changes are physical — the molecule itself doesn't change.",
+    "real_life": "Soft-boiled egg: whites set at 62 deg C, yolks at 68 deg C; At Himalayan altitude water boils at ~70 deg C so cooking takes longer; Metal pan conducts heat (conduction); boiling soup circulates (convection)",
+    "visual": "CookingVisualizer: 40 water molecules animate on canvas at -20 to 130 deg C",
+    "hinglish": "Dekh yaar — physics of cooking mein kya ho raha hai exactly.",
+    "challenge": "Go deeper: Boiling Point"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with the hook: Every time you boil water or fry an egg, you're doing a physics experiment. Why do molecules change state?",
+    "standard": "Heat energy makes molecules move faster. At different temperatures, matter changes between solid, liquid, and gas. Phase changes are physical — the molecule itself doesn't change.",
+    "fast_learner": "Steam occupies 1600x the volume of liquid water"
+  },
+  "subject_lenses": {
+    "Physics": "Heat energy makes molecules move faster. At different temperatures, matter changes between solid, liquid, and gas. Phase changes are physical — the molecule itself doesn't change.",
+    "Chemistry": "Heat energy makes molecules move faster. At different temperatures, matter changes between solid, liquid, and gas. Phase changes are physical — the molecule itself doesn't change."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Physics of Cooking ka ek amazing real-world application: Soft-boiled egg: whites set at 62 deg C, yolks at 68 deg C",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Every time you boil water or fry an egg, you're doing a physics experiment. Why do molecules change state?",
+    "Soft-boiled egg: whites set at 62 deg C, yolks at 68 deg C"
+  ],
+  "indian_legacy": {
+    "scientist": "C.V. Raman",
+    "connection": "C.V. Raman, the renowned Indian physicist, conducted pioneering work on the scattering of light, which has implications for understanding how molecules interact with heat energy. His work on the Raman effect can be connected to the concept of heat energy and phase changes, as it helps us understand how molecules vibrate and change their state from solid to liquid to gas.",
+    "story_hook": "Imagine you're in a bustling Indian kitchen, watching as a pot of water transforms from a frozen solid to a rolling boil, and then to a gentle steam rising into the air. As you observe this magical transformation, you begin to wonder what's happening to the water molecules, and how they're changing their dance with heat energy, just like C.V. Raman helped us understand the dance of light with molecules.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Physics of Cooking",
+    "time_required": "5-10 min",
+    "materials": [
+      "Everyday items"
+    ],
+    "steps": [
+      "Soft-boiled egg: whites set at 62 deg C, yolks at 68 deg C"
+    ],
+    "share_with_sakha": "What did you observe?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "gamified-stem-visualizer#topic-cooking-physics",
+  "visualizer_type": "gamified_canvas",
+  "visualizer_description": "CookingVisualizer: 40 water molecules animate on canvas at -20 to 130 deg C",
+  "quiz_facts": [
+    "Boiling point 100 deg C at 1 atm, ~70 deg C at Everest",
+    "Ice is 9% less dense than liquid water",
+    "Steam occupies 1600x the volume of liquid water"
+  ],
+  "session_type": "science",
+  "_source": "gamified-stem-life-visualizer",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "stem_lab_link"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

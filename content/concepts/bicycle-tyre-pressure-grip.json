@@ -1,0 +1,230 @@
+{
+  "concept_id": "bicycle-tyre-pressure-grip",
+  "title": "Bicycle Tyre Pressure and Grip",
+  "icon": "🚲",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Chemistry",
+    "Biology"
+  ],
+  "place": "Road + Sports",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why does a bicycle feel harder to ride when tyres are under-inflated?",
+  "big_idea": "Tyre pressure changes rolling resistance, grip, comfort, and safety. The rubber material, air pressure, load, and road surface work together.",
+  "story": "A cycle with low tyre pressure feels slow and heavy. Proper pressure makes rolling easier, but too much or too little pressure can reduce control.",
+  "cause_process_result": {
+    "cause": "Air added",
+    "process": "Tyre shape changes → Road contact changes → Rolling effort changes",
+    "result": "Safety changes"
+  },
+  "flow": [
+    "Air added",
+    "Tyre shape changes",
+    "Road contact changes",
+    "Rolling effort changes",
+    "Safety changes"
+  ],
+  "whiteboard": [
+    "Cause: Air added",
+    "  -> Tyre shape changes → Road contact changes → Rolling effort changes",
+    "Result: Safety changes"
+  ],
+  "indian_analogies": [
+    "Road + Sports mein yeh dekhte hain: Bicycle Tyre Pressure and Grip.",
+    "Bicycles"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "More pressure is not always better. Correct pressure range matters for comfort, grip, and safety.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Bicycle Tyre Pressure and Grip mein Physics, Math, Chemistry, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does a bicycle feel harder to ride when tyres are under-inflated?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does a bicycle feel harder to ride when tyres are under-inflated?",
+      "a": "Jab bicycle ke tyres under-inflated hote hain, toh unka friction zyada ho jata hai, jisse cycle chalane mein zyada mehnat lagti hai aur woh hard feel hota hai. Ismein tyre ka grip bhi zyada ho jata hai, jisse cycle rukne mein bhi dikkat hoti hai. Isliye, tyres ko sahi pressure par rakhna zaroori hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why do tyres heat during riding?",
+      "a": "Tyre mein garmi isliye aati hai kyunki jab hum cycle chalate hain toh tyre ke molecules apne friction ke kaaran garam ho jaate hain, jisse tyre heat up ho jaata hai. Ismein road ke saath tyre ka friction bhi ek bada kaaran hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why do different roads change grip?",
+      "a": "Alag-alag sadakon par grip badalta hai kyunki unke surface alag-alag hote hain, jaise ki pakki sadak, kachchi sadak, ya patthar wali sadak, jisse tyre ki grip bhi badalti hai. Iske alawa, sadak par maujood gaddhe, dhool, ya paani bhi grip ko prabhavit karte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Why does load matter?",
+      "a": "Load matter karta hai kyonki agar tyre mein bahut kam pressure hai toh woh load ko sahi tarike se bear nahi kar paayega, jisse tyre puncture ho sakta hai. Isliye, sahi load ke liye sahi tyre pressure hona zaroori hai. Isse tyre ki grip bhi behtar hoti hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Air added -> Tyre shape changes -> Road contact changes — what exactly happens at each step?",
+      "a": "Sabse pehle air added hota hai jisse tyre shape changes hota hai, phir tyre ka road contact badalta hai, jisse grip badhti ya ghati hai. Isse humein pata chalta hai ki sahi tyre pressure kitna mahatvapoorn hai. Isse humein safety bhi milti hai aur tyre ki life bhi badhti hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Bicycle ki tyre mein sahi pressure hona chahiye, nahi toh woh theek se chal nahi payegi, aur agar pressure kam hai toh tyre ko grip bhi kam milega, isliye hume tyre ko sahi pressure dena chahiye taaki woh acchi tarah se chale."
+    },
+    {
+      "type": "application",
+      "q": "What is a likely effect of very low tyre pressure?",
+      "a": "Bahut kam tyre pressure ke kaaran cycle chalane mein mushkil ho sakti hai aur tyre puncture hone ki sambhavna bhi badh jati hai, isliye hume tyre pressure ko sahi rakhna chahiye. Isse tyre ki grip bhi kam ho sakti hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What is a likely effect of very low tyre pressure?",
+      "options": [
+        "More rolling resistance",
+        "No contact with road",
+        "Tyre becomes a magnet",
+        "Gravity disappears"
+      ],
+      "correct": "More rolling resistance",
+      "hint": "Low pressure can deform the tyre more, increasing rolling resistance and effort.",
+      "answer": "Low pressure can deform the tyre more, increasing rolling resistance and effort."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if tyre pressure becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if tyre pressure becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Bicycle Tyre Pressure and Grip shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Bicycle Tyre Pressure and Grip, one or more factors such as tyre pressure change what we observe. The idea connects Physics, Math, Chemistry, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Bicycle Tyre Pressure and Grip connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Tyre pressure changes rolling resistance, grip, comfort, and safety. The rubber material, air pressure, load, and road surface work together.",
+    "hinglish": "Dekh yaar — Bicycle Tyre Pressure and Grip mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A cycle with low tyre pressure feels slow and heavy. Proper pressure makes rolling easier, but too much or too little pressure can reduce control."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does a bicycle feel harder to ride when tyres are under-inflated. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more tyre pressure.",
+    "class_6_8": "Explain the cause-effect chain: Air added → Tyre shape changes → Road contact changes → Rolling effort changes.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Chemistry, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Air pressure, friction, rolling resistance, and normal force.",
+    "Math": "Read pressure range, compare effort, and estimate distance or speed.",
+    "Chemistry": "Rubber, polymers, and tyre compounds affect grip and durability.",
+    "Biology": "Leg muscles work harder when rolling resistance increases."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Bicycle Tyre Pressure and Grip ka concept aur jagah bhi kaam karta hai: Bicycles, Scooters, Cars.",
+      "related_concepts": [],
+      "career_connection": "Automotive engineering, sports science, materials testing, mobility design."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj bicycle tyre pressure and grip se related kuch notice karo.",
+    "Why does a bicycle feel harder to ride when tyres are under-inflated?",
+    "What would happen if tyre pressure becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Jagadish Chandra Bose",
+    "connection": "Jagadish Chandra Bose, a renowned Indian scientist, studied the properties of materials, including rubber. His work on the fatigue of materials and the effects of external factors, such as pressure and temperature, can be related to the concept of bicycle tyre pressure and grip, where the rubber material's properties are influenced by air pressure, load, and road surface.",
+    "story_hook": "In ancient India, charioteers understood the importance of wheel traction, much like how modern cyclists need to balance tyre pressure for a smooth ride. Let's uncover the fascinating science behind bicycle tyre pressure and grip, inspired by the discoveries of Indian scientists like Jagadish Chandra Bose.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Bicycle Tyre Pressure and Grip",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe a bicycle tyre before and after pumping with adult help. Do not over-inflate and follow the tyre pressure range where available."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "pressure_and_friction",
+    "pressure_range",
+    "rubber",
+    "muscle_effort"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-bicycle-tyre-pressure-grip",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Maintain tyres properly and avoid riding unsafe cycles.",
+  "career_connections": "Automotive engineering, sports science, materials testing, mobility design.",
+  "why_matters": "It connects a daily maintenance habit to physics, safety, materials, and body effort.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

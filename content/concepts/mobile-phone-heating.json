@@ -1,0 +1,227 @@
+{
+  "concept_id": "mobile-phone-heating",
+  "title": "Why Phones Heat Up",
+  "icon": "📱",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Chemistry",
+    "Math"
+  ],
+  "place": "Technology",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "Why does a phone become warm during gaming, charging, or video calls?",
+  "big_idea": "A phone converts electrical energy into useful work, light, sound, radio signals, and waste heat. Batteries use chemical processes to store and release energy.",
+  "story": "During heavy use, the processor works harder, the screen glows, wireless signals transmit, and the battery supplies current. Some energy becomes heat.",
+  "cause_process_result": {
+    "cause": "Battery energy",
+    "process": "Processor work → Screen + signals → Waste heat",
+    "result": "Cooling by air/body"
+  },
+  "flow": [
+    "Battery energy",
+    "Processor work",
+    "Screen + signals",
+    "Waste heat",
+    "Cooling by air/body"
+  ],
+  "whiteboard": [
+    "Cause: Battery energy",
+    "  -> Processor work → Screen + signals → Waste heat",
+    "Result: Cooling by air/body"
+  ],
+  "indian_analogies": [
+    "Technology mein yeh dekhte hain: Why Phones Heat Up.",
+    "Gaming"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat why phones heat up as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Why Phones Heat Up mein Physics, Chemistry, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does a phone become warm during gaming, charging, or video calls?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does a phone become warm during gaming, charging, or video calls?",
+      "a": "Phone mein battery, processor aur screen jaise components hote hain jo kaam karte samay garmi produce karte hain, isliye phone gaming, charging ya video calls ke dauran garam ho jata hai. Ismein liya gaya current aur processor ki processing speed bhi phone ke garam hone ka ek karan hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?",
+      "a": "Agar phone ka usage badh jata hai, to uska temperature bhi badh jata hai, kyunki processor aur battery ko zyada kaam karna padta hai, jisse phone garam ho jata hai. Isse phone ki battery ki life bhi kam ho sakti hai."
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?",
+      "a": "Science subject mein, physics ka part sabse bada hota hai jo phone heat up hone ki wajah ko explain karta hai, kyunki ismein electricity aur heat transfer ke concepts ko samjhaaya jaata hai. Ismein battery, charging aur circuit ke baare mein bhi padhaaya jaata hai."
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum isse safely test karne ke liye phone ko ek saaf jagah par rakhte hain aur uska charger nikal kar dekhte hain ki woh garam ho raha hai ya nahi, aur saath hi saath hum phone ka back cover bhi nikal sakte hain taaki hum uske andar ki garmi ko mahsoos kar sakein. Isse humein phone ki garmi ke baare mein pata ch"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Battery energy -> Processor work -> Screen + signals — what exactly happens at each step?",
+      "a": "Battery energy se processor ko power milti hai, phir processor kaam karta hai aur screen aur signals ko control karta hai, is process mein bahut saara heat generate hota hai. Is heat ko phone ke andar se bahar nikalna padta hai, lekin kabhi-kabhi yeh heat phone ke andar hi rehta hai aur phone garam ho jata hai. Isliye, phone mein battery energy ka sahi taree"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Phone garam kyun hota hai, yeh main aisa samjhaunga - jab hum phone use karte hain, to usmein battery hoti hai, jo ki electricity se charge hoti hai, aur yeh electricity phone ko garam kar deti hai, isliye phone garam hota hai. Isliye hume phone ko thoda break dena chahiye, taaki woh thoda thanda ho jaye."
+    },
+    {
+      "type": "application",
+      "q": "Which action usually reduces phone heating?",
+      "a": "Phone ko charge karte waqt ya heavy games khelte waqt phone heat up hota hai, isse rokne ke liye hume phone ka background apps band karna chahiye aur phone ko thoda aram dena chahiye. Isse phone ki battery bhi bachegi aur phone jaldi heat up nahi hoga."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which action usually reduces phone heating?",
+      "options": [
+        "Increase brightness and play heavy games while charging",
+        "Close heavy apps and reduce brightness",
+        "Cover the phone with a blanket",
+        "Keep it under a pillow"
+      ],
+      "correct": "Close heavy apps and reduce brightness",
+      "hint": "Reducing workload and brightness lowers energy use, which can reduce heat generation.",
+      "answer": "Reducing workload and brightness lowers energy use, which can reduce heat generation."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if brightness becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if brightness becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Why Phones Heat Up shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Why Phones Heat Up, one or more factors such as brightness change what we observe. The idea connects Physics, Chemistry, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Why Phones Heat Up connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. A phone converts electrical energy into useful work, light, sound, radio signals, and waste heat. Batteries use chemical processes to store and release energy.",
+    "hinglish": "Dekh yaar — Why Phones Heat Up mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "During heavy use, the processor works harder, the screen glows, wireless signals transmit, and the battery supplies current. Some energy becomes heat."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does a phone become warm during gaming, charging, or video calls. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more brightness.",
+    "class_6_8": "Explain the cause-effect chain: Battery energy → Processor work → Screen + signals → Waste heat.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Chemistry, Math."
+  },
+  "subject_lenses": {
+    "Physics": "Electric current, energy conversion, heat transfer.",
+    "Chemistry": "Battery charging and discharging depend on chemical reactions.",
+    "Math": "Compare battery percentage, usage time, and charging rate."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Why Phones Heat Up ka concept aur jagah bhi kaam karta hai: Gaming, Video calls, Charging.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj why phones heat up se related kuch notice karo.",
+    "Why does a phone become warm during gaming, charging, or video calls?",
+    "What would happen if brightness becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "C.V. Raman",
+    "connection": "The concept of phones heating up can be connected to the work of Indian scientist C.V. Raman, who was awarded the Nobel Prize in Physics in 1930 for his discovery of the Raman effect. This phenomenon, which describes how light scatters when it hits a molecule, is closely related to the idea that energy can be converted from one form to another, such as electrical energy being converted into heat in a phone. Raman's work on the scattering of light and the conversion of energy can help students understand the principles behind why phones heat up.",
+    "story_hook": "Imagine you're on a hot summer day, and you've been playing games on your phone for hours, when suddenly it starts to feel like it's burning your hand - that's because the phone is converting electrical energy into heat, just like how C.V. Raman's experiments with light scattering converted energy from one form to another. As you delve deeper into the world of science, you'll discover more about the fascinating ways in which energy is converted and transformed, just like Raman did in his groundbreaking research.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Why Phones Heat Up",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe battery percentage drop during 10 minutes of low and high brightness use. Do not overheat, open, puncture, or modify any battery/device."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "electricity_and_heat",
+    "batteries",
+    "percentage_and_rate"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-mobile-phone-heating",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Why Phones Heat Up turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

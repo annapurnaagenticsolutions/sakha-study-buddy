@@ -1,0 +1,49 @@
+{
+  "concept_id": "gravity",
+  "title": "Weight and Mass",
+  "subjects": [
+    "Science",
+    "Physics"
+  ],
+  "class_band": [
+    9
+  ],
+  "stem_lab_link": "file:///D:/vision_agentic/STEM_labs/physics_concepts_lab/physics_concepts_lab_class1_10/index.html",
+  "intro_hook": "A school bag has the same mass on Earth and Moon, but its weight changes. Why?",
+  "big_idea": "Mass is the amount of matter. Weight is the gravitational force on that mass. Weight depends on gravitational acceleration.",
+  "cause_process_result": {
+    "cause": "An object has Mass (amount of matter).",
+    "process": "A planet's gravity pulls on that mass.",
+    "result": "This pull is the object's Weight."
+  },
+  "whiteboard": [
+    "⚖️ Weight = Mass × Gravitational Acceleration",
+    "$$ W = m \\cdot g $$",
+    "",
+    "**Decoder:**",
+    "W: weight in newton (N)",
+    "m: mass in kg",
+    "g: gravitational acceleration in m/s²"
+  ],
+  "indian_analogies": [
+    "Mass is like your height—it stays the same everywhere. Weight is like the effort it takes to jump—it's harder on Earth and easier on the Moon!"
+  ],
+  "misconceptions": [
+    {
+      "id": "mc_weight_kg",
+      "belief": "Weight is measured in kg.",
+      "probe": "Is weight really measured in kg in Physics? Or is kg for mass? What is the unit of force?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": "Easy",
+      "q": "If mass (m) is 5 kg, and gravity (g) is 10 m/s², what is the Weight (W) in Newtons?",
+      "hint": "Multiply mass by gravity: W = m × g."
+    }
+  ],
+  "concept_difficulty_level": 9,
+  "learning_track": [
+    "core"
+  ]
+}

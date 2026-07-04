@@ -1,0 +1,180 @@
+{
+  "concept_id": "sound-waves",
+  "title": "Sound and Waves",
+  "icon": "🎵",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "level": "Intermediate",
+  "prerequisites": [],
+  "intro_hook": "In space no one can hear you scream. Why not? What exactly IS sound?",
+  "big_idea": "Sound is mechanical vibration traveling through a medium. Frequency determines pitch. Amplitude determines loudness. Sound cannot travel through vacuum.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Object vibrates (speaker, vocal cords, guitar string)",
+    "process": "Molecules bump into neighbors in a chain — compression and rarefaction waves propagate",
+    "result": "Wave reaches ear; eardrum vibrates; brain interprets as sound"
+  },
+  "flow": [
+    "Object vibrates (speaker, vocal cords, guitar string)",
+    "Molecules bump into neighbors in a chain — compression and rarefaction waves propagate",
+    "Wave reaches ear; eardrum vibrates; brain interprets as sound"
+  ],
+  "whiteboard": [
+    "Cause: Object vibrates (speaker, vocal cords, guitar string)",
+    "  -> Molecules bump into neighbors in a chain — compression and rarefaction waves propagate",
+    "Result: Wave reaches ear; eardrum vibrates; brain interprets as sound",
+    "Key concepts: Frequency and Pitch, Amplitude and Volume, Wave Properties, Sound Speed"
+  ],
+  "indian_analogies": [
+    "Guitar string vibrates fast for high notes and slow for low notes",
+    "Dogs hear up to 65,000 Hz — dog whistles work above human range of 20,000 Hz"
+  ],
+  "misconceptions": [
+    {
+      "id": "sound_travels_space",
+      "belief": "Sound can travel through space (like in movies)",
+      "probe": "Krakatoa 1883 explosion was heard 3,000 miles away on Earth but not in space. Why?",
+      "repair": "Sound is mechanical — it needs molecules to travel. Space is vacuum with no molecules. Movie space explosions are scientifically wrong.",
+      "trigger_words": [
+        "space explosion",
+        "sound in space",
+        "vacuum sound"
+      ]
+    },
+    {
+      "id": "louder_faster",
+      "belief": "Louder sounds travel faster",
+      "probe": "Does a shout travel faster than a whisper?",
+      "repair": "Speed of sound is fixed by the medium (~343 m/s in air at 20 deg C). Amplitude affects energy and loudness — not speed.",
+      "trigger_words": [
+        "louder faster",
+        "shout faster",
+        "loud travels faster"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "In space no one can hear you scream. Why not? What exactly IS sound?"
+    },
+    {
+      "type": "probe",
+      "q": "What is the most surprising thing about this concept?"
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace through: Object vibrates (speaker, vocal cords, guitar string) — what happens step by step?",
+      "a": "Object vibrate hone par, wo vibration hawa mein sound waves ke roop mein failati hai, jisse hume dhvani sunai deti hai, jaise ki speaker, vocal cords, ya guitar string mein vibration hone par sound waves generate hoti hai aur hume sunai deti hai. Is prakriya mein, vibration se sound waves banate hai aur phir hume sunai deti hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Koi analogy use karo."
+    },
+    {
+      "type": "misconception_probe",
+      "q": "Krakatoa 1883 explosion was heard 3,000 miles away on Earth but not in space. Why?"
+    },
+    {
+      "type": "misconception_probe",
+      "q": "Does a shout travel faster than a whisper?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 1,
+      "type": "fact_check",
+      "q": "Explain in your own words: Sound speed: 343 m/s in air, 1480 m/s in water, 5960 m/s in steel",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Sound speed: 343 m/s in air, 1480 m/s in water, 5960 m/s in steel"
+    },
+    {
+      "difficulty": 2,
+      "type": "fact_check",
+      "q": "Explain in your own words: Krakatoa 1883: heard 3000 miles away — loudest recorded sound",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Krakatoa 1883: heard 3000 miles away — loudest recorded sound"
+    },
+    {
+      "difficulty": 3,
+      "type": "fact_check",
+      "q": "Explain in your own words: Human hearing: 20-20000 Hz; dogs 65000 Hz; bats 100000+ Hz",
+      "hint": "Use the Cause-Process-Result chain.",
+      "answer": "Human hearing: 20-20000 Hz; dogs 65000 Hz; bats 100000+ Hz"
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Sound is mechanical vibration traveling through a medium. Frequency determines pitch. Amplitude determines loudness. Sound cannot travel through vacuum.",
+    "real_life": "Guitar string vibrates fast for high notes and slow for low notes; Dogs hear up to 65,000 Hz — dog whistles work above human range of 20,000 Hz; Native Americans pressed ear to ground to hear buffalo — solids carry sound fastest",
+    "visual": "SoundVisualizer: waveform with actual audio playback (Web Audio API), frequency/amplitude sliders, molecule compression visual",
+    "hinglish": "Dekh yaar — sound and waves mein kya ho raha hai exactly.",
+    "challenge": "Go deeper: Sound Speed"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with the hook: In space no one can hear you scream. Why not? What exactly IS sound?",
+    "standard": "Sound is mechanical vibration traveling through a medium. Frequency determines pitch. Amplitude determines loudness. Sound cannot travel through vacuum.",
+    "fast_learner": "Human hearing: 20-20000 Hz; dogs 65000 Hz; bats 100000+ Hz"
+  },
+  "subject_lenses": {
+    "Physics": "Sound is mechanical vibration traveling through a medium. Frequency determines pitch. Amplitude determines loudness. Sound cannot travel through vacuum."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Sound and Waves ka ek amazing real-world application: Guitar string vibrates fast for high notes and slow for low notes",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "In space no one can hear you scream. Why not? What exactly IS sound?",
+    "Guitar string vibrates fast for high notes and slow for low notes"
+  ],
+  "indian_legacy": {
+    "scientist": "Sage Kanada",
+    "connection": "The ancient Indian sage Kanada, also known as the founder of the Vaisheshika school of philosophy, explained the concept of sound and vibrations in his works. He described sound as a vibration that travels through a medium, such as air, and discussed the idea that the frequency and amplitude of these vibrations determine the pitch and loudness of the sound, respectively.",
+    "story_hook": "Imagine being in a bustling Indian market, surrounded by the sounds of vendors calling out and instruments playing, when you stumble upon an ancient text that reveals the secrets of sound as understood by Sage Kanada. As you delve into the text, you begin to uncover the fascinating science behind the sounds that fill your surroundings, and how they have been understood and explained by Indian scholars for centuries.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Sound and Waves",
+    "time_required": "5-10 min",
+    "materials": [
+      "Everyday items"
+    ],
+    "steps": [
+      "Guitar string vibrates fast for high notes and slow for low notes"
+    ],
+    "share_with_sakha": "What did you observe?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "gamified-stem-visualizer#topic-sound-waves",
+  "visualizer_type": "gamified_canvas",
+  "visualizer_description": "SoundVisualizer: waveform with actual audio playback (Web Audio API), frequency/amplitude sliders, molecule compression visual",
+  "quiz_facts": [
+    "Sound speed: 343 m/s in air, 1480 m/s in water, 5960 m/s in steel",
+    "Krakatoa 1883: heard 3000 miles away — loudest recorded sound",
+    "Human hearing: 20-20000 Hz; dogs 65000 Hz; bats 100000+ Hz"
+  ],
+  "session_type": "science",
+  "_source": "gamified-stem-life-visualizer",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "stem_lab_link"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

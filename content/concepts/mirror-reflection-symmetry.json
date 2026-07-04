@@ -1,0 +1,229 @@
+{
+  "concept_id": "mirror-reflection-symmetry",
+  "title": "Mirror Reflection",
+  "icon": "🪞",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Chemistry",
+    "Biology"
+  ],
+  "place": "Home + School",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why do mirrors show images, and why does left and right seem reversed?",
+  "big_idea": "A mirror reflects light in an orderly way. The image appears behind the mirror at a matching distance, and the brain interprets direction from the reflected light.",
+  "story": "A student stands in front of a mirror. The face appears clearly, but writing on a paper looks reversed. Light reflection explains the image.",
+  "cause_process_result": {
+    "cause": "Light reaches face",
+    "process": "Mirror reflects light → Image appears → Distance matches",
+    "result": "Brain interprets image"
+  },
+  "flow": [
+    "Light reaches face",
+    "Mirror reflects light",
+    "Image appears",
+    "Distance matches",
+    "Brain interprets image"
+  ],
+  "whiteboard": [
+    "Cause: Light reaches face",
+    "  -> Mirror reflects light → Image appears → Distance matches",
+    "Result: Brain interprets image"
+  ],
+  "indian_analogies": [
+    "Home + School mein yeh dekhte hain: Mirror Reflection.",
+    "Bathroom mirrors"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "The mirror does not truly swap left and right; it reverses front-back relative to the viewer’s orientation.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Mirror Reflection mein Physics, Math, Chemistry, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do mirrors show images, and why does left and right seem reversed?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do mirrors show images, and why does left and right seem reversed?",
+      "a": "Mirrors image dikhate hain kyunki ve light ko reflect karte hain, aur jab hum mirror mein dekhte hain to left aur right reverse lagta hai kyunki mirror humari image ko ulat kar dikhata hai. Iske liye, mirror mein dekha gaya left humara actual right hota hai aur right humara actual left hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why do rough walls not show clear images?",
+      "a": "Rough walls par image saaf nahi dikhata kyunki unke surface par irregularities hoti hain, jisse light ka reflection bhi irregular hota hai, aur humein clear image nahi milta. Isliye, rough surfaces par image distorted ya unclear hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why are vehicle mirrors curved?",
+      "a": "Vehicle mirrors curved hote hain kyunki isse humein aur bhi zyada area dekhne ko milta hai, yeh convex mirror hota hai jisse hume traffic ke baare mein pata chalta hai. Isse hume sahi se dekhne mein madad milti hai aur accident hone ki sambhavna kam hoti hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does text look reversed?",
+      "a": "Text ulta dikhta hai kyunki mirror mein reflection hota hai aur yeh reflection left-right inverted hota hai, isliye humein text reversed dikhai deta hai. Ismein light ka reflection bhi ek mahatvapoorna bhoomika nibhata hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Light reaches face -> Mirror reflects light -> Image appears — what exactly happens at each step?",
+      "a": "Pehle step mein, light humari face par padta hai, phir dusre step mein mirror us light ko reflect karta hai, aur teesre step mein humein apna image dikhai deta hai. Is process mein light ka reflection humein apna aksh darshata hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Mirror mein hum apna reflection dekhte hain, jaise ki ek photo. Jab hum mirror ke samne khade hote hain, to usmein humara aksh ban jata hai, jise hum dekh sakte hain. Isse humein pata chalta hai ki mirror humein vapas dikha raha hai, jaise ki ek darpan."
+    },
+    {
+      "type": "application",
+      "q": "What does a smooth mirror mainly do to light?",
+      "a": "Ek smooth mirror mainly light ko reflect karta hai, jiske kaaran hum usmein apna reflection dekh paate hain. Is reflection ke kaaran, humein lagta hai ki mirror mein humara image ban gaya hai. Yah reflection sirf tab hota hai jab light seedha mirror par padta hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What does a smooth mirror mainly do to light?",
+      "options": [
+        "Absorbs all light",
+        "Reflects light regularly",
+        "Turns light into sound",
+        "Deletes colours"
+      ],
+      "correct": "Reflects light regularly",
+      "hint": "A smooth mirror reflects light in a regular pattern, so a clear image forms.",
+      "answer": "A smooth mirror reflects light in a regular pattern, so a clear image forms."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if mirror angle becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if mirror angle becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Mirror Reflection shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Mirror Reflection, one or more factors such as mirror angle change what we observe. The idea connects Physics, Math, Chemistry, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Mirror Reflection connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. A mirror reflects light in an orderly way. The image appears behind the mirror at a matching distance, and the brain interprets direction from the reflected light.",
+    "hinglish": "Dekh yaar — Mirror Reflection mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A student stands in front of a mirror. The face appears clearly, but writing on a paper looks reversed. Light reflection explains the image."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do mirrors show images, and why does left and right seem reversed. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more mirror angle.",
+    "class_6_8": "Explain the cause-effect chain: Light reaches face → Mirror reflects light → Image appears → Distance matches.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Chemistry, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Reflection of light from a smooth surface.",
+    "Math": "Symmetry, equal distance from mirror, and angle comparison.",
+    "Chemistry": "Glass and metallic coatings make mirrors reflective.",
+    "Biology": "Eyes receive reflected light; the brain interprets the image."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Mirror Reflection ka concept aur jagah bhi kaam karta hai: Bathroom mirrors, Vehicle mirrors, Periscopes.",
+      "related_concepts": [],
+      "career_connection": "Optics, architecture, vehicle safety, photography, medical imaging."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj mirror reflection se related kuch notice karo.",
+    "Why do mirrors show images, and why does left and right seem reversed?",
+    "What would happen if mirror angle becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "The concept of mirror reflection and symmetry can be related to the ancient Indian mathematician and astronomer Aryabhata, who discussed the concept of reflection and symmetry in his works on optics and astronomy. In his book Aryabhatiya, he mentions the use of mirrors and reflective surfaces to understand the behavior of light, which is a fundamental concept in understanding mirror reflection and symmetry.",
+    "story_hook": "Imagine you are an ancient Indian astronomer like Aryabhata, trying to understand how the stars and planets reflect light from the sun, and you stumble upon a shiny surface that reflects your own image, leading you to discover the magic of mirror reflection. As you experiment with different angles and positions, you begin to unravel the mysteries of symmetry and reflection, just like Aryabhata did centuries ago.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Mirror Reflection",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Stand in front of a safe wall mirror and compare your distance with the apparent image distance. Do not use broken glass or shine light into eyes."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "reflection",
+    "symmetry",
+    "mirror_materials",
+    "vision"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-mirror-reflection-symmetry",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Use mirrors safely for visibility, grooming, road awareness, and optical experiments.",
+  "career_connections": "Optics, architecture, vehicle safety, photography, medical imaging.",
+  "why_matters": "Mirrors make light behaviour visible through a familiar daily object.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

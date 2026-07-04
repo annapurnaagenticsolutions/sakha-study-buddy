@@ -1,0 +1,222 @@
+{
+  "concept_id": "upi-qr-payment-safety",
+  "title": "UPI and QR Payment Safety",
+  "icon": "📱",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Math",
+    "Physics",
+    "Biology"
+  ],
+  "place": "Market + Home",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why should we check the name, amount, and source before paying with a QR code?",
+  "big_idea": "Digital payment safety combines numbers, signals, attention, and decision-making. A safe payment is not only fast; it is verified.",
+  "story": "A shopkeeper shows a QR code. Before paying, you check the displayed receiver name, amount, and confirmation message. A wrong QR or scam link can mislead people.",
+  "cause_process_result": {
+    "cause": "QR/payment request appears",
+    "process": "Phone reads code and app shows receiver/amount",
+    "result": "User verifies and pays safely or rejects risk"
+  },
+  "flow": [
+    "QR code appears",
+    "Phone reads pattern",
+    "Payment app shows details",
+    "User verifies amount/name",
+    "Safe payment or avoided scam"
+  ],
+  "whiteboard": [
+    "Cause: QR/payment request appears",
+    "  -> Phone reads code and app shows receiver/amount",
+    "Result: User verifies and pays safely or rejects risk"
+  ],
+  "indian_analogies": [
+    "Market + Home mein yeh dekhte hain: UPI and QR Payment Safety.",
+    "Shops"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is thinking every QR code is automatically safe. A QR is only a pattern; the user must verify where it leads.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "UPI and QR Payment Safety mein Math, Physics, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why should we check the name, amount, and source before paying with a QR code?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why should we check the name, amount, and source before paying with a QR code?"
+    },
+    {
+      "type": "probe",
+      "q": "What can go wrong if the amount is not checked?"
+    },
+    {
+      "type": "probe",
+      "q": "Why should OTP/PIN remain private?"
+    },
+    {
+      "type": "probe",
+      "q": "How does attention reduce digital risk?"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — QR code appears -> Phone reads pattern -> Payment app shows details — what exactly happens at each step?",
+      "a": "QR code appear hone par phone uska pattern read karta hai, phir payment app transaction ki details dikhata hai, jisme amount, payee ka naam aur anya jaankari hoti hai. Isse user ko pata chalta hai ki woh kis ko kitna paise bhej raha hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "What should you check before confirming a QR payment?",
+      "a": "Pehle aapko QR code ko achhe se check karna chahiye, jismein merchant ka naam, amount aur payment ke liye sahi details honi chahiye, phir hi confirm karein. Isse aapko pata chalega ki aapka payment sahi jagah ja raha hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What should you check before confirming a QR payment?",
+      "options": [
+        "Only the QR design",
+        "Receiver name and amount",
+        "Phone wallpaper",
+        "Battery percentage only"
+      ],
+      "correct": "Receiver name and amount",
+      "hint": "A safe payment requires checking receiver name, amount, and confirmation before approving.",
+      "answer": "A safe payment requires checking receiver name, amount, and confirmation before approving."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What if the QR code is fake?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What if the amount has an extra zero?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What if someone asks for your PIN?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Before paying, check the name and amount. Never share secret PIN or OTP.",
+    "standard": "A QR code is a machine-readable pattern. The payment app reads it, shows receiver and amount details, and the user must verify before confirming.",
+    "deep": "UPI safety combines pattern recognition, camera optics, encrypted network communication, numerical verification, attention, and fraud prevention. Technology can process information quickly, but safe human confirmation prevents costly errors.",
+    "hinglish": "Dekh yaar — UPI and QR Payment Safety mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A shopkeeper shows a QR code. Before paying, you check the displayed receiver name, amount, and confirmation message. A wrong QR or scam link can mislead people."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why should we check the name, amount, and source before paying with a QR code. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more amount size.",
+    "class_6_8": "Explain the cause-effect chain: QR code appears → Phone reads pattern → Payment app shows details → User verifies amount/name.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Math, Physics, Biology."
+  },
+  "subject_lenses": {
+    "Math": "Read amount, compare totals, check decimal points and transaction records.",
+    "Physics": "Camera, screen light, wireless signals, and network communication help the phone read and send information.",
+    "Biology": "Attention, memory, and decision-making help avoid scams and mistakes."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — UPI and QR Payment Safety ka concept aur jagah bhi kaam karta hai: Shops, Online delivery, School fee payments.",
+      "related_concepts": [],
+      "career_connection": "Cybersecurity, fintech, human-computer interaction, digital product design."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj upi and qr payment safety se related kuch notice karo.",
+    "Why should we check the name, amount, and source before paying with a QR code?",
+    "What if the QR code is fake?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "The work of Aryabhata, a renowned Indian mathematician and astronomer, highlights the importance of precision and verification in calculations. Similarly, in the context of UPI and QR payment safety, precision and verification are crucial to ensure that transactions are secure and accurate, much like how Aryabhata's calculations helped in understanding celestial bodies and their movements.",
+    "story_hook": "Imagine you are an astronaut navigating through space, and a small miscalculation can lead to a huge mistake, just like how a wrong transaction can lead to financial loss. Aryabhata's emphasis on precision can inspire us to be meticulous in our digital transactions, ensuring that our payments are safe and verified, just like the verified paths of the planets in our solar system.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: UPI and QR Payment Safety",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Use a mock situation only. Do not scan unknown payment links or send real money for practice. Ask an adult for financial safety guidance."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "amount_and_records",
+    "camera_and_signals",
+    "attention_and_decision_making"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-upi-qr-payment-safety",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Pause, verify receiver name and amount, avoid unknown links, and never share PIN or OTP.",
+  "career_connections": "Cybersecurity, fintech, human-computer interaction, digital product design.",
+  "why_matters": "This topic adds practical digital literacy to STEM and helps students use technology safely.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "concept_id": "smart-traffic-signal",
+  "title": "Smart Traffic Signal",
+  "icon": "🚦",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Engineering"
+  ],
+  "level": "Advanced Systems",
+  "prerequisites": [],
+  "intro_hook": "How does a traffic light decide when to change? What happens when the system fails?",
+  "big_idea": "A smart traffic signal uses sensors to detect vehicle density and adjust green/red timing to minimize congestion. It is a feedback loop: Input -> Process -> Output -> Feedback -> Adjust.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Sensors detect vehicle count at each approach",
+    "process": "Timing algorithm adjusts green duration based on demand; signal state changes",
+    "result": "Traffic flow optimized; congestion reduced; failure = fixed timing or deadlock"
+  },
+  "flow": [
+    "Sensors detect vehicle count at each approach",
+    "Timing algorithm adjusts green duration based on demand; signal state changes",
+    "Traffic flow optimized; congestion reduced; failure = fixed timing or deadlock"
+  ],
+  "whiteboard": [
+    "System Lens: Purpose -> Inputs -> Process -> Outputs -> Feedback -> Failure -> Data -> Design",
+    "Cause: Sensors detect vehicle count at each approach",
+    "  -> Timing algorithm adjusts green duration based on demand; signal state changes",
+    "Result: Traffic flow optimized; congestion reduced; failure = fixed timing or deadlock"
+  ],
+  "indian_analogies": [
+    "India context: TODO — add local real-world example of this system."
+  ],
+  "misconceptions": [
+    {
+      "id": "system_never_fails",
+      "belief": "Well-designed systems never fail.",
+      "probe": "What happens when one sensor fails in this system?",
+      "repair": "Every system has failure modes. Engineering is about making failures safe, detectable, and recoverable — not eliminating them entirely.",
+      "trigger_words": [
+        "perfect system",
+        "never fails",
+        "always works"
+      ]
+    },
+    {
+      "id": "single_cause_failure",
+      "belief": "System failures always have a single clear cause.",
+      "probe": "What if two components fail simultaneously in different parts of the chain?",
+      "repair": "Complex systems have cascading failures — sensor error, transport delay, power cut, and human error often combine.",
+      "trigger_words": [
+        "one cause",
+        "simple fix",
+        "just one thing broke"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does a traffic light decide when to change? What happens when the system fails?"
+    },
+    {
+      "type": "probe",
+      "q": "What inputs does this system need to function?",
+      "a": "Is system ko function karne ke liye kai inputs ki zaroorat hoti hai, jaise ki traffic ki sankhya, vehicle ki gati, aur samay. Yeh system sensors aur cameras ke madhyam se yeh inputs collect karta hai. Ismein traffic signal ko control karne ke liye computer algorithm bhi use hota hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace the full Purpose->Inputs->Process->Outputs->Feedback chain.",
+      "a": "Smart Traffic Signal ka purpose yeh hai ki traffic ko manage karein aur accidents ko kam karein. Ismein inputs hote hain traffic ki density, time of day, aur pedestrian movement, jo sensors aur cameras dwara collect kiya jata hai, phir process hota hai computer algorithm dwara jo data analyze karta hai aur signals ko control karta hai, outputs hote hain signal ki timing aur sequence, aur feedback hota hai sensors aur cameras dw"
+    },
+    {
+      "type": "probe",
+      "q": "Where could this system fail? What would the warning signal look like?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Design a simple version of this system. What is your most important design decision and why?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "design",
+      "q": "What single change would most improve the reliability of the Smart Traffic Signal? What trade-off does it introduce?",
+      "hint": "Think about the feedback loop — what information is currently missing?",
+      "answer": "Multiple valid answers — evaluate by quality of trade-off reasoning."
+    },
+    {
+      "difficulty": 3,
+      "type": "failure_analysis",
+      "q": "One component in the Smart Traffic Signal fails silently (no alarm). Trace what happens step by step.",
+      "hint": "Follow the process chain — where does the error propagate?",
+      "answer": "Depends on component; evaluate by systematic chain reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "A smart traffic signal uses sensors to detect vehicle density and adjust green/red timing to minimize congestion. It is a feedback loop: Input -> Process -> Output -> Feedback -> Adjust.",
+    "formal": "Systems lens: Purpose->Inputs->Process->Outputs->Feedback->Failure->Data->Design",
+    "real_life": "How does a traffic light decide when to change? What happens when the system fails?",
+    "hinglish": "Yaar, smart traffic signal ek system hai — inputs aate hain, process hoti hai, output nikalta hai. Kya fail ho sakta hai?"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with Purpose only — what problem does this system solve?",
+    "standard": "Map all 8 system dimensions.",
+    "fast_learner": "Design an improved version under a new constraint."
+  },
+  "subject_lenses": {
+    "Physics": "Applied in this system",
+    "Math": "Applied in this system",
+    "Engineering": "Applied in this system"
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Smart Traffic Signal ka ek surprising failure mode hai jo tune shayad socha nahi hoga.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "How does a traffic light decide when to change? What happens when the system fails?",
+    "Notice a smart traffic signal around you today — map its inputs and one failure mode."
+  ],
+  "indian_legacy": {
+    "scientist": "Pingala",
+    "connection": "The concept of smart traffic signals can be related to the ancient Indian mathematician Pingala, who is credited with developing the first known binary numeral system, which is a fundamental concept in computer science and automation. The feedback loop used in smart traffic signals to adjust the timing based on real-time traffic density can be seen as an extension of the principles of automation and feedback that underlie Pingala's work.",
+    "story_hook": "Imagine you are a traveler in ancient India, and you come across a bustling street where the flow of people and carts is being managed by a clever system of signals and messengers, not so different from the smart traffic signals of today. As you watch, you realize that this ancient system is using a simple yet powerful principle of feedback and adjustment to keep the traffic flowing smoothly, much like the principles developed by the ancient Indian mathematician Pingala.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Observe: Smart Traffic Signal",
+    "time_required": "5 min",
+    "steps": [
+      "Find a real example of a smart traffic signal in your city or home. Map its inputs, outputs, and one failure mode."
+    ],
+    "share_with_sakha": "What was surprising about the system you observed?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "advanced-stem-systems-lab#module-smart-traffic-signal",
+  "visualizer_type": "advanced_systems_simulator",
+  "session_type": "science",
+  "_source": "advanced-stem-systems-lab-v1.0",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "indian_analogies",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

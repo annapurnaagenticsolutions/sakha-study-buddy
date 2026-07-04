@@ -1,0 +1,230 @@
+{
+  "concept_id": "mosquito-control-health",
+  "title": "Mosquito Control and Health",
+  "icon": "🦟",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Biology",
+    "Math",
+    "Chemistry",
+    "Physics"
+  ],
+  "place": "Home + Community",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why does removing stagnant water reduce mosquito problems?",
+  "big_idea": "Mosquitoes need suitable places to breed. Stagnant water supports eggs and larvae, so removing it interrupts the life cycle.",
+  "story": "After rain, water collects in old tyres, pots, coolers, and open containers. Mosquitoes may breed there if water remains undisturbed.",
+  "cause_process_result": {
+    "cause": "Water collects",
+    "process": "Mosquito lays eggs → Larvae grow → Adult mosquitoes spread",
+    "result": "Control breaks cycle"
+  },
+  "flow": [
+    "Water collects",
+    "Mosquito lays eggs",
+    "Larvae grow",
+    "Adult mosquitoes spread",
+    "Control breaks cycle"
+  ],
+  "whiteboard": [
+    "Cause: Water collects",
+    "  -> Mosquito lays eggs → Larvae grow → Adult mosquitoes spread",
+    "Result: Control breaks cycle"
+  ],
+  "indian_analogies": [
+    "Home + Community mein yeh dekhte hain: Mosquito Control and Health.",
+    "Homes"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is focusing only on adult mosquitoes. Larvae control in stagnant water is often more effective.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Mosquito Control and Health mein Biology, Math, Chemistry, Physics sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does removing stagnant water reduce mosquito problems?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does removing stagnant water reduce mosquito problems?",
+      "a": "Stagnant water ko hataane se mosquito ki samasya kam hoti hai kyunki machhar isme ande dete hain aur breed karte hain, isse unki sankhya kam ho jaati hai. Yeh paani ko saaf rakhne se machhar ki utpatti rok sakte hain. Isse hume malaria, dengue jaise bimariyon se bachaaye rakhne mein madad milt"
+    },
+    {
+      "type": "probe",
+      "q": "Where can mosquitoes breed unnoticed?",
+      "a": "Ghar ke aaspaas ki jagah jaise ki baraste tanki, purane tyres, aur blocked naliyon mein machhar anaaj ka sambhav hai. Yeh jagahen hume dikhai nahi deti aur yahan machhar bina rukawat palti kar sakte hain. Isliye in jagaon ka niyamit safai aur maintenance zaroori hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does timing matter?",
+      "a": "Timing matter karta hai kyonki mosquito ki breeding cycle ko rokne ke liye sahi samay par kadam uthane hote hain, jisse hum unke aankdon ko control kar sakte hain aur bimariyon ko failne se rokte hain. Isse hume dengue, malaria jaise bimariyon se bachav karne mein madad milti hai."
+    },
+    {
+      "type": "probe",
+      "q": "How can a community reduce risk together?",
+      "a": "Ek community milkar mosquito control kar sakti hai, jaise ki standing water ko remove karna, ghar ke aas-paas paani ko saaf rakhna, aur mosquito repellent ka upyog karna. Isse malaria, dengue jaise bimariyon ka risk kam ho sakta hai. Log apne aas-paas ke ilaake ko saaf rakhkar bhi madad kar sakte hain."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Water collects -> Mosquito lays eggs -> Larvae grow — what exactly happens at each step?",
+      "a": "Pehle step mein paani ikattha hota hai, phir mosquito ande deti hai, aur antim step mein larvae paani mein grow karti hain aur pupae ban jaati hain. Is prakriya mein larvae khane pine ki cheezein khaati hain aur badi hoti hain. Is tarah se mosquito ka jeevan chakra poora hota hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Machhar ek bahut buri cheez hai, wo humein malaria aur dengue jaise bimari dete hain, isliye humein unhe control karna chahiye, jaise ki standing water ko saaf karna aur machhar bhagane wale spray ka istemal karna. Hum apne ghar ke aas-paas saaf-safaai rakhein aur machhar ko paalne se rokein."
+    },
+    {
+      "type": "application",
+      "q": "Which habit best reduces mosquito breeding?",
+      "a": "Pani ko jamne se rokna aur naliyon aur aas-paas ke jagah se pani ko saaf rakhna mosquito breeding ko kam karne mein madad karta hai, isliye humein apne ghar ke aas-paas ki jagah ko saaf rakhna chahiye. Yeh habit mosquito ko paalne se rokta hai aur hamaare swasthya ko surakshit rakhta hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which habit best reduces mosquito breeding?",
+      "options": [
+        "Store open water for many days",
+        "Empty stagnant water regularly",
+        "Ignore water in old containers",
+        "Spray unknown chemicals by yourself"
+      ],
+      "correct": "Empty stagnant water regularly",
+      "hint": "Regularly removing stagnant water interrupts the mosquito life cycle safely.",
+      "answer": "Regularly removing stagnant water interrupts the mosquito life cycle safely."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if stagnant water spots becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if stagnant water spots becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Mosquito Control and Health shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Mosquito Control and Health, one or more factors such as stagnant water spots change what we observe. The idea connects Biology, Math, Chemistry, Physics and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Mosquito Control and Health connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Mosquitoes need suitable places to breed. Stagnant water supports eggs and larvae, so removing it interrupts the life cycle.",
+    "hinglish": "Dekh yaar — Mosquito Control and Health mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "After rain, water collects in old tyres, pots, coolers, and open containers. Mosquitoes may breed there if water remains undisturbed."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does removing stagnant water reduce mosquito problems. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more stagnant water spots.",
+    "class_6_8": "Explain the cause-effect chain: Water collects → Mosquito lays eggs → Larvae grow → Adult mosquitoes spread.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Math, Chemistry, Physics."
+  },
+  "subject_lenses": {
+    "Biology": "Mosquito life cycle and disease transmission explain prevention.",
+    "Math": "Count breeding spots and track reduction over days.",
+    "Chemistry": "Some safe treatments change water conditions, but chemicals require expert use.",
+    "Physics": "Water flow and drainage reduce stagnant pools."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Mosquito Control and Health ka concept aur jagah bhi kaam karta hai: Homes, School gardens, Construction sites.",
+      "related_concepts": [],
+      "career_connection": "Public health, entomology, community medicine, environmental sanitation."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj mosquito control and health se related kuch notice karo.",
+    "Why does removing stagnant water reduce mosquito problems?",
+    "What would happen if stagnant water spots becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Dr. Upendra Pandey",
+    "connection": "Dr. Upendra Pandey, a renowned Indian entomologist, studied the life cycle of mosquitoes and its relation to breeding sites. His work emphasized the importance of removing stagnant water to control mosquito populations, which is a crucial aspect of public health in India, where mosquitoes are responsible for spreading diseases like malaria and dengue fever.",
+    "story_hook": "In the ancient city of Varanasi, a young boy named Rohan noticed that the lotus pond near his home was filled with stagnant water, attracting swarms of mosquitoes that spread disease throughout the village. As Rohan learned about the life cycle of mosquitoes, he discovered that removing stagnant water could be the key to protecting his community from these deadly diseases.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Mosquito Control and Health",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "With adult help, inspect home surroundings for water-filled containers. Do not touch dirty water or use chemicals yourself."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "life_cycle",
+    "counting_and_tracking",
+    "drainage",
+    "prevention"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-mosquito-control-health",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Remove stagnant water, cover tanks, use screens, and seek adult/community action for larger drains.",
+  "career_connections": "Public health, entomology, community medicine, environmental sanitation.",
+  "why_matters": "This topic connects biology with public health and community responsibility.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

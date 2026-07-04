@@ -1,0 +1,228 @@
+{
+  "concept_id": "water-tank-pump-pressure",
+  "title": "Water Tank and Pump",
+  "icon": "🚰",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Chemistry",
+    "Biology"
+  ],
+  "place": "Home + Infrastructure",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "How does water reach an overhead tank and then flow down to taps?",
+  "big_idea": "Water supply uses pumps, gravitational potential energy, pressure, pipe flow, volume estimation, and water quality awareness.",
+  "story": "A motor pump lifts water to an overhead tank. Stored water flows down through pipes because height creates pressure at lower taps.",
+  "cause_process_result": {
+    "cause": "Pump lifts water",
+    "process": "Tank stores volume → Height creates pressure → Pipes distribute",
+    "result": "Water used safely"
+  },
+  "flow": [
+    "Pump lifts water",
+    "Tank stores volume",
+    "Height creates pressure",
+    "Pipes distribute",
+    "Water used safely"
+  ],
+  "whiteboard": [
+    "Cause: Pump lifts water",
+    "  -> Tank stores volume → Height creates pressure → Pipes distribute",
+    "Result: Water used safely"
+  ],
+  "indian_analogies": [
+    "Home + Infrastructure mein yeh dekhte hain: Water Tank and Pump.",
+    "Homes"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Pumps push every drop directly to every tap all the time. Many systems store water high and use gravity for distribution.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Water Tank and Pump mein Physics, Math, Chemistry, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "How does water reach an overhead tank and then flow down to taps?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does water reach an overhead tank and then flow down to taps?",
+      "a": "Pani ko overhead tank mein pahunchane ke liye ek pump ka use hota hai, jo pani ko oopar dhakelta hai, aur phir gravity ke kaaran woh pani neeche taps mein aata hai. Is prakriya mein, pump ki madad se pani ko oopar uthaya jata hai, aur phir woh apne aap neeche utarte hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does pressure differ by floor?"
+    },
+    {
+      "type": "probe",
+      "q": "Why do leaks waste energy too?",
+      "a": "Leakage se paani barbaad hota hai aur pump ko zyada mehnat karni padti hai, jisse energy waste ho jati hai. Isliye, leakage ko rokna zaroori hai taaki energy ki bachat ho sake. Pump ko kam pressure par kaam karna padta hai jab leakage hota hai, jisse energy waste hoti hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why clean tanks periodically?",
+      "a": "Tanks ko samay-samay par saaf karna zaroori hai kyunki isse paani mein jamne wale gande padarth aur bacteria ko hataya ja sakta hai, jisse paani peene layak bana rahe. Isse tank mein jamne wali gandagi ko bhi rokha ja sakta hai, jisse paani ki gunvatta banaye rakhne mein madad milti hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Pump lifts water -> Tank stores volume -> Height creates pressure — what exactly happens at each step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Pani ki tanki mein pani bhara hota hai aur pump ka kaam hota hai us pani ko tanki se bahar nikaalna, jaise ki humein ghar mein pani chahiye toh pump chalakar pani ko tanki se pipe ke through ghar tak le jaate hain."
+    },
+    {
+      "type": "application",
+      "q": "Why are overhead tanks placed high?",
+      "a": "Overhead tanks ko ooncha rakha jata hai taaki gravity ka pressure banaye aur paani ko ghar tak pahunchane mein madad karta hai, jisse paani ki supply smooth ho. Isse paani ki dabaav bhi badhti hai, jo ki har pipe mein paani pahunchane ke liye zaroori hoti hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why are overhead tanks placed high?",
+      "options": [
+        "Height helps create pressure for water flow",
+        "High tanks make water disappear",
+        "Height removes need for pipes",
+        "Water cannot stay low"
+      ],
+      "correct": "Height helps create pressure for water flow",
+      "hint": "Greater height gives water more gravitational potential energy, creating pressure at lower outlets.",
+      "answer": "Greater height gives water more gravitational potential energy, creating pressure at lower outlets."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if tank height becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if tank height becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Water Tank and Pump shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Water Tank and Pump, one or more factors such as tank height change what we observe. The idea connects Physics, Math, Chemistry, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Water Tank and Pump connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Water supply uses pumps, gravitational potential energy, pressure, pipe flow, volume estimation, and water quality awareness.",
+    "hinglish": "Dekh yaar — Water Tank and Pump mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A motor pump lifts water to an overhead tank. Stored water flows down through pipes because height creates pressure at lower taps."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: How does water reach an overhead tank and then flow down to taps. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more tank height.",
+    "class_6_8": "Explain the cause-effect chain: Pump lifts water → Tank stores volume → Height creates pressure → Pipes distribute.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Chemistry, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Pressure due to height, pump work, flow rate, energy use.",
+    "Math": "Calculate tank volume, estimate usage, read motor power and running time.",
+    "Chemistry": "Water quality, dissolved minerals, chlorine treatment.",
+    "Biology": "Clean water is essential for hygiene and disease prevention."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Water Tank and Pump ka concept aur jagah bhi kaam karta hai: Homes, Apartments, Schools.",
+      "related_concepts": [],
+      "career_connection": "Civil engineering, plumbing design, public health, water resource management."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj water tank and pump se related kuch notice karo.",
+    "How does water reach an overhead tank and then flow down to taps?",
+    "What would happen if tank height becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Kautilya",
+    "connection": "Kautilya, also known as Chanakya, was an ancient Indian polymath who wrote the Arthashastra, an treatise that includes descriptions of ancient Indian water supply systems, including canals, dams, and water tanks. His work highlights the importance of water management and supply systems, which relied on gravitational potential energy and pressure to distribute water throughout the kingdom, much like modern water tank and pump systems.",
+    "story_hook": "Imagine being an engineer in ancient India, tasked with designing a water supply system for a vast kingdom, just like Kautilya described in his writings. As you explore the ruins of an ancient Indian city, you stumble upon an intricate network of canals, dams, and water tanks, and you begin to wonder how the ancient Indians were able to distribute water so efficiently using only gravity and simple pumps.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Water Tank and Pump",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Estimate bucket fill time from a tap at different times of day. Do not open pumps, tanks, or electrical systems."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "pressure_and_energy",
+    "volume_and_rate",
+    "water_quality",
+    "hygiene"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-water-tank-pump-pressure",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Conserve water, report leaks, and keep storage tanks clean through adults/professionals.",
+  "career_connections": "Civil engineering, plumbing design, public health, water resource management.",
+  "why_matters": "Students see infrastructure as applied physics, mathematics, health, and civic planning.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

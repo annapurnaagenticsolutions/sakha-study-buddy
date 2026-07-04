@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakha - Serverless Agentic Teaching</title>
+    <script>
+        // Serverless Proxy configuration for LLM inference (keeps API key secure)
+        window.PROXY_URL = "http://localhost:8787";
+    </script>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#3f51b5">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 3D Galaxy Container -->
+    <div id="galaxyContainer"></div>
+    <div id="galaxyOverlay" class="hidden">
+        <h1>Sakha Universe</h1>
+        <p>Select an unlocked concept to start learning.</p>
+    </div>
+    
+    <div id="galaxyFilters" class="hidden">
+        <button class="filter-btn active" data-subject="all">All</button>
+        <button class="filter-btn" data-subject="Physics">⚡ Physics</button>
+        <button class="filter-btn" data-subject="Math">🔢 Math</button>
+        <button class="filter-btn" data-subject="Chemistry">🧪 Chemistry</button>
+        <button class="filter-btn" data-subject="Biology">🌱 Biology</button>
+        <button class="filter-btn" data-subject="Life Skills">🏠 Life Skills</button>
+    </div>
+
+    <!-- Name Onboarding Modal (Replaced API Key Modal) -->
+    <div id="nameModal" class="modal hidden">
+        <div class="modal-content" style="text-align: center;">
+            <h2>🌟 Sakha mein swagat hai!</h2>
+            <p style="color: #666; margin-bottom: 1.5rem;">
+                Main hoon Sakha — tumhara AI study buddy.
+            </p>
+            <input type="text" id="studentName" placeholder="Apna naam batao..." maxlength="30" style="padding: 10px; font-size: 1.2rem; width: 100%; border-radius: 8px; border: 1px solid #ccc; margin-bottom: 1.5rem;" />
+            <button id="startBtn" style="width: 100%; padding: 12px; font-size: 1.2rem; background: var(--primary-color); color: white; border: none; border-radius: 8px; cursor: pointer;">Chalein! 🚀</button>
+        </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="appContainer" class="hidden">
+        <header>
+            <div class="logo">Sakha <span class="badge">Static Agent</span></div>
+            <div class="header-controls">
+                <span id="topicIndicator">Topic: Loading...</span>
+                <button id="whatsappBtn" aria-label="Share on WhatsApp">📱 WhatsApp</button>
+                <button id="shareBtn" aria-label="Share Session">Share Session</button>
+                <span id="peerIdDisplay" class="hidden" aria-live="polite"></span>
+                <label class="switch-label">
+                    <input type="checkbox" id="offlineToggle" aria-label="Toggle Offline Mode">
+                    Offline Mode (WebLLM)
+                </label>
+                <button id="resetBtn" aria-label="Reset Key">Home</button>
+            </div>
+        </header>
+
+        <main id="chatContainer">
+            <!-- Chat messages will be injected here -->
+        </main>
+
+        <div class="input-area" role="search">
+            <button id="cameraBtn" title="Show Camera" class="icon-btn" aria-label="Toggle Camera">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            </button>
+            <button id="micBtn" title="Hold to Speak" class="icon-btn" aria-label="Toggle Microphone">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+            </button>
+            <textarea id="userInput" placeholder="Type your answer or ask a question..." rows="1" aria-label="Type your message"></textarea>
+            <button id="sendBtn" aria-label="Send Message">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z" fill="currentColor"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script type="module" src="dist/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+{
+  "concept_id": "helmet-head-protection",
+  "title": "Why Helmets Protect the Head",
+  "icon": "🪖",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Physics",
+    "Biology",
+    "Math",
+    "Chemistry"
+  ],
+  "place": "Road + Sports",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why does wearing a helmet reduce injury during cycling or two-wheeler travel?",
+  "big_idea": "A helmet spreads impact force, increases stopping time, and protects the skull and brain from direct injury.",
+  "story": "During a fall, the head can hit the ground. A helmet shell and foam layer absorb and spread some impact, reducing risk to the brain.",
+  "cause_process_result": {
+    "cause": "Fall or collision",
+    "process": "Helmet shell contacts surface → Foam compresses → Impact spreads over time/area",
+    "result": "Head injury risk reduces"
+  },
+  "flow": [
+    "Fall or collision",
+    "Helmet shell contacts surface",
+    "Foam compresses",
+    "Impact spreads over time/area",
+    "Head injury risk reduces"
+  ],
+  "whiteboard": [
+    "Cause: Fall or collision",
+    "  -> Helmet shell contacts surface → Foam compresses → Impact spreads over time/area",
+    "Result: Head injury risk reduces"
+  ],
+  "indian_analogies": [
+    "Road + Sports mein yeh dekhte hain: Why Helmets Protect the Head.",
+    "Cycling"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is thinking helmets prevent every injury. They reduce risk, but safe speed and road awareness are still necessary.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Why Helmets Protect the Head mein Physics, Biology, Math, Chemistry sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does wearing a helmet reduce injury during cycling or two-wheeler travel?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does wearing a helmet reduce injury during cycling or two-wheeler travel?",
+      "a": "Helmet pahanane se sir ki suraksha hoti hai kyunki yeh head ko external jerk aur shock se bachata hai, jisse chot lagne ki sambhavna kam ho jati hai. Isse brain injury aur death ka risk bhi kam hota hai. Yeh helmet humare sir ko protect karta hai aur hume safe rakhta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does foam help?",
+      "a": "Foam helmet mein cushioning effect deta hai, jo sir ko lagne wale shock ko absorb karta hai, aur isse chot lagne ki sambhavna kam ho jati hai. Foam ki density bhi bahut mahatvapoorn hai, jo impact ko kam karne mein madad karti hai. Isse helmet pahanne wale ki suraksha badh jati hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does speed matter?",
+      "a": "Speed matter karta hai kyonki jab hum cycle ya bike chala rahe hote hain aur agar hume accident ho jata hai, toh speed jyada hone par humara sir zyada takat se ground par lagta hai, jisse helmet hume protect karta hai. Isliye, speed matter karta hai kyunki yeh decide karta hai ki helmet kitna effective hoga."
+    },
+    {
+      "type": "probe",
+      "q": "Why should straps be tight but comfortable?",
+      "a": "Straps ko tight aur comfortable rakhna chahiye taaki helmet sir par achhi tarah se fit ho aur ghatna ke samay sir ki suraksha ho sake. Agar straps loose hote hain to helmet sir par gir sakta hai aur agar straps tight hote hain to sir dard ho sakta hai. Isliye straps ko tight aur comfortable rakhna zaroori hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Fall or collision -> Helmet shell contacts surface -> Foam compresses — what exactly happens at each step?",
+      "a": "Pehle fall ya collision hota hai, phir helmet shell surface se takraata hai, aur antim step mein foam compress ho jaata hai jo sir ko shock absorb karta hai aur chot se bachata hai. Is process mein foam compress hone se sir ki chot kam hoti hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Helmet humare sir ki raksha karta hai kyunki yeh ek mazboot cover hai jo humare head ko nuksan se bachata hai, jaise ki agar hum cycle ya bike chalate waqt gir jayein to helmet humare sir ko protect karta hai. Yeh humare brain ko safe rakhta hai aur humein serious chot se bachata hai."
+    },
+    {
+      "type": "application",
+      "q": "Which helmet choice is safer?",
+      "a": "Is helmet ka choice jo thick padding aur strong outer shell ke saath aata hai, woh safer hai kyunki yeh sir ko jyada protection deta hai. Ismein ISI mark bhi hona chahiye, jo is baat ka guarantee hai ki helmet ki quality achhi hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which helmet choice is safer?",
+      "options": [
+        "Loose helmet tilted backward",
+        "Properly fitted helmet with strap",
+        "Helmet carried in hand",
+        "Cracked helmet reused"
+      ],
+      "correct": "Properly fitted helmet with strap",
+      "hint": "A properly fitted helmet can stay in place and absorb impact better than a loose or damaged one.",
+      "answer": "A properly fitted helmet can stay in place and absorb impact better than a loose or damaged one."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What if the helmet is loose?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What if speed is high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What if the helmet is cracked?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "A helmet protects the head during a fall. It must fit properly.",
+    "standard": "A helmet spreads impact and its foam compresses, increasing stopping time and reducing force on the head.",
+    "deep": "Helmet protection depends on impact energy, force distribution, material deformation, fit, strap position, and brain vulnerability. It reduces risk but does not replace safe riding.",
+    "hinglish": "Dekh yaar — Why Helmets Protect the Head mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "During a fall, the head can hit the ground. A helmet shell and foam layer absorb and spread some impact, reducing risk to the brain."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does wearing a helmet reduce injury during cycling or two-wheeler travel. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more travel speed.",
+    "class_6_8": "Explain the cause-effect chain: Fall or collision → Helmet shell contacts surface → Foam compresses → Impact spreads over time/area.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Biology, Math, Chemistry."
+  },
+  "subject_lenses": {
+    "Physics": "Impact force depends on speed, stopping time, and energy absorption.",
+    "Biology": "The skull protects the brain, but strong impacts can still cause injury.",
+    "Math": "Compare speed, distance, and risk levels.",
+    "Chemistry": "Helmet materials such as foam and polymers are chosen for strength and shock absorption."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Why Helmets Protect the Head ka concept aur jagah bhi kaam karta hai: Cycling, Scooters, Construction zones.",
+      "related_concepts": [],
+      "career_connection": "Biomechanics, safety engineering, materials science, transportation safety."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj why helmets protect the head se related kuch notice karo.",
+    "Why does wearing a helmet reduce injury during cycling or two-wheeler travel?",
+    "What if the helmet is loose?"
+  ],
+  "indian_legacy": {
+    "scientist": "Ancient Indian Armourers and the concept of Dhanurveda",
+    "connection": "The concept of spreading impact force and increasing stopping time can be related to the ancient Indian knowledge of Dhanurveda, which is the science of archery and warfare. In Dhanurveda, warriors used protective gear like helmets and shields to deflect and absorb the impact of arrows and other projectiles, similar to how modern helmets protect the head by spreading impact force and increasing stopping time.",
+    "story_hook": "Imagine you are a young prince in ancient India, learning the art of warfare from your guru, and you discover that the secret to surviving battles lies not just in your bravery, but also in the clever design of your helmet. As you learn more about the science behind your protective gear, you begin to appreciate the ingenuity of the ancient Indian armourers who designed these lifesaving devices.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Why Helmets Protect the Head",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Do not perform fall tests. Inspect helmet fit using a mirror and adult guidance. Never intentionally crash to test safety."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "impact_and_force",
+    "brain_protection",
+    "materials",
+    "risk_comparison"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-helmet-head-protection",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Wear a certified, properly fitted helmet and replace it after major impact or visible damage.",
+  "career_connections": "Biomechanics, safety engineering, materials science, transportation safety.",
+  "why_matters": "It connects science with a life-saving road safety decision.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

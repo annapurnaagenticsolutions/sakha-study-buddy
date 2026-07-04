@@ -1,0 +1,227 @@
+{
+  "concept_id": "ice-melting",
+  "title": "Why Ice Melts",
+  "icon": "🧊",
+  "class_band": [
+    1,
+    2,
+    3
+  ],
+  "subjects": [
+    "Physics",
+    "Chemistry",
+    "Math"
+  ],
+  "place": "Home",
+  "level": "Foundation",
+  "prerequisites": [],
+  "intro_hook": "Why does ice become water when it is kept outside the freezer?",
+  "big_idea": "Ice melts because it takes heat from the surroundings. The same material, water, can exist as solid ice or liquid water depending on temperature.",
+  "story": "An ice cube on a plate slowly changes shape. It becomes smaller, then turns into water. The room gives heat to the ice.",
+  "cause_process_result": {
+    "cause": "Ice cube",
+    "process": "Heat from room → Particles move more → Solid becomes liquid",
+    "result": "Water spreads"
+  },
+  "flow": [
+    "Ice cube",
+    "Heat from room",
+    "Particles move more",
+    "Solid becomes liquid",
+    "Water spreads"
+  ],
+  "whiteboard": [
+    "Cause: Ice cube",
+    "  -> Heat from room → Particles move more → Solid becomes liquid",
+    "Result: Water spreads"
+  ],
+  "indian_analogies": [
+    "Home mein yeh dekhte hain: Why Ice Melts.",
+    "Freezer"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat why ice melts as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Why Ice Melts mein Physics, Chemistry, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does ice become water when it is kept outside the freezer?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does ice become water when it is kept outside the freezer?",
+      "a": "Ice freezer se bahar nikalte hi pighalne lagti hai kyunki uska taapmaan badh jata hai aur ice ke molecules tezi se move hone lagte hain, jiske kaaran ice melt ho kar paani ban jati hai. Is process ko heat energy ke kaaran melting kehte hain."
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?",
+      "a": "Agar taapmaan badhta hai, toh barf jaldi pighalne lagti hai, kyunki garmi ke kaaran barf ke kan aur molecules tez hote hain aur unka sanrachna bigadta hai. Isse barf ki sanrachna kamjor ho jati hai aur yeh pighalne lagti hai. Taapmaan badhne se barf ke pighalne ki gati"
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?",
+      "a": "Vigyaan ka ek subject, science, ismein sabse bada hissa samjhaata hai, khaaskar physics aur chemistry. Ismein humein pata chalta hai ki ice kyun pighalta hai, jaise ki garmi ke kaaran molecules ki gati badhne se. Isliye, science humein iska sabse accha jawab deta hai."
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum ghar par ya school mein ek glass mein baraf lekar usmein thoda sa namak daal kar dekhein, aur phir uska temperature check karte hue dekhein ki baraf kitna jaldi pighalta hai. Isse hum safely test kar sakte hain ki baraf kaise pighalta hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Ice cube -> Heat from room -> Particles move more — what exactly happens at each step?",
+      "a": "Ice cube mein particles tightly packed hote hain, room se heat milne par particles ki motion badh jati hai, jisse particles ki distance badh jati hai aur ice melt ho jata hai. Is process mein particles ki kinetic energy badh jati hai, jisse ice ka solid state liquid state mein badal jata hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Ice melt hoti hai kyunki jab uspe garmi padti hai to uske molecules tezi se move karne lagte hain aur ice ke crystals toot jaate hain, jisse ice pighal kar paani ban jaati hai. Isliye, jab hum ice ko garm jagah par rakhte hain, to woh melt ho jaati hai."
+    },
+    {
+      "type": "application",
+      "q": "What happens faster on a warm sunny day?",
+      "a": "Garm dhoop wali din mein baraf jaldi pighal jata hai kyunki usmein adhik garmi hoti hai jo baraf ke molecules ko tez kar deti hai aur vah jaldi pighalne lagta hai. Is din mein baraf ka pighalna kaam samay mein hota hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What happens faster on a warm sunny day?",
+      "options": [
+        "Ice melts slower",
+        "Ice melts faster",
+        "Ice becomes salt",
+        "Ice becomes air immediately"
+      ],
+      "correct": "Ice melts faster",
+      "hint": "Higher surrounding temperature transfers heat to ice faster, so melting speeds up.",
+      "answer": "Higher surrounding temperature transfers heat to ice faster, so melting speeds up."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if room warmth becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if room warmth becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Why Ice Melts shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Why Ice Melts, one or more factors such as room warmth change what we observe. The idea connects Physics, Chemistry, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Why Ice Melts connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Ice melts because it takes heat from the surroundings. The same material, water, can exist as solid ice or liquid water depending on temperature.",
+    "hinglish": "Dekh yaar — Why Ice Melts mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "An ice cube on a plate slowly changes shape. It becomes smaller, then turns into water. The room gives heat to the ice."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does ice become water when it is kept outside the freezer. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more room warmth.",
+    "class_6_8": "Explain the cause-effect chain: Ice cube → Heat from room → Particles move more → Solid becomes liquid.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Chemistry, Math."
+  },
+  "subject_lenses": {
+    "Physics": "Heat transfer from warmer surroundings to colder ice.",
+    "Chemistry": "Change of state: solid water becomes liquid water; no new substance forms.",
+    "Math": "Compare time taken to melt in shade and sunlight."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Why Ice Melts ka concept aur jagah bhi kaam karta hai: Freezer, Cold drinks, Ice cream melting.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj why ice melts se related kuch notice karo.",
+    "Why does ice become water when it is kept outside the freezer?",
+    "What would happen if room warmth becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Jagadish Chandra Bose",
+    "connection": "Jagadish Chandra Bose, a renowned Indian scientist, made significant contributions to the understanding of the physical properties of materials, including the effects of temperature on their state. His work on the physical properties of materials, such as the response of plants to environmental stimuli, laid the foundation for understanding the behavior of water as it transitions between solid and liquid states, much like the concept of ice melting due to heat from the surroundings.",
+    "story_hook": "Imagine you are on a hot summer day in India, watching the ice cream vendor as the ice in his cart starts to melt, just like the ice in the Himalayas that Jagadish Chandra Bose might have studied during his research. As you enjoy your cold treat, you begin to wonder, what magic is happening that turns the solid ice into a liquid, and can you use science to understand this magical transformation?",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Why Ice Melts",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Place one ice cube in shade and one near sunlight on separate plates. Compare safely without touching electrical devices or slippery floors."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "heat",
+    "states_of_matter",
+    "time_comparison"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-ice-melting",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Why Ice Melts turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 3,
+  "learning_track": [
+    "core"
+  ]
+}

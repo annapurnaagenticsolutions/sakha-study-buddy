@@ -1,0 +1,201 @@
+{
+  "concept_id": "physics_velocity",
+  "title": "Velocity",
+  "icon": "⚡",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "speed",
+    "direction",
+    "motion"
+  ],
+  "intro_hook": "If you run around a circular track and return to your starting point, what is your average velocity for the full trip? Why?",
+  "big_idea": "Velocity is speed with direction and prepares students for vector thinking.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Velocity tells how fast and in which direction.",
+    "process": "Two cars can have same speed but different velocity if directions differ. Arrow length for speed and arrow direction for direction.",
+    "result": "Navigation, circular motion, vectors, relative motion."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Velocity tells how fast and in which direction.",
+    "Visual: Arrow length for speed and arrow direction for direction.",
+    "Formal: Velocity is displacement per unit time.",
+    "Application: Navigation, circular motion, vectors, relative motion."
+  ],
+  "indian_analogies": [
+    "If you leave home, walk around the block, and return home, your trip distance is not zero but your displacement is zero.",
+    "Track ka full round lene par distance cover hota hai, lekin final point start jaisa hi hai. Displacement zero, average velocity zero."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_physics_velocity_01",
+      "belief": "velocity and speed are always identical",
+      "why_common": "I treated velocity as the same thing as speed and ignored direction.",
+      "probe": "If you return to your starting point after running, what is your average velocity? Why?",
+      "repair": "Use arrows with length for speed and direction for velocity. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use arrows with length for speed and direction for velocity.",
+      "follow_up": "Give a changed velocity situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Contrast two objects moving at same speed in opposite directions.",
+      "mastery_signal": "Learner can explain why “velocity and speed are always identical” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: velocity and speed",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_velocity_02",
+      "belief": "direction does not matter",
+      "why_common": "I treated velocity as the same thing as speed and ignored direction.",
+      "probe": "If you return to your starting point after running, what is your average velocity? Why?",
+      "repair": "Use arrows with length for speed and direction for velocity. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use arrows with length for speed and direction for velocity.",
+      "follow_up": "Give a changed velocity situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Contrast two objects moving at same speed in opposite directions.",
+      "mastery_signal": "Learner can explain why “direction does not matter” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: direction does not",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_velocity_03",
+      "belief": "zero displacement means no movement happened",
+      "why_common": "I treated velocity as the same thing as speed and ignored direction.",
+      "probe": "If you return to your starting point after running, what is your average velocity? Why?",
+      "repair": "Use arrows with length for speed and direction for velocity. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use arrows with length for speed and direction for velocity.",
+      "follow_up": "Give a changed velocity situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Contrast two objects moving at same speed in opposite directions.",
+      "mastery_signal": "Learner can explain why “zero displacement means no movement happened” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: zero displacement no",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "If you run around a circular track and return to your starting point, what is your average velocity for the full trip? Why?",
+      "a": "Aapka average velocity zero hai kyunki aap starting point par hi wapas aa gaye. Iska matlab hai ki aapne net displacement nahin kiya, isliye aapka average velocity zero hai."
+    },
+    {
+      "type": "probe",
+      "q": "Average velocity uses displacement, not total distance."
+    },
+    {
+      "type": "probe",
+      "q": "What is your final position compared with starting position?"
+    },
+    {
+      "type": "probe",
+      "q": "If final and initial positions are same, what is displacement?",
+      "a": "Yadi antim aur prarambhik sthan same hote hain, toh displacement zero hota hai, kyunki displacement ki ganana initial se final position tak ki doori par hoti hai, aur yahan dono same hain. Isliye, displacement ka maan zero hoga."
+    },
+    {
+      "type": "application",
+      "q": "You walk 3 km east and then 3 km west. What is your displacement and average velocity for the full trip?"
+    },
+    {
+      "type": "teach_back",
+      "q": "What is the difference between distance and displacement?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "If you return to your starting point after running, what is your average velocity? Why?",
+      "hint": "Velocity tells how fast and in which direction.",
+      "answer": "Average velocity is zero because total displacement is zero, even though distance covered is not zero."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "You walk 3 km east and then 3 km west. What is your displacement and average velocity for the full trip?",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires using displacement and direction to distinguish velocity from speed."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Average velocity is zero because you end where you started. Total displacement is zero, although you covered distance around the track.",
+    "visual": "Draw the circular path. The full path length is distance, but the straight arrow from start to finish has length zero.",
+    "real_life": "If you leave home, walk around the block, and return home, your trip distance is not zero but your displacement is zero.",
+    "formal": "Average velocity = displacement / time. Since displacement = 0 for a round trip, average velocity = 0.",
+    "socratic": "Where did you start? Where did you end? What straight-line change in position remains?",
+    "mistake_analysis": "The mistake is using distance when velocity requires displacement with direction.",
+    "hinglish": "Track ka full round lene par distance cover hota hai, lekin final point start jaisa hi hai. Displacement zero, average velocity zero.",
+    "challenge": "Can average speed be non-zero while average velocity is zero? Give an example.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Velocity tells how fast and in which direction.",
+    "standard": "Two cars can have same speed but different velocity if directions differ.",
+    "advanced": "Velocity is displacement per unit time.",
+    "fast_learner": "Can average speed be non-zero while average velocity is zero? Give an example."
+  },
+  "subject_lenses": {
+    "Physics": "Navigation, circular motion, vectors, relative motion."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Velocity ka use real life mein: Navigation, circular motion, vectors, relative motion.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj velocity ka ek real-life example dhundo.",
+    "If you leave home, walk around the block, and return home, your trip distance is not zero but your displacement is zero."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, described the concept of velocity in his work Aryabhatiya. He discussed the orbital velocities of celestial bodies, such as planets and stars, which is a fundamental application of velocity in the field of astronomy. Aryabhata's understanding of velocity, although in a different context, laid the foundation for the development of modern concepts of speed and direction.",
+    "story_hook": "Imagine you are a young astronomer living in ancient India, trying to track the path of the planets in the night sky, just like Aryabhata did over a thousand years ago. As you observe the movements of the celestial bodies, you begin to wonder about the speed and direction of their orbits, which leads you to discover the fascinating concept of velocity.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Velocity",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "If you leave home, walk around the block, and return home, your trip distance is not zero but your displacement is zero."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-physics_velocity",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires using displacement and direction to distinguish velocity from speed.",
+  "session_type": "science",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_physics_velocity_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

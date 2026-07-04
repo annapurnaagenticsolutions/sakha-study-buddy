@@ -1,0 +1,164 @@
+{
+  "concept_id": "water-treatment-network",
+  "title": "Water Treatment Network",
+  "icon": "💧",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Chemistry",
+    "Biology",
+    "Physics"
+  ],
+  "level": "Advanced Systems",
+  "prerequisites": [],
+  "intro_hook": "How does dirty river water become safe drinking water? What can go wrong?",
+  "big_idea": "Multi-step process: coagulation -> flocculation -> sedimentation -> filtration -> disinfection. Clear water is NOT always biologically safe.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Raw river or groundwater enters treatment plant",
+    "process": "Each step removes different contaminants: particles then microbes",
+    "result": "Safe drinking water; failure = contamination breakthrough to consumers"
+  },
+  "flow": [
+    "Raw river or groundwater enters treatment plant",
+    "Each step removes different contaminants: particles then microbes",
+    "Safe drinking water; failure = contamination breakthrough to consumers"
+  ],
+  "whiteboard": [
+    "System Lens: Purpose -> Inputs -> Process -> Outputs -> Feedback -> Failure -> Data -> Design",
+    "Cause: Raw river or groundwater enters treatment plant",
+    "  -> Each step removes different contaminants: particles then microbes",
+    "Result: Safe drinking water; failure = contamination breakthrough to consumers"
+  ],
+  "indian_analogies": [
+    "India context: TODO — add local real-world example of this system."
+  ],
+  "misconceptions": [
+    {
+      "id": "system_never_fails",
+      "belief": "Well-designed systems never fail.",
+      "probe": "What happens when one sensor fails in this system?",
+      "repair": "Every system has failure modes. Engineering is about making failures safe, detectable, and recoverable — not eliminating them entirely.",
+      "trigger_words": [
+        "perfect system",
+        "never fails",
+        "always works"
+      ]
+    },
+    {
+      "id": "single_cause_failure",
+      "belief": "System failures always have a single clear cause.",
+      "probe": "What if two components fail simultaneously in different parts of the chain?",
+      "repair": "Complex systems have cascading failures — sensor error, transport delay, power cut, and human error often combine.",
+      "trigger_words": [
+        "one cause",
+        "simple fix",
+        "just one thing broke"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does dirty river water become safe drinking water? What can go wrong?"
+    },
+    {
+      "type": "probe",
+      "q": "What inputs does this system need to function?",
+      "a": "Yeh system kaam karne ke liye paani, bijli, aur chemical inputs ki aavashyakta hoti hai, jo ki treatment process ko poora karne mein madad karti hain. Ismein filter bhi lagte hain jo paani ko saaf karte hain."
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace the full Purpose->Inputs->Process->Outputs->Feedback chain."
+    },
+    {
+      "type": "probe",
+      "q": "Where could this system fail? What would the warning signal look like?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Design a simple version of this system. What is your most important design decision and why?",
+      "a": "Mere design mein sabse important decision hai ki maine paani ko filter karne ke liye charcoal aur sand ka use kiya hai, kyunki yeh contaminants ko remove karne mein madad karta hai. Isse paani saf aur swachh hota hai. Main ne is design ko simple aur cost-effective banaya hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "design",
+      "q": "What single change would most improve the reliability of the Water Treatment Network? What trade-off does it introduce?",
+      "hint": "Think about the feedback loop — what information is currently missing?",
+      "answer": "Multiple valid answers — evaluate by quality of trade-off reasoning."
+    },
+    {
+      "difficulty": 3,
+      "type": "failure_analysis",
+      "q": "One component in the Water Treatment Network fails silently (no alarm). Trace what happens step by step.",
+      "hint": "Follow the process chain — where does the error propagate?",
+      "answer": "Depends on component; evaluate by systematic chain reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Multi-step process: coagulation -> flocculation -> sedimentation -> filtration -> disinfection. Clear water is NOT always biologically safe.",
+    "formal": "Systems lens: Purpose->Inputs->Process->Outputs->Feedback->Failure->Data->Design",
+    "real_life": "How does dirty river water become safe drinking water? What can go wrong?",
+    "hinglish": "Yaar, water treatment network ek system hai — inputs aate hain, process hoti hai, output nikalta hai. Kya fail ho sakta hai?"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with Purpose only — what problem does this system solve?",
+    "standard": "Map all 8 system dimensions.",
+    "fast_learner": "Design an improved version under a new constraint."
+  },
+  "subject_lenses": {
+    "Chemistry": "Applied in this system",
+    "Biology": "Applied in this system",
+    "Physics": "Applied in this system"
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Water Treatment Network ka ek surprising failure mode hai jo tune shayad socha nahi hoga.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "How does dirty river water become safe drinking water? What can go wrong?",
+    "Notice a water treatment network around you today — map its inputs and one failure mode."
+  ],
+  "indian_legacy": {
+    "scientist": "Rajendra Singh",
+    "connection": "Rajendra Singh, also known as the 'Waterman of India', has worked tirelessly to restore and conserve India's water bodies. His work highlights the importance of a multi-step process in water treatment, similar to the water treatment network concept, where each step is crucial in ensuring the water is safe for consumption and use.",
+    "story_hook": "Imagine a village where the river water was so polluted that it couldn't be used for drinking or irrigation, but thanks to Rajendra Singh's efforts, the water was restored to its former glory. Let's embark on a journey to learn about the water treatment network, a multi-step process that makes water safe for us to drink, just like Rajendra Singh made the rivers of India flow with clean water again.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Observe: Water Treatment Network",
+    "time_required": "5 min",
+    "steps": [
+      "Find a real example of a water treatment network in your city or home. Map its inputs, outputs, and one failure mode."
+    ],
+    "share_with_sakha": "What was surprising about the system you observed?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "advanced-stem-systems-lab#module-water-treatment-network",
+  "visualizer_type": "advanced_systems_simulator",
+  "session_type": "science",
+  "_source": "advanced-stem-systems-lab-v1.0",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "indian_analogies",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

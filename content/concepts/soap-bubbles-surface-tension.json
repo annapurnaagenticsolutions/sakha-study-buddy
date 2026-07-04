@@ -1,0 +1,225 @@
+{
+  "concept_id": "soap-bubbles-surface-tension",
+  "title": "Soap Bubbles",
+  "icon": "🫧",
+  "class_band": [
+    1,
+    2,
+    3
+  ],
+  "subjects": [
+    "Physics",
+    "Chemistry",
+    "Math",
+    "Biology"
+  ],
+  "place": "Play + Bath",
+  "level": "Foundation",
+  "prerequisites": [],
+  "intro_hook": "Why do soap bubbles become round and why do they burst when touched?",
+  "big_idea": "A soap bubble is a thin film of soapy water wrapped around air. Its round shape reduces surface area, and it bursts when the film becomes weak or dirty.",
+  "story": "A child blows through a bubble wand. Air stretches the soap film. The film forms a sphere, shines with colours, floats briefly, and then bursts.",
+  "cause_process_result": {
+    "cause": "Soap film",
+    "process": "Air blown inside → Round bubble forms → Film becomes thin",
+    "result": "Bubble bursts"
+  },
+  "flow": [
+    "Soap film",
+    "Air blown inside",
+    "Round bubble forms",
+    "Film becomes thin",
+    "Bubble bursts"
+  ],
+  "whiteboard": [
+    "Cause: Soap film",
+    "  -> Air blown inside → Round bubble forms → Film becomes thin",
+    "Result: Bubble bursts"
+  ],
+  "indian_analogies": [
+    "Play + Bath mein yeh dekhte hain: Soap Bubbles.",
+    "Bubble toys"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Many students think bubbles are round because the wand is round. Actually, once free in air, the film pulls itself into a near sphere.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Soap Bubbles mein Physics, Chemistry, Math, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do soap bubbles become round and why do they burst when touched?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do soap bubbles become round and why do they burst when touched?"
+    },
+    {
+      "type": "probe",
+      "q": "Why does a bubble burst when touched?"
+    },
+    {
+      "type": "probe",
+      "q": "Why do bubbles show colours?"
+    },
+    {
+      "type": "probe",
+      "q": "Why does too much force break the film?",
+      "a": "Jab hum film par bahut zyada force lagate hain, to yeh film toot jati hai kyonki usmein maujood surface tension kam ho jata hai aur film apna shape aur strength khone lagti hai. Isliye, film ko break hone se bachane ke liye humein us par sahi force lagani chahiye."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Soap film -> Air blown inside -> Round bubble forms — what exactly happens at each step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "Why are many bubbles almost round?",
+      "a": "Ismein surface tension ki wajah se bubbles almost round hote hain, kyunki yeh surface area ko kam karta hai aur bubble ko mazboot banata hai, jisse bubble apne aap ko round shape mein set kar leta hai. Yeh surface tension ka ek important pehlu hai jo bubbles ko round banata hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why are many bubbles almost round?",
+      "options": [
+        "A sphere needs less surface for the same enclosed air",
+        "Bubbles copy the shape of the bottle",
+        "Soap becomes a magnet",
+        "Air has corners"
+      ],
+      "correct": "A sphere needs less surface for the same enclosed air",
+      "hint": "A bubble film naturally pulls into a shape that uses less surface area, so it becomes almost spherical.",
+      "answer": "A bubble film naturally pulls into a shape that uses less surface area, so it becomes almost spherical."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if soap mix strength becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if soap mix strength becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Soap Bubbles shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Soap Bubbles, one or more factors such as soap mix strength change what we observe. The idea connects Physics, Chemistry, Math, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Soap Bubbles connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. A soap bubble is a thin film of soapy water wrapped around air. Its round shape reduces surface area, and it bursts when the film becomes weak or dirty.",
+    "hinglish": "Dekh yaar — Soap Bubbles mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A child blows through a bubble wand. Air stretches the soap film. The film forms a sphere, shines with colours, floats briefly, and then bursts."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do soap bubbles become round and why do they burst when touched. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more soap mix strength.",
+    "class_6_8": "Explain the cause-effect chain: Soap film → Air blown inside → Round bubble forms → Film becomes thin.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Chemistry, Math, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Surface tension, air pressure, floating motion, and bursting of a thin film.",
+    "Chemistry": "Soap changes water surface behaviour and forms a flexible film.",
+    "Math": "Compare bubble sizes, count bubbles, and notice round shapes and spheres.",
+    "Biology": "Avoid soap in eyes or mouth; clean hands after play."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Soap Bubbles ka concept aur jagah bhi kaam karta hai: Bubble toys, Bath foam, Soap cleaning.",
+      "related_concepts": [],
+      "career_connection": "Materials science, toy design, cosmetics, detergents, fluid physics."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj soap bubbles se related kuch notice karo.",
+    "Why do soap bubbles become round and why do they burst when touched?",
+    "What would happen if soap mix strength becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Jagadish Chandra Bose",
+    "connection": "Jagadish Chandra Bose, a renowned Indian scientist, made significant contributions to the understanding of surface tension. His work on the properties of liquids and gases can be related to the concept of soap bubbles, where surface tension plays a crucial role in maintaining the shape and integrity of the bubble. Bose's research laid the foundation for understanding the behavior of liquids and gases, which is essential for grasping the principles of soap bubbles.",
+    "story_hook": "Imagine you are a young scientist in ancient India, trying to understand the secrets of the lotus leaf and how it stays clean in a muddy pond, which leads you to discover the magic of surface tension. As you explore further, you come across the fascinating world of soap bubbles and learn how they work, just like the great Indian scientist Jagadish Chandra Bose did in his groundbreaking research.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Soap Bubbles",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Use a safe soap-water mix with adult guidance. Blow gently using a bubble wand. Do not taste the liquid and keep it away from eyes."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "surface_tension",
+    "soap_film",
+    "spheres_and_size_comparison",
+    "safe_handling"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-soap-bubbles-surface-tension",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Blow gently, avoid eyes, and understand why some mixtures make better bubbles than plain water.",
+  "career_connections": "Materials science, toy design, cosmetics, detergents, fluid physics.",
+  "why_matters": "This turns a playful activity into a clear introduction to surface tension, shape, material behaviour, and safety.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 3,
+  "learning_track": [
+    "core"
+  ]
+}

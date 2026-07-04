@@ -1,0 +1,53 @@
+{
+  "concept_id": "ohms_law",
+  "title": "Ohm's Law",
+  "subjects": [
+    "Science",
+    "Physics"
+  ],
+  "class_band": [
+    10
+  ],
+  "prerequisites": [
+    "electricity-circuits",
+    "resistance_basics"
+  ],
+  "stem_lab_link": "file:///D:/vision_agentic/STEM_labs/physics_concepts_lab/physics_concepts_lab_class1_10/index.html",
+  "intro_hook": "Have you noticed that a higher voltage across the same resistor usually drives more current? Why does that happen?",
+  "big_idea": "For many conductors at constant temperature, current is proportional to potential difference. Resistance is the opposition to current. (Ohm's law is the central quantitative rule for simple electric circuits.)",
+  "cause_process_result": {
+    "cause": "Potential difference (Voltage) is applied.",
+    "process": "Electric charge (Current) flows through the conductor.",
+    "result": "The flow is opposed by the material's Resistance."
+  },
+  "whiteboard": [
+    "⚡ Voltage = Current × Resistance",
+    "$$ V = I \\cdot R $$",
+    "",
+    "**Decoder:**",
+    "V: potential difference in volt (V)",
+    "I: current in ampere (A)",
+    "R: resistance in ohm (Ω)"
+  ],
+  "indian_analogies": [
+    "Think of Voltage as a water pump pushing water, Current as the water flowing through a pipe, and Resistance as rocks inside the pipe slowing the water down."
+  ],
+  "misconceptions": [
+    {
+      "id": "mc_ohms_universal",
+      "belief": "Ohm's law is universal for every material under every condition.",
+      "probe": "Is Ohm's law always true? What if the wire gets really hot? Does temperature and material behavior matter?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": "Easy",
+      "q": "If Current (I) is 0.5 A, and Resistance (R) is 20 Ω. What is the Voltage (V)?",
+      "hint": "Use the formula V = I × R"
+    }
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

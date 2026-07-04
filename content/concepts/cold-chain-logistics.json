@@ -1,0 +1,168 @@
+{
+  "concept_id": "cold-chain-logistics",
+  "title": "Cold-Chain Logistics",
+  "icon": "🧊",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Chemistry",
+    "Biology",
+    "Physics",
+    "Math"
+  ],
+  "level": "Advanced Systems",
+  "prerequisites": [],
+  "intro_hook": "How does a vaccine stay effective from a Delhi factory to a rural clinic in Rajasthan?",
+  "big_idea": "Temperature 2-8 deg C must be maintained at every step: factory storage, refrigerated transport, district cold room, last-mile cooler box. One temperature break = potential vaccine failure.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Vaccine manufactured and stored at controlled 2-8 deg C",
+    "process": "Temperature monitored at every handoff; cold chain maintained through transport",
+    "result": "Effective vaccine reaches patient; one chain break = inactive or unsafe vaccine"
+  },
+  "flow": [
+    "Vaccine manufactured and stored at controlled 2-8 deg C",
+    "Temperature monitored at every handoff; cold chain maintained through transport",
+    "Effective vaccine reaches patient; one chain break = inactive or unsafe vaccine"
+  ],
+  "whiteboard": [
+    "System Lens: Purpose -> Inputs -> Process -> Outputs -> Feedback -> Failure -> Data -> Design",
+    "Cause: Vaccine manufactured and stored at controlled 2-8 deg C",
+    "  -> Temperature monitored at every handoff; cold chain maintained through transport",
+    "Result: Effective vaccine reaches patient; one chain break = inactive or unsafe vaccine"
+  ],
+  "indian_analogies": [
+    "India context: TODO — add local real-world example of this system."
+  ],
+  "misconceptions": [
+    {
+      "id": "system_never_fails",
+      "belief": "Well-designed systems never fail.",
+      "probe": "What happens when one sensor fails in this system?",
+      "repair": "Every system has failure modes. Engineering is about making failures safe, detectable, and recoverable — not eliminating them entirely.",
+      "trigger_words": [
+        "perfect system",
+        "never fails",
+        "always works"
+      ]
+    },
+    {
+      "id": "single_cause_failure",
+      "belief": "System failures always have a single clear cause.",
+      "probe": "What if two components fail simultaneously in different parts of the chain?",
+      "repair": "Complex systems have cascading failures — sensor error, transport delay, power cut, and human error often combine.",
+      "trigger_words": [
+        "one cause",
+        "simple fix",
+        "just one thing broke"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does a vaccine stay effective from a Delhi factory to a rural clinic in Rajasthan?",
+      "a": "Vaccine ko effective rakhne ke liye cold-chain logistics ka use kiya jata hai, jismein vaccine ko factory se rural clinic tak refrigerated containers aur vans mein rakha jata hai, taaki uska temperature control ho sake. Isse vaccine apni potency maintain kar sakti hai."
+    },
+    {
+      "type": "probe",
+      "q": "What inputs does this system need to function?",
+      "a": "Cold-chain logistics system ko function karne ke liye kai inputs ki zarurat hoti hai, jaise ki refrigerated vehicles, thermally insulated containers, aur electricity ya fuel. In inputs ke saath, system ko sahi tarah se monitor karne ke liye trained manpower ki bhi zarurat hoti hai. Isse sabziyon, fruits, aur pharmaceutical products ko surakshit aur taze rakhne mein madad milti hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace the full Purpose->Inputs->Process->Outputs->Feedback chain.",
+      "a": "Cold-Chain Logistics ka purpose hai ki hum phal, sabziyon aur dawaiyon ko surakshit aur taze rakhein. Ismein inputs hote hain jaise refrigerated vehicles, cold storage, aur packaging materials, jo process ke madhyam se outputs banate hain jaise ki taze utpaad, aur feedback ke roop mein customer satisfaction aur quality control hota hai. Is chain ke madhyam se hum ensure kar sakte h"
+    },
+    {
+      "type": "probe",
+      "q": "Where could this system fail? What would the warning signal look like?",
+      "a": "Cold-chain logistics system fail ho sakta hai agar temperature control mein galti ho, jaise ki refrigerator ya freezer ka malfunction. Iska warning signal dekhne ko milega jab products ka temperature range se bahar chale jaye, jisse unhe spoil hone ka khatra ho. Is signal ko dekhkar immediate action lena zaroori hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Design a simple version of this system. What is your most important design decision and why?",
+      "a": "Humne ek simple cold-chain logistics system design kiya hai jismein sabse important decision yeh hai ki hum insulated vans aur refrigerated containers ka use karenge taaki saman ko garmi se bachaya ja sake. Isse humara saman surakshit rahega aur spoil hone se bach jayega. Is design decision ko humne isliye chuna hai kyunki yeh humare saman ko sahi temperature maintain karne mein mad"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "design",
+      "q": "What single change would most improve the reliability of the Cold-Chain Logistics? What trade-off does it introduce?",
+      "hint": "Think about the feedback loop — what information is currently missing?",
+      "answer": "Multiple valid answers — evaluate by quality of trade-off reasoning."
+    },
+    {
+      "difficulty": 3,
+      "type": "failure_analysis",
+      "q": "One component in the Cold-Chain Logistics fails silently (no alarm). Trace what happens step by step.",
+      "hint": "Follow the process chain — where does the error propagate?",
+      "answer": "Depends on component; evaluate by systematic chain reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Temperature 2-8 deg C must be maintained at every step: factory storage, refrigerated transport, district cold room, last-mile cooler box. One temperature break = potential vaccine failure.",
+    "formal": "Systems lens: Purpose->Inputs->Process->Outputs->Feedback->Failure->Data->Design",
+    "real_life": "How does a vaccine stay effective from a Delhi factory to a rural clinic in Rajasthan?",
+    "hinglish": "Yaar, cold-chain logistics ek system hai — inputs aate hain, process hoti hai, output nikalta hai. Kya fail ho sakta hai?"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with Purpose only — what problem does this system solve?",
+    "standard": "Map all 8 system dimensions.",
+    "fast_learner": "Design an improved version under a new constraint."
+  },
+  "subject_lenses": {
+    "Chemistry": "Applied in this system",
+    "Biology": "Applied in this system",
+    "Physics": "Applied in this system",
+    "Math": "Applied in this system"
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Cold-Chain Logistics ka ek surprising failure mode hai jo tune shayad socha nahi hoga.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "How does a vaccine stay effective from a Delhi factory to a rural clinic in Rajasthan?",
+    "Notice a cold-chain logistics around you today — map its inputs and one failure mode."
+  ],
+  "indian_legacy": {
+    "scientist": "Jagadish Chandra Bose",
+    "connection": "Jagadish Chandra Bose, a renowned Indian scientist, made significant contributions to the field of physics and botany. His work on the effects of temperature on plant growth and response can be related to the concept of cold-chain logistics, where maintaining a specific temperature range is crucial for preserving the efficacy of vaccines, much like how plants require optimal temperatures to thrive.",
+    "story_hook": "Imagine you are on a mission to deliver life-saving vaccines to a remote village, and you must navigate through a scorching desert to get there, but you have a special cooler box that keeps the vaccines at just the right temperature. As you open the box, you recall the words of Jagadish Chandra Bose, who taught us about the importance of temperature in preserving the potency of living things, and you realize that your cooler box is like a magic shield that protects the vaccines from the harsh outside world.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Observe: Cold-Chain Logistics",
+    "time_required": "5 min",
+    "steps": [
+      "Find a real example of a cold-chain logistics in your city or home. Map its inputs, outputs, and one failure mode."
+    ],
+    "share_with_sakha": "What was surprising about the system you observed?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "advanced-stem-systems-lab#module-cold-chain-logistics",
+  "visualizer_type": "advanced_systems_simulator",
+  "session_type": "science",
+  "_source": "advanced-stem-systems-lab-v1.0",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "indian_analogies",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

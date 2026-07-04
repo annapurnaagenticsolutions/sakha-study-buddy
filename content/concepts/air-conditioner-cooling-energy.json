@@ -1,0 +1,231 @@
+{
+  "concept_id": "air-conditioner-cooling-energy",
+  "title": "Air Conditioner and Room Cooling",
+  "icon": "❄️",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Chemistry",
+    "Math",
+    "Biology"
+  ],
+  "place": "Home + Energy",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "Why does an air conditioner cool a room but increase the electricity bill?",
+  "big_idea": "An air conditioner transfers heat from inside to outside using electricity, refrigerant, pressure changes, fans, and coils. Comfort also depends on humidity, insulation, and human body response.",
+  "story": "A room feels hot in the afternoon. The AC transfers heat out of the room, but open doors, sunlight, and poor insulation make it work longer and use more energy.",
+  "cause_process_result": {
+    "cause": "Room gains heat",
+    "process": "AC uses electricity → Refrigerant cycle moves heat → Cool air circulates",
+    "result": "Bill and comfort change"
+  },
+  "flow": [
+    "Room gains heat",
+    "AC uses electricity",
+    "Refrigerant cycle moves heat",
+    "Cool air circulates",
+    "Bill and comfort change"
+  ],
+  "whiteboard": [
+    "Cause: Room gains heat",
+    "  -> AC uses electricity → Refrigerant cycle moves heat → Cool air circulates",
+    "Result: Bill and comfort change"
+  ],
+  "indian_analogies": [
+    "Home + Energy mein yeh dekhte hain: Air Conditioner and Room Cooling.",
+    "Home cooling"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "An AC does not create cold from nothing; it moves heat from inside the room to outside using energy.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Air Conditioner and Room Cooling mein Physics, Chemistry, Math, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does an air conditioner cool a room but increase the electricity bill?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does an air conditioner cool a room but increase the electricity bill?",
+      "a": "Air conditioner room ko cool karta hai lekin electricity bill badhata hai kyunki ismein compressor, fan aur motor jaise components hote hain jo bahut electricity consume karte hain. Isliye, air conditioner chalane se humara electricity bill increase ho jata hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does shade reduce cooling load?",
+      "a": "Shade reduce cooling load kyonki yeh dhup ko kam kar deta hai, jisse room mein garmi kam hoti hai aur air conditioner ko kam mehnat karni padti hai, isse cooling load reduce hota hai. Isse humein electricity ki bachat hoti hai aur room bhi thanda rehta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does humidity matter?",
+      "a": "Humidity matter karta hai kyunki yeh hamare room ko thanda karne ki kshamta ko prabhavit karta hai, aur agar humidity adhik ho toh air conditioner ko zyada mehnat karni padti hai. Isliye, humidity ko control karna zaroori hai taaki room ko thanda kiya ja sake."
+    },
+    {
+      "type": "probe",
+      "q": "Why do filters affect efficiency?",
+      "a": "Filters ka sahi tareeke se kaam karna air conditioner ki efficiency ko affect karta hai, kyunki uncleared filters se airflow kam ho jata hai aur machine ko zyada mehnat karni padti hai. Isse machine ki cooling capacity kam ho sakti hai aur bijli ki khapat badh sakti hai. Isliye, filters ko niyamit roop se saaf karna zaroori hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Room gains heat -> AC uses electricity -> Refrigerant cycle moves heat — what exactly happens at each step?",
+      "a": "Room mein garmi aati hai, phir AC bijli ka upyog karta hai, aur refrigerant cycle garmi ko baahar nikaalta hai, jisse room thanda ho jata hai. Is prakriya mein, refrigerant ka cycle heat ko absorb karta hai aur use AC ke bahar nikaalta hai. Isse room ka taapmaan kam ho jata hai aur thanda hawa mehsoos hota"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Ek air conditioner garm hawa ko thanda kar deta hai, jisse humein relief milta hai. Yeh machine garm hawa ko absorb kar leti hai aur thanda air humare room mein daal deti hai. Isse humein garmi se rahat milti hai aur hum thande mein so sakte hain ya padh sakte hain."
+    },
+    {
+      "type": "application",
+      "q": "Which habit usually reduces AC energy waste?",
+      "a": "AC ko kam temperature par set karna aur use sirf zarurat ke hisab se chalana, yeh habit usually AC energy waste ko kam karta hai. Isse paise bhi bachte hain aur paryavaran ko bhi nuksan nahi hota."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which habit usually reduces AC energy waste?",
+      "options": [
+        "Keep doors open",
+        "Use shade and close leaks",
+        "Set lowest temperature always",
+        "Block the air filter"
+      ],
+      "correct": "Use shade and close leaks",
+      "hint": "Reducing heat entry and air leakage helps the AC work less, saving energy.",
+      "answer": "Reducing heat entry and air leakage helps the AC work less, saving energy."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if cooling demand becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if cooling demand becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Air Conditioner and Room Cooling shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Air Conditioner and Room Cooling, one or more factors such as cooling demand change what we observe. The idea connects Physics, Chemistry, Math, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Air Conditioner and Room Cooling connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. An air conditioner transfers heat from inside to outside using electricity, refrigerant, pressure changes, fans, and coils. Comfort also depends on humidity, insulation, and human body response.",
+    "hinglish": "Dekh yaar — Air Conditioner and Room Cooling mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A room feels hot in the afternoon. The AC transfers heat out of the room, but open doors, sunlight, and poor insulation make it work longer and use more energy."
+  },
+  "mastery_rule": "The student must explain the cause-effect chain clearly: Room gains heat -> AC uses electricity -> Refrigerant cycle moves heat -> Cool air circulates. They must not rely on single subject thinking.",
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does an air conditioner cool a room but increase the electricity bill. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more cooling demand.",
+    "class_6_8": "Explain the cause-effect chain: Room gains heat → AC uses electricity → Refrigerant cycle moves heat → Cool air circulates.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Chemistry, Math, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Heat transfer, compression, evaporation, airflow, and insulation.",
+    "Chemistry": "Refrigerant properties allow heat absorption and release.",
+    "Math": "Estimate energy use from power rating and hours; compare temperature settings.",
+    "Biology": "Body comfort depends on temperature, humidity, sweating, and hydration."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Air Conditioner and Room Cooling ka concept aur jagah bhi kaam karta hai: Home cooling, Offices, Cold storage.",
+      "related_concepts": [],
+      "career_connection": "HVAC engineering, energy auditing, building design, climate technology."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj air conditioner and room cooling se related kuch notice karo.",
+    "Why does an air conditioner cool a room but increase the electricity bill?",
+    "What would happen if cooling demand becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Jagadish Chandra Bose",
+    "connection": "Jagadish Chandra Bose, an Indian polymath and physicist, made significant contributions to the understanding of heat and its effects on living organisms. His work on the response of plants to environmental stimuli, including temperature and humidity, can be connected to how air conditioners control temperature and humidity to create a comfortable environment for humans.",
+    "story_hook": "Imagine you are in a hot and humid Indian summer, and you stumble upon an old, forgotten laboratory of Jagadish Chandra Bose, where he conducted experiments on the effects of temperature and humidity on plants, which led to a deeper understanding of how to create cooler and more comfortable spaces. As you explore the lab, you begin to unravel the secrets of how air conditioners work, using similar principles that Bose discovered in his groundbreaking research.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Air Conditioner and Room Cooling",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Compare comfort with fan, shade, curtains, and ventilation before using AC. Do not open or repair AC units yourself."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "heat_transfer",
+    "refrigerants",
+    "energy_cost",
+    "body_comfort"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-air-conditioner-cooling-energy",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Use cooling thoughtfully: shade, seal leaks, clean filters with adult help, and avoid extreme settings.",
+  "career_connections": "HVAC engineering, energy auditing, building design, climate technology.",
+  "why_matters": "It connects comfort, electricity cost, climate awareness, and engineering design.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

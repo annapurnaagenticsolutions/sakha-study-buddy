@@ -1,0 +1,205 @@
+{
+  "concept_id": "math_probability_basics",
+  "title": "Probability Basics",
+  "icon": "📐",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Math"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "fractions",
+    "counting",
+    "ratio"
+  ],
+  "intro_hook": "If a fair coin gives heads three times in a row, is tails guaranteed next? Why?",
+  "big_idea": "Probability measures how likely an event is and builds logical reasoning.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Probability tells chance, from impossible to certain.",
+    "process": "Favourable outcomes divided by total equally likely outcomes. Outcome table or spinner sections.",
+    "result": "Games, risk, data science, decisions, genetics, exams."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Probability tells chance, from impossible to certain.",
+    "Visual: Outcome table or spinner sections.",
+    "Formal: P(event) = favourable outcomes / total outcomes when outcomes are equally likely.",
+    "Application: Games, risk, data science, decisions, genetics, exams."
+  ],
+  "indian_analogies": [
+    "A coin does not know its history. Tossing it again is like starting a fresh one-toss experiment.",
+    "Coin ko pichhle toss yaad nahi hote. Fair coin mein next toss par tails ka chance abhi bhi 1/2 hai."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_math_probability_basics_01",
+      "belief": "previous random event changes next independent event",
+      "why_common": "I chose what feels likely without counting total possible outcomes.",
+      "probe": "If a fair coin gives heads three times, is tails guaranteed next? Why?",
+      "repair": "Use colored balls/cards and count favorable outcomes over total outcomes. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use colored balls/cards and count favorable outcomes over total outcomes.",
+      "follow_up": "Give a changed probability basics situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use sample spaces before probability fractions.",
+      "mastery_signal": "Learner can explain why “previous random event changes next independent event” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: previous random event",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_probability_basics_02",
+      "belief": "probability predicts exact result",
+      "why_common": "I chose what feels likely without counting total possible outcomes.",
+      "probe": "If a fair coin gives heads three times, is tails guaranteed next? Why?",
+      "repair": "Use colored balls/cards and count favorable outcomes over total outcomes. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use colored balls/cards and count favorable outcomes over total outcomes.",
+      "follow_up": "Give a changed probability basics situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use sample spaces before probability fractions.",
+      "mastery_signal": "Learner can explain why “probability predicts exact result” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: probability predicts exact",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_math_probability_basics_03",
+      "belief": "all outcomes are always equally likely",
+      "why_common": "I chose what feels likely without counting total possible outcomes.",
+      "probe": "If a fair coin gives heads three times, is tails guaranteed next? Why?",
+      "repair": "Use colored balls/cards and count favorable outcomes over total outcomes. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use colored balls/cards and count favorable outcomes over total outcomes.",
+      "follow_up": "Give a changed probability basics situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use sample spaces before probability fractions.",
+      "mastery_signal": "Learner can explain why “all outcomes are always equally likely” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: all outcomes are",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "If a fair coin gives heads three times in a row, is tails guaranteed next? Why?",
+      "a": "Nahin, tails guaranteed nahi hai, kyunki har toss independent hota hai aur probability har baar 50% rehta hai, chahe pehle heads aaya ho ya tails. Isliye, agle toss mein bhi heads aa sakta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Does the coin have memory of previous tosses?",
+      "a": "Nahin, coin ko previous tosses ki memory nahin hoti, yeh ek independent event hota hai, jismein pehle wale toss ka result agle toss par koi asar nahin dalti. Isliye, har toss mein head ya tail aane ki probability barabar rehti hai."
+    },
+    {
+      "type": "probe",
+      "q": "Before the fourth toss, how many equally likely outcomes are possible?",
+      "a": "Iske liye humein possible outcomes ko dhyan mein rakhna hoga, jismein heads (H) aur tails (T) shamil hain. Teesri toss ke baad, humein 2^3 = 8 possible outcomes milte hain, lekin chauthi toss se pehle, ye outcomes abhi tak nahi hui hain. Isliye, chauthi toss se pehle, 2^4 = 16"
+    },
+    {
+      "type": "probe",
+      "q": "What is the probability of tails on one fair toss?",
+      "a": "Ek fair coin ki ek toss mein tail aane ki probability 1/2 ya 0.5 hoti hai, kyunki coin ke do pehlu hote hain - head aur tail, aur dono ke chance barabar hote hain. Isliye, hum kehte hain ki tail aane ki sambhavnata 50% hoti hai."
+    },
+    {
+      "type": "application",
+      "q": "A fair die shows 6 two times in a row. Is 6 less likely on the next roll? Why?",
+      "a": "Nahin, 6 kam likely nahi hai, kyunki die fair hai aur har roll independent hota hai, isliye probability har baar same rahega. Isse pehle ke rolls ka koi effect nahi padta."
+    },
+    {
+      "type": "teach_back",
+      "q": "What does it mean for events to be independent?",
+      "a": "Events jo independent hote hain, unke hone ya na hone se dusre event ke hone ki sambhavna par koi asar nahi padta, yaani ki ek event ka result dusre event ko prabhavit nahi karta. Iska matlab hai ki hum ek event ke baare mein pata karke dusre event ki sambhavna ke baare mein kuch nahi keh sakte."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "If a fair coin gives heads three times, is tails guaranteed next? Why?",
+      "hint": "Probability tells chance, from impossible to certain.",
+      "answer": "No. Each fair coin toss is independent, so the next toss still has probability 1/2 for tails."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "A fair die shows 6 two times in a row. Is 6 less likely on the next roll? Why?",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires explaining independence and avoiding “due next” reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Tails is not guaranteed. A fair coin has two equally likely outcomes on every toss, so tails is still 1/2.",
+    "visual": "Draw a two-branch tree for the next toss: H or T. The earlier three heads do not change these two branches.",
+    "real_life": "A coin does not know its history. Tossing it again is like starting a fresh one-toss experiment.",
+    "formal": "For independent events, previous outcomes do not affect the probability of the next outcome. Thus P(T on next fair toss) = 1/2.",
+    "socratic": "What are the possible outcomes of the next toss? Has the coin changed physically? Does previous history change the next sample space?",
+    "mistake_analysis": "The mistake is gambler’s fallacy: believing that a random process must “balance out” immediately.",
+    "hinglish": "Coin ko pichhle toss yaad nahi hote. Fair coin mein next toss par tails ka chance abhi bhi 1/2 hai.",
+    "challenge": "If a dice rolls 6 twice, is 6 less likely on the next roll? Explain.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Probability tells chance, from impossible to certain.",
+    "standard": "Favourable outcomes divided by total equally likely outcomes.",
+    "advanced": "P(event) = favourable outcomes / total outcomes when outcomes are equally likely.",
+    "fast_learner": "If a dice rolls 6 twice, is 6 less likely on the next roll? Explain."
+  },
+  "subject_lenses": {
+    "Math": "Games, risk, data science, decisions, genetics, exams."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Probability Basics ka use real life mein: Games, risk, data science, decisions, genetics, exams.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj probability basics ka ek real-life example dhundo.",
+    "A coin does not know its history. Tossing it again is like starting a fresh one-toss experiment."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, used probabilistic concepts to estimate the errors in his astronomical calculations. His work on the 'Aryabhatiya' demonstrates an understanding of chance events and their likelihood, laying the foundation for the study of probability. The ancient Indian game of 'Moksha Patamu' or 'Snakes and Ladders' is another example of a culturally resonant analogy, where the roll of a dice determines the probability of reaching the final goal, illustrating the concept of chance and probability.",
+    "story_hook": "Imagine you are playing the ancient game of Moksha Patamu with your friends, where the roll of a dice determines your fate, will you reach the final goal or slide back down? As you roll the dice, you start to wonder about the chances of getting the right number, and how probability plays a crucial role in determining your success.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Probability Basics",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "A coin does not know its history. Tossing it again is like starting a fresh one-toss experiment."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-math_probability_basics",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires explaining independence and avoiding “due next” reasoning.",
+  "session_type": "math",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_math_probability_basics_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

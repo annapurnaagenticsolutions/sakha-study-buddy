@@ -1,0 +1,213 @@
+{
+  "concept_id": "physics_friction",
+  "title": "Friction",
+  "icon": "⚡",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "force",
+    "motion",
+    "surfaces"
+  ],
+  "intro_hook": "Why can we walk because of friction rather than despite friction?",
+  "interest_hooks": {
+    "sports": "Bina friction ke, football ke ground pe cleats ya spikes waale joote kyu pehnte hain?",
+    "gaming": "Racing games mein agar gaadi ko drift karna ho toh kya lagta hai game engine friction ko kaise badalta hai?",
+    "music": "Violin play karte waqt bow ko string pe rub karte hain. Agar waha friction nahi hota, toh kya sound aati?",
+    "default": "Why can we walk because of friction rather than despite friction?"
+  },
+  "big_idea": "Friction is a contact force that resists relative motion and can both help and oppose movement.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Friction acts between surfaces touching each other.",
+    "process": "It usually tries to oppose sliding or slipping. Opposite-direction arrow along the contact surface.",
+    "result": "Walking, brakes, tyres, machines, lubrication."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Friction acts between surfaces touching each other.",
+    "Visual: Opposite-direction arrow along the contact surface.",
+    "Formal: Friction is a contact force opposing relative motion or tendency of relative motion.",
+    "Application: Walking, brakes, tyres, machines, lubrication."
+  ],
+  "indian_analogies": [
+    "On ice, friction is low, so the foot slips and walking becomes difficult. On rough ground, grip improves.",
+    "Hum chal paate hain kyunki friction grip deta hai. Foot ground ko peeche push karta hai, ground ka friction humein aage push karta hai."
+  ],
+  "interest_analogies": {
+    "sports": "Basketball shoes ka sole neeche se rubber aur rough hota hai. Woh rough surface court pe friction badhata hai, taaki tum achanak ruk sako bina slip huye.",
+    "gaming": "Jab Mario ice level mein daudta hai toh usko rukne mein zyada time lagta hai, kyunki wahan game physics mein friction ki value zero kar di jaati hai.",
+    "music": "Drumsticks ko haath mein pakadte hain, agar haath bahut smooth ho toh drumsticks slip ho jayenge. Friction unko haath mein grip deta hai.",
+    "default": "On ice, friction is low, so the foot slips and walking becomes difficult. Hum chal paate hain kyunki friction grip deta hai. Foot ground ko peeche push karta hai, ground ka friction humein aage push karta hai."
+  },
+  "misconceptions": [
+    {
+      "id": "mis_physics_friction_01",
+      "belief": "friction is always bad",
+      "why_common": "I thought friction only stops motion and is always bad.",
+      "probe": "Why can we walk because of friction rather than despite friction?",
+      "repair": "Use walking: without friction, the foot slips and cannot push the ground. Show friction can oppose sliding but also enable motion.",
+      "repair_visual": "Compare walking on rough floor versus smooth ice.",
+      "follow_up": "Why is it hard to walk on very smooth ice?",
+      "teacher_prompt": "Use walking, braking, and writing examples to show useful friction.",
+      "mastery_signal": "Learner can explain why “friction is always bad” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: friction is bad",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_friction_02",
+      "belief": "friction always acts opposite to motion, not relative slip",
+      "why_common": "I thought friction only stops motion and is always bad.",
+      "probe": "Why can we walk because of friction rather than despite friction?",
+      "repair": "Compare walking on rough floor versus smooth ice. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Compare walking on rough floor versus smooth ice.",
+      "follow_up": "Give a changed friction situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use walking, braking, and writing examples to show useful friction.",
+      "mastery_signal": "Learner can explain why “friction always acts opposite to motion, not relative slip” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: friction acts opposite",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_friction_03",
+      "belief": "smooth surfaces have no friction",
+      "why_common": "I thought friction only stops motion and is always bad.",
+      "probe": "Why can we walk because of friction rather than despite friction?",
+      "repair": "Compare walking on rough floor versus smooth ice. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Compare walking on rough floor versus smooth ice.",
+      "follow_up": "Give a changed friction situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Use walking, braking, and writing examples to show useful friction.",
+      "mastery_signal": "Learner can explain why “smooth surfaces have no friction” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: smooth surfaces have",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why can we walk because of friction rather than despite friction?"
+    },
+    {
+      "type": "probe",
+      "q": "When your foot pushes backward on the ground, what prevents it from slipping?"
+    },
+    {
+      "type": "probe",
+      "q": "If there were no friction, would your foot grip or slide?",
+      "a": "Agar friction na hota, to humara paav slide ho jata, kyunki friction hume grip karne mein madad karta hai. Isse hum aaram se chal sakte hain, warna hum har waqt girte rahege."
+    },
+    {
+      "type": "probe",
+      "q": "Which direction does the ground’s friction act on your foot while walking forward?"
+    },
+    {
+      "type": "application",
+      "q": "Why is it harder to walk on wet tiles or ice than on a rough road?",
+      "a": "Wet tiles ya ice par chalna rough road par chalne se zyada mushkil hota hai kyunki inmein friction bahut kam hoti hai, jisse humein santron ko pakadne mein dikkat aati hai. Isliye, humein wet tiles ya ice par chalne mein adhik bal lagana padta hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Give one example where friction helps and one where friction wastes energy."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "Why can we walk because of friction rather than despite friction?",
+      "hint": "Friction acts between surfaces touching each other.",
+      "answer": "When we push the ground backward with our foot, friction from the ground pushes us forward, helping us walk without slipping."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "Why is it harder to walk on wet tiles or ice than on a rough road?",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires explaining friction as a contact force that can help or oppose motion depending on relative slipping."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "We walk because friction gives grip. Our foot pushes the ground backward, and friction from the ground pushes our foot forward.",
+    "visual": "Draw the foot pushing backward on the ground. Draw the friction arrow on the foot forward. That forward friction helps movement.",
+    "real_life": "On ice, friction is low, so the foot slips and walking becomes difficult. On rough ground, grip improves.",
+    "formal": "Static friction can act in the direction of intended motion by opposing relative slipping at the contact surface.",
+    "socratic": "What would your foot do without grip? Which direction does it tend to slip? What force prevents that slip?",
+    "mistake_analysis": "The mistake is saying friction is always harmful. In many cases friction enables motion by preventing unwanted slipping.",
+    "hinglish": "Hum chal paate hain kyunki friction grip deta hai. Foot ground ko peeche push karta hai, ground ka friction humein aage push karta hai.",
+    "challenge": "Why do tyres need tread patterns? Explain using friction and grip.",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Friction acts between surfaces touching each other.",
+    "standard": "It usually tries to oppose sliding or slipping.",
+    "advanced": "Friction is a contact force opposing relative motion or tendency of relative motion.",
+    "fast_learner": "Why do tyres need tread patterns? Explain using friction and grip."
+  },
+  "subject_lenses": {
+    "Physics": "Walking, brakes, tyres, machines, lubrication."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Friction ka use real life mein: Walking, brakes, tyres, machines, lubrication.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj friction ka ek real-life example dhundo.",
+    "On ice, friction is low, so the foot slips and walking becomes difficult. On rough ground, grip improves."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, discussed the concept of friction in his works on the motion of celestial bodies. His understanding of the resistance faced by objects in motion can be related to the concept of friction, which is a contact force that resists relative motion and can both help and oppose movement. Aryabhata's work laid the foundation for later Indian scientists to explore and understand the concept of friction in various contexts.",
+    "story_hook": "Imagine you are trying to push a heavy stone wheel, just like the ones used in ancient Indian astronomy, and it doesn't budge - that's because of friction. As you learn about friction, you'll discover how ancient Indian scientists like Aryabhata understood the importance of this force in the motion of objects, from chariots to celestial bodies.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Friction",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "On ice, friction is low, so the foot slips and walking becomes difficult. On rough ground, grip improves."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-physics_friction",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires explaining friction as a contact force that can help or oppose motion depending on relative slipping.",
+  "session_type": "science",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_physics_friction_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

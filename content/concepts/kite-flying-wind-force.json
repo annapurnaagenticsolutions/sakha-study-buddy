@@ -1,0 +1,229 @@
+{
+  "concept_id": "kite-flying-wind-force",
+  "title": "Kite Flying",
+  "icon": "🪁",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Chemistry",
+    "Biology"
+  ],
+  "place": "Playground",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why does a kite fly better with enough wind and the right string angle?",
+  "big_idea": "A kite flies when moving air creates lift and the string provides tension. Shape, wind, material, and safe body movement all matter.",
+  "story": "On a windy day, a kite rises when the string is held at a good angle. Too little wind makes it fall; too much wind makes it hard to control.",
+  "cause_process_result": {
+    "cause": "Wind moves",
+    "process": "Kite angle set → Lift forms → String tension balances",
+    "result": "Kite stabilizes"
+  },
+  "flow": [
+    "Wind moves",
+    "Kite angle set",
+    "Lift forms",
+    "String tension balances",
+    "Kite stabilizes"
+  ],
+  "whiteboard": [
+    "Cause: Wind moves",
+    "  -> Kite angle set → Lift forms → String tension balances",
+    "Result: Kite stabilizes"
+  ],
+  "indian_analogies": [
+    "Playground mein yeh dekhte hain: Kite Flying.",
+    "Kite festivals"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Students may think only strong wind matters. A kite needs suitable wind, shape, balance, and string control.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Kite Flying mein Physics, Math, Chemistry, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does a kite fly better with enough wind and the right string angle?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does a kite fly better with enough wind and the right string angle?",
+      "a": "Hawa ke saath, kite ko uthane ke liye lift milti hai, aur sahi string angle hone se kite stable rehta hai aur acchi tarah se fly karta hai, jisse kite better fly hota hai. Isse kite ko balance milta hai aur woh aasani se udta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does too much wind become unsafe?",
+      "a": "Bahut zyada wind se kite ka control khone ka dar ho jata hai, isliye bahut zyada wind unsafe ho jata hai. Isse kite patangbaaz ko chot pahuncha sakta hai ya patang toot sakti hai. Zyada wind mein patang udaane se patangbaaz ko takleef ho sakti hai."
+    },
+    {
+      "type": "probe",
+      "q": "How does tail length help?",
+      "a": "Tail ki lambai kite ko santulit rakhne mein madad karti hai, jisse yeh upar uddne mein madad milti hai aur girne se bachi rehti hai. Isse kite ko stable aur balanced rakha ja sakta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does string angle matter?",
+      "a": "String ka angle matter karta hai kyunki yeh kite ko balance aur stable rakhta hai, jisse kite upar aur neeche nahin girta. Agar string ka angle sahi nahin hai to kite patang udne mein mushkil ho sakti hai. Isliye, string ka angle sahi hona zaroori hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Wind moves -> Kite angle set -> Lift forms — what exactly happens at each step?",
+      "a": "Pehle, wind moves aur kite ko uthane mein madad karti hai, phir kite angle set hota hai jisse lift forms, aur yeh lift kite ko upar uthati hai. Is prakriya mein, wind ki gati aur kite ke angle ka sahi samay par sahi tarike se set hona zaroori hai. Isse kite ko upar uthane mein madad milti hai aur yeh ac"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Patang udaane ke liye humein ek patang, dor aur hawa ki zarurat hoti hai, phir hum patang ko hawa mein udaate hain aur dor pakad kar usse niyantrit karte hain. Patang udaana bahut mazedaar hota hai aur humein khushi milti hai."
+    },
+    {
+      "type": "application",
+      "q": "Where should you not fly a kite?",
+      "a": "Aapko school ke aaspaas, park mein ya khule maidan mein kite udana chahiye, lekin aapko airport ke aaspaas, power lines ke neeche ya railway track ke paas kite nahi udana chahiye kyunki yeh unsafe ho sakta hai. Isse accident ho sakte hain aur logon ko nuksan pahunch sakta hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Where should you not fly a kite?",
+      "options": [
+        "Open field away from wires",
+        "Near electric power lines",
+        "School ground with adult guidance",
+        "Wide safe park"
+      ],
+      "correct": "Near electric power lines",
+      "hint": "Kites and strings can be dangerous near electric lines. Open, clear spaces are safer.",
+      "answer": "Kites and strings can be dangerous near electric lines. Open, clear spaces are safer."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if wind strength becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if wind strength becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Kite Flying shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Kite Flying, one or more factors such as wind strength change what we observe. The idea connects Physics, Math, Chemistry, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Kite Flying connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. A kite flies when moving air creates lift and the string provides tension. Shape, wind, material, and safe body movement all matter.",
+    "hinglish": "Dekh yaar — Kite Flying mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "On a windy day, a kite rises when the string is held at a good angle. Too little wind makes it fall; too much wind makes it hard to control."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does a kite fly better with enough wind and the right string angle. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more wind strength.",
+    "class_6_8": "Explain the cause-effect chain: Wind moves → Kite angle set → Lift forms → String tension balances.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Chemistry, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Lift, drag, tension, gravity, and balance keep the kite in air.",
+    "Math": "Estimate angle, compare height, and measure string length.",
+    "Chemistry": "Paper, plastic, bamboo, and thread have material strength and flexibility.",
+    "Biology": "Hands, eyes, and muscles coordinate movement; avoid unsafe places."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Kite Flying ka concept aur jagah bhi kaam karta hai: Kite festivals, Paragliding basics, Aircraft wings.",
+      "related_concepts": [],
+      "career_connection": "Aeronautics, sports engineering, materials design, weather studies."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj kite flying se related kuch notice karo.",
+    "Why does a kite fly better with enough wind and the right string angle?",
+    "What would happen if wind strength becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Sawai Jai Singh",
+    "connection": "The concept of kite flying can be related to the work of Sawai Jai Singh, a 18th-century Indian king and astronomer who made significant contributions to the field of astronomy. His understanding of wind patterns and air pressure can be connected to the idea that kites fly when moving air creates lift and the string provides tension, showcasing the importance of wind force in aerodynamics.",
+    "story_hook": "Imagine you are in the vibrant city of Jaipur, watching kites soar through the sky during the Makar Sankranti festival, and wondering what makes them fly so high. As you learn about the science of kite flying, you discover that the same wind patterns studied by Sawai Jai Singh centuries ago are still at play, lifting your kite up into the air.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Kite Flying",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe wind using a flag or paper strip. Fly only in open areas with adults and never near electric wires, roads, rooftops, or storms."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "lift_and_tension",
+    "angle_and_length",
+    "materials",
+    "coordination_and_safety"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-kite-flying-wind-force",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Choose a safe open area and adjust string gently based on wind.",
+  "career_connections": "Aeronautics, sports engineering, materials design, weather studies.",
+  "why_matters": "Kite flying connects play with force balance, material design, and safety decisions.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

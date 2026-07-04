@@ -1,0 +1,226 @@
+{
+  "concept_id": "water-filter",
+  "title": "Clean Water Filter",
+  "icon": "💧",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Chemistry",
+    "Physics",
+    "Biology",
+    "Math"
+  ],
+  "place": "Home + Community",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "How can dirty-looking water become clearer through settling and filtration?",
+  "big_idea": "Filtration separates particles by size, settling uses gravity, and boiling or disinfection targets microbes. Clear water is not always biologically safe.",
+  "story": "Muddy water is left still. Heavy particles settle. It is passed through cloth, sand, or gravel. It may look clear but can still contain microbes.",
+  "cause_process_result": {
+    "cause": "Muddy water",
+    "process": "Settling → Filtration → Disinfection needed",
+    "result": "Safer use decision"
+  },
+  "flow": [
+    "Muddy water",
+    "Settling",
+    "Filtration",
+    "Disinfection needed",
+    "Safer use decision"
+  ],
+  "whiteboard": [
+    "Cause: Muddy water",
+    "  -> Settling → Filtration → Disinfection needed",
+    "Result: Safer use decision"
+  ],
+  "indian_analogies": [
+    "Home + Community mein yeh dekhte hain: Clean Water Filter.",
+    "Home filters"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat clean water filter as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Clean Water Filter mein Chemistry, Physics, Biology, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "How can dirty-looking water become clearer through settling and filtration?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How can dirty-looking water become clearer through settling and filtration?",
+      "a": "Dirty-looking water ko settle hone dena chahiye, phir usmein filtration process lagana chahiye, jisse woh clear ho jata hai. Ismein sand, charcoal aur cloth ka use kiya ja sakta hai. Is prakriya se paani saaf aur peene layak ban jata hai."
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?"
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?"
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Muddy water -> Settling -> Filtration — what exactly happens at each step?",
+      "a": "Muddy water mein sabse pehle settling hota hai jahaan bhaari kanaaichi mitti neeche baith jaati hai, phir filtration hota hai jahaan saaf paani alag hota hai aur gandagi wala paani alag hota hai. Is prakriya mein paani saaf hota hai aur hum peene ke liye upyukt hota hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "Why is clear water not always safe to drink?",
+      "a": "Saaf paani hamesha peyene layak nahi hota kyunki usmein invisible germs aur chemicals ho sakte hain jo humein bimaar kar sakte hain, isliye clear water ko peene se pehle uska filter karna zaroori hai. Yeh germs aur chemicals paani ko saaf dikhne ke bavjood bhi usmein maujood ho sakte hain."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why is clear water not always safe to drink?",
+      "options": [
+        "It may still contain microbes",
+        "Clear water is always poison",
+        "Particles become invisible gold",
+        "Water stops being water"
+      ],
+      "correct": "It may still contain microbes",
+      "hint": "Tiny microbes may remain even after visible dirt is removed. Drinking safety needs proper purification.",
+      "answer": "Tiny microbes may remain even after visible dirt is removed. Drinking safety needs proper purification."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if filter layers becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if filter layers becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Clean Water Filter shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Clean Water Filter, one or more factors such as filter layers change what we observe. The idea connects Chemistry, Physics, Biology, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Clean Water Filter connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Filtration separates particles by size, settling uses gravity, and boiling or disinfection targets microbes. Clear water is not always biologically safe.",
+    "hinglish": "Dekh yaar — Clean Water Filter mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "Muddy water is left still. Heavy particles settle. It is passed through cloth, sand, or gravel. It may look clear but can still contain microbes."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: How can dirty-looking water become clearer through settling and filtration. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more filter layers.",
+    "class_6_8": "Explain the cause-effect chain: Muddy water → Settling → Filtration → Disinfection needed.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Chemistry, Physics, Biology, Math."
+  },
+  "subject_lenses": {
+    "Chemistry": "Mixtures, suspension, dissolved substances, purification limits.",
+    "Physics": "Gravity settling and particle movement through filter layers.",
+    "Biology": "Microbes can remain even when water looks clear.",
+    "Math": "Measure volume filtered per minute and compare clarity scores."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Clean Water Filter ka concept aur jagah bhi kaam karta hai: Home filters, Municipal water treatment, Camping filters.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj clean water filter se related kuch notice karo.",
+    "How can dirty-looking water become clearer through settling and filtration?",
+    "What would happen if filter layers becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Rajendra Singh",
+    "connection": "Rajendra Singh, also known as the Waterman of India, has worked tirelessly to promote water conservation and filtration methods in rural India. His work highlights the importance of clean water and the need for simple, effective filtration systems, which is closely related to the concept of water filtration as a means to remove particles and microbes from water, making it safe for drinking.",
+    "story_hook": "Rajendra Singh's journey to bring clean water to thousands of villages in India began with a simple question: what if we could make water clean enough to drink without spending a fortune? As we explore the concept of water filtration, we'll discover how scientists like Rajendra Singh have used innovative methods to make clean water accessible to people all over the world.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Clean Water Filter",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Build a demonstration filter with gravel, sand, and cloth for muddy water observation only. Do not drink the filtered water unless an adult uses proper purification methods."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "mixtures",
+    "gravity_and_particle_size",
+    "microbes",
+    "rate_and_volume"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-water-filter",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Clean Water Filter turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "concept_id": "toothbrushing-decay",
+  "title": "Toothbrushing and Tooth Decay",
+  "icon": "🪥",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Biology",
+    "Chemistry",
+    "Math"
+  ],
+  "place": "Health",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why do we brush teeth, and how can sweet food contribute to cavities?",
+  "big_idea": "Teeth health involves bacteria, food particles, acid formation, enamel protection, and regular habits.",
+  "story": "After eating sweets, tiny food particles can remain on teeth. Bacteria use sugar and produce acids that can damage enamel over time.",
+  "cause_process_result": {
+    "cause": "Food remains",
+    "process": "Bacteria act → Acid forms → Enamel weakens",
+    "result": "Brushing reduces risk"
+  },
+  "flow": [
+    "Food remains",
+    "Bacteria act",
+    "Acid forms",
+    "Enamel weakens",
+    "Brushing reduces risk"
+  ],
+  "whiteboard": [
+    "Cause: Food remains",
+    "  -> Bacteria act → Acid forms → Enamel weakens",
+    "Result: Brushing reduces risk"
+  ],
+  "indian_analogies": [
+    "Health mein yeh dekhte hain: Toothbrushing and Tooth Decay.",
+    "Morning routine"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Only chocolate causes cavities. Any frequent sugary/sticky food can increase risk.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Toothbrushing and Tooth Decay mein Biology, Chemistry, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why do we brush teeth, and how can sweet food contribute to cavities?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why do we brush teeth, and how can sweet food contribute to cavities?"
+    },
+    {
+      "type": "probe",
+      "q": "Why does brushing before sleep matter?"
+    },
+    {
+      "type": "probe",
+      "q": "Why can saliva help?"
+    },
+    {
+      "type": "probe",
+      "q": "Why are sticky sweets risky?",
+      "a": "Sticky sweets risky hote hain kyunki ve daanton par chipse rehte hain aur bacteria ko attract karte hain, jisse tooth decay ho sakta hai. Ye bacteria daanton ko nuksan pahunchate hain aur cavities banate hain. Isliye, humein sticky sweets kam khane chahiye."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Food remains -> Bacteria act -> Acid forms — what exactly happens at each step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Hum toothbrush se teeth saaf karte hain, jisse tooth decay nahin hota, aur humein healthy smile milti hai, isliye humein din mein do baar toothbrush karna chahiye."
+    },
+    {
+      "type": "application",
+      "q": "Which routine is most protective?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Which routine is most protective?",
+      "options": [
+        "Eat sweets often and skip brushing",
+        "Brush well and limit sticky sugary food",
+        "Brush only front teeth",
+        "Rinse once a week"
+      ],
+      "correct": "Brush well and limit sticky sugary food",
+      "hint": "Good brushing and fewer sticky sugary snacks reduce the time acids can harm teeth.",
+      "answer": "Good brushing and fewer sticky sugary snacks reduce the time acids can harm teeth."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if sugary snacks becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if sugary snacks becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Toothbrushing and Tooth Decay shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Toothbrushing and Tooth Decay, one or more factors such as sugary snacks change what we observe. The idea connects Biology, Chemistry, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Toothbrushing and Tooth Decay connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Teeth health involves bacteria, food particles, acid formation, enamel protection, and regular habits.",
+    "hinglish": "Dekh yaar — Toothbrushing and Tooth Decay mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "After eating sweets, tiny food particles can remain on teeth. Bacteria use sugar and produce acids that can damage enamel over time."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why do we brush teeth, and how can sweet food contribute to cavities. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more sugary snacks.",
+    "class_6_8": "Explain the cause-effect chain: Food remains → Bacteria act → Acid forms → Enamel weakens.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Chemistry, Math."
+  },
+  "subject_lenses": {
+    "Biology": "Teeth, gums, bacteria, saliva, and oral hygiene.",
+    "Chemistry": "Acids can weaken enamel; toothpaste helps protect and clean.",
+    "Math": "Track brushing frequency and compare sugary snack frequency over a week."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Toothbrushing and Tooth Decay ka concept aur jagah bhi kaam karta hai: Morning routine, Dental checkups, Food choices.",
+      "related_concepts": [],
+      "career_connection": "Dentistry, nutrition, microbiology, public health."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj toothbrushing and tooth decay se related kuch notice karo.",
+    "Why do we brush teeth, and how can sweet food contribute to cavities?",
+    "What would happen if sugary snacks becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Charaka",
+    "connection": "Charaka, a renowned Indian Ayurvedic physician, discussed the importance of oral hygiene in his ancient text Charaka Samhita. He emphasized the use of twigs with a brush-like end, known as 'datun', to clean teeth, and also described the relationship between oral health and overall well-being, which is closely related to the concept of toothbrushing and tooth decay as it involves the removal of bacteria, food particles, and acid formation.",
+    "story_hook": "Imagine you are a young apprentice to Charaka, learning the secrets of Ayurvedic medicine, and you stumble upon an ancient text that reveals the hidden connection between the foods we eat and the health of our teeth. As you delve deeper into the text, you discover that Charaka's wisdom on oral hygiene is still relevant today, and you begin to wonder how his ancient practices can help you keep your teeth strong and healthy.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Toothbrushing and Tooth Decay",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Use a boiled egg shell as an enamel model and observe how vinegar affects it with adult help. Do not taste the setup and wash hands afterwards."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "teeth_and_bacteria",
+    "acids",
+    "habit_tracking",
+    "friction"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-toothbrushing-decay",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Brush properly, rinse after snacks, and avoid frequent sticky sweets.",
+  "career_connections": "Dentistry, nutrition, microbiology, public health.",
+  "why_matters": "Students understand oral care as cause and effect, not just instruction.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

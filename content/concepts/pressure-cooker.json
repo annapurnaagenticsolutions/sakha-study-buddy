@@ -1,0 +1,226 @@
+{
+  "concept_id": "pressure-cooker",
+  "title": "Pressure Cooker",
+  "icon": "🍲",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Physics",
+    "Chemistry",
+    "Biology",
+    "Math"
+  ],
+  "place": "Kitchen",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why does a pressure cooker cook dal or rice faster than an open pot?",
+  "big_idea": "A sealed cooker increases pressure. Higher pressure raises the boiling temperature of water, so food receives hotter steam and cooks faster.",
+  "story": "Inside the cooker, steam cannot escape freely. Pressure rises. Water and steam become hotter than in an open pot, speeding cooking reactions and softening food.",
+  "cause_process_result": {
+    "cause": "Water + food",
+    "process": "Heat added → Steam trapped → Pressure rises",
+    "result": "Food cooks faster"
+  },
+  "flow": [
+    "Water + food",
+    "Heat added",
+    "Steam trapped",
+    "Pressure rises",
+    "Food cooks faster"
+  ],
+  "whiteboard": [
+    "Cause: Water + food",
+    "  -> Heat added → Steam trapped → Pressure rises",
+    "Result: Food cooks faster"
+  ],
+  "indian_analogies": [
+    "Kitchen mein yeh dekhte hain: Pressure Cooker.",
+    "Home cooking"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat pressure cooker as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Pressure Cooker mein Physics, Chemistry, Biology, Math sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does a pressure cooker cook dal or rice faster than an open pot?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does a pressure cooker cook dal or rice faster than an open pot?",
+      "a": "Pressure cooker mein dal ya rice jaldi pakta hai kyunki yeh high pressure aur high temperature par kaam karta hai, jisse cooking time kam ho jata hai. Ismein steam bhi bahar nahi nikalti, jisse heat ka upyog sahi tarike se hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?"
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?"
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum ghar par ya school mein pressure cooker ka test safely karne ke liye ek chhota sa experiment kar sakte hain, jismein hum cooker mein thoda paani daal kar use medium flame par rakhte hain aur phir use dekhte hain ki wo kaise kaam karta hai. Isse humein pressure cooker ke properties aur uske safety features ke baare mein pata chalega."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Water + food -> Heat added -> Steam trapped — what exactly happens at each step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "Why does food cook faster in a pressure cooker?",
+      "a": "Pressure cooker mein food jaldi pakta hai kyunki yeh high pressure aur high temperature par kaam karta hai, jisse cooking time kam ho jata hai. Ismein bhap bhi nahin nikalti, jisse heat ka nuksan nahin hota aur food jaldi pakne mein madad milti hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why does food cook faster in a pressure cooker?",
+      "options": [
+        "It becomes colder",
+        "Steam temperature can become higher",
+        "No heat is used",
+        "Food disappears"
+      ],
+      "correct": "Steam temperature can become higher",
+      "hint": "Higher pressure raises the boiling point, allowing hotter steam and water to transfer heat faster.",
+      "answer": "Higher pressure raises the boiling point, allowing hotter steam and water to transfer heat faster."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if pressure level becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if pressure level becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Pressure Cooker shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Pressure Cooker, one or more factors such as pressure level change what we observe. The idea connects Physics, Chemistry, Biology, Math and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Pressure Cooker connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. A sealed cooker increases pressure. Higher pressure raises the boiling temperature of water, so food receives hotter steam and cooks faster.",
+    "hinglish": "Dekh yaar — Pressure Cooker mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "Inside the cooker, steam cannot escape freely. Pressure rises. Water and steam become hotter than in an open pot, speeding cooking reactions and softening food."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does a pressure cooker cook dal or rice faster than an open pot. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more pressure level.",
+    "class_6_8": "Explain the cause-effect chain: Water + food → Heat added → Steam trapped → Pressure rises.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Chemistry, Biology, Math."
+  },
+  "subject_lenses": {
+    "Physics": "Pressure, temperature, steam, heat transfer.",
+    "Chemistry": "Cooking changes starches and proteins; softening occurs faster at higher temperature.",
+    "Biology": "Food becomes easier to digest when properly cooked.",
+    "Math": "Compare cooking time and fuel use."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Pressure Cooker ka concept aur jagah bhi kaam karta hai: Home cooking, Canteens, Autoclaves.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj pressure cooker se related kuch notice karo.",
+    "Why does a pressure cooker cook dal or rice faster than an open pot?",
+    "What would happen if pressure level becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Jagadish Chandra Bose",
+    "connection": "The work of Jagadish Chandra Bose, an Indian polymath and physicist, can be connected to the concept of a pressure cooker through his work on the behavior of gases under varying pressures. Bose's experiments with the properties of gases led to a deeper understanding of how changes in pressure can affect the physical properties of substances, such as the boiling point of water in a sealed environment like a pressure cooker.",
+    "story_hook": "Imagine you are a chef in a bustling Indian kitchen, tasked with cooking a large meal for a festival celebration, and you stumble upon an ancient technique that allows you to cook food faster and more efficiently using a cleverly designed vessel. As you explore the science behind this mystery vessel, you discover the fascinating connection to the work of Jagadish Chandra Bose and the magic of pressure cookers.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Pressure Cooker",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe cooker use only with an adult. Do not open, touch, or experiment with a pressure cooker while hot or pressurized."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "pressure_and_heat",
+    "cooking_changes",
+    "digestion",
+    "time_comparison"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-pressure-cooker",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Pressure Cooker turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

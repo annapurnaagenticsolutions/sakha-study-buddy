@@ -1,0 +1,160 @@
+{
+  "concept_id": "fractions_intro",
+  "title": "What are Fractions Really?",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Math"
+  ],
+  "prerequisites": [
+    "division_basics",
+    "equal_sharing"
+  ],
+  "intro_hook": "Yaar, ek sawaal — agar ek roti ko 4 logon mein barabar baantna ho, toh har ek ko kitni milegi? Aur woh 'kitni' ko hum likhein kaise? Yahi fraction hai — chalo samjhte hain.",
+  "big_idea": "A fraction is just a way to write 'equal parts of a whole.' The bottom number (denominator) says how many equal parts the whole is cut into. The top number (numerator) says how many of those parts you have.",
+  "cause_process_result": {
+    "cause": "We need to express a part of a whole thing (less than 1 complete thing)",
+    "process": "Divide the whole into equal parts (denominator) → count how many parts you have (numerator) → write numerator/denominator",
+    "result": "A fraction like 3/4 means: whole was cut into 4 equal parts, and you have 3 of them"
+  },
+  "whiteboard": [
+    "FRACTION = parts you have",
+    "           ─────────────────",
+    "           equal parts total",
+    "",
+    "Example: 3/4",
+    "  4 = roti ke 4 barabar tukde",
+    "  3 = tum ne 3 tukde liye"
+  ],
+  "indian_analogies": [
+    "Roti — cut into equal parts, each part is a fraction",
+    "Kheer — ek bade bowl mein hai, divide by family members",
+    "Pizza — 8 slices, tum ne 3 khaaye: 3/8",
+    "Cricket innings — team ne 50 overs mein se 20 kheliye: 20/50",
+    "Ghar ka 1 kamra 4 mein se — 1/4 of the house"
+  ],
+  "misconceptions": [
+    {
+      "id": "bigger_denominator_bigger_fraction",
+      "belief": "1/8 is bigger than 1/4 because 8 is bigger than 4",
+      "why_common": "Students look at denominator as a normal number. Don't understand inverse relationship.",
+      "probe": "Ek roti ke 4 tukde karo — har ek tukda kitna bada. Ab 8 tukde karo — ab kaise hain tukde?",
+      "repair": "Denominator bada matlab zyada cuts — har cut CHHOTA ho jaata hai. 1/8 < 1/4.",
+      "trigger_words": [
+        "8 zyada",
+        "bada denominator",
+        "denominator bada toh bada",
+        "8 is more"
+      ]
+    },
+    {
+      "id": "fraction_is_two_numbers",
+      "belief": "3/4 is two separate numbers: 3 and 4",
+      "why_common": "Students read fraction as division operation, not as a single quantity.",
+      "probe": "3/4 — yeh ek number hai ya do? Agar tum isko number line pe dikhao, toh kahan hoga?",
+      "repair": "3/4 is ONE number — it lives between 0 and 1 on a number line. It's not 3 'divided by' 4 (though that gives the same answer).",
+      "trigger_words": [
+        "do numbers",
+        "teen aur chaar",
+        "divide karo",
+        "two separate"
+      ]
+    },
+    {
+      "id": "whole_must_be_food",
+      "belief": "Fractions only work with food (pizza, roti)",
+      "why_common": "Teaching always uses food examples.",
+      "probe": "Kya tum bata sakte ho time ka fraction? 15 minutes ek ghante ka kitna fraction hai?",
+      "repair": "Fraction kisi bhi 'whole' ka hissa ho sakta hai — time, distance, money, shapes, anything.",
+      "trigger_words": [
+        "sirf food",
+        "only pizza",
+        "khane mein",
+        "only roti"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Ek roti ko 4 logon mein barabar baantna hai. Har ek ko kitni milegi? Yeh 'kitni' kaise likhoge?",
+      "a": "Ek roti ko 4 logon mein barabar baantne par har ek ko 1/4 roti milegi, isey hum fraction ke roop mein 1 by 4 ya ek chauthai likhte hain. Yeh 'kitni' ko hum 1/4 se represent karte hain."
+    },
+    {
+      "type": "observation",
+      "q": "Jab tum roti ke 4 tukde karte ho — sab barabar hone chahiye. Kyun? Agar barabar na hon?",
+      "a": "Jab hum roti ke 4 tukde karte hain, sab barabar hone chahiye taaki har tukda ek saman hissa ho, isse humein equal fractions milte hain. Agar barabar na hon, to humein unequal fractions milenge, jaise 1/4, 1/5, ya 2/5. Isliye, barabar tukde karna zaroori hai."
+    },
+    {
+      "type": "probe",
+      "q": "Tune likha 1/4. Yeh neeche wala 4 kya bata raha hai? Oopar wala 1 kya bata raha hai?",
+      "a": "Neeche wala 4 total parts ko bata raha hai, oopar wala 1 kitni parts li hai, yeh bata raha hai. Iska matlab hai ki humne 1 part li hai total 4 parts mein se."
+    },
+    {
+      "type": "analogy",
+      "q": "Pizza ke 8 slices hain. Tum ne 3 khaaye. Ab fraction mein likhte hain — kya hoga?",
+      "a": "Tumne 3 slices khaaye aur total 8 slices hain, isliye fraction mein yeh 3/8 hoga. Yeh ek fraction hai jisme 3 numerator aur 8 denominator hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "1/4 bada hai ya 1/8? Kyun? Roti wala example use karke samjhao.",
+      "a": "1/4 bada hai kyunki yeh ek roti ke 4 hisse mein se ek hissa hai, jabki 1/8 ek roti ke 8 hisse mein se ek hissa hai, isliye 1/4 ki value 1/8 se zyada hoti hai. Ek roti ko agar hum 4 barabar hisson mein kaatenge toh har hissa bada hoga, lekin agar hum usi rot"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab mujhe bata — fraction exactly kya hota hai? Apne words mein, bina roti ke bhi samjha sako toh?",
+      "a": "Fraction ek tarah ka number hota hai jo kitne hisse mein kuchh divide kiya gaya hai, jaise ki ek roti ko 4 hisson mein divide karne par har hissa 1/4 fraction hota hai. Yah humein batata hai ki kisi cheez ka kitna hissa liya gaya hai. Isse hum kisi bhi cheez ko hisson mein baant sakte hain aur uska fraction nikal"
+    },
+    {
+      "type": "application",
+      "q": "15 minutes — ek ghante (60 min) ka kitna fraction hai? Step by step batao.",
+      "a": "Ek ghante mein 60 minute hote hain, toh 15 minute ka fraction nikalne ke liye hum 15 ko 60 se divide karte hain, jisse humein 15/60 milta hai, jo ki 1/4 ke barabar hota hai. Isliye, 15 minutes ek ghante ka 1/4 fraction hai."
+    },
+    {
+      "type": "transfer",
+      "q": "Class mein 30 bacche hain. 12 ladkiyan hain. Fraction mein kya hoga?",
+      "a": "Class mein 30 bacche hain, jismein 12 ladkiyan hain, isliye fraction mein 12/30 hoga, jo ki 2/5 tak simplify ho sakta hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 1,
+      "type": "visual",
+      "q": "Ek chocolate bar mein 6 equal pieces hain. Aditya ne 2 khaaye. Fraction mein kitna khaya? Kitna bacha?",
+      "hint": "Total pieces = denominator. Khaye = numerator.",
+      "answer": "Khaya: 2/6. Bacha: 4/6. (Or simplified: 1/3 and 2/3 — but simplification is next lesson!)"
+    },
+    {
+      "difficulty": 2,
+      "type": "comparison",
+      "q": "Bade karo chhote se — 3/4 ya 3/8? Roti ka example use karo apne jawab mein.",
+      "hint": "Numerator same hai (3). Denominator alag hai. Kaunsa denominator CHHOTA pieces deta hai?",
+      "answer": "3/4 > 3/8. Kyunki 4 parts mein har part zyada bada hoga compared to 8 parts. Tin bade parts > tin chhote parts."
+    },
+    {
+      "difficulty": 3,
+      "type": "real_world",
+      "q": "Class mein 40 bacche hain. 25 ne homework kiya. Fraction mein kya? Yeh 1/2 se zyada hai ya kam?",
+      "hint": "Fraction = 25/40. 1/2 = 20/40. Ab compare karo.",
+      "answer": "25/40. Compare with 20/40 (which is 1/2). 25/40 > 20/40, so more than half the class did homework."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Fraction = ek cheez ke barabar tukde. Neeche: kitne tukde. Oopar: tumhare paas kitne.",
+    "hinglish": "Dekh yaar — 3/4 matlab roti ke 4 tukde karo, unme se 3 tum le lo. Bas itna hi hai fraction. Simple na?",
+    "exam": "Fraction = numerator/denominator. Numerator = parts taken. Denominator = total equal parts. Equivalent fractions: multiply/divide both by same number.",
+    "challenge": "Can a fraction be greater than 1? What does 5/4 mean? Draw it."
+  },
+  "learner_adaptations": {
+    "class_4": "Physical: fold paper into equal parts. Count folds. Write fraction. No abstract until physical is clear.",
+    "class_5": "Number line. Compare fractions. Equivalent fractions introduction.",
+    "struggling": "Only use halves (1/2) and quarters (1/4) first. Real objects: fold actual paper.",
+    "fast_learner": "Equivalent fractions. Simplification. Fractions greater than 1 (improper fractions)."
+  },
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}

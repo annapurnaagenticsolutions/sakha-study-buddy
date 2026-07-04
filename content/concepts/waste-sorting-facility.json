@@ -1,0 +1,165 @@
+{
+  "concept_id": "waste-sorting-facility",
+  "title": "Waste Sorting Facility",
+  "icon": "♻️",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Chemistry",
+    "Biology",
+    "Physics",
+    "Math"
+  ],
+  "level": "Advanced Systems",
+  "prerequisites": [],
+  "intro_hook": "How does a modern recycling plant separate plastic, metal, paper, and glass automatically?",
+  "big_idea": "Conveyors plus sensors: magnets for ferrous metals, eddy currents for aluminum, near-IR spectroscopy for plastics, air jets for paper. Each material follows a different path based on physical and chemical properties.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Mixed waste enters sorting conveyor",
+    "process": "Sensors identify material type; actuators divert each type to correct stream",
+    "result": "Sorted streams sent to recyclers; contamination = rejected or downgraded batch"
+  },
+  "flow": [
+    "Mixed waste enters sorting conveyor",
+    "Sensors identify material type; actuators divert each type to correct stream",
+    "Sorted streams sent to recyclers; contamination = rejected or downgraded batch"
+  ],
+  "whiteboard": [
+    "System Lens: Purpose -> Inputs -> Process -> Outputs -> Feedback -> Failure -> Data -> Design",
+    "Cause: Mixed waste enters sorting conveyor",
+    "  -> Sensors identify material type; actuators divert each type to correct stream",
+    "Result: Sorted streams sent to recyclers; contamination = rejected or downgraded batch"
+  ],
+  "indian_analogies": [
+    "India context: TODO — add local real-world example of this system."
+  ],
+  "misconceptions": [
+    {
+      "id": "system_never_fails",
+      "belief": "Well-designed systems never fail.",
+      "probe": "What happens when one sensor fails in this system?",
+      "repair": "Every system has failure modes. Engineering is about making failures safe, detectable, and recoverable — not eliminating them entirely.",
+      "trigger_words": [
+        "perfect system",
+        "never fails",
+        "always works"
+      ]
+    },
+    {
+      "id": "single_cause_failure",
+      "belief": "System failures always have a single clear cause.",
+      "probe": "What if two components fail simultaneously in different parts of the chain?",
+      "repair": "Complex systems have cascading failures — sensor error, transport delay, power cut, and human error often combine.",
+      "trigger_words": [
+        "one cause",
+        "simple fix",
+        "just one thing broke"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does a modern recycling plant separate plastic, metal, paper, and glass automatically?",
+      "a": "Ek modern recycling plant mein plastic, metal, paper aur glass ko alag karna automatic machine dwara hota hai, jismein sensors aur magnets ka upyog kiya jata hai. Ismein conveyor belt par waste ko daala jata hai aur sensors usko identify karte hain, phir magnets aur air jets dwara unhein alag karte hain. Is prakriya mein machine plastic, metal, paper aur glass ko alag-al"
+    },
+    {
+      "type": "probe",
+      "q": "What inputs does this system need to function?"
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace the full Purpose->Inputs->Process->Outputs->Feedback chain."
+    },
+    {
+      "type": "probe",
+      "q": "Where could this system fail? What would the warning signal look like?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Design a simple version of this system. What is your most important design decision and why?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "design",
+      "q": "What single change would most improve the reliability of the Waste Sorting Facility? What trade-off does it introduce?",
+      "hint": "Think about the feedback loop — what information is currently missing?",
+      "answer": "Multiple valid answers — evaluate by quality of trade-off reasoning."
+    },
+    {
+      "difficulty": 3,
+      "type": "failure_analysis",
+      "q": "One component in the Waste Sorting Facility fails silently (no alarm). Trace what happens step by step.",
+      "hint": "Follow the process chain — where does the error propagate?",
+      "answer": "Depends on component; evaluate by systematic chain reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Conveyors plus sensors: magnets for ferrous metals, eddy currents for aluminum, near-IR spectroscopy for plastics, air jets for paper. Each material follows a different path based on physical and chemical properties.",
+    "formal": "Systems lens: Purpose->Inputs->Process->Outputs->Feedback->Failure->Data->Design",
+    "real_life": "How does a modern recycling plant separate plastic, metal, paper, and glass automatically?",
+    "hinglish": "Yaar, waste sorting facility ek system hai — inputs aate hain, process hoti hai, output nikalta hai. Kya fail ho sakta hai?"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with Purpose only — what problem does this system solve?",
+    "standard": "Map all 8 system dimensions.",
+    "fast_learner": "Design an improved version under a new constraint."
+  },
+  "subject_lenses": {
+    "Chemistry": "Applied in this system",
+    "Biology": "Applied in this system",
+    "Physics": "Applied in this system",
+    "Math": "Applied in this system"
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Waste Sorting Facility ka ek surprising failure mode hai jo tune shayad socha nahi hoga.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "How does a modern recycling plant separate plastic, metal, paper, and glass automatically?",
+    "Notice a waste sorting facility around you today — map its inputs and one failure mode."
+  ],
+  "indian_legacy": {
+    "scientist": "Sir Jagadish Chandra Bose",
+    "connection": "Sir Jagadish Chandra Bose, a pioneer in the field of science in India, made significant contributions to the understanding of the physical and chemical properties of materials. His work on the properties of metals and other materials laid the foundation for the development of technologies like those used in waste sorting facilities, where materials are separated based on their unique properties, such as ferrous metals being attracted to magnets and aluminum being detected by eddy currents.",
+    "story_hook": "Imagine being able to sort waste as efficiently as a master craftsman sorts precious gems, using the principles of science to make a cleaner and greener India. Sir Jagadish Chandra Bose's groundbreaking work on the properties of materials is the key to unlocking this amazing technology, and it's an inspiration for young minds to explore and innovate in the field of waste management.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Observe: Waste Sorting Facility",
+    "time_required": "5 min",
+    "steps": [
+      "Find a real example of a waste sorting facility in your city or home. Map its inputs, outputs, and one failure mode."
+    ],
+    "share_with_sakha": "What was surprising about the system you observed?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "advanced-stem-systems-lab#module-waste-sorting-facility",
+  "visualizer_type": "advanced_systems_simulator",
+  "session_type": "science",
+  "_source": "advanced-stem-systems-lab-v1.0",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "indian_analogies",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

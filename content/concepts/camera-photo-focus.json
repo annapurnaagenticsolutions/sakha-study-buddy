@@ -1,0 +1,230 @@
+{
+  "concept_id": "camera-photo-focus",
+  "title": "Camera and Photo Focus",
+  "icon": "📷",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Math",
+    "Biology",
+    "Chemistry"
+  ],
+  "place": "Technology + Eye",
+  "level": "Advanced",
+  "prerequisites": [],
+  "intro_hook": "Why does a camera sometimes make a photo blurry, and how is it similar to the human eye?",
+  "big_idea": "A camera forms an image using lenses, light, focus distance, sensor response, and exposure. The eye also uses a lens and retina to form images.",
+  "story": "A phone camera focuses on a near object, then the background blurs. In low light, the photo may become noisy or unclear because less light reaches the sensor.",
+  "cause_process_result": {
+    "cause": "Light from object",
+    "process": "Lens bends light → Focus adjusts → Sensor records image",
+    "result": "Photo appears clear or blurry"
+  },
+  "flow": [
+    "Light from object",
+    "Lens bends light",
+    "Focus adjusts",
+    "Sensor records image",
+    "Photo appears clear or blurry"
+  ],
+  "whiteboard": [
+    "Cause: Light from object",
+    "  -> Lens bends light → Focus adjusts → Sensor records image",
+    "Result: Photo appears clear or blurry"
+  ],
+  "indian_analogies": [
+    "Technology + Eye mein yeh dekhte hain: Camera and Photo Focus.",
+    "Phone photography"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Blurry photos are not always due to a bad camera. Focus distance, light, motion, and lens cleanliness matter.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Camera and Photo Focus mein Physics, Math, Biology, Chemistry sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does a camera sometimes make a photo blurry, and how is it similar to the human eye?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does a camera sometimes make a photo blurry, and how is it similar to the human eye?",
+      "a": "Camera mein photo blurry hoti hai kyunki usmein lens ka focus sahi nahi hota, isse human eye ki tarah hota hai jab hum kisi cheez ko dekhne ke liye aankhon ko focus karte hain. Agar humari aankhein sahi se focus nahi karti hain toh cheez blurry dikhayi deti hai, waise hi camera mein bhi hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does background blur?",
+      "a": "Background blur hota hai kyunki camera ka focus subject par hota hai, aur background ki depth of field bahar hoti hai, isliye background dhundla dikhayi deta hai. Isse photo mein subject ko highlight karne mein madad milti hai."
+    },
+    {
+      "type": "probe",
+      "q": "How is the eye like a camera?",
+      "a": "Aankh ek camera ki tarah hoti hai kyunki dono mein lens hota hai jo prakash ko focus karta hai, jisse hum duniya ko dekh sakte hain. Ismein retina hai jo camera ke sensor ki tarah kaam karti hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why does low light affect detail?",
+      "a": "Kam roshni mein camera ko achhe se focus karne mein dikkat hoti hai kyunki light ki kami ke karan image mein details saaf nahi aate. Isse camera ki sensor ko kam light mein achhe se kaam karne mein pareshani hoti hai. Isliye, low light mein photo khinchte samay details saaf nahi aate."
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Light from object -> Lens bends light -> Focus adjusts — what exactly happens at each step?",
+      "a": "Pehle, object se light nikalta hai, phir lens is light ko bend karta hai, aur antim step mein focus adjust hota hai jisse image saaf aur spasht dikhayi deti hai. Is prakriya mein lens light ko modta hai aur focus adjust karke image ko sahi jagah par set karta hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Camera ek aisa machine hai jo humari photo le sakta hai, jaise ki ek 5 saal ke bachche ki photo. Hum camera ko set karte hain, phir click karte hain, aur photo ready ho jati hai. Isse hum apne khushiyon ko capture kar sakte hain."
+    },
+    {
+      "type": "application",
+      "q": "Why can low light make photos unclear?",
+      "a": "Kam roshni mein photo unclear ho sakti hai kyonki camera ko achhe se focus karne ke liye paryapt prakash ki avashyakta hoti hai, aur kam roshni mein camera ka sensor achhe se kaam nahi kar pata. Is wajah se photo mein dhundhlaapan aa jata hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "Why can low light make photos unclear?",
+      "options": [
+        "No lens exists",
+        "Less light reaches the sensor, so the camera struggles",
+        "The object becomes smaller in reality",
+        "The screen stops using electricity"
+      ],
+      "correct": "Less light reaches the sensor, so the camera struggles",
+      "hint": "A camera needs enough light to record detail. Low light often increases blur or noise unless exposure and stability are improved.",
+      "answer": "A camera needs enough light to record detail. Low light often increases blur or noise unless exposure and stability are improved."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if object distance becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if object distance becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Camera and Photo Focus shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Camera and Photo Focus, one or more factors such as object distance change what we observe. The idea connects Physics, Math, Biology, Chemistry and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Camera and Photo Focus connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. A camera forms an image using lenses, light, focus distance, sensor response, and exposure. The eye also uses a lens and retina to form images.",
+    "hinglish": "Dekh yaar — Camera and Photo Focus mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A phone camera focuses on a near object, then the background blurs. In low light, the photo may become noisy or unclear because less light reaches the sensor."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does a camera sometimes make a photo blurry, and how is it similar to the human eye. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more object distance.",
+    "class_6_8": "Explain the cause-effect chain: Light from object → Lens bends light → Focus adjusts → Sensor records image.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Biology, Chemistry."
+  },
+  "subject_lenses": {
+    "Physics": "Lenses refract light and focus rays onto a sensor.",
+    "Math": "Distance, angle, zoom, and image size can be compared and estimated.",
+    "Biology": "The eye lens focuses light onto the retina; vision depends on eye and brain processing.",
+    "Chemistry": "Sensor materials and screen/display materials depend on semiconductor and material chemistry."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Camera and Photo Focus ka concept aur jagah bhi kaam karta hai: Phone photography, CCTV cameras, Spectacles.",
+      "related_concepts": [],
+      "career_connection": "Optics, photography, computer vision, biomedical imaging, phone camera engineering."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj camera and photo focus se related kuch notice karo.",
+    "Why does a camera sometimes make a photo blurry, and how is it similar to the human eye?",
+    "What would happen if object distance becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of optics. His work on the behavior of light and its interaction with lenses has a direct connection to the concept of camera and photo focus. The principles he discovered are still relevant today and form the basis of how cameras use lenses to focus light and create images.",
+    "story_hook": "Imagine being an ancient Indian astronomer like Aryabhata, using observations of the sun and moon to understand how light behaves, and then discovering that you can use this knowledge to create powerful tools like cameras. As you explore the world of optics, you realize that the same principles that help us see the stars can also help us capture life's precious moments with perfect focus.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Camera and Photo Focus",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Take photos of a safe object from near and far distances in good light. Do not photograph people without permission and do not point cameras at the Sun."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "lenses_and_light",
+    "eye_and_retina",
+    "distance_and_scale",
+    "sensors"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-camera-photo-focus",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Use good light, hold the camera steady, clean the lens, and respect privacy.",
+  "career_connections": "Optics, photography, computer vision, biomedical imaging, phone camera engineering.",
+  "why_matters": "It connects optics, biology, and modern devices students use every day.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core",
+    "advanced"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "concept_id": "salt_in_water",
+  "title": "Why does Salt Dissolve in Water?",
+  "class_band": [
+    6,
+    7
+  ],
+  "subjects": [
+    "Chemistry",
+    "Physics"
+  ],
+  "prerequisites": [
+    "molecules_atoms_basic",
+    "states_of_matter"
+  ],
+  "intro_hook": "Yaar, roz khana khaate ho. Mummy khane mein namak daalti hain, woh gayab ho jaata hai. Kahan jaata hai? Namak 'khatam' ho jaata hai kya — ya kuch aur ho raha hai?",
+  "big_idea": "Salt doesn't disappear — its molecules break apart and get surrounded by water molecules. Both still exist, just mixed together at molecular level. That's dissolving.",
+  "cause_process_result": {
+    "cause": "Water molecules are polar (slightly + on one end, slightly - on the other). Salt (NaCl) has + sodium ions and - chloride ions.",
+    "process": "Water's - end pulls Na+ ions away from crystal. Water's + end pulls Cl- ions away. Ion by ion, salt crystal breaks up. Each ion gets surrounded by water molecules (hydration shell).",
+    "result": "Salt ions are evenly spread throughout water — solution formed. Salt is still there, just invisible (dissolved). Taste confirms: still salty."
+  },
+  "whiteboard": [
+    "Salt crystal: Na+ --- Cl-",
+    "Water: H2O (polar: δ+ and δ-)",
+    "",
+    "Water pulls Na+ and Cl- apart",
+    "  Na+ surrounded by δ- side of H2O",
+    "  Cl- surrounded by δ+ side of H2O",
+    "",
+    "Result: ions spread in water = solution"
+  ],
+  "indian_analogies": [
+    "Namak in chai — dissolves, but chai still tastes salt-sweet",
+    "Cheeni in doodh — sweet doodh, cheeni 'gone' but not really",
+    "Holi color in water — pigment molecules spread in water",
+    "Alum (fitkari) in muddy water — dissolves and clears water (coagulation)"
+  ],
+  "misconceptions": [
+    {
+      "id": "salt_disappears",
+      "belief": "Salt disappears when dissolved",
+      "why_common": "Students can't see salt anymore after dissolving — assume it's gone.",
+      "probe": "Agar namak gayab ho gaya, toh namak wala paani namkeen kyun lagta hai?",
+      "repair": "Salt is still there — just broken into invisible ions spread in water. Evaporate the water — salt crystals reappear.",
+      "trigger_words": [
+        "gayab",
+        "disappear",
+        "khatam",
+        "gone",
+        "nahi raha"
+      ]
+    },
+    {
+      "id": "heat_required",
+      "belief": "Salt only dissolves in hot water",
+      "why_common": "Students see moms dissolving salt faster in hot water, generalize.",
+      "probe": "Normal thande paani mein namak daalke hilao — kya dissolve hoga?",
+      "repair": "Salt dissolves in cold water too — hot water just speeds it up. Temperature increases molecular motion, so process is faster, not qualitatively different.",
+      "trigger_words": [
+        "garam chahiye",
+        "hot water only",
+        "thande mein nahi",
+        "boil karna"
+      ]
+    },
+    {
+      "id": "any_solid_dissolves",
+      "belief": "Any solid dissolves in water",
+      "why_common": "Students overgeneralize from salt, sugar, baking soda examples.",
+      "probe": "Kya sand dissolve hoti hai paani mein? Kya lohe ki keel dissolve hoti hai?",
+      "repair": "Only substances with compatible molecular/ionic interactions with water dissolve. 'Like dissolves like' — polar/ionic in water; nonpolar in oils.",
+      "trigger_words": [
+        "sab dissolve",
+        "anything",
+        "sabkuch ghul jaata",
+        "every solid"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Mummy ne khane mein namak daala — woh gayab ho gaya. Kahan gaya? Sach mein khatam hua?",
+      "a": "Namak paani mein ghul gaya, isliye woh gayab ho gaya. Yeh process dissolution kehte hain, jismein namak ke kan paani ke kanon mein mil jaate hain. Ab namak humein dikhayi nahi deta, lekin woh paani mein ghul kar maujood hai."
+    },
+    {
+      "type": "observation",
+      "q": "Namak wala paani khaate ho toh namkeen lagta hai. Agar namak gayab ho gaya toh namkeen kyun?"
+    },
+    {
+      "type": "probe",
+      "q": "Toh namak kahin to hai paani mein. Lekin dikh kyun nahi raha? Kya hua hoga isko?"
+    },
+    {
+      "type": "analogy",
+      "q": "Holi wala rang yaad hai — paani mein daalo, woh spread ho jaata hai. Namak bhi kuch aisa karta hai — samjhe?",
+      "a": "Jaise Holi ka rang paani mein milakar spread hota hai, wahi namak bhi paani mein milakar dissolve ho jaata hai, kyunki dono mein molecules paani ke saath mil jaate hain. Isse namak paani mein achhi tarah se ghul jaata hai."
+    },
+    {
+      "type": "concept_check",
+      "q": "Toh paani ke molecules namak ke kya karte hain? Kaise 'kheenche' jaate hain ion?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab mujhe bata — bina 'dissolve' word use kiye, kya hua namak aur paani ke beech?"
+    },
+    {
+      "type": "application",
+      "q": "Agar namak wale paani ko garam karke evaporate karo — kya milega? Kyun?"
+    },
+    {
+      "type": "transfer",
+      "q": "Tel mein namak kyun nahi ghulta? What's different about oil compared to water?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 1,
+      "type": "scenario",
+      "q": "Rohan ne ek glass paani mein 2 teaspoon namak daala. Taste kiya — namkeen tha. Phir 1 ghante baad taste kiya — aur namkeen tha. Kyun zyada namkeen?",
+      "hint": "Evaporation — kya paani reduce ho gaya thoda ek ghante mein?",
+      "answer": "Kuch paani evaporate ho gaya — same amount namak, less water = more concentrated = more salty."
+    },
+    {
+      "difficulty": 2,
+      "type": "comparison",
+      "q": "Sugar garam paani mein jaldi ghulti hai, thande mein dheere. Namak bhi aisa hi karta hai. Kyun faster in hot water?",
+      "hint": "Garam paani mein molecules kaise move karte hain compared to thanda?",
+      "answer": "Hot water = molecules moving faster = more frequent and energetic collisions with salt crystal = faster breakdown of crystal = faster dissolving."
+    },
+    {
+      "difficulty": 3,
+      "type": "real_world",
+      "q": "Saline drip (hospital mein) mein exactly 0.9% namak hota hai. Kam hoga toh cells phat jaati hain, zyada hoga toh shrink. Kyun?",
+      "hint": "Osmosis — cells ke andar bahar concentration balance.",
+      "answer": "Cells have 0.9% salt concentration inside. Matching outside concentration prevents osmosis — no net water movement in/out of cells. Lower = water rushes in (cells burst). Higher = water rushes out (cells shrink)."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Namak ke chhote chhote tukde (ions) hote hain. Paani ke molecules aan ke unhe alag alag kar dete hain aur apne saath le jaate hain. Issliye dikh nahi te — but hain.",
+    "hinglish": "Dekh yaar — namak mein + wale Na aur - wale Cl hote hain. Paani ke molecules bhi thode + aur - hote hain. Opposite attract karte hain — paani pull karta hai ions ko, alag karta hai crystal se.",
+    "exam": "Dissolving = solute ions/molecules surrounded by solvent molecules (hydration/solvation). NaCl → Na+(aq) + Cl-(aq). Solubility increases with temperature for most solids. Solution = homogeneous mixture.",
+    "challenge": "Why does NaCl dissolve in water but not in oil? Explain using polarity. What is 'like dissolves like'?"
+  },
+  "learner_adaptations": {
+    "class_6": "Focus on observation and concept. No ionic equations. Namak before/after taste test.",
+    "class_7": "Introduce polar/nonpolar. Na+ and Cl- ions. Hydration shells simply explained.",
+    "struggling": "Start with the taste test observation. Just establish: salt is STILL THERE. Then explain why.",
+    "fast_learner": "Saturation, supersaturation, solubility curves. Why does hot water hold more dissolved salt?"
+  },
+  "concept_difficulty_level": 7,
+  "learning_track": [
+    "core"
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "concept_id": "salt-in-cooking",
+  "title": "Salt in Cooking",
+  "icon": "🧂",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "subjects": [
+    "Chemistry",
+    "Math",
+    "Physics",
+    "Biology"
+  ],
+  "place": "Kitchen",
+  "level": "Middle",
+  "prerequisites": [],
+  "intro_hook": "Why does salt disappear in water and change food taste?",
+  "big_idea": "Salt dissolves into tiny particles in water, spreading through food. Amount, water volume, heat, and taste sensitivity decide the result.",
+  "story": "A cook adds a pinch of salt to dal or soup. Stirring spreads it. Too little is bland; too much becomes unpleasant.",
+  "cause_process_result": {
+    "cause": "Salt added",
+    "process": "Water surrounds particles → Salt dissolves → Stirring spreads it",
+    "result": "Taste changes"
+  },
+  "flow": [
+    "Salt added",
+    "Water surrounds particles",
+    "Salt dissolves",
+    "Stirring spreads it",
+    "Taste changes"
+  ],
+  "whiteboard": [
+    "Cause: Salt added",
+    "  -> Water surrounds particles → Salt dissolves → Stirring spreads it",
+    "Result: Taste changes"
+  ],
+  "indian_analogies": [
+    "Kitchen mein yeh dekhte hain: Salt in Cooking.",
+    "Cooking dal"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "Invisible does not mean gone. Dissolved salt is still present in the water or food.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Salt in Cooking mein Chemistry, Math, Physics, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does salt disappear in water and change food taste?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does salt disappear in water and change food taste?"
+    },
+    {
+      "type": "probe",
+      "q": "Why does stirring help?",
+      "a": "Stirring help karta hai kyunki yeh salt ko equally distribute karta hai, jisse khane mein salt ka swad acha aur consistent rehta hai, aur yeh salt ko dissolve hone mein bhi madad karta hai. Isse khane ka taste bhi accha hota hai."
+    },
+    {
+      "type": "probe",
+      "q": "Why is concentration important?"
+    },
+    {
+      "type": "probe",
+      "q": "Why does too much salt affect health?"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Salt added -> Water surrounds particles -> Salt dissolves — what exactly happens at each step?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+    },
+    {
+      "type": "application",
+      "q": "What happens when salt dissolves in water?",
+      "a": "Jab namak paani mein ghul jaata hai, to yeh paani mein mil kar ek saman mishran banata hai, jise hum namak ka paani kehte hain. Ismein namak ke kan visible nahi hote. Yeh process ko hum dissolution kehte hain."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What happens when salt dissolves in water?",
+      "options": [
+        "It disappears from existence",
+        "It breaks into tiny particles spread in water",
+        "It becomes plastic",
+        "It becomes a living organism"
+      ],
+      "correct": "It breaks into tiny particles spread in water",
+      "hint": "Dissolved salt particles spread through the water, so the mixture tastes salty even when crystals are not visible.",
+      "answer": "Dissolved salt particles spread through the water, so the mixture tastes salty even when crystals are not visible."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if salt amount becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if salt amount becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Salt in Cooking shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Salt in Cooking, one or more factors such as salt amount change what we observe. The idea connects Chemistry, Math, Physics, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Salt in Cooking connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Salt dissolves into tiny particles in water, spreading through food. Amount, water volume, heat, and taste sensitivity decide the result.",
+    "hinglish": "Dekh yaar — Salt in Cooking mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A cook adds a pinch of salt to dal or soup. Stirring spreads it. Too little is bland; too much becomes unpleasant."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does salt disappear in water and change food taste. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more salt amount.",
+    "class_6_8": "Explain the cause-effect chain: Salt added → Water surrounds particles → Salt dissolves → Stirring spreads it.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Chemistry, Math, Physics, Biology."
+  },
+  "subject_lenses": {
+    "Chemistry": "Dissolution and concentration explain salty taste.",
+    "Math": "Measure teaspoons, estimate concentration, and compare ratios.",
+    "Physics": "Stirring and heating help movement and mixing.",
+    "Biology": "Taste buds sense salt; excess salt is not healthy."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Salt in Cooking ka concept aur jagah bhi kaam karta hai: Cooking dal, Making soup, adult-supervised ORS preparation.",
+      "related_concepts": [],
+      "career_connection": "Food science, nutrition, medicine preparation, chemical processing."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj salt in cooking se related kuch notice karo.",
+    "Why does salt disappear in water and change food taste?",
+    "What would happen if salt amount becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Charaka",
+    "connection": "Charaka, an ancient Indian physician, discussed the importance of salt in his book Charaka Samhita, describing its role in digestion and overall health. The concept of salt dissolving into tiny particles in water and spreading through food can be linked to the traditional Indian practice of using salt to preserve food, which Charaka wrote about, highlighting the significance of salt in culinary and medicinal applications.",
+    "story_hook": "Imagine walking through the ancient streets of India, where Charaka once taught his students about the healing properties of salt, and discovering the secret to making the perfect curry, which lies in the perfect balance of salt and spices. As we explore the world of cooking, we'll uncover how Charaka's wisdom on salt can help us become master chefs in our own kitchens.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Salt in Cooking",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Mix a small pinch of salt in a cup of water and observe crystals disappear. Do not drink salty water as an experiment without adult guidance."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "solution",
+    "concentration",
+    "mixing",
+    "taste_and_health"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-salt-in-cooking",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Add salt gradually, taste responsibly, and understand why excess salt is unhealthy.",
+  "career_connections": "Food science, nutrition, medicine preparation, chemical processing.",
+  "why_matters": "Cooking becomes a useful way to understand solution concentration and measured decision-making.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 8,
+  "learning_track": [
+    "core"
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "concept_id": "physics_reflection_light",
+  "title": "Reflection of Light",
+  "icon": "⚡",
+  "class_band": [
+    8,
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics"
+  ],
+  "level": "Socratic Flow",
+  "prerequisites": [
+    "straight-line light",
+    "angles",
+    "surface"
+  ],
+  "intro_hook": "From where should we measure the angle of incidence: the mirror surface or the normal? Why?",
+  "big_idea": "Reflection explains how light bounces from surfaces and forms images in mirrors.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Reflection is light bouncing from a surface.",
+    "process": "The angle at which light hits equals the angle at which it reflects from a plane mirror. Incident ray, normal, reflected ray diagram.",
+    "result": "Mirrors, periscopes, headlights, optical instruments."
+  },
+  "flow": [],
+  "whiteboard": [
+    "Intuition: Reflection is light bouncing from a surface.",
+    "Visual: Incident ray, normal, reflected ray diagram.",
+    "Formal: Angle of incidence equals angle of reflection, measured from the normal.",
+    "Application: Mirrors, periscopes, headlights, optical instruments."
+  ],
+  "indian_analogies": [
+    "Think of the normal as the referee line. Both incoming and outgoing rays are compared with the same referee line.",
+    "Angle of incidence mirror surface se nahi, normal se measure hota hai. Normal mirror par perpendicular line hoti hai."
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_physics_reflection_light_01",
+      "belief": "angles are measured from mirror surface instead of normal",
+      "why_common": "I guessed the reflected ray direction from the picture instead of using equal angles.",
+      "probe": "From where should we measure angle of incidence: mirror surface or normal? Why?",
+      "repair": "Use a mirror-ray sketch. Draw the normal line first, then compare angle of incidence and angle of reflection from the normal, not from the surface.",
+      "repair_visual": "Use a mirror line, normal line, and two equal angle arcs.",
+      "follow_up": "If a ray hits a mirror at 30° from the normal, what is the reflection angle?",
+      "teacher_prompt": "Make students draw normal before measuring incident/reflected angles.",
+      "mastery_signal": "Learner can explain why “angles are measured from mirror surface instead of normal” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: angles are measured",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_reflection_light_02",
+      "belief": "mirror image is physically behind the mirror",
+      "why_common": "I guessed the reflected ray direction from the picture instead of using equal angles.",
+      "probe": "From where should we measure angle of incidence: mirror surface or normal? Why?",
+      "repair": "Use a mirror line, normal line, and two equal angle arcs. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a mirror line, normal line, and two equal angle arcs.",
+      "follow_up": "Give a changed reflection light situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Make students draw normal before measuring incident/reflected angles.",
+      "mastery_signal": "Learner can explain why “mirror image is physically behind the mirror” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: mirror image is",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    },
+    {
+      "id": "mis_physics_reflection_light_03",
+      "belief": "rough surfaces do not reflect light at all",
+      "why_common": "I guessed the reflected ray direction from the picture instead of using equal angles.",
+      "probe": "From where should we measure angle of incidence: mirror surface or normal? Why?",
+      "repair": "Use a mirror line, normal line, and two equal angle arcs. Then ask the learner to state the rule in their own words before moving to symbols.",
+      "repair_visual": "Use a mirror line, normal line, and two equal angle arcs.",
+      "follow_up": "Give a changed reflection light situation and ask the learner to explain why the same idea still applies.",
+      "teacher_prompt": "Make students draw normal before measuring incident/reflected angles.",
+      "mastery_signal": "Learner can explain why “rough surfaces do not reflect light at all” is not correct and answer a changed follow-up without relying only on a memorized rule.",
+      "trigger_words": [
+        "suggests: rough surfaces do",
+        "gives answer without valid",
+        "cannot explain the idea"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "From where should we measure the angle of incidence: the mirror surface or the normal? Why?",
+      "a": "Angle of incidence ko hume normal se measure karna chahiye, kyunki normal mirror surface par perpendicular hota hai aur isse sahi parinaam milta hai. Isliye, normal se angle of incidence measure karna zaroori hai."
+    },
+    {
+      "type": "probe",
+      "q": "Draw the mirror as a straight line.",
+      "a": "Mirror ko ek sidhi rekha ke roop mein draw karna hai, jismein reflection ka angle incidence ka angle ke barabar hota hai. Isse hum mirror ki surface ko darshaa sakte hain."
+    },
+    {
+      "type": "probe",
+      "q": "Now draw a line perpendicular to the mirror at the point where light hits. That is the normal."
+    },
+    {
+      "type": "probe",
+      "q": "The incident and reflected angles are measured from this normal line."
+    },
+    {
+      "type": "application",
+      "q": "If a light ray hits a mirror at 40° from the normal, what is the angle of reflection and why?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Why do we need the normal line in ray diagrams?",
+      "a": "Normal line humein dikhaati hai ki light ka beam kis angle se aata hai aur kis angle se wapas jaata hai, isse hum reflection ko acche se samajh sakte hain. Yeh line humein incident angle aur reflected angle ko measure karne mein madad karti hai. Isse hum reflection ki properties ko easily samajh sakte hain."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "open",
+      "q": "From where should we measure angle of incidence: mirror surface or normal? Why?",
+      "hint": "Reflection is light bouncing from a surface.",
+      "answer": "The angle of incidence is measured from the normal, a line perpendicular to the mirror surface, because reflection law compares angles from the normal."
+    },
+    {
+      "difficulty": 3,
+      "type": "transfer",
+      "q": "If a light ray hits a mirror at 40° from the normal, what is the angle of reflection and why?",
+      "hint": "Same idea, new context.",
+      "answer": "Mastery requires measuring ray angles from the normal and applying equal-angle reflection."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Measure the angle of incidence from the normal, not the mirror surface. The normal is perpendicular to the mirror at the point of incidence.",
+    "visual": "Draw the mirror, then a 90° normal line at the hit point. The incoming ray angle with this normal is the angle of incidence.",
+    "real_life": "Think of the normal as the referee line. Both incoming and outgoing rays are compared with the same referee line.",
+    "formal": "The law of reflection states that angle of incidence equals angle of reflection, both measured with respect to the normal.",
+    "socratic": "What line is perpendicular to the mirror? Which two angles does the law compare? Are both measured from the same reference?",
+    "mistake_analysis": "The mistake is measuring from the surface. That gives the complementary angle and breaks the standard reflection law.",
+    "hinglish": "Angle of incidence mirror surface se nahi, normal se measure hota hai. Normal mirror par perpendicular line hoti hai.",
+    "challenge": "If the angle of incidence is 30° from the normal, what is the angle of reflection? What would it be from the surface?",
+    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+  },
+  "learner_adaptations": {
+    "struggling": "Reflection is light bouncing from a surface.",
+    "standard": "The angle at which light hits equals the angle at which it reflects from a plane mirror.",
+    "advanced": "Angle of incidence equals angle of reflection, measured from the normal.",
+    "fast_learner": "If the angle of incidence is 30° from the normal, what is the angle of reflection? What would it be from the surface?"
+  },
+  "subject_lenses": {
+    "Physics": "Mirrors, periscopes, headlights, optical instruments."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "Ek interesting connection — Reflection of Light ka use real life mein: Mirrors, periscopes, headlights, optical instruments.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "Aaj reflection of light ka ek real-life example dhundo.",
+    "Think of the normal as the referee line. Both incoming and outgoing rays are compared with the same referee line."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the understanding of light and its behavior. His work on the reflection of light can be related to the concept of how light bounces from surfaces and forms images in mirrors, which is a fundamental principle in understanding the formation of images in astronomy and everyday life.",
+    "story_hook": "Imagine you are an ancient Indian astronomer like Aryabhata, trying to understand the mysteries of the universe, and you stumble upon a shiny surface that reflects the light of the stars, forming an image that helps you unravel the secrets of the cosmos. As you experiment with this reflective surface, you begin to understand the magic of reflection, just like Aryabhata did centuries ago.",
+    "class_appropriate": {},
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Try at Home: Reflection of Light",
+    "time_required": "5 min",
+    "materials": [
+      "Paper, pen, everyday objects"
+    ],
+    "steps": [
+      "Think of the normal as the referee line. Both incoming and outgoing rays are compared with the same referee line."
+    ],
+    "share_with_sakha": "What did you notice?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "jigyasu-socratic-tutor#concept-physics_reflection_light",
+  "visualizer_type": "socratic_tutor",
+  "mastery_rule": "Mastery requires measuring ray angles from the normal and applying equal-angle reflection.",
+  "session_type": "science",
+  "_source": "jigyasu-socratic-stem-tutor-v1.0",
+  "_socratic_flow_id": "flow_physics_reflection_light_full",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

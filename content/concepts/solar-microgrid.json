@@ -1,0 +1,162 @@
+{
+  "concept_id": "solar-microgrid",
+  "title": "Solar Microgrid",
+  "icon": "☀️",
+  "class_band": [
+    9,
+    10
+  ],
+  "subjects": [
+    "Physics",
+    "Chemistry",
+    "Math"
+  ],
+  "level": "Advanced Systems",
+  "prerequisites": [],
+  "intro_hook": "How does a small community generate and store its own electricity from solar panels?",
+  "big_idea": "A microgrid combines solar generation, battery storage, and load management. When generation > load: charge battery. When generation < load: discharge battery or grid-import.",
+  "story": "",
+  "cause_process_result": {
+    "cause": "Sunlight hits solar panels",
+    "process": "DC generated -> inverter converts to AC -> battery stores excess; load consumes",
+    "result": "Homes powered; excess sold to grid or stored; failure = blackout when storage depleted"
+  },
+  "flow": [
+    "Sunlight hits solar panels",
+    "DC generated -> inverter converts to AC -> battery stores excess; load consumes",
+    "Homes powered; excess sold to grid or stored; failure = blackout when storage depleted"
+  ],
+  "whiteboard": [
+    "System Lens: Purpose -> Inputs -> Process -> Outputs -> Feedback -> Failure -> Data -> Design",
+    "Cause: Sunlight hits solar panels",
+    "  -> DC generated -> inverter converts to AC -> battery stores excess; load consumes",
+    "Result: Homes powered; excess sold to grid or stored; failure = blackout when storage depleted"
+  ],
+  "indian_analogies": [
+    "India context: TODO — add local real-world example of this system."
+  ],
+  "misconceptions": [
+    {
+      "id": "system_never_fails",
+      "belief": "Well-designed systems never fail.",
+      "probe": "What happens when one sensor fails in this system?",
+      "repair": "Every system has failure modes. Engineering is about making failures safe, detectable, and recoverable — not eliminating them entirely.",
+      "trigger_words": [
+        "perfect system",
+        "never fails",
+        "always works"
+      ]
+    },
+    {
+      "id": "single_cause_failure",
+      "belief": "System failures always have a single clear cause.",
+      "probe": "What if two components fail simultaneously in different parts of the chain?",
+      "repair": "Complex systems have cascading failures — sensor error, transport delay, power cut, and human error often combine.",
+      "trigger_words": [
+        "one cause",
+        "simple fix",
+        "just one thing broke"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "How does a small community generate and store its own electricity from solar panels?"
+    },
+    {
+      "type": "probe",
+      "q": "What inputs does this system need to function?"
+    },
+    {
+      "type": "concept_check",
+      "q": "Trace the full Purpose->Inputs->Process->Outputs->Feedback chain.",
+      "a": "Solar Microgrid ka purpose hai ki logon ko reliable aur clean energy provide karna, ismein inputs hote hain solar panels, battery, aur control systems, process mein inka combination hota hai jo electricity generate karta hai, outputs mein humein electricity milti hai jo hum apne ghar aur schools mein use kar sakte hain, aur feedback chain mein hum energy consumption ko monitor karte hain aur microgrid ko optimize karte hain. Isse"
+    },
+    {
+      "type": "probe",
+      "q": "Where could this system fail? What would the warning signal look like?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Design a simple version of this system. What is your most important design decision and why?"
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "design",
+      "q": "What single change would most improve the reliability of the Solar Microgrid? What trade-off does it introduce?",
+      "hint": "Think about the feedback loop — what information is currently missing?",
+      "answer": "Multiple valid answers — evaluate by quality of trade-off reasoning."
+    },
+    {
+      "difficulty": 3,
+      "type": "failure_analysis",
+      "q": "One component in the Solar Microgrid fails silently (no alarm). Trace what happens step by step.",
+      "hint": "Follow the process chain — where does the error propagate?",
+      "answer": "Depends on component; evaluate by systematic chain reasoning."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "A microgrid combines solar generation, battery storage, and load management. When generation > load: charge battery. When generation < load: discharge battery or grid-import.",
+    "formal": "Systems lens: Purpose->Inputs->Process->Outputs->Feedback->Failure->Data->Design",
+    "real_life": "How does a small community generate and store its own electricity from solar panels?",
+    "hinglish": "Yaar, solar microgrid ek system hai — inputs aate hain, process hoti hai, output nikalta hai. Kya fail ho sakta hai?"
+  },
+  "learner_adaptations": {
+    "struggling": "Start with Purpose only — what problem does this system solve?",
+    "standard": "Map all 8 system dimensions.",
+    "fast_learner": "Design an improved version under a new constraint."
+  },
+  "subject_lenses": {
+    "Physics": "Applied in this system",
+    "Chemistry": "Applied in this system",
+    "Math": "Applied in this system"
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Solar Microgrid ka ek surprising failure mode hai jo tune shayad socha nahi hoga.",
+      "related_concepts": []
+    }
+  ],
+  "daily_wonders": [
+    "How does a small community generate and store its own electricity from solar panels?",
+    "Notice a solar microgrid around you today — map its inputs and one failure mode."
+  ],
+  "indian_legacy": {
+    "scientist": "Aryabhata",
+    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of solar studies. His work on the heliocentric model and the calculation of the solar year can be connected to the concept of solar microgrids, as it highlights the importance of understanding solar energy patterns and harnessing them efficiently, much like a solar microgrid combines solar generation, battery storage, and load management to optimize energy distribution.",
+    "story_hook": "Imagine a small village in ancient India, where Aryabhata's knowledge of the sun's movements inspired a community to come together and build a innovative system to store and share energy, much like a modern solar microgrid. As we explore the concept of solar microgrids, we'll discover how this ancient wisdom can be applied to create a sustainable and efficient energy system for our own communities.",
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Observe: Solar Microgrid",
+    "time_required": "5 min",
+    "steps": [
+      "Find a real example of a solar microgrid in your city or home. Map its inputs, outputs, and one failure mode."
+    ],
+    "share_with_sakha": "What was surprising about the system you observed?"
+  },
+  "unlocks": [],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "advanced-stem-systems-lab#module-solar-microgrid",
+  "visualizer_type": "advanced_systems_simulator",
+  "session_type": "science",
+  "_source": "advanced-stem-systems-lab-v1.0",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "unlocks",
+    "prerequisites",
+    "indian_analogies",
+    "stem_lab_link (full URL)"
+  ],
+  "concept_difficulty_level": 10,
+  "learning_track": [
+    "core"
+  ]
+}

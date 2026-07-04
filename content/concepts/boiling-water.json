@@ -1,0 +1,229 @@
+{
+  "concept_id": "boiling-water",
+  "title": "Boiling Water",
+  "icon": "♨️",
+  "class_band": [
+    4,
+    5
+  ],
+  "subjects": [
+    "Physics",
+    "Chemistry",
+    "Math",
+    "Biology"
+  ],
+  "place": "Kitchen",
+  "level": "Bridge",
+  "prerequisites": [],
+  "intro_hook": "Why does water bubble when heated, and why should we be careful around steam?",
+  "big_idea": "Heating gives water particles more energy. At boiling, liquid water changes into water vapour. Steam and hot water can burn skin, so distance and adult supervision matter.",
+  "story": "A pot of water warms slowly, then small bubbles appear, then strong bubbling begins. The temperature and state are changing.",
+  "cause_process_result": {
+    "cause": "Heat source",
+    "process": "Water warms → Particles move faster → Boiling starts",
+    "result": "Hot water vapour/steam rises and can condense into visible droplets"
+  },
+  "flow": [
+    "Heat source",
+    "Water warms",
+    "Particles move faster",
+    "Boiling starts",
+    "Hot water vapour/steam rises and can condense into visible droplets"
+  ],
+  "whiteboard": [
+    "Cause: Heat source",
+    "  -> Water warms → Particles move faster → Boiling starts",
+    "Result: Hot water vapour/steam rises and can condense into visible droplets"
+  ],
+  "indian_analogies": [
+    "Kitchen mein yeh dekhte hain: Boiling Water.",
+    "Cooking rice"
+  ],
+  "misconceptions": [
+    {
+      "id": "single_subject_thinking",
+      "belief": "This topic belongs to only one subject.",
+      "why_common": "A common mistake is to treat boiling water as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+      "repair": "Boiling Water mein Physics, Chemistry, Math, Biology sab ek saath kaam karte hain.",
+      "trigger_words": [
+        "sirf",
+        "only",
+        "just",
+        "ek subject",
+        "one reason"
+      ]
+    },
+    {
+      "id": "cause_is_result",
+      "belief": "The first visible thing IS the reason, not the start of a chain.",
+      "why_common": "Students observe the output and skip the mechanism.",
+      "probe": "Why does water bubble when heated, and why should we be careful around steam?",
+      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+      "trigger_words": [
+        "because it happens",
+        "directly",
+        "seedha"
+      ]
+    }
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "Why does water bubble when heated, and why should we be careful around steam?",
+      "a": "Jab hum paani ko garam karte hain, to usmein bubbles aate hain kyunki paani mein maujood oxygen aur hydrogen gas nikalne lagte hain, aur is steam ke karan humein savdhani bartani chahiye kyunki yeh humein jalaa sakta hai. Isliye, humein steam ke paas jaane se pehle savdhani bartani chahiye."
+    },
+    {
+      "type": "probe",
+      "q": "What changes if one factor increases?",
+      "a": "Agar hum pressure badhate hain toh boiling point bhi badh jata hai, aur agar hum altitude badhate hain toh boiling point ghat jata hai. Isse pata chalta hai ki pressure aur altitude ke badhne se boiling point par asar padta hai."
+    },
+    {
+      "type": "probe",
+      "q": "Which subject explains the biggest part?",
+      "a": "Science vishay mein hume boiling water ke baare mein padhte hain, ismein hume thermal energy aur heat transfer ke baare mein bhi pata chalta hai. Isliye, science sabse bada hissa samjhati hai. Yeh physics aur chemistry ke concepts ko bhi cover karti hai."
+    },
+    {
+      "type": "probe",
+      "q": "How can we test this safely at home or school?",
+      "a": "Hum ghar par ya school mein ek bartan mein paani bharkar gas stove ya induction par rakhte hain, phir usmein thermometer daal kar dekhte hain ki paani kitne degree par ubalne lagta hai, isse hum boiling point ko safely test kar sakte hain. Iske alawa hum paani ko microwave mein bhi rakhte hain aur dekhte hain ki kitne samay mein paani ubalne lag"
+    },
+    {
+      "type": "concept_check",
+      "q": "In this flow — Heat source -> Water warms -> Particles move faster — what exactly happens at each step?",
+      "a": "Sabse pehle heat source se garmi milti hai, jisse water warm ho jata hai, phir uske particles tezi se move karne lagte hain. Is prakriya mein particles ki gati badhti hai, jiske karan water boil hone lagta hai. Iss tarah se heat energy particles ko activate karti hai aur unki gati ko badhati hai."
+    },
+    {
+      "type": "teach_back",
+      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+      "a": "Pani ko garam karne ke liye hum use gas par rakhte hain, jisse woh ubalne lagta hai, aur phir hum use chai ya khane ke liye use karte hain. Jab pani ubalta hai to usme bubbles aate hain, jo dikhate hain ki woh garam ho gaya hai."
+    },
+    {
+      "type": "application",
+      "q": "What generally boils faster?",
+      "a": "Pani jismein thoda pressure hota hai ya jismein thoda salt mila hota hai, woh sadaara pani se jaldi ubalta hai. Iska kaaran yeh hai ki salt milne se pani ka boiling point badh jaata hai."
+    }
+  ],
+  "practice_problems": [
+    {
+      "difficulty": 2,
+      "type": "mcq",
+      "q": "What generally boils faster?",
+      "options": [
+        "Less water with same heat",
+        "More water with same heat",
+        "Water kept in freezer",
+        "Water without any heat"
+      ],
+      "correct": "Less water with same heat",
+      "hint": "Less water needs less total heat energy to reach boiling, assuming the same heating conditions.",
+      "answer": "Less water needs less total heat energy to reach boiling, assuming the same heating conditions."
+    },
+    {
+      "difficulty": 1,
+      "type": "what_if",
+      "q": "What would happen if heat level becomes very low?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 2,
+      "type": "what_if",
+      "q": "What would happen if heat level becomes very high?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    },
+    {
+      "difficulty": 3,
+      "type": "what_if",
+      "q": "What would change if the place, material, time, or weather changes?",
+      "hint": "Follow the Cause-Process-Result chain.",
+      "answer": "Consider how changing this variable shifts each step of the process."
+    }
+  ],
+  "teaching_styles": {
+    "simple": "Boiling Water shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+    "standard": "In Boiling Water, one or more factors such as heat level change what we observe. The idea connects Physics, Chemistry, Math, Biology and helps explain the situation beyond memorizing a fact.",
+    "deep": "A deeper explanation of Boiling Water connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Heating gives water particles more energy. At boiling, liquid water changes into water vapour. Steam and hot water can burn skin, so distance and adult supervision matter.",
+    "hinglish": "Dekh yaar — Boiling Water mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+    "story": "A pot of water warms slowly, then small bubbles appear, then strong bubbling begins. The temperature and state are changing."
+  },
+  "learner_adaptations": {
+    "class_1_3": "Notice the situation: Why does water bubble when heated, and why should we be careful around steam. Say what you can see, hear, feel, or compare safely.",
+    "class_4_5": "Name the main factor and compare two cases. Example: less vs more heat level.",
+    "class_6_8": "Explain the cause-effect chain: Heat source → Water warms → Particles move faster → Boiling starts.",
+    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
+    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Chemistry, Math, Biology."
+  },
+  "subject_lenses": {
+    "Physics": "Heat transfer and energy movement.",
+    "Chemistry": "Change of state from liquid to gas; water remains H₂O.",
+    "Math": "Read temperature, compare heating time, estimate volume.",
+    "Biology": "Skin can be injured by hot water or steam."
+  },
+  "wonder_tangents": [
+    {
+      "trigger": "after_student_explains",
+      "hinglish": "By the way — Boiling Water ka concept aur jagah bhi kaam karta hai: Cooking rice, Making tea, Sterilizing water.",
+      "related_concepts": [],
+      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+    }
+  ],
+  "daily_wonders": [
+    "Aaj boiling water se related kuch notice karo.",
+    "Why does water bubble when heated, and why should we be careful around steam?",
+    "What would happen if heat level becomes very low?"
+  ],
+  "indian_legacy": {
+    "scientist": "Acharya Kanad",
+    "connection": "Acharya Kanad, an ancient Indian sage, is known for his work on the concept of 'anu' or atoms, which laid the foundation for understanding the properties of matter, including the behavior of water particles when heated. His work can be connected to the concept of boiling water, where the increased energy of water particles leads to a change in state from liquid to gas, illustrating the dynamic nature of matter at the atomic level.",
+    "story_hook": "Imagine you are in a traditional Indian kitchen, where your grandmother is boiling water for a cup of soothing chai, and you notice the steam rising from the pot, reminding you of the ancient wisdom of Acharya Kanad. As you watch the water transform into vapor, you begin to wonder about the tiny particles that make up this magical process, and the secrets they hold about the world around us.",
+    "class_appropriate": {
+      "1-5": "story_hook only",
+      "6-8": "story + connection",
+      "9-10": "full connection with equations"
+    },
+    "enrichment_status": "completed"
+  },
+  "home_investigation": {
+    "title": "Ghar pe Try Karo: Boiling Water",
+    "time_required": "5-10 min",
+    "materials": [
+      "Ghar mein available items (see experiment below)"
+    ],
+    "steps": [
+      "Observe boiling only with an adult. Stand away from steam, hot water, handles, and hot vessels. Do not perform unsupervised heating experiments."
+    ],
+    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
+    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
+  },
+  "unlocks": [
+    "heat",
+    "state_changes",
+    "temperature_and_time",
+    "safety"
+  ],
+  "subject_web_position": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "stem_lab_link": "life-concepts-lab#scenario-boiling-water",
+  "visualizer_type": "life_concepts_lab",
+  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+  "why_matters": "Boiling Water turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+  "session_type": "science",
+  "_source": "life-concepts-lab-v1_4_1-final-polish",
+  "_enrichment_needed": [
+    "indian_legacy",
+    "wonder_tangents.related_concepts",
+    "misconceptions (domain-specific)",
+    "prerequisites",
+    "stem_lab_link (full deployed URL)"
+  ],
+  "concept_difficulty_level": 5,
+  "learning_track": [
+    "core"
+  ]
+}
