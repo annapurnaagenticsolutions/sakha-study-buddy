@@ -51,6 +51,7 @@ let p2pService = null;
 let p2pPromise = null;
 let activeWhiteboard = null;
 let activeWhiteboardTitle = '';
+let activeWhiteboardStage = 'start';
 let completionTimer = null;
 let galaxyInstance = null;
 let conceptIndex = [];
@@ -478,7 +479,7 @@ function getWhiteboardView(whiteboard, stage) {
 
 function renderWhiteboardPanel(whiteboard, title, stage = 'start') {
     if (!whiteboard || !els.whiteboardPanel || !els.whiteboardContent) return;
-    whiteboardStage = stage;
+    activeWhiteboardStage = stage;
     const board = renderComponent('Whiteboard', { whiteboard: getWhiteboardView(whiteboard, stage), title });
     els.whiteboardContent.replaceChildren(board);
     showWhiteboardPanel();
@@ -504,7 +505,7 @@ function toggleWhiteboardPanel() {
         closeWhiteboardPanel();
         return;
     }
-    openActiveWhiteboard();
+    openActiveWhiteboard(activeWhiteboardStage);
 }
 
 function appendDiagnosticCard(concept) {
