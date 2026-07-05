@@ -1897,5 +1897,39 @@
     "place": "Everyday life",
     "unlocked": false,
     "hook": "Garmi mein glass ke bahar paani kahan se aata hai aur barf kyun pighalti hai? Kabhi socha hai?"
+  },
+  {
+    "id": "math-ratios",
+    "title": "Ratios and Proportions",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      5,
+      6,
+      7
+    ],
+    "place": "Everyday life",
+    "unlocked": true,
+    "hook": "If 2 cups of rice need 4 cups of water, how much water do 5 cups of rice need? Why does the taste change if we guess?"
+  },
+  {
+    "id": "math-algebra-basics",
+    "title": "Algebra: Finding the Unknown",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Everyday life",
+    "unlocked": true,
+    "hook": "If you have a box of chocolates and 5 are missing, leaving you with 15, how many were there at the start? Why do we use 'x' for this?"
   }
 ]

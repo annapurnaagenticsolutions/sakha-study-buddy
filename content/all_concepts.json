@@ -3,7 +3,7 @@
     "id": "air-conditioner-cooling-energy",
     "title": "Air Conditioner and Room Cooling",
     "x": 5.560318859524797,
-    "y": 0.0,
+    "y": 0,
     "z": 39.6116504854369,
     "subject": "Physics",
     "unlocked": true
@@ -919,11 +919,45 @@
   },
   {
     "id": "wifi-mobile-network",
-    "title": "Wi\u2011Fi and Mobile Network",
+    "title": "Wi‑Fi and Mobile Network",
     "x": 5.390233167787671,
     "y": 1.3647462095455136,
     "z": -39.6116504854369,
     "subject": "Physics",
     "unlocked": false
+  },
+  {
+    "id": "math-ratios",
+    "title": "Ratios and Proportions",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      5,
+      6,
+      7
+    ],
+    "place": "Everyday life",
+    "unlocked": true,
+    "hook": "If 2 cups of rice need 4 cups of water, how much water do 5 cups of rice need? Why does the taste change if we guess?"
+  },
+  {
+    "id": "math-algebra-basics",
+    "title": "Algebra: Finding the Unknown",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Everyday life",
+    "unlocked": true,
+    "hook": "If you have a box of chocolates and 5 are missing, leaving you with 15, how many were there at the start? Why do we use 'x' for this?"
   }
 ]

@@ -1,0 +1,50 @@
+{
+  "id": "math-ratios",
+  "title": "Ratios and Proportions",
+  "subject": "Math",
+  "subjects": ["Math"],
+  "level": "Middle School",
+  "class_band": [5, 6, 7],
+  "place": "Everyday life",
+  "unlocked": true,
+  "intro_hook": "If 2 cups of rice need 4 cups of water, how much water do 5 cups of rice need? Why does the taste change if we guess?",
+  "big_idea": "A ratio compares two quantities, and a proportion shows that two ratios are equal.",
+  "question_flow": [
+    { "q": "What happens when you mix something in the wrong amounts (like salt in food)?" },
+    { "q": "How would you write the relationship between 2 cups of rice and 4 cups of water?" },
+    { "q": "If we want to cook 5 cups of rice, how do we keep the relationship (ratio) the same to find the amount of water?" }
+  ],
+  "indian_analogies": [
+    "Making chai: ratio of milk to water or tea leaves.",
+    "Mixing cement and sand for building walls."
+  ],
+  "misconceptions": [
+    { "belief": "A ratio is just a fraction.", "probe": "They look similar, but can a ratio compare apples to oranges?" },
+    { "belief": "Adding the same amount to both sides keeps the ratio equal.", "probe": "If you have 1 cup of milk and 2 cups of water, adding 1 cup of each makes it 2 and 3. Is the taste the same?" }
+  ],
+  "whiteboard": {
+    "title": "Ratios and Proportions",
+    "goal": "Understand how to keep quantities in balance.",
+    "basics": [
+      "Ratio = Comparing two things (like 1:2).",
+      "Proportion = Two equal ratios (like 1:2 = 2:4)."
+    ],
+    "formula": "a/b = c/d",
+    "symbols": [
+      { "symbol": ":", "means": "Ratio (is to)", "example": "1:2 means 1 is to 2" },
+      { "symbol": "=", "means": "Equals (Proportion)", "example": "1:2 = 2:4" }
+    ],
+    "steps": [
+      { "label": "Identify", "detail": "Find the two quantities being compared (e.g., Rice and Water)." },
+      { "label": "Write Ratio", "detail": "Write it as a fraction or with a colon (e.g., 2:4 or 2/4)." },
+      { "label": "Simplify", "detail": "Divide both by the same number if possible (2/4 becomes 1/2)." },
+      { "label": "Find Unknown", "detail": "Multiply or divide to match the new quantity." }
+    ],
+    "check_after_step": 3,
+    "feedback_prompt": "Are you comfortable finding the simplest ratio so far?",
+    "worked_example": "If 2 cups rice need 4 cups water (ratio 2:4 or 1:2). For 5 cups rice, we need 5 x 2 = 10 cups of water.",
+    "common_confusions": [
+      { "confusion": "Adding instead of multiplying", "fix": "Ratios scale by multiplication, not addition." }
+    ]
+  }
+}
