@@ -710,7 +710,9 @@ async function handleSend() {
                 lastTeachBack: text,
                 nextReviewAt: new Date(Date.now() + getReviewDelay(attempts - 1)).toISOString()
             });
-            showSessionComplete(agent.concept.title, text);
+            setTimeout(() => {
+                showSessionComplete(agent.concept.title, text);
+            }, 10000);
         }
     } catch (error) {
         loadingDiv.remove();
@@ -730,25 +732,40 @@ function showSessionComplete(conceptTitle, teachBackText) {
     stars.textContent = '***';
 
     const heading = document.createElement('h2');
-    heading.textContent = 'Wah yaar!';
-
     const result = document.createElement('p');
     const strong = document.createElement('strong');
     strong.textContent = conceptTitle;
-    result.append(strong, ' samajh aaya!');
-
     const note = document.createElement('p');
     note.className = 'session-complete-note';
-    note.textContent = 'Ab tum is idea ko apne words mein explain kar sakte ho.';
+
+    let headingText = 'Wah yaar!';
+    let resultSuffix = ' samajh aaya!';
+    let noteText = 'Ab tum is idea ko apne words mein explain kar sakte ho.';
+    let returnText = 'Choose another topic';
+    let shareText = 'Share progress card';
+
+    if (selectedLanguage === 'English') {
+        headingText = 'Great job!';
+        resultSuffix = ' understood!';
+        noteText = 'Now you can explain this idea in your own words.';
+    } else if (selectedLanguage === 'Hindi') {
+        headingText = 'Shabash!';
+        resultSuffix = ' samajh aa gaya!';
+        noteText = 'Ab aap is vishay ko apne shabdon mein samjha sakte hain.';
+    }
+
+    heading.textContent = headingText;
+    result.append(strong, resultSuffix);
+    note.textContent = noteText;
 
     const returnButton = document.createElement('button');
     returnButton.id = 'returnToGalaxyBtn';
-    returnButton.textContent = 'Choose another topic';
+    returnButton.textContent = returnText;
 
     const shareButton = document.createElement('button');
     shareButton.id = 'shareResultBtn';
     shareButton.className = 'share-btn';
-    shareButton.textContent = 'Share progress card';
+    shareButton.textContent = shareText;
 
     card.append(stars, heading, result, note, returnButton, shareButton);
     overlay.appendChild(card);
@@ -799,7 +816,8 @@ function generateSummaryCard(studentName, conceptTitle, teachBackText) {
 
     ctx.font = 'bold 36px Fredoka, sans-serif';
     ctx.fillStyle = '#dff7e2';
-    ctx.fillText(studentName + ' understood:', 60, 120);
+    const understandText = selectedLanguage === 'English' ? ' understood:' : (selectedLanguage === 'Hindi' ? ' ko samajh aaya:' : ' understood:');
+    ctx.fillText(studentName + understandText, 60, 120);
 
     ctx.font = 'bold 48px Fredoka, sans-serif';
     ctx.fillStyle = '#ffffff';

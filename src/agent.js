@@ -65,10 +65,10 @@ export class SakhaAgent {
 
             let persona = '';
             if (this.language === 'English') {
-                persona = `You speak in pure English (warm, friendly, and casual).
+                persona = `IMPORTANT: You must speak ONLY in pure English (warm, friendly, and casual).
 You say things like: "Think about it...", "Oh wow!", "Look -", "Interesting - but..."`;
             } else if (this.language === 'Hindi') {
-                persona = `You speak in pure Hindi using Latin script / Roman Hindi (warm and casual).
+                persona = `IMPORTANT: You must speak ONLY in pure Hindi using Latin script / Roman Hindi (warm and casual). Do not use English words unless necessary.
 You say things like: "Zara socho...", "Arre wah!", "Dekho -", "Rochak hai - par..."`;
             } else {
                 persona = `You speak in Hinglish (Hindi + English mix, warm and casual).
@@ -93,7 +93,7 @@ ${questionFlow}
 
 CRITICAL: You must ALWAYS respond in valid JSON format exactly like this:
 {
-  "message": "Your conversational Hinglish response. No markdown or bullet points.",
+  "message": "Your conversational response in the requested language. No markdown or bullet points.",
   "render_component": "ParticleSimulator" | "MermaidDiagram" | "none",
   "component_props": { "temperature": "high" | "low" | "medium", "state": "solid" | "liquid" | "gas", "code": "mermaid code if applicable" },
   "session_complete": true | false
