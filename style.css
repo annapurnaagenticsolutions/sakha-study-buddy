@@ -1181,3 +1181,188 @@ textarea:focus-visible {
     border-color: #bdd8c4;
     background: #f4fbf5;
 }
+
+.whiteboard-header-btn {
+    border: 1px solid #245953;
+    background: #f3fbf6;
+    color: #173b2a;
+    font-weight: 800;
+}
+
+.whiteboard-header-btn.attention {
+    background: #245953;
+    color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(36, 89, 83, 0.14);
+}
+
+.whiteboard-header-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+body.app-active {
+    background: #fff9f0;
+}
+
+body.app-active #appContainer {
+    max-width: none;
+    height: 100vh;
+    box-shadow: none;
+}
+
+.study-workspace {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    background: #fff9f0;
+}
+
+.chat-pane {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #eadfce;
+    background-color: #fff9f0;
+}
+
+.chat-pane #chatContainer {
+    background-color: #fff9f0;
+    background-image: linear-gradient(rgba(222, 186, 133, 0.11) 1px, transparent 1px), linear-gradient(90deg, rgba(222, 186, 133, 0.11) 1px, transparent 1px);
+    background-size: 50px 50px;
+}
+
+.whiteboard-panel {
+    flex: 0 0 min(38vw, 540px);
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-left: 1px solid #eadfce;
+    min-height: 0;
+}
+
+.whiteboard-panel.collapsed {
+    display: none;
+}
+
+.whiteboard-panel-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 18px 20px 12px;
+    color: #657386;
+    font-family: var(--font-heading);
+    font-size: 0.92rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.whiteboard-panel-heading span::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 4px;
+    margin-right: 8px;
+    border-bottom: 2px solid #7f8da0;
+    border-left: 2px solid #7f8da0;
+    transform: rotate(-35deg) translateY(-2px);
+}
+
+.whiteboard-panel-heading button {
+    border: 1px solid #d8e4dc;
+    background: #ffffff;
+    color: #173b2a;
+    border-radius: 6px;
+    padding: 7px 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.whiteboard-panel-content {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 0 20px 20px;
+}
+
+.whiteboard-panel-content .interactive-component {
+    margin: 0;
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: none;
+    background: #172c3a;
+}
+
+.whiteboard-panel-content .whiteboard-component {
+    min-height: calc(100vh - 148px);
+    background: #172c3a;
+    color: #eef6f2;
+}
+
+.whiteboard-panel-content .whiteboard-header {
+    background: transparent;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+.whiteboard-panel-content .whiteboard-header p {
+    color: #b9c8c8;
+}
+
+.whiteboard-panel-content .whiteboard-section {
+    border-top: 1px solid rgba(255,255,255,0.10);
+    background: rgba(255,255,255,0.03);
+}
+
+.whiteboard-panel-content .whiteboard-section h3,
+.whiteboard-panel-content .steps-section li strong,
+.whiteboard-panel-content .symbol-card strong {
+    color: #dff7e2;
+}
+
+.whiteboard-panel-content .whiteboard-section li,
+.whiteboard-panel-content .whiteboard-section p,
+.whiteboard-panel-content .steps-section li p,
+.whiteboard-panel-content .symbol-card span,
+.whiteboard-panel-content .symbol-card small {
+    color: #d9e7dc;
+}
+
+.whiteboard-panel-content .formula-line,
+.whiteboard-panel-content .symbol-card,
+.whiteboard-panel-content .whiteboard-checkpoint {
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.12);
+    color: #ffffff;
+}
+
+.whiteboard-header-btn.open {
+    background: #172c3a;
+    color: #ffffff;
+    border-color: #172c3a;
+}
+
+@media (max-width: 900px) {
+    .study-workspace {
+        position: relative;
+    }
+
+    .chat-pane {
+        width: 100%;
+        border-right: none;
+    }
+
+    .whiteboard-panel {
+        position: absolute;
+        inset: 0;
+        z-index: 30;
+        min-width: 0;
+        width: 100%;
+        flex-basis: auto;
+        border-left: none;
+    }
+}

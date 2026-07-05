@@ -28,10 +28,16 @@ const els = {
     offlineToggle: document.getElementById('offlineToggle'),
     micBtn: document.getElementById('micBtn'),
     shareBtn: document.getElementById('shareBtn'),
+    whiteboardBtn: document.getElementById('whiteboardBtn'),
+    whiteboardPanel: document.getElementById('whiteboardPanel'),
+    whiteboardContent: document.getElementById('whiteboardContent'),
+    whiteboardCloseBtn: document.getElementById('whiteboardCloseBtn'),
     peerIdDisplay: document.getElementById('peerIdDisplay')
 };
 
 const LANGUAGES = ['Hinglish', 'English', 'Hindi-first'];
+const COMPLETION_MIN_DELAY_MS = 5500;
+const COMPLETION_MAX_DELAY_MS = 30000;
 const LEVELS = ['Foundations', 'Middle School', 'Advanced'];
 const SUBJECT_ORDER = ['Physics', 'Chemistry', 'Biology', 'Math', 'Life Skills', 'Engineering', 'Science', 'Geography'];
 const DEFAULT_CONCEPT = 'ice-melting';
@@ -43,6 +49,9 @@ let agent = null;
 let voiceService = null;
 let p2pService = null;
 let p2pPromise = null;
+let activeWhiteboard = null;
+let activeWhiteboardTitle = '';
+let completionTimer = null;
 let galaxyInstance = null;
 let conceptIndex = [];
 let selectedLanguage = LANGUAGES[0];
@@ -83,6 +92,8 @@ function wireStaticEvents() {
     els.resetBtn.addEventListener('click', showHome);
     els.whatsappBtn.addEventListener('click', shareOnWhatsApp);
     els.shareBtn.addEventListener('click', handlePeerShare);
+if (els.whiteboardBtn) els.whiteboardBtn.addEventListener('click', toggleWhiteboardPanel);
+    if (els.whiteboardCloseBtn) els.whiteboardCloseBtn.addEventListener('click', closeWhiteboardPanel);
     els.sendBtn.addEventListener('click', handleSend);
 
     els.userInput.addEventListener('keydown', (event) => {
@@ -421,8 +432,65 @@ function appendModeCard(concept) {
     els.chatContainer.appendChild(card);
 }
 
+function getConceptWhiteboard(concept) {
+    return concept?.whiteboard || activeWhiteboard || null;
+}
+
+function setActiveWhiteboard(concept) {
+    activeWhiteboard = getConceptWhiteboard(concept);
+    activeWhiteboardTitle = concept?.title || 'Concept whiteboard';
+    if (els.whiteboardBtn) {
+        els.whiteboardBtn.disabled = !activeWhiteboard;
+        els.whiteboardBtn.classList.toggle('attention', Boolean(activeWhiteboard));
+        els.whiteboardBtn.setAttribute('aria-expanded', isWhiteboardOpen() ? 'true' : 'false');
+    }
+    if (activeWhiteboard && isWhiteboardOpen()) {
+        renderWhiteboardPanel(activeWhiteboard, activeWhiteboardTitle);
+    }
+}
+
+function isWhiteboardOpen() {
+    return Boolean(els.whiteboardPanel && !els.whiteboardPanel.classList.contains('collapsed'));
+}
+
+function renderWhiteboardPanel(whiteboard, title) {
+    if (!whiteboard || !els.whiteboardPanel || !els.whiteboardContent) return;
+    const board = renderComponent('Whiteboard', { whiteboard, title });
+    els.whiteboardContent.replaceChildren(board);
+    els.whiteboardPanel.classList.remove('collapsed');
+    els.whiteboardPanel.setAttribute('aria-hidden', 'false');
+    if (els.whiteboardBtn) {
+        els.whiteboardBtn.classList.add('open');
+        els.whiteboardBtn.setAttribute('aria-expanded', 'true');
+    }
+}
+
+function openActiveWhiteboard() {
+    if (!activeWhiteboard) return;
+    renderWhiteboardPanel(activeWhiteboard, activeWhiteboardTitle);
+}
+
+function closeWhiteboardPanel() {
+    if (!els.whiteboardPanel) return;
+    els.whiteboardPanel.classList.add('collapsed');
+    els.whiteboardPanel.setAttribute('aria-hidden', 'true');
+    if (els.whiteboardBtn) {
+        els.whiteboardBtn.classList.remove('open');
+        els.whiteboardBtn.setAttribute('aria-expanded', 'false');
+    }
+}
+
+function toggleWhiteboardPanel() {
+    if (isWhiteboardOpen()) {
+        closeWhiteboardPanel();
+        return;
+    }
+    openActiveWhiteboard();
+}
+
 function appendWhiteboardCard(concept) {
-    if (!concept.whiteboard) return;
+    const whiteboard = getConceptWhiteboard(concept);
+    if (!whiteboard) return;
     const wrapper = document.createElement('section');
     wrapper.className = 'whiteboard-launch-card';
 
@@ -437,10 +505,7 @@ function appendWhiteboardCard(concept) {
     button.type = 'button';
     button.className = 'secondary-action';
     button.textContent = 'Open whiteboard';
-    button.addEventListener('click', () => appendComponent('Whiteboard', {
-        whiteboard: concept.whiteboard,
-        title: concept.title
-    }));
+    button.addEventListener('click', openActiveWhiteboard);
 
     wrapper.append(copy, button);
     els.chatContainer.appendChild(wrapper);
@@ -548,6 +613,16 @@ async function showHome() {
     els.nameModal.classList.add('hidden');
     els.landingShell.classList.remove('hidden');
     els.chatContainer.replaceChildren();
+    if (completionTimer) window.clearTimeout(completionTimer);
+    completionTimer = null;
+    activeWhiteboard = null;
+    activeWhiteboardTitle = '';
+    closeWhiteboardPanel();
+    if (els.whiteboardContent) els.whiteboardContent.replaceChildren();
+    if (els.whiteboardBtn) {
+        els.whiteboardBtn.disabled = true;
+        els.whiteboardBtn.classList.remove('attention');
+    }
     agent = null;
     if (els.offlineToggle) els.offlineToggle.checked = false;
 }
@@ -658,6 +733,8 @@ async function initAgent(key, conceptId, studentName) {
             subject: selectedConcept?.subject || concept.subject || selectedSubject,
             lastStudiedAt: new Date().toISOString()
         });
+        setActiveWhiteboard(concept);
+        openActiveWhiteboard();
         appendLearningPath(concept);
         appendModeCard(concept);
         appendWhiteboardCard(concept);
@@ -692,6 +769,17 @@ function appendMessage(role, text) {
 }
 
 function appendComponent(componentName, props) {
+    if (componentName === 'Whiteboard') {
+        activeWhiteboard = props?.whiteboard || activeWhiteboard;
+        activeWhiteboardTitle = props?.title || activeWhiteboardTitle;
+        if (els.whiteboardBtn) {
+            els.whiteboardBtn.disabled = !activeWhiteboard;
+            els.whiteboardBtn.classList.toggle('attention', Boolean(activeWhiteboard));
+        }
+        openActiveWhiteboard();
+        return;
+    }
+
     const el = renderComponent(componentName, props);
     els.chatContainer.appendChild(el);
     scrollToBottom();
@@ -746,12 +834,31 @@ async function handleSend() {
                 lastTeachBack: text,
                 nextReviewAt: new Date(Date.now() + getReviewDelay(attempts - 1)).toISOString()
             });
-            showSessionComplete(agent.concept.title, text);
+            scheduleSessionComplete(agent.concept.title, text, responseJson.message || '');
         }
     } catch (error) {
         loadingDiv.remove();
         appendMessage('bot', 'Oops. Something went wrong: ' + error.message + '.');
     }
+}
+
+function isSakhaSpeaking() {
+    return Boolean(voiceService?.isSynthesizing) || Boolean(window.speechSynthesis?.speaking || window.speechSynthesis?.pending);
+}
+
+function scheduleSessionComplete(conceptTitle, teachBackText, finalMessage) {
+    if (completionTimer) window.clearTimeout(completionTimer);
+    const wordCount = String(finalMessage || '').trim().split(/\s+/).filter(Boolean).length;
+    const readDelay = Math.min(COMPLETION_MAX_DELAY_MS, Math.max(COMPLETION_MIN_DELAY_MS, wordCount * 420));
+    const openWhenReady = () => {
+        if (isSakhaSpeaking()) {
+            completionTimer = window.setTimeout(openWhenReady, 1000);
+            return;
+        }
+        completionTimer = null;
+        showSessionComplete(conceptTitle, teachBackText);
+    };
+    completionTimer = window.setTimeout(openWhenReady, readDelay);
 }
 
 function showSessionComplete(conceptTitle, teachBackText) {

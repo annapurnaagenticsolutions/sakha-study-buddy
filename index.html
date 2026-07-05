@@ -9,7 +9,7 @@
     <script src="config.js"></script>
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#3f51b5">
-    <link rel="stylesheet" href="style.css?v=2.2">
+    <link rel="stylesheet" href="style.css?v=2.5">
 </head>
 <body>
     <a class="skip-link" href="#studentStart">Skip to topic chooser</a>
@@ -114,6 +114,7 @@
             <div class="header-controls">
                 <span id="topicIndicator">Topic: Loading...</span>
                 <button id="whatsappBtn" aria-label="Share on WhatsApp">WhatsApp</button>
+                <button id="whiteboardBtn" class="whiteboard-header-btn" aria-label="Open whiteboard" disabled>Whiteboard</button>
                 <button id="shareBtn" aria-label="Share Session">Share Session</button>
                 <span id="peerIdDisplay" class="hidden" aria-live="polite"></span>
                 <label class="switch-label">
@@ -124,9 +125,11 @@
             </div>
         </header>
 
-        <main id="chatContainer" aria-label="Chat messages" aria-live="polite"></main>
+        <div class="study-workspace">
+            <section class="chat-pane" aria-label="Tutor chat">
+                <main id="chatContainer" aria-label="Chat messages" aria-live="polite"></main>
 
-        <div class="input-area">
+                <div class="input-area">
             <button id="micBtn" title="Hold to Speak" class="icon-btn" aria-label="Hold to speak">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
             </button>
@@ -134,9 +137,19 @@
             <button id="sendBtn" aria-label="Send Message">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z" fill="currentColor"/></svg>
             </button>
+                </div>
+            </section>
+
+            <aside id="whiteboardPanel" class="whiteboard-panel collapsed" aria-label="Whiteboard" aria-hidden="true">
+                <div class="whiteboard-panel-heading">
+                    <span>Whiteboard</span>
+                    <button id="whiteboardCloseBtn" type="button" aria-label="Close whiteboard">Close</button>
+                </div>
+                <div id="whiteboardContent" class="whiteboard-panel-content"></div>
+            </aside>
         </div>
     </div>
 
-    <script type="module" src="dist/main.js?v=2.2"></script>
+    <script type="module" src="dist/main.js?v=2.5"></script>
 </body>
 </html>

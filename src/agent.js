@@ -1,4 +1,4 @@
-import { DEFAULT_API_CONCEPT_IDS, FallbackTutor, createGenericWhiteboard } from './fallbackTutor.js';
+import { DEFAULT_API_CONCEPT_IDS, FallbackTutor, normalizeWhiteboard } from './fallbackTutor.js';
 
 export class SakhaAgent {
     constructor(apiKey) {
@@ -60,9 +60,7 @@ export class SakhaAgent {
             if (!res.ok) throw new Error('Concept not found: ' + conceptId);
             this.concept = await res.json();
             this.concept.id = conceptId;
-            if (!this.concept.whiteboard) {
-                this.concept.whiteboard = createGenericWhiteboard(this.concept);
-            }
+            this.concept.whiteboard = normalizeWhiteboard(this.concept.whiteboard, this.concept);
             this.fallbackTutor.reset();
 
             const analogies = this.concept.indian_analogies?.join(', ') || '';

@@ -98,3 +98,12 @@ Scope: static GitHub Pages experience only. Backend, Worker quotas, user account
 - Bumped static asset versions and service-worker cache name to force a clean deployment refresh after whiteboard changes.
 - Added a rich no-API whiteboard for `ice-melting.json`, including heat direction, particles, melting point, and common confusions.
 - Kept the first-load bundle under the 40 KB guard.
+
+## Implemented in static pass 8
+
+- Every loaded concept now normalizes to the rich whiteboard format, even if the source JSON only has old whiteboard lines.
+- The whiteboard derives formula/process lines from equations, cause-process-result fields, and flow arrays.
+- Legacy formulas such as fractions, Ohm's Law, and weight/mass are cleaned into student-friendly relationship lines.
+- The board now consistently includes basics, symbol meanings, step flow, a pause checkpoint after early steps, a worked example where available, and common confusions.
+- Sakha's guided fallback now explicitly points students to the right-side board for formula/process, symbols, and step explanation.
+
