@@ -1338,3 +1338,31 @@ body.app-active #appContainer {
     font-weight: 900;
     cursor: pointer;
 }
+
+.options-component {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.option-btn {
+    margin: 0;
+    background: #ffffff;
+}
+
+.option-btn:hover:not(:disabled) {
+    background: #e8f5e9;
+    border-color: #4caf50;
+    color: #2e7d32;
+}
+
+.option-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: #f5f5f5;
+}

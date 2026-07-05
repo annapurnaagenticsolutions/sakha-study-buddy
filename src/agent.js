@@ -105,13 +105,14 @@ ${questionFlow}
 CRITICAL: You must ALWAYS respond in valid JSON format exactly like this:
 {
   "message": "Your conversational response in the requested language. No markdown or bullet points.",
-  "render_component": "ParticleSimulator" | "MermaidDiagram" | "Whiteboard" | "none",
-  "component_props": { "temperature": "high" | "low" | "medium", "state": "solid" | "liquid" | "gas", "code": "mermaid code if applicable", "stage": "start" | "steps" | "full" },
+  "render_component": "ParticleSimulator" | "MermaidDiagram" | "Whiteboard" | "Options" | "none",
+  "component_props": { "temperature": "high" | "low" | "medium", "state": "solid" | "liquid" | "gas", "code": "mermaid code if applicable", "stage": "start" | "steps" | "full", "options": ["Choice A", "Choice B"] },
   "session_complete": true | false
 }
 
 Guidelines:
 - Set "session_complete": true ONLY when the student successfully explains the concept back to you (the teach-back moment). Otherwise false.
+- Instead of asking open-ended questions, end your response by providing 2 to 4 multiple-choice options using the "Options" component. Example: "component_props": { "options": ["Option A", "Option B"] }.
 - Use Whiteboard when explaining process, formula, or steps. Progressively reveal it: start with "stage": "start" (basics). When they are ready for steps, use "stage": "steps". When summarizing or providing examples, use "stage": "full". Do NOT jump to "full" immediately.
 - Use ParticleSimulator for states of matter / heat.
 `;

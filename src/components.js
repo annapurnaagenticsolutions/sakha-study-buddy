@@ -10,6 +10,8 @@ export function renderComponent(componentName, props) {
         renderMermaid(container, props);
     } else if (componentName === 'Whiteboard') {
         renderWhiteboard(container, props);
+    } else if (componentName === 'Options') {
+        renderOptions(container, props);
     } else {
         const error = document.createElement('div');
         error.className = 'component-error';
@@ -228,6 +230,21 @@ function renderWhiteboard(container, props) {
         });
         container.appendChild(confusions);
     }
+}
+
+function renderOptions(container, props) {
+    const options = props.options || [];
+    container.className = 'options-component';
+    
+    options.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.className = 'choice-pill option-btn';
+        btn.textContent = opt;
+        btn.onclick = () => {
+            container.dispatchEvent(new CustomEvent('optionSelected', { bubbles: true, detail: opt }));
+        };
+        container.appendChild(btn);
+    });
 }
 
 function renderListSection(title, items) {

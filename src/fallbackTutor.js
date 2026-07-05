@@ -23,7 +23,7 @@ export class FallbackTutor {
         const misconception = findMisconception(concept, text);
         const asksWhiteboard = /formula|equation|whiteboard|step|derive|symbol|meaning|deep|detail|samjhao|explain|process|flow/.test(text);
         const saysClear = /clear|samajh|understand|yes|haan|ok|got it/.test(text);
-        const saysNotClear = /not clear|confus|samajh nahi|doubt|no|nahi/.test(text);
+        const saysNotClear = /not clear|confus|samajh nahi|doubt|\bno\b|nahi/.test(text);
         const likelyTeachBack = isLikelyTeachBack(userMessage, concept);
         const english = language === 'English';
 
@@ -40,7 +40,7 @@ export class FallbackTutor {
             return jsonReply(
                 english ? 'Use the whiteboard: process, symbols, then first 1-2 steps. Then tell me: clear/confusing?' : 'Whiteboard dekho: process, symbols, phir 1-2 steps. Fir bolo: clear/doubt?',
                 'Whiteboard',
-                { whiteboard, title: concept.title, stage: 'steps' },
+                { whiteboard, title: concept.title, stage: 'steps', options: ["It's clear", "I'm confused"] },
                 false
             );
         }
@@ -48,8 +48,8 @@ export class FallbackTutor {
         if (saysNotClear) {
             return jsonReply(
                 makeNotClearReply(concept, whiteboard, language),
-                'Whiteboard',
-                { whiteboard, title: concept.title, stage: 'start' },
+                'Options',
+                { options: ["Explain more", "Show formula", "Give example"] },
                 false
             );
         }
@@ -65,9 +65,9 @@ export class FallbackTutor {
 
         if (misconception) {
             return jsonReply(
-                english ? 'Good thought, but there is a common trap here: "' + misconception.belief + '". Think about this: ' : 'Good thought, but yahan ek common trap hai: "' + misconception.belief + '". Socho: ' + (misconception.probe || 'is observation ke peeche actual cause kya hai?') + ' Hint: ' + (misconception.repair || concept.big_idea || (english ? 'follow the cause-process-result chain.' : 'cause-process-result chain follow karo.')),
-                'none',
-                {},
+                english ? 'Interesting! ' + misconception.probe : 'Achha laga sunke! ' + misconception.probe,
+                'Options',
+                { options: ["Got it", "Can you explain more?"] },
                 false
             );
         }
@@ -366,14 +366,17 @@ function getNextQuestion(concept, turn) {
     return questions[index]?.q || concept.teach_back_prompt || 'ab is idea ko ek simple example se explain karo.';
 }
 
-function makeNotClearReply(concept, whiteboard, language = 'Hinglish') {
+function makeNotClearReply(concept, whiteboard, language) {
     const english = language === 'English';
-    const formula = whiteboard.formula ? ' Formula/process line: ' + whiteboard.formula + '.' : '';
-    const firstBasic = whiteboard.basics?.[0] || concept.intro_hook || 'observation se start karte hain.';
-    const firstStep = whiteboard.steps?.[0]?.detail || concept.big_idea || 'cause-process-result chain dekho.';
-    return english
-        ? 'No problem. Basics: ' + firstBasic + formula + ' First step: ' + firstStep + ' Confusion: word, formula, or example?'
-        : 'No problem. Basic se: ' + firstBasic + formula + ' First step: ' + firstStep + ' Confusion word, formula, ya example?';
+    let msg = english ? 'No problem. Basics: ' : 'Koi baat nahi. Basics dekho: ';
+    if (concept.big_idea) msg += concept.big_idea + ' -> ';
+    if (whiteboard.formula) msg += 'Formula/process line: ' + whiteboard.formula + '. -> ';
+    if (whiteboard.basics) msg += whiteboard.basics.join(' ') + '. ';
+    if (whiteboard.steps?.length) {
+        msg += (english ? 'First step: ' : 'Pehla step: ') + whiteboard.steps[0].label + ' - ' + whiteboard.steps[0].detail + '. ';
+    }
+    msg += (english ? 'Confusion: word, formula, or example?' : 'Kahan atke: word, formula, ya example?');
+    return msg;
 }
 
 function getFallbackTeachingMove(concept, whiteboard, turn, language = 'Hinglish') {

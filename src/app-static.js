@@ -776,12 +776,27 @@ function appendComponent(componentName, props) {
             els.whiteboardBtn.classList.toggle('attention', Boolean(activeWhiteboard));
         }
         openActiveWhiteboard(props?.stage || 'steps');
-        return;
+        
+        // If it's just a whiteboard update without options, stop here.
+        if (!props?.options?.length) return;
     }
 
-    const el = renderComponent(componentName, props);
-    els.chatContainer.appendChild(el);
-    scrollToBottom();
+    // Render the primary component (if it's not Whiteboard, or if it is Whiteboard but we need Options)
+    const componentToRender = componentName === 'Whiteboard' ? 'Options' : componentName;
+    
+    if (componentToRender !== 'none') {
+        const el = renderComponent(componentToRender, props);
+        if (props?.options?.length || componentToRender === 'Options') {
+            el.addEventListener('optionSelected', (e) => {
+                const selectedOpt = e.detail;
+                els.userInput.value = selectedOpt;
+                el.querySelectorAll('.option-btn').forEach(btn => btn.disabled = true);
+                handleSend();
+            });
+        }
+        els.chatContainer.appendChild(el);
+        scrollToBottom();
+    }
 }
 
 function scrollToBottom() {
