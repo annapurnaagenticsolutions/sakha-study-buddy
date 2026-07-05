@@ -762,12 +762,7 @@ function showSessionComplete(conceptTitle, teachBackText) {
     returnButton.id = 'returnToGalaxyBtn';
     returnButton.textContent = returnText;
 
-    const shareButton = document.createElement('button');
-    shareButton.id = 'shareResultBtn';
-    shareButton.className = 'share-btn';
-    shareButton.textContent = shareText;
-
-    card.append(stars, heading, result, note, returnButton, shareButton);
+    card.append(stars, heading, result, note, returnButton);
     overlay.appendChild(card);
     document.body.appendChild(overlay);
 
@@ -775,7 +770,6 @@ function showSessionComplete(conceptTitle, teachBackText) {
         overlay.remove();
         showHome();
     };
-    shareButton.onclick = () => shareProgressCard(conceptTitle, teachBackText);
 }
 
 function shareProgressCard(conceptTitle, teachBackText) {
