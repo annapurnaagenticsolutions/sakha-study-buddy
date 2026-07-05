@@ -4,6 +4,7 @@ import { VoiceService } from './voice.js';
 
 const els = {
     landingShell: document.getElementById('landingShell'),
+    languageChoices: document.getElementById('languageChoices'),
     levelChoices: document.getElementById('levelChoices'),
     subjectChoices: document.getElementById('subjectChoices'),
     topicGrid: document.getElementById('topicGrid'),
@@ -30,6 +31,7 @@ const els = {
     peerIdDisplay: document.getElementById('peerIdDisplay')
 };
 
+const LANGUAGES = ['Hinglish', 'English', 'Hindi'];
 const LEVELS = ['Foundations', 'Middle School', 'Advanced'];
 const SUBJECT_ORDER = ['Physics', 'Chemistry', 'Biology', 'Math', 'Life Skills', 'Engineering', 'Science', 'Geography'];
 const DEFAULT_CONCEPT = 'ice-melting';
@@ -43,6 +45,7 @@ let p2pService = null;
 let p2pPromise = null;
 let galaxyInstance = null;
 let conceptIndex = [];
+let selectedLanguage = 'Hinglish';
 let selectedLevel = LEVELS[0];
 let selectedSubject = 'Physics';
 let selectedConcept = null;
@@ -111,6 +114,7 @@ async function loadConceptIndex() {
         conceptIndex = await loadFallbackConceptIndex();
     }
 
+    selectedLanguage = localStorage.getItem('sakha_lang') || 'Hinglish';
     selectedLevel = localStorage.getItem('sakha_level') || LEVELS[0];
     selectedSubject = localStorage.getItem('sakha_subject') || getSubjectsForLevel(selectedLevel)[0] || 'Physics';
     selectedConcept = findDefaultConcept();
@@ -171,6 +175,12 @@ function findDefaultConcept() {
 }
 
 function renderLandingChoices() {
+    renderChoiceRow(els.languageChoices, LANGUAGES, selectedLanguage, (lang) => {
+        selectedLanguage = lang;
+        localStorage.setItem('sakha_lang', lang);
+        renderLandingChoices();
+    });
+
     renderChoiceRow(els.levelChoices, LEVELS, selectedLevel, (level) => {
         selectedLevel = level;
         localStorage.setItem('sakha_level', level);
@@ -500,21 +510,18 @@ async function showHome() {
 
 function checkAuthAndStart(conceptId) {
     const savedName = localStorage.getItem('sakha_name');
-    const savedLang = localStorage.getItem('sakha_lang') || 'Hinglish';
     if (savedName) {
-        initAgent(null, conceptId, savedName, savedLang);
+        initAgent(null, conceptId, savedName, selectedLanguage);
         return;
     }
 
     els.nameModal.classList.remove('hidden');
     els.startBtn.onclick = () => {
         const name = els.studentName.value.trim().slice(0, 20);
-        const langSelect = document.getElementById('languageSelect');
-        const lang = langSelect ? langSelect.value : 'Hinglish';
         if (!name) return;
         localStorage.setItem('sakha_name', name);
-        localStorage.setItem('sakha_lang', lang);
-        initAgent(null, conceptId, name, lang);
+        localStorage.setItem('sakha_lang', selectedLanguage);
+        initAgent(null, conceptId, name, selectedLanguage);
     };
 }
 

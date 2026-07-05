@@ -36,15 +36,19 @@
 
                 <div class="chooser-panel" aria-label="Choose a learning topic">
                     <div class="chooser-step">
-                        <div class="step-label">1. Level</div>
+                        <div class="step-label">1. Language</div>
+                        <div id="languageChoices" class="choice-row" role="list"></div>
+                    </div>
+                    <div class="chooser-step">
+                        <div class="step-label">2. Level</div>
                         <div id="levelChoices" class="choice-row" role="list"></div>
                     </div>
                     <div class="chooser-step">
-                        <div class="step-label">2. Subject</div>
+                        <div class="step-label">3. Subject</div>
                         <div id="subjectChoices" class="choice-row" role="list"></div>
                     </div>
                     <div class="chooser-step topic-step">
-                        <div class="step-label">3. Topic</div>
+                        <div class="step-label">4. Topic</div>
                         <div id="topicGrid" class="topic-grid" role="list"></div>
                     </div>
                     <div id="selectedTopicSummary" class="selected-topic" aria-live="polite">Select a topic to begin.</div>
@@ -100,14 +104,6 @@
             <h2>Sakha mein swagat hai!</h2>
             <p class="modal-note">Use a nickname. Do not enter your full name.</p>
             <input type="text" id="studentName" class="nickname-input" placeholder="Nickname..." maxlength="20" autocomplete="nickname" />
-            
-            <label for="languageSelect" class="modal-note" style="display:block; margin-top:15px; text-align:left;">Preferred Language:</label>
-            <select id="languageSelect" class="nickname-input" style="margin-top:5px; cursor:pointer;">
-                <option value="Hinglish">Hinglish (Hindi + English mix)</option>
-                <option value="English">English</option>
-                <option value="Hindi">Hindi (हिंदी)</option>
-            </select>
-            
             <button id="startBtn" class="modal-start-btn">Start</button>
         </div>
     </div>
