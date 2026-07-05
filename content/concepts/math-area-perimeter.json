@@ -1,0 +1,86 @@
+{
+  "id": "math-area-perimeter",
+  "title": "Area vs Perimeter",
+  "subject": "Math",
+  "subjects": [
+    "Math"
+  ],
+  "level": "Middle School",
+  "class_band": [
+    6,
+    7
+  ],
+  "place": "Everyday life",
+  "unlocked": true,
+  "intro_hook": "If you need to fence a garden, do you calculate area or perimeter? What if you want to plant grass?",
+  "big_idea": "Perimeter is the length of the outside edge, while Area is the space covered inside.",
+  "question_flow": [
+    {
+      "q": "If you are walking along the boundary of a playground, are you measuring area or perimeter?"
+    },
+    {
+      "q": "If you want to lay tiles on the floor of a room, what are you measuring?"
+    },
+    {
+      "q": "Can two shapes have the same perimeter but different areas?"
+    }
+  ],
+  "indian_analogies": [
+    "Buying wire to put a fence around a field (Perimeter).",
+    "Buying a carpet or durrie for a living room (Area)."
+  ],
+  "misconceptions": [
+    {
+      "belief": "Perimeter and Area are the same thing.",
+      "probe": "If I stretch a rubber band into a long thin rectangle, its perimeter stays the same, but does the space inside stay the same?"
+    }
+  ],
+  "whiteboard": {
+    "title": "Area and Perimeter",
+    "goal": "Distinguish between the boundary length and the surface space.",
+    "basics": [
+      "Perimeter = Distance around the edge (1D).",
+      "Area = Space inside the boundary (2D)."
+    ],
+    "formula": "Perimeter = Sum of all sides. Area of Rectangle = length × width.",
+    "symbols": [
+      {
+        "symbol": "P",
+        "means": "Perimeter (measured in cm, m)",
+        "example": "P = 2(l+w)"
+      },
+      {
+        "symbol": "A",
+        "means": "Area (measured in sq cm, sq m)",
+        "example": "A = l × w"
+      }
+    ],
+    "steps": [
+      {
+        "label": "Identify Need",
+        "detail": "Is the problem about the boundary or the inside?"
+      },
+      {
+        "label": "Measure Sides",
+        "detail": "Find the lengths of the edges."
+      },
+      {
+        "label": "Calculate P",
+        "detail": "Add all the outside edges together."
+      },
+      {
+        "label": "Calculate A",
+        "detail": "Multiply length by width (for rectangles)."
+      }
+    ],
+    "check_after_step": 2,
+    "feedback_prompt": "Can you tell me a real-life situation where you would need Area?",
+    "worked_example": "Garden 5m long, 3m wide. Fence (Perimeter) = 5+5+3+3 = 16m. Grass (Area) = 5×3 = 15 sq meters.",
+    "common_confusions": [
+      {
+        "confusion": "Mixing up the units",
+        "fix": "Perimeter is length (m). Area is squares (m²)."
+      }
+    ]
+  }
+}

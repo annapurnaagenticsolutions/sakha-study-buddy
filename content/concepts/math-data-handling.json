@@ -1,0 +1,87 @@
+{
+  "id": "math-data-handling",
+  "title": "Data Handling: Finding the Average",
+  "subject": "Math",
+  "subjects": [
+    "Math"
+  ],
+  "level": "Middle School",
+  "class_band": [
+    6,
+    7,
+    8
+  ],
+  "place": "Everyday life",
+  "unlocked": true,
+  "intro_hook": "When Virat Kohli's 'average' is 50, does it mean he scores exactly 50 in every match? How is it calculated?",
+  "big_idea": "The mean (average) is a way to find a single 'typical' number that represents a whole group of different numbers.",
+  "question_flow": [
+    {
+      "q": "If you have 10 chocolates, and I have 2, how can we share them so we both have the same amount?"
+    },
+    {
+      "q": "What you just did is 'averaging'. How would you describe that process in math terms?"
+    },
+    {
+      "q": "Why is an average useful when looking at cricket scores or class marks?"
+    }
+  ],
+  "indian_analogies": [
+    "Sharing sweets equally among friends.",
+    "Calculating the mileage of a bike (average km per litre over several days)."
+  ],
+  "misconceptions": [
+    {
+      "belief": "The average must be one of the numbers in the data.",
+      "probe": "If one person is 150cm tall and another is 160cm, the average is 155cm. Does anyone have to actually be 155cm?"
+    }
+  ],
+  "whiteboard": {
+    "title": "Average (Mean)",
+    "goal": "Find the typical value of a dataset.",
+    "basics": [
+      "Average (Mean) = Leveling out the differences so everyone has an equal share.",
+      "It gives one number to represent many."
+    ],
+    "formula": "Mean = (Sum of all values) / (Total number of values)",
+    "symbols": [
+      {
+        "symbol": "x̄",
+        "means": "Mean (x-bar)",
+        "example": "x̄ = Sum/n"
+      },
+      {
+        "symbol": "Σ",
+        "means": "Sum of",
+        "example": "Σx means add them all up"
+      }
+    ],
+    "steps": [
+      {
+        "label": "Gather Data",
+        "detail": "List all the numbers you are examining."
+      },
+      {
+        "label": "Sum",
+        "detail": "Add all the numbers together to find the total."
+      },
+      {
+        "label": "Count",
+        "detail": "Count how many numbers there are."
+      },
+      {
+        "label": "Divide",
+        "detail": "Divide the total sum by the count."
+      }
+    ],
+    "check_after_step": 3,
+    "feedback_prompt": "Can you explain why we divide by the total count?",
+    "worked_example": "Scores: 10, 20, 30. Sum = 60. Count = 3. Mean = 60 / 3 = 20.",
+    "common_confusions": [
+      {
+        "confusion": "Adding but forgetting to divide",
+        "fix": "The sum is the total, but the average is the PER PERSON share."
+      }
+    ]
+  }
+}
