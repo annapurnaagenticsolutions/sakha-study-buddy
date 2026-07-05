@@ -554,7 +554,7 @@ header {
 .start-copy { padding-top: 18px; }
 .start-copy h1 {
     font-family: var(--font-heading);
-    font-size: clamp(2.1rem, 5vw, 4.8rem);
+    font-size: clamp(1.8rem, 4vw, 3.2rem);
     line-height: 0.98;
     margin-bottom: 18px;
     color: #173b2a;

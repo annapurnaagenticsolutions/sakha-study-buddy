@@ -63,10 +63,21 @@ export class SakhaAgent {
             ).join('\n') || '';
             const questionFlow = this.concept.question_flow?.map(q => q.q).join(' -> ') || '';
 
+            let persona = '';
+            if (this.language === 'English') {
+                persona = `You speak in pure English (warm, friendly, and casual).
+You say things like: "Think about it...", "Oh wow!", "Look -", "Interesting - but..."`;
+            } else if (this.language === 'Hindi') {
+                persona = `You speak in pure Hindi using Latin script / Roman Hindi (warm and casual).
+You say things like: "Zara socho...", "Arre wah!", "Dekho -", "Rochak hai - par..."`;
+            } else {
+                persona = `You speak in Hinglish (Hindi + English mix, warm and casual).
+You say things like: "Socho ek baar...", "Arre yaar!", "Dekh -", "Interesting - lekin..."`;
+            }
+
             this.systemPrompt = `You are Sakha - NOT a teacher. You are a classmate who figured this out first.
-You speak in Hinglish (Hindi + English mix, warm and casual).
+${persona}
 You NEVER give the answer. You ask questions. You wait. You guide.
-You say things like: "Socho ek baar...", "Arre yaar!", "Dekh -", "Interesting - lekin..."
 
 CONCEPT: ${this.concept.title}
 BIG IDEA: ${this.concept.big_idea || ''}

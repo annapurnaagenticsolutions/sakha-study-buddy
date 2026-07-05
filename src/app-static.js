@@ -500,17 +500,21 @@ async function showHome() {
 
 function checkAuthAndStart(conceptId) {
     const savedName = localStorage.getItem('sakha_name');
+    const savedLang = localStorage.getItem('sakha_lang') || 'Hinglish';
     if (savedName) {
-        initAgent(null, conceptId, savedName);
+        initAgent(null, conceptId, savedName, savedLang);
         return;
     }
 
     els.nameModal.classList.remove('hidden');
     els.startBtn.onclick = () => {
         const name = els.studentName.value.trim().slice(0, 20);
+        const langSelect = document.getElementById('languageSelect');
+        const lang = langSelect ? langSelect.value : 'Hinglish';
         if (!name) return;
         localStorage.setItem('sakha_name', name);
-        initAgent(null, conceptId, name);
+        localStorage.setItem('sakha_lang', lang);
+        initAgent(null, conceptId, name, lang);
     };
 }
 
@@ -583,12 +587,13 @@ async function handleOfflineToggle(event) {
     }
 }
 
-async function initAgent(key, conceptId, studentName) {
+async function initAgent(key, conceptId, studentName, language = 'Hinglish') {
     els.nameModal.classList.add('hidden');
     els.appContainer.classList.remove('hidden');
     els.chatContainer.replaceChildren();
 
     agent = new SakhaAgent(key);
+    agent.language = language;
     const activeConceptId = conceptId || DEFAULT_CONCEPT;
     localStorage.setItem('sakha_last_concept', activeConceptId);
 
@@ -607,7 +612,16 @@ async function initAgent(key, conceptId, studentName) {
         appendLearningPath(concept);
 
         const hook = concept.intro_hook || selectedConcept?.hook || 'What do you already know about this?';
-        const initialMsg = 'Hello ' + studentName + '. Aaj hum "' + concept.title + '" ko samjhenge. Pehla sawaal: ' + hook;
+        
+        let initialMsg = '';
+        if (language === 'English') {
+            initialMsg = 'Hello ' + studentName + '. Today we are going to understand "' + concept.title + '". First question: ' + hook;
+        } else if (language === 'Hindi') {
+            initialMsg = 'Namaste ' + studentName + '. Aaj hum "' + concept.title + '" ko samjhenge. Pehla sawaal: ' + hook;
+        } else {
+            initialMsg = 'Hello ' + studentName + '. Aaj hum "' + concept.title + '" ko samjhenge. Pehla sawaal: ' + hook;
+        }
+        
         appendMessage('bot', initialMsg);
         appendDiagnosticCard(concept);
         voiceService.speak(initialMsg);
