@@ -554,7 +554,7 @@ header {
 .start-copy { padding-top: 18px; }
 .start-copy h1 {
     font-family: var(--font-heading);
-    font-size: clamp(1.8rem, 4vw, 3.2rem);
+    font-size: clamp(2.1rem, 5vw, 4.8rem);
     line-height: 0.98;
     margin-bottom: 18px;
     color: #173b2a;
@@ -993,4 +993,191 @@ textarea:focus-visible {
         scroll-behavior: auto !important;
         transition-duration: 0.01ms !important;
     }
+}
+
+
+/* Formula whiteboard */
+.whiteboard-launch-card {
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    border: 1px solid #d8e4dc;
+    border-left: 4px solid #245953;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.whiteboard-launch-card h2 {
+    font-family: var(--font-heading);
+    color: #245953;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.whiteboard-launch-card p {
+    color: #4b5e54;
+    line-height: 1.45;
+    font-weight: 700;
+}
+
+.whiteboard-component {
+    align-self: stretch;
+    padding: 0;
+    overflow: visible;
+}
+
+.whiteboard-header {
+    background: #173b2a;
+    color: #ffffff;
+    padding: 16px;
+}
+
+.whiteboard-header h2 {
+    font-family: var(--font-heading);
+    margin-bottom: 6px;
+}
+
+.whiteboard-header p {
+    color: #dff7e2;
+    line-height: 1.45;
+}
+
+.whiteboard-section {
+    padding: 14px 16px;
+    border-top: 1px solid #e6eee8;
+}
+
+.whiteboard-section h3 {
+    font-family: var(--font-heading);
+    color: #245953;
+    margin-bottom: 10px;
+    font-size: 1.04rem;
+}
+
+.whiteboard-section ul,
+.whiteboard-section ol {
+    padding-left: 1.2rem;
+}
+
+.whiteboard-section li {
+    margin-bottom: 8px;
+    line-height: 1.45;
+}
+
+.formula-line {
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 1.45rem;
+    font-weight: 900;
+    color: #173b2a;
+    background: #f0f7ed;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+.symbol-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.symbol-card {
+    display: grid;
+    gap: 5px;
+    background: #fbfefb;
+    border: 1px solid #d9e7dc;
+    border-radius: 8px;
+    padding: 11px;
+}
+
+.symbol-card strong {
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 1.2rem;
+    color: #245953;
+}
+
+.symbol-card span {
+    font-weight: 800;
+    color: #21382b;
+}
+
+.symbol-card small {
+    color: #60726a;
+    line-height: 1.35;
+}
+
+.steps-section li strong {
+    color: #173b2a;
+}
+
+.steps-section li p {
+    margin-top: 4px;
+    color: #46594f;
+}
+
+.whiteboard-checkpoint {
+    list-style: none;
+    margin-left: -1.2rem;
+    background: #fff8e7;
+    border: 1px solid #e7c46b;
+    border-radius: 8px;
+    padding: 10px;
+    color: #523b00;
+    font-weight: 900;
+}
+
+.confusion-section p {
+    background: #fff8f3;
+    border: 1px solid #f0d2c0;
+    border-radius: 8px;
+    padding: 10px;
+    color: #57331f;
+}
+
+@media (max-width: 680px) {
+    .whiteboard-launch-card {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .symbol-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Topic mode indicator */
+.mode-card {
+    align-self: stretch;
+    display: grid;
+    gap: 5px;
+    border-radius: 8px;
+    padding: 11px 13px;
+    border: 1px solid #d9e7dc;
+    background: #fbfefb;
+}
+
+.mode-card strong {
+    font-family: var(--font-heading);
+    color: #173b2a;
+}
+
+.mode-card span {
+    color: #4b5e54;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.api-mode {
+    border-color: #c8d7f2;
+    background: #f5f8ff;
+}
+
+.guided-mode {
+    border-color: #bdd8c4;
+    background: #f4fbf5;
 }

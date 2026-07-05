@@ -70,3 +70,36 @@ Do not copy full question flows or long explanations into the lite index.
 - Misconceptions are plausible and testable.
 - The question flow leads toward teach-back.
 - No private, identifying, or unsafe prompt is requested.
+
+
+## Whiteboard authoring
+
+Use `whiteboard` when a topic needs formula or deep step-by-step explanation. Write it for a learner who may not know the basic words yet.
+
+Recommended fields:
+
+```json
+{
+  "whiteboard": {
+    "title": "Boiling Water Whiteboard",
+    "goal": "Understand heat, particles, bubbles, and steam safety.",
+    "basics": ["Heat is energy moving into water."],
+    "formula": "Q = m x c x delta T",
+    "formula_reading": "Heat needed = mass x heat per kg per degree x temperature change.",
+    "symbols": [
+      { "symbol": "Q", "means": "heat energy added", "example": "More Q means more stove energy." }
+    ],
+    "steps": [
+      { "label": "Step 1", "detail": "Observe what changes first." }
+    ],
+    "check_after_step": 2,
+    "feedback_prompt": "Are the first two steps clear?",
+    "worked_example": "If 1 kg water warms by 10 C, Q = 1 x 4200 x 10.",
+    "common_confusions": [
+      { "confusion": "Bubbles are only air.", "fix": "Strong boiling bubbles are mostly water vapour." }
+    ]
+  }
+}
+```
+
+The first two steps should be small enough that Sakha can pause and ask whether the formula is clear before continuing.

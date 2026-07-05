@@ -11,7 +11,7 @@
 - Prediction/confidence prompt.
 - Privacy page.
 - Static CSP and no Google Fonts.
-- Bundle-size guard.
+- Bundle-size guard.\n- Formula whiteboard component and guided no-API fallback tutor.\n- Language chooser wired for Hinglish, English, and Hindi-first session starts.\n- Rich whiteboards for boiling water and ice melting.
 
 ## Next static improvements
 

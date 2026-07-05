@@ -30,11 +30,87 @@
     "Boiling starts",
     "Hot water vapour/steam rises and can condense into visible droplets"
   ],
-  "whiteboard": [
-    "Cause: Heat source",
-    "  -> Water warms → Particles move faster → Boiling starts",
-    "Result: Hot water vapour/steam rises and can condense into visible droplets"
-  ],
+  "whiteboard": {
+    "title": "Boiling Water Whiteboard",
+    "goal": "Understand boiling from zero: heat, particles, temperature, bubbles, and steam safety.",
+    "basics": [
+      "Water is made of tiny particles. We cannot see individual particles, but their motion explains what we observe.",
+      "Heat is energy moving from a hotter object, like a flame or heater, into a cooler object, like water.",
+      "Temperature tells us how hot or cold something is. For particles, higher temperature usually means faster motion.",
+      "Boiling is a change of state: liquid water becomes water vapour. The water is still H2O; its state changes."
+    ],
+    "formula": "Q = m x c x delta T",
+    "formula_reading": "Read it as: heat energy needed = mass of water x heat needed for each kg each degree x temperature change.",
+    "symbols": [
+      {
+        "symbol": "Q",
+        "means": "heat energy added",
+        "example": "More Q means more energy from the stove."
+      },
+      {
+        "symbol": "m",
+        "means": "mass of water",
+        "example": "More water in the pot means bigger m."
+      },
+      {
+        "symbol": "c",
+        "means": "specific heat capacity",
+        "example": "Water needs a lot of heat to warm up compared with many materials."
+      },
+      {
+        "symbol": "delta T",
+        "means": "temperature change",
+        "example": "From 30 C to 100 C means delta T = 70 C."
+      }
+    ],
+    "steps": [
+      {
+        "label": "Step 1: Observe",
+        "detail": "At first water looks calm. When heating starts, energy enters from the bottom or sides of the vessel."
+      },
+      {
+        "label": "Step 2: Warm-up formula",
+        "detail": "Before boiling, Q = m x c x delta T helps estimate heat needed to raise the temperature."
+      },
+      {
+        "label": "Step 3: Particle idea",
+        "detail": "As water gets energy, particles move faster. Faster motion shows up as higher temperature."
+      },
+      {
+        "label": "Step 4: Boiling point",
+        "detail": "Near 100 C at normal air pressure, many water particles have enough energy to become vapour inside the liquid."
+      },
+      {
+        "label": "Step 5: Bubbles",
+        "detail": "The bubbles are mostly water vapour forming inside the water and rising up, not just trapped air."
+      },
+      {
+        "label": "Step 6: After 100 C",
+        "detail": "Extra heat no longer mainly raises temperature; it helps change liquid water into steam. This is latent heat."
+      },
+      {
+        "label": "Step 7: Safety",
+        "detail": "Steam can burn badly because it carries energy and releases extra heat when it condenses on skin."
+      }
+    ],
+    "check_after_step": 2,
+    "feedback_prompt": "Pause: are Step 1 and the formula idea clear so far? Reply clear, or tell me which word is confusing: Q, m, c, or delta T.",
+    "worked_example": "If 1 kg water warms from 30 C to 40 C, delta T is 10 C. Using c about 4200 J/kg C: Q = 1 x 4200 x 10 = 42000 J. This only explains warming; boiling into steam needs extra latent heat.",
+    "common_confusions": [
+      {
+        "confusion": "Bubbles are only air.",
+        "fix": "Early tiny bubbles may include dissolved air, but strong boiling bubbles are mostly water vapour."
+      },
+      {
+        "confusion": "Temperature keeps rising forever while boiling.",
+        "fix": "At normal pressure, boiling water stays around 100 C while extra heat changes liquid into vapour."
+      },
+      {
+        "confusion": "Steam is harmless because it looks like air.",
+        "fix": "Steam carries heat energy and can burn skin quickly."
+      }
+    ]
+  },
   "indian_analogies": [
     "Kitchen mein yeh dekhte hain: Boiling Water.",
     "Cooking rice"
@@ -225,5 +301,15 @@
   "concept_difficulty_level": 5,
   "learning_track": [
     "core"
-  ]
+  ],
+  "fallback_dialogue": {
+    "mode": "guided_no_api",
+    "opening": "We can learn this without AI by following the whiteboard and question flow.",
+    "checks": [
+      "Are Q, m, c, and delta T clear so far?",
+      "Can you say why more water takes longer to boil?",
+      "Can you explain why steam is dangerous?"
+    ]
+  },
+  "teach_back_prompt": "Explain boiling water to a younger student using heat, particles, bubbles, and steam safety."
 }

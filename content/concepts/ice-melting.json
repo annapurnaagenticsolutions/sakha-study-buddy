@@ -30,11 +30,83 @@
     "Solid becomes liquid",
     "Water spreads"
   ],
-  "whiteboard": [
-    "Cause: Ice cube",
-    "  -> Heat from room → Particles move more → Solid becomes liquid",
-    "Result: Water spreads"
-  ],
+  "whiteboard": {
+    "title": "Why Ice Melts Whiteboard",
+    "goal": "Understand melting from zero: solid, liquid, heat, particles, and temperature.",
+    "basics": [
+      "Ice and liquid water are the same material: H2O.",
+      "In ice, particles stay in fixed positions and only vibrate.",
+      "Heat from the room moves into the colder ice.",
+      "When particles get enough energy, the solid structure breaks and ice becomes liquid water."
+    ],
+    "formula": "Heat flows: warmer surroundings -> colder ice",
+    "formula_reading": "For younger learners, this is more important than an equation: heat moves from warm things to cold things.",
+    "symbols": [
+      {
+        "symbol": "solid",
+        "means": "particles hold a fixed shape",
+        "example": "Ice cube keeps its shape at first."
+      },
+      {
+        "symbol": "liquid",
+        "means": "particles can move around each other",
+        "example": "Melted water spreads on a plate."
+      },
+      {
+        "symbol": "heat",
+        "means": "energy moving into ice",
+        "example": "Room air gives energy to the ice cube."
+      },
+      {
+        "symbol": "0 C",
+        "means": "melting point of pure ice at normal pressure",
+        "example": "Near this temperature, ice and water can exist together."
+      }
+    ],
+    "steps": [
+      {
+        "label": "Step 1: Observe",
+        "detail": "The ice cube is hard and has a shape. After some time outside the freezer, water appears around it."
+      },
+      {
+        "label": "Step 2: Heat direction",
+        "detail": "The room is warmer than the ice, so heat energy moves from the room into the ice."
+      },
+      {
+        "label": "Step 3: Particle motion",
+        "detail": "Ice particles vibrate more as they gain energy."
+      },
+      {
+        "label": "Step 4: Melting point",
+        "detail": "Near 0 C, the solid structure starts breaking and ice changes into liquid water."
+      },
+      {
+        "label": "Step 5: Same substance",
+        "detail": "Nothing new is created. Solid H2O becomes liquid H2O."
+      },
+      {
+        "label": "Step 6: Faster or slower",
+        "detail": "Sunlight, warm air, and smaller pieces make melting faster. A freezer or insulation makes it slower."
+      }
+    ],
+    "check_after_step": 2,
+    "feedback_prompt": "Pause: are Step 1 and Step 2 clear? Reply clear, or tell me whether heat direction or particle motion is confusing.",
+    "worked_example": "Put one ice cube in shade and one near sunlight on separate plates. The sunny one usually melts faster because it receives heat faster.",
+    "common_confusions": [
+      {
+        "confusion": "Ice becomes a new substance.",
+        "fix": "It is still water. Only the state changes from solid to liquid."
+      },
+      {
+        "confusion": "Cold moves into the room.",
+        "fix": "Scientifically, heat moves from warmer surroundings into colder ice."
+      },
+      {
+        "confusion": "Bigger ice always melts at the same speed.",
+        "fix": "Size and surface area matter. Smaller pieces often melt faster."
+      }
+    ]
+  },
   "indian_analogies": [
     "Home mein yeh dekhte hain: Why Ice Melts.",
     "Freezer"
@@ -223,5 +295,6 @@
   "concept_difficulty_level": 3,
   "learning_track": [
     "core"
-  ]
+  ],
+  "teach_back_prompt": "Explain why ice melts using heat direction, particles, and change of state."
 }

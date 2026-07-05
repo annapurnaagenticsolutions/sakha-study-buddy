@@ -31,7 +31,7 @@ const els = {
     peerIdDisplay: document.getElementById('peerIdDisplay')
 };
 
-const LANGUAGES = ['Hinglish', 'English', 'Hindi'];
+const LANGUAGES = ['Hinglish', 'English', 'Hindi-first'];
 const LEVELS = ['Foundations', 'Middle School', 'Advanced'];
 const SUBJECT_ORDER = ['Physics', 'Chemistry', 'Biology', 'Math', 'Life Skills', 'Engineering', 'Science', 'Geography'];
 const DEFAULT_CONCEPT = 'ice-melting';
@@ -45,7 +45,7 @@ let p2pService = null;
 let p2pPromise = null;
 let galaxyInstance = null;
 let conceptIndex = [];
-let selectedLanguage = 'Hinglish';
+let selectedLanguage = LANGUAGES[0];
 let selectedLevel = LEVELS[0];
 let selectedSubject = 'Physics';
 let selectedConcept = null;
@@ -114,7 +114,7 @@ async function loadConceptIndex() {
         conceptIndex = await loadFallbackConceptIndex();
     }
 
-    selectedLanguage = localStorage.getItem('sakha_lang') || 'Hinglish';
+    selectedLanguage = localStorage.getItem('sakha_language') || LANGUAGES[0];
     selectedLevel = localStorage.getItem('sakha_level') || LEVELS[0];
     selectedSubject = localStorage.getItem('sakha_subject') || getSubjectsForLevel(selectedLevel)[0] || 'Physics';
     selectedConcept = findDefaultConcept();
@@ -175,11 +175,13 @@ function findDefaultConcept() {
 }
 
 function renderLandingChoices() {
-    renderChoiceRow(els.languageChoices, LANGUAGES, selectedLanguage, (lang) => {
-        selectedLanguage = lang;
-        localStorage.setItem('sakha_lang', lang);
-        renderLandingChoices();
-    });
+    if (els.languageChoices) {
+        renderChoiceRow(els.languageChoices, LANGUAGES, selectedLanguage, (language) => {
+            selectedLanguage = language;
+            localStorage.setItem('sakha_language', language);
+            renderLandingChoices();
+        });
+    }
 
     renderChoiceRow(els.levelChoices, LEVELS, selectedLevel, (level) => {
         selectedLevel = level;
@@ -402,6 +404,48 @@ function appendLearningPath(concept) {
     els.chatContainer.appendChild(card);
 }
 
+function appendModeCard(concept) {
+    const usesApi = agent?.shouldUseRemoteApi?.() || false;
+    const card = document.createElement('section');
+    card.className = usesApi ? 'mode-card api-mode' : 'mode-card guided-mode';
+
+    const title = document.createElement('strong');
+    title.textContent = usesApi ? 'AI-assisted topic' : 'Guided no-API topic';
+
+    const detail = document.createElement('span');
+    detail.textContent = usesApi
+        ? 'This advanced topic may use the secure proxy for flexible conversation.'
+        : 'This topic runs from reviewed concept content, whiteboard steps, and guided questions.';
+
+    card.append(title, detail);
+    els.chatContainer.appendChild(card);
+}
+
+function appendWhiteboardCard(concept) {
+    if (!concept.whiteboard) return;
+    const wrapper = document.createElement('section');
+    wrapper.className = 'whiteboard-launch-card';
+
+    const copy = document.createElement('div');
+    const heading = document.createElement('h2');
+    heading.textContent = 'Whiteboard';
+    const text = document.createElement('p');
+    text.textContent = 'Formula, symbols, and steps are explained slowly here. After 1-2 steps, tell Sakha if it is clear or confusing.';
+    copy.append(heading, text);
+
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'secondary-action';
+    button.textContent = 'Open whiteboard';
+    button.addEventListener('click', () => appendComponent('Whiteboard', {
+        whiteboard: concept.whiteboard,
+        title: concept.title
+    }));
+
+    wrapper.append(copy, button);
+    els.chatContainer.appendChild(wrapper);
+}
+
 function appendDiagnosticCard(concept) {
     const card = document.createElement('section');
     card.className = 'diagnostic-card';
@@ -511,7 +555,7 @@ async function showHome() {
 function checkAuthAndStart(conceptId) {
     const savedName = localStorage.getItem('sakha_name');
     if (savedName) {
-        initAgent(null, conceptId, savedName, selectedLanguage);
+        initAgent(null, conceptId, savedName);
         return;
     }
 
@@ -520,8 +564,7 @@ function checkAuthAndStart(conceptId) {
         const name = els.studentName.value.trim().slice(0, 20);
         if (!name) return;
         localStorage.setItem('sakha_name', name);
-        localStorage.setItem('sakha_lang', selectedLanguage);
-        initAgent(null, conceptId, name, selectedLanguage);
+        initAgent(null, conceptId, name);
     };
 }
 
@@ -594,13 +637,12 @@ async function handleOfflineToggle(event) {
     }
 }
 
-async function initAgent(key, conceptId, studentName, language = 'Hinglish') {
+async function initAgent(key, conceptId, studentName) {
     els.nameModal.classList.add('hidden');
     els.appContainer.classList.remove('hidden');
     els.chatContainer.replaceChildren();
 
     agent = new SakhaAgent(key);
-    agent.language = language;
     const activeConceptId = conceptId || DEFAULT_CONCEPT;
     localStorage.setItem('sakha_last_concept', activeConceptId);
 
@@ -617,18 +659,12 @@ async function initAgent(key, conceptId, studentName, language = 'Hinglish') {
             lastStudiedAt: new Date().toISOString()
         });
         appendLearningPath(concept);
+        appendModeCard(concept);
+        appendWhiteboardCard(concept);
 
         const hook = concept.intro_hook || selectedConcept?.hook || 'What do you already know about this?';
-        
-        let initialMsg = '';
-        if (language === 'English') {
-            initialMsg = 'Hello ' + studentName + '. Today we are going to understand "' + concept.title + '". First question: ' + hook;
-        } else if (language === 'Hindi') {
-            initialMsg = 'Namaste ' + studentName + '. Aaj hum "' + concept.title + '" ko samjhenge. Pehla sawaal: ' + hook;
-        } else {
-            initialMsg = 'Hello ' + studentName + '. Aaj hum "' + concept.title + '" ko samjhenge. Pehla sawaal: ' + hook;
-        }
-        
+        const languageNote = selectedLanguage === 'English' ? 'Please answer in English if you prefer.' : selectedLanguage === 'Hindi-first' ? 'Hindi mein answer karna comfortable ho toh Hindi use karo.' : 'Hinglish comfortable ho toh Hinglish use karo.';
+        const initialMsg = 'Hello ' + studentName + '. Aaj hum "' + concept.title + '" ko samjhenge. ' + languageNote + ' Pehla sawaal: ' + hook;
         appendMessage('bot', initialMsg);
         appendDiagnosticCard(concept);
         voiceService.speak(initialMsg);
@@ -710,9 +746,7 @@ async function handleSend() {
                 lastTeachBack: text,
                 nextReviewAt: new Date(Date.now() + getReviewDelay(attempts - 1)).toISOString()
             });
-            setTimeout(() => {
-                showSessionComplete(agent.concept.title, text);
-            }, 10000);
+            showSessionComplete(agent.concept.title, text);
         }
     } catch (error) {
         loadingDiv.remove();
@@ -732,37 +766,27 @@ function showSessionComplete(conceptTitle, teachBackText) {
     stars.textContent = '***';
 
     const heading = document.createElement('h2');
+    heading.textContent = 'Wah yaar!';
+
     const result = document.createElement('p');
     const strong = document.createElement('strong');
     strong.textContent = conceptTitle;
+    result.append(strong, ' samajh aaya!');
+
     const note = document.createElement('p');
     note.className = 'session-complete-note';
-
-    let headingText = 'Wah yaar!';
-    let resultSuffix = ' samajh aaya!';
-    let noteText = 'Ab tum is idea ko apne words mein explain kar sakte ho.';
-    let returnText = 'Choose another topic';
-    let shareText = 'Share progress card';
-
-    if (selectedLanguage === 'English') {
-        headingText = 'Great job!';
-        resultSuffix = ' understood!';
-        noteText = 'Now you can explain this idea in your own words.';
-    } else if (selectedLanguage === 'Hindi') {
-        headingText = 'Shabash!';
-        resultSuffix = ' samajh aa gaya!';
-        noteText = 'Ab aap is vishay ko apne shabdon mein samjha sakte hain.';
-    }
-
-    heading.textContent = headingText;
-    result.append(strong, resultSuffix);
-    note.textContent = noteText;
+    note.textContent = 'Ab tum is idea ko apne words mein explain kar sakte ho.';
 
     const returnButton = document.createElement('button');
     returnButton.id = 'returnToGalaxyBtn';
-    returnButton.textContent = returnText;
+    returnButton.textContent = 'Choose another topic';
 
-    card.append(stars, heading, result, note, returnButton);
+    const shareButton = document.createElement('button');
+    shareButton.id = 'shareResultBtn';
+    shareButton.className = 'share-btn';
+    shareButton.textContent = 'Share progress card';
+
+    card.append(stars, heading, result, note, returnButton, shareButton);
     overlay.appendChild(card);
     document.body.appendChild(overlay);
 
@@ -770,6 +794,7 @@ function showSessionComplete(conceptTitle, teachBackText) {
         overlay.remove();
         showHome();
     };
+    shareButton.onclick = () => shareProgressCard(conceptTitle, teachBackText);
 }
 
 function shareProgressCard(conceptTitle, teachBackText) {
@@ -810,8 +835,7 @@ function generateSummaryCard(studentName, conceptTitle, teachBackText) {
 
     ctx.font = 'bold 36px Fredoka, sans-serif';
     ctx.fillStyle = '#dff7e2';
-    const understandText = selectedLanguage === 'English' ? ' understood:' : (selectedLanguage === 'Hindi' ? ' ko samajh aaya:' : ' understood:');
-    ctx.fillText(studentName + understandText, 60, 120);
+    ctx.fillText(studentName + ' understood:', 60, 120);
 
     ctx.font = 'bold 48px Fredoka, sans-serif';
     ctx.fillStyle = '#ffffff';

@@ -1,3 +1,5 @@
+import { DEFAULT_API_CONCEPT_IDS, FallbackTutor, createGenericWhiteboard } from './fallbackTutor.js';
+
 export class SakhaAgent {
     constructor(apiKey) {
         this.apiKey = apiKey;
@@ -7,6 +9,7 @@ export class SakhaAgent {
         this.isOffline = false;
         this.webLlmEngine = null;
         this.embedder = null;
+        this.fallbackTutor = new FallbackTutor();
     }
 
     setOfflineMode(isOffline) {
@@ -56,6 +59,11 @@ export class SakhaAgent {
             const res = await fetch('content/concepts/' + conceptId + '.json');
             if (!res.ok) throw new Error('Concept not found: ' + conceptId);
             this.concept = await res.json();
+            this.concept.id = conceptId;
+            if (!this.concept.whiteboard) {
+                this.concept.whiteboard = createGenericWhiteboard(this.concept);
+            }
+            this.fallbackTutor.reset();
 
             const analogies = this.concept.indian_analogies?.join(', ') || '';
             const misconceptions = this.concept.misconceptions?.map(m =>
@@ -63,21 +71,10 @@ export class SakhaAgent {
             ).join('\n') || '';
             const questionFlow = this.concept.question_flow?.map(q => q.q).join(' -> ') || '';
 
-            let persona = '';
-            if (this.language === 'English') {
-                persona = `IMPORTANT: You must speak ONLY in pure English (warm, friendly, and casual).
-You say things like: "Think about it...", "Oh wow!", "Look -", "Interesting - but..."`;
-            } else if (this.language === 'Hindi') {
-                persona = `IMPORTANT: You must speak ONLY in pure Hindi using Latin script / Roman Hindi (warm and casual). Do not use English words unless necessary.
-You say things like: "Zara socho...", "Arre wah!", "Dekho -", "Rochak hai - par..."`;
-            } else {
-                persona = `You speak in Hinglish (Hindi + English mix, warm and casual).
-You say things like: "Socho ek baar...", "Arre yaar!", "Dekh -", "Interesting - lekin..."`;
-            }
-
             this.systemPrompt = `You are Sakha - NOT a teacher. You are a classmate who figured this out first.
-${persona}
+You speak in Hinglish (Hindi + English mix, warm and casual).
 You NEVER give the answer. You ask questions. You wait. You guide.
+You say things like: "Socho ek baar...", "Arre yaar!", "Dekh -", "Interesting - lekin..."
 
 CONCEPT: ${this.concept.title}
 BIG IDEA: ${this.concept.big_idea || ''}
@@ -93,14 +90,15 @@ ${questionFlow}
 
 CRITICAL: You must ALWAYS respond in valid JSON format exactly like this:
 {
-  "message": "Your conversational response in the requested language. No markdown or bullet points.",
-  "render_component": "ParticleSimulator" | "MermaidDiagram" | "none",
-  "component_props": { "temperature": "high" | "low" | "medium", "state": "solid" | "liquid" | "gas", "code": "mermaid code if applicable" },
+  "message": "Your conversational Hinglish response. No markdown or bullet points.",
+  "render_component": "ParticleSimulator" | "MermaidDiagram" | "Whiteboard" | "none",
+  "component_props": { "temperature": "high" | "low" | "medium", "state": "solid" | "liquid" | "gas", "code": "mermaid code if applicable", "whiteboard": {} },
   "session_complete": true | false
 }
 
 Guidelines:
 - Set "session_complete": true ONLY when the student successfully explains the concept back to you (the teach-back moment). Otherwise false.
+- Use Whiteboard when the student asks for formula, symbols, steps, derivation, or a deep explanation.
 - Use ParticleSimulator for states of matter / heat.
 `;
 
@@ -126,6 +124,29 @@ Guidelines:
             return this.parseAgentJson(contentString);
         }
 
+        if (!this.shouldUseRemoteApi()) {
+            const fallbackResponse = this.fallbackTutor.createResponse(this.concept, userMessage);
+            this.history.push({ role: 'assistant', content: JSON.stringify(fallbackResponse) });
+            return fallbackResponse;
+        }
+
+        try {
+            return await this.sendRemoteMessage();
+        } catch (error) {
+            console.warn('Remote API failed; using guided fallback.', error);
+            const fallbackResponse = this.fallbackTutor.createResponse(this.concept, userMessage, true);
+            this.history.push({ role: 'assistant', content: JSON.stringify(fallbackResponse) });
+            return fallbackResponse;
+        }
+    }
+
+    shouldUseRemoteApi() {
+        const configIds = window.SAKHA_CONFIG?.apiConceptIds;
+        const apiIds = Array.isArray(configIds) ? configIds : DEFAULT_API_CONCEPT_IDS;
+        return Boolean(window.SAKHA_CONFIG?.proxyUrl) && apiIds.includes(this.concept?.id);
+    }
+
+    async sendRemoteMessage() {
         const requestBody = {
             model: 'llama-3.3-70b-versatile',
             messages: this.history,

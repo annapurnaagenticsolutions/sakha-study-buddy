@@ -8,6 +8,8 @@ export function renderComponent(componentName, props) {
         renderParticleSimulator(container, props);
     } else if (componentName === 'MermaidDiagram') {
         renderMermaid(container, props);
+    } else if (componentName === 'Whiteboard') {
+        renderWhiteboard(container, props);
     } else {
         const error = document.createElement('div');
         error.className = 'component-error';
@@ -116,4 +118,161 @@ function renderParticleSimulator(container, props) {
         error.textContent = 'Failed to load the physics engine.';
         container.appendChild(error);
     });
+}
+
+
+function renderWhiteboard(container, props) {
+    const board = normalizeBoard(props.whiteboard || {}, props.title);
+    container.classList.add('whiteboard-component');
+
+    const header = document.createElement('div');
+    header.className = 'whiteboard-header';
+    const title = document.createElement('h2');
+    title.textContent = board.title;
+    const goal = document.createElement('p');
+    goal.textContent = board.goal || 'Step-by-step board';
+    header.append(title, goal);
+    container.appendChild(header);
+
+    if (board.basics.length) {
+        container.appendChild(renderListSection('Start from basics', board.basics));
+    }
+
+    if (board.formula) {
+        const formulaSection = document.createElement('section');
+        formulaSection.className = 'whiteboard-section formula-section';
+        const heading = document.createElement('h3');
+        heading.textContent = 'Formula, slowly';
+        const formula = document.createElement('div');
+        formula.className = 'formula-line';
+        formula.textContent = board.formula;
+        formulaSection.append(heading, formula);
+        if (board.formula_reading) {
+            const reading = document.createElement('p');
+            reading.textContent = board.formula_reading;
+            formulaSection.appendChild(reading);
+        }
+        container.appendChild(formulaSection);
+    }
+
+    if (board.symbols.length) {
+        const symbols = document.createElement('section');
+        symbols.className = 'whiteboard-section symbols-section';
+        const heading = document.createElement('h3');
+        heading.textContent = 'What each symbol means';
+        const grid = document.createElement('div');
+        grid.className = 'symbol-grid';
+        board.symbols.forEach((item) => {
+            const card = document.createElement('div');
+            card.className = 'symbol-card';
+            const symbol = document.createElement('strong');
+            symbol.textContent = item.symbol || item.label || '?';
+            const meaning = document.createElement('span');
+            meaning.textContent = item.means || item.meaning || item.detail || '';
+            const example = document.createElement('small');
+            example.textContent = item.example || '';
+            card.append(symbol, meaning, example);
+            grid.appendChild(card);
+        });
+        symbols.append(heading, grid);
+        container.appendChild(symbols);
+    }
+
+    if (board.steps.length) {
+        const steps = document.createElement('section');
+        steps.className = 'whiteboard-section steps-section';
+        const heading = document.createElement('h3');
+        heading.textContent = 'Build it in simple steps';
+        const list = document.createElement('ol');
+        board.steps.forEach((step, index) => {
+            const item = document.createElement('li');
+            const label = document.createElement('strong');
+            label.textContent = step.label || 'Step ' + (index + 1);
+            const detail = document.createElement('p');
+            detail.textContent = step.detail || String(step);
+            item.append(label, detail);
+            list.appendChild(item);
+
+            if (index + 1 === board.check_after_step) {
+                const check = document.createElement('li');
+                check.className = 'whiteboard-checkpoint';
+                check.textContent = board.feedback_prompt || 'Quick check: is it clear so far?';
+                list.appendChild(check);
+            }
+        });
+        steps.append(heading, list);
+        container.appendChild(steps);
+    }
+
+    if (board.worked_example) {
+        const example = document.createElement('section');
+        example.className = 'whiteboard-section example-section';
+        const heading = document.createElement('h3');
+        heading.textContent = 'Tiny worked example';
+        const body = document.createElement('p');
+        body.textContent = board.worked_example;
+        example.append(heading, body);
+        container.appendChild(example);
+    }
+
+    if (board.common_confusions.length) {
+        const confusions = document.createElement('section');
+        confusions.className = 'whiteboard-section confusion-section';
+        const heading = document.createElement('h3');
+        heading.textContent = 'Common confusions';
+        confusions.appendChild(heading);
+        board.common_confusions.forEach((item) => {
+            const row = document.createElement('p');
+            row.textContent = (item.confusion || 'Confusion') + ' -> ' + (item.fix || 'Use the step-by-step chain.');
+            confusions.appendChild(row);
+        });
+        container.appendChild(confusions);
+    }
+}
+
+function renderListSection(title, items) {
+    const section = document.createElement('section');
+    section.className = 'whiteboard-section';
+    const heading = document.createElement('h3');
+    heading.textContent = title;
+    const list = document.createElement('ul');
+    items.forEach((item) => {
+        const li = document.createElement('li');
+        li.textContent = String(item);
+        list.appendChild(li);
+    });
+    section.append(heading, list);
+    return section;
+}
+
+function normalizeBoard(input, fallbackTitle) {
+    if (Array.isArray(input)) {
+        return {
+            title: fallbackTitle || 'Whiteboard',
+            goal: 'Understand the idea step by step.',
+            basics: input,
+            formula: '',
+            formula_reading: '',
+            symbols: [],
+            steps: input.map((line, index) => ({ label: 'Step ' + (index + 1), detail: line })),
+            check_after_step: 2,
+            feedback_prompt: 'Quick check: is it clear so far?',
+            worked_example: '',
+            common_confusions: []
+        };
+    }
+
+    return {
+        title: input.title || fallbackTitle || 'Whiteboard',
+        goal: input.goal || '',
+        basics: input.basics || [],
+        formula: input.formula || '',
+        formula_reading: input.formula_reading || '',
+        symbols: input.symbols || [],
+        steps: input.steps || [],
+        check_after_step: input.check_after_step || 2,
+        feedback_prompt: input.feedback_prompt || 'Quick check: is it clear so far?',
+        worked_example: input.worked_example || '',
+        common_confusions: input.common_confusions || []
+    };
 }

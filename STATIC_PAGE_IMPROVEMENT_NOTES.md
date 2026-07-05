@@ -81,3 +81,20 @@ Scope: static GitHub Pages experience only. Backend, Worker quotas, user account
 - Fixed chat input semantics by removing the incorrect search role.
 - Reordered the session start so Sakha's first question appears before the prediction card.
 - Left Cloudflare Worker code unchanged; read-only review notes remain backend follow-up items.
+
+## Implemented in static pass 4
+
+- Added a rich `Whiteboard` component for formula, symbols, basic ideas, worked examples, checkpoints, and common confusions.
+- Enriched `boiling-water.json` with a beginner-friendly heat formula board: `Q = m x c x delta T`, particle explanation, boiling-point steps, latent heat, bubbles, and steam safety.
+- Added a deterministic fallback tutor so most topics can run without Groq/API calls.
+- Added an API allowlist in `config.js`; only selected advanced/open-ended topics use the remote API by default.
+- Added a whiteboard launch card inside each session. After 1-2 formula steps, the board asks the learner to confirm whether the idea is clear.
+- Kept offline/local progress and static concept packs as the default learning path.
+
+## Implemented in static pass 5
+
+- Wired the Language chooser so it no longer renders as an empty control.
+- Added a visible topic mode card: guided no-API topics vs AI-assisted allowlisted topics.
+- Bumped static asset versions and service-worker cache name to force a clean deployment refresh after whiteboard changes.
+- Added a rich no-API whiteboard for `ice-melting.json`, including heat direction, particles, melting point, and common confusions.
+- Kept the first-load bundle under the 40 KB guard.
