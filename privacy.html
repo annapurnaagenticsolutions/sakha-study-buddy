@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakha Privacy and Safety</title>
+    <meta name="description" content="Privacy and safety notes for the Sakha static AI study buddy.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://sakha-proxy.annapurnaagenticsolutions.workers.dev https://*.workers.dev https://huggingface.co https://cdn-lfs.huggingface.co https://raw.githubusercontent.com https://mlc.ai https://*.mlc.ai https://*.peerjs.com wss://*.peerjs.com; worker-src 'self' blob:; child-src 'self' blob:; manifest-src 'self'">
+    <link rel="stylesheet" href="style.css?v=2.0">
+</head>
+<body>
+    <section class="landing-shell" aria-labelledby="privacyTitle">
+        <header class="landing-header">
+            <div>
+                <div class="logo landing-logo">Sakha <span class="badge">Privacy</span></div>
+                <p class="landing-kicker">Static page privacy and safety notes.</p>
+            </div>
+            <nav class="landing-nav" aria-label="Navigation">
+                <a href="index.html">Home</a>
+                <a href="index.html#studentStart">Start</a>
+            </nav>
+        </header>
+
+        <main class="landing-main static-page">
+            <section class="start-copy privacy-copy">
+                <h1 id="privacyTitle">Privacy and safety</h1>
+                <p>Sakha is currently a static GitHub Pages app. It does not require an account, public profile, or full student name.</p>
+            </section>
+
+            <section class="trust-grid privacy-grid" aria-label="Privacy details">
+                <article class="trust-card">
+                    <h2>Student identity</h2>
+                    <p>Use a nickname only. Sakha stores the nickname and last selected topic in this browser using local storage so the same device can continue smoothly.</p>
+                </article>
+                <article class="trust-card">
+                    <h2>Camera and media</h2>
+                    <p>The static app does not upload camera images. Camera/image-understanding claims should stay out of the product until true multimodal support and consent copy are implemented.</p>
+                </article>
+                <article class="trust-card">
+                    <h2>Voice</h2>
+                    <p>Voice input is optional and user initiated. Browser speech support may vary by device and browser.</p>
+                </article>
+                <article class="trust-card">
+                    <h2>AI requests</h2>
+                    <p>When online AI is used, the chat text needed for the answer is sent to the configured AI proxy. Do not type private personal details into the chat.</p>
+                </article>
+                <article class="trust-card">
+                    <h2>Tracking</h2>
+                    <p>The static app should not include ads, tracking pixels, or behavioral analytics in the student flow.</p>
+                </article>
+                <article class="trust-card">
+                    <h2>Compliance status</h2>
+                    <p>This page is product guidance, not legal certification. Formal child-privacy or school compliance claims need legal review before public use.</p>
+                </article>
+            </section>
+        </main>
+    </section>
+</body>
+</html>

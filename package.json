@@ -9,5 +9,10 @@
   },
   "devDependencies": {
     "esbuild": "^0.28.1"
+  },
+  "scripts": {
+    "build": "esbuild ./src/app-static.js --bundle --format=esm --splitting --outdir=dist --entry-names=main --chunk-names=chunks/[name]-[hash] --minify && copy /Y src\\wasm\\physics.wasm dist\\physics.wasm >NUL",
+    "check": "npm run build && npm run size-check",
+    "size-check": "node scripts/check-bundle-size.js"
   }
 }

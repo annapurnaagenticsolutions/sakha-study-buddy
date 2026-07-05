@@ -1,13 +1,9 @@
-// We will dynamically import these to enable code splitting
-// import * as webllm from "@mlc-ai/web-llm";
-// import { pipeline, env } from "@xenova/transformers";
-
 export class SakhaAgent {
     constructor(apiKey) {
         this.apiKey = apiKey;
         this.history = [];
         this.concept = null;
-        this.systemPrompt = "";
+        this.systemPrompt = '';
         this.isOffline = false;
         this.webLlmEngine = null;
         this.embedder = null;
@@ -19,64 +15,58 @@ export class SakhaAgent {
 
     async initWebLLM(progressCallback) {
         if (this.webLlmEngine) return;
-        
-        // Dynamic import triggers ESBuild code splitting
-        progressCallback({ text: "Downloading AI Engines (one-time)..." });
-        const webllm = await import("@mlc-ai/web-llm");
-        const { pipeline, env } = await import("@xenova/transformers");
-        
-        // Configure Transformers.js to load models locally if available
+
+        progressCallback({ text: 'Downloading AI Engines (one-time)...' });
+        const webllm = await import('@mlc-ai/web-llm');
+        const { pipeline, env } = await import('@xenova/transformers');
+
+        const appBaseUrl = new URL('./', window.location.href);
         env.allowLocalModels = true;
-        env.localModelPath = '/models/';
+        env.localModelPath = new URL('models/', appBaseUrl).pathname;
         env.allowRemoteModels = true;
 
-        // Use Phi-3 Mini since it's smaller and hyper-efficient
-        const modelId = "Phi-3-mini-4k-instruct-q4f16_1-MLC";
-        
-        // Point to the local directory if the user downloaded it via download_models.py
+        const modelId = 'Phi-3-mini-4k-instruct-q4f16_1-MLC';
         const appConfig = {
             model_list: [
                 {
                     model_id: modelId,
-                    model_lib_url: webllm.modelLibURLPrefix + webllm.modelVersion + "/Phi3-mini-4k-instruct-q4f16_1-ctx4k_cs1k-webgpu.wasm",
-                    model_url: `http://localhost:8080/models/${modelId}/`
+                    model_lib_url: webllm.modelLibURLPrefix + webllm.modelVersion + '/Phi3-mini-4k-instruct-q4f16_1-ctx4k_cs1k-webgpu.wasm',
+                    model_url: new URL('models/' + modelId + '/', appBaseUrl).href
                 }
             ]
         };
 
         this.webLlmEngine = new webllm.MLCEngine();
         this.webLlmEngine.setInitProgressCallback(progressCallback);
-        
+
         try {
-            // Try loading from local HTTP Server first
             await this.webLlmEngine.reload(modelId, appConfig);
         } catch (e) {
-            console.warn("Local model not found on localhost:8080. Falling back to browser cache/HuggingFace...");
-            await this.webLlmEngine.reload(modelId); // Fallback to standard WebLLM cache
+            console.warn('Local model not found beside the app. Falling back to browser cache/HuggingFace...');
+            await this.webLlmEngine.reload(modelId);
         }
-        
-        // Initialize RAG embedder
-        progressCallback({ text: "Initializing Local RAG Embeddings..." });
+
+        progressCallback({ text: 'Initializing Local RAG Embeddings...' });
         this.embedder = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
-        progressCallback({ text: "Ready!" });
+        progressCallback({ text: 'Ready!' });
     }
 
     async loadConcept(conceptId) {
         try {
-            const res = await fetch(`content/concepts/${conceptId}.json`);
+            const res = await fetch('content/concepts/' + conceptId + '.json');
+            if (!res.ok) throw new Error('Concept not found: ' + conceptId);
             this.concept = await res.json();
-            
-            // Build a RICH system prompt from the concept pack
-            const analogies = this.concept.indian_analogies?.join(', ') || '';
-            const misconceptions = this.concept.misconceptions?.map(m => 
-                `- Students often think: "${m.belief}". Probe: "${m.probe}"`
-            ).join('\n') || '';
-            const questionFlow = this.concept.question_flow?.map(q => q.q).join(' → ') || '';
 
-            this.systemPrompt = `You are Sakha — NOT a teacher. You are a classmate who figured this out first.
+            const analogies = this.concept.indian_analogies?.join(', ') || '';
+            const misconceptions = this.concept.misconceptions?.map(m =>
+                '- Students often think: "' + m.belief + '". Probe: "' + m.probe + '"'
+            ).join('\n') || '';
+            const questionFlow = this.concept.question_flow?.map(q => q.q).join(' -> ') || '';
+
+            this.systemPrompt = `You are Sakha - NOT a teacher. You are a classmate who figured this out first.
 You speak in Hinglish (Hindi + English mix, warm and casual).
 You NEVER give the answer. You ask questions. You wait. You guide.
-You say things like: "Socho ek baar...", "Arre yaar!", "Dekh —", "Interesting — lekin..."
+You say things like: "Socho ek baar...", "Arre yaar!", "Dekh -", "Interesting - lekin..."
 
 CONCEPT: ${this.concept.title}
 BIG IDEA: ${this.concept.big_idea || ''}
@@ -102,56 +92,74 @@ Guidelines:
 - Set "session_complete": true ONLY when the student successfully explains the concept back to you (the teach-back moment). Otherwise false.
 - Use ParticleSimulator for states of matter / heat.
 `;
-            
-            this.history = [{ role: "system", content: this.systemPrompt }];
+
+            this.history = [{ role: 'system', content: this.systemPrompt }];
             return this.concept;
         } catch (e) {
-            console.error("Failed to load concept", e);
+            console.error('Failed to load concept', e);
             throw e;
         }
     }
 
     async sendMessage(userMessage) {
-        // ... append image if needed (Base64 URL) ...
-        this.history.push({ role: "user", content: userMessage });
+        this.history.push({ role: 'user', content: userMessage });
 
         if (this.isOffline) {
-            if (!this.webLlmEngine) throw new Error("Offline Engine not initialized");
+            if (!this.webLlmEngine) throw new Error('Offline Engine not initialized');
             const reply = await this.webLlmEngine.chat.completions.create({
                 messages: this.history,
-                response_format: { type: "json_object" }
+                response_format: { type: 'json_object' }
             });
             const contentString = reply.choices[0].message.content;
-            this.history.push({ role: "assistant", content: contentString });
-            return JSON.parse(contentString);
-        } else {
-            const requestBody = {
-                model_name: "llama-3.3-70b-versatile",
-                messages: this.history,
-                temperature: 0.7
-            };
+            this.history.push({ role: 'assistant', content: contentString });
+            return this.parseAgentJson(contentString);
+        }
 
-            // Use the Serverless Proxy (e.g., Cloudflare Worker)
-            // By default pointing to local worker dev server (wrangler dev), or deployed URL
-            const proxyUrl = window.PROXY_URL || "http://localhost:8787";
+        const requestBody = {
+            model: 'llama-3.3-70b-versatile',
+            messages: this.history,
+            temperature: 0.7,
+            max_tokens: 700,
+            response_format: { type: 'json_object' }
+        };
 
-            const res = await fetch(proxyUrl, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(requestBody)
-            });
+        const proxyUrl = window.SAKHA_CONFIG?.proxyUrl || window.PROXY_URL || 'http://localhost:8787';
+        const res = await fetch(proxyUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(requestBody)
+        });
 
-            if (!res.ok) {
-                throw new Error("Proxy API request failed: " + res.statusText);
+        if (!res.ok) {
+            let details = res.statusText;
+            try {
+                const errorBody = await res.json();
+                details = errorBody.error?.message || errorBody.error || details;
+            } catch (_) {
+                // Keep the status text when the proxy did not return JSON.
             }
+            throw new Error('Proxy API request failed: ' + details);
+        }
 
-            const data = await res.json();
-            const contentString = data.choices[0].message.content;
+        const data = await res.json();
+        const contentString = data.choices[0].message.content;
+        this.history.push({ role: 'assistant', content: contentString });
+        return this.parseAgentJson(contentString);
+    }
 
-            this.history.push({ role: "assistant", content: contentString });
+    parseAgentJson(contentString) {
+        try {
             return JSON.parse(contentString);
+        } catch (e) {
+            console.error('Model returned non-JSON content', contentString);
+            return {
+                message: contentString || 'Mujhe response samajhne mein dikkat hui. Ek baar phir try karein?',
+                render_component: 'none',
+                component_props: {},
+                session_complete: false
+            };
         }
     }
 }

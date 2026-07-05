@@ -1,0 +1,1901 @@
+[
+  {
+    "id": "biomedical-monitoring",
+    "title": "Biomedical Device Monitoring",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Physics",
+      "Math"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": true,
+    "hook": "How does a hospital monitor know when a patient's condition is dangerous — not just noisy data?"
+  },
+  {
+    "id": "air-pollution-lungs",
+    "title": "Air Pollution and Lungs",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Biology",
+      "Physics",
+      "Math"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "City + Environment",
+    "unlocked": true,
+    "hook": "How can smoke, dust, and gases affect breathing and health?"
+  },
+  {
+    "id": "air-conditioner-cooling-energy",
+    "title": "Air Conditioner and Room Cooling",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Math",
+      "Biology"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Home + Energy",
+    "unlocked": true,
+    "hook": "Why does an air conditioner cool a room but increase the electricity bill?"
+  },
+  {
+    "id": "camera-photo-focus",
+    "title": "Camera and Photo Focus",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Biology",
+      "Chemistry"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Technology + Eye",
+    "unlocked": true,
+    "hook": "Why does a camera sometimes make a photo blurry, and how is it similar to the human eye?"
+  },
+  {
+    "id": "bicycle-riding",
+    "title": "Bicycle Riding",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Biology",
+      "Math"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Road",
+    "unlocked": true,
+    "hook": "Why does a bicycle move, stop, balance, and become harder to pedal uphill?"
+  },
+  {
+    "id": "boiling-water",
+    "title": "Boiling Water",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Math",
+      "Biology"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Kitchen",
+    "unlocked": true,
+    "hook": "Why does water bubble when heated, and why should we be careful around steam?"
+  },
+  {
+    "id": "clothes-drying-sun-wind",
+    "title": "Why Clothes Dry Faster in Sun and Wind",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Math"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Home + Weather",
+    "unlocked": true,
+    "hook": "Why do wet clothes dry faster in sunlight and moving air?"
+  },
+  {
+    "id": "bicycle-tyre-pressure-grip",
+    "title": "Bicycle Tyre Pressure and Grip",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Chemistry",
+      "Biology"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Road + Sports",
+    "unlocked": true,
+    "hook": "Why does a bicycle feel harder to ride when tyres are under-inflated?"
+  },
+  {
+    "id": "bridge-engineering",
+    "title": "Bridge Engineering",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": true,
+    "hook": "Why are triangles used in bridges? Your femur bone uses the same principle. What is it?"
+  },
+  {
+    "id": "bouncing_balls",
+    "title": "Why do Balls Bounce?",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Everyday life",
+    "unlocked": true,
+    "hook": "Tune kabhi socha — rubber ball bounce karti hai, clay ball same height se giraao toh nahi bounce karti. Dono same weight. Kyun?"
+  },
+  {
+    "id": "exercise-body",
+    "title": "Human Body During Exercise",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Chemistry",
+      "Physics",
+      "Math"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Body + Sports",
+    "unlocked": false,
+    "hook": "Why do breathing and heart rate increase when we run or climb stairs?"
+  },
+  {
+    "id": "cold-chain-logistics",
+    "title": "Cold-Chain Logistics",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Biology",
+      "Physics",
+      "Math"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "How does a vaccine stay effective from a Delhi factory to a rural clinic in Rajasthan?"
+  },
+  {
+    "id": "space-habitat-life-support",
+    "title": "Space Habitat Life Support",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Biology",
+      "Physics"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "How do astronauts breathe, drink, and stay alive in space where there is nothing?"
+  },
+  {
+    "id": "waste-segregation-recycling",
+    "title": "Waste Segregation and Recycling",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Biology",
+      "Math",
+      "Physics"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "City + Environment",
+    "unlocked": false,
+    "hook": "Why should wet waste, dry waste, plastic, metal, glass, and hazardous waste be separated?"
+  },
+  {
+    "id": "contact-lenses-eye-care",
+    "title": "Contact Lenses and Eye Care",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Biology",
+      "Chemistry",
+      "Math"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Body + Technology",
+    "unlocked": false,
+    "hook": "How do contact lenses help vision, and why do they need careful hygiene?"
+  },
+  {
+    "id": "drone-flight-controller",
+    "title": "Drone Flight Controller",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Engineering"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "How does a drone stay level and respond to control inputs? What makes it crash?"
+  },
+  {
+    "id": "ear-pressure-flight-mountain",
+    "title": "Ear Pressure in Flights and Mountains",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Biology",
+      "Math",
+      "Chemistry"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Travel + Body",
+    "unlocked": false,
+    "hook": "Why do ears feel blocked during flights or mountain travel?"
+  },
+  {
+    "id": "earthquake-alert-system",
+    "title": "Earthquake Alert System",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Geography"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "How do early warning systems detect an earthquake before the shaking arrives?"
+  },
+  {
+    "id": "electricity-bill",
+    "title": "Electricity Bill Calculator",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Chemistry"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Home",
+    "unlocked": false,
+    "hook": "How does using a fan, light, geyser, or AC become a number on the electricity bill?"
+  },
+  {
+    "id": "monsoon-flood-drainage",
+    "title": "Monsoon, Flooding, and Drainage",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Chemistry",
+      "Biology"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "City + Weather",
+    "unlocked": false,
+    "hook": "Why do some roads flood quickly during heavy rain while others drain faster?"
+  },
+  {
+    "id": "road-safety",
+    "title": "Road Safety and Braking",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Biology"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Road",
+    "unlocked": false,
+    "hook": "Why does a faster vehicle need more distance to stop safely?"
+  },
+  {
+    "id": "smart-traffic-signal",
+    "title": "Smart Traffic Signal",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Engineering"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "How does a traffic light decide when to change? What happens when the system fails?"
+  },
+  {
+    "id": "solar-microgrid",
+    "title": "Solar Microgrid",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Math"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "How does a small community generate and store its own electricity from solar panels?"
+  },
+  {
+    "id": "solar-panel-home",
+    "title": "Solar Panel at Home",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Chemistry",
+      "Biology"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Home + Environment",
+    "unlocked": false,
+    "hook": "How can sunlight become electricity for lights, fans, or charging?"
+  },
+  {
+    "id": "water-tank-pump-pressure",
+    "title": "Water Tank and Pump",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Chemistry",
+      "Biology"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Home + Infrastructure",
+    "unlocked": false,
+    "hook": "How does water reach an overhead tank and then flow down to taps?"
+  },
+  {
+    "id": "mobile-phone-heating",
+    "title": "Why Phones Heat Up",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Math"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Technology",
+    "unlocked": false,
+    "hook": "Why does a phone become warm during gaming, charging, or video calls?"
+  },
+  {
+    "id": "rain-damaged-roads",
+    "title": "Why Roads Get Damaged in Rain",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Math",
+      "Biology"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Road + City",
+    "unlocked": false,
+    "hook": "Why do potholes and cracks often increase during heavy rain?"
+  },
+  {
+    "id": "wifi-mobile-network",
+    "title": "Wi‑Fi and Mobile Network",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Chemistry",
+      "Biology"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9,
+      10
+    ],
+    "place": "Technology",
+    "unlocked": false,
+    "hook": "Why does internet speed change with distance, walls, and number of users?"
+  },
+  {
+    "id": "ohms_law",
+    "title": "Ohm's Law",
+    "subject": "Science",
+    "subjects": [
+      "Science",
+      "Physics"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Have you noticed that a higher voltage across the same resistor usually drives more current? Why does that happen?"
+  },
+  {
+    "id": "gravity",
+    "title": "Weight and Mass",
+    "subject": "Science",
+    "subjects": [
+      "Science",
+      "Physics"
+    ],
+    "level": "Advanced",
+    "class_band": [
+      9
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "A school bag has the same mass on Earth and Moon, but its weight changes. Why?"
+  },
+  {
+    "id": "plant-growth",
+    "title": "Growing a Plant",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Math",
+      "Chemistry",
+      "Physics"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      1,
+      2,
+      3
+    ],
+    "place": "Garden",
+    "unlocked": false,
+    "hook": "Why does a plant grow better when it gets sunlight, water, and good soil?"
+  },
+  {
+    "id": "compost-helps-soil",
+    "title": "How Compost Helps Soil",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Chemistry",
+      "Math",
+      "Physics"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Garden + Farm",
+    "unlocked": false,
+    "hook": "Why does compost make soil better for plants?"
+  },
+  {
+    "id": "lunch-box-nutrition-portions",
+    "title": "Lunch Box Nutrition and Portions",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Math",
+      "Chemistry"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      1,
+      2,
+      3
+    ],
+    "place": "School + Home",
+    "unlocked": false,
+    "hook": "Why does a lunch box need different kinds of food instead of only one favourite snack?"
+  },
+  {
+    "id": "thermometer-fever-check",
+    "title": "Thermometer and Fever Check",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Physics",
+      "Math"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Home + Health",
+    "unlocked": false,
+    "hook": "How does a thermometer help us decide whether the body may have fever?"
+  },
+  {
+    "id": "toothbrushing-decay",
+    "title": "Toothbrushing and Tooth Decay",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Chemistry",
+      "Math"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Health",
+    "unlocked": false,
+    "hook": "Why do we brush teeth, and how can sweet food contribute to cavities?"
+  },
+  {
+    "id": "handwashing-soap-germs",
+    "title": "Washing Hands With Soap",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Chemistry",
+      "Physics",
+      "Math"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      1,
+      2,
+      3
+    ],
+    "place": "Home + Health",
+    "unlocked": false,
+    "hook": "Why does soap help clean dirty hands better than water alone?"
+  },
+  {
+    "id": "cooking-rice-heat-water",
+    "title": "Cooking Rice",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Physics",
+      "Math",
+      "Biology"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Kitchen",
+    "unlocked": false,
+    "hook": "Why does hard rice become soft when cooked with water and heat?"
+  },
+  {
+    "id": "umbrella-raincoat-waterproofing",
+    "title": "Umbrella and Raincoat",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Physics",
+      "Math",
+      "Biology"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Rainy Day",
+    "unlocked": false,
+    "hook": "Why does rain slide off some materials but soak into others?"
+  },
+  {
+    "id": "lemonade-ratio-dissolving",
+    "title": "Making Lemonade",
+    "subject": "Math",
+    "subjects": [
+      "Math",
+      "Physics",
+      "Chemistry",
+      "Biology"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      1,
+      2,
+      3
+    ],
+    "place": "Kitchen",
+    "unlocked": false,
+    "hook": "Why does more sugar make lemonade sweeter, and why does stirring help it dissolve?"
+  },
+  {
+    "id": "school-bag-weight",
+    "title": "Packing a School Bag",
+    "subject": "Math",
+    "subjects": [
+      "Math",
+      "Physics",
+      "Biology"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "School",
+    "unlocked": false,
+    "hook": "Why does a heavy school bag feel uncomfortable, and how can packing make it easier to carry?"
+  },
+  {
+    "id": "fractions_intro",
+    "title": "What are Fractions Really?",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Yaar, ek sawaal — agar ek roti ko 4 logon mein barabar baantna ho, toh har ek ko kitni milegi? Aur woh 'kitni' ko hum likhein kaise? Yahi fraction hai — chalo samjhte hain."
+  },
+  {
+    "id": "shadow-day",
+    "title": "Changing Shadows",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      1,
+      2,
+      3
+    ],
+    "place": "Playground",
+    "unlocked": false,
+    "hook": "Why is your shadow long in the morning and shorter around noon?"
+  },
+  {
+    "id": "floating-sinking-boats",
+    "title": "Floating and Sinking",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Chemistry"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      1,
+      2,
+      3
+    ],
+    "place": "Water + Play",
+    "unlocked": false,
+    "hook": "Why does a leaf float but a stone sinks, and how can a heavy boat float?"
+  },
+  {
+    "id": "home-cooling-shade-ventilation",
+    "title": "Keeping a House Cool",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Biology",
+      "Chemistry"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Home + Weather",
+    "unlocked": false,
+    "hook": "Why do shade, curtains, windows, and fans change how cool a room feels?"
+  },
+  {
+    "id": "kite-flying-wind-force",
+    "title": "Kite Flying",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Chemistry",
+      "Biology"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Playground",
+    "unlocked": false,
+    "hook": "Why does a kite fly better with enough wind and the right string angle?"
+  },
+  {
+    "id": "magnets-at-home",
+    "title": "Magnets at Home",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Chemistry"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      1,
+      2,
+      3
+    ],
+    "place": "Home + School",
+    "unlocked": false,
+    "hook": "Why do magnets stick to some things but not to wood, plastic, or paper?"
+  },
+  {
+    "id": "mirror-reflection-symmetry",
+    "title": "Mirror Reflection",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Chemistry",
+      "Biology"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Home + School",
+    "unlocked": false,
+    "hook": "Why do mirrors show images, and why does left and right seem reversed?"
+  },
+  {
+    "id": "musical-instruments-sound",
+    "title": "Musical Instruments and Sound",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Biology"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      1,
+      2,
+      3
+    ],
+    "place": "Music + School",
+    "unlocked": false,
+    "hook": "Why does a drum, bell, or rubber band make sound when it vibrates?"
+  },
+  {
+    "id": "paper-airplane-flight",
+    "title": "Paper Airplane Flight",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Classroom + Playground",
+    "unlocked": false,
+    "hook": "Why do some paper airplanes fly far while others quickly fall?"
+  },
+  {
+    "id": "rain-puddles-water-cycle",
+    "title": "Rain, Puddles, and Drying",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Math"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      1,
+      2,
+      3
+    ],
+    "place": "Weather",
+    "unlocked": false,
+    "hook": "Where does rainwater go after a puddle slowly dries?"
+  },
+  {
+    "id": "soap-bubbles-surface-tension",
+    "title": "Soap Bubbles",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Math",
+      "Biology"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      1,
+      2,
+      3
+    ],
+    "place": "Play + Bath",
+    "unlocked": false,
+    "hook": "Why do soap bubbles become round and why do they burst when touched?"
+  },
+  {
+    "id": "cold-bottle-condensation",
+    "title": "Water Drops on a Cold Bottle",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Math"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Kitchen + Classroom",
+    "unlocked": false,
+    "hook": "Why do water drops appear outside a cold bottle even when the bottle is not leaking?"
+  },
+  {
+    "id": "helmet-head-protection",
+    "title": "Why Helmets Protect the Head",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Biology",
+      "Math",
+      "Chemistry"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      4,
+      5
+    ],
+    "place": "Road + Sports",
+    "unlocked": false,
+    "hook": "Why does wearing a helmet reduce injury during cycling or two-wheeler travel?"
+  },
+  {
+    "id": "ice-melting",
+    "title": "Why Ice Melts",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Math"
+    ],
+    "level": "Foundations",
+    "class_band": [
+      1,
+      2,
+      3
+    ],
+    "place": "Home",
+    "unlocked": false,
+    "hook": "Why does ice become water when it is kept outside the freezer?"
+  },
+  {
+    "id": "composting-kitchen-waste",
+    "title": "Composting Kitchen Waste",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Chemistry",
+      "Math",
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Garden + Environment",
+    "unlocked": false,
+    "hook": "How can vegetable peels become useful compost for plants?"
+  },
+  {
+    "id": "refrigerator-preserves-food",
+    "title": "How Refrigerators Preserve Food",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Physics",
+      "Chemistry",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Kitchen + Health",
+    "unlocked": false,
+    "hook": "Why does keeping food cold help it stay usable longer?"
+  },
+  {
+    "id": "mosquito-control-health",
+    "title": "Mosquito Control and Health",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Math",
+      "Chemistry",
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Home + Community",
+    "unlocked": false,
+    "hook": "Why does removing stagnant water reduce mosquito problems?"
+  },
+  {
+    "id": "plant-growth-photosynthesis",
+    "title": "Plant Growth and Photosynthesis",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Chemistry",
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Every breath you take traces back to a plant. How does a plant make the oxygen you are breathing right now?"
+  },
+  {
+    "id": "soil-erosion-rain",
+    "title": "Soil Erosion During Rain",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Physics",
+      "Chemistry",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Garden + Farm",
+    "unlocked": false,
+    "hook": "Why does heavy rain wash soil away more easily from bare ground than from grassy ground?"
+  },
+  {
+    "id": "vertical-farm-irrigation",
+    "title": "Vertical Farm Irrigation",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Chemistry",
+      "Physics",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "How does a vertical farm grow crops without soil, using 95% less water?"
+  },
+  {
+    "id": "food-spoilage",
+    "title": "Why Food Spoils",
+    "subject": "Biology",
+    "subjects": [
+      "Biology",
+      "Chemistry",
+      "Physics",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Kitchen + Health",
+    "unlocked": false,
+    "hook": "Why does cooked food spoil faster in heat and stay fresh longer in a refrigerator?"
+  },
+  {
+    "id": "water-filter",
+    "title": "Clean Water Filter",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Physics",
+      "Biology",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Home + Community",
+    "unlocked": false,
+    "hook": "How can dirty-looking water become clearer through settling and filtration?"
+  },
+  {
+    "id": "packed-food-expiry",
+    "title": "Packed Food and Expiry Dates",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Biology",
+      "Math",
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Kitchen + Store",
+    "unlocked": false,
+    "hook": "Why do packed foods have expiry dates and storage instructions?"
+  },
+  {
+    "id": "salt-in-cooking",
+    "title": "Salt in Cooking",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Math",
+      "Physics",
+      "Biology"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Kitchen",
+    "unlocked": false,
+    "hook": "Why does salt disappear in water and change food taste?"
+  },
+  {
+    "id": "washing-oily-plates",
+    "title": "Washing Oily Plates",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Physics",
+      "Biology",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Kitchen",
+    "unlocked": false,
+    "hook": "Why does plain water struggle to clean oily plates, but soap helps?"
+  },
+  {
+    "id": "waste-sorting-facility",
+    "title": "Waste Sorting Facility",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Biology",
+      "Physics",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "How does a modern recycling plant separate plastic, metal, paper, and glass automatically?"
+  },
+  {
+    "id": "water-treatment-network",
+    "title": "Water Treatment Network",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Biology",
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "How does dirty river water become safe drinking water? What can go wrong?"
+  },
+  {
+    "id": "salt_in_water",
+    "title": "Why does Salt Dissolve in Water?",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Yaar, roz khana khaate ho. Mummy khane mein namak daalti hain, woh gayab ho jaata hai. Kahan jaata hai? Namak 'khatam' ho jaata hai kya — ya kuch aur ho raha hai?"
+  },
+  {
+    "id": "iron-rusting-water",
+    "title": "Why Iron Rusts Near Water",
+    "subject": "Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Physics",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Home + Environment",
+    "unlocked": false,
+    "hook": "Why do iron gates, nails, or tools rust faster when exposed to water?"
+  },
+  {
+    "id": "math_algebraic_expressions",
+    "title": "Algebraic Expressions",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Why can we add 3x + 2x but not combine 3x + 2y into 5x?"
+  },
+  {
+    "id": "math_area_perimeter",
+    "title": "Area and Perimeter",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Can two rectangles have the same perimeter but different areas? Give an example or explain."
+  },
+  {
+    "id": "math_coordinate_plane",
+    "title": "Coordinate Plane",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Where is the point (-2, 3) located from the origin?"
+  },
+  {
+    "id": "math_fractions",
+    "title": "Fractions",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Which is larger: 1/3 or 1/4? Explain without using decimals."
+  },
+  {
+    "id": "math_integers_signs",
+    "title": "Integers and Signs",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Why is 5 - (-3) equal to 8, not 2?"
+  },
+  {
+    "id": "math_linear_equations",
+    "title": "Linear Equations",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "If x + 5 = 12, what should we do first to find x?"
+  },
+  {
+    "id": "math_percentages",
+    "title": "Percentages",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "A price increases by 20% and then decreases by 20%. Is it back to the original price? Why?"
+  },
+  {
+    "id": "math_probability_basics",
+    "title": "Probability Basics",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "If a fair coin gives heads three times in a row, is tails guaranteed next? Why?"
+  },
+  {
+    "id": "math_ratio_proportion",
+    "title": "Ratio and Proportion",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "If 2 notebooks cost ₹30, what should happen to the cost when the notebooks double to 4? Why?"
+  },
+  {
+    "id": "traffic-signal-timing",
+    "title": "Traffic Signal Timing",
+    "subject": "Math",
+    "subjects": [
+      "Math",
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Road + City",
+    "unlocked": false,
+    "hook": "Why do traffic signals use timed cycles, and why do some crossings feel slower than others?"
+  },
+  {
+    "id": "math_triangles_angles",
+    "title": "Triangles and Angles",
+    "subject": "Math",
+    "subjects": [
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "If two angles of a triangle are 60° and 70°, what is the third angle and why?"
+  },
+  {
+    "id": "upi-qr-payment-safety",
+    "title": "UPI and QR Payment Safety",
+    "subject": "Math",
+    "subjects": [
+      "Math",
+      "Physics",
+      "Biology"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Market + Home",
+    "unlocked": false,
+    "hook": "Why should we check the name, amount, and source before paying with a QR code?"
+  },
+  {
+    "id": "physics_acceleration",
+    "title": "Acceleration",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Can a car slowing down have acceleration? Why?"
+  },
+  {
+    "id": "physics_electric_current",
+    "title": "Electric Current",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Why does a bulb turn off when a switch opens the circuit?"
+  },
+  {
+    "id": "electricity-circuits",
+    "title": "Electricity and Circuits",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "A light switch doesn't create electricity. What exactly does it do to the circuit?"
+  },
+  {
+    "id": "elevator-lift-force",
+    "title": "Elevator and Lift Safety",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Biology"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Building",
+    "unlocked": false,
+    "hook": "Why does an elevator need motors, cables, sensors, and weight limits?"
+  },
+  {
+    "id": "physics_energy",
+    "title": "Energy",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "When a battery runs a fan, where does the battery’s energy go?"
+  },
+  {
+    "id": "physics_force",
+    "title": "Force",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "A ball is rolling on the ground. After some time it slows down and stops. Why does it stop?"
+  },
+  {
+    "id": "physics_friction",
+    "title": "Friction",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Why can we walk because of friction rather than despite friction?"
+  },
+  {
+    "id": "elevator-door-sensors",
+    "title": "How Elevator Doors Sense Objects",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Biology",
+      "Chemistry"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Building + Technology",
+    "unlocked": false,
+    "hook": "How does an elevator door know when someone or something is in the way?"
+  },
+  {
+    "id": "spectacles-vision",
+    "title": "How Spectacles Help Vision",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Biology",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Body + Health",
+    "unlocked": false,
+    "hook": "How can a piece of curved glass help someone see clearly?"
+  },
+  {
+    "id": "physics_motion",
+    "title": "Motion",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Can a passenger sitting in a moving bus be at rest and in motion at the same time? Explain relative to what."
+  },
+  {
+    "id": "cooking-physics",
+    "title": "Physics of Cooking",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Every time you boil water or fry an egg, you're doing a physics experiment. Why do molecules change state?"
+  },
+  {
+    "id": "pressure-cooker",
+    "title": "Pressure Cooker",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Kitchen",
+    "unlocked": false,
+    "hook": "Why does a pressure cooker cook dal or rice faster than an open pot?"
+  },
+  {
+    "id": "physics_reflection_light",
+    "title": "Reflection of Light",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "From where should we measure the angle of incidence: the mirror surface or the normal? Why?"
+  },
+  {
+    "id": "refrigerator-food-cooling",
+    "title": "Refrigerator and Food Cooling",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Biology",
+      "Chemistry",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Kitchen + Technology",
+    "unlocked": false,
+    "hook": "How does a refrigerator keep food cold, and why does that slow spoilage?"
+  },
+  {
+    "id": "rocket-science",
+    "title": "Rocket Science",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "If you let go of an inflated balloon it flies around. That is the same physics as a rocket. How?"
+  },
+  {
+    "id": "sound-waves",
+    "title": "Sound and Waves",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "In space no one can hear you scream. Why not? What exactly IS sound?"
+  },
+  {
+    "id": "physics_speed",
+    "title": "Speed",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "A cycle travels 60 m in 10 s. What does 6 m/s actually mean?"
+  },
+  {
+    "id": "physics_velocity",
+    "title": "Velocity",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "If you run around a circular track and return to your starting point, what is your average velocity for the full trip? Why?"
+  },
+  {
+    "id": "sports-ball-bounce",
+    "title": "Why Balls Bounce",
+    "subject": "Physics",
+    "subjects": [
+      "Physics",
+      "Math",
+      "Chemistry",
+      "Biology"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      6,
+      7,
+      8
+    ],
+    "place": "Playground + Sports",
+    "unlocked": false,
+    "hook": "Why do some balls bounce higher than others?"
+  },
+  {
+    "id": "shadows",
+    "title": "Why do Shadows Change Shape and Size?",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      4,
+      5,
+      6
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Dekho — suba mein teri chhaya bahut lambi hoti hai, dopahar mein bahut chhoti. Shaam ko phir lambi. KYON? Kya tum badal rahe ho ya kuch aur?"
+  },
+  {
+    "id": "physics_work",
+    "title": "Work",
+    "subject": "Physics",
+    "subjects": [
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      8,
+      9,
+      10
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "If you push a wall hard and it does not move, is work done on the wall in physics? Why?"
+  },
+  {
+    "id": "ice_melting",
+    "title": "Why Ice Melts",
+    "subject": "Science",
+    "subjects": [
+      "Science",
+      "Physics"
+    ],
+    "level": "Middle School",
+    "class_band": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "place": "Everyday life",
+    "unlocked": false,
+    "hook": "Garmi mein glass ke bahar paani kahan se aata hai aur barf kyun pighalti hai? Kabhi socha hai?"
+  }
+]

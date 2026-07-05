@@ -9,7 +9,10 @@ export function renderComponent(componentName, props) {
     } else if (componentName === 'MermaidDiagram') {
         renderMermaid(container, props);
     } else {
-        container.innerHTML = `<div style="padding: 10px; color: red;">Unknown component: ${componentName}</div>`;
+        const error = document.createElement('div');
+        error.className = 'component-error';
+        error.textContent = 'Unknown component: ' + componentName;
+        container.appendChild(error);
     }
 
     return container;
@@ -29,19 +32,19 @@ async function loadMermaid() {
 async function renderMermaid(container, props) {
     container.style.padding = '20px';
     container.style.background = '#ffffff';
-    
+
     const diagramCode = props.code || 'graph TD; A-->B;';
-    
-    const id = 'mermaid-' + Math.random().toString(36).substr(2, 9);
+
+    const id = 'mermaid-' + crypto.randomUUID();
     const div = document.createElement('div');
     div.id = id;
     div.className = 'mermaid';
     div.textContent = diagramCode;
-    
+
     container.appendChild(div);
-    
+
     await loadMermaid();
-    mermaid.init(undefined, `#${id}`);
+    mermaid.init(undefined, '#' + id);
 }
 
 function renderParticleSimulator(container, props) {
@@ -60,7 +63,7 @@ function renderParticleSimulator(container, props) {
     const float32Array = new Float32Array(memory.buffer);
 
     for (let i = 0; i < numParticles; i++) {
-        let offset = i * 4;
+        const offset = i * 4;
         float32Array[offset] = Math.random() * canvas.width;
         float32Array[offset + 1] = Math.random() * canvas.height;
         float32Array[offset + 2] = (Math.random() - 0.5) * 2;
@@ -73,26 +76,32 @@ function renderParticleSimulator(container, props) {
         const updateParticles = result.instance.exports.updateParticles;
 
         const controls = document.createElement('div');
-        controls.innerHTML = `
-            <label style="font-family: var(--font-body); margin-right: 10px;">Temperature:</label>
-            <input type="range" min="0.1" max="5" step="0.1" value="${speedMultiplier}" id="tempSlider">
-        `;
+        controls.className = 'component-controls';
+        const label = document.createElement('label');
+        label.textContent = 'Temperature:';
+        const slider = document.createElement('input');
+        slider.type = 'range';
+        slider.min = '0.1';
+        slider.max = '5';
+        slider.step = '0.1';
+        slider.value = String(speedMultiplier);
+        controls.append(label, slider);
         container.appendChild(controls);
 
-        document.getElementById('tempSlider').addEventListener('input', (e) => {
+        slider.addEventListener('input', (e) => {
             speedMultiplier = parseFloat(e.target.value);
         });
 
         function animate() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            
+
             updateParticles(numParticles, canvas.width, canvas.height, speedMultiplier);
 
             ctx.fillStyle = '#00bcd4';
             for (let i = 0; i < numParticles; i++) {
-                let offset = i * 4;
-                let x = float32Array[offset];
-                let y = float32Array[offset + 1];
+                const offset = i * 4;
+                const x = float32Array[offset];
+                const y = float32Array[offset + 1];
                 ctx.beginPath();
                 ctx.arc(x, y, 3, 0, Math.PI * 2);
                 ctx.fill();
@@ -101,7 +110,10 @@ function renderParticleSimulator(container, props) {
         }
         animate();
     }).catch(err => {
-        console.error("WASM Load failed:", err);
-        container.innerHTML += `<div style="color:red">Failed to load WASM physics engine. Fallback JS not implemented.</div>`;
+        console.error('WASM Load failed:', err);
+        const error = document.createElement('div');
+        error.className = 'component-error';
+        error.textContent = 'Failed to load the physics engine.';
+        container.appendChild(error);
     });
 }

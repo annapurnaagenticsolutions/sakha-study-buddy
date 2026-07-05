@@ -91,7 +91,7 @@ export async function initGalaxy(containerId, onNodeClick) {
     const raycaster = new THREE.Raycaster();
     const mouse = new THREE.Vector2();
 
-    window.addEventListener('click', (event) => {
+    function onClick(event) {
         mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
         mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
 
@@ -106,11 +106,14 @@ export async function initGalaxy(containerId, onNodeClick) {
                 alert('Concept Locked! Complete previous concepts first.');
             }
         }
-    });
+    }
+
+    window.addEventListener('click', onClick);
 
     // Animation Loop
+    let animationFrameId = 0;
     function animate() {
-        requestAnimationFrame(animate);
+        animationFrameId = requestAnimationFrame(animate);
         nodes.forEach(n => {
             n.rotation.y += 0.01;
             n.rotation.x += 0.005;
@@ -122,12 +125,14 @@ export async function initGalaxy(containerId, onNodeClick) {
     animate();
 
     // Handle resize
-    window.addEventListener('resize', () => {
+    function onResize() {
         camera.aspect = window.innerWidth / window.innerHeight;
         camera.updateProjectionMatrix();
         renderer.setSize(window.innerWidth, window.innerHeight);
         labelRenderer.setSize(window.innerWidth, window.innerHeight);
-    });
+    }
+
+    window.addEventListener('resize', onResize);
 
     // Setup Filters
     const filterBtns = document.querySelectorAll('.filter-btn');
@@ -155,6 +160,10 @@ export async function initGalaxy(containerId, onNodeClick) {
 
     return {
         destroy: () => {
+            cancelAnimationFrame(animationFrameId);
+            window.removeEventListener('click', onClick);
+            window.removeEventListener('resize', onResize);
+            renderer.dispose();
             container.removeChild(renderer.domElement);
             container.removeChild(labelRenderer.domElement);
         }
