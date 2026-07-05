@@ -107,3 +107,13 @@ Scope: static GitHub Pages experience only. Backend, Worker quotas, user account
 - The board now consistently includes basics, symbol meanings, step flow, a pause checkpoint after early steps, a worked example where available, and common confusions.
 - Sakha's guided fallback now explicitly points students to the right-side board for formula/process, symbols, and step explanation.
 
+## Audit pass after progressive whiteboard
+
+- Removed the visible no-API mode card from the chat because it exposed implementation detail to students.
+- Changed the session header to match the landing brand: Sakha Study Buddy.
+- Moved whiteboard intro/open controls into the right-side whiteboard panel only.
+- Made whiteboard reveal progressive: intro first, then limited basics/formula/symbols/steps, with deeper slices on formula/process requests.
+- Fixed English mode startup copy and carried the selected language into guided fallback responses.
+- Reduced bundle size from the one-byte guard edge to a safer margin and removed stale generated chunk files from the publish dist.
+- Remaining optional polish: replace browser prompt/alert flows for peer sharing and downloaded progress cards with in-app modals.
+

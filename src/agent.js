@@ -10,10 +10,15 @@ export class SakhaAgent {
         this.webLlmEngine = null;
         this.embedder = null;
         this.fallbackTutor = new FallbackTutor();
+        this.language = 'Hinglish';
     }
 
     setOfflineMode(isOffline) {
         this.isOffline = isOffline;
+    }
+
+    setLanguage(language) {
+        this.language = language || 'Hinglish';
     }
 
     async initWebLLM(progressCallback) {
@@ -123,7 +128,7 @@ Guidelines:
         }
 
         if (!this.shouldUseRemoteApi()) {
-            const fallbackResponse = this.fallbackTutor.createResponse(this.concept, userMessage);
+            const fallbackResponse = this.fallbackTutor.createResponse(this.concept, userMessage, false, this.language);
             this.history.push({ role: 'assistant', content: JSON.stringify(fallbackResponse) });
             return fallbackResponse;
         }
@@ -132,7 +137,7 @@ Guidelines:
             return await this.sendRemoteMessage();
         } catch (error) {
             console.warn('Remote API failed; using guided fallback.', error);
-            const fallbackResponse = this.fallbackTutor.createResponse(this.concept, userMessage, true);
+            const fallbackResponse = this.fallbackTutor.createResponse(this.concept, userMessage, true, this.language);
             this.history.push({ role: 'assistant', content: JSON.stringify(fallbackResponse) });
             return fallbackResponse;
         }

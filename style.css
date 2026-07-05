@@ -997,32 +997,7 @@ textarea:focus-visible {
 
 
 /* Formula whiteboard */
-.whiteboard-launch-card {
-    align-self: stretch;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 14px;
-    border: 1px solid #d8e4dc;
-    border-left: 4px solid #245953;
-    background: #ffffff;
-    border-radius: 8px;
-    padding: 14px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-}
 
-.whiteboard-launch-card h2 {
-    font-family: var(--font-heading);
-    color: #245953;
-    margin-bottom: 5px;
-    font-size: 1.1rem;
-}
-
-.whiteboard-launch-card p {
-    color: #4b5e54;
-    line-height: 1.45;
-    font-weight: 700;
-}
 
 .whiteboard-component {
     align-self: stretch;
@@ -1139,47 +1114,9 @@ textarea:focus-visible {
 }
 
 @media (max-width: 680px) {
-    .whiteboard-launch-card {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
     .symbol-grid {
         grid-template-columns: 1fr;
     }
-}
-
-
-/* Topic mode indicator */
-.mode-card {
-    align-self: stretch;
-    display: grid;
-    gap: 5px;
-    border-radius: 8px;
-    padding: 11px 13px;
-    border: 1px solid #d9e7dc;
-    background: #fbfefb;
-}
-
-.mode-card strong {
-    font-family: var(--font-heading);
-    color: #173b2a;
-}
-
-.mode-card span {
-    color: #4b5e54;
-    line-height: 1.4;
-    font-weight: 700;
-}
-
-.api-mode {
-    border-color: #c8d7f2;
-    background: #f5f8ff;
-}
-
-.guided-mode {
-    border-color: #bdd8c4;
-    background: #f4fbf5;
 }
 
 .whiteboard-header-btn {
@@ -1365,4 +1302,39 @@ body.app-active #appContainer {
         flex-basis: auto;
         border-left: none;
     }
+}
+
+.whiteboard-intro-card {
+    display: grid;
+    gap: 14px;
+    margin: 0;
+    padding: 22px;
+    min-height: 240px;
+    border-radius: 18px;
+    background: #172c3a;
+    color: #eef6f2;
+}
+
+.whiteboard-intro-card h2 {
+    font-family: var(--font-heading);
+    font-size: 1.35rem;
+    color: #ffffff;
+}
+
+.whiteboard-intro-card p {
+    color: #d9e7dc;
+    line-height: 1.55;
+    font-weight: 800;
+}
+
+.whiteboard-intro-card button {
+    justify-self: start;
+    align-self: end;
+    border: 1px solid rgba(255,255,255,0.28);
+    background: #ffffff;
+    color: #172c3a;
+    border-radius: 8px;
+    padding: 11px 14px;
+    font-weight: 900;
+    cursor: pointer;
 }

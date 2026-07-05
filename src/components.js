@@ -208,7 +208,7 @@ function renderWhiteboard(container, props) {
         const example = document.createElement('section');
         example.className = 'whiteboard-section example-section';
         const heading = document.createElement('h3');
-        heading.textContent = 'Tiny worked example';
+        heading.textContent = 'Worked example';
         const body = document.createElement('p');
         body.textContent = board.worked_example;
         example.append(heading, body);

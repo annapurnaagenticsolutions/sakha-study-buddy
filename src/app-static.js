@@ -70,7 +70,6 @@ window.addEventListener('DOMContentLoaded', () => {
 function registerServiceWorker() {
     if (!('serviceWorker' in navigator)) return;
     navigator.serviceWorker.register('./sw.js')
-        .then((reg) => console.log('Service Worker registered', reg))
         .catch((err) => console.error('Service Worker registration failed', err));
 }
 
@@ -415,23 +414,6 @@ function appendLearningPath(concept) {
     els.chatContainer.appendChild(card);
 }
 
-function appendModeCard(concept) {
-    const usesApi = agent?.shouldUseRemoteApi?.() || false;
-    const card = document.createElement('section');
-    card.className = usesApi ? 'mode-card api-mode' : 'mode-card guided-mode';
-
-    const title = document.createElement('strong');
-    title.textContent = usesApi ? 'AI-assisted topic' : 'Guided no-API topic';
-
-    const detail = document.createElement('span');
-    detail.textContent = usesApi
-        ? 'This advanced topic may use the secure proxy for flexible conversation.'
-        : 'This topic runs from reviewed concept content, whiteboard steps, and guided questions.';
-
-    card.append(title, detail);
-    els.chatContainer.appendChild(card);
-}
-
 function getConceptWhiteboard(concept) {
     return concept?.whiteboard || activeWhiteboard || null;
 }
@@ -445,7 +427,7 @@ function setActiveWhiteboard(concept) {
         els.whiteboardBtn.setAttribute('aria-expanded', isWhiteboardOpen() ? 'true' : 'false');
     }
     if (activeWhiteboard && isWhiteboardOpen()) {
-        renderWhiteboardPanel(activeWhiteboard, activeWhiteboardTitle);
+        renderWhiteboardIntroPanel();
     }
 }
 
@@ -453,10 +435,8 @@ function isWhiteboardOpen() {
     return Boolean(els.whiteboardPanel && !els.whiteboardPanel.classList.contains('collapsed'));
 }
 
-function renderWhiteboardPanel(whiteboard, title) {
-    if (!whiteboard || !els.whiteboardPanel || !els.whiteboardContent) return;
-    const board = renderComponent('Whiteboard', { whiteboard, title });
-    els.whiteboardContent.replaceChildren(board);
+function showWhiteboardPanel() {
+    if (!els.whiteboardPanel) return;
     els.whiteboardPanel.classList.remove('collapsed');
     els.whiteboardPanel.setAttribute('aria-hidden', 'false');
     if (els.whiteboardBtn) {
@@ -465,9 +445,48 @@ function renderWhiteboardPanel(whiteboard, title) {
     }
 }
 
-function openActiveWhiteboard() {
+function renderWhiteboardIntroPanel() {
+    if (!activeWhiteboard || !els.whiteboardPanel || !els.whiteboardContent) return;
+    const card = document.createElement('section');
+    card.className = 'whiteboard-intro-card';
+    const heading = document.createElement('h2');
+    heading.textContent = 'Whiteboard';
+    const text = document.createElement('p');
+    text.textContent = 'Formula, symbols, and steps appear here slowly. After 1-2 steps, tell Sakha: clear or confusing.';
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = 'Open whiteboard';
+    button.addEventListener('click', () => openActiveWhiteboard('start'));
+    card.append(heading, text, button);
+    els.whiteboardContent.replaceChildren(card);
+    showWhiteboardPanel();
+}
+
+function getWhiteboardView(whiteboard, stage) {
+    const basicsLimit = stage === 'full' ? 99 : stage === 'steps' ? 3 : 2;
+    const symbolsLimit = stage === 'full' ? 99 : stage === 'steps' ? 5 : 3;
+    const stepsLimit = stage === 'full' ? 99 : stage === 'steps' ? 4 : 2;
+    return {
+        ...whiteboard,
+        basics: (whiteboard.basics || []).slice(0, basicsLimit),
+        symbols: (whiteboard.symbols || []).slice(0, symbolsLimit),
+        steps: (whiteboard.steps || []).slice(0, stepsLimit),
+        worked_example: stage === 'full' ? whiteboard.worked_example : '',
+        common_confusions: stage === 'full' ? (whiteboard.common_confusions || []) : []
+    };
+}
+
+function renderWhiteboardPanel(whiteboard, title, stage = 'start') {
+    if (!whiteboard || !els.whiteboardPanel || !els.whiteboardContent) return;
+    whiteboardStage = stage;
+    const board = renderComponent('Whiteboard', { whiteboard: getWhiteboardView(whiteboard, stage), title });
+    els.whiteboardContent.replaceChildren(board);
+    showWhiteboardPanel();
+}
+
+function openActiveWhiteboard(stage = 'start') {
     if (!activeWhiteboard) return;
-    renderWhiteboardPanel(activeWhiteboard, activeWhiteboardTitle);
+    renderWhiteboardPanel(activeWhiteboard, activeWhiteboardTitle, stage);
 }
 
 function closeWhiteboardPanel() {
@@ -486,29 +505,6 @@ function toggleWhiteboardPanel() {
         return;
     }
     openActiveWhiteboard();
-}
-
-function appendWhiteboardCard(concept) {
-    const whiteboard = getConceptWhiteboard(concept);
-    if (!whiteboard) return;
-    const wrapper = document.createElement('section');
-    wrapper.className = 'whiteboard-launch-card';
-
-    const copy = document.createElement('div');
-    const heading = document.createElement('h2');
-    heading.textContent = 'Whiteboard';
-    const text = document.createElement('p');
-    text.textContent = 'Formula, symbols, and steps are explained slowly here. After 1-2 steps, tell Sakha if it is clear or confusing.';
-    copy.append(heading, text);
-
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'secondary-action';
-    button.textContent = 'Open whiteboard';
-    button.addEventListener('click', openActiveWhiteboard);
-
-    wrapper.append(copy, button);
-    els.chatContainer.appendChild(wrapper);
 }
 
 function appendDiagnosticCard(concept) {
@@ -703,7 +699,7 @@ async function handleOfflineToggle(event) {
 
     appendMessage('bot', 'Downloading local AI model. This is optional and can take a few minutes the first time.');
     try {
-        await agent.initWebLLM((progress) => console.log(progress.text));
+        await agent.initWebLLM(() => {});
         appendMessage('bot', 'Local AI model loaded. You can continue offline now.');
     } catch (error) {
         appendMessage('bot', 'Local model could not load: ' + error.message);
@@ -718,6 +714,7 @@ async function initAgent(key, conceptId, studentName) {
     els.chatContainer.replaceChildren();
 
     agent = new SakhaAgent(key);
+    agent.setLanguage(selectedLanguage);
     const activeConceptId = conceptId || DEFAULT_CONCEPT;
     localStorage.setItem('sakha_last_concept', activeConceptId);
 
@@ -734,14 +731,15 @@ async function initAgent(key, conceptId, studentName) {
             lastStudiedAt: new Date().toISOString()
         });
         setActiveWhiteboard(concept);
-        openActiveWhiteboard();
+        renderWhiteboardIntroPanel();
         appendLearningPath(concept);
-        appendModeCard(concept);
-        appendWhiteboardCard(concept);
 
         const hook = concept.intro_hook || selectedConcept?.hook || 'What do you already know about this?';
-        const languageNote = selectedLanguage === 'English' ? 'Please answer in English if you prefer.' : selectedLanguage === 'Hindi-first' ? 'Hindi mein answer karna comfortable ho toh Hindi use karo.' : 'Hinglish comfortable ho toh Hinglish use karo.';
-        const initialMsg = 'Hello ' + studentName + '. Aaj hum "' + concept.title + '" ko samjhenge. ' + languageNote + ' Pehla sawaal: ' + hook;
+        const initialMsg = selectedLanguage === 'English'
+            ? 'Hello ' + studentName + '. Today we will understand "' + concept.title + '". First question: ' + hook
+            : selectedLanguage === 'Hindi-first'
+                ? 'Namaste ' + studentName + '. Aaj hum "' + concept.title + '" ko samjhenge. Pehla sawaal: ' + hook
+                : 'Hello ' + studentName + '. Aaj hum "' + concept.title + '" ko samjhenge. Pehla sawaal: ' + hook;
         appendMessage('bot', initialMsg);
         appendDiagnosticCard(concept);
         voiceService.speak(initialMsg);
@@ -776,7 +774,7 @@ function appendComponent(componentName, props) {
             els.whiteboardBtn.disabled = !activeWhiteboard;
             els.whiteboardBtn.classList.toggle('attention', Boolean(activeWhiteboard));
         }
-        openActiveWhiteboard();
+        openActiveWhiteboard(props?.stage || 'steps');
         return;
     }
 
