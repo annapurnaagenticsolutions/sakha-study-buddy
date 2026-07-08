@@ -3,7 +3,7 @@
     "id": "air-conditioner-cooling-energy",
     "title": "Air Conditioner and Room Cooling",
     "x": 5.560318859524797,
-    "y": 0,
+    "y": 0.0,
     "z": 39.6116504854369,
     "subject": "Physics",
     "unlocked": true
@@ -919,143 +919,11 @@
   },
   {
     "id": "wifi-mobile-network",
-    "title": "Wi‑Fi and Mobile Network",
+    "title": "Wi\u2011Fi and Mobile Network",
     "x": 5.390233167787671,
     "y": 1.3647462095455136,
     "z": -39.6116504854369,
     "subject": "Physics",
     "unlocked": false
-  },
-  {
-    "id": "math-ratios",
-    "title": "Ratios and Proportions",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      5,
-      6,
-      7
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If 2 cups of rice need 4 cups of water, how much water do 5 cups of rice need? Why does the taste change if we guess?"
-  },
-  {
-    "id": "math-algebra-basics",
-    "title": "Algebra: Finding the Unknown",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7,
-      8
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If you have a box of chocolates and 5 are missing, leaving you with 15, how many were there at the start? Why do we use 'x' for this?"
-  },
-  {
-    "id": "math-integers",
-    "title": "Integers: Below Zero",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If temperature drops 5 degrees below zero, how do we write it? Why do we need negative numbers?"
-  },
-  {
-    "id": "math-percentages",
-    "title": "Percentages: Out of 100",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7,
-      8
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If a shirt has a 20% discount, how do you know how much money you save? Why not just say '20 rupees off'?"
-  },
-  {
-    "id": "math-area-perimeter",
-    "title": "Area vs Perimeter",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If you need to fence a garden, do you calculate area or perimeter? What if you want to plant grass?"
-  },
-  {
-    "id": "math-angles-lines",
-    "title": "Lines and Angles",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "Why are the corners of a room usually exactly 90 degrees? What happens if they are 85 degrees instead?"
-  },
-  {
-    "id": "math-data-handling",
-    "title": "Data Handling: Finding the Average",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7,
-      8
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "When Virat Kohli's 'average' is 50, does it mean he scores exactly 50 in every match? How is it calculated?"
-  },
-  {
-    "id": "math-exponents",
-    "title": "Exponents: The Power of Doubling",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      7,
-      8
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If you keep folding a piece of paper in half, why does it get so thick so quickly? How do we write '2 multiplied by itself 10 times' easily?"
   }
 ]

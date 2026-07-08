@@ -50,5 +50,24 @@
   "concept_difficulty_level": 7,
   "learning_track": [
     "core"
-  ]
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "When ice is kept in a warm room, where does the heat move?"
+    },
+    {
+      "type": "probe",
+      "q": "Do we add coldness to the room, or does heat enter the ice?"
+    },
+    {
+      "type": "concept_check",
+      "q": "What changes in the particles when solid ice becomes liquid water?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Explain ice melting to a younger student in two or three lines."
+    }
+  ],
+  "teach_back_prompt": "Explain why ice melts using heat, particles, and change of state."
 }

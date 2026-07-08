@@ -29,11 +29,83 @@
     "Wind carries vapour away",
     "Cloth becomes dry"
   ],
-  "whiteboard": [
-    "Cause: Wet cloth",
-    "  -> Heat adds energy → Water evaporates → Wind carries vapour away",
-    "Result: Cloth becomes dry"
-  ],
+  "whiteboard": {
+    "title": "Drying Clothes Whiteboard",
+    "goal": "Understand drying from zero: water leaves cloth by evaporation, and weather changes the speed.",
+    "basics": [
+      "Wet cloth has tiny water drops spread through its fibers.",
+      "Drying does not mean water disappears. Water changes into invisible water vapour and goes into the air.",
+      "Evaporation is when liquid water at the surface becomes vapour.",
+      "Sun, wind, open cloth, and dry air help evaporation happen faster."
+    ],
+    "formula": "Faster drying = more heat + more airflow + more exposed surface + lower humidity",
+    "formula_reading": "This is a relationship: each plus sign names a factor that usually helps water leave the cloth faster.",
+    "symbols": [
+      {
+        "symbol": "Heat",
+        "means": "energy from sun or warm air",
+        "example": "sunlight warms wet cloth"
+      },
+      {
+        "symbol": "Airflow",
+        "means": "moving air that carries vapour away",
+        "example": "breeze or fan"
+      },
+      {
+        "symbol": "Surface area",
+        "means": "how much wet cloth is open to air",
+        "example": "spread cloth dries faster than folded cloth"
+      },
+      {
+        "symbol": "Humidity",
+        "means": "how much water vapour is already in air",
+        "example": "rainy air is humid, so drying slows"
+      }
+    ],
+    "steps": [
+      {
+        "label": "Step 1: Wet cloth",
+        "detail": "Water is sitting on and between cloth fibers after washing."
+      },
+      {
+        "label": "Step 2: Heat gives energy",
+        "detail": "Sunlight or warm air gives water molecules more energy to leave the cloth surface."
+      },
+      {
+        "label": "Step 3: Evaporation",
+        "detail": "Some liquid water changes into water vapour and mixes with the air."
+      },
+      {
+        "label": "Step 4: Wind removes vapour",
+        "detail": "Moving air carries humid air away from the cloth, so more water can evaporate."
+      },
+      {
+        "label": "Step 5: Open cloth helps",
+        "detail": "Spread-out cloth exposes more wet surface to sun and air. Folded cloth hides wet layers inside."
+      },
+      {
+        "label": "Step 6: Dry cloth",
+        "detail": "After enough water leaves as vapour, the cloth feels dry."
+      }
+    ],
+    "check_after_step": 2,
+    "feedback_prompt": "Pause check: are wet cloth and heat energy clear so far? If not, tell me which word or step is confusing.",
+    "worked_example": "Two same-size wet handkerchiefs: one is folded in a closed room, one is spread open in sunlight and breeze. The open sunny one dries faster because it gets heat, airflow, and more exposed surface.",
+    "common_confusions": [
+      {
+        "confusion": "Only sunlight matters.",
+        "fix": "Sun helps, but wind, surface area, and humidity also change drying speed."
+      },
+      {
+        "confusion": "Water vanishes.",
+        "fix": "Water changes from liquid into vapour and moves into the air."
+      },
+      {
+        "confusion": "Folded clothes dry the same.",
+        "fix": "Folding hides wet surface from air and slows evaporation."
+      }
+    ]
+  },
   "indian_analogies": [
     "Home + Weather mein yeh dekhte hain: Why Clothes Dry Faster in Sun and Wind.",
     "Laundry"
@@ -222,5 +294,6 @@
   "concept_difficulty_level": 5,
   "learning_track": [
     "core"
-  ]
+  ],
+  "teach_back_prompt": "Explain drying clothes using heat, evaporation, wind, surface area, and humidity."
 }

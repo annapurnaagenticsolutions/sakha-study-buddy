@@ -22,8 +22,10 @@ export class FallbackTutor {
         const whiteboard = normalizeWhiteboard(concept.whiteboard, concept);
         const misconception = findMisconception(concept, text);
         const asksWhiteboard = /formula|equation|whiteboard|step|derive|symbol|meaning|deep|detail|samjhao|explain|process|flow/.test(text);
+        const wantsExample = /example|practice|try|sample|solve|use case/.test(text);
+        const wantsRepeat = /repeat|again|slow|from start|basic|basics/.test(text);
         const saysClear = /clear|samajh|understand|yes|haan|ok|got it/.test(text);
-        const saysNotClear = /not clear|confus|samajh nahi|doubt|\bno\b|nahi/.test(text);
+        const saysNotClear = /not clear|confus|samajh nahi|doubt|no|nahi/.test(text);
         const likelyTeachBack = isLikelyTeachBack(userMessage, concept);
         const english = language === 'English';
 
@@ -36,11 +38,11 @@ export class FallbackTutor {
             );
         }
 
-        if (asksWhiteboard) {
+        if (asksWhiteboard || wantsExample || wantsRepeat) {
             return jsonReply(
-                english ? 'Use the whiteboard: process, symbols, then first 1-2 steps. Then tell me: clear/confusing?' : 'Whiteboard dekho: process, symbols, phir 1-2 steps. Fir bolo: clear/doubt?',
+                english ? 'Use the whiteboard. I will show only the useful slice first; after 1-2 steps, tell me clear or confusing.' : 'Whiteboard dekho. Pehle sirf useful slice dikh raha hai; 1-2 steps ke baad bolo clear ya doubt.',
                 'Whiteboard',
-                { whiteboard, title: concept.title, stage: 'steps', options: ["It's clear", "I'm confused"] },
+                { whiteboard, title: concept.title, stage: wantsExample ? 'full' : (wantsRepeat ? 'start' : 'steps') },
                 false
             );
         }
@@ -48,26 +50,27 @@ export class FallbackTutor {
         if (saysNotClear) {
             return jsonReply(
                 makeNotClearReply(concept, whiteboard, language),
-                'Options',
-                { options: ["Explain more", "Show formula", "Give example"] },
+                'Whiteboard',
+                { whiteboard, title: concept.title, stage: 'start' },
                 false
             );
         }
 
         if (saysClear && this.turn > 1) {
+            const nextStage = this.turn >= 4 ? 'full' : 'steps';
             return jsonReply(
-                english ? 'Good. Next: ' + getNextQuestion(concept, this.turn) + ' Short answer, in your words.' : 'Good. Next: ' + getNextQuestion(concept, this.turn) + ' Short answer, apne words mein.',
-                'none',
-                {},
+                english ? 'Good. I am opening the next whiteboard slice. Next: ' + getNextQuestion(concept, this.turn) + ' Short answer, in your words.' : 'Good. Main next whiteboard slice khol raha hoon. Next: ' + getNextQuestion(concept, this.turn) + ' Short answer, apne words mein.',
+                'Whiteboard',
+                { whiteboard, title: concept.title, stage: nextStage },
                 false
             );
         }
 
         if (misconception) {
             return jsonReply(
-                english ? 'Interesting! ' + misconception.probe : 'Achha laga sunke! ' + misconception.probe,
-                'Options',
-                { options: ["Got it", "Can you explain more?"] },
+                english ? 'Good thought, but there is a common trap here: "' + misconception.belief + '". Think about this: ' + (misconception.probe || 'what is the actual cause behind the observation?') + ' Hint: ' + (misconception.repair || concept.big_idea || 'follow the cause-process-result chain.') : 'Good thought, but yahan ek common trap hai: "' + misconception.belief + '". Socho: ' + (misconception.probe || 'is observation ke peeche actual cause kya hai?') + ' Hint: ' + (misconception.repair || concept.big_idea || 'cause-process-result chain follow karo.'),
+                'none',
+                {},
                 false
             );
         }
@@ -75,16 +78,16 @@ export class FallbackTutor {
         if (apiFailed) {
             return jsonReply(
                 english ? 'Online AI is unavailable. Guided mode: ' + getFallbackTeachingMove(concept, whiteboard, this.turn, language) : 'Online AI unavailable. Guided mode: ' + getFallbackTeachingMove(concept, whiteboard, this.turn, language),
-                'none',
-                {},
+                'Whiteboard',
+                { whiteboard, title: concept.title, stage: this.turn >= 3 ? 'steps' : 'start' },
                 false
             );
         }
 
         return jsonReply(
             getFallbackTeachingMove(concept, whiteboard, this.turn, language),
-            this.turn === 1 ? 'Whiteboard' : 'none',
-            this.turn === 1 ? { whiteboard, title: concept.title, stage: 'start' } : {},
+            this.turn <= 3 ? 'Whiteboard' : 'none',
+            this.turn <= 3 ? { whiteboard, title: concept.title, stage: this.turn >= 3 ? 'steps' : 'start' } : {},
             false
         );
     }
@@ -366,17 +369,14 @@ function getNextQuestion(concept, turn) {
     return questions[index]?.q || concept.teach_back_prompt || 'ab is idea ko ek simple example se explain karo.';
 }
 
-function makeNotClearReply(concept, whiteboard, language) {
+function makeNotClearReply(concept, whiteboard, language = 'Hinglish') {
     const english = language === 'English';
-    let msg = english ? 'No problem. Basics: ' : 'Koi baat nahi. Basics dekho: ';
-    if (concept.big_idea) msg += concept.big_idea + ' -> ';
-    if (whiteboard.formula) msg += 'Formula/process line: ' + whiteboard.formula + '. -> ';
-    if (whiteboard.basics) msg += whiteboard.basics.join(' ') + '. ';
-    if (whiteboard.steps?.length) {
-        msg += (english ? 'First step: ' : 'Pehla step: ') + whiteboard.steps[0].label + ' - ' + whiteboard.steps[0].detail + '. ';
-    }
-    msg += (english ? 'Confusion: word, formula, or example?' : 'Kahan atke: word, formula, ya example?');
-    return msg;
+    const formula = whiteboard.formula ? ' Formula/process line: ' + whiteboard.formula + '.' : '';
+    const firstBasic = whiteboard.basics?.[0] || concept.intro_hook || 'observation se start karte hain.';
+    const firstStep = whiteboard.steps?.[0]?.detail || concept.big_idea || 'cause-process-result chain dekho.';
+    return english
+        ? 'No problem. Basics: ' + firstBasic + formula + ' First step: ' + firstStep + ' Confusion: word, formula, or example?'
+        : 'No problem. Basic se: ' + firstBasic + formula + ' First step: ' + firstStep + ' Confusion word, formula, ya example?';
 }
 
 function getFallbackTeachingMove(concept, whiteboard, turn, language = 'Hinglish') {
@@ -392,7 +392,7 @@ function getFallbackTeachingMove(concept, whiteboard, turn, language = 'Hinglish
     }
     if (turn === 3) {
         const step = steps[1]?.detail || getNextQuestion(concept, turn);
-        return english ? 'Step 2: ' + step + ' Compare: before kya tha, after kya badla?' : 'Step 2: ' + step + ' Compare: pehle kya tha, baad mein kya badla?';
+        return english ? 'Step 2: ' + step + ' Compare: what was true before, and what changed after?' : 'Step 2: ' + step + ' Compare: pehle kya tha, baad mein kya badla?';
     }
     return english ? getNextQuestion(concept, turn) + ' Ready ho toh 2-3 lines mein explain karo.' : getNextQuestion(concept, turn) + ' Ready ho toh 2-3 lines mein explain karo.';
 }

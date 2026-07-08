@@ -15,7 +15,18 @@
     ],
     "place": "Everyday life",
     "unlocked": true,
-    "hook": "How does a hospital monitor know when a patient's condition is dangerous — not just noisy data?"
+    "hook": "How does a hospital monitor know when a patient's condition is dangerous — not just noisy data?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "composting-kitchen-waste",
+      "handwashing-soap-germs",
+      "lunch-box-nutrition-portions"
+    ]
   },
   {
     "id": "air-pollution-lungs",
@@ -34,7 +45,19 @@
     ],
     "place": "City + Environment",
     "unlocked": true,
-    "hook": "How can smoke, dust, and gases affect breathing and health?"
+    "hook": "How can smoke, dust, and gases affect breathing and health?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "iron-rusting-water",
+      "water-filter",
+      "waste-sorting-facility"
+    ]
   },
   {
     "id": "air-conditioner-cooling-energy",
@@ -53,7 +76,18 @@
     ],
     "place": "Home + Energy",
     "unlocked": true,
-    "hook": "Why does an air conditioner cool a room but increase the electricity bill?"
+    "hook": "Why does an air conditioner cool a room but increase the electricity bill?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "musical-instruments-sound",
+      "helmet-head-protection",
+      "physics_work"
+    ]
   },
   {
     "id": "camera-photo-focus",
@@ -72,7 +106,18 @@
     ],
     "place": "Technology + Eye",
     "unlocked": true,
-    "hook": "Why does a camera sometimes make a photo blurry, and how is it similar to the human eye?"
+    "hook": "Why does a camera sometimes make a photo blurry, and how is it similar to the human eye?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "floating-sinking-boats",
+      "home-cooling-shade-ventilation",
+      "physics_force"
+    ]
   },
   {
     "id": "bicycle-riding",
@@ -90,7 +135,19 @@
     ],
     "place": "Road",
     "unlocked": true,
-    "hook": "Why does a bicycle move, stop, balance, and become harder to pedal uphill?"
+    "hook": "Why does a bicycle move, stop, balance, and become harder to pedal uphill?",
+    "difficulty": 2,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "bikes",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "monsoon-flood-drainage",
+      "physics_motion",
+      "physics_velocity"
+    ]
   },
   {
     "id": "boiling-water",
@@ -109,7 +166,19 @@
     ],
     "place": "Kitchen",
     "unlocked": true,
-    "hook": "Why does water bubble when heated, and why should we be careful around steam?"
+    "hook": "Why does water bubble when heated, and why should we be careful around steam?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "bicycle-riding",
+      "mobile-phone-heating",
+      "magnets-at-home"
+    ]
   },
   {
     "id": "clothes-drying-sun-wind",
@@ -127,7 +196,18 @@
     ],
     "place": "Home + Weather",
     "unlocked": true,
-    "hook": "Why do wet clothes dry faster in sunlight and moving air?"
+    "hook": "Why do wet clothes dry faster in sunlight and moving air?",
+    "difficulty": 2,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "electricity-bill",
+      "water-tank-pump-pressure",
+      "solar-panel-home"
+    ]
   },
   {
     "id": "bicycle-tyre-pressure-grip",
@@ -147,7 +227,19 @@
     ],
     "place": "Road + Sports",
     "unlocked": true,
-    "hook": "Why does a bicycle feel harder to ride when tyres are under-inflated?"
+    "hook": "Why does a bicycle feel harder to ride when tyres are under-inflated?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "bikes",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "contact-lenses-eye-care",
+      "floating-sinking-boats",
+      "earthquake-alert-system"
+    ]
   },
   {
     "id": "bridge-engineering",
@@ -166,7 +258,18 @@
     ],
     "place": "Everyday life",
     "unlocked": true,
-    "hook": "Why are triangles used in bridges? Your femur bone uses the same principle. What is it?"
+    "hook": "Why are triangles used in bridges? Your femur bone uses the same principle. What is it?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "paper-airplane-flight",
+      "mobile-phone-heating",
+      "kite-flying-wind-force"
+    ]
   },
   {
     "id": "bouncing_balls",
@@ -183,7 +286,21 @@
     ],
     "place": "Everyday life",
     "unlocked": true,
-    "hook": "Tune kabhi socha — rubber ball bounce karti hai, clay ball same height se giraao toh nahi bounce karti. Dono same weight. Kyun?"
+    "hook": "Tune kabhi socha — rubber ball bounce karti hai, clay ball same height se giraao toh nahi bounce karti. Dono same weight. Kyun?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "sports",
+      "cricket",
+      "art",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "air-conditioner-cooling-energy",
+      "home-cooling-shade-ventilation",
+      "soap-bubbles-surface-tension"
+    ]
   },
   {
     "id": "exercise-body",
@@ -202,7 +319,20 @@
     ],
     "place": "Body + Sports",
     "unlocked": false,
-    "hook": "Why do breathing and heart rate increase when we run or climb stairs?"
+    "hook": "Why do breathing and heart rate increase when we run or climb stairs?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "food",
+      "art",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "plant-growth-photosynthesis",
+      "refrigerator-preserves-food",
+      "soil-erosion-rain"
+    ]
   },
   {
     "id": "cold-chain-logistics",
@@ -221,7 +351,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "How does a vaccine stay effective from a Delhi factory to a rural clinic in Rajasthan?"
+    "hook": "How does a vaccine stay effective from a Delhi factory to a rural clinic in Rajasthan?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "salt-in-cooking",
+      "salt_in_water",
+      "umbrella-raincoat-waterproofing"
+    ]
   },
   {
     "id": "space-habitat-life-support",
@@ -239,7 +380,20 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "How do astronauts breathe, drink, and stay alive in space where there is nothing?"
+    "hook": "How do astronauts breathe, drink, and stay alive in space where there is nothing?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "food",
+      "space",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "cooking-rice-heat-water",
+      "umbrella-raincoat-waterproofing",
+      "waste-sorting-facility"
+    ]
   },
   {
     "id": "waste-segregation-recycling",
@@ -258,7 +412,18 @@
     ],
     "place": "City + Environment",
     "unlocked": false,
-    "hook": "Why should wet waste, dry waste, plastic, metal, glass, and hazardous waste be separated?"
+    "hook": "Why should wet waste, dry waste, plastic, metal, glass, and hazardous waste be separated?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "salt_in_water",
+      "cold-chain-logistics",
+      "washing-oily-plates"
+    ]
   },
   {
     "id": "contact-lenses-eye-care",
@@ -277,7 +442,18 @@
     ],
     "place": "Body + Technology",
     "unlocked": false,
-    "hook": "How do contact lenses help vision, and why do they need careful hygiene?"
+    "hook": "How do contact lenses help vision, and why do they need careful hygiene?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "physics_reflection_light",
+      "bicycle-tyre-pressure-grip",
+      "pressure-cooker"
+    ]
   },
   {
     "id": "drone-flight-controller",
@@ -295,7 +471,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "How does a drone stay level and respond to control inputs? What makes it crash?"
+    "hook": "How does a drone stay level and respond to control inputs? What makes it crash?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "solar-microgrid",
+      "sound-waves",
+      "road-safety"
+    ]
   },
   {
     "id": "ear-pressure-flight-mountain",
@@ -314,7 +501,19 @@
     ],
     "place": "Travel + Body",
     "unlocked": false,
-    "hook": "Why do ears feel blocked during flights or mountain travel?"
+    "hook": "Why do ears feel blocked during flights or mountain travel?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "travel",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "electricity-bill",
+      "physics_force",
+      "shadow-day"
+    ]
   },
   {
     "id": "earthquake-alert-system",
@@ -331,7 +530,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "How do early warning systems detect an earthquake before the shaking arrives?"
+    "hook": "How do early warning systems detect an earthquake before the shaking arrives?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "art",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "spectacles-vision",
+      "shadows"
+    ]
   },
   {
     "id": "electricity-bill",
@@ -349,7 +559,18 @@
     ],
     "place": "Home",
     "unlocked": false,
-    "hook": "How does using a fan, light, geyser, or AC become a number on the electricity bill?"
+    "hook": "How does using a fan, light, geyser, or AC become a number on the electricity bill?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "kite-flying-wind-force",
+      "physics_force",
+      "physics_reflection_light"
+    ]
   },
   {
     "id": "monsoon-flood-drainage",
@@ -368,7 +589,18 @@
     ],
     "place": "City + Weather",
     "unlocked": false,
-    "hook": "Why do some roads flood quickly during heavy rain while others drain faster?"
+    "hook": "Why do some roads flood quickly during heavy rain while others drain faster?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "ice-melting",
+      "physics_work",
+      "physics_acceleration"
+    ]
   },
   {
     "id": "road-safety",
@@ -386,7 +618,20 @@
     ],
     "place": "Road",
     "unlocked": false,
-    "hook": "Why does a faster vehicle need more distance to stop safely?"
+    "hook": "Why does a faster vehicle need more distance to stop safely?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "bikes",
+      "travel",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "musical-instruments-sound",
+      "contact-lenses-eye-care",
+      "shadows"
+    ]
   },
   {
     "id": "smart-traffic-signal",
@@ -404,7 +649,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "How does a traffic light decide when to change? What happens when the system fails?"
+    "hook": "How does a traffic light decide when to change? What happens when the system fails?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "art",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "contact-lenses-eye-care",
+      "elevator-lift-force",
+      "physics_speed"
+    ]
   },
   {
     "id": "solar-microgrid",
@@ -422,7 +679,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "How does a small community generate and store its own electricity from solar panels?"
+    "hook": "How does a small community generate and store its own electricity from solar panels?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "physics_acceleration",
+      "mobile-phone-heating",
+      "cooking-physics"
+    ]
   },
   {
     "id": "solar-panel-home",
@@ -441,7 +709,18 @@
     ],
     "place": "Home + Environment",
     "unlocked": false,
-    "hook": "How can sunlight become electricity for lights, fans, or charging?"
+    "hook": "How can sunlight become electricity for lights, fans, or charging?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "water-tank-pump-pressure",
+      "rain-puddles-water-cycle",
+      "ear-pressure-flight-mountain"
+    ]
   },
   {
     "id": "water-tank-pump-pressure",
@@ -460,7 +739,18 @@
     ],
     "place": "Home + Infrastructure",
     "unlocked": false,
-    "hook": "How does water reach an overhead tank and then flow down to taps?"
+    "hook": "How does water reach an overhead tank and then flow down to taps?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "mobile-phone-heating",
+      "physics_work",
+      "floating-sinking-boats"
+    ]
   },
   {
     "id": "mobile-phone-heating",
@@ -478,7 +768,20 @@
     ],
     "place": "Technology",
     "unlocked": false,
-    "hook": "Why does a phone become warm during gaming, charging, or video calls?"
+    "hook": "Why does a phone become warm during gaming, charging, or video calls?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "food",
+      "gaming",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "electricity-bill",
+      "water-tank-pump-pressure",
+      "drone-flight-controller"
+    ]
   },
   {
     "id": "rain-damaged-roads",
@@ -497,7 +800,18 @@
     ],
     "place": "Road + City",
     "unlocked": false,
-    "hook": "Why do potholes and cracks often increase during heavy rain?"
+    "hook": "Why do potholes and cracks often increase during heavy rain?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "kite-flying-wind-force",
+      "bicycle-riding",
+      "physics_motion"
+    ]
   },
   {
     "id": "wifi-mobile-network",
@@ -516,7 +830,18 @@
     ],
     "place": "Technology",
     "unlocked": false,
-    "hook": "Why does internet speed change with distance, walls, and number of users?"
+    "hook": "Why does internet speed change with distance, walls, and number of users?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "boiling-water",
+      "road-safety",
+      "musical-instruments-sound"
+    ]
   },
   {
     "id": "ohms_law",
@@ -532,7 +857,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Have you noticed that a higher voltage across the same resistor usually drives more current? Why does that happen?"
+    "hook": "Have you noticed that a higher voltage across the same resistor usually drives more current? Why does that happen?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments",
+      "books"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "gravity",
+      "ice_melting"
+    ]
   },
   {
     "id": "gravity",
@@ -548,7 +884,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "A school bag has the same mass on Earth and Moon, but its weight changes. Why?"
+    "hook": "A school bag has the same mass on Earth and Moon, but its weight changes. Why?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "art",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "ohms_law",
+      "ice_melting"
+    ]
   },
   {
     "id": "plant-growth",
@@ -568,7 +915,18 @@
     ],
     "place": "Garden",
     "unlocked": false,
-    "hook": "Why does a plant grow better when it gets sunlight, water, and good soil?"
+    "hook": "Why does a plant grow better when it gets sunlight, water, and good soil?",
+    "difficulty": 2,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "vertical-farm-irrigation",
+      "refrigerator-preserves-food",
+      "mosquito-control-health"
+    ]
   },
   {
     "id": "compost-helps-soil",
@@ -587,7 +945,18 @@
     ],
     "place": "Garden + Farm",
     "unlocked": false,
-    "hook": "Why does compost make soil better for plants?"
+    "hook": "Why does compost make soil better for plants?",
+    "difficulty": 2,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "soil-erosion-rain",
+      "food-spoilage",
+      "composting-kitchen-waste"
+    ]
   },
   {
     "id": "lunch-box-nutrition-portions",
@@ -606,7 +975,19 @@
     ],
     "place": "School + Home",
     "unlocked": false,
-    "hook": "Why does a lunch box need different kinds of food instead of only one favourite snack?"
+    "hook": "Why does a lunch box need different kinds of food instead of only one favourite snack?",
+    "difficulty": 2,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "handwashing-soap-germs",
+      "toothbrushing-decay",
+      "refrigerator-preserves-food"
+    ]
   },
   {
     "id": "thermometer-fever-check",
@@ -624,7 +1005,16 @@
     ],
     "place": "Home + Health",
     "unlocked": false,
-    "hook": "How does a thermometer help us decide whether the body may have fever?"
+    "hook": "How does a thermometer help us decide whether the body may have fever?",
+    "difficulty": 2,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "plant-growth"
+    ]
   },
   {
     "id": "toothbrushing-decay",
@@ -642,7 +1032,19 @@
     ],
     "place": "Health",
     "unlocked": false,
-    "hook": "Why do we brush teeth, and how can sweet food contribute to cavities?"
+    "hook": "Why do we brush teeth, and how can sweet food contribute to cavities?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "lunch-box-nutrition-portions",
+      "plant-growth",
+      "exercise-body"
+    ]
   },
   {
     "id": "handwashing-soap-germs",
@@ -662,7 +1064,18 @@
     ],
     "place": "Home + Health",
     "unlocked": false,
-    "hook": "Why does soap help clean dirty hands better than water alone?"
+    "hook": "Why does soap help clean dirty hands better than water alone?",
+    "difficulty": 2,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "biomedical-monitoring",
+      "soil-erosion-rain",
+      "lunch-box-nutrition-portions"
+    ]
   },
   {
     "id": "cooking-rice-heat-water",
@@ -681,7 +1094,19 @@
     ],
     "place": "Kitchen",
     "unlocked": false,
-    "hook": "Why does hard rice become soft when cooked with water and heat?"
+    "hook": "Why does hard rice become soft when cooked with water and heat?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "washing-oily-plates",
+      "water-treatment-network",
+      "water-filter"
+    ]
   },
   {
     "id": "umbrella-raincoat-waterproofing",
@@ -700,7 +1125,18 @@
     ],
     "place": "Rainy Day",
     "unlocked": false,
-    "hook": "Why does rain slide off some materials but soak into others?"
+    "hook": "Why does rain slide off some materials but soak into others?",
+    "difficulty": 2,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "salt-in-cooking",
+      "space-habitat-life-support",
+      "water-filter"
+    ]
   },
   {
     "id": "lemonade-ratio-dissolving",
@@ -720,7 +1156,19 @@
     ],
     "place": "Kitchen",
     "unlocked": false,
-    "hook": "Why does more sugar make lemonade sweeter, and why does stirring help it dissolve?"
+    "hook": "Why does more sugar make lemonade sweeter, and why does stirring help it dissolve?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "school-bag-weight",
+      "math_fractions",
+      "math_algebraic_expressions"
+    ]
   },
   {
     "id": "school-bag-weight",
@@ -738,7 +1186,19 @@
     ],
     "place": "School",
     "unlocked": false,
-    "hook": "Why does a heavy school bag feel uncomfortable, and how can packing make it easier to carry?"
+    "hook": "Why does a heavy school bag feel uncomfortable, and how can packing make it easier to carry?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "traffic-signal-timing",
+      "math_percentages",
+      "math_integers_signs"
+    ]
   },
   {
     "id": "fractions_intro",
@@ -754,7 +1214,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Yaar, ek sawaal — agar ek roti ko 4 logon mein barabar baantna ho, toh har ek ko kitni milegi? Aur woh 'kitni' ko hum likhein kaise? Yahi fraction hai — chalo samjhte hain."
+    "hook": "Yaar, ek sawaal — agar ek roti ko 4 logon mein barabar baantna ho, toh har ek ko kitni milegi? Aur woh 'kitni' ko hum likhein kaise? Yahi fraction hai — chalo samjhte hain.",
+    "difficulty": 2,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "math_ratio_proportion",
+      "math_area_perimeter",
+      "math_fractions"
+    ]
   },
   {
     "id": "shadow-day",
@@ -772,7 +1244,18 @@
     ],
     "place": "Playground",
     "unlocked": false,
-    "hook": "Why is your shadow long in the morning and shorter around noon?"
+    "hook": "Why is your shadow long in the morning and shorter around noon?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "physics_work",
+      "mirror-reflection-symmetry",
+      "mobile-phone-heating"
+    ]
   },
   {
     "id": "floating-sinking-boats",
@@ -791,7 +1274,18 @@
     ],
     "place": "Water + Play",
     "unlocked": false,
-    "hook": "Why does a leaf float but a stone sinks, and how can a heavy boat float?"
+    "hook": "Why does a leaf float but a stone sinks, and how can a heavy boat float?",
+    "difficulty": 2,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "sports-ball-bounce",
+      "water-tank-pump-pressure",
+      "physics_motion"
+    ]
   },
   {
     "id": "home-cooling-shade-ventilation",
@@ -810,7 +1304,18 @@
     ],
     "place": "Home + Weather",
     "unlocked": false,
-    "hook": "Why do shade, curtains, windows, and fans change how cool a room feels?"
+    "hook": "Why do shade, curtains, windows, and fans change how cool a room feels?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "earthquake-alert-system",
+      "solar-panel-home",
+      "floating-sinking-boats"
+    ]
   },
   {
     "id": "kite-flying-wind-force",
@@ -829,7 +1334,18 @@
     ],
     "place": "Playground",
     "unlocked": false,
-    "hook": "Why does a kite fly better with enough wind and the right string angle?"
+    "hook": "Why does a kite fly better with enough wind and the right string angle?",
+    "difficulty": 2,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "electricity-bill",
+      "cold-bottle-condensation",
+      "cooking-physics"
+    ]
   },
   {
     "id": "magnets-at-home",
@@ -848,7 +1364,18 @@
     ],
     "place": "Home + School",
     "unlocked": false,
-    "hook": "Why do magnets stick to some things but not to wood, plastic, or paper?"
+    "hook": "Why do magnets stick to some things but not to wood, plastic, or paper?",
+    "difficulty": 2,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "solar-microgrid",
+      "boiling-water",
+      "bicycle-riding"
+    ]
   },
   {
     "id": "mirror-reflection-symmetry",
@@ -867,7 +1394,18 @@
     ],
     "place": "Home + School",
     "unlocked": false,
-    "hook": "Why do mirrors show images, and why does left and right seem reversed?"
+    "hook": "Why do mirrors show images, and why does left and right seem reversed?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "solar-microgrid",
+      "mobile-phone-heating",
+      "road-safety"
+    ]
   },
   {
     "id": "musical-instruments-sound",
@@ -886,7 +1424,18 @@
     ],
     "place": "Music + School",
     "unlocked": false,
-    "hook": "Why does a drum, bell, or rubber band make sound when it vibrates?"
+    "hook": "Why does a drum, bell, or rubber band make sound when it vibrates?",
+    "difficulty": 2,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "music",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "helmet-head-protection",
+      "solar-microgrid"
+    ]
   },
   {
     "id": "paper-airplane-flight",
@@ -903,7 +1452,18 @@
     ],
     "place": "Classroom + Playground",
     "unlocked": false,
-    "hook": "Why do some paper airplanes fly far while others quickly fall?"
+    "hook": "Why do some paper airplanes fly far while others quickly fall?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "physics_work",
+      "air-conditioner-cooling-energy",
+      "home-cooling-shade-ventilation"
+    ]
   },
   {
     "id": "rain-puddles-water-cycle",
@@ -923,7 +1483,18 @@
     ],
     "place": "Weather",
     "unlocked": false,
-    "hook": "Where does rainwater go after a puddle slowly dries?"
+    "hook": "Where does rainwater go after a puddle slowly dries?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "physics_force",
+      "physics_energy",
+      "smart-traffic-signal"
+    ]
   },
   {
     "id": "soap-bubbles-surface-tension",
@@ -943,7 +1514,18 @@
     ],
     "place": "Play + Bath",
     "unlocked": false,
-    "hook": "Why do soap bubbles become round and why do they burst when touched?"
+    "hook": "Why do soap bubbles become round and why do they burst when touched?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "physics_work",
+      "earthquake-alert-system",
+      "floating-sinking-boats"
+    ]
   },
   {
     "id": "cold-bottle-condensation",
@@ -961,7 +1543,18 @@
     ],
     "place": "Kitchen + Classroom",
     "unlocked": false,
-    "hook": "Why do water drops appear outside a cold bottle even when the bottle is not leaking?"
+    "hook": "Why do water drops appear outside a cold bottle even when the bottle is not leaking?",
+    "difficulty": 2,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "electricity-circuits",
+      "bicycle-riding",
+      "bouncing_balls"
+    ]
   },
   {
     "id": "helmet-head-protection",
@@ -980,7 +1573,19 @@
     ],
     "place": "Road + Sports",
     "unlocked": false,
-    "hook": "Why does wearing a helmet reduce injury during cycling or two-wheeler travel?"
+    "hook": "Why does wearing a helmet reduce injury during cycling or two-wheeler travel?",
+    "difficulty": 2,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "travel",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "physics_motion",
+      "bouncing_balls",
+      "physics_reflection_light"
+    ]
   },
   {
     "id": "ice-melting",
@@ -999,7 +1604,18 @@
     ],
     "place": "Home",
     "unlocked": false,
-    "hook": "Why does ice become water when it is kept outside the freezer?"
+    "hook": "Why does ice become water when it is kept outside the freezer?",
+    "difficulty": 2,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 12,
+    "related_concepts": [
+      "sound-waves",
+      "helmet-head-protection",
+      "drone-flight-controller"
+    ]
   },
   {
     "id": "composting-kitchen-waste",
@@ -1019,7 +1635,18 @@
     ],
     "place": "Garden + Environment",
     "unlocked": false,
-    "hook": "How can vegetable peels become useful compost for plants?"
+    "hook": "How can vegetable peels become useful compost for plants?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "biomedical-monitoring",
+      "thermometer-fever-check",
+      "plant-growth-photosynthesis"
+    ]
   },
   {
     "id": "refrigerator-preserves-food",
@@ -1039,7 +1666,18 @@
     ],
     "place": "Kitchen + Health",
     "unlocked": false,
-    "hook": "Why does keeping food cold help it stay usable longer?"
+    "hook": "Why does keeping food cold help it stay usable longer?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "food-spoilage",
+      "lunch-box-nutrition-portions"
+    ]
   },
   {
     "id": "mosquito-control-health",
@@ -1059,7 +1697,17 @@
     ],
     "place": "Home + Community",
     "unlocked": false,
-    "hook": "Why does removing stagnant water reduce mosquito problems?"
+    "hook": "Why does removing stagnant water reduce mosquito problems?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "lunch-box-nutrition-portions",
+      "plant-growth-photosynthesis"
+    ]
   },
   {
     "id": "plant-growth-photosynthesis",
@@ -1078,7 +1726,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Every breath you take traces back to a plant. How does a plant make the oxygen you are breathing right now?"
+    "hook": "Every breath you take traces back to a plant. How does a plant make the oxygen you are breathing right now?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "lunch-box-nutrition-portions",
+      "vertical-farm-irrigation"
+    ]
   },
   {
     "id": "soil-erosion-rain",
@@ -1098,7 +1757,18 @@
     ],
     "place": "Garden + Farm",
     "unlocked": false,
-    "hook": "Why does heavy rain wash soil away more easily from bare ground than from grassy ground?"
+    "hook": "Why does heavy rain wash soil away more easily from bare ground than from grassy ground?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "vertical-farm-irrigation",
+      "plant-growth-photosynthesis",
+      "composting-kitchen-waste"
+    ]
   },
   {
     "id": "vertical-farm-irrigation",
@@ -1118,7 +1788,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "How does a vertical farm grow crops without soil, using 95% less water?"
+    "hook": "How does a vertical farm grow crops without soil, using 95% less water?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "lunch-box-nutrition-portions",
+      "exercise-body",
+      "toothbrushing-decay"
+    ]
   },
   {
     "id": "food-spoilage",
@@ -1138,7 +1819,19 @@
     ],
     "place": "Kitchen + Health",
     "unlocked": false,
-    "hook": "Why does cooked food spoil faster in heat and stay fresh longer in a refrigerator?"
+    "hook": "Why does cooked food spoil faster in heat and stay fresh longer in a refrigerator?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "plant-growth",
+      "plant-growth-photosynthesis",
+      "biomedical-monitoring"
+    ]
   },
   {
     "id": "water-filter",
@@ -1158,7 +1851,18 @@
     ],
     "place": "Home + Community",
     "unlocked": false,
-    "hook": "How can dirty-looking water become clearer through settling and filtration?"
+    "hook": "How can dirty-looking water become clearer through settling and filtration?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "umbrella-raincoat-waterproofing",
+      "iron-rusting-water",
+      "air-pollution-lungs"
+    ]
   },
   {
     "id": "packed-food-expiry",
@@ -1178,7 +1882,19 @@
     ],
     "place": "Kitchen + Store",
     "unlocked": false,
-    "hook": "Why do packed foods have expiry dates and storage instructions?"
+    "hook": "Why do packed foods have expiry dates and storage instructions?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "cooking-rice-heat-water",
+      "water-treatment-network",
+      "waste-segregation-recycling"
+    ]
   },
   {
     "id": "salt-in-cooking",
@@ -1198,7 +1914,19 @@
     ],
     "place": "Kitchen",
     "unlocked": false,
-    "hook": "Why does salt disappear in water and change food taste?"
+    "hook": "Why does salt disappear in water and change food taste?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "umbrella-raincoat-waterproofing",
+      "iron-rusting-water",
+      "washing-oily-plates"
+    ]
   },
   {
     "id": "washing-oily-plates",
@@ -1218,7 +1946,18 @@
     ],
     "place": "Kitchen",
     "unlocked": false,
-    "hook": "Why does plain water struggle to clean oily plates, but soap helps?"
+    "hook": "Why does plain water struggle to clean oily plates, but soap helps?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "water-treatment-network",
+      "umbrella-raincoat-waterproofing",
+      "salt-in-cooking"
+    ]
   },
   {
     "id": "waste-sorting-facility",
@@ -1238,7 +1977,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "How does a modern recycling plant separate plastic, metal, paper, and glass automatically?"
+    "hook": "How does a modern recycling plant separate plastic, metal, paper, and glass automatically?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "iron-rusting-water",
+      "umbrella-raincoat-waterproofing",
+      "water-treatment-network"
+    ]
   },
   {
     "id": "water-treatment-network",
@@ -1257,7 +2007,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "How does dirty river water become safe drinking water? What can go wrong?"
+    "hook": "How does dirty river water become safe drinking water? What can go wrong?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "air-pollution-lungs",
+      "packed-food-expiry"
+    ]
   },
   {
     "id": "salt_in_water",
@@ -1274,7 +2035,17 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Yaar, roz khana khaate ho. Mummy khane mein namak daalti hain, woh gayab ho jaata hai. Kahan jaata hai? Namak 'khatam' ho jaata hai kya — ya kuch aur ho raha hai?"
+    "hook": "Yaar, roz khana khaate ho. Mummy khane mein namak daalti hain, woh gayab ho jaata hai. Kahan jaata hai? Namak 'khatam' ho jaata hai kya — ya kuch aur ho raha hai?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "waste-sorting-facility",
+      "air-pollution-lungs"
+    ]
   },
   {
     "id": "iron-rusting-water",
@@ -1293,7 +2064,18 @@
     ],
     "place": "Home + Environment",
     "unlocked": false,
-    "hook": "Why do iron gates, nails, or tools rust faster when exposed to water?"
+    "hook": "Why do iron gates, nails, or tools rust faster when exposed to water?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "washing-oily-plates",
+      "packed-food-expiry",
+      "water-treatment-network"
+    ]
   },
   {
     "id": "math_algebraic_expressions",
@@ -1310,7 +2092,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Why can we add 3x + 2x but not combine 3x + 2y into 5x?"
+    "hook": "Why can we add 3x + 2x but not combine 3x + 2y into 5x?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "math_fractions",
+      "traffic-signal-timing"
+    ]
   },
   {
     "id": "math_area_perimeter",
@@ -1327,7 +2120,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Can two rectangles have the same perimeter but different areas? Give an example or explain."
+    "hook": "Can two rectangles have the same perimeter but different areas? Give an example or explain.",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "math_coordinate_plane",
+      "math_percentages",
+      "math_fractions"
+    ]
   },
   {
     "id": "math_coordinate_plane",
@@ -1344,7 +2149,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Where is the point (-2, 3) located from the origin?"
+    "hook": "Where is the point (-2, 3) located from the origin?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "upi-qr-payment-safety",
+      "fractions_intro",
+      "lemonade-ratio-dissolving"
+    ]
   },
   {
     "id": "math_fractions",
@@ -1361,7 +2178,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Which is larger: 1/3 or 1/4? Explain without using decimals."
+    "hook": "Which is larger: 1/3 or 1/4? Explain without using decimals.",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "math_algebraic_expressions",
+      "math_integers_signs",
+      "math_coordinate_plane"
+    ]
   },
   {
     "id": "math_integers_signs",
@@ -1378,7 +2207,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Why is 5 - (-3) equal to 8, not 2?"
+    "hook": "Why is 5 - (-3) equal to 8, not 2?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "math_fractions",
+      "math_area_perimeter",
+      "traffic-signal-timing"
+    ]
   },
   {
     "id": "math_linear_equations",
@@ -1395,7 +2236,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "If x + 5 = 12, what should we do first to find x?"
+    "hook": "If x + 5 = 12, what should we do first to find x?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "math_probability_basics",
+      "math_percentages",
+      "math_area_perimeter"
+    ]
   },
   {
     "id": "math_percentages",
@@ -1412,7 +2265,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "A price increases by 20% and then decreases by 20%. Is it back to the original price? Why?"
+    "hook": "A price increases by 20% and then decreases by 20%. Is it back to the original price? Why?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "math_probability_basics",
+      "math_linear_equations"
+    ]
   },
   {
     "id": "math_probability_basics",
@@ -1429,7 +2293,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "If a fair coin gives heads three times in a row, is tails guaranteed next? Why?"
+    "hook": "If a fair coin gives heads three times in a row, is tails guaranteed next? Why?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "math_linear_equations",
+      "math_integers_signs",
+      "math_area_perimeter"
+    ]
   },
   {
     "id": "math_ratio_proportion",
@@ -1446,7 +2322,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "If 2 notebooks cost ₹30, what should happen to the cost when the notebooks double to 4? Why?"
+    "hook": "If 2 notebooks cost ₹30, what should happen to the cost when the notebooks double to 4? Why?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "math_fractions",
+      "math_integers_signs",
+      "math_percentages"
+    ]
   },
   {
     "id": "traffic-signal-timing",
@@ -1464,7 +2352,19 @@
     ],
     "place": "Road + City",
     "unlocked": false,
-    "hook": "Why do traffic signals use timed cycles, and why do some crossings feel slower than others?"
+    "hook": "Why do traffic signals use timed cycles, and why do some crossings feel slower than others?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "bikes",
+      "coding"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "math_ratio_proportion",
+      "school-bag-weight",
+      "math_triangles_angles"
+    ]
   },
   {
     "id": "math_triangles_angles",
@@ -1481,7 +2381,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "If two angles of a triangle are 60° and 70°, what is the third angle and why?"
+    "hook": "If two angles of a triangle are 60° and 70°, what is the third angle and why?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "traffic-signal-timing",
+      "math_fractions",
+      "school-bag-weight"
+    ]
   },
   {
     "id": "upi-qr-payment-safety",
@@ -1500,7 +2412,19 @@
     ],
     "place": "Market + Home",
     "unlocked": false,
-    "hook": "Why should we check the name, amount, and source before paying with a QR code?"
+    "hook": "Why should we check the name, amount, and source before paying with a QR code?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "coding",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "math_coordinate_plane",
+      "lemonade-ratio-dissolving",
+      "math_linear_equations"
+    ]
   },
   {
     "id": "physics_acceleration",
@@ -1517,7 +2441,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Can a car slowing down have acceleration? Why?"
+    "hook": "Can a car slowing down have acceleration? Why?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "sound-waves",
+      "physics_speed",
+      "solar-panel-home"
+    ]
   },
   {
     "id": "physics_electric_current",
@@ -1534,7 +2469,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Why does a bulb turn off when a switch opens the circuit?"
+    "hook": "Why does a bulb turn off when a switch opens the circuit?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "helmet-head-protection",
+      "elevator-door-sensors",
+      "bicycle-tyre-pressure-grip"
+    ]
   },
   {
     "id": "electricity-circuits",
@@ -1553,7 +2499,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "A light switch doesn't create electricity. What exactly does it do to the circuit?"
+    "hook": "A light switch doesn't create electricity. What exactly does it do to the circuit?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "camera-photo-focus",
+      "water-tank-pump-pressure",
+      "bridge-engineering"
+    ]
   },
   {
     "id": "elevator-lift-force",
@@ -1572,7 +2530,18 @@
     ],
     "place": "Building",
     "unlocked": false,
-    "hook": "Why does an elevator need motors, cables, sensors, and weight limits?"
+    "hook": "Why does an elevator need motors, cables, sensors, and weight limits?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "air-conditioner-cooling-energy",
+      "soap-bubbles-surface-tension",
+      "mobile-phone-heating"
+    ]
   },
   {
     "id": "physics_energy",
@@ -1589,7 +2558,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "When a battery runs a fan, where does the battery’s energy go?"
+    "hook": "When a battery runs a fan, where does the battery’s energy go?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "drone-flight-controller",
+      "physics_acceleration",
+      "road-safety"
+    ]
   },
   {
     "id": "physics_force",
@@ -1606,7 +2586,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "A ball is rolling on the ground. After some time it slows down and stops. Why does it stop?"
+    "hook": "A ball is rolling on the ground. After some time it slows down and stops. Why does it stop?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "sports",
+      "cricket",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "elevator-lift-force",
+      "electricity-circuits"
+    ]
   },
   {
     "id": "physics_friction",
@@ -1623,7 +2615,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Why can we walk because of friction rather than despite friction?"
+    "hook": "Why can we walk because of friction rather than despite friction?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "physics_reflection_light",
+      "solar-panel-home",
+      "floating-sinking-boats"
+    ]
   },
   {
     "id": "elevator-door-sensors",
@@ -1643,7 +2646,18 @@
     ],
     "place": "Building + Technology",
     "unlocked": false,
-    "hook": "How does an elevator door know when someone or something is in the way?"
+    "hook": "How does an elevator door know when someone or something is in the way?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "shadows",
+      "physics_velocity",
+      "physics_work"
+    ]
   },
   {
     "id": "spectacles-vision",
@@ -1662,7 +2676,18 @@
     ],
     "place": "Body + Health",
     "unlocked": false,
-    "hook": "How can a piece of curved glass help someone see clearly?"
+    "hook": "How can a piece of curved glass help someone see clearly?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "refrigerator-food-cooling",
+      "ice-melting",
+      "electricity-bill"
+    ]
   },
   {
     "id": "physics_motion",
@@ -1679,7 +2704,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Can a passenger sitting in a moving bus be at rest and in motion at the same time? Explain relative to what."
+    "hook": "Can a passenger sitting in a moving bus be at rest and in motion at the same time? Explain relative to what.",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "floating-sinking-boats",
+      "solar-microgrid",
+      "ear-pressure-flight-mountain"
+    ]
   },
   {
     "id": "cooking-physics",
@@ -1697,7 +2733,19 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Every time you boil water or fry an egg, you're doing a physics experiment. Why do molecules change state?"
+    "hook": "Every time you boil water or fry an egg, you're doing a physics experiment. Why do molecules change state?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "paper-airplane-flight",
+      "rocket-science",
+      "physics_speed"
+    ]
   },
   {
     "id": "pressure-cooker",
@@ -1717,7 +2765,19 @@
     ],
     "place": "Kitchen",
     "unlocked": false,
-    "hook": "Why does a pressure cooker cook dal or rice faster than an open pot?"
+    "hook": "Why does a pressure cooker cook dal or rice faster than an open pot?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "ice-melting",
+      "physics_electric_current",
+      "electricity-circuits"
+    ]
   },
   {
     "id": "physics_reflection_light",
@@ -1734,7 +2794,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "From where should we measure the angle of incidence: the mirror surface or the normal? Why?"
+    "hook": "From where should we measure the angle of incidence: the mirror surface or the normal? Why?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "solar-panel-home",
+      "musical-instruments-sound",
+      "air-conditioner-cooling-energy"
+    ]
   },
   {
     "id": "refrigerator-food-cooling",
@@ -1754,7 +2825,19 @@
     ],
     "place": "Kitchen + Technology",
     "unlocked": false,
-    "hook": "How does a refrigerator keep food cold, and why does that slow spoilage?"
+    "hook": "How does a refrigerator keep food cold, and why does that slow spoilage?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "food",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "solar-panel-home",
+      "road-safety",
+      "spectacles-vision"
+    ]
   },
   {
     "id": "rocket-science",
@@ -1772,7 +2855,20 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "If you let go of an inflated balloon it flies around. That is the same physics as a rocket. How?"
+    "hook": "If you let go of an inflated balloon it flies around. That is the same physics as a rocket. How?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "sports",
+      "cricket",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "physics_work",
+      "smart-traffic-signal",
+      "physics_reflection_light"
+    ]
   },
   {
     "id": "sound-waves",
@@ -1789,7 +2885,20 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "In space no one can hear you scream. Why not? What exactly IS sound?"
+    "hook": "In space no one can hear you scream. Why not? What exactly IS sound?",
+    "difficulty": 5,
+    "curiosity_score": 4,
+    "interest_tags": [
+      "space",
+      "music",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "drone-flight-controller",
+      "shadows",
+      "bicycle-riding"
+    ]
   },
   {
     "id": "physics_speed",
@@ -1806,7 +2915,20 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "A cycle travels 60 m in 10 s. What does 6 m/s actually mean?"
+    "hook": "A cycle travels 60 m in 10 s. What does 6 m/s actually mean?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "bikes",
+      "travel",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "cooking-physics",
+      "rocket-science",
+      "road-safety"
+    ]
   },
   {
     "id": "physics_velocity",
@@ -1823,7 +2945,20 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "If you run around a circular track and return to your starting point, what is your average velocity for the full trip? Why?"
+    "hook": "If you run around a circular track and return to your starting point, what is your average velocity for the full trip? Why?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "space",
+      "art",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "contact-lenses-eye-care",
+      "earthquake-alert-system",
+      "bridge-engineering"
+    ]
   },
   {
     "id": "sports-ball-bounce",
@@ -1843,7 +2978,20 @@
     ],
     "place": "Playground + Sports",
     "unlocked": false,
-    "hook": "Why do some balls bounce higher than others?"
+    "hook": "Why do some balls bounce higher than others?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "sports",
+      "cricket",
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "rain-puddles-water-cycle",
+      "elevator-lift-force",
+      "ice-melting"
+    ]
   },
   {
     "id": "shadows",
@@ -1860,7 +3008,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Dekho — suba mein teri chhaya bahut lambi hoti hai, dopahar mein bahut chhoti. Shaam ko phir lambi. KYON? Kya tum badal rahe ho ya kuch aur?"
+    "hook": "Dekho — suba mein teri chhaya bahut lambi hoti hai, dopahar mein bahut chhoti. Shaam ko phir lambi. KYON? Kya tum badal rahe ho ya kuch aur?",
+    "difficulty": 5,
+    "curiosity_score": 5,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "home-cooling-shade-ventilation",
+      "physics_motion",
+      "shadow-day"
+    ]
   },
   {
     "id": "physics_work",
@@ -1877,7 +3036,18 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "If you push a wall hard and it does not move, is work done on the wall in physics? Why?"
+    "hook": "If you push a wall hard and it does not move, is work done on the wall in physics? Why?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments"
+    ],
+    "estimated_duration_minutes": 22,
+    "related_concepts": [
+      "ear-pressure-flight-mountain",
+      "bridge-engineering",
+      "smart-traffic-signal"
+    ]
   },
   {
     "id": "ice_melting",
@@ -1896,138 +3066,16 @@
     ],
     "place": "Everyday life",
     "unlocked": false,
-    "hook": "Garmi mein glass ke bahar paani kahan se aata hai aur barf kyun pighalti hai? Kabhi socha hai?"
-  },
-  {
-    "id": "math-ratios",
-    "title": "Ratios and Proportions",
-    "subject": "Math",
-    "subjects": [
-      "Math"
+    "hook": "Garmi mein glass ke bahar paani kahan se aata hai aur barf kyun pighalti hai? Kabhi socha hai?",
+    "difficulty": 5,
+    "curiosity_score": 3,
+    "interest_tags": [
+      "experiments",
+      "books"
     ],
-    "level": "Middle School",
-    "class_band": [
-      5,
-      6,
-      7
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If 2 cups of rice need 4 cups of water, how much water do 5 cups of rice need? Why does the taste change if we guess?"
-  },
-  {
-    "id": "math-algebra-basics",
-    "title": "Algebra: Finding the Unknown",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7,
-      8
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If you have a box of chocolates and 5 are missing, leaving you with 15, how many were there at the start? Why do we use 'x' for this?"
-  },
-  {
-    "id": "math-integers",
-    "title": "Integers: Below Zero",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If temperature drops 5 degrees below zero, how do we write it? Why do we need negative numbers?"
-  },
-  {
-    "id": "math-percentages",
-    "title": "Percentages: Out of 100",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7,
-      8
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If a shirt has a 20% discount, how do you know how much money you save? Why not just say '20 rupees off'?"
-  },
-  {
-    "id": "math-area-perimeter",
-    "title": "Area vs Perimeter",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If you need to fence a garden, do you calculate area or perimeter? What if you want to plant grass?"
-  },
-  {
-    "id": "math-angles-lines",
-    "title": "Lines and Angles",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "Why are the corners of a room usually exactly 90 degrees? What happens if they are 85 degrees instead?"
-  },
-  {
-    "id": "math-data-handling",
-    "title": "Data Handling: Finding the Average",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      6,
-      7,
-      8
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "When Virat Kohli's 'average' is 50, does it mean he scores exactly 50 in every match? How is it calculated?"
-  },
-  {
-    "id": "math-exponents",
-    "title": "Exponents: The Power of Doubling",
-    "subject": "Math",
-    "subjects": [
-      "Math"
-    ],
-    "level": "Middle School",
-    "class_band": [
-      7,
-      8
-    ],
-    "place": "Everyday life",
-    "unlocked": true,
-    "hook": "If you keep folding a piece of paper in half, why does it get so thick so quickly? How do we write '2 multiplied by itself 10 times' easily?"
+    "estimated_duration_minutes": 18,
+    "related_concepts": [
+      "gravity"
+    ]
   }
 ]

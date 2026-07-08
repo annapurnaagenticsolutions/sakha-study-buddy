@@ -49,5 +49,24 @@
   "concept_difficulty_level": 10,
   "learning_track": [
     "core"
-  ]
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "If voltage increases across the same resistor, what usually happens to current?"
+    },
+    {
+      "type": "probe",
+      "q": "What does resistance do to moving charge?"
+    },
+    {
+      "type": "concept_check",
+      "q": "In V = I x R, what does V, I, and R mean?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Explain Ohm's Law to a younger student using a water-flow example."
+    }
+  ],
+  "teach_back_prompt": "Explain Ohm's Law using voltage, current, and resistance."
 }

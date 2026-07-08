@@ -45,5 +45,24 @@
   "concept_difficulty_level": 9,
   "learning_track": [
     "core"
-  ]
+  ],
+  "question_flow": [
+    {
+      "type": "hook",
+      "q": "If your school bag goes to the Moon, what stays the same and what changes?"
+    },
+    {
+      "type": "probe",
+      "q": "Is kg measuring mass or weight in Physics?"
+    },
+    {
+      "type": "concept_check",
+      "q": "In W = m x g, what does each symbol mean?"
+    },
+    {
+      "type": "teach_back",
+      "q": "Explain mass and weight to a younger student using one simple example."
+    }
+  ],
+  "teach_back_prompt": "Explain the difference between mass and weight using Earth and Moon."
 }

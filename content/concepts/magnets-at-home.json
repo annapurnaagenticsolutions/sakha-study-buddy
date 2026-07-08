@@ -30,11 +30,83 @@
     "Objects sorted",
     "Pattern explained"
   ],
-  "whiteboard": [
-    "Cause: Magnet brought near object",
-    "  -> Material tested → Attraction or no attraction → Objects sorted",
-    "Result: Pattern explained"
-  ],
+  "whiteboard": {
+    "title": "Magnets at Home Whiteboard",
+    "goal": "Understand from zero why a magnet sticks to some objects and not others.",
+    "basics": [
+      "A magnet can pull some objects without touching them. That pull is called magnetic force.",
+      "The magnet is not checking the shape or color of the object. It depends mainly on the material.",
+      "Iron, steel, nickel, and cobalt are commonly magnetic. Wood, plastic, paper, rubber, copper, and aluminium usually are not attracted by a simple fridge magnet.",
+      "A fair test means using the same magnet and testing one object at a time."
+    ],
+    "formula": "Magnet near object -> material checked -> attraction or no attraction -> sorted group",
+    "formula_reading": "Read it as a process, not a math formula: bring the magnet near, observe the result, then sort the object by material behavior.",
+    "symbols": [
+      {
+        "symbol": "Magnet",
+        "means": "object that creates magnetic force",
+        "example": "fridge magnet"
+      },
+      {
+        "symbol": "Material",
+        "means": "what the object is made of",
+        "example": "steel, plastic, paper, wood"
+      },
+      {
+        "symbol": "Attraction",
+        "means": "the magnet pulls and sticks or moves the object",
+        "example": "steel paper clip moves toward magnet"
+      },
+      {
+        "symbol": "No attraction",
+        "means": "the object does not respond clearly to the magnet",
+        "example": "paper does not stick"
+      }
+    ],
+    "steps": [
+      {
+        "label": "Step 1: Same magnet",
+        "detail": "Use one magnet for all tests so the magnet strength is not changing."
+      },
+      {
+        "label": "Step 2: One object",
+        "detail": "Bring the magnet near one safe object, like a paper clip, pencil, spoon, eraser, or bottle cap."
+      },
+      {
+        "label": "Step 3: Observe",
+        "detail": "Check whether the object moves, sticks, or shows no clear pull."
+      },
+      {
+        "label": "Step 4: Name material",
+        "detail": "Ask what the object is made of. Steel and iron-containing objects are usually attracted."
+      },
+      {
+        "label": "Step 5: Sort",
+        "detail": "Make two groups: attracted and not attracted. The pattern tells you which materials are magnetic."
+      },
+      {
+        "label": "Step 6: Explain",
+        "detail": "A magnet sticks to some things because their material responds to magnetic force; many everyday materials do not."
+      }
+    ],
+    "check_after_step": 2,
+    "feedback_prompt": "Pause check: are Step 1 and Step 2 clear? If not, tell me whether magnet, material, or fair test is confusing.",
+    "worked_example": "A steel paper clip sticks, but a wooden pencil does not. The difference is not size or color; it is the material. Steel contains iron, so it responds to the magnet.",
+    "common_confusions": [
+      {
+        "confusion": "All metals are magnetic.",
+        "fix": "Many metals, like copper and aluminium, are not strongly attracted by a normal magnet."
+      },
+      {
+        "confusion": "Bigger objects should attract more.",
+        "fix": "Material matters first. A big plastic ruler will not stick, but a tiny steel pin can."
+      },
+      {
+        "confusion": "The magnet chooses objects randomly.",
+        "fix": "The result follows a pattern based on material properties."
+      }
+    ]
+  },
   "indian_analogies": [
     "Home + School mein yeh dekhte hain: Magnets at Home.",
     "Fridge magnets"
@@ -223,5 +295,6 @@
   "concept_difficulty_level": 3,
   "learning_track": [
     "core"
-  ]
+  ],
+  "teach_back_prompt": "Explain to a younger student why a magnet sticks to a steel paper clip but not to paper or plastic."
 }

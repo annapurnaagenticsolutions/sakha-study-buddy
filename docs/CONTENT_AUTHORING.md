@@ -103,3 +103,15 @@ Recommended fields:
 ```
 
 The first two steps should be small enough that Sakha can pause and ask whether the formula is clear before continuing.
+
+## Content quality command
+
+Run this before publishing static content changes:
+
+```bash
+npm run content-check
+```
+
+The checker fails on invalid JSON, missing critical fields, broken lite-index references, or invalid difficulty/curiosity values. It reports whiteboard gaps as warnings so we can keep improving topic packs without blocking urgent deploys.
+
+For student feedback topics, treat whiteboard warnings as high priority even when the command exits successfully.

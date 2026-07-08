@@ -117,3 +117,20 @@ Scope: static GitHub Pages experience only. Backend, Worker quotas, user account
 - Reduced bundle size from the one-byte guard edge to a safer margin and removed stale generated chunk files from the publish dist.
 - Remaining optional polish: replace browser prompt/alert flows for peer sharing and downloaded progress cards with in-app modals.
 
+
+## Implemented in static pass 9
+
+- Added `docs/STATIC_CONTENT_ENHANCEMENT_PLAN.md` as the static-first roadmap derived from the Kiro specs.
+- Added `scripts/check-content-quality.js` and `npm run content-check` to validate concept JSON, lite-index references, difficulty/curiosity ranges, and whiteboard readiness warnings.
+- Added topic-card difficulty and curiosity labels from the lightweight concept index.
+- Added local-only unfinished-session state so the landing page can offer a `Continue previous topic` card.
+- Added local-only curiosity rating buttons to the completion modal.
+- Improved guided fallback behavior so the right-side whiteboard progresses from basics to steps to full examples only as the conversation requires.
+- Enriched `magnets-at-home.json` and `clothes-drying-sun-wind.json` with structured beginner-friendly whiteboards, checkpoints, examples, and common confusions.
+
+## Next static content work
+
+1. Use `npm run content-check` to identify weaker topic packs.
+2. Enrich the next 10 most likely feedback topics before broader student testing.
+3. Keep any new engagement UI behind the 40 KB main-bundle guard.
+4. After feedback, decide whether heavier Kiro engagement features are worth adding.
