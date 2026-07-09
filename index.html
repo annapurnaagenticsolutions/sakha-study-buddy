@@ -9,14 +9,14 @@
     <script src="config.js"></script>
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#3f51b5">
-    <link rel="stylesheet" href="style.css?v=2.6">
+    <link rel="stylesheet" href="style.css?v=2.7">
 </head>
 <body>
     <a class="skip-link" href="#studentStart">Skip to topic chooser</a>
     <section id="landingShell" class="landing-shell" aria-labelledby="landingTitle">
         <header class="landing-header">
             <div>
-                <div class="logo landing-logo">Sakha <span class="badge">Static Agent</span></div>
+                <div class="logo landing-logo">Sakha <span class="badge">Study Buddy</span></div>
                 <p class="landing-kicker">Choose a topic. Talk it through. Teach it back.</p>
             </div>
             <nav class="landing-nav" aria-label="Information">
@@ -30,37 +30,23 @@
         <main class="landing-main">
             <section id="studentStart" class="student-start" aria-labelledby="landingTitle">
                 <div class="start-copy">
-                    <h1 id="landingTitle">Learn any concept in 15 minutes.</h1>
-                    <p>Hinglish AI explains like a friend. Pick a real-life topic below — Sakha starts with a question, not a lecture.</p>
+                    <h1 id="landingTitle">Learn at your own pace, with Sakha by your side.</h1>
+                    <p>Sakha explains like a friend. Pick a real-life topic below - Sakha starts with your thinking, then helps you build the idea step by step.</p>
                 </div>
-
-                <!-- Quick Win #1: How It Works Section -->
-                <section class="how-it-works" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 1.5rem; border-radius: 12px; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                    <h2 style="margin-top: 0; color: #2c3e50; font-size: 1.3rem;">🎯 How Sakha Works</h2>
-                    <ol style="font-size: 1rem; line-height: 1.8; color: #34495e; margin: 1rem 0; padding-left: 1.5rem;">
-                        <li><strong>Pick a topic</strong> from real life (bicycle, cooking, shadows)</li>
-                        <li><strong>Sakha asks a question</strong> — not a lecture, a conversation</li>
-                        <li><strong>You think + answer</strong> — wrong answers are learning opportunities!</li>
-                        <li><strong>Sakha guides you</strong> step-by-step until you can explain it yourself</li>
+                <section class="session-preview" aria-label="What happens in a Sakha session">
+                    <h2>See how Sakha helps</h2>
+                    <ol>
+                        <li><strong>Guess first</strong><span>A rough answer helps Sakha start from your thinking.</span></li>
+                        <li><strong>Use the whiteboard</strong><span>Formula, process, and terms open slowly in small steps.</span></li>
+                        <li><strong>Pause and repair</strong><span>If one word feels confusing, Sakha slows down there.</span></li>
+                        <li><strong>Teach it back</strong><span>The session ends only when you can explain the idea yourself.</span></li>
                     </ol>
-                    <p style="color: #7f8c8d; margin: 0.5rem 0 0 0; font-size: 0.95rem;">⏱️ Takes 15-20 minutes. Works in Hinglish, English, or Hindi-first.</p>
                 </section>
 
-                <!-- Quick Win #3: Social Proof -->
-                <section class="social-proof" style="text-align: center; margin: 1.5rem 0 2rem 0; padding: 1rem; background: #fff; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
-                    <p style="font-size: 1.1rem; color: #2c3e50; margin: 0 0 1rem 0;">
-                        <strong style="color: #4CAF50; font-size: 1.3rem;">2,100+ students</strong> used Sakha this month to understand concepts.
-                    </p>
-                    <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
-                        <blockquote style="max-width: 280px; font-style: italic; border-left: 3px solid #4CAF50; padding-left: 1rem; text-align: left; margin: 0; color: #555;">
-                            "Bicycle riding topic made physics click for me!" <br><span style="font-size: 0.9rem; color: #888;">— Arjun, Class 5</span>
-                        </blockquote>
-                        <blockquote style="max-width: 280px; font-style: italic; border-left: 3px solid #4CAF50; padding-left: 1rem; text-align: left; margin: 0; color: #555;">
-                            "My daughter now asks science questions at dinner." <br><span style="font-size: 0.9rem; color: #888;">— Parent, Mumbai</span>
-                        </blockquote>
-                    </div>
+                <section class="showcase-strip" aria-label="Showcase topics">
+                    <h2>Best topics to try first</h2>
+                    <p>Boiling Water, Magnets at Home, Drying Clothes, and Ohm's Law now include try-first prompts, misconception checks, memory anchors, and teach-back goals.</p>
                 </section>
-
                 <div class="chooser-panel" aria-label="Choose a learning topic">
                     <div class="chooser-step">
                         <div class="step-label">1. Level</div>
@@ -92,7 +78,7 @@
 
             <!-- Mobile Sticky CTA (only on mobile) -->
             <button id="mobileStickyCta" class="mobile-sticky-cta" aria-label="Start Learning">
-                Start Learning →
+                Start Learning
             </button>
 
             <section class="trust-grid" aria-label="Sakha information">
@@ -110,9 +96,9 @@
                     
                     <!-- Quick Win #4: Offline Mode Explainer -->
                     <details style="margin-top: 1rem; cursor: pointer;">
-                        <summary style="cursor: pointer; font-weight: bold; color: #3f51b5; padding: 0.5rem 0;">📱 What is offline mode?</summary>
+                        <summary style="cursor: pointer; font-weight: bold; color: #3f51b5; padding: 0.5rem 0;">What is offline mode?</summary>
                         <div style="padding: 1rem; background: #f5f5f5; border-radius: 8px; margin-top: 0.5rem; font-size: 0.95rem; line-height: 1.6;">
-                            <p style="margin: 0 0 0.5rem 0;">Offline mode downloads a small AI model (200MB) to your device. After that, Sakha works completely without internet — no data usage, no connectivity needed.</p>
+                            <p style="margin: 0 0 0.5rem 0;">Offline mode downloads a small AI model (200MB) to your device. After that, Sakha works completely without internet - no data usage, no connectivity needed.</p>
                             <p style="margin: 0.5rem 0;"><strong>When to use:</strong> Rural areas, limited data plans, or if you want privacy (nothing leaves your device).</p>
                             <p style="margin: 0.5rem 0 0 0;"><strong>Note:</strong> First download takes 2-5 minutes on WiFi.</p>
                         </div>
@@ -188,6 +174,6 @@
         </div>
     </div>
 
-    <script type="module" src="dist/main.js?v=2.6"></script>
+    <script type="module" src="dist/main.js?v=2.7"></script>
 </body>
 </html>

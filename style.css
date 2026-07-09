@@ -598,9 +598,9 @@ header {
 .start-copy { padding-top: 18px; }
 .start-copy h1 {
     font-family: var(--font-heading);
-    font-size: clamp(2.1rem, 5vw, 4.8rem);
-    line-height: 0.98;
-    margin-bottom: 18px;
+    font-size: clamp(1.55rem, 3.1vw, 2.6rem);
+    line-height: 1.12;
+    margin-bottom: 14px;
     color: #173b2a;
 }
 
@@ -612,6 +612,62 @@ header {
     font-weight: 700;
 }
 
+.session-preview,
+.showcase-strip {
+    background: #ffffff;
+    border: 1px solid rgba(32, 51, 42, 0.12);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 10px 30px rgba(36, 89, 83, 0.08);
+}
+
+.session-preview h2,
+.showcase-strip h2 {
+    font-family: var(--font-heading);
+    color: #173b2a;
+    font-size: 1.16rem;
+    margin-bottom: 10px;
+}
+
+.session-preview ol {
+    display: grid;
+    gap: 8px;
+    list-style: none;
+}
+
+.session-preview li {
+    display: grid;
+    grid-template-columns: 112px 1fr;
+    gap: 8px;
+    align-items: start;
+    padding: 9px;
+    background: #f7fbf6;
+    border: 1px solid #dcebdd;
+    border-radius: 7px;
+}
+
+.session-preview strong {
+    color: #21623b;
+    font-family: var(--font-heading);
+}
+
+.session-preview span,
+.showcase-strip p {
+    color: #4b5e54;
+    line-height: 1.45;
+    font-weight: 700;
+}
+
+.showcase-strip {
+    margin: 14px 0;
+    border-left: 4px solid #245953;
+}
+
+@media (max-width: 520px) {
+    .session-preview li {
+        grid-template-columns: 1fr;
+    }
+}
 .chooser-panel {
     background: #ffffff;
     border: 1px solid rgba(32, 51, 42, 0.12);
@@ -812,7 +868,7 @@ textarea:focus-visible {
 @media (max-width: 520px) {
     .landing-main,
     .landing-header { width: min(100% - 20px, 1120px); }
-    .chooser-panel { padding: 13px; }
+        .chooser-panel { padding: 13px; }
     .start-actions {
         display: grid;
         grid-template-columns: 1fr;
@@ -930,6 +986,63 @@ textarea:focus-visible {
     font-weight: 700;
 }
 
+.learning-companion-card {
+    align-self: stretch;
+    display: grid;
+    gap: 10px;
+    background: #ffffff;
+    border: 1px solid #d9e7dc;
+    border-left: 4px solid #245953;
+    border-radius: 8px;
+    padding: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.learning-companion-card h2 {
+    font-family: var(--font-heading);
+    color: #245953;
+    font-size: 1.08rem;
+}
+
+.learning-companion-card p {
+    color: #3f564a;
+    line-height: 1.45;
+    font-weight: 800;
+}
+
+.learning-companion-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+}
+
+.learning-companion-item {
+    display: grid;
+    gap: 5px;
+    min-height: 92px;
+    background: #f7fbf6;
+    border: 1px solid #dcebdd;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.learning-companion-item strong {
+    color: #173b2a;
+    font-family: var(--font-heading);
+    font-size: 0.86rem;
+}
+
+.learning-companion-item span {
+    color: #4b5e54;
+    font-size: 0.9rem;
+    line-height: 1.35;
+}
+
+@media (max-width: 760px) {
+    .learning-companion-grid {
+        grid-template-columns: 1fr;
+    }
+}
 .diagnostic-card textarea {
     width: 100%;
     margin-top: 10px;

@@ -295,5 +295,20 @@
   "learning_track": [
     "core"
   ],
-  "teach_back_prompt": "Explain drying clothes using heat, evaporation, wind, surface area, and humidity."
+  "teach_back_prompt": "Explain drying clothes using heat, evaporation, wind, surface area, and humidity.",
+  "learning_showcase": {
+    "try_first": "Before Sakha explains, choose: folded cloth in a room or open cloth in sun and breeze. Which dries faster, and why?",
+    "simple_idea": "Clothes dry when water leaves the cloth as vapour. Heat and moving air help that happen faster.",
+    "formal_idea": "Drying rate depends on evaporation. Heat, airflow, exposed surface area, and humidity change how quickly water leaves the cloth.",
+    "common_trap": "Thinking only sunlight matters.",
+    "trap_fix": "Sun helps, but wind removes moist air, open cloth gives more surface, and low humidity makes evaporation easier.",
+    "memory_anchor": "Picture wet cloth breathing out water vapour; wind carries that moist air away so more water can leave.",
+    "friend_nudge": "If one factor is confusing, say heat, wind, surface area, or humidity and Sakha will isolate it.",
+    "teach_back_goal": "Explain drying using heat, evaporation, wind, surface area, and humidity.",
+    "review_plan": [
+      "Today: name the four drying factors",
+      "Tomorrow: explain folded vs open cloth",
+      "In 3 days: predict drying on a rainy day"
+    ]
+  }
 }

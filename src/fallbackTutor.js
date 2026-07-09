@@ -24,8 +24,8 @@ export class FallbackTutor {
         const asksWhiteboard = /formula|equation|whiteboard|step|derive|symbol|meaning|deep|detail|samjhao|explain|process|flow/.test(text);
         const wantsExample = /example|practice|try|sample|solve|use case/.test(text);
         const wantsRepeat = /repeat|again|slow|from start|basic|basics/.test(text);
-        const saysClear = /clear|samajh|understand|yes|haan|ok|got it/.test(text);
-        const saysNotClear = /not clear|confus|samajh nahi|doubt|no|nahi/.test(text);
+        const saysClear = /clear|samajh|understand|\byes\b|\bhaan\b|\bok\b|got it/.test(text);
+        const saysNotClear = /not clear|confus|samajh nahi|doubt|\bno\b|\bnahi\b/.test(text);
         const likelyTeachBack = isLikelyTeachBack(userMessage, concept);
         const english = language === 'English';
 
@@ -59,7 +59,7 @@ export class FallbackTutor {
         if (saysClear && this.turn > 1) {
             const nextStage = this.turn >= 4 ? 'full' : 'steps';
             return jsonReply(
-                english ? 'Good. I am opening the next whiteboard slice. Next: ' + getNextQuestion(concept, this.turn) + ' Short answer, in your words.' : 'Good. Main next whiteboard slice khol raha hoon. Next: ' + getNextQuestion(concept, this.turn) + ' Short answer, apne words mein.',
+                english ? 'Good. I am opening the next whiteboard slice. Next: ' + getNextQuestion(concept, this.turn, language) + ' Short answer, in your words.' : 'Good. Main next whiteboard slice khol raha hoon. Next: ' + getNextQuestion(concept, this.turn, language) + ' Short answer, apne words mein.',
                 'Whiteboard',
                 { whiteboard, title: concept.title, stage: nextStage },
                 false
@@ -68,7 +68,7 @@ export class FallbackTutor {
 
         if (misconception) {
             return jsonReply(
-                english ? 'Good thought, but there is a common trap here: "' + misconception.belief + '". Think about this: ' + (misconception.probe || 'what is the actual cause behind the observation?') + ' Hint: ' + (misconception.repair || concept.big_idea || 'follow the cause-process-result chain.') : 'Good thought, but yahan ek common trap hai: "' + misconception.belief + '". Socho: ' + (misconception.probe || 'is observation ke peeche actual cause kya hai?') + ' Hint: ' + (misconception.repair || concept.big_idea || 'cause-process-result chain follow karo.'),
+                english ? 'Good thought, but there is a common trap here: "' + misconception.belief + '". Think about this: ' + getEnglishProbe(misconception, concept) + ' Hint: ' + getEnglishRepair(misconception, concept) : 'Good thought, but yahan ek common trap hai: "' + misconception.belief + '". Socho: ' + (misconception.probe || 'is observation ke peeche actual cause kya hai?') + ' Hint: ' + (misconception.repair || concept.big_idea || 'cause-process-result chain follow karo.'),
                 'none',
                 {},
                 false
@@ -347,6 +347,22 @@ function jsonReply(message, component, props, sessionComplete) {
     };
 }
 
+function getEnglishProbe(misconception, concept) {
+    const probe = String(misconception.probe || '');
+    if (!probe || /agar|kya|kaise|sirf|sawaal/i.test(probe)) {
+        return concept.intro_hook || 'What is the actual cause behind the observation?';
+    }
+    return probe;
+}
+
+function getEnglishRepair(misconception, concept) {
+    const repair = String(misconception.repair || '');
+    if (!repair || /mein|sab|saath|kaam|karo/i.test(repair)) {
+        return concept.big_idea || 'Follow the cause-process-result chain.';
+    }
+    return repair;
+}
+
 function findMisconception(concept, text) {
     return (concept.misconceptions || []).find((item) => {
         const triggers = item.trigger_words || [];
@@ -363,10 +379,17 @@ function isLikelyTeachBack(message, concept) {
     return message.length > 60 && matches >= 2;
 }
 
-function getNextQuestion(concept, turn) {
+function getNextQuestion(concept, turn, language = 'Hinglish') {
     const questions = concept.question_flow || [];
     const index = Math.min(Math.max(turn - 1, 0), questions.length - 1);
-    return questions[index]?.q || concept.teach_back_prompt || 'ab is idea ko ek simple example se explain karo.';
+    const question = questions[index]?.q || '';
+    if (language === 'English') {
+        if (!question || /ab tu|apne words|kaise|samjha|sawaal|pehla/i.test(question)) {
+            return concept.teach_back_prompt || 'Explain this idea with one simple example.';
+        }
+        return question;
+    }
+    return question || concept.teach_back_prompt || 'ab is idea ko ek simple example se explain karo.';
 }
 
 function makeNotClearReply(concept, whiteboard, language = 'Hinglish') {
@@ -391,8 +414,8 @@ function getFallbackTeachingMove(concept, whiteboard, turn, language = 'Hinglish
         return english ? formula + 'Step 1: ' + step + ' Write the simple meaning in your own words. If it is clear, say "clear"; otherwise tell me the doubt.' : formula + 'Step 1: ' + step + ' Iska simple meaning apne words mein likho. Agar clear hai toh "clear" bolo, warna doubt batao.';
     }
     if (turn === 3) {
-        const step = steps[1]?.detail || getNextQuestion(concept, turn);
+        const step = steps[1]?.detail || getNextQuestion(concept, turn, language);
         return english ? 'Step 2: ' + step + ' Compare: what was true before, and what changed after?' : 'Step 2: ' + step + ' Compare: pehle kya tha, baad mein kya badla?';
     }
-    return english ? getNextQuestion(concept, turn) + ' Ready ho toh 2-3 lines mein explain karo.' : getNextQuestion(concept, turn) + ' Ready ho toh 2-3 lines mein explain karo.';
+    return english ? getNextQuestion(concept, turn, language) + ' When ready, explain it in 2-3 lines.' : getNextQuestion(concept, turn, language) + ' Ready ho toh 2-3 lines mein explain karo.';
 }

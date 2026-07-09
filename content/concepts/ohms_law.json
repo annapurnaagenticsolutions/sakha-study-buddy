@@ -68,5 +68,20 @@
       "q": "Explain Ohm's Law to a younger student using a water-flow example."
     }
   ],
-  "teach_back_prompt": "Explain Ohm's Law using voltage, current, and resistance."
+  "teach_back_prompt": "Explain Ohm's Law using voltage, current, and resistance.",
+  "learning_showcase": {
+    "try_first": "Before Sakha explains, guess what happens to current if voltage increases but resistance stays the same.",
+    "simple_idea": "Voltage pushes charge, current is the flow, and resistance makes flow harder.",
+    "formal_idea": "For many conductors at constant temperature, V = I x R. Current is proportional to voltage and inversely related to resistance.",
+    "common_trap": "Using V = I x R without knowing which value is missing.",
+    "trap_fix": "First identify the known values, then rearrange: I = V / R or R = V / I when needed.",
+    "memory_anchor": "Use a water pipe image: pump pressure is voltage, water flow is current, and a narrow pipe is resistance.",
+    "friend_nudge": "If formulas feel heavy, say V, I, or R and Sakha will decode only that symbol first.",
+    "teach_back_goal": "Explain Ohm's Law with voltage, current, resistance, and the water-flow analogy.",
+    "review_plan": [
+      "Today: decode V, I, and R",
+      "Tomorrow: solve one V = I x R example",
+      "In 3 days: explain why higher resistance lowers current"
+    ]
+  }
 }

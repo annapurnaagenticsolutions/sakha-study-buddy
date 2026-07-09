@@ -51,6 +51,38 @@ A feedback-ready topic should include:
 - Common confusions with fixes.
 - A teach-back prompt.
 
+
+## Implemented showcase slice: Sakha as a learning friend
+
+Static showcase topics now carry a `learning_showcase` block. The goal is to show Sakha adapting through behavior, not by describing internal pedagogy to the student.
+
+Initial topics:
+
+- `boiling-water`
+- `magnets-at-home`
+- `clothes-drying-sun-wind`
+- `ohms_law`
+
+The static session uses these fields to show small companion cards during the flow:
+
+- `try_first`: productive-failure prompt before explanation.
+- `simple_idea`: beginner-friendly version of the concept.
+- `formal_idea`: school-language version for later consolidation.
+- `common_trap` and `trap_fix`: misconception watch and repair cue.
+- `memory_anchor`: concrete image or analogy after the student says it is clear.
+- `friend_nudge`: how Sakha invites confusion without making the student feel wrong.
+- `teach_back_goal`: final explanation target.
+- `review_plan`: local recall prompts without backend analytics.
+
+Local-only behavior:
+
+- Student confidence and clarity/confusion signals are stored under `sakha_learning_signal_v1` in `localStorage`.
+- No account, backend profile, or hidden telemetry is required.
+- The UI should not claim real RAG, evaluator scoring, or personal forgetting models until those systems exist.
+
+Content guard:
+
+- `npm run content-check` now fails if showcase topics lose required `learning_showcase` fields.
 ## Defer for now
 
 - Full badge collection and constellation UI.

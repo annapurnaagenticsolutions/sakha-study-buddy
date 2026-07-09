@@ -50,6 +50,7 @@ let voiceService = null;
 let voicePromise = null;
 let p2pService = null;
 let p2pPromise = null;
+let learningCompanionPromise = null;
 let activeWhiteboard = null;
 let activeWhiteboardTitle = '';
 let whiteboardStage = 'intro';
@@ -506,6 +507,32 @@ function appendLearningPath(concept) {
     els.chatContainer.appendChild(card);
 }
 
+function ensureLearningCompanion() {
+    if (!learningCompanionPromise) {
+        learningCompanionPromise = import('./learning-companion.js');
+    }
+    return learningCompanionPromise;
+}
+
+async function appendLearningCompanionCard(concept, phase = 'start') {
+    const mod = await ensureLearningCompanion();
+    mod.appendLearningCompanionCard({
+        concept,
+        phase,
+        container: els.chatContainer,
+        onScroll: scrollToBottom
+    });
+}
+
+async function saveLearningSignal(conceptId, patch) {
+    const mod = await ensureLearningCompanion();
+    mod.saveLearningSignal(conceptId, patch);
+}
+
+async function captureLearningSignal(concept, text) {
+    const mod = await ensureLearningCompanion();
+    return mod.captureLearningSignal(concept, text);
+}
 function getConceptWhiteboard(concept) {
     return concept?.whiteboard || activeWhiteboard || null;
 }
@@ -642,6 +669,10 @@ function appendDiagnosticCard(concept) {
     start.textContent = 'Use this as my first answer';
     start.addEventListener('click', () => {
         const prediction = input.value.trim() || 'I am not sure yet.';
+        saveLearningSignal(concept.id, {
+            confidence: selectedConfidence,
+            firstPrediction: prediction
+        });
         updateProgress(concept.id, {
             status: 'practicing',
             title: concept.title,
@@ -839,6 +870,7 @@ async function initAgent(key, conceptId, studentName) {
                 ? 'Namaste ' + studentName + '. Aaj hum "' + concept.title + '" ko samjhenge. Pehla sawaal: ' + hook
                 : 'Hello ' + studentName + '. Aaj hum "' + concept.title + '" ko samjhenge. Pehla sawaal: ' + hook;
         appendMessage('bot', initialMsg);
+        await appendLearningCompanionCard(concept, 'start');
         appendDiagnosticCard(concept);
         if (voiceService) voiceService.speak(initialMsg);
         if (p2pService) p2pService.send({ type: 'msg', role: 'bot', text: initialMsg });
@@ -890,6 +922,7 @@ async function handleSend() {
     if (!text || !agent) return;
 
     appendMessage('user', text);
+    const learningPhase = await captureLearningSignal(agent.concept, text);
     saveSessionState({
         conceptId: agent.concept?.id,
         title: agent.concept?.title,
@@ -925,6 +958,10 @@ async function handleSend() {
                     props: responseJson.component_props
                 });
             }
+        }
+
+        if (learningPhase === 'clear' || learningPhase === 'confused') {
+            await appendLearningCompanionCard(agent.concept, learningPhase);
         }
 
         if (responseJson.session_complete) {

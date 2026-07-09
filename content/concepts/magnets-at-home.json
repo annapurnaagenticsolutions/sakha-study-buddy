@@ -296,5 +296,20 @@
   "learning_track": [
     "core"
   ],
-  "teach_back_prompt": "Explain to a younger student why a magnet sticks to a steel paper clip but not to paper or plastic."
+  "teach_back_prompt": "Explain to a younger student why a magnet sticks to a steel paper clip but not to paper or plastic.",
+  "learning_showcase": {
+    "try_first": "Before Sakha explains, predict three objects: one that will stick, one that will not, and one you are unsure about.",
+    "simple_idea": "A magnet pulls some materials. The material matters more than color, shape, or size.",
+    "formal_idea": "Magnetic force attracts some iron-containing materials such as iron and steel, while many other materials show no clear attraction.",
+    "common_trap": "Thinking all metals are magnetic.",
+    "trap_fix": "Steel usually sticks, but copper, aluminium, paper, wood, and plastic usually do not stick to a simple magnet.",
+    "memory_anchor": "Think of a magnet as a material tester: same magnet, different materials, different results.",
+    "friend_nudge": "If this feels confusing, name the object you are imagining and Sakha will sort it with you.",
+    "teach_back_goal": "Explain why a steel paper clip sticks but paper and plastic do not.",
+    "review_plan": [
+      "Today: sort five safe objects",
+      "Tomorrow: remember material over shape",
+      "In 3 days: explain why all metals are not magnetic"
+    ]
+  }
 }

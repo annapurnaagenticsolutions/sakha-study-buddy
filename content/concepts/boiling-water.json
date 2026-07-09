@@ -311,5 +311,20 @@
       "Can you explain why steam is dangerous?"
     ]
   },
-  "teach_back_prompt": "Explain boiling water to a younger student using heat, particles, bubbles, and steam safety."
+  "teach_back_prompt": "Explain boiling water to a younger student using heat, particles, bubbles, and steam safety.",
+  "learning_showcase": {
+    "try_first": "Before Sakha explains, guess this: are strong boiling bubbles air, steam, or something else?",
+    "simple_idea": "Heat gives water particles more energy. Some particles can leave the liquid and become vapour.",
+    "formal_idea": "Boiling is a change of state. Heat energy first raises temperature, then extra energy helps liquid water become water vapour.",
+    "common_trap": "Thinking that boiling bubbles are only trapped air.",
+    "trap_fix": "Tiny early bubbles can include dissolved air, but strong boiling bubbles are mostly water vapour forming inside the liquid.",
+    "memory_anchor": "Imagine the fastest water particles getting enough energy to escape from the pot as vapour.",
+    "friend_nudge": "If Q, m, c, or delta T feels new, say that symbol and Sakha will decode only that part.",
+    "teach_back_goal": "Explain boiling using heat, particles, bubbles, and steam safety in 2-3 lines.",
+    "review_plan": [
+      "Today: explain why bubbles form",
+      "Tomorrow: recall Q = m x c x delta T",
+      "In 3 days: compare less water vs more water"
+    ]
+  }
 }

@@ -8,6 +8,24 @@ const indexPath = path.join(root, 'content', 'concept-index-lite.json');
 let errors = 0;
 let warnings = 0;
 
+const showcaseTopicIds = new Set([
+  'boiling-water',
+  'magnets-at-home',
+  'clothes-drying-sun-wind',
+  'ohms_law'
+]);
+const showcaseFields = [
+  'try_first',
+  'simple_idea',
+  'formal_idea',
+  'common_trap',
+  'trap_fix',
+  'memory_anchor',
+  'friend_nudge',
+  'teach_back_goal',
+  'review_plan'
+];
+
 function readJson(file) {
   try {
     return JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -36,6 +54,14 @@ function hasEnoughWhiteboard(concept) {
   return basics >= 1 && steps >= 2 && (symbols >= 1 || text(wb.formula).length > 0);
 }
 
+function hasShowcaseLearning(concept) {
+  const data = concept.learning_showcase;
+  if (!data || typeof data !== 'object' || Array.isArray(data)) return false;
+  return showcaseFields.every((field) => {
+    if (field === 'review_plan') return asArray(data[field]).filter(Boolean).length >= 3;
+    return text(data[field]).length >= 20;
+  });
+}
 function checkConcept(file) {
   const concept = readJson(file);
   if (!concept) return null;
@@ -54,6 +80,10 @@ function checkConcept(file) {
   if (!text(concept.teach_back_prompt) && !asArray(concept.question_flow).some((q) => q.type === 'teach_back')) {
     warnings += 1;
     console.warn('WARN  ' + id + ' needs a teach-back prompt');
+  }
+  if (showcaseTopicIds.has(id) && !hasShowcaseLearning(concept)) {
+    errors += 1;
+    console.error('ERROR ' + id + ' missing static learning_showcase fields');
   }
   return id;
 }
