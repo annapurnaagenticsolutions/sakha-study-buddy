@@ -184,7 +184,7 @@ function getSubjectsForLevel(level) {
     conceptIndex
         .filter((concept) => concept.level === level)
         .forEach((concept) => {
-            const list = concept.subjects?.length ? concept.subjects : [concept.subject];
+            const list = [concept.subject];
             list.filter(Boolean).forEach((subject) => subjects.add(subject));
         });
 
@@ -202,7 +202,7 @@ function getVisibleTopics() {
     return conceptIndex
         .filter((concept) => concept.level === selectedLevel)
         .filter((concept) => {
-            const subjects = concept.subjects?.length ? concept.subjects : [concept.subject];
+            const subjects = [concept.subject];
             return subjects.includes(selectedSubject);
         })
         .sort((a, b) => Number(b.unlocked) - Number(a.unlocked) || a.title.localeCompare(b.title));
