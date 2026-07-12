@@ -1,225 +1,234 @@
 {
-  "concept_id": "plant-growth",
-  "title": "Growing a Plant",
-  "icon": "🌱",
-  "class_band": [
-    1,
-    2,
-    3
-  ],
-  "subjects": [
-    "Biology",
-    "Math",
-    "Chemistry",
-    "Physics"
-  ],
-  "place": "Garden",
-  "level": "Foundation",
-  "prerequisites": [],
-  "intro_hook": "Why does a plant grow better when it gets sunlight, water, and good soil?",
-  "big_idea": "Most green plants use light, water, carbon dioxide from air, and minerals from soil to grow. Measuring height each week turns observation into data.",
-  "story": "Two similar seeds are planted. One gets suitable light and measured water. The other receives too little light or too little water for a short, safe observation period. Their growth becomes different.",
-  "cause_process_result": {
-    "cause": "Seed",
-    "process": "Water + soil → Sunlight → Leaves make food",
-    "result": "Growth measured"
-  },
-  "flow": [
-    "Seed",
-    "Water + soil",
-    "Sunlight",
-    "Leaves make food",
-    "Growth measured"
-  ],
-  "whiteboard": [
-    "Cause: Seed",
-    "  -> Water + soil → Sunlight → Leaves make food",
-    "Result: Growth measured"
-  ],
-  "indian_analogies": [
-    "Garden mein yeh dekhte hain: Growing a Plant.",
-    "Home garden"
-  ],
-  "misconceptions": [
-    {
-      "id": "single_subject_thinking",
-      "belief": "This topic belongs to only one subject.",
-      "why_common": "A common mistake is to treat growing a plant as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
-      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
-      "repair": "Growing a Plant mein Biology, Math, Chemistry, Physics sab ek saath kaam karte hain.",
-      "trigger_words": [
-        "sirf",
-        "only",
-        "just",
-        "ek subject",
-        "one reason"
-      ]
-    },
-    {
-      "id": "cause_is_result",
-      "belief": "The first visible thing IS the reason, not the start of a chain.",
-      "why_common": "Students observe the output and skip the mechanism.",
-      "probe": "Why does a plant grow better when it gets sunlight, water, and good soil?",
-      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
-      "trigger_words": [
-        "because it happens",
-        "directly",
-        "seedha"
-      ]
-    }
-  ],
-  "question_flow": [
-    {
-      "type": "hook",
-      "q": "Why does a plant grow better when it gets sunlight, water, and good soil?"
-    },
-    {
-      "type": "probe",
-      "q": "What changes if one factor increases?",
-      "a": "Agar paani ki matra badh jaye, to paudhe ki vriddhi tezi se hogi, lekin bahut adhik paani hone par paudha mar bhi sakta hai. Isliye, paudhe ko sahi matra mein paani dena chahiye."
-    },
-    {
-      "type": "probe",
-      "q": "Which subject explains the biggest part?"
-    },
-    {
-      "type": "probe",
-      "q": "How can we test this safely at home or school?"
-    },
-    {
-      "type": "concept_check",
-      "q": "In this flow — Seed -> Water + soil -> Sunlight — what exactly happens at each step?",
-      "a": "Seed ko pehle water aur soil milta hai, jisse woh germinate hota hai, phir sunlight milne se usmein photosynthesis hoti hai aur plant grow karti hai. Is prakriya mein seedling banke plant badi hoti hai."
-    },
-    {
-      "type": "teach_back",
-      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
-    },
-    {
-      "type": "application",
-      "q": "Which combination is usually best for many small plants?"
-    }
-  ],
-  "practice_problems": [
-    {
-      "difficulty": 2,
-      "type": "mcq",
-      "q": "Which combination is usually best for many small plants?",
-      "options": [
-        "No light and too much water",
-        "Enough sunlight and measured water",
-        "Only dry soil",
-        "Keep it in a closed box"
-      ],
-      "correct": "Enough sunlight and measured water",
-      "hint": "Most plants need light and water, but excess water can damage roots. Balanced care supports growth.",
-      "answer": "Most plants need light and water, but excess water can damage roots. Balanced care supports growth."
-    },
-    {
-      "difficulty": 1,
-      "type": "what_if",
-      "q": "What would happen if sunlight becomes very low?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    },
-    {
-      "difficulty": 2,
-      "type": "what_if",
-      "q": "What would happen if sunlight becomes very high?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    },
-    {
-      "difficulty": 3,
-      "type": "what_if",
-      "q": "What would change if the place, material, time, or weather changes?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    }
-  ],
-  "teaching_styles": {
-    "simple": "Growing a Plant shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
-    "standard": "In Growing a Plant, one or more factors such as sunlight change what we observe. The idea connects Biology, Math, Chemistry, Physics and helps explain the situation beyond memorizing a fact.",
-    "deep": "A deeper explanation of Growing a Plant connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Most green plants use light, water, carbon dioxide from air, and minerals from soil to grow. Measuring height each week turns observation into data.",
-    "hinglish": "Dekh yaar — Growing a Plant mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
-    "story": "Two similar seeds are planted. One gets suitable light and measured water. The other receives too little light or too little water for a short, safe observation period. Their growth becomes different."
-  },
-  "learner_adaptations": {
-    "class_1_3": "Notice the situation: Why does a plant grow better when it gets sunlight, water, and good soil. Say what you can see, hear, feel, or compare safely.",
-    "class_4_5": "Name the main factor and compare two cases. Example: less vs more sunlight.",
-    "class_6_8": "Explain the cause-effect chain: Seed → Water + soil → Sunlight → Leaves make food.",
-    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
-    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
-    "fast_learner": "Push to deep mode. Connect all subjects: Biology, Math, Chemistry, Physics."
-  },
-  "subject_lenses": {
-    "Biology": "Roots absorb water; leaves perform photosynthesis; stems support the plant.",
-    "Math": "Measure height, count leaves, make a weekly growth table.",
-    "Chemistry": "Minerals in soil and carbon dioxide from air help plant processes.",
-    "Physics": "Light reaches leaves; water moves through the plant."
-  },
-  "wonder_tangents": [
-    {
-      "trigger": "after_student_explains",
-      "hinglish": "By the way — Growing a Plant ka concept aur jagah bhi kaam karta hai: Home garden, Farming, Terrace gardening.",
-      "related_concepts": [],
-      "career_connection": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
-    }
-  ],
-  "daily_wonders": [
-    "Aaj growing a plant se related kuch notice karo.",
-    "Why does a plant grow better when it gets sunlight, water, and good soil?",
-    "What would happen if sunlight becomes very low?"
-  ],
-  "indian_legacy": {
-    "scientist": "Varahamihira",
-    "connection": "Varahamihira, an ancient Indian polymath, wrote about the importance of soil, water, and sunlight for plant growth in his book Brihat-Samhita. His work highlights the understanding of Indian scientists in ancient times about the factors that contribute to plant growth, which is still relevant today as we observe how plants use light, water, carbon dioxide, and minerals to grow.",
-    "story_hook": "Imagine being a young explorer in ancient India, discovering the secrets of plant growth alongside Varahamihira, who taught us that plants need the right balance of water, sunlight, and nutrients from the soil to thrive. As we measure the height of our plants each week, we are following in the footsteps of Varahamihira, turning our observations into valuable data about the magic of plant growth.",
-    "class_appropriate": {
-      "1-5": "story_hook only",
-      "6-8": "story + connection",
-      "9-10": "full connection with equations"
-    },
-    "enrichment_status": "completed"
-  },
-  "home_investigation": {
-    "title": "Ghar pe Try Karo: Growing a Plant",
-    "time_required": "5-10 min",
-    "materials": [
-      "Ghar mein available items (see experiment below)"
-    ],
-    "steps": [
-      "Grow two similar seeds. Keep notes on water, sunlight, height, and leaves for two weeks. Do not taste any plant unless a trusted adult confirms it is edible and safe."
-    ],
-    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
-    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
-  },
-  "unlocks": [
-    "plant_parts_and_photosynthesis",
-    "measurement_and_data",
-    "nutrients",
-    "light"
-  ],
-  "subject_web_position": {
-    "x": 0.5,
-    "y": 0.5
-  },
-  "stem_lab_link": "life-concepts-lab#scenario-plant-growth",
-  "visualizer_type": "life_concepts_lab",
-  "life_decision": "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
-  "career_connections": "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
-  "why_matters": "Growing a Plant turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
-  "session_type": "science",
-  "_source": "life-concepts-lab-v1_4_1-final-polish",
-  "_enrichment_needed": [
-    "indian_legacy",
-    "wonder_tangents.related_concepts",
-    "misconceptions (domain-specific)",
-    "prerequisites",
-    "stem_lab_link (full deployed URL)"
-  ],
-  "concept_difficulty_level": 3,
-  "learning_track": [
-    "core"
-  ]
+    "concept_id":  "plant-growth",
+    "title":  "Growing a Plant",
+    "icon":  "ðŸŒ±",
+    "class_band":  [
+                       1,
+                       2,
+                       3
+                   ],
+    "subjects":  [
+                     "Biology",
+                     "Math",
+                     "Chemistry",
+                     "Physics"
+                 ],
+    "place":  "Garden",
+    "level":  "Foundation",
+    "prerequisites":  [
+
+                      ],
+    "intro_hook":  "Why does a plant grow better when it gets sunlight, water, and good soil?",
+    "big_idea":  "Most green plants use light, water, carbon dioxide from air, and minerals from soil to grow. Measuring height each week turns observation into data.",
+    "story":  "Two similar seeds are planted. One gets suitable light and measured water. The other receives too little light or too little water for a short, safe observation period. Their growth becomes different.",
+    "cause_process_result":  {
+                                 "cause":  "Seed",
+                                 "process":  "Water + soil â†’ Sunlight â†’ Leaves make food",
+                                 "result":  "Growth measured"
+                             },
+    "flow":  [
+                 "Seed",
+                 "Water + soil",
+                 "Sunlight",
+                 "Leaves make food",
+                 "Growth measured"
+             ],
+    "whiteboard":  [
+                       "Cause: Seed",
+                       "  -\u003e Water + soil â†’ Sunlight â†’ Leaves make food",
+                       "Result: Growth measured"
+                   ],
+    "indian_analogies":  [
+                             "Garden mein yeh dekhte hain: Growing a Plant.",
+                             "Home garden"
+                         ],
+    "misconceptions":  [
+                           {
+                               "id":  "single_subject_thinking",
+                               "belief":  "This topic belongs to only one subject.",
+                               "why_common":  "A common mistake is to treat growing a plant as a single-subject fact. Better understanding comes from connecting observation, variables, and subject lenses.",
+                               "probe":  "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+                               "repair":  "Growing a Plant mein Biology, Math, Chemistry, Physics sab ek saath kaam karte hain.",
+                               "trigger_words":  [
+                                                     "sirf",
+                                                     "only",
+                                                     "just",
+                                                     "ek subject",
+                                                     "one reason"
+                                                 ]
+                           },
+                           {
+                               "id":  "cause_is_result",
+                               "belief":  "The first visible thing IS the reason, not the start of a chain.",
+                               "why_common":  "Students observe the output and skip the mechanism.",
+                               "probe":  "Why does a plant grow better when it gets sunlight, water, and good soil?",
+                               "repair":  "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+                               "trigger_words":  [
+                                                     "because it happens",
+                                                     "directly",
+                                                     "seedha"
+                                                 ]
+                           }
+                       ],
+    "question_flow":  [
+                          {
+                              "type":  "hook",
+                              "q":  "Why does a plant grow better when it gets sunlight, water, and good soil?"
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "What changes if one factor increases?",
+                              "a":  "Agar paani ki matra badh jaye, to paudhe ki vriddhi tezi se hogi, lekin bahut adhik paani hone par paudha mar bhi sakta hai. Isliye, paudhe ko sahi matra mein paani dena chahiye."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "Which subject explains the biggest part?"
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "How can we test this safely at home or school?"
+                          },
+                          {
+                              "type":  "concept_check",
+                              "q":  "In this flow â€” Seed -\u003e Water + soil -\u003e Sunlight â€” what exactly happens at each step?",
+                              "a":  "Seed ko pehle water aur soil milta hai, jisse woh germinate hota hai, phir sunlight milne se usmein photosynthesis hoti hai aur plant grow karti hai. Is prakriya mein seedling banke plant badi hoti hai."
+                          },
+                          {
+                              "type":  "teach_back",
+                              "q":  "Ab tu mujhe bata â€” apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+                          },
+                          {
+                              "type":  "application",
+                              "q":  "Which combination is usually best for many small plants?"
+                          }
+                      ],
+    "practice_problems":  [
+                              {
+                                  "difficulty":  2,
+                                  "type":  "mcq",
+                                  "q":  "Which combination is usually best for many small plants?",
+                                  "options":  [
+                                                  "No light and too much water",
+                                                  "Enough sunlight and measured water",
+                                                  "Only dry soil",
+                                                  "Keep it in a closed box"
+                                              ],
+                                  "correct":  "Enough sunlight and measured water",
+                                  "hint":  "Most plants need light and water, but excess water can damage roots. Balanced care supports growth.",
+                                  "answer":  "Most plants need light and water, but excess water can damage roots. Balanced care supports growth."
+                              },
+                              {
+                                  "difficulty":  1,
+                                  "type":  "what_if",
+                                  "q":  "What would happen if sunlight becomes very low?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              },
+                              {
+                                  "difficulty":  2,
+                                  "type":  "what_if",
+                                  "q":  "What would happen if sunlight becomes very high?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              },
+                              {
+                                  "difficulty":  3,
+                                  "type":  "what_if",
+                                  "q":  "What would change if the place, material, time, or weather changes?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              }
+                          ],
+    "teaching_styles":  {
+                            "simple":  "Growing a Plant shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+                            "standard":  "In Growing a Plant, one or more factors such as sunlight change what we observe. The idea connects Biology, Math, Chemistry, Physics and helps explain the situation beyond memorizing a fact.",
+                            "deep":  "A deeper explanation of Growing a Plant connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Most green plants use light, water, carbon dioxide from air, and minerals from soil to grow. Measuring height each week turns observation into data.",
+                            "hinglish":  "Dekh yaar â€” Growing a Plant mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+                            "story":  "Two similar seeds are planted. One gets suitable light and measured water. The other receives too little light or too little water for a short, safe observation period. Their growth becomes different."
+                        },
+    "learner_adaptations":  {
+                                "class_1_3":  "Notice the situation: Why does a plant grow better when it gets sunlight, water, and good soil. Say what you can see, hear, feel, or compare safely.",
+                                "class_4_5":  "Name the main factor and compare two cases. Example: less vs more sunlight.",
+                                "class_6_8":  "Explain the cause-effect chain: Seed â†’ Water + soil â†’ Sunlight â†’ Leaves make food.",
+                                "class_9_10":  "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+                                "struggling":  "Start with the hook only. Ask what they observe. Don\u0027t explain yet.",
+                                "fast_learner":  "Push to deep mode. Connect all subjects: Biology, Math, Chemistry, Physics."
+                            },
+    "subject_lenses":  {
+                           "Biology":  "Roots absorb water; leaves perform photosynthesis; stems support the plant.",
+                           "Math":  "Measure height, count leaves, make a weekly growth table.",
+                           "Chemistry":  "Minerals in soil and carbon dioxide from air help plant processes.",
+                           "Physics":  "Light reaches leaves; water moves through the plant."
+                       },
+    "wonder_tangents":  [
+                            {
+                                "trigger":  "after_student_explains",
+                                "hinglish":  "By the way â€” Growing a Plant ka concept aur jagah bhi kaam karta hai: Home garden, Farming, Terrace gardening.",
+                                "related_concepts":  [
+
+                                                     ],
+                                "career_connection":  "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration."
+                            }
+                        ],
+    "daily_wonders":  [
+                          "Aaj growing a plant se related kuch notice karo.",
+                          "Why does a plant grow better when it gets sunlight, water, and good soil?",
+                          "What would happen if sunlight becomes very low?"
+                      ],
+    "indian_legacy":  {
+                          "scientist":  "Varahamihira",
+                          "connection":  "Varahamihira, an ancient Indian polymath, wrote about the importance of soil, water, and sunlight for plant growth in his book Brihat-Samhita. His work highlights the understanding of Indian scientists in ancient times about the factors that contribute to plant growth, which is still relevant today as we observe how plants use light, water, carbon dioxide, and minerals to grow.",
+                          "story_hook":  "Imagine being a young explorer in ancient India, discovering the secrets of plant growth alongside Varahamihira, who taught us that plants need the right balance of water, sunlight, and nutrients from the soil to thrive. As we measure the height of our plants each week, we are following in the footsteps of Varahamihira, turning our observations into valuable data about the magic of plant growth.",
+                          "class_appropriate":  {
+                                                    "1-5":  "story_hook only",
+                                                    "6-8":  "story + connection",
+                                                    "9-10":  "full connection with equations"
+                                                },
+                          "enrichment_status":  "completed"
+                      },
+    "home_investigation":  {
+                               "title":  "Ghar pe Try Karo: Growing a Plant",
+                               "time_required":  "5-10 min",
+                               "materials":  [
+                                                 "Ghar mein available items (see experiment below)"
+                                             ],
+                               "steps":  [
+                                             "Grow two similar seeds. Keep notes on water, sunlight, height, and leaves for two weeks. Do not taste any plant unless a trusted adult confirms it is edible and safe."
+                                         ],
+                               "safety_note":  "Adult supervision recommended for heat, electricity, or chemicals.",
+                               "share_with_sakha":  "Kya hua? Kya unexpected tha? Apne words mein batao."
+                           },
+    "unlocks":  [
+                    "plant_parts_and_photosynthesis",
+                    "measurement_and_data",
+                    "nutrients",
+                    "light"
+                ],
+    "subject_web_position":  {
+                                 "x":  0.5,
+                                 "y":  0.5
+                             },
+    "stem_lab_link":  "life-concepts-lab#scenario-plant-growth",
+    "visualizer_type":  "life_concepts_lab",
+    "life_decision":  "Observe carefully, change one factor at a time, and make a safer or smarter daily decision from the evidence.",
+    "career_connections":  "Useful for problem solving, design thinking, health awareness, environmental thinking, and early STEM career exploration.",
+    "why_matters":  "Growing a Plant turns a familiar daily event into applied reasoning. It helps students see why classroom concepts matter outside the textbook.",
+    "session_type":  "science",
+    "_source":  "life-concepts-lab-v1_4_1-final-polish",
+    "_enrichment_needed":  [
+                               "indian_legacy",
+                               "wonder_tangents.related_concepts",
+                               "misconceptions (domain-specific)",
+                               "prerequisites",
+                               "stem_lab_link (full deployed URL)"
+                           ],
+    "concept_difficulty_level":  3,
+    "learning_track":  [
+                           "core"
+                       ],
+    "visualizer":  {
+                       "ask_after":  "clear_checkpoint",
+                       "source":  "3D_world/05_Biology_Models/PhotosynthesisLab.tsx",
+                       "id":  "photosynthesis-flow"
+                   }
 }

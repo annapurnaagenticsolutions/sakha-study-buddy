@@ -1,5 +1,4 @@
 import { SakhaAgent } from './agent.js';
-import { renderComponent } from './components.js';
 
 const els = {
     landingShell: document.getElementById('landingShell'),
@@ -595,9 +594,10 @@ function getWhiteboardView(whiteboard, stage) {
     };
 }
 
-function renderWhiteboardPanel(whiteboard, title, stage = 'start') {
+async function renderWhiteboardPanel(whiteboard, title, stage = 'start') {
     if (!whiteboard || !els.whiteboardPanel || !els.whiteboardContent) return;
     whiteboardStage = stage;
+    const { renderComponent } = await import('./components.js');
     const board = renderComponent('Whiteboard', { whiteboard: getWhiteboardView(whiteboard, stage), title });
     els.whiteboardContent.replaceChildren(board);
     showWhiteboardPanel();
@@ -615,6 +615,35 @@ function closeWhiteboardPanel() {
     if (els.whiteboardBtn) {
         els.whiteboardBtn.classList.remove('open');
         els.whiteboardBtn.setAttribute('aria-expanded', 'false');
+    }
+}
+
+function applyWhiteboardAction(board, action) {
+    if (!board.basics) board.basics = [];
+    if (!board.steps) board.steps = [];
+    if (!board.symbols) board.symbols = [];
+    if (!board.common_confusions) board.common_confusions = [];
+
+    switch (action.type) {
+        case 'ADD_BASIC':
+            if (!board.basics.includes(action.text)) {
+                board.basics.push({ id: action.id, text: action.text });
+            }
+            break;
+        case 'ADD_STEP':
+            board.steps.push({ id: action.id, label: action.label, detail: action.detail });
+            break;
+        case 'REVEAL_FORMULA':
+            board.formula = action.formula;
+            board.formula_reading = action.formula_reading;
+            board.latestActionId = action.id || 'formula';
+            break;
+        case 'ADD_SYMBOL':
+            board.symbols.push({ id: action.id, symbol: action.symbol, means: action.means, example: action.example });
+            break;
+        case 'ADD_CONFUSION':
+            board.common_confusions.push({ id: action.id, confusion: action.confusion, fix: action.fix });
+            break;
     }
 }
 
@@ -896,9 +925,15 @@ function appendMessage(role, text) {
     scrollToBottom();
 }
 
-function appendComponent(componentName, props) {
+async function appendComponent(componentName, props) {
     if (componentName === 'Whiteboard') {
-        activeWhiteboard = props?.whiteboard || activeWhiteboard;
+        if (props?.whiteboardAction) {
+            if (!activeWhiteboard) activeWhiteboard = { basics: [], steps: [], symbols: [], common_confusions: [] };
+            applyWhiteboardAction(activeWhiteboard, props.whiteboardAction);
+            activeWhiteboard.latestActionId = props.whiteboardAction.id || Date.now();
+        } else {
+            activeWhiteboard = props?.whiteboard || activeWhiteboard;
+        }
         activeWhiteboardTitle = props?.title || activeWhiteboardTitle;
         if (els.whiteboardBtn) {
             els.whiteboardBtn.disabled = !activeWhiteboard;
@@ -907,7 +942,15 @@ function appendComponent(componentName, props) {
         openActiveWhiteboard(props?.stage || whiteboardStage || 'steps');
         return;
     }
+    
+    if (componentName === 'ConceptVisualizer' || componentName === 'PlantVisualizer') {
+        const mod = await import(new URL('./concept-visualizers.js', import.meta.url));
+        mod.appendConceptVisualizer({ concept: agent.concept, container: els.chatContainer });
+        scrollToBottom();
+        return;
+    }
 
+    const { renderComponent } = await import('./components.js');
     const el = renderComponent(componentName, props);
     els.chatContainer.appendChild(el);
     scrollToBottom();
@@ -932,6 +975,13 @@ async function handleSend() {
     });
     if (p2pService) p2pService.send({ type: 'msg', role: 'user', text });
     els.userInput.value = '';
+
+    if (agent.concept?.visualizer && learningPhase[0] === 'v') {
+        const mod = await import(new URL('./concept-visualizers.js', import.meta.url));
+        mod.appendConceptVisualizer({ concept: agent.concept, container: els.chatContainer });
+        scrollToBottom();
+        return;
+    }
 
     const loadingDiv = document.createElement('div');
     loadingDiv.className = 'message bot';

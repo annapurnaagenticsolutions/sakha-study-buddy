@@ -1,204 +1,217 @@
 {
-  "concept_id": "math_coordinate_plane",
-  "title": "Coordinate Plane",
-  "icon": "📐",
-  "class_band": [
-    8,
-    9,
-    10
-  ],
-  "subjects": [
-    "Math"
-  ],
-  "level": "Socratic Flow",
-  "prerequisites": [
-    "integers",
-    "number line"
-  ],
-  "intro_hook": "Where is the point (-2, 3) located from the origin?",
-  "big_idea": "Coordinates locate points using ordered pairs and support graphing and geometry.",
-  "story": "",
-  "cause_process_result": {
-    "cause": "Coordinates are an address for a point.",
-    "process": "The first number moves left/right; the second moves up/down. Grid with x-axis and y-axis crossing at origin.",
-    "result": "Graphs, maps, motion, data plots, analytic geometry."
-  },
-  "flow": [],
-  "whiteboard": [
-    "Intuition: Coordinates are an address for a point.",
-    "Visual: Grid with x-axis and y-axis crossing at origin.",
-    "Formal: A point is represented as (x, y), with x as horizontal coordinate and y as vertical coordinate.",
-    "Application: Graphs, maps, motion, data plots, analytic geometry."
-  ],
-  "indian_analogies": [
-    "Like giving directions: first go west/east, then north/south. (-2, 3) means west 2, north 3.",
-    "(-2, 3) mein pehla number x hai: 2 left. Dusra number y hai: 3 up."
-  ],
-  "misconceptions": [
-    {
-      "id": "mis_math_coordinate_plane_01",
-      "belief": "reverse x and y",
-      "why_common": "I mixed up x and y or counted from the wrong direction.",
-      "probe": "Where is the point (-2, 3) located from the origin?",
-      "repair": "Use a floor grid: walk horizontally first, then vertically. Then ask the learner to state the rule in their own words before moving to symbols.",
-      "repair_visual": "Use a floor grid: walk horizontally first, then vertically.",
-      "follow_up": "Give a changed coordinate plane situation and ask the learner to explain why the same idea still applies.",
-      "teacher_prompt": "Use movement commands on a grid before plotting abstract points.",
-      "mastery_signal": "Learner can explain why “reverse x and y” is not correct and answer a changed follow-up without relying only on a memorized rule.",
-      "trigger_words": [
-        "suggests: reverse x and",
-        "gives answer without valid",
-        "cannot explain the idea"
-      ]
-    },
-    {
-      "id": "mis_math_coordinate_plane_02",
-      "belief": "negative coordinates are invalid",
-      "why_common": "I mixed up x and y or counted from the wrong direction.",
-      "probe": "Where is the point (-2, 3) located from the origin?",
-      "repair": "Use a floor grid: walk horizontally first, then vertically. Then ask the learner to state the rule in their own words before moving to symbols.",
-      "repair_visual": "Use a floor grid: walk horizontally first, then vertically.",
-      "follow_up": "Give a changed coordinate plane situation and ask the learner to explain why the same idea still applies.",
-      "teacher_prompt": "Use movement commands on a grid before plotting abstract points.",
-      "mastery_signal": "Learner can explain why “negative coordinates are invalid” is not correct and answer a changed follow-up without relying only on a memorized rule.",
-      "trigger_words": [
-        "suggests: negative coordinates are",
-        "gives answer without valid",
-        "cannot explain the idea"
-      ]
-    },
-    {
-      "id": "mis_math_coordinate_plane_03",
-      "belief": "origin is always a data point",
-      "why_common": "I mixed up x and y or counted from the wrong direction.",
-      "probe": "Where is the point (-2, 3) located from the origin?",
-      "repair": "Use a floor grid: walk horizontally first, then vertically. Then ask the learner to state the rule in their own words before moving to symbols.",
-      "repair_visual": "Use a floor grid: walk horizontally first, then vertically.",
-      "follow_up": "Give a changed coordinate plane situation and ask the learner to explain why the same idea still applies.",
-      "teacher_prompt": "Use movement commands on a grid before plotting abstract points.",
-      "mastery_signal": "Learner can explain why “origin is always a data point” is not correct and answer a changed follow-up without relying only on a memorized rule.",
-      "trigger_words": [
-        "suggests: origin is a",
-        "gives answer without valid",
-        "cannot explain the idea"
-      ]
-    }
-  ],
-  "question_flow": [
-    {
-      "type": "hook",
-      "q": "Where is the point (-2, 3) located from the origin?",
-      "a": "Yeh point (-2, 3) origin se left aur up ki taraf hai, iska matlab yeh point x-axis par 2 unit left aur y-axis par 3 unit up hai. Is point ka x-coordinate -2 hai jo left ko darshata hai aur y-coordinate 3 hai jo up ko darshata hai."
-    },
-    {
-      "type": "probe",
-      "q": "In (x, y), which number tells horizontal movement?",
-      "a": "X number horizontal movement ko batata hai, yeh left ya right ki taraf movement ko darshata hai. Isse hume pata chalta hai ki point kitni door hai axis se left ya right mein."
-    },
-    {
-      "type": "probe",
-      "q": "A negative x-value means move left or right?",
-      "a": "Ek negative x-value ka matlab hai left mein move karna, kyunki positive x-value right mein move karta hai. Isliye, negative x-value se hum left ki taraf jaate hain."
-    },
-    {
-      "type": "probe",
-      "q": "A positive y-value means move up or down?",
-      "a": "Ek positive y-value ka matlab hai upar ki taraf move karna, yaani hume coordinate plane par upar ki taraf badhna hai. Iska matlab hai hume niche nahi, balki upar ki taraf jaana hai."
-    },
-    {
-      "type": "application",
-      "q": "Describe how to plot the point (4, -1) from the origin.",
-      "a": "Hum origin se shuru karte hain, phir 4 units right aur 1 unit neeche jaate hain, jisse hume point (4, -1) milta hai. Is tarah se hum coordinate plane par point (4, -1) ko plot kar sakte hain."
-    },
-    {
-      "type": "teach_back",
-      "q": "Why does the order of numbers matter in a coordinate pair?",
-      "a": "Coordinate pair mein number ka kram mahatvapoorn hota hai kyonki yeh humein bataata hai ki hum x-axis ya y-axis par kitni door hain, agar hum inhein galat kram mein likhein to hum galat sthaan par pahunch jaayenge. Isliye, pehla number humein x-axis ki sthiti bataata hai aur doosra number y-axis ki sthiti b"
-    }
-  ],
-  "practice_problems": [
-    {
-      "difficulty": 2,
-      "type": "open",
-      "q": "Where is the point (-2, 3) located from the origin?",
-      "hint": "Coordinates are an address for a point.",
-      "answer": "Move 2 units left on the x-axis and 3 units up on the y-axis."
-    },
-    {
-      "difficulty": 3,
-      "type": "transfer",
-      "q": "Describe how to plot the point (4, -1) from the origin.",
-      "hint": "Same idea, new context.",
-      "answer": "Mastery requires using x-first/y-second order and interpreting signs as directions."
-    }
-  ],
-  "teaching_styles": {
-    "simple": "For (-2, 3), the first number is x, so move 2 units left. The second number is y, so move 3 units up.",
-    "visual": "Imagine the grid as a city map. From the origin, go left two blocks, then up three blocks.",
-    "real_life": "Like giving directions: first go west/east, then north/south. (-2, 3) means west 2, north 3.",
-    "formal": "An ordered pair (x, y) specifies horizontal coordinate x and vertical coordinate y. Negative x is left of the origin; positive y is above the origin.",
-    "socratic": "Which axis is horizontal? Which coordinate comes first? What does the negative sign change?",
-    "mistake_analysis": "The mistake is swapping the order. Coordinates are ordered; (-2, 3) and (3, -2) are different locations.",
-    "hinglish": "(-2, 3) mein pehla number x hai: 2 left. Dusra number y hai: 3 up.",
-    "challenge": "Now locate (3, -2). How is it different from (-2, 3)?",
-    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
-  },
-  "learner_adaptations": {
-    "struggling": "Coordinates are an address for a point.",
-    "standard": "The first number moves left/right; the second moves up/down.",
-    "advanced": "A point is represented as (x, y), with x as horizontal coordinate and y as vertical coordinate.",
-    "fast_learner": "Now locate (3, -2). How is it different from (-2, 3)?"
-  },
-  "subject_lenses": {
-    "Math": "Graphs, maps, motion, data plots, analytic geometry."
-  },
-  "wonder_tangents": [
-    {
-      "trigger": "after_student_explains",
-      "hinglish": "Ek interesting connection — Coordinate Plane ka use real life mein: Graphs, maps, motion, data plots, analytic geometry.",
-      "related_concepts": []
-    }
-  ],
-  "daily_wonders": [
-    "Aaj coordinate plane ka ek real-life example dhundo.",
-    "Like giving directions: first go west/east, then north/south. (-2, 3) means west 2, north 3."
-  ],
-  "indian_legacy": {
-    "scientist": "Aryabhata",
-    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, used coordinate systems to chart the movements of celestial bodies. His work on zero and the concept of a place-value system, which is crucial for understanding coordinates, laid the foundation for later mathematicians to develop more complex geometric and trigonometric concepts.",
-    "story_hook": "Imagine you are an ancient Indian astronomer like Aryabhata, trying to map the night sky with stars and planets as your guides. As you begin to chart their movements using a grid system, you realize that each point in the sky can be located using a unique set of coordinates, just like the ones Aryabhata used centuries ago.",
-    "class_appropriate": {},
-    "enrichment_status": "completed"
-  },
-  "home_investigation": {
-    "title": "Try at Home: Coordinate Plane",
-    "time_required": "5 min",
-    "materials": [
-      "Paper, pen, everyday objects"
-    ],
-    "steps": [
-      "Like giving directions: first go west/east, then north/south. (-2, 3) means west 2, north 3."
-    ],
-    "share_with_sakha": "What did you notice?"
-  },
-  "unlocks": [],
-  "subject_web_position": {
-    "x": 0.5,
-    "y": 0.5
-  },
-  "stem_lab_link": "jigyasu-socratic-tutor#concept-math_coordinate_plane",
-  "visualizer_type": "socratic_tutor",
-  "mastery_rule": "Mastery requires using x-first/y-second order and interpreting signs as directions.",
-  "session_type": "math",
-  "_source": "jigyasu-socratic-stem-tutor-v1.0",
-  "_socratic_flow_id": "flow_math_coordinate_plane_full",
-  "_enrichment_needed": [
-    "indian_legacy",
-    "unlocks",
-    "stem_lab_link (full URL)"
-  ],
-  "concept_difficulty_level": 10,
-  "learning_track": [
-    "core"
-  ]
+    "concept_id":  "math_coordinate_plane",
+    "title":  "Coordinate Plane",
+    "icon":  "ðŸ“",
+    "class_band":  [
+                       8,
+                       9,
+                       10
+                   ],
+    "subjects":  [
+                     "Math"
+                 ],
+    "level":  "Socratic Flow",
+    "prerequisites":  [
+                          "integers",
+                          "number line"
+                      ],
+    "intro_hook":  "Where is the point (-2, 3) located from the origin?",
+    "big_idea":  "Coordinates locate points using ordered pairs and support graphing and geometry.",
+    "story":  "",
+    "cause_process_result":  {
+                                 "cause":  "Coordinates are an address for a point.",
+                                 "process":  "The first number moves left/right; the second moves up/down. Grid with x-axis and y-axis crossing at origin.",
+                                 "result":  "Graphs, maps, motion, data plots, analytic geometry."
+                             },
+    "flow":  [
+
+             ],
+    "whiteboard":  [
+                       "Intuition: Coordinates are an address for a point.",
+                       "Visual: Grid with x-axis and y-axis crossing at origin.",
+                       "Formal: A point is represented as (x, y), with x as horizontal coordinate and y as vertical coordinate.",
+                       "Application: Graphs, maps, motion, data plots, analytic geometry."
+                   ],
+    "indian_analogies":  [
+                             "Like giving directions: first go west/east, then north/south. (-2, 3) means west 2, north 3.",
+                             "(-2, 3) mein pehla number x hai: 2 left. Dusra number y hai: 3 up."
+                         ],
+    "misconceptions":  [
+                           {
+                               "id":  "mis_math_coordinate_plane_01",
+                               "belief":  "reverse x and y",
+                               "why_common":  "I mixed up x and y or counted from the wrong direction.",
+                               "probe":  "Where is the point (-2, 3) located from the origin?",
+                               "repair":  "Use a floor grid: walk horizontally first, then vertically. Then ask the learner to state the rule in their own words before moving to symbols.",
+                               "repair_visual":  "Use a floor grid: walk horizontally first, then vertically.",
+                               "follow_up":  "Give a changed coordinate plane situation and ask the learner to explain why the same idea still applies.",
+                               "teacher_prompt":  "Use movement commands on a grid before plotting abstract points.",
+                               "mastery_signal":  "Learner can explain why â€œreverse x and yâ€ is not correct and answer a changed follow-up without relying only on a memorized rule.",
+                               "trigger_words":  [
+                                                     "suggests: reverse x and",
+                                                     "gives answer without valid",
+                                                     "cannot explain the idea"
+                                                 ]
+                           },
+                           {
+                               "id":  "mis_math_coordinate_plane_02",
+                               "belief":  "negative coordinates are invalid",
+                               "why_common":  "I mixed up x and y or counted from the wrong direction.",
+                               "probe":  "Where is the point (-2, 3) located from the origin?",
+                               "repair":  "Use a floor grid: walk horizontally first, then vertically. Then ask the learner to state the rule in their own words before moving to symbols.",
+                               "repair_visual":  "Use a floor grid: walk horizontally first, then vertically.",
+                               "follow_up":  "Give a changed coordinate plane situation and ask the learner to explain why the same idea still applies.",
+                               "teacher_prompt":  "Use movement commands on a grid before plotting abstract points.",
+                               "mastery_signal":  "Learner can explain why â€œnegative coordinates are invalidâ€ is not correct and answer a changed follow-up without relying only on a memorized rule.",
+                               "trigger_words":  [
+                                                     "suggests: negative coordinates are",
+                                                     "gives answer without valid",
+                                                     "cannot explain the idea"
+                                                 ]
+                           },
+                           {
+                               "id":  "mis_math_coordinate_plane_03",
+                               "belief":  "origin is always a data point",
+                               "why_common":  "I mixed up x and y or counted from the wrong direction.",
+                               "probe":  "Where is the point (-2, 3) located from the origin?",
+                               "repair":  "Use a floor grid: walk horizontally first, then vertically. Then ask the learner to state the rule in their own words before moving to symbols.",
+                               "repair_visual":  "Use a floor grid: walk horizontally first, then vertically.",
+                               "follow_up":  "Give a changed coordinate plane situation and ask the learner to explain why the same idea still applies.",
+                               "teacher_prompt":  "Use movement commands on a grid before plotting abstract points.",
+                               "mastery_signal":  "Learner can explain why â€œorigin is always a data pointâ€ is not correct and answer a changed follow-up without relying only on a memorized rule.",
+                               "trigger_words":  [
+                                                     "suggests: origin is a",
+                                                     "gives answer without valid",
+                                                     "cannot explain the idea"
+                                                 ]
+                           }
+                       ],
+    "question_flow":  [
+                          {
+                              "type":  "hook",
+                              "q":  "Where is the point (-2, 3) located from the origin?",
+                              "a":  "Yeh point (-2, 3) origin se left aur up ki taraf hai, iska matlab yeh point x-axis par 2 unit left aur y-axis par 3 unit up hai. Is point ka x-coordinate -2 hai jo left ko darshata hai aur y-coordinate 3 hai jo up ko darshata hai."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "In (x, y), which number tells horizontal movement?",
+                              "a":  "X number horizontal movement ko batata hai, yeh left ya right ki taraf movement ko darshata hai. Isse hume pata chalta hai ki point kitni door hai axis se left ya right mein."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "A negative x-value means move left or right?",
+                              "a":  "Ek negative x-value ka matlab hai left mein move karna, kyunki positive x-value right mein move karta hai. Isliye, negative x-value se hum left ki taraf jaate hain."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "A positive y-value means move up or down?",
+                              "a":  "Ek positive y-value ka matlab hai upar ki taraf move karna, yaani hume coordinate plane par upar ki taraf badhna hai. Iska matlab hai hume niche nahi, balki upar ki taraf jaana hai."
+                          },
+                          {
+                              "type":  "application",
+                              "q":  "Describe how to plot the point (4, -1) from the origin.",
+                              "a":  "Hum origin se shuru karte hain, phir 4 units right aur 1 unit neeche jaate hain, jisse hume point (4, -1) milta hai. Is tarah se hum coordinate plane par point (4, -1) ko plot kar sakte hain."
+                          },
+                          {
+                              "type":  "teach_back",
+                              "q":  "Why does the order of numbers matter in a coordinate pair?",
+                              "a":  "Coordinate pair mein number ka kram mahatvapoorn hota hai kyonki yeh humein bataata hai ki hum x-axis ya y-axis par kitni door hain, agar hum inhein galat kram mein likhein to hum galat sthaan par pahunch jaayenge. Isliye, pehla number humein x-axis ki sthiti bataata hai aur doosra number y-axis ki sthiti b"
+                          }
+                      ],
+    "practice_problems":  [
+                              {
+                                  "difficulty":  2,
+                                  "type":  "open",
+                                  "q":  "Where is the point (-2, 3) located from the origin?",
+                                  "hint":  "Coordinates are an address for a point.",
+                                  "answer":  "Move 2 units left on the x-axis and 3 units up on the y-axis."
+                              },
+                              {
+                                  "difficulty":  3,
+                                  "type":  "transfer",
+                                  "q":  "Describe how to plot the point (4, -1) from the origin.",
+                                  "hint":  "Same idea, new context.",
+                                  "answer":  "Mastery requires using x-first/y-second order and interpreting signs as directions."
+                              }
+                          ],
+    "teaching_styles":  {
+                            "simple":  "For (-2, 3), the first number is x, so move 2 units left. The second number is y, so move 3 units up.",
+                            "visual":  "Imagine the grid as a city map. From the origin, go left two blocks, then up three blocks.",
+                            "real_life":  "Like giving directions: first go west/east, then north/south. (-2, 3) means west 2, north 3.",
+                            "formal":  "An ordered pair (x, y) specifies horizontal coordinate x and vertical coordinate y. Negative x is left of the origin; positive y is above the origin.",
+                            "socratic":  "Which axis is horizontal? Which coordinate comes first? What does the negative sign change?",
+                            "mistake_analysis":  "The mistake is swapping the order. Coordinates are ordered; (-2, 3) and (3, -2) are different locations.",
+                            "hinglish":  "(-2, 3) mein pehla number x hai: 2 left. Dusra number y hai: 3 up.",
+                            "challenge":  "Now locate (3, -2). How is it different from (-2, 3)?",
+                            "teach_back":  "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+                        },
+    "learner_adaptations":  {
+                                "struggling":  "Coordinates are an address for a point.",
+                                "standard":  "The first number moves left/right; the second moves up/down.",
+                                "advanced":  "A point is represented as (x, y), with x as horizontal coordinate and y as vertical coordinate.",
+                                "fast_learner":  "Now locate (3, -2). How is it different from (-2, 3)?"
+                            },
+    "subject_lenses":  {
+                           "Math":  "Graphs, maps, motion, data plots, analytic geometry."
+                       },
+    "wonder_tangents":  [
+                            {
+                                "trigger":  "after_student_explains",
+                                "hinglish":  "Ek interesting connection â€” Coordinate Plane ka use real life mein: Graphs, maps, motion, data plots, analytic geometry.",
+                                "related_concepts":  [
+
+                                                     ]
+                            }
+                        ],
+    "daily_wonders":  [
+                          "Aaj coordinate plane ka ek real-life example dhundo.",
+                          "Like giving directions: first go west/east, then north/south. (-2, 3) means west 2, north 3."
+                      ],
+    "indian_legacy":  {
+                          "scientist":  "Aryabhata",
+                          "connection":  "Aryabhata, a renowned Indian mathematician and astronomer, used coordinate systems to chart the movements of celestial bodies. His work on zero and the concept of a place-value system, which is crucial for understanding coordinates, laid the foundation for later mathematicians to develop more complex geometric and trigonometric concepts.",
+                          "story_hook":  "Imagine you are an ancient Indian astronomer like Aryabhata, trying to map the night sky with stars and planets as your guides. As you begin to chart their movements using a grid system, you realize that each point in the sky can be located using a unique set of coordinates, just like the ones Aryabhata used centuries ago.",
+                          "class_appropriate":  {
+
+                                                },
+                          "enrichment_status":  "completed"
+                      },
+    "home_investigation":  {
+                               "title":  "Try at Home: Coordinate Plane",
+                               "time_required":  "5 min",
+                               "materials":  [
+                                                 "Paper, pen, everyday objects"
+                                             ],
+                               "steps":  [
+                                             "Like giving directions: first go west/east, then north/south. (-2, 3) means west 2, north 3."
+                                         ],
+                               "share_with_sakha":  "What did you notice?"
+                           },
+    "unlocks":  [
+
+                ],
+    "subject_web_position":  {
+                                 "x":  0.5,
+                                 "y":  0.5
+                             },
+    "stem_lab_link":  "jigyasu-socratic-tutor#concept-math_coordinate_plane",
+    "visualizer_type":  "socratic_tutor",
+    "mastery_rule":  "Mastery requires using x-first/y-second order and interpreting signs as directions.",
+    "session_type":  "math",
+    "_source":  "jigyasu-socratic-stem-tutor-v1.0",
+    "_socratic_flow_id":  "flow_math_coordinate_plane_full",
+    "_enrichment_needed":  [
+                               "indian_legacy",
+                               "unlocks",
+                               "stem_lab_link (full URL)"
+                           ],
+    "concept_difficulty_level":  10,
+    "learning_track":  [
+                           "core"
+                       ],
+    "visualizer":  {
+                       "ask_after":  "clear_checkpoint",
+                       "source":  "3D_world/07_New_2D_Canvases/Class4_6_TreasureGridAndZooBuilderCanvas.tsx",
+                       "id":  "coordinate-grid"
+                   }
 }

@@ -408,4 +408,14 @@ console.log(`Passed: ${passCount} ✓`);
 console.log(`Failed: ${failCount} ✗`);
 console.log(`Success Rate: ${((passCount/testCount)*100).toFixed(1)}%\n`);
 
-process.exit(failCount > 0 ? 1 : 0);
+if (typeof process !== 'undefined' && process.env && !process.env.VITEST) {
+  process.exit(failCount > 0 ? 1 : 0);
+}
+
+if (typeof test === 'function') {
+  test('StorageManager unit tests complete without errors', () => {
+    if (failCount > 0) {
+      throw new Error(`StorageManager unit tests failed (${failCount} failures out of ${testCount} tests)`);
+    }
+  });
+}

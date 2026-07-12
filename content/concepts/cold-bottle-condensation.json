@@ -1,227 +1,236 @@
 {
-  "concept_id": "cold-bottle-condensation",
-  "title": "Water Drops on a Cold Bottle",
-  "icon": "💧",
-  "class_band": [
-    4,
-    5
-  ],
-  "subjects": [
-    "Physics",
-    "Chemistry",
-    "Math"
-  ],
-  "place": "Kitchen + Classroom",
-  "level": "Bridge",
-  "prerequisites": [],
-  "intro_hook": "Why do water drops appear outside a cold bottle even when the bottle is not leaking?",
-  "big_idea": "Air contains water vapour. When warm moist air touches a cold bottle, the vapour cools and condenses into liquid water drops.",
-  "story": "A cold bottle is taken from the fridge. After a few minutes, tiny drops appear outside. The water came from air, not from inside the bottle.",
-  "cause_process_result": {
-    "cause": "Cold bottle",
-    "process": "Moist air touches surface → Vapour cools → Drops form",
-    "result": "Surface becomes wet"
-  },
-  "flow": [
-    "Cold bottle",
-    "Moist air touches surface",
-    "Vapour cools",
-    "Drops form",
-    "Surface becomes wet"
-  ],
-  "whiteboard": [
-    "Cause: Cold bottle",
-    "  -> Moist air touches surface → Vapour cools → Drops form",
-    "Result: Surface becomes wet"
-  ],
-  "indian_analogies": [
-    "Kitchen + Classroom mein yeh dekhte hain: Water Drops on a Cold Bottle.",
-    "Cold drinks"
-  ],
-  "misconceptions": [
-    {
-      "id": "single_subject_thinking",
-      "belief": "This topic belongs to only one subject.",
-      "why_common": "The bottle does not need to leak for water drops to appear. The surrounding air can supply the water.",
-      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
-      "repair": "Water Drops on a Cold Bottle mein Physics, Chemistry, Math sab ek saath kaam karte hain.",
-      "trigger_words": [
-        "sirf",
-        "only",
-        "just",
-        "ek subject",
-        "one reason"
-      ]
-    },
-    {
-      "id": "cause_is_result",
-      "belief": "The first visible thing IS the reason, not the start of a chain.",
-      "why_common": "Students observe the output and skip the mechanism.",
-      "probe": "Why do water drops appear outside a cold bottle even when the bottle is not leaking?",
-      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
-      "trigger_words": [
-        "because it happens",
-        "directly",
-        "seedha"
-      ]
-    }
-  ],
-  "question_flow": [
-    {
-      "type": "hook",
-      "q": "Why do water drops appear outside a cold bottle even when the bottle is not leaking?",
-      "a": "Yeh tab hota hai jab bottle mein se garmi bahar nikalti hai aur bottle ke bahar ki hawa se takraati hai, jisse condensation hota hai aur paani ke boonde ban jaate hain. Is prakriya ko condensation kehte hain. Isse paani ke boonde bottle ke bahar dikhne lagte hain."
-    },
-    {
-      "type": "probe",
-      "q": "Why do drops form faster on humid days?",
-      "a": "Humid dinon mein, hawa mein adhik jalvaashp hoti hai, jiske kaaran bottle par jalvaashp tezee se sangeekrit hoti hai aur boondon ki utpatti tezi se hoti hai. Iska matlab hai ki jab hawa mein adhik aadi hoti hai, to bottle par boondon ki sankhya tezee se badhti hai."
-    },
-    {
-      "type": "probe",
-      "q": "Why does wiping not stop new drops?",
-      "a": "Wiping se purane drops toh hat jaate hain lekin naye drops banate hain kyunki bottle ki satah par maujood paani vaashp se jabardast condensation hota rehta hai. Is condensation ki wajah se naye drops banate rehte hain. Isliye wiping se naye drops rokne mein madad nahin milti."
-    },
-    {
-      "type": "probe",
-      "q": "How is this similar to dew?",
-      "a": "Yeh dew ki tarah hi hai, jab raat mein thandi hawa garm zemini satah se takraati hai to paani ki boondein jamne lagti hain, isi tarah cold bottle par bhi paani ki boondein jamti hain. Ismein condensation ka process hota hai, jismein vaashp jamkar paani ki boondein ban jaati hain."
-    },
-    {
-      "type": "concept_check",
-      "q": "In this flow — Cold bottle -> Moist air touches surface -> Vapour cools — what exactly happens at each step?",
-      "a": "Pehle step mein, cold bottle ki surface par moist air touch hoti hai, jisse vapour ko cool hone ka chance milta hai. Dusre step mein, vapour cool ho kar condense hota hai aur water drops ban jate hain. Is prakriya mein, vapour se water drops mein badlav hota hai, jise hum condensation kehte hain."
-    },
-    {
-      "type": "teach_back",
-      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
-      "a": "Ek 5 saal ke bachhe ko main aisa samjhaunga, jab hum cold drink ki bottle se nikalte hue paani ko fridge se nikaalte hain, to us par boond-boond nikalne lagti hain, yeh sab ho raha hai kyunki bottle ki satah par maujood hawa mein se paani ki vaashp jamne lagti hai aur boondon ki shape mein dikhne lagti hai."
-    },
-    {
-      "type": "application",
-      "q": "Where does the water outside a cold bottle mostly come from?",
-      "a": "Yeh paani bottle ke andar se condensation ke kaaran aata hai, jab garm hawa bottle ke saath touch hoti hai toh usmein se water vapour thanda hokar paani ki boondon mein badal jaata hai. Is prakriya mein hawa mein maujood water vapour thanda hokar paani ki boondon mein badal jaata hai. Isliye, bottle ke bahar paani mostly h"
-    }
-  ],
-  "practice_problems": [
-    {
-      "difficulty": 2,
-      "type": "mcq",
-      "q": "Where does the water outside a cold bottle mostly come from?",
-      "options": [
-        "Inside the bottle leaking",
-        "Water vapour in the air",
-        "The plastic changing into water",
-        "Dust becoming liquid"
-      ],
-      "correct": "Water vapour in the air",
-      "hint": "Moist air near the cold surface cools down, so water vapour condenses into droplets.",
-      "answer": "Moist air near the cold surface cools down, so water vapour condenses into droplets."
-    },
-    {
-      "difficulty": 1,
-      "type": "what_if",
-      "q": "What would happen if bottle coldness becomes very low?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    },
-    {
-      "difficulty": 2,
-      "type": "what_if",
-      "q": "What would happen if bottle coldness becomes very high?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    },
-    {
-      "difficulty": 3,
-      "type": "what_if",
-      "q": "What would change if the place, material, time, or weather changes?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    }
-  ],
-  "teaching_styles": {
-    "simple": "Water Drops on a Cold Bottle shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
-    "standard": "In Water Drops on a Cold Bottle, one or more factors such as bottle coldness change what we observe. The idea connects Physics, Chemistry, Math and helps explain the situation beyond memorizing a fact.",
-    "deep": "A deeper explanation of Water Drops on a Cold Bottle connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Air contains water vapour. When warm moist air touches a cold bottle, the vapour cools and condenses into liquid water drops.",
-    "hinglish": "Dekh yaar — Water Drops on a Cold Bottle mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
-    "story": "A cold bottle is taken from the fridge. After a few minutes, tiny drops appear outside. The water came from air, not from inside the bottle."
-  },
-  "learner_adaptations": {
-    "class_1_3": "Notice the situation: Why do water drops appear outside a cold bottle even when the bottle is not leaking. Say what you can see, hear, feel, or compare safely.",
-    "class_4_5": "Name the main factor and compare two cases. Example: less vs more bottle coldness.",
-    "class_6_8": "Explain the cause-effect chain: Cold bottle → Moist air touches surface → Vapour cools → Drops form.",
-    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
-    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
-    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Chemistry, Math."
-  },
-  "subject_lenses": {
-    "Physics": "Heat flows from warm air to the cold bottle surface.",
-    "Chemistry": "Water changes state from vapour to liquid during condensation.",
-    "Math": "Compare time taken for drops to appear in different places."
-  },
-  "wonder_tangents": [
-    {
-      "trigger": "after_student_explains",
-      "hinglish": "By the way — Water Drops on a Cold Bottle ka concept aur jagah bhi kaam karta hai: Cold drinks, Bathroom mirrors, Morning dew.",
-      "related_concepts": [],
-      "career_connection": "Meteorology, HVAC design, refrigeration, materials science, building design."
-    }
-  ],
-  "daily_wonders": [
-    "Aaj water drops on a cold bottle se related kuch notice karo.",
-    "Why do water drops appear outside a cold bottle even when the bottle is not leaking?",
-    "What would happen if bottle coldness becomes very low?"
-  ],
-  "indian_legacy": {
-    "scientist": "Varahamihira",
-    "connection": "Varahamihira, a renowned Indian astronomer and mathematician, made significant contributions to the field of meteorology in his book Brihat-Samhita. His work on atmospheric conditions and weather patterns can be connected to the concept of condensation, where he discussed the formation of dew and rain, laying the foundation for understanding how water vapour in the air condenses into liquid water drops when it comes into contact with a cold surface.",
-    "story_hook": "Imagine you're on a chilly winter morning, and you breathe onto a cold windowpane, watching as your breath creates a misty fog that slowly clears, just like the mysterious fog that lifts off the Ganges River at dawn. As you explore the concept of condensation, you'll discover how this everyday phenomenon is connected to the groundbreaking work of Indian scientists like Varahamihira, who studied the wonders of the atmosphere centuries ago.",
-    "class_appropriate": {
-      "1-5": "story_hook only",
-      "6-8": "story + connection",
-      "9-10": "full connection with equations"
-    },
-    "enrichment_status": "completed"
-  },
-  "home_investigation": {
-    "title": "Ghar pe Try Karo: Water Drops on a Cold Bottle",
-    "time_required": "5-10 min",
-    "materials": [
-      "Ghar mein available items (see experiment below)"
-    ],
-    "steps": [
-      "Place a closed cold bottle on a plate and observe the outside surface. Wipe the bottle and check that the cap is closed. Do not place water near electrical devices."
-    ],
-    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
-    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
-  },
-  "unlocks": [
-    "heat_transfer",
-    "change_of_state",
-    "observation_time",
-    "humidity"
-  ],
-  "subject_web_position": {
-    "x": 0.5,
-    "y": 0.5
-  },
-  "stem_lab_link": "life-concepts-lab#scenario-cold-bottle-condensation",
-  "visualizer_type": "life_concepts_lab",
-  "life_decision": "Keep cold bottles on a plate or coaster and keep them away from books, electronics, and important papers.",
-  "career_connections": "Meteorology, HVAC design, refrigeration, materials science, building design.",
-  "why_matters": "This explains daily observations such as dew, fogged mirrors, and wet-looking cold objects.",
-  "session_type": "science",
-  "_source": "life-concepts-lab-v1_4_1-final-polish",
-  "_enrichment_needed": [
-    "indian_legacy",
-    "wonder_tangents.related_concepts",
-    "misconceptions (domain-specific)",
-    "prerequisites",
-    "stem_lab_link (full deployed URL)"
-  ],
-  "concept_difficulty_level": 5,
-  "learning_track": [
-    "core"
-  ]
+    "concept_id":  "cold-bottle-condensation",
+    "title":  "Water Drops on a Cold Bottle",
+    "icon":  "ðŸ’§",
+    "class_band":  [
+                       4,
+                       5
+                   ],
+    "subjects":  [
+                     "Physics",
+                     "Chemistry",
+                     "Math"
+                 ],
+    "place":  "Kitchen + Classroom",
+    "level":  "Bridge",
+    "prerequisites":  [
+
+                      ],
+    "intro_hook":  "Why do water drops appear outside a cold bottle even when the bottle is not leaking?",
+    "big_idea":  "Air contains water vapour. When warm moist air touches a cold bottle, the vapour cools and condenses into liquid water drops.",
+    "story":  "A cold bottle is taken from the fridge. After a few minutes, tiny drops appear outside. The water came from air, not from inside the bottle.",
+    "cause_process_result":  {
+                                 "cause":  "Cold bottle",
+                                 "process":  "Moist air touches surface â†’ Vapour cools â†’ Drops form",
+                                 "result":  "Surface becomes wet"
+                             },
+    "flow":  [
+                 "Cold bottle",
+                 "Moist air touches surface",
+                 "Vapour cools",
+                 "Drops form",
+                 "Surface becomes wet"
+             ],
+    "whiteboard":  [
+                       "Cause: Cold bottle",
+                       "  -\u003e Moist air touches surface â†’ Vapour cools â†’ Drops form",
+                       "Result: Surface becomes wet"
+                   ],
+    "indian_analogies":  [
+                             "Kitchen + Classroom mein yeh dekhte hain: Water Drops on a Cold Bottle.",
+                             "Cold drinks"
+                         ],
+    "misconceptions":  [
+                           {
+                               "id":  "single_subject_thinking",
+                               "belief":  "This topic belongs to only one subject.",
+                               "why_common":  "The bottle does not need to leak for water drops to appear. The surrounding air can supply the water.",
+                               "probe":  "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+                               "repair":  "Water Drops on a Cold Bottle mein Physics, Chemistry, Math sab ek saath kaam karte hain.",
+                               "trigger_words":  [
+                                                     "sirf",
+                                                     "only",
+                                                     "just",
+                                                     "ek subject",
+                                                     "one reason"
+                                                 ]
+                           },
+                           {
+                               "id":  "cause_is_result",
+                               "belief":  "The first visible thing IS the reason, not the start of a chain.",
+                               "why_common":  "Students observe the output and skip the mechanism.",
+                               "probe":  "Why do water drops appear outside a cold bottle even when the bottle is not leaking?",
+                               "repair":  "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+                               "trigger_words":  [
+                                                     "because it happens",
+                                                     "directly",
+                                                     "seedha"
+                                                 ]
+                           }
+                       ],
+    "question_flow":  [
+                          {
+                              "type":  "hook",
+                              "q":  "Why do water drops appear outside a cold bottle even when the bottle is not leaking?",
+                              "a":  "Yeh tab hota hai jab bottle mein se garmi bahar nikalti hai aur bottle ke bahar ki hawa se takraati hai, jisse condensation hota hai aur paani ke boonde ban jaate hain. Is prakriya ko condensation kehte hain. Isse paani ke boonde bottle ke bahar dikhne lagte hain."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "Why do drops form faster on humid days?",
+                              "a":  "Humid dinon mein, hawa mein adhik jalvaashp hoti hai, jiske kaaran bottle par jalvaashp tezee se sangeekrit hoti hai aur boondon ki utpatti tezi se hoti hai. Iska matlab hai ki jab hawa mein adhik aadi hoti hai, to bottle par boondon ki sankhya tezee se badhti hai."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "Why does wiping not stop new drops?",
+                              "a":  "Wiping se purane drops toh hat jaate hain lekin naye drops banate hain kyunki bottle ki satah par maujood paani vaashp se jabardast condensation hota rehta hai. Is condensation ki wajah se naye drops banate rehte hain. Isliye wiping se naye drops rokne mein madad nahin milti."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "How is this similar to dew?",
+                              "a":  "Yeh dew ki tarah hi hai, jab raat mein thandi hawa garm zemini satah se takraati hai to paani ki boondein jamne lagti hain, isi tarah cold bottle par bhi paani ki boondein jamti hain. Ismein condensation ka process hota hai, jismein vaashp jamkar paani ki boondein ban jaati hain."
+                          },
+                          {
+                              "type":  "concept_check",
+                              "q":  "In this flow â€” Cold bottle -\u003e Moist air touches surface -\u003e Vapour cools â€” what exactly happens at each step?",
+                              "a":  "Pehle step mein, cold bottle ki surface par moist air touch hoti hai, jisse vapour ko cool hone ka chance milta hai. Dusre step mein, vapour cool ho kar condense hota hai aur water drops ban jate hain. Is prakriya mein, vapour se water drops mein badlav hota hai, jise hum condensation kehte hain."
+                          },
+                          {
+                              "type":  "teach_back",
+                              "q":  "Ab tu mujhe bata â€” apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+                              "a":  "Ek 5 saal ke bachhe ko main aisa samjhaunga, jab hum cold drink ki bottle se nikalte hue paani ko fridge se nikaalte hain, to us par boond-boond nikalne lagti hain, yeh sab ho raha hai kyunki bottle ki satah par maujood hawa mein se paani ki vaashp jamne lagti hai aur boondon ki shape mein dikhne lagti hai."
+                          },
+                          {
+                              "type":  "application",
+                              "q":  "Where does the water outside a cold bottle mostly come from?",
+                              "a":  "Yeh paani bottle ke andar se condensation ke kaaran aata hai, jab garm hawa bottle ke saath touch hoti hai toh usmein se water vapour thanda hokar paani ki boondon mein badal jaata hai. Is prakriya mein hawa mein maujood water vapour thanda hokar paani ki boondon mein badal jaata hai. Isliye, bottle ke bahar paani mostly h"
+                          }
+                      ],
+    "practice_problems":  [
+                              {
+                                  "difficulty":  2,
+                                  "type":  "mcq",
+                                  "q":  "Where does the water outside a cold bottle mostly come from?",
+                                  "options":  [
+                                                  "Inside the bottle leaking",
+                                                  "Water vapour in the air",
+                                                  "The plastic changing into water",
+                                                  "Dust becoming liquid"
+                                              ],
+                                  "correct":  "Water vapour in the air",
+                                  "hint":  "Moist air near the cold surface cools down, so water vapour condenses into droplets.",
+                                  "answer":  "Moist air near the cold surface cools down, so water vapour condenses into droplets."
+                              },
+                              {
+                                  "difficulty":  1,
+                                  "type":  "what_if",
+                                  "q":  "What would happen if bottle coldness becomes very low?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              },
+                              {
+                                  "difficulty":  2,
+                                  "type":  "what_if",
+                                  "q":  "What would happen if bottle coldness becomes very high?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              },
+                              {
+                                  "difficulty":  3,
+                                  "type":  "what_if",
+                                  "q":  "What would change if the place, material, time, or weather changes?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              }
+                          ],
+    "teaching_styles":  {
+                            "simple":  "Water Drops on a Cold Bottle shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+                            "standard":  "In Water Drops on a Cold Bottle, one or more factors such as bottle coldness change what we observe. The idea connects Physics, Chemistry, Math and helps explain the situation beyond memorizing a fact.",
+                            "deep":  "A deeper explanation of Water Drops on a Cold Bottle connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Air contains water vapour. When warm moist air touches a cold bottle, the vapour cools and condenses into liquid water drops.",
+                            "hinglish":  "Dekh yaar â€” Water Drops on a Cold Bottle mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+                            "story":  "A cold bottle is taken from the fridge. After a few minutes, tiny drops appear outside. The water came from air, not from inside the bottle."
+                        },
+    "learner_adaptations":  {
+                                "class_1_3":  "Notice the situation: Why do water drops appear outside a cold bottle even when the bottle is not leaking. Say what you can see, hear, feel, or compare safely.",
+                                "class_4_5":  "Name the main factor and compare two cases. Example: less vs more bottle coldness.",
+                                "class_6_8":  "Explain the cause-effect chain: Cold bottle â†’ Moist air touches surface â†’ Vapour cools â†’ Drops form.",
+                                "class_9_10":  "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+                                "struggling":  "Start with the hook only. Ask what they observe. Don\u0027t explain yet.",
+                                "fast_learner":  "Push to deep mode. Connect all subjects: Physics, Chemistry, Math."
+                            },
+    "subject_lenses":  {
+                           "Physics":  "Heat flows from warm air to the cold bottle surface.",
+                           "Chemistry":  "Water changes state from vapour to liquid during condensation.",
+                           "Math":  "Compare time taken for drops to appear in different places."
+                       },
+    "wonder_tangents":  [
+                            {
+                                "trigger":  "after_student_explains",
+                                "hinglish":  "By the way â€” Water Drops on a Cold Bottle ka concept aur jagah bhi kaam karta hai: Cold drinks, Bathroom mirrors, Morning dew.",
+                                "related_concepts":  [
+
+                                                     ],
+                                "career_connection":  "Meteorology, HVAC design, refrigeration, materials science, building design."
+                            }
+                        ],
+    "daily_wonders":  [
+                          "Aaj water drops on a cold bottle se related kuch notice karo.",
+                          "Why do water drops appear outside a cold bottle even when the bottle is not leaking?",
+                          "What would happen if bottle coldness becomes very low?"
+                      ],
+    "indian_legacy":  {
+                          "scientist":  "Varahamihira",
+                          "connection":  "Varahamihira, a renowned Indian astronomer and mathematician, made significant contributions to the field of meteorology in his book Brihat-Samhita. His work on atmospheric conditions and weather patterns can be connected to the concept of condensation, where he discussed the formation of dew and rain, laying the foundation for understanding how water vapour in the air condenses into liquid water drops when it comes into contact with a cold surface.",
+                          "story_hook":  "Imagine you\u0027re on a chilly winter morning, and you breathe onto a cold windowpane, watching as your breath creates a misty fog that slowly clears, just like the mysterious fog that lifts off the Ganges River at dawn. As you explore the concept of condensation, you\u0027ll discover how this everyday phenomenon is connected to the groundbreaking work of Indian scientists like Varahamihira, who studied the wonders of the atmosphere centuries ago.",
+                          "class_appropriate":  {
+                                                    "1-5":  "story_hook only",
+                                                    "6-8":  "story + connection",
+                                                    "9-10":  "full connection with equations"
+                                                },
+                          "enrichment_status":  "completed"
+                      },
+    "home_investigation":  {
+                               "title":  "Ghar pe Try Karo: Water Drops on a Cold Bottle",
+                               "time_required":  "5-10 min",
+                               "materials":  [
+                                                 "Ghar mein available items (see experiment below)"
+                                             ],
+                               "steps":  [
+                                             "Place a closed cold bottle on a plate and observe the outside surface. Wipe the bottle and check that the cap is closed. Do not place water near electrical devices."
+                                         ],
+                               "safety_note":  "Adult supervision recommended for heat, electricity, or chemicals.",
+                               "share_with_sakha":  "Kya hua? Kya unexpected tha? Apne words mein batao."
+                           },
+    "unlocks":  [
+                    "heat_transfer",
+                    "change_of_state",
+                    "observation_time",
+                    "humidity"
+                ],
+    "subject_web_position":  {
+                                 "x":  0.5,
+                                 "y":  0.5
+                             },
+    "stem_lab_link":  "life-concepts-lab#scenario-cold-bottle-condensation",
+    "visualizer_type":  "life_concepts_lab",
+    "life_decision":  "Keep cold bottles on a plate or coaster and keep them away from books, electronics, and important papers.",
+    "career_connections":  "Meteorology, HVAC design, refrigeration, materials science, building design.",
+    "why_matters":  "This explains daily observations such as dew, fogged mirrors, and wet-looking cold objects.",
+    "session_type":  "science",
+    "_source":  "life-concepts-lab-v1_4_1-final-polish",
+    "_enrichment_needed":  [
+                               "indian_legacy",
+                               "wonder_tangents.related_concepts",
+                               "misconceptions (domain-specific)",
+                               "prerequisites",
+                               "stem_lab_link (full deployed URL)"
+                           ],
+    "concept_difficulty_level":  5,
+    "learning_track":  [
+                           "core"
+                       ],
+    "visualizer":  {
+                       "ask_after":  "clear_checkpoint",
+                       "source":  "3D_world/07_New_2D_Canvases/BoilingEvaporationCanvas.tsx",
+                       "id":  "boiling-evaporation"
+                   }
 }

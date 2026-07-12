@@ -90,3 +90,19 @@ Content guard:
 - Backend telemetry and dashboards.
 - Any camera or image-understanding claim.
 - Compliance claims beyond current privacy-safe static behavior.
+## Implemented showcase slice: opt-in visualizer bridge
+
+Selected concepts can now define a `visualizer` block with an id, source reference, and ask timing. Sakha uses this only for the matching topic, asks `Do you want to visualize it?`, and lazy-loads `src/concept-visualizers.js` only when the student chooses to open it or asks to visualize.
+
+Initial visualizer ids:
+
+- `boiling-evaporation`: boiling, evaporation, clothes drying, condensation.
+- `magnet-field`: magnets and materials.
+- `ohms-circuit`: voltage, resistance, and current.
+- `photosynthesis-flow`: sunlight, water, carbon dioxide, and plant food.
+- `soap-cleaning`: soap, oil, water, and cleaning action.
+- `area-perimeter`: rectangle dimensions, area, and boundary.
+- `sound-wave`: frequency, amplitude, and wave shape.
+- `coordinate-grid`: x-y movement and plotted point.
+
+Implementation note: these are lightweight native canvas adaptations inspired by `D:\vision_agentic\3D_world`, not direct React/TSX imports. This keeps the GitHub Pages bundle small and avoids loading visual code until the student opts in.

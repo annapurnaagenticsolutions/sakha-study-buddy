@@ -1,0 +1,241 @@
+{
+    "concept_id": "cell-division-mitosis",
+    "title": "Cell Division & Mitosis: DNA Replication, Chromosome Separation & Tissue Repair",
+    "subjects": ["Science", "Biology"],
+    "class_band": [8, 9, 10],
+    "classBand": "8-10",
+    "languages": ["en", "hi", "hinglish"],
+    "prerequisites": ["plant-growth", "human-digestion"],
+    "stem_lab_link": "file:///D:/vision_agentic/STEM_labs/biology_lab/index.html",
+    "intro_hook": "Have you ever wondered how a deep skin cut or a grazed knee on the cricket pitch heals completely within just one week, leaving smooth fresh skin? Or how a single fertilized egg cell transforms into an adult body containing over 30 trillion cooperating cells?",
+    "big_idea": "Mitosis is the precisely orchestrated cell division cycle by which a single parent somatic cell replicates its entire 46-chromosome DNA genome (2n) and divides equally to produce two genetically identical daughter cells (2n). It progresses through distinct sequential phases: Interphase (DNA duplication during S phase), Prophase (chromosomes condense), Metaphase (chromosomes align on the equatorial plate), Anaphase (spindle fibers pull sister chromatids apart to opposite poles), and Telophase / Cytokinesis (the cell membrane pinches into two).",
+    "cause_process_result": {
+        "cause": "Somatic tissue growth, wound healing repair, and cellular aging replacement triggers.",
+        "process": "Interphase replicates the double-helix DNA. Mitotic spindle fibers attach to chromosome centromeres during Metaphase and forcefully separate sister chromatids during Anaphase.",
+        "result": "Exact genetic continuity across 30 trillion somatic body cells without loss or mutation of DNA blueprints."
+    },
+    "concept_difficulty_level": 8,
+    "learning_track": ["core"],
+    "teach_back_prompt": "Explain the stages of Mitosis (Interphase, Prophase, Metaphase, Anaphase, Telophase) using the analogy of photocopying a master textbook and dividing it into two identical school backpacks.",
+    "learning_showcase": {
+        "try_first": "Before Sakha explains, guess this: before a human cell divides into two new cells, how many total chromosomes must it briefly contain right after duplicating its DNA?",
+        "simple_idea": "Cells grow by dividing! First, the cell makes an exact duplicate copy of all its DNA instruction manuals (Interphase). Then it lines them up in the middle and splits them evenly into two identical twin cells!",
+        "formal_idea": "Mitosis preserves diploidy (2n -> 2n + 2n) via high-fidelity semi-conservative DNA replication during Interphase (S phase) and microtubule kinetochore separation during Anaphase.",
+        "common_trap": "Confusing Mitosis (somatic cell cloning yielding 2 identical diploid cells) with Meiosis (reproductive gamete division yielding 4 genetically unique haploid cells with half the chromosomes).",
+        "trap_fix": "Remember: MITosis occurs in MY TOES (everyday body growth and skin repair, keeping exact 46 chromosomes). MEIosis occurs only in eggs and sperm (halving to 23 chromosomes for reproduction).",
+        "memory_anchor": "Remember the acronym I-P-M-A-T: Interphase (Inside prep), Prophase (Pack chromosomes), Metaphase (Middle line), Anaphase (Apart pull), Telophase (Two cells).",
+        "friend_nudge": "If chromosome numbers or phases feel overwhelming, check our Whiteboard visual showing the chromosome splitting step by step!",
+        "teach_back_goal": "Explain how spindle fibers pull sister chromatids apart during Anaphase to ensure each new daughter cell receives exactly 46 chromosomes.",
+        "review_plan": [
+            "Today: master I-P-M-A-T phases and diploid exact cloning",
+            "Tomorrow: compare somatic skin repair Mitosis against gamete formation Meiosis",
+            "In 3 days: verify why uncontrolled mitotic runaway division leads to cancerous tumors"
+        ]
+    },
+    "visualizer": {
+        "ask_after": "clear_checkpoint",
+        "source": "3D_world/07_New_2D_Canvases/CRISPRCas9MolecularScissorsCanvas.tsx",
+        "id": "mitosis-genetics-sim"
+    },
+    "interactive_scaffold": {
+        "conceptId": "cell-division-mitosis",
+        "title": "Mitosis Cell Cycle & Diploid Chromosome Inheritance",
+        "hookQuestion": "If skin cells constantly flake off during a bath, why don't you eventually run out of skin?",
+        "bigIdea": "Somatic cells undergo continuous regulated mitotic cycles (I-P-M-A-T) to replace dying cells while preserving the exact diploid 2n genetic code.",
+        "vocabulary": [
+            { "symbol": "Chromatin vs Chromosome", "means": "Chromatin is loosely uncoiled working DNA during Interphase; Chromosomes are tightly condensed X-shaped packages ready for division" },
+            { "symbol": "Sister Chromatids", "means": "Two identical copies of a single replicated chromosome joined at the central centromere" },
+            { "symbol": "Spindle Fibers", "means": "Microtubule protein ropes extending from centrosomes that latch onto centromeres to pull chromatids apart" },
+            { "symbol": "Diploid (2n)", "means": "A cell containing two complete sets of chromosomes (46 in humans: 23 from mother, 23 from father)" }
+        ],
+        "steps": [
+            { "label": "Step 1: Interphase (S Phase Prep)", "detail": "The cell spends 90% of its life here growing and executing semi-conservative DNA replication to double its genetic material (from 46 chromatids to 92)." },
+            { "label": "Step 2: Prophase & Metaphase", "detail": "Chromatin condenses into visible X-shaped chromosomes. The nuclear membrane dissolves, and chromosomes line up precisely along the middle Metaphase plate." },
+            { "label": "Step 3: Anaphase Separation", "detail": "Spindle fibers contract like winches, snapping the centromeres and pulling the identical sister chromatids toward opposite poles of the cell." },
+            { "label": "Step 4: Telophase & Cytokinesis", "detail": "New nuclear membranes form around each separated set of 46 chromosomes, and a cleavage furrow pinches the cytoplasm into two independent daughter cells." }
+        ],
+        "check_after_step": 3,
+        "feedback_prompt": "Quick check: Does Mitosis halve the chromosome number like Meiosis, or does it keep the chromosome number exactly identical?",
+        "worked_example": "If a human liver cell with 46 chromosomes undergoes 3 consecutive mitotic divisions, how many total liver cells exist afterwards, and how many chromosomes does each cell contain? Answer: 2^3 = 8 identical cells, each containing exactly 46 chromosomes (2n).",
+        "common_confusions": [
+            { "confusion": "Mitosis creates eggs and sperm with 23 chromosomes", "fix": "False! Eggs and sperm are produced via MEIOSIS (halving to haploid n=23). Mitosis only clones body tissue cells keeping full diploid 2n=46." },
+            { "confusion": "Chromosomes divide randomly between daughter cells", "fix": "Mitosis is precise! Every single chromosome is copied and pulled apart individually so each daughter cell gets the exact same 46 chromosomes." }
+        ]
+    },
+    "whiteboardSteps": [
+        "Somatic Purpose: Growth, tissue wound healing, and daily replacement (skin, blood, gut lining).",
+        "Interphase (90% of cycle): G1 (growth) -> S phase (Exact DNA duplication: 2n -> 4n chromatids) -> G2 (checkpoints).",
+        "Mitotic Phases (I-P-M-A-T): Prophase (condense) -> Metaphase (line up in center) -> Anaphase (pull chromatids apart) -> Telophase (new nuclei).",
+        "Cytokinesis: Cleavage furrow pinches animal cell in half (cell plate forms in plants). Result: Two identical 2n daughter cells.",
+        "Checkpoints & Cancer: Damaged DNA is arrested at G1/G2 checkpoints. Failure of checkpoint regulation causes uncontrolled tumor growth."
+    ],
+    "whiteboard": [
+        "🧬 The Mitosis Cell Cycle (I-P-M-A-T)",
+        "$$ \\text{Parent Cell }(2n=46) \\xrightarrow{\\text{DNA Replication + Mitosis}} 2 \\times \\text{Daughter Cells }(2n=46) $$",
+        "",
+        "**Phase Summary:**",
+        "• **I**nterphase: DNA doubles inside nucleus during S-phase",
+        "• **P**rophase: DNA packs tightly into visible X-shaped chromosomes",
+        "• **M**etaphase: Chromosomes align single-file across the middle equator",
+        "• **A**naphase: Spindle ropes pull sister chromatids apart to opposite poles",
+        "• **T**elophase & Cytokinesis: Cell pinches into two identical 2n clones"
+    ],
+    "visualSteps": [
+        { "step": 1, "action": "Highlight uncoiled chromatin doubling during Interphase inside the nuclear membrane." },
+        { "step": 2, "action": "Animate chromatin condensing into distinct X-shaped chromosomes while centrosomes migrate to opposite cell poles." },
+        { "step": 3, "action": "Show microtubule spindle fibers latching onto chromosome centromeres and aligning them cleanly along the equatorial Metaphase plate." },
+        { "step": 4, "action": "Animate spindle fibers contracting during Anaphase, snapping sister chromatids apart and pulling 46 chromosomes left and 46 chromosomes right, followed by membrane pinching." }
+    ],
+    "conversationFlow": [
+        {
+            "state": "INTRO",
+            "prompt": "Let's explore Cell Division and Mitosis! When you accidentally scrape your knee while playing sports, how does your body close up the cut and generate fresh new skin within just a few days?",
+            "expected_action": "Student states that skin cells divide or multiply to fill the gap."
+        },
+        {
+            "state": "PRIOR_IDEA",
+            "prompt": "Exactly — existing cells divide to make new ones! But every human cell contains 46 chromosomes inside its nucleus with your exact DNA instruction manual. If a skin cell simply split in half right away, what problem would happen to the new cells' DNA?",
+            "expected_action": "Student realizes each new cell would only get half the DNA instructions."
+        },
+        {
+            "state": "CONCEPT_1",
+            "prompt": "Spot on! They would only get half the instructions and die. That is why before dividing, the cell enters Interphase (S phase). What critical step must the cell perform during Interphase with all 46 chromosomes before it splits?",
+            "expected_action": "Student states that the cell makes an exact duplicate copy of its DNA."
+        },
+        {
+            "state": "CHECK_1",
+            "prompt": "Nailed it! It makes an exact photocopy of all 46 chromosomes, forming 46 double X-shaped chromosomes (92 chromatids). Now in Prophase and Metaphase, where do these X-shaped chromosomes line up before being separated?",
+            "expected_action": "Student states they line up along the middle or center of the cell."
+        },
+        {
+            "state": "CONCEPT_2",
+            "prompt": "Yes, they line up along the equatorial middle! Now in Anaphase, protein ropes called spindle fibers latch onto the center of every X chromosome. When these spindle fibers contract and pull, what happens to the twin copies of each chromosome?",
+            "expected_action": "Student explains sister chromatids are pulled apart to opposite ends of the cell."
+        },
+        {
+            "state": "CHECK_2",
+            "prompt": "Brilliant: half goes left, and half goes right! Once the cell pinches in half during Telophase and Cytokinesis, exactly how many chromosomes are inside each of the two new daughter cells?",
+            "expected_action": "Student states exactly 46 chromosomes in each cell."
+        },
+        {
+            "state": "VISUAL_EXPLORATION",
+            "prompt": "Let's examine our interactive CRISPR Gene Repair & Double-Strand Break simulator! Notice how precise DNA sequence recognition requires exact base-pair matching. When Mitosis replicates DNA, DNA Polymerase enzymes proofread each nucleotide at 1,000 base pairs per second to ensure zero mutations occur before cell division!",
+            "expected_action": "Student explores DNA repair kinetics and replication fidelity."
+        },
+        {
+            "state": "MISCONCEPTION_REPAIR",
+            "prompt": "Many students get confused between Mitosis and Meiosis! If Mitosis makes skin, blood, and bone cells with 46 chromosomes (diploid 2n), what is the ONLY specialized function of Meiosis where the chromosome number is halved to 23 (haploid n)?",
+            "expected_action": "Student identifies Meiosis as producing reproductive egg and sperm cells."
+        },
+        {
+            "state": "PRACTICE",
+            "prompt": "Let's do a cell biology calculation: If a single parent skin cell undergoes 4 successive mitotic rounds of division without interruption, how many total skin cells will be produced, and are they genetically identical or different?",
+            "expected_action": "Student calculates 2^4 = 16 genetically identical skin cells."
+        },
+        {
+            "state": "TEACH_BACK",
+            "prompt": "Now show your mastery! Imagine teaching a younger student how a cut heals. Summarize the I-P-M-A-T phases of Mitosis in your own words!",
+            "expected_action": "Student performs teach-back covering Interphase copying, lining up, pulling apart, and dividing."
+        },
+        {
+            "state": "FEEDBACK",
+            "prompt": "Superb teach-back! How did today's session feel? Did the photocopying and backpack splitting analogy make the chromosome stages easy to remember?",
+            "expected_action": "Student shares feedback on clarity and pace."
+        },
+        {
+            "state": "COMPLETE",
+            "prompt": "Concept mastered! You have unlocked Cell Division & Mitosis Dynamics. Check your learning constellation for your new biology badge!",
+            "expected_action": "Session complete."
+        }
+    ],
+    "responseRules": {
+        "MISCONCEPTION": "Remind the student: MITosis happens in MY TOES (growth & repair, 2n -> 2n). MEIosis makes eggs and sperm (2n -> n).",
+        "REQUEST_VISUAL": "Guide the student to our Whiteboard diagram of I-P-M-A-T showing chromosomes aligning at the equator and separating.",
+        "REQUEST_SIMPLIFICATION": "Open the Whiteboard to show the simple rule: Copy DNA first (Interphase) -> Line up in middle (Metaphase) -> Pull apart (Anaphase) -> Split into two identical twins.",
+        "CORRECT": "Validate the sharp biological reasoning, celebrate the correct chromosome counts, and advance to the next step."
+    },
+    "guidedPractice": [
+        {
+            "scenario": "Metaphase Checkpoint Arrest",
+            "question": "If a chemical inhibitor like Colchicine blocks spindle microtubule formation during Metaphase, what phase of Mitosis will the cell get stuck in, and why cannot it proceed to Anaphase?",
+            "hint": "Without functional spindle fibers attached to centromeres, can sister chromatids be pulled apart?",
+            "expected_answer": "The cell gets arrested in Metaphase because without spindle fibers pulling centromeres apart, the Anaphase checkpoint prevents division with uneven chromosomes."
+        },
+        {
+            "scenario": "Chromosome Counting in Mitosis vs Meiosis",
+            "question": "A fruit fly has 8 chromosomes in its normal somatic wing cells (diploid 2n = 8). How many chromosomes will be in a fruit fly skin cell produced by Mitosis, and how many in a fruit fly sperm cell produced by Meiosis?",
+            "hint": "Mitosis preserves diploid number (2n). Meiosis halves to haploid number (n).",
+            "expected_answer": "Mitosis skin cell = 8 chromosomes (2n). Meiosis sperm cell = 4 chromosomes (n)."
+        }
+    ],
+    "teachBackRubric": {
+        "required_elements": [
+            "Interphase: DNA replication duplicating chromosomes before division starts",
+            "Metaphase: Chromosomes lining up along the middle equator of the cell",
+            "Anaphase: Spindle fibers pulling identical sister chromatids apart to opposite poles",
+            "Noting that Mitosis produces two genetically identical diploid (2n) daughter cells for growth and repair"
+        ],
+        "partial_prompt": "You explained the stages of separation perfectly! But what critical copying step must happen BEFORE Prophase during Interphase?"
+    },
+    "feedbackQuestions": [
+        "Did the I-P-M-A-T acronym help you remember the order of mitotic phases?",
+        "Was the distinction between Mitosis (body repair 2n) and Meiosis (gamete creation n) clear?",
+        "Did the chromosome separation step in Anaphase make visual sense?"
+    ],
+    "components": {
+        "primary2D": {
+            "type": "CRISPRCas9MolecularScissorsCanvas",
+            "controls": ["temperature", "cas9_concentration", "guide_rna_match"],
+            "outputs": ["cleavage_efficiency", "repair_mode", "mutation_rate"],
+            "description": "Interactive genomic integrity and double-strand break repair simulator."
+        },
+        "optional3D": {
+            "type": "MedicalUltrasoundDoppler3D",
+            "description": "Examine how acoustic ultrasound waves penetrate tissue layers to monitor prenatal fetal cell division and organ development in 3D."
+        }
+    },
+    "indian_analogies": [
+        "Photocopying CBSE Master Textbooks: Imagine your class has 46 essential NCERT textbooks. Before splitting the class into two new classrooms, the teacher makes an exact photocopy of all 46 books (Interphase). Then, two helpers (spindle fibers) separate the double stacks evenly so Classroom A and Classroom B both receive identical sets of all 46 textbooks.",
+        "Lizard Tail Regeneration: When the common Indian wall lizard (Chipkali) sheds its tail to escape a predator, cells at the wound stump undergo rapid, continuous mitotic divisions (Mitosis) over weeks to generate muscle, bone, and skin until a brand new tail grows back completely."
+    ],
+    "misconceptions": [
+        {
+            "id": "mc_mitosis_halves_chromosomes",
+            "belief": "Because a parent cell splits into two cells, each new cell must only get half as many chromosomes (23 instead of 46).",
+            "probe": "If every cell division cut the chromosome count in half (46 -> 23 -> 11.5), what would happen after just two scrapes on your knee?",
+            "correction": "The cell does NOT just split! It first DUPLICATES all 46 chromosomes (making 92 chromatids during Interphase) before separating them. Therefore, 92 / 2 = exactly 46 chromosomes in both daughter cells!"
+        },
+        {
+            "id": "mc_interphase_is_resting",
+            "belief": "Interphase is just a passive 'resting period' where the cell sleeps and does no work.",
+            "probe": "If Interphase takes up 90% of the cell cycle and burns massive ATP energy, is the cell actually asleep?",
+            "correction": "Interphase is the Busiest and most energetic phase! The cell must synthesize proteins, duplicate organelles, and accurately copy 3 billion base pairs of DNA before division can happen."
+        }
+    ],
+    "practice_problems": [
+        {
+            "difficulty": "Easy",
+            "q": "During which phase of Mitosis do the sister chromatids get pulled apart toward opposite poles of the cell?",
+            "hint": "Remember I-P-M-A-T: which letter stands for 'Apart'?"
+        },
+        {
+            "difficulty": "Medium",
+            "q": "Why is DNA replication during Interphase described as 'semi-conservative'?",
+            "hint": "When the double helix unwinds, each old parent strand acts as a template to synthesize one brand new complementary strand."
+        }
+    ],
+    "question_flow": [
+        {
+            "type": "hook",
+            "q": "How does a single fertilized human egg grow into a human body of 30 trillion cells with identical DNA?"
+        },
+        {
+            "type": "probe",
+            "q": "If skin cells constantly flake off and die every day, why don't our skin layers gradually vanish?"
+        },
+        {
+            "type": "teach_back",
+            "q": "Explain the I-P-M-A-T phases of Mitosis using the analogy of duplicating and dividing a master textbook collection."
+        }
+    ]
+}

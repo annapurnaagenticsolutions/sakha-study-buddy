@@ -135,12 +135,15 @@ function renderWhiteboard(container, props) {
     container.appendChild(header);
 
     if (board.basics.length) {
-        container.appendChild(renderListSection('Start from basics', board.basics));
+        container.appendChild(renderListSection('Start from basics', board.basics, board.latestActionId));
     }
 
     if (board.formula) {
         const formulaSection = document.createElement('section');
         formulaSection.className = 'whiteboard-section formula-section';
+        if (board.latestActionId === 'formula' || board.latestActionId === board.formula) {
+            formulaSection.classList.add('highlighted');
+        }
         const heading = document.createElement('h3');
         heading.textContent = 'Formula, slowly';
         const formula = document.createElement('div');
@@ -171,6 +174,7 @@ function renderWhiteboard(container, props) {
             meaning.textContent = item.means || item.meaning || item.detail || '';
             const example = document.createElement('small');
             example.textContent = item.example || '';
+            if (item.id === board.latestActionId) card.classList.add('highlighted');
             card.append(symbol, meaning, example);
             grid.appendChild(card);
         });
@@ -190,6 +194,7 @@ function renderWhiteboard(container, props) {
             label.textContent = step.label || 'Step ' + (index + 1);
             const detail = document.createElement('p');
             detail.textContent = step.detail || String(step);
+            if (step.id === board.latestActionId) item.classList.add('highlighted');
             item.append(label, detail);
             list.appendChild(item);
 
@@ -224,13 +229,14 @@ function renderWhiteboard(container, props) {
         board.common_confusions.forEach((item) => {
             const row = document.createElement('p');
             row.textContent = (item.confusion || 'Confusion') + ' -> ' + (item.fix || 'Use the step-by-step chain.');
+            if (item.id === board.latestActionId) row.classList.add('highlighted');
             confusions.appendChild(row);
         });
         container.appendChild(confusions);
     }
 }
 
-function renderListSection(title, items) {
+function renderListSection(title, items, latestActionId) {
     const section = document.createElement('section');
     section.className = 'whiteboard-section';
     const heading = document.createElement('h3');
@@ -238,7 +244,12 @@ function renderListSection(title, items) {
     const list = document.createElement('ul');
     items.forEach((item) => {
         const li = document.createElement('li');
-        li.textContent = String(item);
+        if (typeof item === 'object' && item.text) {
+            li.textContent = String(item.text);
+            if (item.id === latestActionId) li.classList.add('highlighted');
+        } else {
+            li.textContent = String(item);
+        }
         list.appendChild(li);
     });
     section.append(heading, list);

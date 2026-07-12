@@ -544,7 +544,7 @@ header {
 }
 
 .landing-header {
-    width: min(1120px, calc(100% - 32px));
+    width: min(1280px, calc(100% - 32px));
     margin: 0 auto;
     padding: 22px 0;
     display: flex;
@@ -583,14 +583,14 @@ header {
 }
 
 .landing-main {
-    width: min(1120px, calc(100% - 32px));
+    width: min(1280px, calc(100% - 32px));
     margin: 0 auto;
     padding: 28px 0 36px;
 }
 
 .student-start {
     display: grid;
-    grid-template-columns: minmax(240px, 0.9fr) minmax(320px, 1.4fr);
+    grid-template-columns: minmax(260px, 0.85fr) minmax(460px, 1.15fr);
     gap: 24px;
     align-items: start;
 }
@@ -598,9 +598,9 @@ header {
 .start-copy { padding-top: 18px; }
 .start-copy h1 {
     font-family: var(--font-heading);
-    font-size: clamp(1.55rem, 3.1vw, 2.6rem);
-    line-height: 1.12;
-    margin-bottom: 14px;
+    font-size: clamp(1.25rem, 2.25vw, 1.9rem);
+    line-height: 1.18;
+    margin-bottom: 10px;
     color: #173b2a;
 }
 
@@ -659,7 +659,8 @@ header {
 }
 
 .showcase-strip {
-    margin: 14px 0;
+    grid-column: 1 / -1;
+    margin: 0;
     border-left: 4px solid #245953;
 }
 
@@ -669,6 +670,7 @@ header {
     }
 }
 .chooser-panel {
+    grid-column: 1 / -1;
     background: #ffffff;
     border: 1px solid rgba(32, 51, 42, 0.12);
     border-radius: 8px;
@@ -715,8 +717,9 @@ header {
 
 .topic-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
     gap: 10px;
+    align-items: stretch;
 }
 
 .topic-card {
@@ -854,7 +857,7 @@ textarea:focus-visible {
     .landing-nav { justify-content: flex-start; }
     .student-start,
     .trust-grid { grid-template-columns: 1fr; }
-    .topic-grid { grid-template-columns: 1fr; }
+    .topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
     .header-controls {
         flex-wrap: wrap;
@@ -865,9 +868,13 @@ textarea:focus-visible {
     #appContainer { max-width: none; }
 }
 
+@media (max-width: 620px) {
+    .topic-grid { grid-template-columns: 1fr; }
+}
+
 @media (max-width: 520px) {
     .landing-main,
-    .landing-header { width: min(100% - 20px, 1120px); }
+    .landing-header { width: min(100% - 20px, 1280px); }
         .chooser-panel { padding: 13px; }
     .start-actions {
         display: grid;
@@ -1628,4 +1635,131 @@ body.app-active #appContainer {
 .session-complete-card .curiosity-rating-choices button:disabled {
     opacity: 0.65;
     cursor: default;
+}
+/* Optional concept visualizers */
+.visualizer-offer-card,
+.concept-visualizer {
+    align-self: stretch;
+    background: #ffffff;
+    border: 1px solid #d9e7dc;
+    border-left: 4px solid #2d69c4;
+    border-radius: 8px;
+    padding: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.visualizer-offer-card h2,
+.concept-visualizer h2 {
+    font-family: var(--font-heading);
+    color: #173b2a;
+    font-size: 1.08rem;
+    margin: 0 0 6px;
+}
+
+.visualizer-offer-card p,
+.concept-visualizer-header p {
+    color: #4b5e54;
+    line-height: 1.45;
+    font-weight: 700;
+    margin: 0;
+}
+
+.visualizer-offer-card small {
+    display: block;
+    color: #60726a;
+    margin-top: 8px;
+    font-weight: 800;
+}
+
+.visualizer-offer-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.visualizer-offer-actions button {
+    border: 1px solid #245953;
+    background: #245953;
+    color: #ffffff;
+    border-radius: 7px;
+    padding: 9px 12px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.visualizer-offer-actions .secondary-action {
+    background: #ffffff;
+    color: #245953;
+}
+
+.concept-visualizer {
+    display: grid;
+    gap: 12px;
+    border-left-color: #245953;
+}
+
+.concept-visualizer canvas {
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    border: 1px solid #dcebdd;
+    border-radius: 8px;
+    background: #f8fcf7;
+}
+
+.concept-visualizer-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.concept-visualizer-controls button,
+.visualizer-slider {
+    border: 1px solid #bdd8c4;
+    border-radius: 7px;
+    background: #f8fcf7;
+    color: #173b2a;
+    padding: 8px 10px;
+    font-weight: 800;
+}
+
+.concept-visualizer-controls button {
+    cursor: pointer;
+}
+
+.concept-visualizer-controls button.active {
+    background: #245953;
+    color: #ffffff;
+}
+
+.visualizer-slider {
+    display: grid;
+    gap: 5px;
+    min-width: 180px;
+}
+
+.visualizer-slider input {
+    width: 100%;
+}
+
+.visualizer-slider strong {
+    color: #245953;
+}
+
+@media (max-width: 760px) {
+    .concept-visualizer-controls,
+    .visualizer-offer-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }

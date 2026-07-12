@@ -8,12 +8,20 @@
     "three": "^0.184.0"
   },
   "devDependencies": {
-    "esbuild": "^0.28.1"
+    "@vitest/ui": "^4.1.10",
+    "esbuild": "^0.28.1",
+    "fast-check": "^4.8.0",
+    "jsdom": "^29.1.1",
+    "vitest": "^4.1.10"
   },
   "scripts": {
-    "build": "esbuild ./src/app-static.js --bundle --format=esm --splitting --outdir=dist --entry-names=main --chunk-names=chunks/[name]-[hash] --minify && copy /Y src\\wasm\\physics.wasm dist\\physics.wasm >NUL",
+    "build": "esbuild ./src/app.js --bundle --format=esm --splitting --outdir=dist --entry-names=main --chunk-names=chunks/[name]-[hash] --minify && copy /Y src\\concept-visualizers.js dist\\concept-visualizers.js >NUL && copy /Y src\\wasm\\physics.wasm dist\\physics.wasm >NUL",
     "check": "npm run build && npm run size-check",
     "size-check": "node scripts/check-bundle-size.js",
-    "content-check": "node scripts/check-content-quality.js"
+    "content-check": "node scripts/check-content-quality.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
   }
 }

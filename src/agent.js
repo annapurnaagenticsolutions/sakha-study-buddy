@@ -1,4 +1,5 @@
 import { DEFAULT_API_CONCEPT_IDS, FallbackTutor, normalizeWhiteboard } from './fallbackTutor.js';
+import { StateTutor } from './learning-companion.js';
 
 export class SakhaAgent {
     constructor(apiKey) {
@@ -10,6 +11,7 @@ export class SakhaAgent {
         this.webLlmEngine = null;
         this.embedder = null;
         this.fallbackTutor = new FallbackTutor();
+        this.stateTutor = new StateTutor();
         this.language = 'Hinglish';
     }
 
@@ -67,6 +69,7 @@ export class SakhaAgent {
             this.concept.id = conceptId;
             this.concept.whiteboard = normalizeWhiteboard(this.concept.whiteboard, this.concept);
             this.fallbackTutor.reset();
+            this.stateTutor.reset();
 
             const analogies = this.concept.indian_analogies?.join(', ') || '';
             const misconceptions = this.concept.misconceptions?.map(m =>
@@ -128,18 +131,32 @@ Guidelines:
         }
 
         if (!this.shouldUseRemoteApi()) {
-            const fallbackResponse = this.fallbackTutor.createResponse(this.concept, userMessage, false, this.language);
-            this.history.push({ role: 'assistant', content: JSON.stringify(fallbackResponse) });
-            return fallbackResponse;
+            if (this.concept.conversationStates) {
+                let response = this.stateTutor.processMessage(this.concept, userMessage, this.language);
+                if (!response) response = this.fallbackTutor.createResponse(this.concept, userMessage, false, this.language);
+                this.history.push({ role: 'assistant', content: JSON.stringify(response) });
+                return response;
+            } else {
+                const fallbackResponse = this.fallbackTutor.createResponse(this.concept, userMessage, false, this.language);
+                this.history.push({ role: 'assistant', content: JSON.stringify(fallbackResponse) });
+                return fallbackResponse;
+            }
         }
 
         try {
             return await this.sendRemoteMessage();
         } catch (error) {
             console.warn('Remote API failed; using guided fallback.', error);
-            const fallbackResponse = this.fallbackTutor.createResponse(this.concept, userMessage, true, this.language);
-            this.history.push({ role: 'assistant', content: JSON.stringify(fallbackResponse) });
-            return fallbackResponse;
+            if (this.concept.conversationStates) {
+                let response = this.stateTutor.processMessage(this.concept, userMessage, this.language);
+                if (!response) response = this.fallbackTutor.createResponse(this.concept, userMessage, true, this.language);
+                this.history.push({ role: 'assistant', content: JSON.stringify(response) });
+                return response;
+            } else {
+                const fallbackResponse = this.fallbackTutor.createResponse(this.concept, userMessage, true, this.language);
+                this.history.push({ role: 'assistant', content: JSON.stringify(fallbackResponse) });
+                return fallbackResponse;
+            }
         }
     }
 

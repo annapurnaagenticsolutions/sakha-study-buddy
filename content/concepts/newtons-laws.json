@@ -1,0 +1,240 @@
+{
+    "concept_id": "newtons-laws",
+    "title": "Newton's 3 Laws of Motion & Inertia Dynamics (F = ma)",
+    "subjects": ["Science", "Physics", "Mechanics"],
+    "class_band": [7, 8, 9, 10],
+    "classBand": "7-10",
+    "languages": ["en", "hi", "hinglish"],
+    "prerequisites": ["physics_motion", "physics_force", "physics_velocity", "physics_acceleration"],
+    "stem_lab_link": "file:///D:/vision_agentic/STEM_labs/physics_concepts_lab/physics_concepts_lab_class1_10/index.html",
+    "intro_hook": "Why do passengers jerk violently forward when a speeding DTC bus in Delhi suddenly slams on its brakes? Or how can ISRO's massive Chandrayaan-3 rocket push itself into outer space where there is zero air to push against?",
+    "big_idea": "Newton's Three Laws govern the motion of all physical bodies: (1) Law of Inertia (an object keeps its state of rest or uniform motion unless acted upon by an external net force F_net), (2) Law of Force & Acceleration (net force equals mass times acceleration: F = ma), and (3) Law of Action-Reaction (every action force has an equal and opposite reaction force acting on the OTHER object: F_AB = -F_BA).",
+    "cause_process_result": {
+        "cause": "Net external forces acting on physical masses.",
+        "process": "Balanced forces (sum F = 0) maintain constant velocity via inertia. Unbalanced net forces (sum F != 0) cause acceleration directly proportional to force and inversely proportional to mass (a = F/m). Every interaction creates paired forces on opposing bodies.",
+        "result": "Seatbelts preventing inertia injuries, rockets launching via high-velocity exhaust thrust, and vehicular braking dynamics."
+    },
+    "concept_difficulty_level": 8,
+    "learning_track": ["core"],
+    "teach_back_prompt": "Explain Newton's Three Laws using the examples of a bus sudden stop (Inertia), pushing a heavy car vs a bicycle (F = ma), and rocket exhaust thrust (Action-Reaction).",
+    "learning_showcase": {
+        "try_first": "Before Sakha explains, guess this: if a heavy 10-ton truck collides head-on with a tiny mosquito, which one experiences a LARGER impact force?",
+        "simple_idea": "Newton's Laws mean: (1) things hate changing what they're doing (Inertia), (2) heavier things need a harder push to speed up (F = ma), and (3) whenever you push anything, it pushes right back with equal strength!",
+        "formal_idea": "First Law: sum F = 0 implies Delta v = 0. Second Law: F_net = ma = dp/dt. Third Law: F_12 = -F_21 across distinct interacting bodies.",
+        "common_trap": "Thinking the heavy truck exerts a bigger force on the mosquito than the mosquito exerts on the truck during a collision.",
+        "trap_fix": "By Newton's Third Law, the impact force is EXACTLY EQUAL in magnitude on both (F_truck->bug = -F_bug->truck). The mosquito gets squashed not because the force on it is bigger, but because its tiny mass m experiences a catastrophic acceleration (a = F/m)!",
+        "memory_anchor": "Remember: 1st Law = Seatbelt Law (Inertia), 2nd Law = Shopping Cart Law (F = ma), 3rd Law = Rocket Law (Action-Reaction pair).",
+        "friend_nudge": "If you get confused about why action-reaction pairs don't cancel each other out to zero, remember: they act on two DIFFERENT objects!",
+        "teach_back_goal": "Explain how Newton's 3 Laws apply when you jump upward off the ground.",
+        "review_plan": [
+            "Today: master inertia and action-reaction pairs acting on different bodies",
+            "Tomorrow: practice solving F = ma calculations with friction differentials",
+            "In 3 days: verify why internal forces inside a vehicle cannot accelerate its center of mass"
+        ]
+    },
+    "visualizer": {
+        "ask_after": "clear_checkpoint",
+        "source": "3D_world/07_New_2D_Canvases/RunningShoeImpulsePhysicsCanvas.tsx",
+        "id": "newtons-laws-sim"
+    },
+    "interactive_scaffold": {
+        "conceptId": "newtons-laws",
+        "title": "Newton's Three Laws of Motion & Momentum Dynamics",
+        "hookQuestion": "Why does a cricket fielder draw their hands backward while catching a fast ball instead of keeping their palms rigid?",
+        "bigIdea": "Force governs the rate of change of momentum (Second Law: F = dp/dt = ma), while every force exists as a reciprocal pair between two interacting bodies.",
+        "vocabulary": [
+            { "symbol": "Inertia", "means": "The natural resistance of any physical object to any change in its velocity or direction of motion" },
+            { "symbol": "Net Force (F_net)", "means": "The vector sum of all external forces acting simultaneously on a body" },
+            { "symbol": "Momentum (p)", "means": "The product of an object's mass and its velocity vector (p = m v)" },
+            { "symbol": "Action-Reaction Pair", "means": "Two equal and opposite simultaneous contact or field forces acting on two separate interacting objects" }
+        ],
+        "steps": [
+            { "label": "Step 1: First Law (Inertia)", "detail": "A stationary object remains at rest, and a moving object maintains constant velocity along a straight line, unless acted upon by an unbalanced external force." },
+            { "label": "Step 2: Second Law (F = ma)", "detail": "The net force applied to a body equals its mass times its acceleration. Doubling the force doubles acceleration; doubling the mass halves acceleration." },
+            { "label": "Step 3: Third Law (Action-Reaction)", "detail": "For every action force object A exerts on object B, object B simultaneously exerts an equal magnitude and opposite direction force back onto object A." },
+            { "label": "Step 4: Impulse & Catching (J = F Delta t)", "detail": "Extending the deceleration time Delta t while stopping a moving mass reduces the average impact force experienced by the body." }
+        ],
+        "check_after_step": 3,
+        "feedback_prompt": "Quick check: Do action and reaction forces ever cancel out when we calculate the net force on object A alone?",
+        "worked_example": "A 1,000 kg car accelerates from rest at 3 m/s^2. The engine net forward thrust is F = m a = 1,000 kg * 3 m/s^2 = 3,000 Newtons.",
+        "common_confusions": [
+            { "confusion": "Action and reaction forces cancel out so nothing should ever move", "fix": "Forces only cancel if they act on the EXACT SAME object! Action acts on Object B, and Reaction acts on Object A. Since they act on different bodies, they never cancel each other out." },
+            { "confusion": "Constant motion requires a constant pushing force", "fix": "By Newton's First Law, zero force is needed to keep moving at constant velocity in outer space! On Earth, we only push to overcome friction." }
+        ]
+    },
+    "whiteboardSteps": [
+        "First Law (Inertia): sum F = 0 implies v = constant. Objects resist acceleration.",
+        "Second Law (F = ma): Net Force = Mass * Acceleration. Unit: 1 Newton = 1 kg*m/s^2.",
+        "Third Law (Pairs): F_AB = -F_BA. Action and Reaction occur simultaneously across two distinct bodies.",
+        "Why Rockets Fly: Rocket pushes hot gas downward (Action) -> Gas pushes rocket upward with equal force (Reaction).",
+        "Why We Need Seatbelts: When a car brakes, your body's inertia keeps moving forward until the seatbelt applies a backward stopping force."
+    ],
+    "whiteboard": [
+        "🚀 Newton's Three Laws of Motion",
+        "$$ \\vec{F}_{net} = m \\vec{a} = \\frac{d\\vec{p}}{dt}, \\quad \\vec{F}_{AB} = -\\vec{F}_{BA} $$",
+        "",
+        "**Key Principles:**",
+        "• 1st Law: No net force = No change in velocity (Inertia)",
+        "• 2nd Law: Force causes Acceleration inversely proportional to Mass",
+        "• 3rd Law: Forces ALWAYS exist as equal & opposite pairs on separate bodies",
+        "• Impulse: J = F * Delta t = Delta p (Extending time drops peak impact force)"
+    ],
+    "visualSteps": [
+        { "step": 1, "action": "Highlight DTC bus cruising at 50 km/h where passenger bodies share the same forward velocity vector." },
+        { "step": 2, "action": "Animate bus tires applying braking friction (F_net < 0); passenger lower body slows down while upper torso continues forward due to inertia." },
+        { "step": 3, "action": "Animate seatbelt locking across chest applying backward stopping force vector F_belt = m a to decelerate torso safely." },
+        { "step": 4, "action": "Show ISRO rocket engine combustion chamber igniting, expelling high-momentum gas particles downward while reaction vectors thrust the rocket upward." }
+    ],
+    "conversationFlow": [
+        {
+            "state": "INTRO",
+            "prompt": "Let's master Newton's Three Laws of Motion! Imagine you are standing inside a moving bus when the driver suddenly slams on the emergency brakes. What happens to your body right at that instant?",
+            "expected_action": "Student states that their body falls or jerks forward."
+        },
+        {
+            "state": "PRIOR_IDEA",
+            "prompt": "Exactly, you jerk forward! Many people think some mysterious forward force pushes you from behind. But looking at Newton's First Law (Inertia), why does your upper body actually keep moving forward?",
+            "expected_action": "Student discovers that their body was already moving at the bus's speed and resists stopping."
+        },
+        {
+            "state": "CONCEPT_1",
+            "prompt": "Spot on — that is the Law of Inertia! Now let's explore Newton's Second Law: F = m × a. If you push an empty shopping cart with a force of 20 Newtons, it speeds up easily. What happens if you fill the cart with 50 kg of heavy rice bags and push with the exact same 20 N force?",
+            "expected_action": "Student states that the acceleration decreases because mass is larger."
+        },
+        {
+            "state": "CHECK_1",
+            "prompt": "Nailed it: heavier mass means much less acceleration for the same force (a = F / m)! Let's do a quick mental calculation: if a 2 kg toy wagon accelerates at 4 m/s^2, what net force in Newtons was applied to it?",
+            "expected_action": "Student calculates F = 2 * 4 = 8 Newtons."
+        },
+        {
+            "state": "CONCEPT_2",
+            "prompt": "Awesome: 8 Newtons! Now for Newton's Third Law (Action-Reaction). When you jump upward off the ground, what direction do your feet push against the Earth, and what pushes you up into the air?",
+            "expected_action": "Student explains feet push down on ground, ground pushes up on feet."
+        },
+        {
+            "state": "CHECK_2",
+            "prompt": "Exactly: Action is feet pushing Earth down, Reaction is Earth pushing feet up! But here is a tricky check: if the Earth pushes up on you with 500 N, exactly how many Newtons did your feet push down on the Earth?",
+            "expected_action": "Student states exactly 500 Newtons."
+        },
+        {
+            "state": "VISUAL_EXPLORATION",
+            "prompt": "Let's check out our interactive Running Shoe Impulse & Force simulator! Drag the impact duration slider Delta t from a hard barefoot landing (2 ms) to a cushioned EVA foam landing (40 ms). Notice how spreading the stopping time drops the peak bone impact force twenty-fold while keeping total momentum change constant!",
+            "expected_action": "Student interacts with simulation and observes inverse relation between time and impact force."
+        },
+        {
+            "state": "MISCONCEPTION_REPAIR",
+            "prompt": "Let's crack a famous physics brainteaser! If every action has an equal and opposite reaction force, why don't the action and reaction forces simply cancel each other out to zero so nothing can ever move?",
+            "expected_action": "Student discovers that action and reaction act on two separate objects, not the same object."
+        },
+        {
+            "state": "PRACTICE",
+            "prompt": "Let's solve a real-world engineering problem: A 1,200 kg car is moving when the brakes apply a steady retarding net force of 6,000 Newtons backward. What is the deceleration (negative acceleration) of the car?",
+            "expected_action": "Student calculates a = F / m = 6000 / 1200 = 5 m/s^2 deceleration."
+        },
+        {
+            "state": "TEACH_BACK",
+            "prompt": "Now prove your mastery! Imagine you are teaching a friend who missed class. Summarize Newton's Three Laws in your own words with one practical example for each!",
+            "expected_action": "Student performs teach-back covering Inertia, F=ma, and Action-Reaction."
+        },
+        {
+            "state": "FEEDBACK",
+            "prompt": "Superb teach-back! How did you find today's session? Did the bus stopping analogy and the F=ma calculations make intuitive sense to you?",
+            "expected_action": "Student shares feedback and confidence."
+        },
+        {
+            "state": "COMPLETE",
+            "prompt": "Concept mastered! You have unlocked Newton's Three Laws of Motion. Check your learning map for your newly earned badge!",
+            "expected_action": "Session complete."
+        }
+    ],
+    "responseRules": {
+        "MISCONCEPTION": "Gently correct the student by separating the objects experiencing the force. Remind them that inertia is not a force, but a resistance to acceleration.",
+        "REQUEST_VISUAL": "Guide the student to our interactive force vector simulation to observe how F = ma alters velocity vectors dynamically.",
+        "REQUEST_SIMPLIFICATION": "Open the Whiteboard to show the simple shopping cart rule: light cart = fast acceleration, heavy cart = slow acceleration.",
+        "CORRECT": "Validate the correct physical principle, celebrate the exact calculation, and transition smoothly to the next challenge."
+    },
+    "guidedPractice": [
+        {
+            "scenario": "Spacecraft Thruster Acceleration",
+            "question": "A 500 kg satellite in deep space fires its ion thruster producing a net thrust force of 100 Newtons. What acceleration does the satellite achieve?",
+            "hint": "Use Newton's Second Law: a = F / m.",
+            "expected_answer": "a = 100 / 500 = 0.2 m/s^2."
+        },
+        {
+            "scenario": "Rope Tug-of-War Tension",
+            "question": "If Team A pulls left on a rope with 400 N and Team B pulls right with 400 N, neither team moves. What is the net horizontal force on the rope?",
+            "hint": "Sum the forces: +400 N to the right and -400 N to the left.",
+            "expected_answer": "Net force = 400 - 400 = 0 Newtons (balanced equilibrium)."
+        }
+    ],
+    "teachBackRubric": {
+        "required_elements": [
+            "First Law: Inertia resistance to changing velocity or rest",
+            "Second Law: Mathematical connection F = m * a",
+            "Third Law: Action-reaction pairs being equal and opposite",
+            "Noting that third law pairs act on two separate interacting bodies"
+        ],
+        "partial_prompt": "You explained Inertia and Action-Reaction wonderfully! But what exact equation connects Force, Mass, and Acceleration in the Second Law?"
+    },
+    "feedbackQuestions": [
+        "Which example helped you most: the DTC bus stop, the shopping cart, or the rocket launch?",
+        "Was the difference between action-reaction pairs acting on different bodies clear?",
+        "Did the F=ma calculations feel straightforward after using the formula triangle?"
+    ],
+    "components": {
+        "primary2D": {
+            "type": "RunningShoeImpulsePhysicsCanvas",
+            "controls": ["impact_time", "mass", "velocity"],
+            "outputs": ["peak_force", "impulse", "acceleration"],
+            "description": "Interactive impulse and collision simulator showing real-time force vs time curves during impact."
+        },
+        "optional3D": {
+            "type": "SchoolBagTorqueSpine3D",
+            "description": "Examine how heavy backpack weight exerts gravitational torque and compression forces across the human spine in 3D."
+        }
+    },
+    "indian_analogies": [
+        "Delhi DTC Bus Emergency Braking: When a crowded bus travelling at 40 km/h brakes sharply near Connaught Place, standing commuters lurch forward violently because their bodies retain forward inertia (First Law).",
+        "Mumbai Local Train Crowding: Pushing a stalled Maruti Alto 800 car requires moderate force (small mass m -> decent acceleration a), while pushing a heavy railway carriage requires dozens of workers to achieve even tiny acceleration (large mass M -> small acceleration a)."
+    ],
+    "misconceptions": [
+        {
+            "id": "mc_action_reaction_cancel",
+            "belief": "Action and reaction forces cancel each other out so nothing should ever accelerate.",
+            "probe": "If a horse pulls a cart forward with 200 N and the cart pulls the horse backward with 200 N, why does the horse-cart system move forward instead of staying frozen?",
+            "correction": "Forces only cancel if they act on the SAME object. The horse moves forward because the ground pushes forward on the horse's hooves with a reaction force greater than the backward pull of the cart!"
+        },
+        {
+            "id": "mc_truck_mosquito_force",
+            "belief": "In a collision between a large truck and a small car, the truck exerts more force on the car than vice versa.",
+            "probe": "During a head-on collision, does the massive truck hit the small car with more Newtons of force than the car hits the truck?",
+            "correction": "By Newton's Third Law, both vehicles experience the EXACT SAME magnitude of force! The small car suffers worse damage only because its smaller mass experiences a much higher acceleration (a = F / m)."
+        }
+    ],
+    "practice_problems": [
+        {
+            "difficulty": "Easy",
+            "q": "If a net force of 30 N acts on a 6 kg box, what will be its acceleration?",
+            "hint": "Divide force by mass using a = F / m."
+        },
+        {
+            "difficulty": "Medium",
+            "q": "A 10 kg block accelerates at 4 m/s^2 while a friction force of 15 N opposes its motion. What total pushing force was applied to the block?",
+            "hint": "Net force F_net = m * a = 10 * 4 = 40 N. Since F_net = F_push - F_friction, what is F_push?"
+        }
+    ],
+    "question_flow": [
+        {
+            "type": "hook",
+            "q": "Why do you fall backward when a stopped elevator or train suddenly starts moving forward?"
+        },
+        {
+            "type": "probe",
+            "q": "If action equals reaction, why does a rifle kick backward against your shoulder when a bullet is fired?"
+        },
+        {
+            "type": "teach_back",
+            "q": "Explain Newton's Three Laws of Motion using the practical examples of a seatbelt, a shopping cart, and a rocket."
+        }
+    ]
+}

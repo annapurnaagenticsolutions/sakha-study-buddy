@@ -54,8 +54,22 @@ export function saveLearningSignal(conceptId, patch) {
     }
 }
 
+function appendVisualizerPrompt(concept, container, onScroll) {
+    if (!concept?.visualizer?.id || concept._vizo) return false;
+    concept._vizo = concept._viz = 1;
+    const prompt = document.createElement('div');
+    prompt.className = 'message bot';
+    prompt.textContent = 'Want to visualize it? Say yes.';
+    container.appendChild(prompt);
+    if (onScroll) onScroll();
+    return true;
+}
 export function appendLearningCompanionCard({ concept, phase = 'start', container, onScroll }) {
-    if (!concept || !container || !SHOWCASE_TOPIC_IDS.has(concept.id || concept.concept_id)) return;
+    if (!concept || !container) return;
+    if (!SHOWCASE_TOPIC_IDS.has(concept.id || concept.concept_id)) {
+        if (phase === 'clear') appendVisualizerPrompt(concept, container, onScroll);
+        return;
+    }
     const showcase = getLearningShowcase(concept);
     const conceptId = concept.id || concept.concept_id;
     const signal = loadLearningSignal(conceptId);
@@ -113,12 +127,17 @@ export function appendLearningCompanionCard({ concept, phase = 'start', containe
     card.append(heading, lead, list);
     container.appendChild(card);
     saveLearningSignal(conceptId, { lastCompanionPhase: phase });
+    appendVisualizerPrompt(concept, container, onScroll);
     if (onScroll) onScroll();
 }
 
 export function captureLearningSignal(concept, text) {
     if (!concept?.id) return 'neutral';
     const normalized = String(text || '').toLowerCase();
+    if (concept._viz && /\b(yes|ok)\b|visual|show/.test(normalized)) {
+        concept._viz = 0;
+        return 'visualize';
+    }
     const saysConfused = /not clear|confus|doubt|samajh nahi|\bno\b|\bnahi\b|stuck|slow/.test(normalized);
     const saysClear = /clear|understand|samajh|got it|\byes\b|\bhaan\b|\bok\b/.test(normalized) && !saysConfused;
     const asksExample = /example|try|practice|draw|diagram|whiteboard|formula|step/.test(normalized);
@@ -132,4 +151,102 @@ export function captureLearningSignal(concept, text) {
     if (saysClear) return 'clear';
     if (asksExample) return 'example_or_step';
     return 'neutral';
+}
+
+export class StateTutor {
+    constructor() {
+        this.currentStateId = 'START';
+    }
+
+    reset() {
+        this.currentStateId = 'START';
+    }
+
+    processMessage(concept, userMessage, language = 'Hinglish') {
+        if (!concept || !concept.conversationStates) return null;
+        
+        const text = (userMessage || '').trim().toLowerCase();
+        let stateObj = concept.conversationStates[this.currentStateId] || concept.conversationStates['START'];
+        if (!stateObj) return null;
+
+        let responseCategory = 'UNMATCHED';
+        let matchedNextStateId = null;
+
+        if (stateObj.misconceptions) {
+            for (const m of stateObj.misconceptions) {
+                if (m.patterns && m.patterns.some(p => text.includes(p.toLowerCase()))) {
+                    responseCategory = 'MISCONCEPTION';
+                    matchedNextStateId = m.repairState;
+                    break;
+                }
+            }
+        }
+
+        if (responseCategory === 'UNMATCHED' && stateObj.expectedIdeas) {
+            if (stateObj.expectedIdeas.some(p => text.includes(p.toLowerCase()))) {
+                responseCategory = 'CORRECT';
+                matchedNextStateId = stateObj.nextStates?.correct;
+            }
+        }
+
+        if (responseCategory === 'UNMATCHED' && stateObj.partialIdeas) {
+            if (stateObj.partialIdeas.some(p => text.includes(p.toLowerCase()))) {
+                responseCategory = 'PARTIAL';
+                matchedNextStateId = stateObj.nextStates?.partial;
+            }
+        }
+
+        if (responseCategory === 'UNMATCHED' && stateObj.uncertaintyPatterns) {
+            if (stateObj.uncertaintyPatterns.some(p => text.includes(p.toLowerCase()))) {
+                responseCategory = 'UNCERTAIN';
+                matchedNextStateId = stateObj.nextStates?.uncertain;
+            }
+        }
+
+        if (responseCategory === 'UNMATCHED') {
+            if (/not clear|confus|samajh nahi|doubt|\bno\b|\bnahi\b|kya matlab/.test(text)) {
+                responseCategory = 'UNCERTAIN';
+                matchedNextStateId = stateObj.nextStates?.uncertain;
+            } else if (/clear|samajh|understand|\byes\b|\bhaan\b|\bok\b|got it|sahi/.test(text)) {
+                responseCategory = 'PARTIAL';
+                matchedNextStateId = stateObj.nextStates?.partial || stateObj.nextStates?.correct;
+            } else if (text.length > 15) {
+                responseCategory = 'PARTIAL';
+                matchedNextStateId = stateObj.nextStates?.partial;
+            } else {
+                responseCategory = 'UNCERTAIN';
+                matchedNextStateId = stateObj.nextStates?.uncertain;
+            }
+        }
+
+        if (!matchedNextStateId) {
+            matchedNextStateId = stateObj.nextStates?.default || Object.values(stateObj.nextStates || {})[0] || this.currentStateId;
+        }
+
+        this.currentStateId = matchedNextStateId;
+        const nextStateObj = concept.conversationStates[this.currentStateId];
+        
+        if (!nextStateObj || !nextStateObj.onEnter) {
+            return {
+                message: "Let's keep going.",
+                render_component: 'none',
+                component_props: {},
+                session_complete: false
+            };
+        }
+
+        const onEnter = nextStateObj.onEnter;
+
+        return {
+            message: onEnter.message || "...",
+            render_component: onEnter.render_component || 'none',
+            component_props: onEnter.component_props || {
+                whiteboardAction: onEnter.whiteboardAction,
+                visualAction: onEnter.visualAction
+            },
+            session_complete: !!onEnter.session_complete,
+            state: this.currentStateId,
+            response_category: responseCategory
+        };
+    }
 }

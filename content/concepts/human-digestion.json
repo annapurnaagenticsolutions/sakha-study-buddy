@@ -1,0 +1,221 @@
+{
+    "concept_id": "human-digestion",
+    "title": "Human Digestion & Enzymatic Breakdown",
+    "subjects": ["Science", "Biology", "Chemistry"],
+    "class_band": [6, 7, 8],
+    "classBand": "6-8",
+    "languages": ["en", "hi", "hinglish"],
+    "prerequisites": ["cell_basics", "food_groups_nutrition"],
+    "stem_lab_link": "file:///D:/vision_agentic/STEM_labs/biology_concepts_lab/index.html",
+    "intro_hook": "Have you ever wondered why chewing a dry roti or bread for 30 seconds slowly makes it taste sweeter in your mouth? Or how your body extracts microscopic energy out of a heavy dal-rice lunch?",
+    "big_idea": "Digestion is a mechanical and biochemical pipeline that breaks down complex food macromolecules (carbohydrates, proteins, fats) into absorbable micro-nutrients (glucose, amino acids, fatty acids) across specialized pH zones (alkaline mouth, acidic stomach, alkaline intestine).",
+    "cause_process_result": {
+        "cause": "Mechanical chewing and chemical enzymes (Salivary Amylase, Pepsin, Lipase) interact with food.",
+        "process": "Stomach hydrochloric acid (HCl, pH 1.5-2.0) activates protein-digesting pepsin, while pancreatic enzymes and bile emulsify fats in the duodenum.",
+        "result": "Nutrients are absorbed through finger-like villi in the small intestine into the bloodstream, fueling cellular respiration."
+    },
+    "concept_difficulty_level": 7,
+    "learning_track": ["core"],
+    "teach_back_prompt": "Explain human digestion to a younger student using mouth chewing, stomach acid chemical breakdown, and small intestine absorption.",
+    "interactive_scaffold": {
+        "conceptId": "human-digestion",
+        "title": "Human Digestive Tract & Enzyme Biochemistry",
+        "hookQuestion": "Why does the stomach produce burning hydrochloric acid (HCl), and why doesn't that acid digest the stomach itself?",
+        "bigIdea": "Different digestive enzymes require specific pH environments to function: Amylase works in neutral mouth pH, Pepsin requires acidic stomach pH, and Trypsin/Lipase require alkaline intestinal pH.",
+        "vocabulary": [
+            { "symbol": "Enzymes", "means": "Biological protein catalysts that speed up the chemical breakdown of food molecules without being consumed" },
+            { "symbol": "HCl (Hydrochloric Acid)", "means": "Strong acid (pH 1.5-2.0) secreted by stomach parietal cells to kill pathogens and activate Pepsinogen into active Pepsin" },
+            { "symbol": "Villi & Microvilli", "means": "Millions of microscopic finger-like projections lining the small intestine that increase surface area by 600x for rapid nutrient absorption" },
+            { "symbol": "Bile Juice", "means": "Alkaline fluid produced by the liver and stored in gallbladder that emulsifies large fat globules into tiny droplets for Lipase digestion" }
+        ],
+        "steps": [
+            { "label": "Step 1: Oral Cavity (Mechanical & Amylase)", "detail": "Teeth masticate food to increase surface area while salivary amylase breaks complex starch into sweet maltose sugars at pH 6.8." },
+            { "label": "Step 2: Esophagus Peristalsis", "detail": "Rhythmic wave-like muscle contractions (peristalsis) push the chewed food bolus down the esophagus into the stomach." },
+            { "label": "Step 3: Stomach Acid & Protein Breakdown", "detail": "Gastric glands secrete HCl and pepsinogen. HCl lowers pH to 2.0, converting pepsinogen to pepsin which digests proteins into polypeptides." },
+            { "label": "Step 4: Small Intestine Duodenum & Pancreas", "detail": "Bile neutralizes stomach acid and emulsifies fats. Pancreatic trypsin, amylase, and lipase complete digestion into glucose, amino acids, and fatty acids." },
+            { "label": "Step 5: Villi Absorption & Large Intestine", "detail": "Villi absorb 90% of nutrients into blood capillaries and lacteals. The large intestine reabsorbs water and salts before egestion." }
+        ],
+        "check_after_step": 3,
+        "feedback_prompt": "Quick check: Does the stomach digest starch, or does it primarily digest proteins under acidic conditions?",
+        "worked_example": "If you eat 100 grams of paneer (protein and fat), stomach pepsin starts cleaving the protein chains at pH 2.0 for 3 hours, after which liver bile and pancreatic lipase break down the paneer fat globules inside the duodenum at pH 8.0.",
+        "common_confusions": [
+            { "confusion": "The stomach does 100% of digestion and nutrient absorption", "fix": "The stomach mainly churns food and begins protein digestion! Over 90% of chemical digestion and nutrient absorption happens inside the 6-meter-long small intestine." },
+            { "confusion": "Digestive acid dissolves food like boiling water", "fix": "HCl acid does not dissolve food directly; its primary job is to create the exact low pH required for the Pepsin enzyme to fold into its active catalytic shape!" }
+        ]
+    },
+    "whiteboardSteps": [
+        "Core Pipeline: Mouth (Starch pH 6.8) -> Stomach (Protein pH 2.0) -> Small Intestine Duodenum (Fats/All pH 8.0).",
+        "Enzyme Lock & Key: Salivary Amylase -> Starch; Gastric Pepsin -> Proteins; Pancreatic Lipase -> Fats.",
+        "Stomach Protection: Thick alkaline mucus lining prevents HCl acid from eroding gastric walls (preventing ulcers).",
+        "Absorption Multiplier: Small intestine villi and microvilli expand internal surface area to ~30 square meters (size of a tennis court half!).",
+        "Water Conservation: Large intestine reabsorbs ~1.5 liters of water daily to maintain electrolyte hydration."
+    ],
+    "whiteboard": [
+        "🧬 Human Digestive Enzyme Mechanics",
+        "$$ \\text{Complex Macromolecule} + \\text{Specific Enzyme at Optimal pH} \\longrightarrow \\text{Absorbable Micro-Nutrient} $$",
+        "",
+        "**Enzyme Optimal pH Zones:**",
+        "• Mouth (Salivary Amylase): pH 6.8 (Neutral-Slightly Acidic)",
+        "• Stomach (Gastric Pepsin): pH 1.5 - 2.0 (Highly Acidic)",
+        "• Small Intestine (Pancreatic Enzymes): pH 7.5 - 8.0 (Alkaline)"
+    ],
+    "visualSteps": [
+        { "step": 1, "action": "Highlight oral cavity showing molar chewing action coupled with salivary amylase splitting long starch polymers into glucose dimers." },
+        { "step": 2, "action": "Animate food bolus traveling down esophagus via peristalsis waves opening lower esophageal sphincter into stomach." },
+        { "step": 3, "action": "Highlight gastric lumen turning red (pH 2.0) as parietal cells release HCl, activating pepsin enzymes that chop protein chains." },
+        { "step": 4, "action": "Zoom into small intestine duodenum where green bile salts emulsify fat globules and microvilli absorb digested nutrients into blood vessels." }
+    ],
+    "conversationFlow": [
+        {
+            "state": "INTRO",
+            "prompt": "Let's explore Human Digestion! When you eat a meal like roti, dal, or rice, where does the chemical digestion of carbohydrates actually begin — in your mouth, your stomach, or your large intestine?",
+            "expected_action": "Student identifies mouth / chewing with saliva."
+        },
+        {
+            "state": "PRIOR_IDEA",
+            "prompt": "Many people think the stomach is a magical bag that does all digestion! But if you hold a piece of plain bread or roti in your mouth and chew it 30 times, it slowly tastes sweet right there! Why?",
+            "expected_action": "Student discovers saliva contains enzymes that break starch into sugar."
+        },
+        {
+            "state": "CONCEPT_1",
+            "prompt": "Let's look at Step 2: The Stomach. When chewed food arrives here, the stomach pours out strong Hydrochloric Acid (HCl at pH 2.0). Why does our stomach need to be so acidic?",
+            "expected_action": "Student connects acid to killing bacteria and activating protein-digesting pepsin."
+        },
+        {
+            "state": "CHECK_1",
+            "prompt": "Spot on — HCl kills germs and wakes up Pepsin! But here's a mystery: If stomach acid is strong enough to corrode metal coins, why doesn't it digest our own stomach walls?",
+            "expected_action": "Student identifies the thick protective mucus lining inside the stomach."
+        },
+        {
+            "state": "CONCEPT_2",
+            "prompt": "Exactly! A thick layer of alkaline mucus protects the stomach lining. Next, the acidic food enters the 6-meter-long Small Intestine. Here, liver Bile and Pancreatic juice neutralize the acid to pH 8.0 and break down fats. Where does most of our food get absorbed into our blood?",
+            "expected_action": "Student identifies the small intestine / villi."
+        },
+        {
+            "state": "CHECK_2",
+            "prompt": "Correct — the small intestine! To absorb enough food for our entire body, the inside lining has millions of tiny finger-like folds called Villi. What would happen if our intestine was completely smooth inside instead of folded into villi?",
+            "expected_action": "Student realizes nutrient absorption would be 600 times slower, causing malnutrition."
+        },
+        {
+            "state": "VISUAL_EXPLORATION",
+            "prompt": "Use our interactive Limiting Factor & Enzyme simulator on the right! Adjust the pH Slider between 1.0 and 9.0, and change Temperature. Watch how Pepsin works at maximum speed only at pH 2.0, while Amylase shuts down completely in acid!",
+            "expected_action": "Student experiments with sliders and discovers enzyme pH specificity curves."
+        },
+        {
+            "state": "MISCONCEPTION_REPAIR",
+            "prompt": "Some students ask: 'If fiber (roughage like vegetable skins and whole wheat bran) cannot be digested by human enzymes, why do doctors tell us we MUST eat plenty of fiber every day?' What do you think?",
+            "expected_action": "Student discovers fiber adds bulk, stimulates intestinal peristalsis, and feeds healthy gut bacteria."
+        },
+        {
+            "state": "PRACTICE",
+            "prompt": "Let's try a clinical puzzle: A patient has their gallbladder removed due to gallstones. Since the gallbladder stores liver bile juice, which food group (Carbohydrates, Proteins, or Fats) will they now have trouble digesting if they eat a heavy meal?",
+            "expected_action": "Student identifies Fats because bile emulsifies large fat globules into digestible droplets."
+        },
+        {
+            "state": "TEACH_BACK",
+            "prompt": "Now imagine you are explaining digestion to a younger friend. In your own words, trace how food changes from the Mouth (starch), to the Stomach (acid & protein), to the Small Intestine (fats & villi absorption)!",
+            "expected_action": "Student performs teach-back summarizing the 3 key digestion zones."
+        },
+        {
+            "state": "FEEDBACK",
+            "prompt": "You nailed the teach-back! Before we finish, how did you feel about this session? Did the enzyme pH slider help make biochemical digestion clear?",
+            "expected_action": "Student shares feedback on visualizers and pace."
+        },
+        {
+            "state": "COMPLETE",
+            "prompt": "Concept complete! You have mastered Human Digestion and Enzyme Biochemistry. Check your constellation map to see your earned stars!",
+            "expected_action": "Session complete."
+        }
+    ],
+    "responseRules": {
+        "MISCONCEPTION": "Acknowledge the guess, then ask a guiding probe (e.g., whether the stomach absorbs food or the intestine does) to guide the student to correct GI anatomy.",
+        "REQUEST_VISUAL": "Direct the student to the interactive sliders to observe how shifting pH out of the optimal zone denatures enzyme active sites.",
+        "REQUEST_SIMPLIFICATION": "Open the Whiteboard and show the 3-room house analogy: Mouth (Starch Kitchen), Stomach (Acid Blender for Protein), Intestine (Sponge Room for Absorption).",
+        "CORRECT": "Validate the clear physiological reasoning, connect enzyme specificity to chemical bonds, and transition smoothly to the next checkpoint."
+    },
+    "guidedPractice": [
+        {
+            "scenario": "Antacid Overuse Effect",
+            "question": "If a person takes excessive calcium carbonate antacid tablets after a protein meal, raising their stomach pH from 2.0 up to 6.5, how will this directly impact protein digestion?",
+            "hint": "What specific enzyme inside the stomach requires pH 1.5-2.0 to activate and catalyze protein cleavage?",
+            "expected_answer": "Protein digestion will severely drop because Pepsinogen cannot convert into active Pepsin without low acidic pH."
+        },
+        {
+            "scenario": "Peristalsis in Space",
+            "question": "Astronauts on the International Space Station eat and drink in zero gravity where there is no down pull. Why doesn't food float back up out of their stomachs into their throats after swallowing?",
+            "hint": "What kind of involuntary wave-like muscle contractions propel food down the esophagus independent of gravity?",
+            "expected_answer": "Esophageal peristalsis contractions actively squeeze and push the food bolus down into the stomach regardless of gravity."
+        }
+    ],
+    "teachBackRubric": {
+        "required_elements": [
+            "Chewing and salivary amylase breaking down starch in the mouth",
+            "Stomach hydrochloric acid (HCl) activating pepsin to break down proteins",
+            "Small intestine receiving bile/pancreatic enzymes to break down fats",
+            "Villi increasing surface area to absorb nutrients into the blood",
+            "Mentioning that enzymes require specific pH zones to work properly"
+        ],
+        "partial_prompt": "You explained the mouth and stomach perfectly! But where do fats get digested, and how do the nutrients actually enter our bloodstream?"
+    },
+    "feedbackQuestions": [
+        "Which view helped most (Whiteboard, Sliders, or Thali digestion story)?",
+        "Was the difference between mechanical chewing and chemical enzyme action clear?",
+        "Did the enzyme pH sliders make biochemistry easy to understand?"
+    ],
+    "components": {
+        "primary2D": {
+            "type": "DigestionEnzymePHSimulator",
+            "controls": ["ph_level", "temperature", "substrate_type", "chewing_surface_area"],
+            "outputs": ["reaction_rate", "active_enzyme", "limiting_factor"],
+            "description": "Interactive simulation with 4 sliders showing live breakdown rate of starch, protein, and fat under shifting pH and temperature."
+        },
+        "optional3D": {
+            "type": "SmallIntestineVilliMicro3D",
+            "description": "Zoom into the folded lining of the small intestine in 3D to watch glucose and amino acids cross microvilli membranes into blood capillaries."
+        }
+    },
+    "indian_analogies": [
+        "Traditional Indian Balanced Thali: A classic thali has Roti/Rice (carbohydrates broken down fast in mouth/intestine), Dal/Paneer (proteins digested over 3 hours in acidic stomach), and Ghee (fats emulsified by bile in duodenum), giving sustained energy release over 5 hours without glucose spikes.",
+        "Ajwain / Jeera Water Tradition: Drinking warm cumin (jeera) or carom seed (ajwain) water after meals stimulates the secretion of pancreatic enzymes and bile, preventing indigestion and accelerating intestinal motility."
+    ],
+    "misconceptions": [
+        {
+            "id": "mc_stomach_does_all",
+            "belief": "The stomach does 100% of digestion and nutrient absorption.",
+            "probe": "If our stomach absorbs all our food, why do human beings have a 6-meter-long small intestine coiled underneath it?",
+            "correction": "The stomach mainly churns food and initiates protein breakdown. Over 90% of chemical digestion and nutrient absorption occurs across the vast surface area of the small intestine villi."
+        },
+        {
+            "id": "mc_acid_dissolves_everything",
+            "belief": "Stomach acid dissolves food directly like boiling water melts ice.",
+            "probe": "Does hydrochloric acid alone break chemical peptide bonds in proteins, or does it activate a specialized protein enzyme?",
+            "correction": "HCl does not directly dissolve protein chains. HCl creates the essential acidic pH (2.0) needed to activate the Pepsin enzyme, which performs the actual catalytic bond cleavage."
+        }
+    ],
+    "practice_problems": [
+        {
+            "difficulty": "Easy",
+            "q": "Which enzyme works best in the acidic environment of the stomach: Salivary Amylase, Gastric Pepsin, or Pancreatic Lipase?",
+            "hint": "Check Step 3 on the Whiteboard: what enzyme digests proteins at pH 2.0?"
+        },
+        {
+            "difficulty": "Medium",
+            "q": "Why does chewing food thoroughly before swallowing make chemical enzyme digestion much faster?",
+            "hint": "Think about how mechanical breaking increases surface area exposed to enzymes."
+        }
+    ],
+    "question_flow": [
+        {
+            "type": "hook",
+            "q": "When you eat a meal like roti, dal, or rice, where does the chemical digestion of carbohydrates actually begin?"
+        },
+        {
+            "type": "probe",
+            "q": "Why does our stomach produce strong hydrochloric acid, and why doesn't that acid digest the stomach wall?"
+        },
+        {
+            "type": "teach_back",
+            "q": "Explain human digestion to a younger student using mouth chewing, stomach acid chemical breakdown, and small intestine absorption."
+        }
+    ]
+}

@@ -7,18 +7,83 @@ export const DEFAULT_API_CONCEPT_IDS = [
     'water-treatment-network'
 ];
 
+export const CONVERSATION_STATES = [
+    'INTRO', 'PRIOR_IDEA', 'CONCEPT_1', 'CHECK_1', 'CONCEPT_2',
+    'CHECK_2', 'VISUAL_EXPLORATION', 'MISCONCEPTION_REPAIR',
+    'PRACTICE', 'TEACH_BACK', 'FEEDBACK', 'COMPLETE'
+];
+
+export const RESPONSE_CATEGORIES = [
+    'CORRECT', 'PARTIALLY_CORRECT', 'MISCONCEPTION', 'UNCERTAIN',
+    'REQUEST_EXAMPLE', 'REQUEST_VISUAL', 'REQUEST_SIMPLIFICATION',
+    'OFF_TOPIC', 'EMPTY_OR_UNCLEAR'
+];
+
 export class FallbackTutor {
     constructor() {
         this.turn = 0;
+        this.state = 'INTRO';
+        this.stateHistory = ['INTRO'];
     }
 
     reset() {
         this.turn = 0;
+        this.state = 'INTRO';
+        this.stateHistory = ['INTRO'];
+    }
+
+    classifyUserResponse(userMessage, concept) {
+        const text = (userMessage || '').trim().toLowerCase();
+        if (!text) return 'EMPTY_OR_UNCLEAR';
+        if (findMisconception(concept, text)) return 'MISCONCEPTION';
+        if (/formula|equation|whiteboard|step|derive|symbol|meaning|deep|detail|samjhao|explain|process|flow/.test(text) || /simple|simplify|asan|aasan|basic|basics/.test(text)) return 'REQUEST_SIMPLIFICATION';
+        if (/example|practice|try|sample|solve|use case/.test(text)) return 'REQUEST_EXAMPLE';
+        if (/visual|animation|diagram|slider|show me|dekhna|dikhaye|graph|3d/.test(text)) return 'REQUEST_VISUAL';
+        if (isLikelyTeachBack(userMessage, concept)) return 'CORRECT';
+        if (/not clear|confus|samajh nahi|doubt|\bno\b|\bnahi\b|kya matlab/.test(text)) return 'UNCERTAIN';
+        if (/clear|samajh|understand|\byes\b|\bhaan\b|\bok\b|got it|sahi/.test(text)) return 'PARTIALLY_CORRECT';
+        return text.length < 5 ? 'UNCERTAIN' : 'PARTIALLY_CORRECT';
+    }
+
+    transitionState(responseCategory) {
+        if (responseCategory === 'MISCONCEPTION') {
+            this.state = 'MISCONCEPTION_REPAIR';
+        } else if (responseCategory === 'REQUEST_VISUAL') {
+            this.state = 'VISUAL_EXPLORATION';
+        } else if (responseCategory === 'REQUEST_EXAMPLE') {
+            this.state = 'PRACTICE';
+        } else if (this.state === 'INTRO') {
+            this.state = 'PRIOR_IDEA';
+        } else if (this.state === 'PRIOR_IDEA') {
+            this.state = 'CONCEPT_1';
+        } else if (this.state === 'CONCEPT_1') {
+            this.state = 'CHECK_1';
+        } else if (this.state === 'CHECK_1') {
+            this.state = 'CONCEPT_2';
+        } else if (this.state === 'CONCEPT_2') {
+            this.state = 'CHECK_2';
+        } else if (this.state === 'CHECK_2') {
+            this.state = this.turn >= 4 ? 'PRACTICE' : 'VISUAL_EXPLORATION';
+        } else if (this.state === 'VISUAL_EXPLORATION') {
+            this.state = 'PRACTICE';
+        } else if (this.state === 'MISCONCEPTION_REPAIR') {
+            this.state = this.turn > 3 ? 'CHECK_1' : 'CONCEPT_1';
+        } else if (this.state === 'PRACTICE') {
+            this.state = 'TEACH_BACK';
+        } else if (this.state === 'TEACH_BACK') {
+            this.state = (responseCategory === 'CORRECT' || this.turn >= 4) ? 'FEEDBACK' : 'TEACH_BACK';
+        } else if (this.state === 'FEEDBACK') {
+            this.state = 'COMPLETE';
+        }
+        if (this.stateHistory[this.stateHistory.length - 1] !== this.state) {
+            this.stateHistory.push(this.state);
+        }
+        return this.state;
     }
 
     createResponse(concept, userMessage, apiFailed = false, language = 'Hinglish') {
         this.turn += 1;
-        const text = userMessage.toLowerCase();
+        const text = (userMessage || '').toLowerCase();
         const whiteboard = normalizeWhiteboard(concept.whiteboard, concept);
         const misconception = findMisconception(concept, text);
         const asksWhiteboard = /formula|equation|whiteboard|step|derive|symbol|meaning|deep|detail|samjhao|explain|process|flow/.test(text);
@@ -29,67 +94,73 @@ export class FallbackTutor {
         const likelyTeachBack = isLikelyTeachBack(userMessage, concept);
         const english = language === 'English';
 
+        const responseCategory = this.classifyUserResponse(userMessage, concept);
+        this.transitionState(responseCategory);
+
+        let reply;
         if (likelyTeachBack && this.turn >= 3) {
-            return jsonReply(
+            this.state = 'COMPLETE';
+            if (this.stateHistory[this.stateHistory.length - 1] !== 'COMPLETE') {
+                this.stateHistory.push('COMPLETE');
+            }
+            reply = jsonReply(
                 english ? 'Nice. You connected cause and result. Final polish: include cause, process, and result.' : 'Nice. Cause aur result connect ho gaya. Last polish: cause, process, result teenon add karo.',
                 'none',
                 {},
                 true
             );
-        }
-
-        if (asksWhiteboard || wantsExample || wantsRepeat) {
-            return jsonReply(
+        } else if (asksWhiteboard || wantsExample || wantsRepeat) {
+            reply = jsonReply(
                 english ? 'Use the whiteboard. I will show only the useful slice first; after 1-2 steps, tell me clear or confusing.' : 'Whiteboard dekho. Pehle sirf useful slice dikh raha hai; 1-2 steps ke baad bolo clear ya doubt.',
                 'Whiteboard',
                 { whiteboard, title: concept.title, stage: wantsExample ? 'full' : (wantsRepeat ? 'start' : 'steps') },
                 false
             );
-        }
-
-        if (saysNotClear) {
-            return jsonReply(
+        } else if (saysNotClear) {
+            reply = jsonReply(
                 makeNotClearReply(concept, whiteboard, language),
                 'Whiteboard',
                 { whiteboard, title: concept.title, stage: 'start' },
                 false
             );
-        }
-
-        if (saysClear && this.turn > 1) {
+        } else if (saysClear && this.turn > 1) {
             const nextStage = this.turn >= 4 ? 'full' : 'steps';
-            return jsonReply(
+            reply = jsonReply(
                 english ? 'Good. I am opening the next whiteboard slice. Next: ' + getNextQuestion(concept, this.turn, language) + ' Short answer, in your words.' : 'Good. Main next whiteboard slice khol raha hoon. Next: ' + getNextQuestion(concept, this.turn, language) + ' Short answer, apne words mein.',
                 'Whiteboard',
                 { whiteboard, title: concept.title, stage: nextStage },
                 false
             );
-        }
-
-        if (misconception) {
-            return jsonReply(
+        } else if (misconception) {
+            reply = jsonReply(
                 english ? 'Good thought, but there is a common trap here: "' + misconception.belief + '". Think about this: ' + getEnglishProbe(misconception, concept) + ' Hint: ' + getEnglishRepair(misconception, concept) : 'Good thought, but yahan ek common trap hai: "' + misconception.belief + '". Socho: ' + (misconception.probe || 'is observation ke peeche actual cause kya hai?') + ' Hint: ' + (misconception.repair || concept.big_idea || 'cause-process-result chain follow karo.'),
                 'none',
                 {},
                 false
             );
-        }
-
-        if (apiFailed) {
-            return jsonReply(
+        } else if (apiFailed) {
+            reply = jsonReply(
                 english ? 'Online AI is unavailable. Guided mode: ' + getFallbackTeachingMove(concept, whiteboard, this.turn, language) : 'Online AI unavailable. Guided mode: ' + getFallbackTeachingMove(concept, whiteboard, this.turn, language),
                 'Whiteboard',
                 { whiteboard, title: concept.title, stage: this.turn >= 3 ? 'steps' : 'start' },
                 false
             );
+        } else {
+            reply = jsonReply(
+                getFallbackTeachingMove(concept, whiteboard, this.turn, language),
+                this.turn <= 3 ? 'Whiteboard' : 'none',
+                this.turn <= 3 ? { whiteboard, title: concept.title, stage: this.turn >= 3 ? 'steps' : 'start' } : {},
+                false
+            );
         }
 
-        return jsonReply(
-            getFallbackTeachingMove(concept, whiteboard, this.turn, language),
-            this.turn <= 3 ? 'Whiteboard' : 'none',
-            this.turn <= 3 ? { whiteboard, title: concept.title, stage: this.turn >= 3 ? 'steps' : 'start' } : {},
-            false
-        );
+        reply.state = this.state;
+        reply.response_category = responseCategory;
+        if (reply.component_props) {
+            reply.component_props.state = this.state;
+            reply.component_props.response_category = responseCategory;
+        }
+        return reply;
     }
 }
 

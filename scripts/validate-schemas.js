@@ -222,6 +222,46 @@ try {
   error(`Failed to validate test file: ${err.message}`);
 }
 
+// 5. Validate concept state schemas
+console.log('\nValidating concept JSON state schemas...');
+try {
+  const conceptsDir = path.join(__dirname, '..', 'content', 'concepts');
+  if (fs.existsSync(conceptsDir)) {
+    const files = fs.readdirSync(conceptsDir).filter(f => f.endsWith('.json'));
+    let stateMachineConcepts = 0;
+    files.forEach(file => {
+      try {
+        const p = path.join(conceptsDir, file);
+        const data = JSON.parse(fs.readFileSync(p, 'utf-8'));
+        if (data.conversationStates) {
+          stateMachineConcepts++;
+          if (!data.conversationStates['START']) {
+            error(`${file}: Missing START state in conversationStates`);
+          }
+          Object.entries(data.conversationStates).forEach(([stateId, stateObj]) => {
+            if (!stateObj.onEnter) error(`${file} [${stateId}]: Missing onEnter`);
+            else if (!stateObj.onEnter.message) error(`${file} [${stateId}]: Missing onEnter.message`);
+            
+            if (stateObj.misconceptions && !Array.isArray(stateObj.misconceptions)) {
+              error(`${file} [${stateId}]: misconceptions must be an array`);
+            }
+            if (stateObj.nextStates && typeof stateObj.nextStates !== 'object') {
+              error(`${file} [${stateId}]: nextStates must be an object`);
+            }
+          });
+        }
+      } catch (e) {
+        error(`Failed to parse/validate ${file}: ${e.message}`);
+      }
+    });
+    success(`Validated ${stateMachineConcepts} concepts with conversationStates`);
+  } else {
+    warn('content/concepts directory not found for state validation');
+  }
+} catch (err) {
+  error(`Failed to validate concept state schemas: ${err.message}`);
+}
+
 // Summary
 console.log('\n=== Validation Summary ===');
 console.log(`Errors: ${validationErrors.length}`);

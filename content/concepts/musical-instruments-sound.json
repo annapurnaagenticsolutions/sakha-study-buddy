@@ -1,227 +1,236 @@
 {
-  "concept_id": "musical-instruments-sound",
-  "title": "Musical Instruments and Sound",
-  "icon": "🥁",
-  "class_band": [
-    1,
-    2,
-    3
-  ],
-  "subjects": [
-    "Physics",
-    "Math",
-    "Biology"
-  ],
-  "place": "Music + School",
-  "level": "Foundation",
-  "prerequisites": [],
-  "intro_hook": "Why does a drum, bell, or rubber band make sound when it vibrates?",
-  "big_idea": "Sound begins with vibration, travels through air, and is heard by the ear. Faster or slower vibrations change pitch.",
-  "story": "A stretched rubber band twangs. A drum skin moves back and forth. These vibrations push air, and the ear detects the pattern.",
-  "cause_process_result": {
-    "cause": "Object hit/plucked",
-    "process": "Vibration starts → Air carries sound → Ear receives",
-    "result": "Brain recognizes"
-  },
-  "flow": [
-    "Object hit/plucked",
-    "Vibration starts",
-    "Air carries sound",
-    "Ear receives",
-    "Brain recognizes"
-  ],
-  "whiteboard": [
-    "Cause: Object hit/plucked",
-    "  -> Vibration starts → Air carries sound → Ear receives",
-    "Result: Brain recognizes"
-  ],
-  "indian_analogies": [
-    "Music + School mein yeh dekhte hain: Musical Instruments and Sound.",
-    "School assembly"
-  ],
-  "misconceptions": [
-    {
-      "id": "single_subject_thinking",
-      "belief": "This topic belongs to only one subject.",
-      "why_common": "Sound is only made by speakers. Many objects produce sound by vibrating.",
-      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
-      "repair": "Musical Instruments and Sound mein Physics, Math, Biology sab ek saath kaam karte hain.",
-      "trigger_words": [
-        "sirf",
-        "only",
-        "just",
-        "ek subject",
-        "one reason"
-      ]
-    },
-    {
-      "id": "cause_is_result",
-      "belief": "The first visible thing IS the reason, not the start of a chain.",
-      "why_common": "Students observe the output and skip the mechanism.",
-      "probe": "Why does a drum, bell, or rubber band make sound when it vibrates?",
-      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
-      "trigger_words": [
-        "because it happens",
-        "directly",
-        "seedha"
-      ]
-    }
-  ],
-  "question_flow": [
-    {
-      "type": "hook",
-      "q": "Why does a drum, bell, or rubber band make sound when it vibrates?",
-      "a": "Jab drum, bell, ya rubber band vibrate hota hai, to yeh vibration hawa mein sound waves banata hai, jo humein sunayi deti hai. Is vibration ke kaaran sound produce hota hai aur humein sunne ko milta hai."
-    },
-    {
-      "type": "probe",
-      "q": "Why does a tighter string sound different?",
-      "a": "Tighter string ki frequency badh jaati hai, jiske kaaran uska sound bhi alag hota hai, teez aur ooncha hota hai. Ismein vibration ki gati badh jaati hai, jisse sound bhi badalta hai."
-    },
-    {
-      "type": "probe",
-      "q": "Why can sound travel through walls?",
-      "a": "Sound ki tarangen solid, liquid aur gas mein travel kar sakti hain, isliye ve diwaron se bhi guzar sakti hain kyunki diwar mein bhi molecules hote hain jo sound ko ek jagah se doosri jagah pahunchaate hain. Is prakaar, sound ki tarangen diwar ke andar ke molecules ko thoda sa hilati hain aur sound humein sunai"
-    },
-    {
-      "type": "probe",
-      "q": "Why should we avoid very loud sound?",
-      "a": "Bahut jyada loud sound sunne se humari sunne ki kshamta kam ho sakti hai, isliye humein bahut jyada loud sound se bachna chahiye. Yeh humari sunne ki kshamta ko nuksan pahuncha sakta hai aur humein deafness ki samasya ho sakti hai. Isliye humein loud sound ko control karna chahiye."
-    },
-    {
-      "type": "concept_check",
-      "q": "In this flow — Object hit/plucked -> Vibration starts -> Air carries sound — what exactly happens at each step?",
-      "a": "Pehle step mein object ko hit ya pluck kiya jata hai, jisse vibration start hoti hai. Vibration ke kaaran object ke andar ki particles hilne lagti hain aur sound utpann hota hai. Phir air carries sound ko humare kaan tak pahunchati hai, jisse hum sound sun sakte hain."
-    },
-    {
-      "type": "teach_back",
-      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
-      "a": "Dekho, jab hum kisi musical instrument ko bajate hain, toh usse sound nikalta hai, jaise ki tabla ya guitar. Ye sound hawa mein vibrations ke roop mein failta hai aur humein sunai deta hai. Hum is sound ko kanon se sunte hain aur mazaa lete hain."
-    },
-    {
-      "type": "application",
-      "q": "What must happen for most instruments to produce sound?",
-      "a": "Most instruments mein sound produce hone ke liye vibration hona zaroori hai, jiske liye hume unhe bajana hota hai, jaise ki guitar ko strum karna ya tabla ko thapakna. Is vibration se sound waves generate hoti hain."
-    }
-  ],
-  "practice_problems": [
-    {
-      "difficulty": 2,
-      "type": "mcq",
-      "q": "What must happen for most instruments to produce sound?",
-      "options": [
-        "Something vibrates",
-        "Everything becomes hot",
-        "Light must bend",
-        "Water must boil"
-      ],
-      "correct": "Something vibrates",
-      "hint": "Most sounds are produced when an object vibrates and sends vibrations through air or another medium.",
-      "answer": "Most sounds are produced when an object vibrates and sends vibrations through air or another medium."
-    },
-    {
-      "difficulty": 1,
-      "type": "what_if",
-      "q": "What would happen if tightness becomes very low?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    },
-    {
-      "difficulty": 2,
-      "type": "what_if",
-      "q": "What would happen if tightness becomes very high?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    },
-    {
-      "difficulty": 3,
-      "type": "what_if",
-      "q": "What would change if the place, material, time, or weather changes?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    }
-  ],
-  "teaching_styles": {
-    "simple": "Musical Instruments and Sound shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
-    "standard": "In Musical Instruments and Sound, one or more factors such as tightness change what we observe. The idea connects Physics, Math, Biology and helps explain the situation beyond memorizing a fact.",
-    "deep": "A deeper explanation of Musical Instruments and Sound connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Sound begins with vibration, travels through air, and is heard by the ear. Faster or slower vibrations change pitch.",
-    "hinglish": "Dekh yaar — Musical Instruments and Sound mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
-    "story": "A stretched rubber band twangs. A drum skin moves back and forth. These vibrations push air, and the ear detects the pattern."
-  },
-  "learner_adaptations": {
-    "class_1_3": "Notice the situation: Why does a drum, bell, or rubber band make sound when it vibrates. Say what you can see, hear, feel, or compare safely.",
-    "class_4_5": "Name the main factor and compare two cases. Example: less vs more tightness.",
-    "class_6_8": "Explain the cause-effect chain: Object hit/plucked → Vibration starts → Air carries sound → Ear receives.",
-    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
-    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
-    "fast_learner": "Push to deep mode. Connect all subjects: Physics, Math, Biology."
-  },
-  "subject_lenses": {
-    "Physics": "Vibration, sound waves, pitch, loudness.",
-    "Math": "Compare loud/soft, fast/slow, long/short strings, and repeated beats.",
-    "Biology": "The ear detects vibrations and sends signals to the brain."
-  },
-  "wonder_tangents": [
-    {
-      "trigger": "after_student_explains",
-      "hinglish": "By the way — Musical Instruments and Sound ka concept aur jagah bhi kaam karta hai: School assembly, Music class, Doorbells.",
-      "related_concepts": [],
-      "career_connection": "Music technology, acoustics, audio engineering, hearing science."
-    }
-  ],
-  "daily_wonders": [
-    "Aaj musical instruments and sound se related kuch notice karo.",
-    "Why does a drum, bell, or rubber band make sound when it vibrates?",
-    "What would happen if tightness becomes very low?"
-  ],
-  "indian_legacy": {
-    "scientist": "Sarangadeva",
-    "connection": "Sarangadeva, a 13th-century Indian musicologist, wrote the renowned musicological treatise 'Sangita Ratnakara', which explores the science of sound and music in ancient India. His work explains how different vibrations produce distinct sounds and pitches, which aligns with the concept that sound begins with vibration and changes pitch with varying speeds of vibration.",
-    "story_hook": "Imagine being in the presence of a skilled sitar player, watching as their fingers dance across the strings to create a mesmerizing melody that seems to transport you to another world. As you listen, you begin to wonder, what is the secret behind the creation of these enchanting sounds that seem to capture the very essence of Indian classical music?",
-    "class_appropriate": {
-      "1-5": "story_hook only",
-      "6-8": "story + connection",
-      "9-10": "full connection with equations"
-    },
-    "enrichment_status": "completed"
-  },
-  "home_investigation": {
-    "title": "Ghar pe Try Karo: Musical Instruments and Sound",
-    "time_required": "5-10 min",
-    "materials": [
-      "Ghar mein available items (see experiment below)"
-    ],
-    "steps": [
-      "Stretch a rubber band over an empty box and pluck gently. Do not pluck near eyes; keep volume comfortable."
-    ],
-    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
-    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
-  },
-  "unlocks": [
-    "sound",
-    "patterns",
-    "ear"
-  ],
-  "subject_web_position": {
-    "x": 0.5,
-    "y": 0.5
-  },
-  "stem_lab_link": "life-concepts-lab#scenario-musical-instruments-sound",
-  "visualizer_type": "life_concepts_lab",
-  "life_decision": "Protect ears from very loud sound and notice sound patterns around you.",
-  "career_connections": "Music technology, acoustics, audio engineering, hearing science.",
-  "why_matters": "This turns music into observable science without reducing its creativity.",
-  "session_type": "science",
-  "_source": "life-concepts-lab-v1_4_1-final-polish",
-  "_enrichment_needed": [
-    "indian_legacy",
-    "wonder_tangents.related_concepts",
-    "misconceptions (domain-specific)",
-    "prerequisites",
-    "stem_lab_link (full deployed URL)"
-  ],
-  "concept_difficulty_level": 3,
-  "learning_track": [
-    "core"
-  ]
+    "concept_id":  "musical-instruments-sound",
+    "title":  "Musical Instruments and Sound",
+    "icon":  "ðŸ¥",
+    "class_band":  [
+                       1,
+                       2,
+                       3
+                   ],
+    "subjects":  [
+                     "Physics",
+                     "Math",
+                     "Biology"
+                 ],
+    "place":  "Music + School",
+    "level":  "Foundation",
+    "prerequisites":  [
+
+                      ],
+    "intro_hook":  "Why does a drum, bell, or rubber band make sound when it vibrates?",
+    "big_idea":  "Sound begins with vibration, travels through air, and is heard by the ear. Faster or slower vibrations change pitch.",
+    "story":  "A stretched rubber band twangs. A drum skin moves back and forth. These vibrations push air, and the ear detects the pattern.",
+    "cause_process_result":  {
+                                 "cause":  "Object hit/plucked",
+                                 "process":  "Vibration starts â†’ Air carries sound â†’ Ear receives",
+                                 "result":  "Brain recognizes"
+                             },
+    "flow":  [
+                 "Object hit/plucked",
+                 "Vibration starts",
+                 "Air carries sound",
+                 "Ear receives",
+                 "Brain recognizes"
+             ],
+    "whiteboard":  [
+                       "Cause: Object hit/plucked",
+                       "  -\u003e Vibration starts â†’ Air carries sound â†’ Ear receives",
+                       "Result: Brain recognizes"
+                   ],
+    "indian_analogies":  [
+                             "Music + School mein yeh dekhte hain: Musical Instruments and Sound.",
+                             "School assembly"
+                         ],
+    "misconceptions":  [
+                           {
+                               "id":  "single_subject_thinking",
+                               "belief":  "This topic belongs to only one subject.",
+                               "why_common":  "Sound is only made by speakers. Many objects produce sound by vibrating.",
+                               "probe":  "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+                               "repair":  "Musical Instruments and Sound mein Physics, Math, Biology sab ek saath kaam karte hain.",
+                               "trigger_words":  [
+                                                     "sirf",
+                                                     "only",
+                                                     "just",
+                                                     "ek subject",
+                                                     "one reason"
+                                                 ]
+                           },
+                           {
+                               "id":  "cause_is_result",
+                               "belief":  "The first visible thing IS the reason, not the start of a chain.",
+                               "why_common":  "Students observe the output and skip the mechanism.",
+                               "probe":  "Why does a drum, bell, or rubber band make sound when it vibrates?",
+                               "repair":  "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+                               "trigger_words":  [
+                                                     "because it happens",
+                                                     "directly",
+                                                     "seedha"
+                                                 ]
+                           }
+                       ],
+    "question_flow":  [
+                          {
+                              "type":  "hook",
+                              "q":  "Why does a drum, bell, or rubber band make sound when it vibrates?",
+                              "a":  "Jab drum, bell, ya rubber band vibrate hota hai, to yeh vibration hawa mein sound waves banata hai, jo humein sunayi deti hai. Is vibration ke kaaran sound produce hota hai aur humein sunne ko milta hai."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "Why does a tighter string sound different?",
+                              "a":  "Tighter string ki frequency badh jaati hai, jiske kaaran uska sound bhi alag hota hai, teez aur ooncha hota hai. Ismein vibration ki gati badh jaati hai, jisse sound bhi badalta hai."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "Why can sound travel through walls?",
+                              "a":  "Sound ki tarangen solid, liquid aur gas mein travel kar sakti hain, isliye ve diwaron se bhi guzar sakti hain kyunki diwar mein bhi molecules hote hain jo sound ko ek jagah se doosri jagah pahunchaate hain. Is prakaar, sound ki tarangen diwar ke andar ke molecules ko thoda sa hilati hain aur sound humein sunai"
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "Why should we avoid very loud sound?",
+                              "a":  "Bahut jyada loud sound sunne se humari sunne ki kshamta kam ho sakti hai, isliye humein bahut jyada loud sound se bachna chahiye. Yeh humari sunne ki kshamta ko nuksan pahuncha sakta hai aur humein deafness ki samasya ho sakti hai. Isliye humein loud sound ko control karna chahiye."
+                          },
+                          {
+                              "type":  "concept_check",
+                              "q":  "In this flow â€” Object hit/plucked -\u003e Vibration starts -\u003e Air carries sound â€” what exactly happens at each step?",
+                              "a":  "Pehle step mein object ko hit ya pluck kiya jata hai, jisse vibration start hoti hai. Vibration ke kaaran object ke andar ki particles hilne lagti hain aur sound utpann hota hai. Phir air carries sound ko humare kaan tak pahunchati hai, jisse hum sound sun sakte hain."
+                          },
+                          {
+                              "type":  "teach_back",
+                              "q":  "Ab tu mujhe bata â€” apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?",
+                              "a":  "Dekho, jab hum kisi musical instrument ko bajate hain, toh usse sound nikalta hai, jaise ki tabla ya guitar. Ye sound hawa mein vibrations ke roop mein failta hai aur humein sunai deta hai. Hum is sound ko kanon se sunte hain aur mazaa lete hain."
+                          },
+                          {
+                              "type":  "application",
+                              "q":  "What must happen for most instruments to produce sound?",
+                              "a":  "Most instruments mein sound produce hone ke liye vibration hona zaroori hai, jiske liye hume unhe bajana hota hai, jaise ki guitar ko strum karna ya tabla ko thapakna. Is vibration se sound waves generate hoti hain."
+                          }
+                      ],
+    "practice_problems":  [
+                              {
+                                  "difficulty":  2,
+                                  "type":  "mcq",
+                                  "q":  "What must happen for most instruments to produce sound?",
+                                  "options":  [
+                                                  "Something vibrates",
+                                                  "Everything becomes hot",
+                                                  "Light must bend",
+                                                  "Water must boil"
+                                              ],
+                                  "correct":  "Something vibrates",
+                                  "hint":  "Most sounds are produced when an object vibrates and sends vibrations through air or another medium.",
+                                  "answer":  "Most sounds are produced when an object vibrates and sends vibrations through air or another medium."
+                              },
+                              {
+                                  "difficulty":  1,
+                                  "type":  "what_if",
+                                  "q":  "What would happen if tightness becomes very low?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              },
+                              {
+                                  "difficulty":  2,
+                                  "type":  "what_if",
+                                  "q":  "What would happen if tightness becomes very high?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              },
+                              {
+                                  "difficulty":  3,
+                                  "type":  "what_if",
+                                  "q":  "What would change if the place, material, time, or weather changes?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              }
+                          ],
+    "teaching_styles":  {
+                            "simple":  "Musical Instruments and Sound shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+                            "standard":  "In Musical Instruments and Sound, one or more factors such as tightness change what we observe. The idea connects Physics, Math, Biology and helps explain the situation beyond memorizing a fact.",
+                            "deep":  "A deeper explanation of Musical Instruments and Sound connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Sound begins with vibration, travels through air, and is heard by the ear. Faster or slower vibrations change pitch.",
+                            "hinglish":  "Dekh yaar â€” Musical Instruments and Sound mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+                            "story":  "A stretched rubber band twangs. A drum skin moves back and forth. These vibrations push air, and the ear detects the pattern."
+                        },
+    "learner_adaptations":  {
+                                "class_1_3":  "Notice the situation: Why does a drum, bell, or rubber band make sound when it vibrates. Say what you can see, hear, feel, or compare safely.",
+                                "class_4_5":  "Name the main factor and compare two cases. Example: less vs more tightness.",
+                                "class_6_8":  "Explain the cause-effect chain: Object hit/plucked â†’ Vibration starts â†’ Air carries sound â†’ Ear receives.",
+                                "class_9_10":  "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+                                "struggling":  "Start with the hook only. Ask what they observe. Don\u0027t explain yet.",
+                                "fast_learner":  "Push to deep mode. Connect all subjects: Physics, Math, Biology."
+                            },
+    "subject_lenses":  {
+                           "Physics":  "Vibration, sound waves, pitch, loudness.",
+                           "Math":  "Compare loud/soft, fast/slow, long/short strings, and repeated beats.",
+                           "Biology":  "The ear detects vibrations and sends signals to the brain."
+                       },
+    "wonder_tangents":  [
+                            {
+                                "trigger":  "after_student_explains",
+                                "hinglish":  "By the way â€” Musical Instruments and Sound ka concept aur jagah bhi kaam karta hai: School assembly, Music class, Doorbells.",
+                                "related_concepts":  [
+
+                                                     ],
+                                "career_connection":  "Music technology, acoustics, audio engineering, hearing science."
+                            }
+                        ],
+    "daily_wonders":  [
+                          "Aaj musical instruments and sound se related kuch notice karo.",
+                          "Why does a drum, bell, or rubber band make sound when it vibrates?",
+                          "What would happen if tightness becomes very low?"
+                      ],
+    "indian_legacy":  {
+                          "scientist":  "Sarangadeva",
+                          "connection":  "Sarangadeva, a 13th-century Indian musicologist, wrote the renowned musicological treatise \u0027Sangita Ratnakara\u0027, which explores the science of sound and music in ancient India. His work explains how different vibrations produce distinct sounds and pitches, which aligns with the concept that sound begins with vibration and changes pitch with varying speeds of vibration.",
+                          "story_hook":  "Imagine being in the presence of a skilled sitar player, watching as their fingers dance across the strings to create a mesmerizing melody that seems to transport you to another world. As you listen, you begin to wonder, what is the secret behind the creation of these enchanting sounds that seem to capture the very essence of Indian classical music?",
+                          "class_appropriate":  {
+                                                    "1-5":  "story_hook only",
+                                                    "6-8":  "story + connection",
+                                                    "9-10":  "full connection with equations"
+                                                },
+                          "enrichment_status":  "completed"
+                      },
+    "home_investigation":  {
+                               "title":  "Ghar pe Try Karo: Musical Instruments and Sound",
+                               "time_required":  "5-10 min",
+                               "materials":  [
+                                                 "Ghar mein available items (see experiment below)"
+                                             ],
+                               "steps":  [
+                                             "Stretch a rubber band over an empty box and pluck gently. Do not pluck near eyes; keep volume comfortable."
+                                         ],
+                               "safety_note":  "Adult supervision recommended for heat, electricity, or chemicals.",
+                               "share_with_sakha":  "Kya hua? Kya unexpected tha? Apne words mein batao."
+                           },
+    "unlocks":  [
+                    "sound",
+                    "patterns",
+                    "ear"
+                ],
+    "subject_web_position":  {
+                                 "x":  0.5,
+                                 "y":  0.5
+                             },
+    "stem_lab_link":  "life-concepts-lab#scenario-musical-instruments-sound",
+    "visualizer_type":  "life_concepts_lab",
+    "life_decision":  "Protect ears from very loud sound and notice sound patterns around you.",
+    "career_connections":  "Music technology, acoustics, audio engineering, hearing science.",
+    "why_matters":  "This turns music into observable science without reducing its creativity.",
+    "session_type":  "science",
+    "_source":  "life-concepts-lab-v1_4_1-final-polish",
+    "_enrichment_needed":  [
+                               "indian_legacy",
+                               "wonder_tangents.related_concepts",
+                               "misconceptions (domain-specific)",
+                               "prerequisites",
+                               "stem_lab_link (full deployed URL)"
+                           ],
+    "concept_difficulty_level":  3,
+    "learning_track":  [
+                           "core"
+                       ],
+    "visualizer":  {
+                       "ask_after":  "clear_checkpoint",
+                       "source":  "3D_world/03_Physics_Simulations/WaveVisualizer.tsx",
+                       "id":  "sound-wave"
+                   }
 }

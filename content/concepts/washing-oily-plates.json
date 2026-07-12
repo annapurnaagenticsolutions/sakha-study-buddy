@@ -1,225 +1,234 @@
 {
-  "concept_id": "washing-oily-plates",
-  "title": "Washing Oily Plates",
-  "icon": "🍽️",
-  "class_band": [
-    6,
-    7,
-    8
-  ],
-  "subjects": [
-    "Chemistry",
-    "Physics",
-    "Biology",
-    "Math"
-  ],
-  "place": "Kitchen",
-  "level": "Middle",
-  "prerequisites": [],
-  "intro_hook": "Why does plain water struggle to clean oily plates, but soap helps?",
-  "big_idea": "Oil and water do not mix well. Soap molecules help break oil into tiny droplets that water can carry away.",
-  "story": "After eating, a plate has oil on it. Rinsing with only water leaves a slippery layer. Soap and scrubbing remove it better.",
-  "cause_process_result": {
-    "cause": "Oil sticks",
-    "process": "Water alone rolls off → Soap surrounds oil → Scrubbing breaks layer",
-    "result": "Water carries droplets away"
-  },
-  "flow": [
-    "Oil sticks",
-    "Water alone rolls off",
-    "Soap surrounds oil",
-    "Scrubbing breaks layer",
-    "Water carries droplets away"
-  ],
-  "whiteboard": [
-    "Cause: Oil sticks",
-    "  -> Water alone rolls off → Soap surrounds oil → Scrubbing breaks layer",
-    "Result: Water carries droplets away"
-  ],
-  "indian_analogies": [
-    "Kitchen mein yeh dekhte hain: Washing Oily Plates.",
-    "Washing dishes"
-  ],
-  "misconceptions": [
-    {
-      "id": "single_subject_thinking",
-      "belief": "This topic belongs to only one subject.",
-      "why_common": "More soap is not always better. Correct method, enough water, and scrubbing matter too.",
-      "probe": "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
-      "repair": "Washing Oily Plates mein Chemistry, Physics, Biology, Math sab ek saath kaam karte hain.",
-      "trigger_words": [
-        "sirf",
-        "only",
-        "just",
-        "ek subject",
-        "one reason"
-      ]
-    },
-    {
-      "id": "cause_is_result",
-      "belief": "The first visible thing IS the reason, not the start of a chain.",
-      "why_common": "Students observe the output and skip the mechanism.",
-      "probe": "Why does plain water struggle to clean oily plates, but soap helps?",
-      "repair": "Cause starts the chain. Result is the end. The process in between is where the science lives.",
-      "trigger_words": [
-        "because it happens",
-        "directly",
-        "seedha"
-      ]
-    }
-  ],
-  "question_flow": [
-    {
-      "type": "hook",
-      "q": "Why does plain water struggle to clean oily plates, but soap helps?"
-    },
-    {
-      "type": "probe",
-      "q": "Why does warm water often help?"
-    },
-    {
-      "type": "probe",
-      "q": "Why does scrubbing matter?",
-      "a": "Scrubbing matter karta hai kyunki yeh oily plates ko achhe se saaf karta hai, jisse grease aur cheele nikal jaati hai. Isse plates ko saf rakhne mein madad milti hai aur unhein phir se use karne ke liye taiyaar kiya ja sakta hai."
-    },
-    {
-      "type": "probe",
-      "q": "How can we reduce water waste?"
-    },
-    {
-      "type": "concept_check",
-      "q": "In this flow — Oil sticks -> Water alone rolls off -> Soap surrounds oil — what exactly happens at each step?",
-      "a": "Pehle step mein, tel plate par chipk jaata hai, phir doosre step mein sirf paani plate se utar jaata hai, aur teesre step mein soap tel ko gherna shuru kar deta hai, jisse tel ko hataya ja sakta hai. Is prakriya mein, soap ka khas gun tel ko gherna aur usse hatane mein madad karta hai."
-    },
-    {
-      "type": "teach_back",
-      "q": "Ab tu mujhe bata — apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
-    },
-    {
-      "type": "application",
-      "q": "Why does soap help remove oil?"
-    }
-  ],
-  "practice_problems": [
-    {
-      "difficulty": 2,
-      "type": "mcq",
-      "q": "Why does soap help remove oil?",
-      "options": [
-        "Soap turns oil into air",
-        "Soap helps oil form tiny droplets water can carry",
-        "Soap makes water disappear",
-        "Soap changes the plate into metal"
-      ],
-      "correct": "Soap helps oil form tiny droplets water can carry",
-      "hint": "Soap molecules interact with oil and water, helping oily layers break into tiny droplets that rinse away.",
-      "answer": "Soap molecules interact with oil and water, helping oily layers break into tiny droplets that rinse away."
-    },
-    {
-      "difficulty": 1,
-      "type": "what_if",
-      "q": "What would happen if soap amount becomes very low?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    },
-    {
-      "difficulty": 2,
-      "type": "what_if",
-      "q": "What would happen if soap amount becomes very high?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    },
-    {
-      "difficulty": 3,
-      "type": "what_if",
-      "q": "What would change if the place, material, time, or weather changes?",
-      "hint": "Follow the Cause-Process-Result chain.",
-      "answer": "Consider how changing this variable shifts each step of the process."
-    }
-  ],
-  "teaching_styles": {
-    "simple": "Washing Oily Plates shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
-    "standard": "In Washing Oily Plates, one or more factors such as soap amount change what we observe. The idea connects Chemistry, Physics, Biology, Math and helps explain the situation beyond memorizing a fact.",
-    "deep": "A deeper explanation of Washing Oily Plates connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Oil and water do not mix well. Soap molecules help break oil into tiny droplets that water can carry away.",
-    "hinglish": "Dekh yaar — Washing Oily Plates mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
-    "story": "After eating, a plate has oil on it. Rinsing with only water leaves a slippery layer. Soap and scrubbing remove it better."
-  },
-  "learner_adaptations": {
-    "class_1_3": "Notice the situation: Why does plain water struggle to clean oily plates, but soap helps. Say what you can see, hear, feel, or compare safely.",
-    "class_4_5": "Name the main factor and compare two cases. Example: less vs more soap amount.",
-    "class_6_8": "Explain the cause-effect chain: Oil sticks → Water alone rolls off → Soap surrounds oil → Scrubbing breaks layer.",
-    "class_9_10": "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
-    "struggling": "Start with the hook only. Ask what they observe. Don't explain yet.",
-    "fast_learner": "Push to deep mode. Connect all subjects: Chemistry, Physics, Biology, Math."
-  },
-  "subject_lenses": {
-    "Chemistry": "Soap acts as an emulsifier, helping oil disperse in water.",
-    "Physics": "Scrubbing applies force and increases contact between soap, water, and oil.",
-    "Biology": "Cleaner utensils reduce chances of microbial growth and food contamination.",
-    "Math": "Compare cleaning time or number of rinses with and without soap."
-  },
-  "wonder_tangents": [
-    {
-      "trigger": "after_student_explains",
-      "hinglish": "By the way — Washing Oily Plates ka concept aur jagah bhi kaam karta hai: Washing dishes, Laundry stains, Handwashing after oily food.",
-      "related_concepts": [],
-      "career_connection": "Chemistry, food safety, public health, cleaning product design, hospitality."
-    }
-  ],
-  "daily_wonders": [
-    "Aaj washing oily plates se related kuch notice karo.",
-    "Why does plain water struggle to clean oily plates, but soap helps?",
-    "What would happen if soap amount becomes very low?"
-  ],
-  "indian_legacy": {
-    "scientist": "C.V. Raman",
-    "connection": "The concept of washing oily plates is closely related to the work of Indian scientist C.V. Raman, who was awarded the Nobel Prize in Physics in 1930 for his discovery of the scattering of light by molecules. Raman's work on the molecular structure of liquids and his understanding of how certain molecules can break down and interact with others is analogous to how soap molecules help break down oil into tiny droplets that can be carried away by water.",
-    "story_hook": "Imagine you're at a vibrant Indian festival, and you accidentally spill some delicious, oily street food like samosas or pakoras on your favorite kurta. As you rush to clean the stain, you discover the magic of soap molecules, just like C.V. Raman discovered the magic of light molecules, and how they help break down the oil into tiny droplets that water can carry away, leaving your kurta spotless.",
-    "class_appropriate": {
-      "1-5": "story_hook only",
-      "6-8": "story + connection",
-      "9-10": "full connection with equations"
-    },
-    "enrichment_status": "completed"
-  },
-  "home_investigation": {
-    "title": "Ghar pe Try Karo: Washing Oily Plates",
-    "time_required": "5-10 min",
-    "materials": [
-      "Ghar mein available items (see experiment below)"
-    ],
-    "steps": [
-      "With adult permission, compare a tiny oily spot cleaned with water only versus soap and water. Do not waste water or use strong chemicals."
-    ],
-    "safety_note": "Adult supervision recommended for heat, electricity, or chemicals.",
-    "share_with_sakha": "Kya hua? Kya unexpected tha? Apne words mein batao."
-  },
-  "unlocks": [
-    "emulsification",
-    "force_and_contact",
-    "hygiene",
-    "comparison"
-  ],
-  "subject_web_position": {
-    "x": 0.5,
-    "y": 0.5
-  },
-  "stem_lab_link": "life-concepts-lab#scenario-washing-oily-plates",
-  "visualizer_type": "life_concepts_lab",
-  "life_decision": "Use enough soap, avoid waste, rinse properly, and keep food surfaces clean.",
-  "career_connections": "Chemistry, food safety, public health, cleaning product design, hospitality.",
-  "why_matters": "Students see chemistry in routine cleaning and hygiene decisions.",
-  "session_type": "science",
-  "_source": "life-concepts-lab-v1_4_1-final-polish",
-  "_enrichment_needed": [
-    "indian_legacy",
-    "wonder_tangents.related_concepts",
-    "misconceptions (domain-specific)",
-    "prerequisites",
-    "stem_lab_link (full deployed URL)"
-  ],
-  "concept_difficulty_level": 8,
-  "learning_track": [
-    "core"
-  ]
+    "concept_id":  "washing-oily-plates",
+    "title":  "Washing Oily Plates",
+    "icon":  "ðŸ½ï¸",
+    "class_band":  [
+                       6,
+                       7,
+                       8
+                   ],
+    "subjects":  [
+                     "Chemistry",
+                     "Physics",
+                     "Biology",
+                     "Math"
+                 ],
+    "place":  "Kitchen",
+    "level":  "Middle",
+    "prerequisites":  [
+
+                      ],
+    "intro_hook":  "Why does plain water struggle to clean oily plates, but soap helps?",
+    "big_idea":  "Oil and water do not mix well. Soap molecules help break oil into tiny droplets that water can carry away.",
+    "story":  "After eating, a plate has oil on it. Rinsing with only water leaves a slippery layer. Soap and scrubbing remove it better.",
+    "cause_process_result":  {
+                                 "cause":  "Oil sticks",
+                                 "process":  "Water alone rolls off â†’ Soap surrounds oil â†’ Scrubbing breaks layer",
+                                 "result":  "Water carries droplets away"
+                             },
+    "flow":  [
+                 "Oil sticks",
+                 "Water alone rolls off",
+                 "Soap surrounds oil",
+                 "Scrubbing breaks layer",
+                 "Water carries droplets away"
+             ],
+    "whiteboard":  [
+                       "Cause: Oil sticks",
+                       "  -\u003e Water alone rolls off â†’ Soap surrounds oil â†’ Scrubbing breaks layer",
+                       "Result: Water carries droplets away"
+                   ],
+    "indian_analogies":  [
+                             "Kitchen mein yeh dekhte hain: Washing Oily Plates.",
+                             "Washing dishes"
+                         ],
+    "misconceptions":  [
+                           {
+                               "id":  "single_subject_thinking",
+                               "belief":  "This topic belongs to only one subject.",
+                               "why_common":  "More soap is not always better. Correct method, enough water, and scrubbing matter too.",
+                               "probe":  "Agar sirf ek subject se explain karein toh kya miss ho jaata hai?",
+                               "repair":  "Washing Oily Plates mein Chemistry, Physics, Biology, Math sab ek saath kaam karte hain.",
+                               "trigger_words":  [
+                                                     "sirf",
+                                                     "only",
+                                                     "just",
+                                                     "ek subject",
+                                                     "one reason"
+                                                 ]
+                           },
+                           {
+                               "id":  "cause_is_result",
+                               "belief":  "The first visible thing IS the reason, not the start of a chain.",
+                               "why_common":  "Students observe the output and skip the mechanism.",
+                               "probe":  "Why does plain water struggle to clean oily plates, but soap helps?",
+                               "repair":  "Cause starts the chain. Result is the end. The process in between is where the science lives.",
+                               "trigger_words":  [
+                                                     "because it happens",
+                                                     "directly",
+                                                     "seedha"
+                                                 ]
+                           }
+                       ],
+    "question_flow":  [
+                          {
+                              "type":  "hook",
+                              "q":  "Why does plain water struggle to clean oily plates, but soap helps?"
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "Why does warm water often help?"
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "Why does scrubbing matter?",
+                              "a":  "Scrubbing matter karta hai kyunki yeh oily plates ko achhe se saaf karta hai, jisse grease aur cheele nikal jaati hai. Isse plates ko saf rakhne mein madad milti hai aur unhein phir se use karne ke liye taiyaar kiya ja sakta hai."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "How can we reduce water waste?"
+                          },
+                          {
+                              "type":  "concept_check",
+                              "q":  "In this flow â€” Oil sticks -\u003e Water alone rolls off -\u003e Soap surrounds oil â€” what exactly happens at each step?",
+                              "a":  "Pehle step mein, tel plate par chipk jaata hai, phir doosre step mein sirf paani plate se utar jaata hai, aur teesre step mein soap tel ko gherna shuru kar deta hai, jisse tel ko hataya ja sakta hai. Is prakriya mein, soap ka khas gun tel ko gherna aur usse hatane mein madad karta hai."
+                          },
+                          {
+                              "type":  "teach_back",
+                              "q":  "Ab tu mujhe bata â€” apne words mein. Ek 5 saal ke bachhe ko kaise samjhayega?"
+                          },
+                          {
+                              "type":  "application",
+                              "q":  "Why does soap help remove oil?"
+                          }
+                      ],
+    "practice_problems":  [
+                              {
+                                  "difficulty":  2,
+                                  "type":  "mcq",
+                                  "q":  "Why does soap help remove oil?",
+                                  "options":  [
+                                                  "Soap turns oil into air",
+                                                  "Soap helps oil form tiny droplets water can carry",
+                                                  "Soap makes water disappear",
+                                                  "Soap changes the plate into metal"
+                                              ],
+                                  "correct":  "Soap helps oil form tiny droplets water can carry",
+                                  "hint":  "Soap molecules interact with oil and water, helping oily layers break into tiny droplets that rinse away.",
+                                  "answer":  "Soap molecules interact with oil and water, helping oily layers break into tiny droplets that rinse away."
+                              },
+                              {
+                                  "difficulty":  1,
+                                  "type":  "what_if",
+                                  "q":  "What would happen if soap amount becomes very low?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              },
+                              {
+                                  "difficulty":  2,
+                                  "type":  "what_if",
+                                  "q":  "What would happen if soap amount becomes very high?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              },
+                              {
+                                  "difficulty":  3,
+                                  "type":  "what_if",
+                                  "q":  "What would change if the place, material, time, or weather changes?",
+                                  "hint":  "Follow the Cause-Process-Result chain.",
+                                  "answer":  "Consider how changing this variable shifts each step of the process."
+                              }
+                          ],
+    "teaching_styles":  {
+                            "simple":  "Washing Oily Plates shows that daily life has a science reason. Notice what changes first, then describe the result in simple words.",
+                            "standard":  "In Washing Oily Plates, one or more factors such as soap amount change what we observe. The idea connects Chemistry, Physics, Biology, Math and helps explain the situation beyond memorizing a fact.",
+                            "deep":  "A deeper explanation of Washing Oily Plates connects variables, evidence, and cause-effect. Students should identify the changing factor, keep other conditions similar, compare observations, and explain the result using the relevant subject lenses. Oil and water do not mix well. Soap molecules help break oil into tiny droplets that water can carry away.",
+                            "hinglish":  "Dekh yaar â€” Washing Oily Plates mein kya ho raha hai? Observe karo pehle, phir samjhenge.",
+                            "story":  "After eating, a plate has oil on it. Rinsing with only water leaves a slippery layer. Soap and scrubbing remove it better."
+                        },
+    "learner_adaptations":  {
+                                "class_1_3":  "Notice the situation: Why does plain water struggle to clean oily plates, but soap helps. Say what you can see, hear, feel, or compare safely.",
+                                "class_4_5":  "Name the main factor and compare two cases. Example: less vs more soap amount.",
+                                "class_6_8":  "Explain the cause-effect chain: Oil sticks â†’ Water alone rolls off â†’ Soap surrounds oil â†’ Scrubbing breaks layer.",
+                                "class_9_10":  "Use variables, controls, evidence, trade-offs, and subject links to justify a better real-life decision.",
+                                "struggling":  "Start with the hook only. Ask what they observe. Don\u0027t explain yet.",
+                                "fast_learner":  "Push to deep mode. Connect all subjects: Chemistry, Physics, Biology, Math."
+                            },
+    "subject_lenses":  {
+                           "Chemistry":  "Soap acts as an emulsifier, helping oil disperse in water.",
+                           "Physics":  "Scrubbing applies force and increases contact between soap, water, and oil.",
+                           "Biology":  "Cleaner utensils reduce chances of microbial growth and food contamination.",
+                           "Math":  "Compare cleaning time or number of rinses with and without soap."
+                       },
+    "wonder_tangents":  [
+                            {
+                                "trigger":  "after_student_explains",
+                                "hinglish":  "By the way â€” Washing Oily Plates ka concept aur jagah bhi kaam karta hai: Washing dishes, Laundry stains, Handwashing after oily food.",
+                                "related_concepts":  [
+
+                                                     ],
+                                "career_connection":  "Chemistry, food safety, public health, cleaning product design, hospitality."
+                            }
+                        ],
+    "daily_wonders":  [
+                          "Aaj washing oily plates se related kuch notice karo.",
+                          "Why does plain water struggle to clean oily plates, but soap helps?",
+                          "What would happen if soap amount becomes very low?"
+                      ],
+    "indian_legacy":  {
+                          "scientist":  "C.V. Raman",
+                          "connection":  "The concept of washing oily plates is closely related to the work of Indian scientist C.V. Raman, who was awarded the Nobel Prize in Physics in 1930 for his discovery of the scattering of light by molecules. Raman\u0027s work on the molecular structure of liquids and his understanding of how certain molecules can break down and interact with others is analogous to how soap molecules help break down oil into tiny droplets that can be carried away by water.",
+                          "story_hook":  "Imagine you\u0027re at a vibrant Indian festival, and you accidentally spill some delicious, oily street food like samosas or pakoras on your favorite kurta. As you rush to clean the stain, you discover the magic of soap molecules, just like C.V. Raman discovered the magic of light molecules, and how they help break down the oil into tiny droplets that water can carry away, leaving your kurta spotless.",
+                          "class_appropriate":  {
+                                                    "1-5":  "story_hook only",
+                                                    "6-8":  "story + connection",
+                                                    "9-10":  "full connection with equations"
+                                                },
+                          "enrichment_status":  "completed"
+                      },
+    "home_investigation":  {
+                               "title":  "Ghar pe Try Karo: Washing Oily Plates",
+                               "time_required":  "5-10 min",
+                               "materials":  [
+                                                 "Ghar mein available items (see experiment below)"
+                                             ],
+                               "steps":  [
+                                             "With adult permission, compare a tiny oily spot cleaned with water only versus soap and water. Do not waste water or use strong chemicals."
+                                         ],
+                               "safety_note":  "Adult supervision recommended for heat, electricity, or chemicals.",
+                               "share_with_sakha":  "Kya hua? Kya unexpected tha? Apne words mein batao."
+                           },
+    "unlocks":  [
+                    "emulsification",
+                    "force_and_contact",
+                    "hygiene",
+                    "comparison"
+                ],
+    "subject_web_position":  {
+                                 "x":  0.5,
+                                 "y":  0.5
+                             },
+    "stem_lab_link":  "life-concepts-lab#scenario-washing-oily-plates",
+    "visualizer_type":  "life_concepts_lab",
+    "life_decision":  "Use enough soap, avoid waste, rinse properly, and keep food surfaces clean.",
+    "career_connections":  "Chemistry, food safety, public health, cleaning product design, hospitality.",
+    "why_matters":  "Students see chemistry in routine cleaning and hygiene decisions.",
+    "session_type":  "science",
+    "_source":  "life-concepts-lab-v1_4_1-final-polish",
+    "_enrichment_needed":  [
+                               "indian_legacy",
+                               "wonder_tangents.related_concepts",
+                               "misconceptions (domain-specific)",
+                               "prerequisites",
+                               "stem_lab_link (full deployed URL)"
+                           ],
+    "concept_difficulty_level":  8,
+    "learning_track":  [
+                           "core"
+                       ],
+    "visualizer":  {
+                       "ask_after":  "clear_checkpoint",
+                       "source":  "3D_world/07_New_2D_Canvases/SoapSurfactantCleaningCanvas.tsx",
+                       "id":  "soap-cleaning"
+                   }
 }

@@ -23,9 +23,8 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "composting-kitchen-waste",
-      "handwashing-soap-germs",
-      "lunch-box-nutrition-portions"
+      "compost-helps-soil",
+      "refrigerator-preserves-food"
     ]
   },
   {
@@ -54,9 +53,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "iron-rusting-water",
-      "water-filter",
-      "waste-sorting-facility"
+      "salt-in-cooking",
+      "cooking-rice-heat-water",
+      "washing-oily-plates"
     ]
   },
   {
@@ -84,9 +83,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "musical-instruments-sound",
-      "helmet-head-protection",
-      "physics_work"
+      "floating-sinking-boats",
+      "boiling-water",
+      "magnets-at-home"
     ]
   },
   {
@@ -114,9 +113,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "floating-sinking-boats",
-      "home-cooling-shade-ventilation",
-      "physics_force"
+      "drone-flight-controller",
+      "ice-melting",
+      "water-tank-pump-pressure"
     ]
   },
   {
@@ -144,9 +143,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "monsoon-flood-drainage",
-      "physics_motion",
-      "physics_velocity"
+      "physics_energy",
+      "rain-puddles-water-cycle",
+      "boiling-water"
     ]
   },
   {
@@ -175,9 +174,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "bicycle-riding",
-      "mobile-phone-heating",
-      "magnets-at-home"
+      "water-tank-pump-pressure",
+      "solar-microgrid",
+      "spectacles-vision"
     ]
   },
   {
@@ -204,9 +203,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "electricity-bill",
-      "water-tank-pump-pressure",
-      "solar-panel-home"
+      "floating-sinking-boats",
+      "contact-lenses-eye-care",
+      "refrigerator-food-cooling"
     ]
   },
   {
@@ -236,9 +235,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "contact-lenses-eye-care",
-      "floating-sinking-boats",
-      "earthquake-alert-system"
+      "magnets-at-home",
+      "physics_acceleration",
+      "musical-instruments-sound"
     ]
   },
   {
@@ -266,9 +265,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "paper-airplane-flight",
-      "mobile-phone-heating",
-      "kite-flying-wind-force"
+      "spectacles-vision",
+      "shadow-day",
+      "bicycle-tyre-pressure-grip"
     ]
   },
   {
@@ -297,9 +296,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "air-conditioner-cooling-energy",
-      "home-cooling-shade-ventilation",
-      "soap-bubbles-surface-tension"
+      "solar-microgrid",
+      "physics_acceleration",
+      "helmet-head-protection"
     ]
   },
   {
@@ -329,9 +328,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "plant-growth-photosynthesis",
       "refrigerator-preserves-food",
-      "soil-erosion-rain"
+      "lunch-box-nutrition-portions",
+      "handwashing-soap-germs"
     ]
   },
   {
@@ -359,9 +358,8 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "salt-in-cooking",
-      "salt_in_water",
-      "umbrella-raincoat-waterproofing"
+      "air-pollution-lungs",
+      "space-habitat-life-support"
     ]
   },
   {
@@ -390,9 +388,8 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "cooking-rice-heat-water",
       "umbrella-raincoat-waterproofing",
-      "waste-sorting-facility"
+      "water-filter"
     ]
   },
   {
@@ -420,9 +417,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "salt_in_water",
-      "cold-chain-logistics",
-      "washing-oily-plates"
+      "space-habitat-life-support",
+      "iron-rusting-water",
+      "air-pollution-lungs"
     ]
   },
   {
@@ -450,9 +447,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "physics_reflection_light",
-      "bicycle-tyre-pressure-grip",
-      "pressure-cooker"
+      "ear-pressure-flight-mountain",
+      "water-tank-pump-pressure",
+      "musical-instruments-sound"
     ]
   },
   {
@@ -479,9 +476,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "solar-microgrid",
-      "sound-waves",
-      "road-safety"
+      "physics_friction",
+      "refrigerator-food-cooling",
+      "elevator-lift-force"
     ]
   },
   {
@@ -510,9 +507,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "electricity-bill",
-      "physics_force",
-      "shadow-day"
+      "road-safety",
+      "drone-flight-controller",
+      "boiling-water"
     ]
   },
   {
@@ -539,8 +536,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "spectacles-vision",
-      "shadows"
+      "pressure-cooker",
+      "kite-flying-wind-force",
+      "physics_motion"
     ]
   },
   {
@@ -567,9 +565,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "kite-flying-wind-force",
-      "physics_force",
-      "physics_reflection_light"
+      "mobile-phone-heating",
+      "elevator-lift-force",
+      "magnets-at-home"
     ]
   },
   {
@@ -597,9 +595,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "ice-melting",
-      "physics_work",
-      "physics_acceleration"
+      "road-safety",
+      "clothes-drying-sun-wind",
+      "shadow-day"
     ]
   },
   {
@@ -628,9 +626,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "musical-instruments-sound",
-      "contact-lenses-eye-care",
-      "shadows"
+      "mirror-reflection-symmetry",
+      "helmet-head-protection",
+      "shadow-day"
     ]
   },
   {
@@ -658,9 +656,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "contact-lenses-eye-care",
-      "elevator-lift-force",
-      "physics_speed"
+      "camera-photo-focus",
+      "physics_friction",
+      "bouncing_balls"
     ]
   },
   {
@@ -687,9 +685,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "physics_acceleration",
-      "mobile-phone-heating",
-      "cooking-physics"
+      "sound-waves",
+      "helmet-head-protection",
+      "water-tank-pump-pressure"
     ]
   },
   {
@@ -717,9 +715,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "water-tank-pump-pressure",
-      "rain-puddles-water-cycle",
-      "ear-pressure-flight-mountain"
+      "cold-bottle-condensation",
+      "spectacles-vision",
+      "boiling-water"
     ]
   },
   {
@@ -747,9 +745,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "mobile-phone-heating",
-      "physics_work",
-      "floating-sinking-boats"
+      "ear-pressure-flight-mountain",
+      "contact-lenses-eye-care",
+      "kite-flying-wind-force"
     ]
   },
   {
@@ -778,9 +776,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "electricity-bill",
-      "water-tank-pump-pressure",
-      "drone-flight-controller"
+      "elevator-lift-force",
+      "wifi-mobile-network",
+      "bicycle-riding"
     ]
   },
   {
@@ -808,9 +806,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "kite-flying-wind-force",
-      "bicycle-riding",
-      "physics_motion"
+      "bicycle-tyre-pressure-grip",
+      "boiling-water",
+      "shadows"
     ]
   },
   {
@@ -838,9 +836,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "boiling-water",
-      "road-safety",
-      "musical-instruments-sound"
+      "bicycle-tyre-pressure-grip",
+      "drone-flight-controller",
+      "clothes-drying-sun-wind"
     ]
   },
   {
@@ -866,8 +864,7 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "gravity",
-      "ice_melting"
+      "gravity"
     ]
   },
   {
@@ -893,8 +890,7 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "ohms_law",
-      "ice_melting"
+      "ohms_law"
     ]
   },
   {
@@ -924,8 +920,7 @@
     "estimated_duration_minutes": 12,
     "related_concepts": [
       "vertical-farm-irrigation",
-      "refrigerator-preserves-food",
-      "mosquito-control-health"
+      "thermometer-fever-check"
     ]
   },
   {
@@ -953,9 +948,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "soil-erosion-rain",
-      "food-spoilage",
-      "composting-kitchen-waste"
+      "vertical-farm-irrigation",
+      "mosquito-control-health",
+      "thermometer-fever-check"
     ]
   },
   {
@@ -985,8 +980,7 @@
     "estimated_duration_minutes": 12,
     "related_concepts": [
       "handwashing-soap-germs",
-      "toothbrushing-decay",
-      "refrigerator-preserves-food"
+      "plant-growth"
     ]
   },
   {
@@ -1013,7 +1007,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "plant-growth"
+      "plant-growth",
+      "plant-growth-photosynthesis",
+      "lunch-box-nutrition-portions"
     ]
   },
   {
@@ -1042,8 +1038,7 @@
     "estimated_duration_minutes": 12,
     "related_concepts": [
       "lunch-box-nutrition-portions",
-      "plant-growth",
-      "exercise-body"
+      "food-spoilage"
     ]
   },
   {
@@ -1072,9 +1067,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
+      "thermometer-fever-check",
       "biomedical-monitoring",
-      "soil-erosion-rain",
-      "lunch-box-nutrition-portions"
+      "exercise-body"
     ]
   },
   {
@@ -1103,9 +1098,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "washing-oily-plates",
-      "water-treatment-network",
-      "water-filter"
+      "packed-food-expiry",
+      "water-filter",
+      "space-habitat-life-support"
     ]
   },
   {
@@ -1133,8 +1128,8 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "salt-in-cooking",
       "space-habitat-life-support",
+      "washing-oily-plates",
       "water-filter"
     ]
   },
@@ -1165,9 +1160,8 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "school-bag-weight",
-      "math_fractions",
-      "math_algebraic_expressions"
+      "math_integers_signs",
+      "upi-qr-payment-safety"
     ]
   },
   {
@@ -1195,9 +1189,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "traffic-signal-timing",
-      "math_percentages",
-      "math_integers_signs"
+      "math_triangles_angles",
+      "math_linear_equations",
+      "fractions_intro"
     ]
   },
   {
@@ -1223,9 +1217,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "math_ratio_proportion",
+      "math_fractions",
       "math_area_perimeter",
-      "math_fractions"
+      "math_ratio_proportion"
     ]
   },
   {
@@ -1252,9 +1246,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "physics_work",
-      "mirror-reflection-symmetry",
-      "mobile-phone-heating"
+      "bicycle-tyre-pressure-grip",
+      "sound-waves",
+      "clothes-drying-sun-wind"
     ]
   },
   {
@@ -1282,9 +1276,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "sports-ball-bounce",
-      "water-tank-pump-pressure",
-      "physics_motion"
+      "clothes-drying-sun-wind",
+      "elevator-lift-force",
+      "physics_energy"
     ]
   },
   {
@@ -1312,8 +1306,8 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "earthquake-alert-system",
-      "solar-panel-home",
+      "paper-airplane-flight",
+      "electricity-bill",
       "floating-sinking-boats"
     ]
   },
@@ -1342,9 +1336,8 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "electricity-bill",
-      "cold-bottle-condensation",
-      "cooking-physics"
+      "water-tank-pump-pressure",
+      "home-cooling-shade-ventilation"
     ]
   },
   {
@@ -1372,9 +1365,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "solar-microgrid",
-      "boiling-water",
-      "bicycle-riding"
+      "refrigerator-food-cooling",
+      "spectacles-vision",
+      "bicycle-tyre-pressure-grip"
     ]
   },
   {
@@ -1402,9 +1395,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "solar-microgrid",
-      "mobile-phone-heating",
-      "road-safety"
+      "physics_friction",
+      "physics_acceleration",
+      "monsoon-flood-drainage"
     ]
   },
   {
@@ -1433,8 +1426,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "helmet-head-protection",
-      "solar-microgrid"
+      "cold-bottle-condensation",
+      "solar-microgrid",
+      "shadow-day"
     ]
   },
   {
@@ -1460,9 +1454,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "physics_work",
-      "air-conditioner-cooling-energy",
-      "home-cooling-shade-ventilation"
+      "home-cooling-shade-ventilation",
+      "cooking-physics",
+      "physics_motion"
     ]
   },
   {
@@ -1491,9 +1485,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "physics_force",
-      "physics_energy",
-      "smart-traffic-signal"
+      "helmet-head-protection",
+      "rocket-science",
+      "physics_force"
     ]
   },
   {
@@ -1522,9 +1516,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "physics_work",
-      "earthquake-alert-system",
-      "floating-sinking-boats"
+      "physics_electric_current",
+      "kite-flying-wind-force",
+      "physics_friction"
     ]
   },
   {
@@ -1551,9 +1545,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "electricity-circuits",
-      "bicycle-riding",
-      "bouncing_balls"
+      "bicycle-tyre-pressure-grip",
+      "bouncing_balls",
+      "wifi-mobile-network"
     ]
   },
   {
@@ -1582,9 +1576,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "physics_motion",
-      "bouncing_balls",
-      "physics_reflection_light"
+      "solar-microgrid",
+      "kite-flying-wind-force",
+      "pressure-cooker"
     ]
   },
   {
@@ -1612,9 +1606,9 @@
     ],
     "estimated_duration_minutes": 12,
     "related_concepts": [
-      "sound-waves",
-      "helmet-head-protection",
-      "drone-flight-controller"
+      "physics_acceleration",
+      "rocket-science",
+      "electricity-bill"
     ]
   },
   {
@@ -1643,9 +1637,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
+      "compost-helps-soil",
       "biomedical-monitoring",
-      "thermometer-fever-check",
-      "plant-growth-photosynthesis"
+      "food-spoilage"
     ]
   },
   {
@@ -1675,8 +1669,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "food-spoilage",
-      "lunch-box-nutrition-portions"
+      "lunch-box-nutrition-portions",
+      "biomedical-monitoring",
+      "handwashing-soap-germs"
     ]
   },
   {
@@ -1705,7 +1700,8 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "lunch-box-nutrition-portions",
+      "composting-kitchen-waste",
+      "plant-growth",
       "plant-growth-photosynthesis"
     ]
   },
@@ -1735,8 +1731,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "lunch-box-nutrition-portions",
-      "vertical-farm-irrigation"
+      "refrigerator-preserves-food",
+      "food-spoilage",
+      "thermometer-fever-check"
     ]
   },
   {
@@ -1765,9 +1762,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "vertical-farm-irrigation",
-      "plant-growth-photosynthesis",
-      "composting-kitchen-waste"
+      "toothbrushing-decay",
+      "food-spoilage",
+      "exercise-body"
     ]
   },
   {
@@ -1796,9 +1793,8 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "lunch-box-nutrition-portions",
       "exercise-body",
-      "toothbrushing-decay"
+      "plant-growth"
     ]
   },
   {
@@ -1828,9 +1824,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "plant-growth",
-      "plant-growth-photosynthesis",
-      "biomedical-monitoring"
+      "vertical-farm-irrigation",
+      "biomedical-monitoring",
+      "composting-kitchen-waste"
     ]
   },
   {
@@ -1859,9 +1855,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "umbrella-raincoat-waterproofing",
-      "iron-rusting-water",
-      "air-pollution-lungs"
+      "water-treatment-network",
+      "waste-segregation-recycling",
+      "space-habitat-life-support"
     ]
   },
   {
@@ -1891,9 +1887,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "cooking-rice-heat-water",
-      "water-treatment-network",
-      "waste-segregation-recycling"
+      "air-pollution-lungs",
+      "umbrella-raincoat-waterproofing",
+      "waste-sorting-facility"
     ]
   },
   {
@@ -1923,9 +1919,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "umbrella-raincoat-waterproofing",
-      "iron-rusting-water",
-      "washing-oily-plates"
+      "air-pollution-lungs",
+      "waste-sorting-facility",
+      "salt_in_water"
     ]
   },
   {
@@ -1954,9 +1950,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "water-treatment-network",
-      "umbrella-raincoat-waterproofing",
-      "salt-in-cooking"
+      "waste-segregation-recycling",
+      "air-pollution-lungs",
+      "umbrella-raincoat-waterproofing"
     ]
   },
   {
@@ -1985,9 +1981,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "iron-rusting-water",
-      "umbrella-raincoat-waterproofing",
-      "water-treatment-network"
+      "salt_in_water",
+      "cold-chain-logistics",
+      "washing-oily-plates"
     ]
   },
   {
@@ -2016,8 +2012,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "air-pollution-lungs",
-      "packed-food-expiry"
+      "waste-segregation-recycling",
+      "iron-rusting-water",
+      "space-habitat-life-support"
     ]
   },
   {
@@ -2043,8 +2040,8 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "waste-sorting-facility",
-      "air-pollution-lungs"
+      "cold-chain-logistics",
+      "iron-rusting-water"
     ]
   },
   {
@@ -2072,9 +2069,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "washing-oily-plates",
-      "packed-food-expiry",
-      "water-treatment-network"
+      "space-habitat-life-support",
+      "waste-segregation-recycling",
+      "air-pollution-lungs"
     ]
   },
   {
@@ -2101,8 +2098,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "math_fractions",
-      "traffic-signal-timing"
+      "fractions_intro",
+      "math_percentages",
+      "math_probability_basics"
     ]
   },
   {
@@ -2129,9 +2127,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "math_coordinate_plane",
-      "math_percentages",
-      "math_fractions"
+      "lemonade-ratio-dissolving",
+      "traffic-signal-timing",
+      "math_probability_basics"
     ]
   },
   {
@@ -2158,9 +2156,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "upi-qr-payment-safety",
-      "fractions_intro",
-      "lemonade-ratio-dissolving"
+      "math_fractions",
+      "math_algebraic_expressions",
+      "fractions_intro"
     ]
   },
   {
@@ -2187,9 +2185,8 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "math_algebraic_expressions",
-      "math_integers_signs",
-      "math_coordinate_plane"
+      "upi-qr-payment-safety",
+      "math_algebraic_expressions"
     ]
   },
   {
@@ -2216,8 +2213,7 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "math_fractions",
-      "math_area_perimeter",
+      "lemonade-ratio-dissolving",
       "traffic-signal-timing"
     ]
   },
@@ -2245,9 +2241,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "math_probability_basics",
+      "math_fractions",
       "math_percentages",
-      "math_area_perimeter"
+      "math_algebraic_expressions"
     ]
   },
   {
@@ -2274,8 +2270,8 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "math_probability_basics",
-      "math_linear_equations"
+      "math_area_perimeter",
+      "math_ratio_proportion"
     ]
   },
   {
@@ -2302,9 +2298,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "math_linear_equations",
-      "math_integers_signs",
-      "math_area_perimeter"
+      "math_area_perimeter",
+      "math_fractions",
+      "lemonade-ratio-dissolving"
     ]
   },
   {
@@ -2331,9 +2327,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "math_fractions",
-      "math_integers_signs",
-      "math_percentages"
+      "math_percentages",
+      "math_linear_equations",
+      "math_area_perimeter"
     ]
   },
   {
@@ -2361,9 +2357,8 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "math_ratio_proportion",
-      "school-bag-weight",
-      "math_triangles_angles"
+      "math_triangles_angles",
+      "upi-qr-payment-safety"
     ]
   },
   {
@@ -2391,8 +2386,8 @@
     "estimated_duration_minutes": 22,
     "related_concepts": [
       "traffic-signal-timing",
-      "math_fractions",
-      "school-bag-weight"
+      "math_integers_signs",
+      "math_percentages"
     ]
   },
   {
@@ -2421,9 +2416,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "math_coordinate_plane",
       "lemonade-ratio-dissolving",
-      "math_linear_equations"
+      "math_integers_signs",
+      "traffic-signal-timing"
     ]
   },
   {
@@ -2449,9 +2444,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "sound-waves",
       "physics_speed",
-      "solar-panel-home"
+      "electricity-bill",
+      "mirror-reflection-symmetry"
     ]
   },
   {
@@ -2477,9 +2472,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "helmet-head-protection",
-      "elevator-door-sensors",
-      "bicycle-tyre-pressure-grip"
+      "physics_work",
+      "camera-photo-focus",
+      "solar-panel-home"
     ]
   },
   {
@@ -2508,9 +2503,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "camera-photo-focus",
-      "water-tank-pump-pressure",
-      "bridge-engineering"
+      "bicycle-riding",
+      "physics_acceleration",
+      "physics_force"
     ]
   },
   {
@@ -2538,9 +2533,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "air-conditioner-cooling-energy",
-      "soap-bubbles-surface-tension",
-      "mobile-phone-heating"
+      "physics_speed",
+      "physics_work",
+      "bicycle-tyre-pressure-grip"
     ]
   },
   {
@@ -2566,9 +2561,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "drone-flight-controller",
-      "physics_acceleration",
-      "road-safety"
+      "bouncing_balls",
+      "home-cooling-shade-ventilation",
+      "magnets-at-home"
     ]
   },
   {
@@ -2596,8 +2591,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "elevator-lift-force",
-      "electricity-circuits"
+      "solar-microgrid",
+      "rain-damaged-roads",
+      "shadow-day"
     ]
   },
   {
@@ -2623,9 +2619,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "physics_reflection_light",
-      "solar-panel-home",
-      "floating-sinking-boats"
+      "sports-ball-bounce",
+      "refrigerator-food-cooling",
+      "ear-pressure-flight-mountain"
     ]
   },
   {
@@ -2654,9 +2650,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "shadows",
-      "physics_velocity",
-      "physics_work"
+      "soap-bubbles-surface-tension",
+      "spectacles-vision",
+      "sports-ball-bounce"
     ]
   },
   {
@@ -2684,9 +2680,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "refrigerator-food-cooling",
-      "ice-melting",
-      "electricity-bill"
+      "bicycle-tyre-pressure-grip",
+      "sound-waves",
+      "boiling-water"
     ]
   },
   {
@@ -2713,8 +2709,8 @@
     "estimated_duration_minutes": 22,
     "related_concepts": [
       "floating-sinking-boats",
-      "solar-microgrid",
-      "ear-pressure-flight-mountain"
+      "earthquake-alert-system",
+      "electricity-bill"
     ]
   },
   {
@@ -2742,9 +2738,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "paper-airplane-flight",
-      "rocket-science",
-      "physics_speed"
+      "cold-bottle-condensation",
+      "magnets-at-home",
+      "drone-flight-controller"
     ]
   },
   {
@@ -2774,9 +2770,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "ice-melting",
-      "physics_electric_current",
-      "electricity-circuits"
+      "ear-pressure-flight-mountain",
+      "physics_friction",
+      "drone-flight-controller"
     ]
   },
   {
@@ -2802,9 +2798,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "solar-panel-home",
-      "musical-instruments-sound",
-      "air-conditioner-cooling-energy"
+      "mobile-phone-heating",
+      "cooking-physics",
+      "pressure-cooker"
     ]
   },
   {
@@ -2834,9 +2830,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "solar-panel-home",
-      "road-safety",
-      "spectacles-vision"
+      "monsoon-flood-drainage",
+      "ice-melting",
+      "home-cooling-shade-ventilation"
     ]
   },
   {
@@ -2865,9 +2861,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "physics_work",
-      "smart-traffic-signal",
-      "physics_reflection_light"
+      "bicycle-tyre-pressure-grip",
+      "soap-bubbles-surface-tension",
+      "boiling-water"
     ]
   },
   {
@@ -2895,9 +2891,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "drone-flight-controller",
-      "shadows",
-      "bicycle-riding"
+      "air-conditioner-cooling-energy",
+      "cold-bottle-condensation",
+      "elevator-door-sensors"
     ]
   },
   {
@@ -2925,9 +2921,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "cooking-physics",
-      "rocket-science",
-      "road-safety"
+      "refrigerator-food-cooling",
+      "electricity-bill",
+      "elevator-lift-force"
     ]
   },
   {
@@ -2955,9 +2951,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "contact-lenses-eye-care",
-      "earthquake-alert-system",
-      "bridge-engineering"
+      "paper-airplane-flight",
+      "physics_speed",
+      "magnets-at-home"
     ]
   },
   {
@@ -2988,9 +2984,8 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "rain-puddles-water-cycle",
-      "elevator-lift-force",
-      "ice-melting"
+      "ear-pressure-flight-mountain",
+      "contact-lenses-eye-care"
     ]
   },
   {
@@ -3016,9 +3011,9 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "home-cooling-shade-ventilation",
-      "physics_motion",
-      "shadow-day"
+      "sports-ball-bounce",
+      "mirror-reflection-symmetry",
+      "elevator-door-sensors"
     ]
   },
   {
@@ -3044,9 +3039,9 @@
     ],
     "estimated_duration_minutes": 22,
     "related_concepts": [
-      "ear-pressure-flight-mountain",
-      "bridge-engineering",
-      "smart-traffic-signal"
+      "helmet-head-protection",
+      "rain-puddles-water-cycle",
+      "bicycle-tyre-pressure-grip"
     ]
   },
   {
@@ -3075,7 +3070,7 @@
     ],
     "estimated_duration_minutes": 18,
     "related_concepts": [
-      "gravity"
+      "ohms_law"
     ]
   }
 ]

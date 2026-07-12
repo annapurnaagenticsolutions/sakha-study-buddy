@@ -1,0 +1,222 @@
+{
+    "concept_id": "water-cycle",
+    "title": "The Water Cycle & Latent Heat of Evaporation",
+    "subjects": ["Science", "Physics", "Chemistry", "Biology"],
+    "class_band": [6, 7, 8],
+    "classBand": "6-8",
+    "languages": ["en", "hi", "hinglish"],
+    "prerequisites": ["states_of_matter", "heat_and_temperature"],
+    "stem_lab_link": "file:///D:/vision_agentic/STEM_labs/physics_concepts_lab/physics_concepts_lab_class1_10/index.html",
+    "intro_hook": "Have you noticed how deep rainwater puddles on the road vanish completely within hours after the sun comes out, even without sinking into concrete? Or how drinking water kept inside an earthen clay matka stays refreshingly cool even in 45°C summer heat?",
+    "big_idea": "Water continuously circulates between Earth's surface and atmosphere by changing phases (liquid ⇌ gas) through solar-driven Evaporation, plant Transpiration, cloud Condensation, and Precipitation. Evaporation absorbs latent heat of vaporization from the surroundings, causing cooling.",
+    "cause_process_result": {
+        "cause": "Solar thermal energy heats surface water (puddles, rivers, oceans, and plant leaf stomata).",
+        "process": "High-energy water molecules break free from surface tension into vapor (Evaporation & Transpiration), rise to cool altitudes, condense into cloud micro-droplets, and fall back.",
+        "result": "Water is purified, redistributed across land, and cools surfaces via latent heat absorption."
+    },
+    "concept_difficulty_level": 7,
+    "learning_track": ["core"],
+    "teach_back_prompt": "Explain the water cycle to a younger student using evaporation from solar heat, condensation into clouds, and rainfall return.",
+    "interactive_scaffold": {
+        "conceptId": "water-cycle",
+        "title": "The Water Cycle: Phase Transitions and Thermal Dynamics",
+        "hookQuestion": "Why does wet laundry dry three times faster on a windy, sunny day compared to a humid, cloudy day?",
+        "bigIdea": "Evaporation is a surface phenomenon governed by temperature, surface area, humidity, and wind speed.",
+        "vocabulary": [
+            { "symbol": "Evaporation", "means": "Liquid water gaining thermal energy and escaping as invisible water vapor below boiling point" },
+            { "symbol": "Transpiration", "means": "Water vapor evaporating from open leaf stomata of trees and crops into the atmosphere" },
+            { "symbol": "Condensation", "means": "Cooling water vapor molecules slowing down and clumping together around dust to form liquid cloud droplets" },
+            { "symbol": "Latent Heat", "means": "Hidden heat energy absorbed when water turns from liquid to vapor without changing temperature" }
+        ],
+        "steps": [
+            { "label": "Step 1: Solar Evaporation", "detail": "Sunlight warms surface water molecules until they overcome intermolecular hydrogen bonds and escape into the air." },
+            { "label": "Step 2: Plant Transpiration", "detail": "Trees pump groundwater up to leaves where 95% evaporates out of stomata pores, creating humidity." },
+            { "label": "Step 3: Ascent & Adiabatic Cooling", "detail": "Warm, moist air rises into higher atmospheric layers where lower pressure cools the vapor." },
+            { "label": "Step 4: Cloud Condensation", "detail": "Cooled vapor condenses onto microscopic aerosols (salt/dust) forming visible clouds and fog." },
+            { "label": "Step 5: Precipitation & Infiltration", "detail": "Heavy water droplets fall as rain/snow, refilling rivers and soaking into groundwater aquifers." }
+        ],
+        "check_after_step": 3,
+        "feedback_prompt": "Quick check: Does water require reaching 100°C boiling point to evaporate into the atmosphere?",
+        "worked_example": "If a 1-liter rainwater puddle on asphalt receives bright solar radiation, high wind speed blows away saturated vapor above the surface, allowing all 1000 mL to evaporate safely into the atmosphere at 35°C.",
+        "common_confusions": [
+            { "confusion": "Evaporation only happens when water boils at 100°C", "fix": "Boiling happens throughout the bulk liquid at 100°C, but Evaporation happens naturally at the surface at ANY temperature above freezing!" },
+            { "confusion": "Clouds are made of gaseous water vapor", "fix": "True water vapor is 100% invisible! White clouds are suspended liquid micro-droplets or ice crystals formed after condensation." }
+        ]
+    },
+    "whiteboardSteps": [
+        "Core Cycle: Evaporation (Sun) + Transpiration (Plants) -> Condensation (Clouds) -> Precipitation (Rain).",
+        "Surface Rules of Evaporation: Increases with Temperature (T), Surface Area (A), and Wind Speed (v); Decreases with high Humidity (H).",
+        "Latent Heat Cooling: Escaping high-energy molecules take thermal energy away, cooling the remaining liquid (Matka / Sweat effect).",
+        "Cloud Formation: Invisible vapor rises -> cools -> condenses onto aerosol dust nuclei into visible liquid droplets.",
+        "Water Balance: Total global water remains constant through continuous natural recycling."
+    ],
+    "whiteboard": [
+        "🌧️ The Water Cycle & Evaporation Mechanics",
+        "$$ \\text{Liquid Water} + \\Delta Q_{\\text{latent}} \\rightleftharpoons \\text{Water Vapor} $$",
+        "",
+        "**Evaporation Rate Factors:**",
+        "• Temperature ↑ = Rate ↑ (more kinetic energy)",
+        "• Surface Area ↑ = Rate ↑ (more escape boundary)",
+        "• Wind Speed ↑ = Rate ↑ (sweeps saturated air)",
+        "• Air Humidity ↑ = Rate ↓ (atmosphere already full)"
+    ],
+    "visualSteps": [
+        { "step": 1, "action": "Highlight solar heat warming surface puddle molecules until fastest molecules break surface tension and rise." },
+        { "step": 2, "action": "Highlight forest canopy showing transpiration vapor plumes joining evaporated soil water." },
+        { "step": 3, "action": "Pan upward into cold altitude where vapor molecules slow down and cluster around dust nuclei forming white clouds." },
+        { "step": 4, "action": "Animate cloud saturation precipitating rain down over mountains, replenishing groundwater aquifers and rivers." }
+    ],
+    "conversationFlow": [
+        {
+            "state": "INTRO",
+            "prompt": "Let's explore the Water Cycle! After a monsoon downpour leaves large puddles on the road, where does that puddle water go once the sun shines — does it vanish into space, soak into concrete, or evaporate into the air?",
+            "expected_action": "Student identifies evaporation into the air/atmosphere."
+        },
+        {
+            "state": "PRIOR_IDEA",
+            "prompt": "Many students think water must boil at 100°C before it can turn into gas! But roads don't reach 100°C. Why can a puddle evaporate on a normal 30°C afternoon?",
+            "expected_action": "Student discovers surface molecules with highest kinetic energy escape naturally."
+        },
+        {
+            "state": "CONCEPT_1",
+            "prompt": "Let's look at what speeds up Evaporation. If you spread wet clothes out wide on a drying line instead of leaving them crumpled in a ball, why do they dry so much faster?",
+            "expected_action": "Student connects larger surface area to faster molecular escape."
+        },
+        {
+            "state": "CHECK_1",
+            "prompt": "Spot on — larger surface area gives more escape boundary! Now let's test Wind: If a breeze is blowing across the puddle, does the water evaporate faster or slower?",
+            "expected_action": "Student states that wind makes evaporation faster."
+        },
+        {
+            "state": "CONCEPT_2",
+            "prompt": "Exactly! Wind sweeps away the humid air directly above the puddle so fresh vapor can escape. Now once all this invisible water vapor rises high up into the freezing upper sky, what happens to it?",
+            "expected_action": "Student identifies cooling and condensation into clouds."
+        },
+        {
+            "state": "CHECK_2",
+            "prompt": "Correct — it condenses! Let's check a common myth: When you look up at white fluffy clouds in the sky, are you looking at invisible gas vapor or tiny liquid water droplets/ice crystals?",
+            "expected_action": "Student identifies clouds as liquid water droplets or ice crystals."
+        },
+        {
+            "state": "VISUAL_EXPLORATION",
+            "prompt": "Use our interactive Limiting Factor experiment on the right! Adjust the Temperature, Surface Area, Wind Speed, and Humidity sliders. Notice how high Humidity acts as a bottleneck stopping evaporation, while high Wind and Temperature drive rapid cycle flow!",
+            "expected_action": "Student experiments with sliders and observes evaporation rate dynamics."
+        },
+        {
+            "state": "MISCONCEPTION_REPAIR",
+            "prompt": "Why does water kept inside an unglazed clay pitcher (earthen matka / kulhad) become ice-cool in summer, while water inside a steel or plastic bottle stays hot?",
+            "expected_action": "Student discovers micro-pores allow water to seep out and evaporate, absorbing latent heat from the matka."
+        },
+        {
+            "state": "PRACTICE",
+            "prompt": "Let's try a quick atmospheric puzzle: If deforestation cuts down half the trees in a rainforest region, what will happen to local cloud formation and rainfall? Why?",
+            "expected_action": "Student connects loss of plant transpiration to reduced atmospheric humidity and less rainfall."
+        },
+        {
+            "state": "TEACH_BACK",
+            "prompt": "Now imagine you are explaining the water cycle to a younger friend. In your own words, explain how solar heat drives Evaporation and Transpiration, how Clouds form, and how rain returns!",
+            "expected_action": "Student performs teach-back tracing water movement through all phases."
+        },
+        {
+            "state": "FEEDBACK",
+            "prompt": "You nailed the teach-back! Before we finish, how did you feel about this session? Did the evaporation factor sliders make the physics of drying and cloud formation clear?",
+            "expected_action": "Student shares feedback on visualizers and pace."
+        },
+        {
+            "state": "COMPLETE",
+            "prompt": "Concept complete! You have mastered the Water Cycle and Phase Transitions. Check your constellation map to see your earned stars!",
+            "expected_action": "Session complete."
+        }
+    ],
+    "responseRules": {
+        "MISCONCEPTION": "Acknowledge the guess, then ask a probe (e.g., whether clouds are invisible gas or visible liquid mist) to guide the student to correct phase transition science.",
+        "REQUEST_VISUAL": "Direct the student to the interactive sliders to test how Humidity and Wind speed counteract each other during evaporation.",
+        "REQUEST_SIMPLIFICATION": "Open the Whiteboard and show the 4-step circle: Sun evaporates water -> Vapor rises and cools -> Clouds condense -> Rain falls.",
+        "CORRECT": "Validate the clear reasoning, connect surface evaporation to latent heat cooling, and transition smoothly to the next stage."
+    },
+    "guidedPractice": [
+        {
+            "scenario": "Sweat Cooling Mechanism",
+            "question": "When you exercise heavily on a hot day, your skin secretes liquid sweat. How does sweat keep your body temperature from overheating to dangerous levels?",
+            "hint": "When sweat liquid turns into vapor, what kind of heat energy does it absorb from your skin?",
+            "expected_answer": "As sweat evaporates, it absorbs latent heat of vaporization from the skin, cooling the body."
+        },
+        {
+            "scenario": "Cold Glass Dew Drops",
+            "question": "If you pour ice-cold lemonade into a dry glass on a humid afternoon, water droplets soon cover the outside of the glass. Did lemonade leak through the solid glass?",
+            "hint": "What gas exists in the surrounding room air that hits the freezing cold glass surface?",
+            "expected_answer": "No, water vapor already in the humid air hits the cold glass surface and condenses into liquid dew drops."
+        }
+    ],
+    "teachBackRubric": {
+        "required_elements": [
+            "Evaporation driven by solar thermal energy",
+            "Transpiration from plants and tree leaves",
+            "Condensation of rising cool vapor into cloud droplets",
+            "Precipitation returning water to earth (rain/snow)",
+            "Mention of how temperature, wind, or humidity affect drying speed"
+        ],
+        "partial_prompt": "You explained evaporation and rain perfectly! But how do plants and trees contribute water vapor to the sky?"
+    },
+    "feedbackQuestions": [
+        "Which view helped most (Whiteboard, Sliders, or Matka cooling story)?",
+        "Was the difference between invisible water vapor and visible clouds clear?",
+        "Did the sliders make the 4 evaporation factors easy to understand?"
+    ],
+    "components": {
+        "primary2D": {
+            "type": "WaterCycleEvaporationVisualizer",
+            "controls": ["temperature", "wind_speed", "humidity", "surface_area"],
+            "outputs": ["evaporation_rate", "cloud_density", "limiting_factor"],
+            "description": "Interactive simulation with 4 sliders showing live puddle evaporation rate and cloud saturation gauge."
+        },
+        "optional3D": {
+            "type": "MatkaLatentHeatCooling3D",
+            "description": "Zoom into the porous clay wall of an earthen matka in 3D to watch water molecules seep through micro-pores and absorb latent heat."
+        }
+    },
+    "indian_analogies": [
+        "Earthen Matka / Surahi Cooling: Clay has millions of microscopic pores. Water seeps out and evaporates from the outer surface, extracting latent heat of vaporization from the water inside, cooling it by 5°C to 8°C.",
+        "Monsoon Baoli (Stepwell) Architecture: Ancient Indian stepwells (like Chand Baoli in Rajasthan) store monsoon precipitation underground while minimizing surface area exposed to scorching sun, drastically reducing evaporation loss."
+    ],
+    "misconceptions": [
+        {
+            "id": "mc_evaporation_needs_boiling",
+            "belief": "Water must boil at 100°C before it can evaporate into vapor.",
+            "probe": "If water only turns to gas at 100°C, why do wet floors and roads dry up completely at room temperature?",
+            "correction": "Boiling occurs throughout the liquid at 100°C, but Evaporation occurs at the surface at any temperature above 0°C when high-energy molecules escape."
+        },
+        {
+            "id": "mc_clouds_are_gas",
+            "belief": "Clouds floating in the sky are made of gaseous water vapor.",
+            "probe": "True water gas is 100% invisible! If clouds are visible and cast shadows, what form of water must they actually be?",
+            "correction": "Water vapor is invisible. Clouds are clusters of billions of microscopic liquid water droplets or ice crystals formed when vapor condenses around dust."
+        }
+    ],
+    "practice_problems": [
+        {
+            "difficulty": "Easy",
+            "q": "Which factor will make wet clothes dry SLOWEST: high wind, high temperature, high humidity, or large surface area?",
+            "hint": "Which factor means the air is already saturated with water?"
+        },
+        {
+            "difficulty": "Medium",
+            "q": "Why does water vapor rise upward into the sky after evaporating from the ocean?",
+            "hint": "Warm, moist air has lower density than cool, dry air."
+        }
+    ],
+    "question_flow": [
+        {
+            "type": "hook",
+            "q": "Where does rainwater go after a puddle slowly dries on the road?"
+        },
+        {
+            "type": "probe",
+            "q": "What happens to the temperature of a clay matka when water evaporates from its surface pores?"
+        },
+        {
+            "type": "teach_back",
+            "q": "Explain the water cycle to a younger student using evaporation from solar heat, condensation into clouds, and rainfall return."
+        }
+    ]
+}

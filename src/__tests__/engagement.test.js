@@ -59,7 +59,7 @@ describe('EngagementManager', () => {
     it('property: stars are always 1, 2, or 3 for any valid mastery', () => {
       fc.assert(
         fc.property(
-          fc.float({ min: 0, max: 1 }),
+          fc.float({ min: 0, max: 1, noNaN: true }),
           (mastery) => {
             const stars = manager.calculateStars(mastery);
             return stars >= 1 && stars <= 3 && Number.isInteger(stars);
@@ -76,7 +76,7 @@ describe('EngagementManager', () => {
     it('property: star calculation follows mastery boundaries', () => {
       fc.assert(
         fc.property(
-          fc.float({ min: 0, max: 1 }),
+          fc.float({ min: 0, max: 1, noNaN: true }),
           (mastery) => {
             const stars = manager.calculateStars(mastery);
             
@@ -303,6 +303,7 @@ describe('EngagementManager', () => {
           ),
           (topics) => {
             // Fresh manager for each test
+            localStorage.clear();
             const testManager = new EngagementManager();
             
             // Add all topics
@@ -349,6 +350,7 @@ describe('EngagementManager', () => {
             { minLength: 1, maxLength: 15 }
           ),
           (topics) => {
+            localStorage.clear();
             const testManager = new EngagementManager();
             
             topics.forEach(topic => {
@@ -361,8 +363,9 @@ describe('EngagementManager', () => {
             for (const subject in constellation) {
               const allTopicsInCluster = constellation[subject].every(
                 topic => {
-                  // Find original topic
-                  const original = topics.find(t => t.id === topic.topicId);
+                  // Find original topic (last added in case of duplicate IDs)
+                  const matchingTopics = topics.filter(t => t.id === topic.topicId);
+                  const original = matchingTopics[matchingTopics.length - 1];
                   return original && original.subject === subject;
                 }
               );
@@ -681,6 +684,7 @@ describe('EngagementManager', () => {
         fc.property(
           fc.integer({ min: 1, max: 10 }),
           (maxRecs) => {
+            localStorage.clear();
             const testManager = new EngagementManager();
             const recommendations = testManager.generateRecommendations(
               {},

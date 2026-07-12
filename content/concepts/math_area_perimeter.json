@@ -1,205 +1,218 @@
 {
-  "concept_id": "math_area_perimeter",
-  "title": "Area and Perimeter",
-  "icon": "📐",
-  "class_band": [
-    8,
-    9,
-    10
-  ],
-  "subjects": [
-    "Math"
-  ],
-  "level": "Socratic Flow",
-  "prerequisites": [
-    "measurement",
-    "multiplication",
-    "units"
-  ],
-  "intro_hook": "Can two rectangles have the same perimeter but different areas? Give an example or explain.",
-  "big_idea": "Area measures surface covered; perimeter measures boundary length.",
-  "story": "",
-  "cause_process_result": {
-    "cause": "Perimeter is the fence. Area is the floor space.",
-    "process": "Perimeter adds side lengths; area counts square units inside. Grid paper showing boundary versus filled squares.",
-    "result": "Land, rooms, painting, flooring, packaging, mensuration."
-  },
-  "flow": [],
-  "whiteboard": [
-    "Intuition: Perimeter is the fence. Area is the floor space.",
-    "Visual: Grid paper showing boundary versus filled squares.",
-    "Formal: Rectangle: perimeter = 2(l+b), area = l×b.",
-    "Application: Land, rooms, painting, flooring, packaging, mensuration."
-  ],
-  "indian_analogies": [
-    "A fence length can be the same for two gardens, but one garden may cover more usable land depending on shape.",
-    "Perimeter fence jaisa hai; area floor space jaisa. Same fence length se alag-alag floor space ban sakta hai."
-  ],
-  "misconceptions": [
-    {
-      "id": "mis_math_area_perimeter_01",
-      "belief": "area and perimeter are interchangeable",
-      "why_common": "I mixed area and perimeter because both use length measurements.",
-      "probe": "Can two rectangles have the same perimeter but different areas? Give an example.",
-      "repair": "Compare a long thin rectangle and a square with the same perimeter. Count grid squares to show area can change even when boundary length is fixed.",
-      "repair_visual": "Walk around a room for perimeter, then tile the floor for area.",
-      "follow_up": "Can two rectangles with perimeter 20 have different areas? Give an example.",
-      "teacher_prompt": "Compare rectangles with same perimeter but different area.",
-      "mastery_signal": "Learner can explain why “area and perimeter are interchangeable” is not correct and answer a changed follow-up without relying only on a memorized rule.",
-      "trigger_words": [
-        "suggests: area and perimeter",
-        "gives answer without valid",
-        "cannot explain the idea"
-      ]
-    },
-    {
-      "id": "mis_math_area_perimeter_02",
-      "belief": "same perimeter means same area",
-      "why_common": "I mixed area and perimeter because both use length measurements.",
-      "probe": "Can two rectangles have the same perimeter but different areas? Give an example.",
-      "repair": "Walk around a room for perimeter, then tile the floor for area. Then ask the learner to state the rule in their own words before moving to symbols.",
-      "repair_visual": "Walk around a room for perimeter, then tile the floor for area.",
-      "follow_up": "Give a changed area perimeter situation and ask the learner to explain why the same idea still applies.",
-      "teacher_prompt": "Compare rectangles with same perimeter but different area.",
-      "mastery_signal": "Learner can explain why “same perimeter means same area” is not correct and answer a changed follow-up without relying only on a memorized rule.",
-      "trigger_words": [
-        "suggests: same perimeter same",
-        "gives answer without valid",
-        "cannot explain the idea"
-      ]
-    },
-    {
-      "id": "mis_math_area_perimeter_03",
-      "belief": "units do not matter",
-      "why_common": "I mixed area and perimeter because both use length measurements.",
-      "probe": "Can two rectangles have the same perimeter but different areas? Give an example.",
-      "repair": "Walk around a room for perimeter, then tile the floor for area. Then ask the learner to state the rule in their own words before moving to symbols.",
-      "repair_visual": "Walk around a room for perimeter, then tile the floor for area.",
-      "follow_up": "Give a changed area perimeter situation and ask the learner to explain why the same idea still applies.",
-      "teacher_prompt": "Compare rectangles with same perimeter but different area.",
-      "mastery_signal": "Learner can explain why “units do not matter” is not correct and answer a changed follow-up without relying only on a memorized rule.",
-      "trigger_words": [
-        "suggests: units do not",
-        "gives answer without valid",
-        "cannot explain the idea"
-      ]
-    }
-  ],
-  "question_flow": [
-    {
-      "type": "hook",
-      "q": "Can two rectangles have the same perimeter but different areas? Give an example or explain.",
-      "a": "Haan, do rectangles ek hi perimeter ho sakte hain lekin unke areas alag ho sakte hain. Udaaharan ke liye, ek rectangle ka length 4 cm aur width 5 cm ho sakta hai, jabki doosre rectangle ka length 3 cm aur width 6 cm ho sakta hai, dono ka perimeter 18 cm hoga lekin areas alag honge."
-    },
-    {
-      "type": "probe",
-      "q": "Think of perimeter as the fence around a garden.",
-      "a": "Perimeter hamare garden ke charon or lagane wale baadhe ki lambai hoti hai, jise hum fence ke roop mein soch sakte hain, jaise ki hum garden ke andar ek boundary banate hain. Isse humein pata chalta hai ki garden ke charon or kitni lambai ki fence lagani hogi. Yeh ek tarah se garden ke border ki lambai ko measure karna hota hai."
-    },
-    {
-      "type": "probe",
-      "q": "Try rectangle 6 by 4. What is its perimeter and area?",
-      "a": "Iss rectangle ka perimeter 2 * (6 + 4) = 20 unit hai, aur area 6 * 4 = 24 square unit hai, yeh hum calculate karke pata lagate hain. Perimeter aur area dono hi alag-alag concepts hain, lekin dono rectangle ke baare mein humein jaankari dete hain."
-    },
-    {
-      "type": "probe",
-      "q": "Try rectangle 7 by 3. Compare perimeter and area.",
-      "a": "Rectangle ka perimeter 2 * (7 + 3) = 20 unit hai, aur area 7 * 3 = 21 square unit hai, isse pata chalta hai ki perimeter aur area alag-alag hote hain. Perimeter rectangle ke charon taraf ki kul lambai ko darshata hai, jabki area andar ki jagah ko darshata hai. Is rectangle mein area perimeter se zyada hai."
-    },
-    {
-      "type": "application",
-      "q": "Compare rectangles 8×2 and 5×5. Which has larger area and what are their perimeters?",
-      "a": "Rectangle 8×2 ka area 16 square unit hai aur 5×5 ka area 25 square unit hai, isliye 5×5 ka area bada hai. 8×2 ka perimeter 20 unit hai aur 5×5 ka perimeter 20 unit hai, dono ka perimeter barabar hai."
-    },
-    {
-      "type": "teach_back",
-      "q": "Explain the difference between perimeter and area using fence and floor examples.",
-      "a": "Perimeter aur area mein antar samjhane ke liye, hum fence aur floor ka udaharan le sakte hain, jahan perimeter ko hum fence ki lambai se maapte hain jo ki plot ke charon taraf lagti hai, aur area ko hum floor ki jagah se maapte hain jo ki plot ke andar hoti hai. Isse hum kehte hain ki perimeter bahari maap hota hai aur area andar ki jag"
-    }
-  ],
-  "practice_problems": [
-    {
-      "difficulty": 2,
-      "type": "open",
-      "q": "Can two rectangles have the same perimeter but different areas? Give an example.",
-      "hint": "Perimeter is the fence. Area is the floor space.",
-      "answer": "Yes. For example, 6×4 and 7×3 both have perimeter 20, but areas 24 and 21."
-    },
-    {
-      "difficulty": 3,
-      "type": "transfer",
-      "q": "Compare rectangles 8×2 and 5×5. Which has larger area and what are their perimeters?",
-      "hint": "Same idea, new context.",
-      "answer": "Mastery requires distinguishing measurement meaning, formula, and units."
-    }
-  ],
-  "teaching_styles": {
-    "simple": "Yes. A 6×4 rectangle has perimeter 20 and area 24. A 7×3 rectangle also has perimeter 20 but area 21. Same boundary, different inside space.",
-    "visual": "Draw both rectangles on grid paper. Count the boundary units for perimeter and the filled squares for area.",
-    "real_life": "A fence length can be the same for two gardens, but one garden may cover more usable land depending on shape.",
-    "formal": "For a rectangle, perimeter = 2(l + b), while area = l × b. These formulas measure different properties.",
-    "socratic": "What does perimeter count? What does area count? Can changing shape preserve one but change the other?",
-    "mistake_analysis": "The mistake is treating perimeter and area as interchangeable. Boundary length and surface coverage are different dimensions.",
-    "hinglish": "Perimeter fence jaisa hai; area floor space jaisa. Same fence length se alag-alag floor space ban sakta hai.",
-    "challenge": "Among rectangles with perimeter 24, which has larger area: 10×2 or 6×6? Why?",
-    "teach_back": "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
-  },
-  "learner_adaptations": {
-    "struggling": "Perimeter is the fence. Area is the floor space.",
-    "standard": "Perimeter adds side lengths; area counts square units inside.",
-    "advanced": "Rectangle: perimeter = 2(l+b), area = l×b.",
-    "fast_learner": "Among rectangles with perimeter 24, which has larger area: 10×2 or 6×6? Why?"
-  },
-  "subject_lenses": {
-    "Math": "Land, rooms, painting, flooring, packaging, mensuration."
-  },
-  "wonder_tangents": [
-    {
-      "trigger": "after_student_explains",
-      "hinglish": "Ek interesting connection — Area and Perimeter ka use real life mein: Land, rooms, painting, flooring, packaging, mensuration.",
-      "related_concepts": []
-    }
-  ],
-  "daily_wonders": [
-    "Aaj area and perimeter ka ek real-life example dhundo.",
-    "A fence length can be the same for two gardens, but one garden may cover more usable land depending on shape."
-  ],
-  "indian_legacy": {
-    "scientist": "Aryabhata",
-    "connection": "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of geometry, which includes the concepts of area and perimeter. His work, particularly in the Aryabhatiya, laid the foundation for later Indian mathematicians to explore and develop these ideas further, demonstrating the importance of understanding area and perimeter in various mathematical and real-world applications.",
-    "story_hook": "Imagine you are a young architect in ancient India, tasked with designing a beautiful temple, just like the ones Aryabhata might have seen, where you need to calculate the area of the floor and the perimeter of the walls to ensure it's perfect for the community. As you start measuring and calculating, you begin to uncover the secrets of area and perimeter, and how they help you create something truly magnificent.",
-    "class_appropriate": {},
-    "enrichment_status": "completed"
-  },
-  "home_investigation": {
-    "title": "Try at Home: Area and Perimeter",
-    "time_required": "5 min",
-    "materials": [
-      "Paper, pen, everyday objects"
-    ],
-    "steps": [
-      "A fence length can be the same for two gardens, but one garden may cover more usable land depending on shape."
-    ],
-    "share_with_sakha": "What did you notice?"
-  },
-  "unlocks": [],
-  "subject_web_position": {
-    "x": 0.5,
-    "y": 0.5
-  },
-  "stem_lab_link": "jigyasu-socratic-tutor#concept-math_area_perimeter",
-  "visualizer_type": "socratic_tutor",
-  "mastery_rule": "Mastery requires distinguishing measurement meaning, formula, and units.",
-  "session_type": "math",
-  "_source": "jigyasu-socratic-stem-tutor-v1.0",
-  "_socratic_flow_id": "flow_math_area_perimeter_full",
-  "_enrichment_needed": [
-    "indian_legacy",
-    "unlocks",
-    "stem_lab_link (full URL)"
-  ],
-  "concept_difficulty_level": 10,
-  "learning_track": [
-    "core"
-  ]
+    "concept_id":  "math_area_perimeter",
+    "title":  "Area and Perimeter",
+    "icon":  "ðŸ“",
+    "class_band":  [
+                       8,
+                       9,
+                       10
+                   ],
+    "subjects":  [
+                     "Math"
+                 ],
+    "level":  "Socratic Flow",
+    "prerequisites":  [
+                          "measurement",
+                          "multiplication",
+                          "units"
+                      ],
+    "intro_hook":  "Can two rectangles have the same perimeter but different areas? Give an example or explain.",
+    "big_idea":  "Area measures surface covered; perimeter measures boundary length.",
+    "story":  "",
+    "cause_process_result":  {
+                                 "cause":  "Perimeter is the fence. Area is the floor space.",
+                                 "process":  "Perimeter adds side lengths; area counts square units inside. Grid paper showing boundary versus filled squares.",
+                                 "result":  "Land, rooms, painting, flooring, packaging, mensuration."
+                             },
+    "flow":  [
+
+             ],
+    "whiteboard":  [
+                       "Intuition: Perimeter is the fence. Area is the floor space.",
+                       "Visual: Grid paper showing boundary versus filled squares.",
+                       "Formal: Rectangle: perimeter = 2(l+b), area = lÃ—b.",
+                       "Application: Land, rooms, painting, flooring, packaging, mensuration."
+                   ],
+    "indian_analogies":  [
+                             "A fence length can be the same for two gardens, but one garden may cover more usable land depending on shape.",
+                             "Perimeter fence jaisa hai; area floor space jaisa. Same fence length se alag-alag floor space ban sakta hai."
+                         ],
+    "misconceptions":  [
+                           {
+                               "id":  "mis_math_area_perimeter_01",
+                               "belief":  "area and perimeter are interchangeable",
+                               "why_common":  "I mixed area and perimeter because both use length measurements.",
+                               "probe":  "Can two rectangles have the same perimeter but different areas? Give an example.",
+                               "repair":  "Compare a long thin rectangle and a square with the same perimeter. Count grid squares to show area can change even when boundary length is fixed.",
+                               "repair_visual":  "Walk around a room for perimeter, then tile the floor for area.",
+                               "follow_up":  "Can two rectangles with perimeter 20 have different areas? Give an example.",
+                               "teacher_prompt":  "Compare rectangles with same perimeter but different area.",
+                               "mastery_signal":  "Learner can explain why â€œarea and perimeter are interchangeableâ€ is not correct and answer a changed follow-up without relying only on a memorized rule.",
+                               "trigger_words":  [
+                                                     "suggests: area and perimeter",
+                                                     "gives answer without valid",
+                                                     "cannot explain the idea"
+                                                 ]
+                           },
+                           {
+                               "id":  "mis_math_area_perimeter_02",
+                               "belief":  "same perimeter means same area",
+                               "why_common":  "I mixed area and perimeter because both use length measurements.",
+                               "probe":  "Can two rectangles have the same perimeter but different areas? Give an example.",
+                               "repair":  "Walk around a room for perimeter, then tile the floor for area. Then ask the learner to state the rule in their own words before moving to symbols.",
+                               "repair_visual":  "Walk around a room for perimeter, then tile the floor for area.",
+                               "follow_up":  "Give a changed area perimeter situation and ask the learner to explain why the same idea still applies.",
+                               "teacher_prompt":  "Compare rectangles with same perimeter but different area.",
+                               "mastery_signal":  "Learner can explain why â€œsame perimeter means same areaâ€ is not correct and answer a changed follow-up without relying only on a memorized rule.",
+                               "trigger_words":  [
+                                                     "suggests: same perimeter same",
+                                                     "gives answer without valid",
+                                                     "cannot explain the idea"
+                                                 ]
+                           },
+                           {
+                               "id":  "mis_math_area_perimeter_03",
+                               "belief":  "units do not matter",
+                               "why_common":  "I mixed area and perimeter because both use length measurements.",
+                               "probe":  "Can two rectangles have the same perimeter but different areas? Give an example.",
+                               "repair":  "Walk around a room for perimeter, then tile the floor for area. Then ask the learner to state the rule in their own words before moving to symbols.",
+                               "repair_visual":  "Walk around a room for perimeter, then tile the floor for area.",
+                               "follow_up":  "Give a changed area perimeter situation and ask the learner to explain why the same idea still applies.",
+                               "teacher_prompt":  "Compare rectangles with same perimeter but different area.",
+                               "mastery_signal":  "Learner can explain why â€œunits do not matterâ€ is not correct and answer a changed follow-up without relying only on a memorized rule.",
+                               "trigger_words":  [
+                                                     "suggests: units do not",
+                                                     "gives answer without valid",
+                                                     "cannot explain the idea"
+                                                 ]
+                           }
+                       ],
+    "question_flow":  [
+                          {
+                              "type":  "hook",
+                              "q":  "Can two rectangles have the same perimeter but different areas? Give an example or explain.",
+                              "a":  "Haan, do rectangles ek hi perimeter ho sakte hain lekin unke areas alag ho sakte hain. Udaaharan ke liye, ek rectangle ka length 4 cm aur width 5 cm ho sakta hai, jabki doosre rectangle ka length 3 cm aur width 6 cm ho sakta hai, dono ka perimeter 18 cm hoga lekin areas alag honge."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "Think of perimeter as the fence around a garden.",
+                              "a":  "Perimeter hamare garden ke charon or lagane wale baadhe ki lambai hoti hai, jise hum fence ke roop mein soch sakte hain, jaise ki hum garden ke andar ek boundary banate hain. Isse humein pata chalta hai ki garden ke charon or kitni lambai ki fence lagani hogi. Yeh ek tarah se garden ke border ki lambai ko measure karna hota hai."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "Try rectangle 6 by 4. What is its perimeter and area?",
+                              "a":  "Iss rectangle ka perimeter 2 * (6 + 4) = 20 unit hai, aur area 6 * 4 = 24 square unit hai, yeh hum calculate karke pata lagate hain. Perimeter aur area dono hi alag-alag concepts hain, lekin dono rectangle ke baare mein humein jaankari dete hain."
+                          },
+                          {
+                              "type":  "probe",
+                              "q":  "Try rectangle 7 by 3. Compare perimeter and area.",
+                              "a":  "Rectangle ka perimeter 2 * (7 + 3) = 20 unit hai, aur area 7 * 3 = 21 square unit hai, isse pata chalta hai ki perimeter aur area alag-alag hote hain. Perimeter rectangle ke charon taraf ki kul lambai ko darshata hai, jabki area andar ki jagah ko darshata hai. Is rectangle mein area perimeter se zyada hai."
+                          },
+                          {
+                              "type":  "application",
+                              "q":  "Compare rectangles 8Ã—2 and 5Ã—5. Which has larger area and what are their perimeters?",
+                              "a":  "Rectangle 8Ã—2 ka area 16 square unit hai aur 5Ã—5 ka area 25 square unit hai, isliye 5Ã—5 ka area bada hai. 8Ã—2 ka perimeter 20 unit hai aur 5Ã—5 ka perimeter 20 unit hai, dono ka perimeter barabar hai."
+                          },
+                          {
+                              "type":  "teach_back",
+                              "q":  "Explain the difference between perimeter and area using fence and floor examples.",
+                              "a":  "Perimeter aur area mein antar samjhane ke liye, hum fence aur floor ka udaharan le sakte hain, jahan perimeter ko hum fence ki lambai se maapte hain jo ki plot ke charon taraf lagti hai, aur area ko hum floor ki jagah se maapte hain jo ki plot ke andar hoti hai. Isse hum kehte hain ki perimeter bahari maap hota hai aur area andar ki jag"
+                          }
+                      ],
+    "practice_problems":  [
+                              {
+                                  "difficulty":  2,
+                                  "type":  "open",
+                                  "q":  "Can two rectangles have the same perimeter but different areas? Give an example.",
+                                  "hint":  "Perimeter is the fence. Area is the floor space.",
+                                  "answer":  "Yes. For example, 6Ã—4 and 7Ã—3 both have perimeter 20, but areas 24 and 21."
+                              },
+                              {
+                                  "difficulty":  3,
+                                  "type":  "transfer",
+                                  "q":  "Compare rectangles 8Ã—2 and 5Ã—5. Which has larger area and what are their perimeters?",
+                                  "hint":  "Same idea, new context.",
+                                  "answer":  "Mastery requires distinguishing measurement meaning, formula, and units."
+                              }
+                          ],
+    "teaching_styles":  {
+                            "simple":  "Yes. A 6Ã—4 rectangle has perimeter 20 and area 24. A 7Ã—3 rectangle also has perimeter 20 but area 21. Same boundary, different inside space.",
+                            "visual":  "Draw both rectangles on grid paper. Count the boundary units for perimeter and the filled squares for area.",
+                            "real_life":  "A fence length can be the same for two gardens, but one garden may cover more usable land depending on shape.",
+                            "formal":  "For a rectangle, perimeter = 2(l + b), while area = l Ã— b. These formulas measure different properties.",
+                            "socratic":  "What does perimeter count? What does area count? Can changing shape preserve one but change the other?",
+                            "mistake_analysis":  "The mistake is treating perimeter and area as interchangeable. Boundary length and surface coverage are different dimensions.",
+                            "hinglish":  "Perimeter fence jaisa hai; area floor space jaisa. Same fence length se alag-alag floor space ban sakta hai.",
+                            "challenge":  "Among rectangles with perimeter 24, which has larger area: 10Ã—2 or 6Ã—6? Why?",
+                            "teach_back":  "Teach this concept to a friend using one example, one rule, and one mistake to avoid."
+                        },
+    "learner_adaptations":  {
+                                "struggling":  "Perimeter is the fence. Area is the floor space.",
+                                "standard":  "Perimeter adds side lengths; area counts square units inside.",
+                                "advanced":  "Rectangle: perimeter = 2(l+b), area = lÃ—b.",
+                                "fast_learner":  "Among rectangles with perimeter 24, which has larger area: 10Ã—2 or 6Ã—6? Why?"
+                            },
+    "subject_lenses":  {
+                           "Math":  "Land, rooms, painting, flooring, packaging, mensuration."
+                       },
+    "wonder_tangents":  [
+                            {
+                                "trigger":  "after_student_explains",
+                                "hinglish":  "Ek interesting connection â€” Area and Perimeter ka use real life mein: Land, rooms, painting, flooring, packaging, mensuration.",
+                                "related_concepts":  [
+
+                                                     ]
+                            }
+                        ],
+    "daily_wonders":  [
+                          "Aaj area and perimeter ka ek real-life example dhundo.",
+                          "A fence length can be the same for two gardens, but one garden may cover more usable land depending on shape."
+                      ],
+    "indian_legacy":  {
+                          "scientist":  "Aryabhata",
+                          "connection":  "Aryabhata, a renowned Indian mathematician and astronomer, made significant contributions to the field of geometry, which includes the concepts of area and perimeter. His work, particularly in the Aryabhatiya, laid the foundation for later Indian mathematicians to explore and develop these ideas further, demonstrating the importance of understanding area and perimeter in various mathematical and real-world applications.",
+                          "story_hook":  "Imagine you are a young architect in ancient India, tasked with designing a beautiful temple, just like the ones Aryabhata might have seen, where you need to calculate the area of the floor and the perimeter of the walls to ensure it\u0027s perfect for the community. As you start measuring and calculating, you begin to uncover the secrets of area and perimeter, and how they help you create something truly magnificent.",
+                          "class_appropriate":  {
+
+                                                },
+                          "enrichment_status":  "completed"
+                      },
+    "home_investigation":  {
+                               "title":  "Try at Home: Area and Perimeter",
+                               "time_required":  "5 min",
+                               "materials":  [
+                                                 "Paper, pen, everyday objects"
+                                             ],
+                               "steps":  [
+                                             "A fence length can be the same for two gardens, but one garden may cover more usable land depending on shape."
+                                         ],
+                               "share_with_sakha":  "What did you notice?"
+                           },
+    "unlocks":  [
+
+                ],
+    "subject_web_position":  {
+                                 "x":  0.5,
+                                 "y":  0.5
+                             },
+    "stem_lab_link":  "jigyasu-socratic-tutor#concept-math_area_perimeter",
+    "visualizer_type":  "socratic_tutor",
+    "mastery_rule":  "Mastery requires distinguishing measurement meaning, formula, and units.",
+    "session_type":  "math",
+    "_source":  "jigyasu-socratic-stem-tutor-v1.0",
+    "_socratic_flow_id":  "flow_math_area_perimeter_full",
+    "_enrichment_needed":  [
+                               "indian_legacy",
+                               "unlocks",
+                               "stem_lab_link (full URL)"
+                           ],
+    "concept_difficulty_level":  10,
+    "learning_track":  [
+                           "core"
+                       ],
+    "visualizer":  {
+                       "ask_after":  "clear_checkpoint",
+                       "source":  "3D_world/07_New_2D_Canvases/Class4_6_TreasureGridAndZooBuilderCanvas.tsx",
+                       "id":  "area-perimeter"
+                   }
 }

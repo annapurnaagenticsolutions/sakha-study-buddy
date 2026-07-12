@@ -26,6 +26,37 @@ const showcaseFields = [
   'review_plan'
 ];
 
+const validVisualizerIds = new Set([
+  'boiling-evaporation',
+  'magnet-field',
+  'ohms-circuit',
+  'photosynthesis-flow',
+  'soap-cleaning',
+  'area-perimeter',
+  'sound-wave',
+  'coordinate-grid',
+  'newtons-laws-sim',
+  'chemical-bonding-sim',
+  'mitosis-genetics-sim'
+]);
+
+const expectedVisualizers = new Map([
+  ['boiling-water', 'boiling-evaporation'],
+  ['clothes-drying-sun-wind', 'boiling-evaporation'],
+  ['cold-bottle-condensation', 'boiling-evaporation'],
+  ['magnets-at-home', 'magnet-field'],
+  ['ohms_law', 'ohms-circuit'],
+  ['plant-growth-photosynthesis', 'photosynthesis-flow'],
+  ['plant-growth', 'photosynthesis-flow'],
+  ['washing-oily-plates', 'soap-cleaning'],
+  ['soap-bubbles-surface-tension', 'soap-cleaning'],
+  ['handwashing-soap-germs', 'soap-cleaning'],
+  ['math_area_perimeter', 'area-perimeter'],
+  ['sound-waves', 'sound-wave'],
+  ['musical-instruments-sound', 'sound-wave'],
+  ['math_coordinate_plane', 'coordinate-grid']
+]);
+
 function readJson(file) {
   try {
     return JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -84,6 +115,24 @@ function checkConcept(file) {
   if (showcaseTopicIds.has(id) && !hasShowcaseLearning(concept)) {
     errors += 1;
     console.error('ERROR ' + id + ' missing static learning_showcase fields');
+  }
+  if (concept.visualizer) {
+    const visualizerId = text(concept.visualizer.id);
+    if (!validVisualizerIds.has(visualizerId)) {
+      errors += 1;
+      console.error('ERROR ' + id + ' has unknown visualizer id: ' + visualizerId);
+    }
+    if (!text(concept.visualizer.source)) {
+      errors += 1;
+      console.error('ERROR ' + id + ' visualizer missing source');
+    }
+  }
+  if (expectedVisualizers.has(id)) {
+    const expected = expectedVisualizers.get(id);
+    if (!concept.visualizer || concept.visualizer.id !== expected) {
+      errors += 1;
+      console.error('ERROR ' + id + ' expected visualizer: ' + expected);
+    }
   }
   return id;
 }

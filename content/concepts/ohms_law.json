@@ -1,87 +1,243 @@
 {
-  "concept_id": "ohms_law",
-  "title": "Ohm's Law",
-  "subjects": [
-    "Science",
-    "Physics"
-  ],
-  "class_band": [
-    10
-  ],
-  "prerequisites": [
-    "electricity-circuits",
-    "resistance_basics"
-  ],
-  "stem_lab_link": "file:///D:/vision_agentic/STEM_labs/physics_concepts_lab/physics_concepts_lab_class1_10/index.html",
-  "intro_hook": "Have you noticed that a higher voltage across the same resistor usually drives more current? Why does that happen?",
-  "big_idea": "For many conductors at constant temperature, current is proportional to potential difference. Resistance is the opposition to current. (Ohm's law is the central quantitative rule for simple electric circuits.)",
-  "cause_process_result": {
-    "cause": "Potential difference (Voltage) is applied.",
-    "process": "Electric charge (Current) flows through the conductor.",
-    "result": "The flow is opposed by the material's Resistance."
-  },
-  "whiteboard": [
-    "⚡ Voltage = Current × Resistance",
-    "$$ V = I \\cdot R $$",
-    "",
-    "**Decoder:**",
-    "V: potential difference in volt (V)",
-    "I: current in ampere (A)",
-    "R: resistance in ohm (Ω)"
-  ],
-  "indian_analogies": [
-    "Think of Voltage as a water pump pushing water, Current as the water flowing through a pipe, and Resistance as rocks inside the pipe slowing the water down."
-  ],
-  "misconceptions": [
-    {
-      "id": "mc_ohms_universal",
-      "belief": "Ohm's law is universal for every material under every condition.",
-      "probe": "Is Ohm's law always true? What if the wire gets really hot? Does temperature and material behavior matter?"
-    }
-  ],
-  "practice_problems": [
-    {
-      "difficulty": "Easy",
-      "q": "If Current (I) is 0.5 A, and Resistance (R) is 20 Ω. What is the Voltage (V)?",
-      "hint": "Use the formula V = I × R"
-    }
-  ],
-  "concept_difficulty_level": 10,
-  "learning_track": [
-    "core"
-  ],
-  "question_flow": [
-    {
-      "type": "hook",
-      "q": "If voltage increases across the same resistor, what usually happens to current?"
+    "concept_id": "ohms_law",
+    "title": "Ohm's Law & Electric Circuit Flow",
+    "subjects": ["Science", "Physics"],
+    "class_band": [10],
+    "classBand": "9-10",
+    "languages": ["en", "hi", "hinglish"],
+    "prerequisites": ["electricity-circuits", "resistance_basics"],
+    "stem_lab_link": "file:///D:/vision_agentic/STEM_labs/physics_concepts_lab/physics_concepts_lab_class1_10/index.html",
+    "intro_hook": "Have you ever wondered why turning the voltage regulator dial up on a ceiling fan makes it spin much faster, while adding a thick resistor slows it right down? What is the exact mathematical relationship between push, flow, and opposition?",
+    "big_idea": "For any metallic conductor at constant temperature, the electric current (I) flowing through it is directly proportional to the applied potential difference (Voltage, V) and inversely proportional to its resistance (R). This quantitative relationship V = I · R is Ohm's Law.",
+    "cause_process_result": {
+        "cause": "Potential difference (Voltage, V) is applied across the ends of the circuit.",
+        "process": "Free electrons (Current, I) flow through the conducting metal wire.",
+        "result": "The flow is opposed by atomic collisions (Resistance, R) converting electrical energy into thermal dissipation."
     },
-    {
-      "type": "probe",
-      "q": "What does resistance do to moving charge?"
+    "concept_difficulty_level": 10,
+    "learning_track": ["core"],
+    "teach_back_prompt": "Explain Ohm's law to a younger student using battery push (Voltage), electron flow (Current), and atomic opposition (Resistance).",
+    "learning_showcase": {
+        "try_first": "Before Sakha explains, guess this: if you double the battery voltage across a fixed lightbulb, what happens to the electric current flowing through it?",
+        "simple_idea": "Voltage is the electrical push from the battery, Current is the speed of flowing electrons, and Resistance is the atomic obstacle trying to slow them down.",
+        "formal_idea": "Ohm's Law states that potential difference V is directly proportional to electric current I at constant temperature, giving V = I × R or I = V / R.",
+        "common_trap": "Thinking that a battery supplies a fixed amount of Current (Amps) to any connected device no matter its resistance.",
+        "trap_fix": "A battery maintains constant Voltage (potential difference). The Current adjusts dynamically depending entirely on the circuit's total Resistance: I = V / R.",
+        "memory_anchor": "Remember the V=IR formula triangle: cover up the variable you want to find and divide or multiply the remaining two letters.",
+        "friend_nudge": "If V, I, or R symbols feel confusing at any point, just click any term on the Whiteboard and Sakha will decode exactly how that variable behaves.",
+        "teach_back_goal": "Explain how Voltage pushes Current against Resistance in 2-3 clear sentences using the V = IR equation.",
+        "review_plan": [
+            "Today: explain why doubling voltage doubles current",
+            "Tomorrow: practice solving R = V / I with car battery numbers",
+            "In 3 days: verify why heating a metal filament increases resistance"
+        ]
     },
-    {
-      "type": "concept_check",
-      "q": "In V = I x R, what does V, I, and R mean?"
+    "visualizer": {
+        "ask_after": "clear_checkpoint",
+        "source": "3D_world/01_Electronics_and_Circuits/OhmLawCircuitSimulator.tsx",
+        "id": "ohms-circuit"
     },
-    {
-      "type": "teach_back",
-      "q": "Explain Ohm's Law to a younger student using a water-flow example."
-    }
-  ],
-  "teach_back_prompt": "Explain Ohm's Law using voltage, current, and resistance.",
-  "learning_showcase": {
-    "try_first": "Before Sakha explains, guess what happens to current if voltage increases but resistance stays the same.",
-    "simple_idea": "Voltage pushes charge, current is the flow, and resistance makes flow harder.",
-    "formal_idea": "For many conductors at constant temperature, V = I x R. Current is proportional to voltage and inversely related to resistance.",
-    "common_trap": "Using V = I x R without knowing which value is missing.",
-    "trap_fix": "First identify the known values, then rearrange: I = V / R or R = V / I when needed.",
-    "memory_anchor": "Use a water pipe image: pump pressure is voltage, water flow is current, and a narrow pipe is resistance.",
-    "friend_nudge": "If formulas feel heavy, say V, I, or R and Sakha will decode only that symbol first.",
-    "teach_back_goal": "Explain Ohm's Law with voltage, current, resistance, and the water-flow analogy.",
-    "review_plan": [
-      "Today: decode V, I, and R",
-      "Tomorrow: solve one V = I x R example",
-      "In 3 days: explain why higher resistance lowers current"
+    "interactive_scaffold": {
+        "conceptId": "ohms_law",
+        "title": "Ohm's Law: Voltage, Current, and Resistance",
+        "hookQuestion": "Why does doubling the battery voltage double the current, but doubling the resistance cuts the current in half?",
+        "bigIdea": "Current is the result of Voltage pushing charges against the opposition of Resistance: I = V / R.",
+        "vocabulary": [
+            { "symbol": "V (Voltage)", "means": "Electrical pressure or potential difference measured in Volts (V)" },
+            { "symbol": "I (Current)", "means": "Rate of electric charge flow measured in Amperes (A)" },
+            { "symbol": "R (Resistance)", "means": "Opposition to electron flow measured in Ohms (Ω)" }
+        ],
+        "steps": [
+            { "label": "Step 1: The Electrical Push (Voltage)", "detail": "A battery provides potential difference (Voltage V), acting like a water tower pushing water through a pipe." },
+            { "label": "Step 2: The Charge Flow (Current)", "detail": "Free electrons move through the copper wire at rate I across the circuit loop." },
+            { "label": "Step 3: The Atomic Obstacle (Resistance)", "detail": "Collisions between moving electrons and vibrating metal lattice atoms create resistance (R)." },
+            { "label": "Step 4: The Golden Equation V = IR", "detail": "George Simon Ohm discovered that doubling V exactly doubles I when R is held constant." },
+            { "label": "Step 5: Power and Thermal Dissipation", "detail": "The energy lost overcoming resistance turns into heat power: P = V · I = I²R." }
+        ],
+        "check_after_step": 3,
+        "feedback_prompt": "If you double the resistance (R) while keeping the battery voltage (V) constant, what happens to the current (I)?",
+        "worked_example": "If a 12V car battery is connected across a headlight bulb with 3 Ω of resistance, the current flowing through the bulb is exactly I = V / R = 12 / 3 = 4 Amperes.",
+        "common_confusions": [
+            { "confusion": "Battery supplies constant current regardless of resistance", "fix": "A battery maintains constant Voltage (potential difference), while Current adjusts dynamically based on circuit resistance!" },
+            { "confusion": "Ohm's law works for all materials under all temperatures", "fix": "Ohm's law only holds for Ohmic conductors at constant temperature; incandescent bulbs heat up and increase resistance!" }
+        ]
+    },
+    "whiteboardSteps": [
+        "Core Rule: Current is directly proportional to Voltage and inversely proportional to Resistance.",
+        "Inputs & Symbols: V (Volts), I (Amperes), R (Ohms).",
+        "Formula Triangle: V = I × R | I = V / R | R = V / I.",
+        "Limiting Factor: Higher resistance R acts as a bottleneck that restricts current I for any given voltage V.",
+        "Thermal Dissipation: Work done against resistance generates heat power P = I²R."
+    ],
+    "whiteboard": [
+        "⚡ Voltage = Current × Resistance",
+        "$$ V = I \\cdot R $$",
+        "",
+        "**Decoder:**",
+        "• V: Potential difference in Volts (V)",
+        "• I: Electric current in Amperes (A)",
+        "• R: Electrical resistance in Ohms (Ω)",
+        "",
+        "**Formula Variations:**",
+        "$$ I = \\frac{V}{R}, \\quad R = \\frac{V}{I} $$"
+    ],
+    "visualSteps": [
+        { "step": 1, "action": "Highlight battery terminals showing high potential (+12V) pushing charges toward low potential (0V)." },
+        { "step": 2, "action": "Animate electron stream moving through the circuit wire proportional to battery voltage." },
+        { "step": 3, "action": "Zoom into resistor filament showing electrons colliding with vibrating metal lattice atoms generating glowing thermal energy." },
+        { "step": 4, "action": "Plot linear V-I graph passing through origin where slope Delta V / Delta I equals resistance R." }
+    ],
+    "conversationFlow": [
+        {
+            "state": "INTRO",
+            "prompt": "Let's explore Ohm's Law! If you connect a lightbulb to a battery, what pushes the electricity through the wire — is it Voltage, Resistance, or the wire's color?",
+            "expected_action": "Student identifies Voltage / potential difference."
+        },
+        {
+            "state": "PRIOR_IDEA",
+            "prompt": "Many students think a battery pumps a fixed amount of Current (Amps) no matter what. But a battery actually provides fixed Voltage (Volts)! Why does the current change when you connect different appliances?",
+            "expected_action": "Student realizes different appliances have different internal resistance."
+        },
+        {
+            "state": "CONCEPT_1",
+            "prompt": "Let's look at Voltage (V) and Current (I). If you double the battery voltage from 6V to 12V across the same resistor, what happens to the electron flow rate (Current)?",
+            "expected_action": "Student states that current doubles."
+        },
+        {
+            "state": "CHECK_1",
+            "prompt": "Spot on — current doubles! Now let's examine Resistance (R). If you keep the battery at 12V but replace a 2 Ω resistor with a heavy 6 Ω resistor (tripling the resistance), what happens to the current?",
+            "expected_action": "Student states that current drops to one-third."
+        },
+        {
+            "state": "CONCEPT_2",
+            "prompt": "Exactly! Current drops when resistance goes up. Combining these two observations gives Ohm's Law: V = I × R. If you know V and R, how do you calculate I?",
+            "expected_action": "Student states formula I = V / R."
+        },
+        {
+            "state": "CHECK_2",
+            "prompt": "Correct: I = V / R! Let's check: If a 9V battery is connected across a 3 Ω buzzer, how many Amperes of current will flow?",
+            "expected_action": "Student calculates 3 Amperes (9 / 3 = 3 A)."
+        },
+        {
+            "state": "VISUAL_EXPLORATION",
+            "prompt": "Use our interactive Limiting Factor experiment on the right! Drag the Voltage (V) and Resistance (R) sliders. Notice how increasing Resistance acts as a bottleneck limiting the Current (I). Try finding the exact resistance needed to keep current at 2.0 A when Voltage is 24 V!",
+            "expected_action": "Student experiments with sliders and discovers R = 12 Ω gives 2.0 A."
+        },
+        {
+            "state": "MISCONCEPTION_REPAIR",
+            "prompt": "Some students notice that when a tungsten lightbulb stays on for an hour, its current gradually drops even though the battery voltage stays constant at 12V! Why does that happen?",
+            "expected_action": "Student discovers that heating up the metal filament increases its atomic vibration and electrical resistance."
+        },
+        {
+            "state": "PRACTICE",
+            "prompt": "Let's try a quick engineering puzzle: An electric heater draws 5 Amperes of current when plugged into a 220 Volt wall socket. What is the electrical resistance of the heater element?",
+            "expected_action": "Student calculates R = V / I = 220 / 5 = 44 Ω."
+        },
+        {
+            "state": "TEACH_BACK",
+            "prompt": "Now imagine you are explaining circuit basics to a friend. In your own words, explain how Voltage, Current, and Resistance are related using the V = IR rule!",
+            "expected_action": "Student performs teach-back explaining push, flow, and opposition."
+        },
+        {
+            "state": "FEEDBACK",
+            "prompt": "You nailed the teach-back! Before we finish, how did you feel about this session? Did the V=IR sliders help make circuit relationships crystal clear?",
+            "expected_action": "Student shares feedback on visualizers and pace."
+        },
+        {
+            "state": "COMPLETE",
+            "prompt": "Concept complete! You have mastered Ohm's Law and electric circuits. Check your constellation map to see your earned stars!",
+            "expected_action": "Session complete."
+        }
+    ],
+    "responseRules": {
+        "MISCONCEPTION": "Acknowledge the intuitive guess, then ask a guiding probe (e.g., whether batteries store Volts or Amps) to lead the student to Ohm's rule.",
+        "REQUEST_VISUAL": "Direct the student to the interactive sliders to observe how Voltage and Resistance dynamically balance to determine Current.",
+        "REQUEST_SIMPLIFICATION": "Open the Whiteboard and show the simple water pump analogy: Voltage is pump pressure, Current is water flow, Resistance is pipe friction.",
+        "CORRECT": "Validate the clear mathematical reasoning, reinforce V = IR, and smoothly transition to the next checkpoint or teach-back stage."
+    },
+    "guidedPractice": [
+        {
+            "scenario": "LED Resistor Calculation",
+            "question": "An LED requires 2 Volts and draws 0.02 Amperes (20 mA) to glow safely. If you connect it to a 9 Volt battery, you must add a protective resistor to drop the remaining 7 Volts. What resistance R is needed?",
+            "hint": "Use R = V_drop / I, where V_drop = 7 V and I = 0.02 A.",
+            "expected_answer": "R = 7 / 0.02 = 350 Ω resistor."
+        },
+        {
+            "scenario": "Short Circuit Danger",
+            "question": "If a bare copper wire with almost zero resistance (R = 0.01 Ω) accidentally touches across both terminals of a 12 Volt battery, what massive current will surge through the wire?",
+            "hint": "Divide 12 Volts by 0.01 Ohms.",
+            "expected_answer": "I = 12 / 0.01 = 1200 Amperes (causing extreme sparks and heat)."
+        }
+    ],
+    "teachBackRubric": {
+        "required_elements": [
+            "Voltage (V) as the electrical push/potential difference",
+            "Current (I) as the rate of charge flow in Amperes",
+            "Resistance (R) as opposition in Ohms",
+            "Formula V = I × R (or I = V / R)",
+            "Mentioning that doubling voltage doubles current if resistance is fixed"
+        ],
+        "partial_prompt": "You explained Voltage and Current perfectly! But what exact mathematical formula connects them to Resistance (R)?"
+    },
+    "feedbackQuestions": [
+        "Which view helped most (Whiteboard, Sliders, or Analogy)?",
+        "Was the difference between Voltage and Current clear?",
+        "Did the V=IR sliders make the formulas easier to remember?"
+    ],
+    "components": {
+        "primary2D": {
+            "type": "OhmsLawCircuitVisualizer",
+            "controls": ["voltage", "resistance"],
+            "outputs": ["current", "power_dissipated", "limiting_factor"],
+            "description": "Interactive simulation with Voltage and Resistance sliders showing live Ammeter reading and resistor thermal glow."
+        },
+        "optional3D": {
+            "type": "ResistorLatticeCollision3D",
+            "description": "Travel inside the copper wire lattice in 3D to watch drifting free electrons collide with vibrating metal ions."
+        }
+    },
+    "indian_analogies": [
+        "Think of Voltage as overhead water tank height (like a 4-story tank in Delhi pushing water down), Current as the liters per minute flowing out of your tap, and Resistance as rust or calcium buildup inside the pipe narrowing the flow.",
+        "Indian Railway Crowding: Voltage is the push of passengers trying to board at Dadar Station, Current is the number entering per second, and Resistance is the narrow train doorway barrier."
+    ],
+    "misconceptions": [
+        {
+            "id": "mc_battery_constant_current",
+            "belief": "A battery supplies constant current to any appliance connected to it.",
+            "probe": "If a 12V battery always pumps the same current, why doesn't a small LED bulb draw the same massive current as a car starter motor?",
+            "correction": "A battery maintains a constant Voltage (potential difference). The Current that flows depends entirely on the Resistance of the appliance: I = V / R."
+        },
+        {
+            "id": "mc_ohms_universal",
+            "belief": "Ohm's law is universal for every material under every condition.",
+            "probe": "Is Ohm's law always true? What if the wire gets really hot? Does temperature and material behavior matter?",
+            "correction": "Ohm's law is valid only for Ohmic conductors at constant temperature. When a filament bulb heats up, its resistance rises dramatically."
+        }
+    ],
+    "practice_problems": [
+        {
+            "difficulty": "Easy",
+            "q": "If Current (I) is 0.5 A, and Resistance (R) is 20 Ω, what is the Voltage (V)?",
+            "hint": "Use the formula V = I × R"
+        },
+        {
+            "difficulty": "Medium",
+            "q": "A 12V battery is connected across a resistor and 3 Amperes of current flows. What is the value of the resistor?",
+            "hint": "Use R = V / I"
+        }
+    ],
+    "question_flow": [
+        {
+            "type": "hook",
+            "q": "If voltage increases across the same resistor, what usually happens to current?"
+        },
+        {
+            "type": "probe",
+            "q": "What does resistance do to moving charge?"
+        },
+        {
+            "type": "teach_back",
+            "q": "Explain Ohm's law to a younger student using battery push (Voltage), electron flow (Current), and atomic opposition (Resistance)."
+        }
     ]
-  }
 }

@@ -10,6 +10,8 @@
  * - Pure functions (no side effects, deterministic)
  */
 
+const PHASES = ['hook', 'predict', 'discuss', 'practice', 'teach_back'];
+
 /**
  * Calculate star rating based on mastery level
  * @param {number} mastery - Mastery level (0.0 to 1.0)
@@ -54,11 +56,10 @@ function calculateStreak(lastStudiedDate, currentDate = new Date()) {
     const lastDate = new Date(lastStudiedDate);
     const current = new Date(currentDate);
 
-    // Normalize to start of day (midnight) in local timezone
+    // Normalize to start of day (midnight) in UTC
     const normalizeToMidnight = (date) => {
-      const normalized = new Date(date);
-      normalized.setHours(0, 0, 0, 0);
-      return normalized;
+      const d = new Date(date);
+      return Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate());
     };
 
     const lastMidnight = normalizeToMidnight(lastDate);
@@ -103,8 +104,7 @@ function getProgressConstellation(progressState) {
 
   // Handle both old format (tracked array) and new format (constellationCache)
   if (progressState.constellationCache) {
-    // New format - already grouped
-    return { ...progressState.constellationCache };
+    return JSON.parse(JSON.stringify(progressState.constellationCache));
   }
 
   // Old format - build from tracked array
@@ -149,25 +149,19 @@ function getPhaseProgress(currentPhase) {
     teach_back: 5
   };
 
-  // Validate current phase
-  if (!currentPhase || !PHASES.includes(currentPhase.toLowerCase())) {
-    return {
-      completed: [],
-      current: PHASES[0],
-      remaining: PHASES.slice(1),
-      phases: PHASES,
-      timeEstimates: PHASE_TIMES,
-      totalTime: 23
-    };
+  // Validate current phase or default to first phase
+  if (!currentPhase || !PHASES.includes(String(currentPhase).toLowerCase())) {
+    currentPhase = PHASES[0];
   }
 
-  const normalizedPhase = currentPhase.toLowerCase();
+  const normalizedPhase = String(currentPhase).toLowerCase();
   const currentIndex = PHASES.indexOf(normalizedPhase);
 
   return {
     completed: PHASES.slice(0, currentIndex),
     current: normalizedPhase,
     remaining: PHASES.slice(currentIndex + 1),
+    currentIndex: currentIndex,
     phases: PHASES,
     timeEstimates: PHASE_TIMES,
     totalTime: Object.values(PHASE_TIMES).reduce((sum, time) => sum + time, 0)
@@ -190,41 +184,60 @@ function generateRecommendations(progressState, interestTags = [], conceptIndex 
     return [];
   }
 
-  // Get completed topic IDs
+  // Deduplicate conceptIndex first
+  const seenIndexIds = new Set();
+  const uniqueConceptIndex = [];
+  conceptIndex.forEach(topic => {
+    if (topic && topic.id && !seenIndexIds.has(topic.id)) {
+      seenIndexIds.add(topic.id);
+      uniqueConceptIndex.push(topic);
+    }
+  });
+
+  // Get completed topic IDs and last completed topic
   const completedIds = new Set();
+  let lastTopic = null;
+  let latestDate = 0;
+
   if (progressState) {
     if (progressState.tracked && Array.isArray(progressState.tracked)) {
-      progressState.tracked.forEach(entry => completedIds.add(entry.id));
+      progressState.tracked.forEach(entry => {
+        completedIds.add(entry.id);
+        const tDate = new Date(entry.lastStudied || entry.completedAt || 0).getTime();
+        if (tDate >= latestDate || !lastTopic) {
+          latestDate = tDate;
+          lastTopic = entry;
+        }
+      });
     }
-    if (progressState.constellationCache) {
-      Object.values(progressState.constellationCache).forEach(subjectTopics => {
+    if (progressState.constellationCache && typeof progressState.constellationCache === 'object') {
+      Object.entries(progressState.constellationCache).forEach(([subj, subjectTopics]) => {
         if (Array.isArray(subjectTopics)) {
-          subjectTopics.forEach(topic => completedIds.add(topic.topicId));
+          subjectTopics.forEach(topic => {
+            completedIds.add(topic.topicId);
+            const tDate = new Date(topic.date || 0).getTime();
+            if (tDate >= latestDate || !lastTopic) {
+              latestDate = tDate;
+              lastTopic = { id: topic.topicId, subject: subj, title: topic.title };
+            }
+          });
         }
       });
     }
   }
 
-  // Get last completed topic
-  let lastTopic = null;
-  if (progressState && progressState.tracked && progressState.tracked.length > 0) {
-    lastTopic = progressState.tracked[progressState.tracked.length - 1];
-  }
-
   // Score each topic
-  const scoredTopics = conceptIndex
-    .filter(topic => !completedIds.has(topic.id)) // Filter out completed
+  const scoredTopics = uniqueConceptIndex
+    .filter(topic => !completedIds.has(topic.id))
     .map(topic => {
       let score = 0;
       const reasons = [];
 
-      // Priority 1: Same subject as last topic (highest score)
       if (lastTopic && topic.subject === lastTopic.subject) {
         score += 100;
         reasons.push('Continue ' + topic.subject);
       }
 
-      // Priority 2: Related subjects (medium score)
       if (lastTopic && topic.related_concepts && Array.isArray(topic.related_concepts)) {
         if (topic.related_concepts.includes(lastTopic.id)) {
           score += 50;
@@ -232,7 +245,6 @@ function generateRecommendations(progressState, interestTags = [], conceptIndex 
         }
       }
 
-      // Priority 3: Interest match (lower score, but still relevant)
       if (topic.interest_tags && Array.isArray(topic.interest_tags) && Array.isArray(interestTags)) {
         const matchingTags = topic.interest_tags.filter(tag => interestTags.includes(tag));
         if (matchingTags.length > 0) {
@@ -241,37 +253,36 @@ function generateRecommendations(progressState, interestTags = [], conceptIndex 
         }
       }
 
-      // Bonus: Higher curiosity score
       if (topic.curiosity_score) {
         score += topic.curiosity_score;
       }
 
+      if (reasons.length === 0) {
+        reasons.push('Popular right now');
+      }
+
       return {
         ...topic,
+        conceptId: topic.id,
         recommendationScore: score,
         recommendationReasons: reasons
       };
     });
 
-  // Sort by score and take top N
   scoredTopics.sort((a, b) => b.recommendationScore - a.recommendationScore);
-
-  // If no scored topics (new user), return popular fallback
   const recommendations = scoredTopics.slice(0, count);
   
   if (recommendations.length === 0 || recommendations.every(t => t.recommendationScore === 0)) {
-    // Fallback: Return topics with highest curiosity scores
-    const popular = conceptIndex
+    return uniqueConceptIndex
       .filter(topic => !completedIds.has(topic.id))
       .sort((a, b) => (b.curiosity_score || 3) - (a.curiosity_score || 3))
       .slice(0, count)
       .map(topic => ({
         ...topic,
+        conceptId: topic.id,
         recommendationScore: topic.curiosity_score || 3,
         recommendationReasons: ['Popular right now']
       }));
-    
-    return popular;
   }
 
   return recommendations;
@@ -328,15 +339,16 @@ class EngagementManager {
   updateStreak(studyDate = new Date()) {
     const streakResult = calculateStreak(this.state.lastStudiedDate, studyDate);
     
-    // Update streak count
-    if (streakResult.message === 'increment') {
+    if (!this.state.lastStudiedDate || streakResult.message === 'reset') {
+      this.state.streakCount = 1;
+      this.state.streakActive = true;
+    } else if (streakResult.message === 'increment') {
       this.state.streakCount += 1;
       this.state.streakActive = true;
-    } else if (streakResult.message === 'reset') {
-      this.state.streakCount = 1; // Start new streak
-      this.state.streakActive = true;
     } else if (streakResult.message === 'same-day') {
-      // Same day - no change to count, but active
+      this.state.streakActive = true;
+    } else if (this.state.streakCount === 0) {
+      this.state.streakCount = 1;
       this.state.streakActive = true;
     }
 
@@ -345,20 +357,92 @@ class EngagementManager {
     this.saveState();
 
     return {
+      count: this.state.streakCount,
       streakCount: this.state.streakCount,
+      active: this.state.streakActive,
       streakActive: this.state.streakActive
     };
+  }
+
+  /**
+   * Calculate star rating based on mastery level
+   */
+  calculateStars(mastery) {
+    if (typeof mastery !== 'number' || isNaN(mastery) || mastery < 0 || mastery > 1) {
+      throw new Error('Mastery must be a valid number between 0 and 1');
+    }
+    return calculateStars(mastery);
   }
 
   /**
    * Get current streak
    */
   getStreak() {
-    const streakResult = calculateStreak(this.state.lastStudiedDate);
     return {
-      streakCount: this.state.streakCount,
-      streakActive: streakResult.streakActive
+      count: this.state.streakCount || 0,
+      streakCount: this.state.streakCount || 0,
+      active: this.state.streakActive || false,
+      streakActive: this.state.streakActive || false,
+      lastStudiedDate: this.state.lastStudiedDate
     };
+  }
+
+  /**
+   * Calculate streak
+   */
+  calculateStreak(lastStudiedDate = this.state.lastStudiedDate, currentDate = new Date()) {
+    if (!lastStudiedDate) {
+      return {
+        count: 1,
+        streakCount: 1,
+        isActive: true,
+        streakActive: true,
+        gapDays: 0,
+        message: 'first'
+      };
+    }
+
+    try {
+      const lastDate = new Date(lastStudiedDate);
+      const current = new Date(currentDate);
+
+      const normalizeToMidnight = (date) => {
+        const d = new Date(date);
+        return Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate());
+      };
+
+      const lastMidnight = normalizeToMidnight(lastDate);
+      const currentMidnight = normalizeToMidnight(current);
+      const gapDays = Math.floor((currentMidnight - lastMidnight) / (1000 * 60 * 60 * 24));
+
+      let count = this.state.streakCount || 0;
+      let isActive = false;
+      let message = 'same-day';
+
+      if (gapDays === 0) {
+        isActive = true;
+        message = 'same-day';
+      } else if (gapDays === 1) {
+        count = count + 1;
+        isActive = true;
+        message = 'increment';
+      } else {
+        count = 1;
+        isActive = false;
+        message = 'reset';
+      }
+
+      return {
+        count,
+        streakCount: count,
+        isActive,
+        streakActive: isActive,
+        gapDays,
+        message
+      };
+    } catch (error) {
+      return { count: 0, streakCount: 0, isActive: false, streakActive: false, gapDays: 0, message: 'error' };
+    }
   }
 
   /**
@@ -366,15 +450,26 @@ class EngagementManager {
    * @param {Object} topic - Topic data
    */
   addToConstellation(topic) {
-    const { id, title, subject = 'General', mastery = 0 } = topic;
+    if (!topic || typeof topic !== 'object' || !topic.id || (topic.mastery !== undefined && (typeof topic.mastery !== 'number' || (!isNaN(topic.mastery) && (topic.mastery < 0 || topic.mastery > 1))))) {
+      throw new Error('Invalid topic data');
+    }
+    const mastery = (typeof topic.mastery === 'number' && isNaN(topic.mastery)) ? 0 : (topic.mastery || 0);
+    const { id, title, subject = 'General' } = topic;
     
+    if (!this.state.constellationCache) {
+      this.state.constellationCache = {};
+    }
+
+    // Remove topic from any other subject or same subject to ensure no duplicates across the constellation
+    for (const subj in this.state.constellationCache) {
+      if (Array.isArray(this.state.constellationCache[subj])) {
+        this.state.constellationCache[subj] = this.state.constellationCache[subj].filter(t => t.topicId !== id);
+      }
+    }
+
     if (!this.state.constellationCache[subject]) {
       this.state.constellationCache[subject] = [];
     }
-
-    // Check if topic already exists
-    const existingIndex = this.state.constellationCache[subject]
-      .findIndex(t => t.topicId === id);
 
     const topicData = {
       topicId: id,
@@ -384,15 +479,65 @@ class EngagementManager {
       date: new Date().toISOString()
     };
 
-    if (existingIndex >= 0) {
-      // Update existing
-      this.state.constellationCache[subject][existingIndex] = topicData;
-    } else {
-      // Add new
-      this.state.constellationCache[subject].push(topicData);
-    }
-
+    this.state.constellationCache[subject].push(topicData);
     this.saveState();
+  }
+
+  /**
+   * Get welcome back message based on inactivity
+   */
+  getWelcomeBackMessage() {
+    if (!this.state.lastStudiedDate) return null;
+    try {
+      const last = new Date(this.state.lastStudiedDate);
+      const now = new Date();
+      const diffDays = Math.floor((now - last) / (1000 * 60 * 60 * 24));
+      if (diffDays >= 2) {
+        return 'Welcome back! Ready to continue where you left off?';
+      }
+    } catch (_) {
+      // Ignore invalid date
+    }
+    return null;
+  }
+
+  /**
+   * Add completed topic to constellation (alias for compatibility)
+   */
+  addTopicToConstellation(topic) {
+    if (!topic || typeof topic !== 'object' || !topic.subject) {
+      throw new Error('Invalid topic data');
+    }
+    return this.addToConstellation(topic);
+  }
+
+  /**
+   * Get constellation summary statistics
+   */
+  getConstellationStats() {
+    const constellation = this.getConstellation();
+    const subjects = Object.keys(constellation);
+    const subjectCounts = {};
+    let totalTopics = 0;
+    let totalStars = 0;
+
+    subjects.forEach((subj) => {
+      const topics = constellation[subj] || [];
+      subjectCounts[subj] = topics.length;
+      totalTopics += topics.length;
+      topics.forEach((t) => {
+        totalStars += t.stars || 0;
+      });
+    });
+
+    const averageStars = totalTopics > 0 ? (totalStars / totalTopics).toFixed(2) : 0;
+    return {
+      totalTopics,
+      totalStars,
+      averageStars,
+      subjects,
+      subjectCounts
+    };
   }
 
   /**
@@ -402,10 +547,17 @@ class EngagementManager {
     return getProgressConstellation(this.state);
   }
 
+  getProgressConstellation() {
+    return this.getConstellation();
+  }
+
   /**
    * Get phase progress for concept map
    */
   getPhaseProgress(currentPhase) {
+    if (!currentPhase || !PHASES.includes(String(currentPhase).toLowerCase())) {
+      throw new Error('Invalid phase: ' + currentPhase);
+    }
     return getPhaseProgress(currentPhase);
   }
 
@@ -414,6 +566,65 @@ class EngagementManager {
    */
   getRecommendations(progressState, interestTags, conceptIndex, count = 4) {
     return generateRecommendations(progressState, interestTags, conceptIndex, count);
+  }
+
+  generateRecommendations(progressState, interestTags, conceptIndex, count = 4) {
+    const effectiveState = (!progressState || (!progressState.tracked && !progressState.constellationCache)) 
+      ? this.state 
+      : progressState;
+    return generateRecommendations(effectiveState, interestTags || [], conceptIndex || [], count);
+  }
+
+  /**
+   * Get popular recommendations (fallback)
+   */
+  getPopularRecommendations(conceptIndex = [], count = 4) {
+    if (!Array.isArray(conceptIndex)) return [];
+    return conceptIndex.slice(0, count).map((item) => ({
+      conceptId: item.id,
+      title: item.title,
+      reason: 'Popular right now'
+    }));
+  }
+
+  /**
+   * Track a behavioural event
+   * @param {string} eventName - Name of the event
+   * @param {Object} eventData - Associated data
+   */
+  trackEvent(eventName, eventData = {}) {
+    if (!this.state.events) {
+      this.state.events = [];
+    }
+    this.state.events.push({
+      eventName,
+      eventData,
+      timestamp: new Date().toISOString()
+    });
+    // Limit events to last 1000
+    if (this.state.events.length > 1000) {
+      this.state.events = this.state.events.slice(-1000);
+    }
+    this.saveState();
+    if (typeof window !== 'undefined' && window.telemetry) {
+        window.telemetry.track(eventName, eventData);
+    }
+  }
+
+  /**
+   * Get a mid-lesson feedback prompt based on current phase
+   * @param {string} conceptId - The concept being taught
+   * @param {string} currentPhase - Current phase of the lesson
+   */
+  getMidLessonFeedbackPrompt(conceptId, currentPhase) {
+    this.trackEvent('feedback_prompt_requested', { conceptId, currentPhase });
+    const prompts = {
+      'hook': 'Was the real-world connection clear to you?',
+      'discuss': 'Are the whiteboard steps making sense so far?',
+      'practice': 'Did the visual simulator help clarify the concept?',
+      'teach_back': 'How confident are you feeling about explaining this to a friend?'
+    };
+    return prompts[currentPhase] || 'How is the pace of the lesson for you?';
   }
 }
 
@@ -425,6 +636,7 @@ if (typeof module !== 'undefined' && module.exports) {
     calculateStreak,
     getProgressConstellation,
     getPhaseProgress,
-    generateRecommendations
+    generateRecommendations,
+    PHASES
   };
 }
